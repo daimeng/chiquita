@@ -2,6 +2,7 @@ import asyncio
 import pandas as pd
 from playwright.async_api import async_playwright, Playwright, Page
 import os
+from datetime import datetime
 import json
 
 async def get_matches(page: Page, evt: int):
@@ -64,8 +65,8 @@ async def main():
         browser = await playwright.chromium.launch()
         page = await browser.new_page()
 
-        tf = pd.read_csv('data/tournaments_wtt.tsv', sep='\t')
-        for row in tf.itertuples():
+        tf = pd.read_csv('data/tournaments_wtt.tsv', sep='\t', parse_dates=['StartDateTime', 'EndDateTime'])
+        for row in tf[tf.EndDateTime < datetime.now()].itertuples():
             print(f'Processing Event {row.EventId}')
             if os.path.isfile(f'data/wtt_matches/{row.EventId}.json'):
                 continue
