@@ -31,29 +31,34 @@ export function glicko({ q = DEFAULT_CONFIG.q, c = DEFAULT_CONFIG.c, init_rd = D
 
 	const c2 = c * c
 	function increase_rd_over_time(player_ratings, current_time) {
-		for (let [_player, rating] of player_ratings) {
+		for (let [player, rating] of player_ratings) {
 			// Calculate time elapsed in days
-			const days_inactive = Math.floor((current_time - rating.last_active) / 84600)
+			const days_inactive = Math.floor((current_time - rating.last_active) / 84600000)
 			if (days_inactive > 0) {
 				// Increase RD based on time elapsed
-				rating.rd = Math.min(
-					Math.sqrt(rating.rd ** 2 + c2 * days_inactive),
-					init_rd
-				)
+				player_ratings.set(player, {
+					...rating,
+					rd: Math.min(
+						Math.sqrt(rating.rd ** 2 + c2 * days_inactive),
+						init_rd
+					)
+				})
 			}
 		}
 	}
 
 	function update_ratings(player_ratings, match_results, current_time) {
 		increase_rd_over_time(player_ratings, current_time)
+
 		for (let i = 0; i < match_results.length; i++) {
-			const { player1, player2, result } = match_results[i]
-			const { r1, rd1 } = player_ratings.get(player1) || {
+			const { a_id: player1, x_id: player2, res_a, res_x } = match_results[i]
+			const result = res_a > res_x ? 1 : 0
+			const { rating: r1, rd: rd1 } = player_ratings.get(player1) || {
 				rating: init_r,
 				rd: init_rd,
 				last_active: current_time
 			}
-			const { r2, rd2 } = player_ratings.get(player2) || {
+			const { rating: r2, rd: rd2 } = player_ratings.get(player2) || {
 				rating: init_r,
 				rd: init_rd,
 				last_active: current_time
@@ -68,18 +73,18 @@ export function glicko({ q = DEFAULT_CONFIG.q, c = DEFAULT_CONFIG.c, init_rd = D
 			const new_r1 = new_rating(r1, rd1, r2, rd2, result, d2_1)
 			const new_r2 = new_rating(r2, rd2, r1, rd1, 1 - result, d2_2)
 
-			player_ratings[player1] = {
+			player_ratings.set(player1, {
 				rating: new_r1,
 				rd: new_rd1,
 				last_active: current_time
-			}
-			player_ratings[player2] = {
+			})
+			player_ratings.set(player2, {
 				rating: new_r2,
 				rd: new_rd2,
 				last_active: current_time
-			}
+			})
 		}
 	}
 
-	return update_ratings
+	return { update_ratings }
 }

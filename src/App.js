@@ -6,13 +6,13 @@ import tournaments from './tournaments.json'
 import players from './players.json'
 import { glicko } from './glicko';
 import { deleteDB, openDB } from 'idb';
-
-const empty_tourn = new Set()
-
-const G = glicko()
-const player_ratings = new Map()
+import Immutable from 'immutable';
 
 export const DBNAME = 'wtt'
+export const playerById = new Map()
+for (let i = 0; i < players.length; i++) {
+  playerById.set(players[i].id, players[i])
+}
 
 const initDB = async () => {
   // await deleteDB(DBNAME)
@@ -71,35 +71,66 @@ const initDB = async () => {
         }
       })
     } catch {
-      empty_tourn.add(event_id)
       console.warn(tournaments[i])
     }
   }
   return db
 }
 
-const init = initDB()
+let player_ratings = new Immutable.Map()
+const all_ratings = []
+window.all_ratings = all_ratings
+const G = glicko()
+const init = initDB().then((db) => {
+  let p = Promise.resolve()
 
-// G.update_ratings(player_ratings, match_results, current_time)
+  for (let i in tournaments) {
+    const event_id = tournaments[i].EventId
+    p = p.then(() =>
+      db.getAllFromIndex('matches', 'event_id', event_id)
+    ).then(matches => {
+      player_ratings = player_ratings.withMutations((r) => {
+        G.update_ratings(r, matches, Date.parse(tournaments[i].StartDateTime))
+      })
+      all_ratings.push(player_ratings)
+    })
+  }
+
+  return p.then(() => db)
+})
 
 
 function App() {
-  const [matches, setMatches] = useState([])
+  const [ratings, setRatings] = useState([])
 
   useEffect(() => {
-  })
+    init.then(() => {
+      setRatings(
+        player_ratings.toArray().sort((a, b) => b[1].rating - a[1].rating).slice(0, 100)
+      )
+    })
+  }, [])
 
-  if (matches.length == 0) {
+  if (ratings.length == 0) {
     return (
       <div className="App">
-        <div>Loading</div>
+        Loading...
       </div>
     )
   }
 
   return (
     <div className="App">
-
+      {ratings.map(r => {
+        const player = playerById.get(r[0])
+        const { rating, rd, last_active } = r[1]
+        return <div className="rating_row" key={r[0]}>
+          <span>{player.name}</span>
+          <span>{Math.round(rating)}</span>
+          <span>{Math.round(rd)}</span>
+          <span>{(new Date(last_active)).toISOString()}</span>
+        </div>
+      })}
     </div>
   );
 }
