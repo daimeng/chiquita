@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { parquetMetadata, parquetRead } from 'hyparquet'
 import tournaments from './tournaments.json'
 import players from './players.json'
@@ -101,33 +101,58 @@ const init = initDB().then((db) => {
 
 
 function App() {
-  const [ratings, setRatings] = useState([])
+  const [ranking, setRanking] = useState([])
+  const [event, setEvent] = useState(-1)
+  const [gender, setGender] = useState('M')
+  const [maxdev, setMaxdev] = useState(100)
 
   useEffect(() => {
     init.then(() => {
-      setRatings(
-        player_ratings.toArray().sort((a, b) => b[1].rating - a[1].rating).slice(0, 100)
+      let ratings = player_ratings
+      if (event > 0) {
+        ratings = all_ratings[event]
+      }
+
+      setRanking(
+        ratings.toArray()
+          .filter(x =>
+            (playerById.get(x[0]).gender === gender)
+            && x[1].rd < maxdev
+          )
+          .sort((a, b) => b[1].rating - a[1].rating)
       )
     })
-  }, [])
+  }, [gender, event, maxdev])
 
-  if (ratings.length == 0) {
-    return (
-      <div className="App">
-        Loading...
-      </div>
-    )
-  }
+  const handleSetEvent = useCallback((e) => setEvent(+e.target.value))
+  const handleSetMaxdev = useCallback((e) => setMaxdev(e.target.value))
+  const handleSetM = useCallback(() => setGender('M'))
+  const handleSetW = useCallback(() => setGender('W'))
 
   return (
     <div className="App">
-      {ratings.map(r => {
+      <div>
+        <button onClick={handleSetM}>M</button>
+        <button onClick={handleSetW}>W</button>
+
+        <select value={event} onChange={handleSetEvent}>
+          {tournaments.map((t, i) =>
+            <option key={t.EventId} value={i}>{t.EventId}</option>
+          )}
+          <option key={-1} value={-1}>Latest</option>
+        </select>
+
+        <input type="range" min="0" max="350" step="10" value={maxdev}
+          onChange={handleSetMaxdev} />{maxdev}
+      </div>
+
+      {ranking.map(r => {
         const player = playerById.get(r[0])
         const { rating, rd, last_active } = r[1]
         return <div className="rating_row" key={r[0]}>
           <span>{player.name}</span>
-          <span>{Math.round(rating)}</span>
-          <span>{Math.round(rd)}</span>
+          <span>{Math.floor(rating)}</span>
+          <span>{Math.floor(rd)}</span>
           <span>{(new Date(last_active)).toISOString()}</span>
         </div>
       })}
