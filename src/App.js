@@ -103,6 +103,7 @@ const init = initDB().then((db) => {
 
 function App() {
   const [showDev, setShowDev] = useState(true)
+  const [top, setTop] = useState(100)
   const [ranking, setRanking] = useState([])
   const [event, setEvent] = useState(-1)
   const [gender, setGender] = useState('M')
@@ -135,6 +136,7 @@ function App() {
   const handleSetM = useCallback(() => setGender('M'))
   const handleSetW = useCallback(() => setGender('W'))
   const toggleShowDev = useCallback(() => setShowDev((d) => !d))
+  const handleSetTop = useCallback((e) => setTop(+e.target.value))
 
   // let min_rating = 0
   // let max_rating = 0
@@ -152,8 +154,8 @@ function App() {
     <div className="App">
       <div className="rating_controls">
         <div>
-          <button className={gender === 'M' ? 'active' : ''} onClick={handleSetM}>Men</button>
-          <button className={gender === 'W' ? 'active' : ''} onClick={handleSetW}>Women</button>
+          <button className={gender === 'M' ? 'active' : ''} onClick={handleSetM}>M</button>
+          <button className={gender === 'W' ? 'active' : ''} onClick={handleSetW}>W</button>
         </div>
 
         <div className="set-event">
@@ -170,7 +172,19 @@ function App() {
             onChange={handleSetMaxdev} />{maxdev}
         </div>
         <div>
-          <input type="checkbox" checked={showDev} onChange={toggleShowDev}></input>show rd
+          show rd<input type="checkbox" checked={showDev} onChange={toggleShowDev}></input>
+        </div>
+
+        <div className="set-top">
+          {'top '}
+          <select value={top} onChange={handleSetTop}>
+            <option value={10}>10</option>
+            <option value={30}>30</option>
+            <option value={50}>50</option>
+            <option value={100}>100</option>
+            <option value={200}>200</option>
+            <option value={Infinity}>All</option>
+          </select>
         </div>
 
       </div>
@@ -190,6 +204,8 @@ function App() {
       </div>
 
       {ranking.map((r, i) => {
+        if (i >= top) return
+
         const player = playerById.get(r[0])
         const { rating, rd, last_active } = r[1]
         const date = new Date(last_active).toISOString().split('T')[0]
