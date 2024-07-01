@@ -122,7 +122,7 @@ export const ISO3to2 = {
 }
 
 export const ISO3toColor = {
-    'CHN': '#ff2c2c', // China (Red)
+    'CHN': '#ff4d4d', // China (Red)
     'BRA': '#80CE9D', // Brazil (Green)
     'GRE': '#83ceec', // Greece (Blue)
     'FRA': '#FF5733', // France (Orange)

@@ -54,6 +54,10 @@ button.active {
 
 .set-event>select {
   padding: 4px;
+  border-radius: 4px;
+  width: 200px;
+  background-color: rgb(235, 233, 255);
+  border: 2px solid slateblue;
 }
 
 .set-maxdev {
@@ -64,6 +68,8 @@ button.active {
 .set-maxdev>input {
   -webkit-appearance: none;
   appearance: none;
+  height: 20px;
+  outline: none;
   background: rgb(202, 193, 255);
   border-radius: 4px;
 }
@@ -99,7 +105,7 @@ button.active {
   justify-content: center;
 }
 
-.rating_row:nth-child(odd) {
+.rating_row:nth-child(even) {
   background-color: #eee;
 }
 
@@ -153,4 +159,5 @@ button.active {
   display: inline-block;
   height: 100%;
   background-color: red;
+  transition: width 0.2s ease-in;
 }

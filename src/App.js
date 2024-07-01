@@ -6,6 +6,7 @@ import players from './players.json'
 import { glicko } from './glicko';
 import { deleteDB, openDB } from 'idb';
 import Immutable from 'immutable';
+import { motion } from 'framer-motion';
 import { ISO3to2, ISO3toColor } from './country-map';
 
 export const DBNAME = 'wtt'
@@ -88,9 +89,9 @@ const init = initDB().then((db) => {
     const event_id = tournaments[i].EventId
     p = p.then(() =>
       db.getAllFromIndex('matches', 'event_id', event_id)
-    ).then(matches => {
+    ).then(m => {
       player_ratings = player_ratings.withMutations((r) => {
-        G.update_ratings(r, matches, Date.parse(tournaments[i].StartDateTime))
+        G.update_ratings(r, m, Date.parse(tournaments[i].StartDateTime))
       })
       all_ratings.push(player_ratings)
     })
@@ -101,6 +102,7 @@ const init = initDB().then((db) => {
 
 
 function App() {
+  const [showDev, setShowDev] = useState(true)
   const [ranking, setRanking] = useState([])
   const [event, setEvent] = useState(-1)
   const [gender, setGender] = useState('M')
@@ -108,8 +110,12 @@ function App() {
 
   useEffect(() => {
     init.then(() => {
+      if (event === -1) {
+        setEvent(all_ratings.length - 1)
+      }
+
       let ratings = player_ratings
-      if (event > 0) {
+      if (event > -1) {
         ratings = all_ratings[event]
       }
 
@@ -128,12 +134,18 @@ function App() {
   const handleSetMaxdev = useCallback((e) => setMaxdev(e.target.value))
   const handleSetM = useCallback(() => setGender('M'))
   const handleSetW = useCallback(() => setGender('W'))
+  const toggleShowDev = useCallback(() => setShowDev((d) => !d))
 
-  let min_rating = 0
-  let max_rating = 0
-  if (ranking.length) {
-    min_rating = ranking[ranking.length - 1][1].rating
-    max_rating = ranking[0][1].rating
+  // let min_rating = 0
+  // let max_rating = 0
+  // if (ranking.length) {
+  //   min_rating = ranking[ranking.length - 1][1].rating
+  //   max_rating = ranking[0][1].rating
+  // }
+
+  const transition = {
+    ease: 'easeOut',
+    duration: 0.5,
   }
 
   return (
@@ -146,28 +158,34 @@ function App() {
 
         <div className="set-event">
           <select value={event} onChange={handleSetEvent}>
-            {tournaments.map((t, i) =>
-              <option key={t.EventId} value={i}>{t.EventId}</option>
-            )}
-            <option key={-1} value={-1}>Latest</option>
+            {tournaments.map((t, i) => {
+              return <option key={t.EventId} value={i}>{`${t.EventName}`}</option>
+            })}true
           </select>
         </div>
 
         <div className="set-maxdev">
-          {"maxdev: "}
+          {"max rd: "}
           <input type="range" min="0" max="350" step="10" value={maxdev}
             onChange={handleSetMaxdev} />{maxdev}
         </div>
-      </div>
+        <div>
+          <input type="checkbox" checked={showDev} onChange={toggleShowDev}></input>show rd
+        </div>
 
+      </div>
       <div className="rating_row" key="title">
         <span className="rating_rank">#</span>
         <span className="rating_flag"></span>
         <span className="rating_org">org</span>
         <span className="rating_name">name</span>
         <span className="rating_rating">pts</span>
-        <span className="rating_dev">±</span>
-        <span className="rating_active">active</span>
+        {showDev &&
+          <>
+            <span className="rating_dev">±</span>
+            <span className="rating_active">active</span>
+          </>
+        }
         <span className="rating_bar"></span>
       </div>
 
@@ -176,24 +194,35 @@ function App() {
         const { rating, rd, last_active } = r[1]
         const date = new Date(last_active).toISOString().split('T')[0]
 
-        return <div className="rating_row" key={r[0]}>
-          <span className="rating_rank">{i + 1}</span>
-          <span className="rating_flag">
-            <span class={`fi fi-${ISO3to2[player.org]}`}></span>
-          </span>
-          <span className="rating_org">{player.org}</span>
-          <span className="rating_name">{player.name}</span>
-          <span className="rating_rating">{Math.floor(rating)}</span>
-          <span className="rating_dev">{Math.floor(rd)}</span>
-          <span className="rating_active">{date}</span>
-          <span className="rating_bar">
-            <span style={{
-              width: `${(rating - min_rating + 50) / (max_rating - min_rating + 50) * 100}%`,
-              backgroundColor: ISO3toColor[player.org],
-            }}>
+        return (
+          <motion.div
+            className="rating_row"
+            key={r[0]}
+            layout
+            transition={transition}
+          >
+            <span className="rating_rank">{i + 1}</span>
+            <span className="rating_flag">
+              <span className={`fi fi-${ISO3to2[player.org]}`}></span>
             </span>
-          </span>
-        </div>
+            <span className="rating_org">{player.org}</span>
+            <span className="rating_name">{player.name}</span>
+            <span className="rating_rating">{Math.floor(rating)}</span>
+            {showDev &&
+              <>
+                <span className="rating_dev">{Math.floor(rd)}</span>
+                <span className="rating_active">{date}</span>
+              </>
+            }
+            <span className="rating_bar">
+              <span style={{
+                width: `${Math.max(rating - 1400, 0) / 16}%`,
+                backgroundColor: ISO3toColor[player.org],
+              }}>
+              </span>
+            </span>
+          </motion.div>
+        )
       })}
     </div>
   );
