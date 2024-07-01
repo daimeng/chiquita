@@ -40,15 +40,50 @@
 
 button {
   padding: 4px;
-  border: 1px solid blue;
+  margin-left: 4px;
+  border: 2px solid #777;
   border-radius: 4px;
-  background-color: transparent;
+  background-color: whitesmoke;
+  cursor: pointer;
 }
 
 button.active {
-  border: 1px solid plum;
-  background-color: pink;
+  border: 2px solid slateblue;
+  background-color: rgb(202, 193, 255);
 }
+
+.set-event>select {
+  padding: 4px;
+}
+
+.set-maxdev {
+  display: flex;
+  align-items: center;
+}
+
+.set-maxdev>input {
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgb(202, 193, 255);
+  border-radius: 4px;
+}
+
+.set-maxdev>input::-moz-range-thumb {
+  background: slateblue;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+}
+
+.set-maxdev>input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  background: slateblue;
+}
+
 
 .rating_controls {
   display: flex;
@@ -64,9 +99,13 @@ button.active {
   justify-content: center;
 }
 
+.rating_row:nth-child(odd) {
+  background-color: #eee;
+}
+
 .rating_row>span {
   padding: 8px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* margin: -0.5px; */
 }
 

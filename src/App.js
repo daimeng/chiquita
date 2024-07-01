@@ -144,7 +144,7 @@ function App() {
           <button className={gender === 'W' ? 'active' : ''} onClick={handleSetW}>Women</button>
         </div>
 
-        <div>
+        <div className="set-event">
           <select value={event} onChange={handleSetEvent}>
             {tournaments.map((t, i) =>
               <option key={t.EventId} value={i}>{t.EventId}</option>
@@ -153,7 +153,7 @@ function App() {
           </select>
         </div>
 
-        <div>
+        <div className="set-maxdev">
           {"maxdev: "}
           <input type="range" min="0" max="350" step="10" value={maxdev}
             onChange={handleSetMaxdev} />{maxdev}
@@ -189,7 +189,7 @@ function App() {
           <span className="rating_bar">
             <span style={{
               width: `${(rating - min_rating + 50) / (max_rating - min_rating + 50) * 100}%`,
-              backgroundColor: ISO3toColor[player.org]
+              backgroundColor: ISO3toColor[player.org],
             }}>
             </span>
           </span>
