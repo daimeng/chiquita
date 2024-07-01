@@ -66,16 +66,20 @@ button.active {
 
 .rating_row>span {
   padding: 8px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   /* margin: -0.5px; */
 }
 
 .rating_rank {
+  width: 64px;
+}
+
+.rating_flag {
   width: 48px;
 }
 
 .rating_org {
-  width: 64px;
+  width: 72px;
 }
 
 .rating_name {
@@ -87,12 +91,12 @@ button.active {
 }
 
 .rating_rating {
-  width: 84px;
+  width: 100px;
   text-align: center;
 }
 
 .rating_dev {
-  width: 48px;
+  width: 64px;
   text-align: center;
 }
 

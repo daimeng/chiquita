@@ -6,7 +6,7 @@ import players from './players.json'
 import { glicko } from './glicko';
 import { deleteDB, openDB } from 'idb';
 import Immutable from 'immutable';
-import { ISO3to2 } from './country-map';
+import { ISO3to2, ISO3toColor } from './country-map';
 
 export const DBNAME = 'wtt'
 export const playerById = new Map()
@@ -117,7 +117,7 @@ function App() {
         ratings.toArray()
           .filter(x =>
             (playerById.get(x[0]).gender === gender)
-            && x[1].rd < maxdev
+            && x[1].rd <= maxdev
           )
           .sort((a, b) => b[1].rating - a[1].rating)
       )
@@ -130,8 +130,10 @@ function App() {
   const handleSetW = useCallback(() => setGender('W'))
 
   let min_rating = 0
+  let max_rating = 0
   if (ranking.length) {
     min_rating = ranking[ranking.length - 1][1].rating
+    max_rating = ranking[0][1].rating
   }
 
   return (
@@ -163,7 +165,7 @@ function App() {
         <span className="rating_flag"></span>
         <span className="rating_org">org</span>
         <span className="rating_name">name</span>
-        <span className="rating_rating">r</span>
+        <span className="rating_rating">pts</span>
         <span className="rating_dev">±</span>
         <span className="rating_active">active</span>
         <span className="rating_bar"></span>
@@ -185,7 +187,11 @@ function App() {
           <span className="rating_dev">{Math.floor(rd)}</span>
           <span className="rating_active">{date}</span>
           <span className="rating_bar">
-            <span style={{ width: `${(rating - min_rating + 50) / (3000 - min_rating + 50) * 100}%` }}></span>
+            <span style={{
+              width: `${(rating - min_rating + 50) / (max_rating - min_rating + 50) * 100}%`,
+              backgroundColor: ISO3toColor[player.org]
+            }}>
+            </span>
           </span>
         </div>
       })}
