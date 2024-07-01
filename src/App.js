@@ -129,31 +129,49 @@ function App() {
   const handleSetM = useCallback(() => setGender('M'))
   const handleSetW = useCallback(() => setGender('W'))
 
+  let min_rating = 0
+  if (ranking.length) {
+    min_rating = ranking[ranking.length - 1][1].rating
+  }
+
   return (
     <div className="App">
-      <div>
-        <button onClick={handleSetM}>M</button>
-        <button onClick={handleSetW}>W</button>
+      <div className="rating_controls">
+        <div>
+          <button className={gender === 'M' ? 'active' : ''} onClick={handleSetM}>Men</button>
+          <button className={gender === 'W' ? 'active' : ''} onClick={handleSetW}>Women</button>
+        </div>
 
-        <select value={event} onChange={handleSetEvent}>
-          {tournaments.map((t, i) =>
-            <option key={t.EventId} value={i}>{t.EventId}</option>
-          )}
-          <option key={-1} value={-1}>Latest</option>
-        </select>
+        <div>
+          <select value={event} onChange={handleSetEvent}>
+            {tournaments.map((t, i) =>
+              <option key={t.EventId} value={i}>{t.EventId}</option>
+            )}
+            <option key={-1} value={-1}>Latest</option>
+          </select>
+        </div>
 
-        <input type="range" min="0" max="350" step="10" value={maxdev}
-          onChange={handleSetMaxdev} />{maxdev}
+        <div>
+          {"maxdev: "}
+          <input type="range" min="0" max="350" step="10" value={maxdev}
+            onChange={handleSetMaxdev} />{maxdev}
+        </div>
       </div>
 
-      {ranking.map(r => {
+      {ranking.map((r, i) => {
         const player = playerById.get(r[0])
         const { rating, rd, last_active } = r[1]
+        const date = new Date(last_active).toISOString().split('T')[0]
+
         return <div className="rating_row" key={r[0]}>
-          <span>{player.name}</span>
-          <span>{Math.floor(rating)}</span>
-          <span>{Math.floor(rd)}</span>
-          <span>{(new Date(last_active)).toISOString()}</span>
+          <span className="rating_rank">{i + 1}</span>
+          <span className="rating_name">{player.name}</span>
+          <span className="rating_rating">{Math.floor(rating)}</span>
+          <span className="rating_dev">{Math.floor(rd)}</span>
+          <span className="rating_active">{date}</span>
+          <span className="rating_bar">
+            <span style={{ width: `${(rating - min_rating + 50) / (3000 - min_rating + 50) * 100}%` }}></span>
+          </span>
         </div>
       })}
     </div>

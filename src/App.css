@@ -38,6 +38,70 @@
   }
 }
 
+button {
+  padding: 4px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+button.active {
+  border: 1px solid plum;
+  background-color: pink;
+}
+
+.rating_controls {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 48px;
+}
+
+.rating_row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .rating_row>span {
   padding: 8px;
+  border: 1px solid white;
+  margin: -0.5px;
+}
+
+.rating_rank {
+  width: 48px;
+}
+
+.rating_name {
+  width: 420px;
+  overflow: hidden;
+  word-break: keep-all;
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+}
+
+.rating_rating {
+  width: 48px;
+}
+
+.rating_dev {
+  width: 32px;
+}
+
+.rating_active {
+  width: 180px;
+}
+
+.rating_bar {
+  text-align: left;
+  width: 100%;
+}
+
+.rating_bar>span {
+  border-radius: 4px;
+  display: inline-block;
+  height: 100%;
+  background-color: red;
 }
