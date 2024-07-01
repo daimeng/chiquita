@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useCallback, useEffect, useState } from 'react';
 import { parquetMetadata, parquetRead } from 'hyparquet'
@@ -7,6 +6,7 @@ import players from './players.json'
 import { glicko } from './glicko';
 import { deleteDB, openDB } from 'idb';
 import Immutable from 'immutable';
+import { ISO3to2 } from './country-map';
 
 export const DBNAME = 'wtt'
 export const playerById = new Map()
@@ -158,6 +158,17 @@ function App() {
         </div>
       </div>
 
+      <div className="rating_row" key="title">
+        <span className="rating_rank">#</span>
+        <span className="rating_flag"></span>
+        <span className="rating_org">org</span>
+        <span className="rating_name">name</span>
+        <span className="rating_rating">r</span>
+        <span className="rating_dev">±</span>
+        <span className="rating_active">active</span>
+        <span className="rating_bar"></span>
+      </div>
+
       {ranking.map((r, i) => {
         const player = playerById.get(r[0])
         const { rating, rd, last_active } = r[1]
@@ -165,6 +176,10 @@ function App() {
 
         return <div className="rating_row" key={r[0]}>
           <span className="rating_rank">{i + 1}</span>
+          <span className="rating_flag">
+            <span class={`fi fi-${ISO3to2[player.org]}`}></span>
+          </span>
+          <span className="rating_org">{player.org}</span>
           <span className="rating_name">{player.name}</span>
           <span className="rating_rating">{Math.floor(rating)}</span>
           <span className="rating_dev">{Math.floor(rd)}</span>
