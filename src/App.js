@@ -82,6 +82,7 @@ let player_ratings = new Immutable.Map()
 const all_ratings = []
 window.all_ratings = all_ratings
 const G = glicko()
+
 const init = initDB().then((db) => {
   let p = Promise.resolve()
 
@@ -102,8 +103,9 @@ const init = initDB().then((db) => {
 
 
 function App() {
-  const [showDev, setShowDev] = useState(true)
+  const [showDev, setShowDev] = useState(false)
   const [top, setTop] = useState(100)
+  const [lastRanking, setLastRanking] = useState(new Map())
   const [ranking, setRanking] = useState([])
   const [event, setEvent] = useState(-1)
   const [gender, setGender] = useState('M')
@@ -111,13 +113,27 @@ function App() {
 
   useEffect(() => {
     init.then(() => {
-      if (event === -1) {
-        setEvent(all_ratings.length - 1)
+      let ev = event
+      // event won't update right away
+      if (ev === -1) {
+        ev = all_ratings.length - 1
+        setEvent(ev)
       }
 
-      let ratings = player_ratings
-      if (event > -1) {
-        ratings = all_ratings[event]
+      const ratings = all_ratings[ev]
+      if (ev > 0) {
+        const lr = new Map()
+        all_ratings[ev - 1].toArray()
+          .filter(x =>
+            (playerById.get(x[0]).gender === gender)
+            && x[1].rd <= maxdev
+          )
+          .sort((a, b) => b[1].rating - a[1].rating)
+          .forEach(([player, _], i) => {
+            lr.set(player, i)
+          })
+
+        setLastRanking(lr)
       }
 
       setRanking(
@@ -190,10 +206,12 @@ function App() {
       </div>
       <div className="rating_row" key="title">
         <span className="rating_rank">#</span>
+        <span className="rating_rank_delta"></span>
         <span className="rating_flag"></span>
         <span className="rating_org">org</span>
         <span className="rating_name">name</span>
         <span className="rating_rating">pts</span>
+        <span className="rating_delta"></span>
         {showDev &&
           <>
             <span className="rating_dev">±</span>
@@ -209,6 +227,15 @@ function App() {
         const player = playerById.get(r[0])
         const { rating, rd, last_active } = r[1]
         const date = new Date(last_active).toISOString().split('T')[0]
+        let rating_delta = 0
+        if (event > 0) {
+          const last_rating = all_ratings[event - 1].get(r[0])
+          if (last_rating) {
+            rating_delta = Math.floor(rating) - Math.floor(last_rating.rating)
+          }
+        }
+
+        const lr = lastRanking.has(r[0]) ? lastRanking.get(r[0]) : lastRanking.size
 
         return (
           <motion.div
@@ -218,12 +245,18 @@ function App() {
             transition={transition}
           >
             <span className="rating_rank">{i + 1}</span>
+            <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''}`}>
+              {Math.abs(lr - i)}
+            </span>
             <span className="rating_flag">
               <span className={`fi fi-${ISO3to2[player.org]}`}></span>
             </span>
             <span className="rating_org">{player.org}</span>
             <span className="rating_name">{player.name}</span>
             <span className="rating_rating">{Math.floor(rating)}</span>
+            <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
+              {Math.abs(rating_delta)}
+            </span>
             {showDev &&
               <>
                 <span className="rating_dev">{Math.floor(rd)}</span>
