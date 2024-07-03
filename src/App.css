@@ -264,6 +264,14 @@ select {
 
 .match-opponent {
   width: 200px;
+  cursor: pointer;
+}
+
+.match-opponent:hover {
+  background-color: rgb(235, 233, 255, 1);
+  color: slateblue;
+  transition: all 0.3s;
+  border-radius: 3px;
 }
 
 .match-date {

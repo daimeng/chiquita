@@ -299,7 +299,9 @@ function App() {
         {openPlayers.length === 1
           && <PlayerCard
             playerid={openPlayers[0]}
-            hidePlayer={hidePlayer} />
+            hidePlayer={hidePlayer}
+            showPlayer={showPlayer}
+          />
         }
       </div>
     </>
@@ -309,7 +311,7 @@ function App() {
 export default App;
 
 
-function PlayerCard({ playerid, hidePlayer }) {
+function PlayerCard({ playerid, showPlayer, hidePlayer }) {
   const player = playerById.get(playerid)
   const [matches, setMatches] = useState([])
 
@@ -351,7 +353,7 @@ function PlayerCard({ playerid, hidePlayer }) {
             return <div key={m.id} className={`match-row ${m.change < 0 ? 'match-loss' : ''}`}>
               <div className="match-rating-change">{m.change}</div>
               <div className="match-res">{m.res_a} - {m.res_x}</div>
-              <div className="match-opponent">{playerById.get(m.x_id).name}</div>
+              <div className="match-opponent" data-playerid={m.x_id} onClick={showPlayer}>{playerById.get(m.x_id).name}</div>
               <div className="match-date">{tourney.StartDate}</div>
               <div className="match-event">{tourney.ShortName}</div>
               <div className="match-scores">
@@ -368,7 +370,7 @@ function PlayerCard({ playerid, hidePlayer }) {
             return <div key={m.id} className={`match-row ${m.change > 0 ? 'match-loss' : ''}`}>
               <div className="match-rating-change">{-m.change}</div>
               <div className="match-res">{m.res_x} - {m.res_a}</div>
-              <div className="match-opponent">{playerById.get(m.a_id).name}</div>
+              <div className="match-opponent" data-playerid={m.a_id} onClick={showPlayer}>{playerById.get(m.a_id).name}</div>
               <div className="match-date">{tourney.StartDate}</div>
               <div className="match-event">{tourney.ShortName}</div>
               <div className="match-scores">
