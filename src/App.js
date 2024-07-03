@@ -126,7 +126,7 @@ function App() {
   const [event, setEvent] = useState(-1)
   const [gender, setGender] = useState('M')
   const [maxdev, setMaxdev] = useState(100)
-  const [openPlayers, setOpenPlayers] = useState([121558])
+  const [openPlayers, setOpenPlayers] = useState([])
 
   useEffect(() => {
     init.then(() => {
@@ -355,8 +355,8 @@ function PlayerCard({ playerid, hidePlayer }) {
               <div className="match-date">{tourney.StartDate}</div>
               <div className="match-event">{tourney.ShortName}</div>
               <div className="match-scores">
-                {scores.map(set =>
-                  <div className="match-scores-set">
+                {scores.map((set, i) =>
+                  <div key={i} className="match-scores-set">
                     <div>{set[0]}</div>
                     <div>{set[1]}</div>
                   </div>
@@ -372,8 +372,8 @@ function PlayerCard({ playerid, hidePlayer }) {
               <div className="match-date">{tourney.StartDate}</div>
               <div className="match-event">{tourney.ShortName}</div>
               <div className="match-scores">
-                {scores.map(set =>
-                  <div className="match-scores-set">
+                {scores.map((set, i) =>
+                  <div key={i} className="match-scores-set">
                     <div>{set[1]}</div>
                     <div>{set[0]}</div>
                   </div>

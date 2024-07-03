@@ -78,7 +78,7 @@ select {
 }
 
 .rating_row:nth-child(even) {
-  background-color: #eee;
+  background-color: #333;
 }
 
 .rating_row>span {
@@ -212,7 +212,7 @@ select {
 .player-card {
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255);
+  background-color: #222;
   border: 2px solid rgba(106, 90, 205, 0.5);
   border-radius: 4px;
   padding: 8px;
@@ -255,7 +255,7 @@ select {
 }
 
 .match-row:nth-child(odd) {
-  background-color: rgb(248, 250, 238);
+  background-color: rgba(106, 90, 205, 0.35);
 }
 
 .match-res {

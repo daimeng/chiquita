@@ -127,7 +127,7 @@ export const ISO3toColor = {
     'GRE': '#83ceec', // Greece (Blue)
     'FRA': '#ffa180', // France (Orange)
     'SWE': '#FFFF88', // Sweden (Yellow)
-    'GER': '#444444 ', // Germany (Black)
+    'GER': '#777777 ', // Germany (Black)
     'JPN': '#ffaacc', // Japan (Pink)
     'TPE': '#8A2BE2', // Taiwan (BlueViolet)
     'KOR': '#996699', // South Korea (Purple)
