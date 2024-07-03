@@ -4,7 +4,7 @@ import { parquetMetadata, parquetRead } from 'hyparquet'
 import tournaments from './tournaments.json'
 import players from './players.json'
 import { glicko } from './glicko';
-import { deleteDB, openDB } from 'idb';
+import { deleteDB, openDB, unwrap } from 'idb';
 import Immutable from 'immutable';
 import { motion } from 'framer-motion';
 import { ISO3to2, ISO3toColor } from './country-map';
@@ -57,7 +57,7 @@ const initDB = async () => {
     m => fetch(process.env.PUBLIC_URL + `/matches/${m}.parquet`)
   ))
 
-  let lastput = Promise.resolve()
+  const rawdb = unwrap(db)
   for (let i in results) {
     const event_id = missing[i]
 
@@ -68,7 +68,8 @@ const initDB = async () => {
 
       await parquetRead({
         file: arrayBuffer,
-        onComplete: async (data) => {
+        onComplete: (data) => {
+          const matches = rawdb.transaction('matches', 'readwrite').objectStore('matches')
           for (let row = 0; row < data.length; row++) {
             const entry = {
               event_id,
@@ -83,7 +84,7 @@ const initDB = async () => {
               res_x: data[row][8],
               scores: data[row][9],
             }
-            lastput = db.put('matches', entry)
+            matches.put(entry)
           }
         }
       })
@@ -91,8 +92,6 @@ const initDB = async () => {
       console.warn(tournaments[i])
     }
   }
-  await lastput
-
   return db
 }
 
