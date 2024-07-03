@@ -47,11 +47,11 @@ export function glicko({ q = DEFAULT_CONFIG.q, c = DEFAULT_CONFIG.c, init_rd = D
 		}
 	}
 
-	function update_ratings(player_ratings, match_results, current_time) {
+	function update_ratings(player_ratings, match_results, current_time, end_time, rating_changes) {
 		increase_rd_over_time(player_ratings, current_time)
 
 		for (let i = 0; i < match_results.length; i++) {
-			const { a_id: player1, x_id: player2, res_a, res_x } = match_results[i]
+			const { a_id: player1, x_id: player2, res_a, res_x, id } = match_results[i]
 			const result = res_a > res_x ? 1 : 0
 			const { rating: r1, rd: rd1 } = player_ratings.get(player1) || {
 				rating: init_r,
@@ -73,15 +73,17 @@ export function glicko({ q = DEFAULT_CONFIG.q, c = DEFAULT_CONFIG.c, init_rd = D
 			const new_r1 = new_rating(r1, rd1, r2, rd2, result, d2_1)
 			const new_r2 = new_rating(r2, rd2, r1, rd1, 1 - result, d2_2)
 
+			rating_changes.set(id, new_r1 - r1)
+
 			player_ratings.set(player1, {
 				rating: new_r1,
 				rd: new_rd1,
-				last_active: current_time
+				last_active: end_time
 			})
 			player_ratings.set(player2, {
 				rating: new_r2,
 				rd: new_rd2,
-				last_active: current_time
+				last_active: end_time
 			})
 		}
 	}

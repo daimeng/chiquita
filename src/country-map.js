@@ -122,15 +122,15 @@ export const ISO3to2 = {
 }
 
 export const ISO3toColor = {
-    'CHN': '#ff4d4d', // China (Red)
+    'CHN': '#ff6666', // China (Red)
     'BRA': '#80CE9D', // Brazil (Green)
     'GRE': '#83ceec', // Greece (Blue)
-    'FRA': '#FF5733', // France (Orange)
-    'SWE': '#FFFF00', // Sweden (Yellow)
-    'GER': '#000000', // Germany (Black)
-    'JPN': '#ffb7c5', // Japan (Pink)
+    'FRA': '#ffa180', // France (Orange)
+    'SWE': '#FFFF88', // Sweden (Yellow)
+    'GER': '#444444 ', // Germany (Black)
+    'JPN': '#ffaacc', // Japan (Pink)
     'TPE': '#8A2BE2', // Taiwan (BlueViolet)
-    'KOR': '#800080', // South Korea (Purple)
+    'KOR': '#996699', // South Korea (Purple)
     'DEN': '#FFD700', // Denmark (Gold)
     'IRI': '#00CED1', // Iran (DarkTurquoise)
     'CRO': '#00FF7F', // Croatia (SpringGreen)

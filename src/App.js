@@ -14,16 +14,30 @@ export const playerById = new Map()
 for (let i = 0; i < players.length; i++) {
   playerById.set(players[i].id, players[i])
 }
+export const tournamentById = new Map()
+for (let i = 0; i < tournaments.length; i++) {
+  tournaments[i].ShortName = tournaments[i].EventName
+    .replace('WTT', '')
+    .replace('ITTF', '')
+    .replace('World Table Tennis Championships', 'WTTC')
+    .replace('Star Contender', 'Star C')
+    .replace('Contender', 'Cont')
+    .replace('Champions', 'Champ')
+    .replace('Feeder', 'Fdr')
+    .replace(/(.+) presented(.+)/i, '$1')
+  tournaments[i].StartDate = tournaments[i].StartDateTime.slice(0, 10)
+  tournamentById.set(tournaments[i].EventId, tournaments[i])
+}
 
 const initDB = async () => {
   // await deleteDB(DBNAME)
   const db = await openDB(DBNAME, 1, {
     upgrade(db, oldVersion, newVersion, transaction, event) {
       console.log('Setting up db schema...')
-      const matches = db.createObjectStore('matches', { autoIncrement: true })
+      const matches = db.createObjectStore('matches', { keyPath: 'id', autoIncrement: true })
       matches.createIndex('event_id', 'event_id', { unique: false })
-      matches.createIndex('res_a', 'res_a', { unique: false })
-      matches.createIndex('res_x', 'res_x', { unique: false })
+      matches.createIndex('a_id', 'a_id', { unique: false })
+      matches.createIndex('x_id', 'x_id', { unique: false })
     }
   })
   window.db = db
@@ -66,6 +80,7 @@ const initDB = async () => {
               x_id: data[row][6],
               res_a: data[row][7],
               res_x: data[row][8],
+              scores: data[row][9],
             }
             await db.put('matches', entry)
           }
@@ -78,6 +93,7 @@ const initDB = async () => {
   return db
 }
 
+let rating_changes = new Map()
 let player_ratings = new Immutable.Map()
 const all_ratings = []
 window.all_ratings = all_ratings
@@ -92,7 +108,7 @@ const init = initDB().then((db) => {
       db.getAllFromIndex('matches', 'event_id', event_id)
     ).then(m => {
       player_ratings = player_ratings.withMutations((r) => {
-        G.update_ratings(r, m, Date.parse(tournaments[i].StartDateTime))
+        G.update_ratings(r, m, Date.parse(tournaments[i].StartDateTime), Date.parse(tournaments[i].EndDateTime), rating_changes)
       })
       all_ratings.push(player_ratings)
     })
@@ -110,6 +126,7 @@ function App() {
   const [event, setEvent] = useState(-1)
   const [gender, setGender] = useState('M')
   const [maxdev, setMaxdev] = useState(100)
+  const [openPlayers, setOpenPlayers] = useState([121558])
 
   useEffect(() => {
     init.then(() => {
@@ -153,6 +170,8 @@ function App() {
   const handleSetW = useCallback(() => setGender('W'))
   const toggleShowDev = useCallback(() => setShowDev((d) => !d))
   const handleSetTop = useCallback((e) => setTop(+e.target.value))
+  const showPlayer = useCallback((e) => setOpenPlayers([+e.target.dataset.playerid]))
+  const hidePlayer = useCallback(() => setOpenPlayers([]))
 
   // let min_rating = 0
   // let max_rating = 0
@@ -167,114 +186,203 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <div className="rating_controls">
-        <div>
-          <button className={gender === 'M' ? 'active' : ''} onClick={handleSetM}>M</button>
-          <button className={gender === 'W' ? 'active' : ''} onClick={handleSetW}>W</button>
+    <>
+      <div className="App">
+        <div className="rating_controls">
+          <div>
+            <button className={gender === 'M' ? 'active' : ''} onClick={handleSetM}>M</button>
+            <button className={gender === 'W' ? 'active' : ''} onClick={handleSetW}>W</button>
+          </div>
+
+          <div className="set-event">
+            <select value={event} onChange={handleSetEvent}>
+              {tournaments.map((t, i) => {
+                return <option key={t.EventId} value={i}>{`${t.EventName}`}</option>
+              })}true
+            </select>
+          </div>
+
+          <div className="set-maxdev">
+            {"max rd: "}
+            <input type="range" min="0" max="350" step="10" value={maxdev}
+              onChange={handleSetMaxdev} />{maxdev}
+          </div>
+          <div>
+            show rd<input type="checkbox" checked={showDev} onChange={toggleShowDev}></input>
+          </div>
+
+          <div className="set-top">
+            {'top '}
+            <select value={top} onChange={handleSetTop}>
+              <option value={10}>10</option>
+              <option value={30}>30</option>
+              <option value={50}>50</option>
+              <option value={100}>100</option>
+              <option value={200}>200</option>
+              <option value={Infinity}>All</option>
+            </select>
+          </div>
+
         </div>
-
-        <div className="set-event">
-          <select value={event} onChange={handleSetEvent}>
-            {tournaments.map((t, i) => {
-              return <option key={t.EventId} value={i}>{`${t.EventName}`}</option>
-            })}true
-          </select>
-        </div>
-
-        <div className="set-maxdev">
-          {"max rd: "}
-          <input type="range" min="0" max="350" step="10" value={maxdev}
-            onChange={handleSetMaxdev} />{maxdev}
-        </div>
-        <div>
-          show rd<input type="checkbox" checked={showDev} onChange={toggleShowDev}></input>
-        </div>
-
-        <div className="set-top">
-          {'top '}
-          <select value={top} onChange={handleSetTop}>
-            <option value={10}>10</option>
-            <option value={30}>30</option>
-            <option value={50}>50</option>
-            <option value={100}>100</option>
-            <option value={200}>200</option>
-            <option value={Infinity}>All</option>
-          </select>
-        </div>
-
-      </div>
-      <div className="rating_row" key="title">
-        <span className="rating_rank">#</span>
-        <span className="rating_rank_delta"></span>
-        <span className="rating_flag"></span>
-        <span className="rating_org">org</span>
-        <span className="rating_name">name</span>
-        <span className="rating_rating">pts</span>
-        <span className="rating_delta"></span>
-        {showDev &&
-          <>
-            <span className="rating_dev">±</span>
-            <span className="rating_active">active</span>
-          </>
-        }
-        <span className="rating_bar"></span>
-      </div>
-
-      {ranking.map((r, i) => {
-        if (i >= top) return
-
-        const player = playerById.get(r[0])
-        const { rating, rd, last_active } = r[1]
-        const date = new Date(last_active).toISOString().split('T')[0]
-        let rating_delta = 0
-        if (event > 0) {
-          const last_rating = all_ratings[event - 1].get(r[0])
-          if (last_rating) {
-            rating_delta = Math.floor(rating) - Math.floor(last_rating.rating)
+        <div className="rating_row" key="title">
+          <span className="rating_rank">#</span>
+          <span className="rating_rank_delta"></span>
+          <span className="rating_flag"></span>
+          <span className="rating_org">org</span>
+          <span className="rating_name">name</span>
+          <span className="rating_rating">pts</span>
+          <span className="rating_delta"></span>
+          {showDev &&
+            <>
+              <span className="rating_dev">±</span>
+              <span className="rating_active">active</span>
+            </>
           }
-        }
+          <span className="rating_bar"></span>
+        </div>
 
-        const lr = lastRanking.has(r[0]) ? lastRanking.get(r[0]) : lastRanking.size
+        {ranking.map((r, i) => {
+          if (i >= top) return
 
-        return (
-          <motion.div
-            className="rating_row"
-            key={r[0]}
-            layout
-            transition={transition}
-          >
-            <span className="rating_rank">{i + 1}</span>
-            <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''}`}>
-              {Math.abs(lr - i)}
-            </span>
-            <span className="rating_flag">
-              <span className={`fi fi-${ISO3to2[player.org]}`}></span>
-            </span>
-            <span className="rating_org">{player.org}</span>
-            <span className="rating_name">{player.name}</span>
-            <span className="rating_rating">{Math.floor(rating)}</span>
-            <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
-              {Math.abs(rating_delta)}
-            </span>
-            {showDev &&
-              <>
-                <span className="rating_dev">{Math.floor(rd)}</span>
-                <span className="rating_active">{date}</span>
-              </>
+          const player = playerById.get(r[0])
+          const { rating, rd, last_active } = r[1]
+          const date = new Date(last_active).toISOString().split('T')[0]
+          let rating_delta = 0
+          if (event > 0) {
+            const last_rating = all_ratings[event - 1].get(r[0])
+            if (last_rating) {
+              rating_delta = Math.floor(rating) - Math.floor(last_rating.rating)
             }
-            <span className="rating_bar">
-              <span style={{
-                width: `${Math.max(rating - 1400, 0) / 16}%`,
-                backgroundColor: ISO3toColor[player.org],
-              }}>
+          }
+
+          const lr = lastRanking.has(r[0]) ? lastRanking.get(r[0]) : lastRanking.size
+
+          return (
+            <motion.div
+              className="rating_row"
+              key={r[0]}
+              layout
+              transition={transition}
+            >
+              <span className="rating_rank">{i + 1}</span>
+              <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''}`}>
+                {Math.abs(lr - i)}
               </span>
-            </span>
-          </motion.div>
-        )
-      })}
-    </div>
+              <span className="rating_flag">
+                <span className={`fi fi-${ISO3to2[player.org]}`}></span>
+              </span>
+              <span className="rating_org">{player.org}</span>
+              <span className="rating_name" data-playerid={r[0]} onClick={showPlayer}>{player.name}</span>
+              <span className="rating_rating">{Math.floor(rating)}</span>
+              <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
+                {Math.abs(rating_delta)}
+              </span>
+              {showDev &&
+                <>
+                  <span className="rating_dev">{Math.floor(rd)}</span>
+                  <span className="rating_active">{date}</span>
+                </>
+              }
+              <span className="rating_bar">
+                <span style={{
+                  width: `${Math.max(rating - 1400, 0) / 16}%`,
+                  backgroundColor: ISO3toColor[player.org],
+                }}>
+                </span>
+              </span>
+            </motion.div>
+          )
+        })}
+      </div>
+
+      <div className="player-panel">
+        {openPlayers.length === 1
+          && <PlayerCard
+            playerid={openPlayers[0]}
+            hidePlayer={hidePlayer} />
+        }
+      </div>
+    </>
   );
 }
 
 export default App;
+
+
+function PlayerCard({ playerid, hidePlayer }) {
+  const player = playerById.get(playerid)
+  const [matches, setMatches] = useState([])
+
+  useEffect(() => {
+    init.then((db) => {
+      return Promise.all([
+        db.getAllFromIndex('matches', 'a_id', playerid),
+        db.getAllFromIndex('matches', 'x_id', playerid)
+      ])
+    }).then(([matches_a, matches_x]) => {
+      // decorate matches with their rating changes
+      const all_matches = []
+      for (let i = matches_a.length - 1; i >= 0; i--) {
+        matches_a[i].change = Math.round(rating_changes.get(matches_a[i].id))
+        matches_a[i].start = Date.parse(tournamentById.get(matches_a[i].event_id).StartDateTime)
+        all_matches.push(matches_a[i])
+      }
+      for (let i = matches_x.length - 1; i >= 0; i--) {
+        matches_x[i].change = Math.round(rating_changes.get(matches_x[i].id))
+        matches_x[i].start = Date.parse(tournamentById.get(matches_x[i].event_id).StartDateTime)
+        all_matches.push(matches_x[i])
+      }
+      all_matches.sort((a, b) => b.start - a.start)
+      setMatches(all_matches)
+    })
+  }, [playerid])
+
+  return (
+    <div className="player-card">
+      <div className="card-header">
+        {player.name}
+        <div className="card-close" onClick={hidePlayer}>x</div>
+      </div>
+      <div className="card-content">
+        {matches.map(m => {
+          const tourney = tournamentById.get(m.event_id)
+          const scores = m.scores.split(',').map(x => x.split('-'))
+          if (m.a_id === playerid) {
+            return <div key={m.id} className={`match-row ${m.change < 0 ? 'match-loss' : ''}`}>
+              <div className="match-rating-change">{m.change}</div>
+              <div className="match-res">{m.res_a} - {m.res_x}</div>
+              <div className="match-opponent">{playerById.get(m.x_id).name}</div>
+              <div className="match-date">{tourney.StartDate}</div>
+              <div className="match-event">{tourney.ShortName}</div>
+              <div className="match-scores">
+                {scores.map(set =>
+                  <div className="match-scores-set">
+                    <div>{set[0]}</div>
+                    <div>{set[1]}</div>
+                  </div>
+                )}
+              </div>
+            </div>
+          } else {
+
+            return <div key={m.id} className={`match-row ${m.change > 0 ? 'match-loss' : ''}`}>
+              <div className="match-rating-change">{-m.change}</div>
+              <div className="match-res">{m.res_x} - {m.res_a}</div>
+              <div className="match-opponent">{playerById.get(m.a_id).name}</div>
+              <div className="match-date">{tourney.StartDate}</div>
+              <div className="match-event">{tourney.ShortName}</div>
+              <div className="match-scores">
+                {scores.map(set =>
+                  <div className="match-scores-set">
+                    <div>{set[1]}</div>
+                    <div>{set[0]}</div>
+                  </div>
+                )}
+              </div>
+            </div>
+          }
+        })}
+      </div>
+    </div>
+  )
+}
