@@ -57,6 +57,7 @@ const initDB = async () => {
     m => fetch(process.env.PUBLIC_URL + `/matches/${m}.parquet`)
   ))
 
+  let lastput = Promise.resolve()
   for (let i in results) {
     const event_id = missing[i]
 
@@ -82,7 +83,7 @@ const initDB = async () => {
               res_x: data[row][8],
               scores: data[row][9],
             }
-            await db.put('matches', entry)
+            lastput = db.put('matches', entry)
           }
         }
       })
@@ -90,6 +91,8 @@ const initDB = async () => {
       console.warn(tournaments[i])
     }
   }
+  await lastput
+
   return db
 }
 
@@ -240,7 +243,13 @@ function App() {
           }
           <span className="rating_bar"></span>
         </div>
-
+        {ranking.length === 0 && <div className="loading">
+          <img src="/chiquita/favicon.svg" width={128} height={128} />
+          <div>
+            Loading data, please wait... It will take longer the first time.
+          </div>
+        </div>
+        }
         {ranking.map((r, i) => {
           if (i >= top) return
 

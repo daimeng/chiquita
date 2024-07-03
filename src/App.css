@@ -28,6 +28,39 @@ select {
   border: 2px solid slateblue;
 }
 
+.loading>img {
+  margin: 64px;
+  animation: cssload-animate 0.5s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+.loading {
+  font-size: 24px;
+}
+
+@keyframes cssload-animate {
+  17% {
+    /* border-bottom-right-radius: ; */
+  }
+
+  25% {
+    transform: rotate(22.5deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+    /* border-bottom-right-radius: 39px; */
+  }
+
+  75% {
+    transform: rotate(76.5deg);
+  }
+
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
 .set-event>select {
   width: 200px;
 }
