@@ -7,7 +7,7 @@ directory = os.fsencode('data/wtt_matches')
 
 TMP_ID = 0
 
-def parse_match(m: dict, matches: list, sets: list):
+def parse_match(m: dict, matches: list):
     doc = m['documentCode']
 
     isTeam = False
@@ -41,7 +41,7 @@ def parse_match(m: dict, matches: list, sets: list):
             if not _m.get('match_result'):
                 continue
             mm = _m['match_result']
-            parse_match(mm, matches, sets)
+            parse_match(mm, matches)
 
         return
 
@@ -103,59 +103,52 @@ def parse_match(m: dict, matches: list, sets: list):
         'y_id': y_id,
         'res_a': int(res[0]),
         'res_x': int(res[1]),
+        'scores': gscores.replace(',0-0', ''),
     }
 
-    for i, score in enumerate(gscores.split(',')):
-        if '-' not in score:
-            print(m['eventId'])
-            print(m['gameScores'], ' $ ', m['resultsGameScores'])
-        score_a, score_x = score.split('-')
-        score_a = int(score_a)
-        score_x = int(score_x)
-        if score_a + score_x == 0:
-            continue
+    # for i, score in enumerate(gscores.split(',')):
+    #     if '-' not in score:
+    #         print(m['eventId'])
+    #         print(m['gameScores'], ' $ ', m['resultsGameScores'])
+    #     score_a, score_x = score.split('-')
+    #     score_a = int(score_a)
+    #     score_x = int(score_x)
+    #     if score_a + score_x == 0:
+    #         continue
 
-        sets.append({
-            'event_id': evt,
-            'doc': doc,
-            'score_a': score_a,
-            'score_x': score_x,
-            'num': i + 1
-        })
+    #     sets.append({
+    #         'event_id': evt,
+    #         'doc': doc,
+    #         'score_a': score_a,
+    #         'score_x': score_x,
+    #         'num': i + 1
+    #     })
 
     matches.append(row)
 
 
-def parse_tournament(match_data: list[dict], players: dict):
+def parse_tournament(match_data: list[dict]):
     matches = []
-    sets = []
 
     for m in match_data:
-        parse_match(m, matches, sets)
+        parse_match(m, matches)
 
-    return matches, sets
+    return matches
 
-def parse_event(evt, players):
+def parse_event(evt):
     path = os.path.join(f'data/wtt_matches/{evt}.json') 
     with open(path, 'r') as f:
         matches = json.load(f)
 
-    matches, sets = parse_tournament(matches, players)
+    matches = parse_tournament(matches)
 
     mf = pd.DataFrame(matches)
     if not mf.empty:
         mf.to_csv(f'data/wtt_cleaned/matches/{evt}.tsv', sep='\t', index=False)
-
-    sf = pd.DataFrame(sets)
-    if not sf.empty:
-        sf.to_csv(f'data/wtt_cleaned/sets/{evt}.tsv', sep='\t', index=False)
 
 for file in os.listdir(directory):
     filename = os.fsdecode(file)
     if not filename.endswith(".json"):
         continue
 
-    if os.path.isfile('data/wtt_cleaned/players.tsv'):
-        players = pd.read_csv('data/wtt_cleaned/players.tsv', sep='\t', index_col=[0]).to_dict('index')
-
-    parse_event(filename[:-5], players)
+    parse_event(filename[:-5])
