@@ -18,7 +18,7 @@ import {
   connectFirestoreEmulator
 } from 'https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.js'
 
-export const firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyCPk288cXOkT8YToajeENki-pAm3uABijk",
   authDomain: "wordo-449f3.firebaseapp.com",
   projectId: "wordo-449f3",
@@ -28,17 +28,17 @@ export const firebaseConfig = {
   measurementId: "G-88ZRB3JD1H"
 }
 
-export const app = initializeApp(firebaseConfig)
-export const analytics = getAnalytics(app)
-export const auth = getAuth()
-export const db = getFirestore()
-connectAuthEmulator(auth, "http://127.0.0.1:9099")
-connectFirestoreEmulator(db, 'http://127.0.0.1', 9090)
+const app = initializeApp(firebaseConfig)
+const analytics = getAnalytics(app)
+const auth = getAuth()
+const db = getFirestore()
+// connectAuthEmulator(auth, "http://127.0.0.1:9099")
+// connectFirestoreEmulator(db, 'http://127.0.0.1', 9090)
 
 export function signUp(email, password) {
-  return createUserWithEmailAndPassword(auth, email, password)
+  // return createUserWithEmailAndPassword(auth, email, password)
 }
 
 export function login(email, password) {
-  return signInWithEmailAndPassword(auth, email, password)
+  // return signInWithEmailAndPassword(auth, email, password)
 }

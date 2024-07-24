@@ -6,6 +6,7 @@ import { ISO3to2, ISO3toColor } from './country-map'
 import { playerById, tournamentById } from './idb'
 import { all_ratings, init, rating_changes } from './ratings'
 import { auth, login, signUp } from './firebase'
+import { Login } from './login'
 
 
 function App() {
@@ -112,32 +113,7 @@ function App() {
               <option value={Infinity}>All</option>
             </select>
           </div>
-          <div>
-            <button onClick={() => {
-              login("daimengchen@gmail.com", "testing123")
-                .then((userCredential) => {
-                  // Signed up
-                  console.log('Login successful:', userCredential.user);
-                })
-                .catch((error) => {
-                  console.error('Login error:', error);
-                })
-            }}>
-              Login
-            </button>
-            <button onClick={() => {
-              signUp("daimengchen@gmail.com", "testing123")
-                .then((userCredential) => {
-                  // Signed up
-                  console.log('Signup successful:', userCredential.user);
-                })
-                .catch((error) => {
-                  console.error('Signup error:', error);
-                })
-            }}>
-              Signup
-            </button>
-          </div>
+          {/* <Login /> */}
         </div>
         <div className="rating_row" key="title">
           <span className="rating_rank">#</span>
