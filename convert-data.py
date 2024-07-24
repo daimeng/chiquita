@@ -4,8 +4,9 @@ import os
 
 tf = pd.read_csv('data/tournaments_wtt.tsv', sep='\t').sort_values(['StartDateTime'])
 
-pf = pd.read_csv('data/wtt_cleaned/players.tsv', sep='\t')
-pf.astype({ 'id': 'uint32' }).to_json('src/players.json', orient='records')
+pf = pd.read_csv('data/wtt_cleaned/players.tsv', sep='\t').astype({'id': 'uint32'})
+pf2 = pd.read_csv('data/wtt_cleaned/players_extra.tsv', sep='\t').astype({'id': 'uint32'})
+pd.concat([pf, pf2]).to_json('src/players.json', orient='records')
 
 tournaments = []
 for event in tf.itertuples():
