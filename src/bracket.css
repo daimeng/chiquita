@@ -46,23 +46,23 @@
 	border-radius: 4px;
 	margin-top: -1px;
 	margin-bottom: -1px;
+	overflow: hidden;
 	cursor: pointer;
 	word-break: keep-all;
 	white-space: nowrap;
 }
 
-.bracket-text {
-	overflow: hidden;
-	word-break: keep-all;
-	white-space: nowrap;
+.bracket-player .fi {
+	pointer-events: none;
 }
 
 .bracket-player:hover {
 	border-color: transparent;
+	overflow: visible;
 }
 
-.bracket-player:hover .bracket-text {
-	overflow: visible;
+.bracket-player:hover .bracket-ratings {
+	display: none;
 }
 
 .bracket-hidden {
@@ -83,6 +83,7 @@
 	background-repeat: norepeat;
 	border-radius: 3px;
 	color: white;
+	pointer-events: none;
 }
 
 .show-ratings {

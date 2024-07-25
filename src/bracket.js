@@ -39,10 +39,8 @@ function MatchPlayer({ playerid, idx, onClick, players, showRatings }) {
 		<div data-id={playerid} data-idx={idx} onClick={onClick}
 			className={`bracket-player ${players[idx] === playerid ? 'bracket-winner' : ''}`}>
 			<span className={`fi fis fi-${ISO3to2[player.org]}`}></span>
-			<span className="bracket-text">
-				{" "}
-				{player.name}
-			</span>
+			{" "}
+			{player.name}
 			{showRatings && <span className="bracket-ratings" style={{ backgroundPositionY: r }}>{latest && Math.floor(latest.rating)}</span>}
 		</div>
 	)
