@@ -3,9 +3,17 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import DRAWS from './draws2024.json'
 import { playerById } from './idb'
 
-export function BracketMatch({ p1, p2, hidden, players, setPlayer, idx }) {
+export function BracketMatch({ p1, p2, players, setPlayer, idx }) {
+	if (p1 === 0 || p2 === 0) {
+		return (
+			<div className="bracket-match bracket-hidden">
+				<div className="bracket-player"></div>
+				<div className="bracket-player"></div>
+			</div>
+		)
+	}
 	return (
-		<div className={`bracket-match ${hidden ? 'bracket-hidden' : ''}`}>
+		<div className="bracket-match">
 			{p1 != null
 				? <div data-id={p1} data-idx={idx} onClick={setPlayer} className={`bracket-player ${players[idx] === p1 ? 'bracket-winner' : ''}`}>{playerById.get(p1).name}</div>
 				: <div className="bracket-player"></div>
@@ -18,62 +26,25 @@ export function BracketMatch({ p1, p2, hidden, players, setPlayer, idx }) {
 	)
 }
 
-export function PrelimRound({ prelims, players, setPlayer }) {
-	const matches = new Array(64)
-	for (let i = 0; i < 64; i++) {
-		if (prelims.has(i)) {
-			let [a_id, x_id] = prelims.get(i).split(':')
-			a_id = Number(a_id)
-			x_id = Number(x_id)
-			matches[i] = <BracketMatch key={i} hidden={false}
-				p1={a_id}
-				p2={x_id}
-				idx={63 + i}
-				players={players}
-				setPlayer={setPlayer}
-			/>
-		} else {
-			matches[i] = <BracketMatch key={i} hidden={true}
-				p1={null}
-				p2={null}
-				idx={63 + i}
-				players={players}
-				setPlayer={setPlayer}
-			/>
-		}
-	}
-
-	return (
-		<div className="bracket-round">
-			{matches}
-		</div>
-	)
-}
-
 // [0, 1, 1, 2, 2, 2, 2]
 // 0, 1, 3, 7
 export function BracketRound({ r, players, setPlayer }) {
 	const match_count = r / 2
 	const base_idx = match_count - 1
-
+	const roundPlayers = players.slice(r - 1, r * 2 - 1)
+	if (r === 128) console.log(roundPlayers)
 	const matches = new Array(match_count)
-	if (players) {
-		for (let i = 0; i < match_count; i++) {
-			const a_id = players[2 * i]
-			const x_id = players[2 * i + 1]
-			matches[i] = <BracketMatch
-				key={i}
-				p1={a_id}
-				p2={x_id}
-				idx={base_idx + i}
-				players={players}
-				setPlayer={setPlayer}
-			/>
-		}
-	} else {
-		for (let i = 0; i < match_count; i++) {
-			matches[i] = <BracketMatch key={i} p1={null} p2={null} idx={0} players={players} />
-		}
+	for (let i = 0; i < match_count; i++) {
+		const a_id = roundPlayers[2 * i]
+		const x_id = roundPlayers[2 * i + 1]
+		matches[i] = <BracketMatch
+			key={i}
+			p1={a_id}
+			p2={x_id}
+			idx={base_idx + i}
+			players={players}
+			setPlayer={setPlayer}
+		/>
 	}
 
 	return (
@@ -84,28 +55,17 @@ export function BracketRound({ r, players, setPlayer }) {
 }
 
 // winners is an Array of 0 or 1
-export function Bracket({ players, setPlayer, draws }) {
-	const [prelims, setPrelims] = useState(() => {
-		const plims = new Map()
-		for (let i = 0; i < draws.length; i++) {
-			if (!Number.isInteger(draws[i])) {
-				plims.set(i, draws[i])
-			}
-		}
-
-		return plims
-	})
-
+export function Bracket({ players, setPlayer }) {
 	return (
 		<>
 			<div className="bracket">
-				{prelims.size && <PrelimRound prelims={prelims} players={players.slice(127, 255)} setPlayer={setPlayer} />}
-				<BracketRound r={64} key={6} players={players.slice(63, 127)} setPlayer={setPlayer} />
-				<BracketRound r={32} key={5} players={players.slice(31, 63)} setPlayer={setPlayer} />
-				<BracketRound r={16} key={4} players={players.slice(15, 31)} setPlayer={setPlayer} />
-				<BracketRound r={8} key={3} players={players.slice(7, 15)} setPlayer={setPlayer} />
-				<BracketRound r={4} key={2} players={players.slice(3, 7)} setPlayer={setPlayer} />
-				<BracketRound r={2} key={1} players={players.slice(1, 3)} setPlayer={setPlayer} />
+				<BracketRound r={128} key={7} players={players} setPlayer={setPlayer} />
+				<BracketRound r={64} key={6} players={players} setPlayer={setPlayer} />
+				<BracketRound r={32} key={5} players={players} setPlayer={setPlayer} />
+				<BracketRound r={16} key={4} players={players} setPlayer={setPlayer} />
+				<BracketRound r={8} key={3} players={players} setPlayer={setPlayer} />
+				<BracketRound r={4} key={2} players={players} setPlayer={setPlayer} />
+				<BracketRound r={2} key={1} players={players} setPlayer={setPlayer} />
 			</div>
 		</>
 	)
@@ -116,26 +76,31 @@ export function BracketCard({ hideBracket, hasPrelims = true }) {
 	const [players, setPlayers] = useState(() => {
 		// check if prelims
 		let len = 0
-		for (let i = 1; i < draws.length; i *= 2) {
+		for (let i = 1; i <= draws.length; i *= 2) {
 			len += i
 		}
-		const drawlen = len
-		if (hasPrelims) len += 128
+		// 1 + 2 + 4 + 8 + 16 + 32
+		const draw_idx = draws.length - 1
 
 		const p = new Array(len).fill(null)
+		if (hasPrelims) {
+			p.push(...new Array(128).fill(0))
+		}
+
 		for (let i = 0; i < draws.length; i++) {
-			const idx = drawlen + i
+			const idx = draw_idx + i
 			if (Number.isInteger(draws[i])) {
 				p[idx] = draws[i]
 			} else {
 				const [a_id, x_id] = draws[i].split(':')
-				p[idx * 2] = Number(a_id)
-				p[idx * 2 + 1] = Number(x_id)
+				p[idx] = null
+				p[idx * 2 + 1] = Number(a_id)
+				p[idx * 2 + 2] = Number(x_id)
 			}
 		}
-
 		return p
 	})
+	console.log(players)
 
 	const setPlayer = useCallback((e) => {
 		const { idx, id } = e.target.dataset
