@@ -41,7 +41,7 @@
 
 .bracket-player {
 	position: relative;
-	height: 16px;
+	height: 24px;
 	border: 2px solid #ccc;
 	border-radius: 4px;
 	margin-top: -1px;
@@ -50,6 +50,8 @@
 	cursor: pointer;
 	word-break: keep-all;
 	white-space: nowrap;
+	box-sizing: border-box;
+	line-height: 18px;
 }
 
 .bracket-player .fi {
@@ -71,7 +73,9 @@
 }
 
 .bracket-player.bracket-winner {
-	border-color: cornflowerblue;
+	border-color: rgb(255, 199, 116);
+	background-color: cornsilk;
+	border-width: 4px;
 }
 
 .bracket-ratings {
