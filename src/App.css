@@ -257,6 +257,8 @@ select {
   font-size: 18px;
   position: relative;
   height: 32px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .card-close {

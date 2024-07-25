@@ -1,5 +1,5 @@
 import './bracket.css'
-import { useCallback, useContext, useEffect, useMemo, useState } from 'react'
+import { forwardRef, useCallback, useContext, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react'
 import DRAWS from './draws2024.json'
 import { playerById } from './idb'
 import { ISO3to2 } from './country-map'
@@ -39,6 +39,7 @@ function MatchPlayer({ playerid, idx, onClick, players, showRatings }) {
 		<div data-id={playerid} data-idx={idx} onClick={onClick}
 			className={`bracket-player ${players[idx] === playerid ? 'bracket-winner' : ''}`}>
 			<span className={`fi fis fi-${ISO3to2[player.org]}`}></span>
+			<span className="bracket-org">{player.org}</span>
 			{" "}
 			{player.name}
 			{showRatings && <span className="bracket-ratings" style={{ backgroundPositionY: r }}>{latest && Math.floor(latest.rating)}</span>}
@@ -86,20 +87,59 @@ export function Bracket({ players, setPlayer, showRatings }) {
 	}
 
 	return (
-		<>
-			<div className="bracket">
-				{rounds}
-			</div>
-		</>
+		<div className="bracket">
+			{rounds}
+		</div>
 	)
 }
 
-export function BracketCard({ hideBracket, hasPrelims = true }) {
-	const draws = DRAWS.M
+const EVENTS = ['M', 'W', 'X', 'MT', 'WT']
+
+export function BracketCard({ hideBracket }) {
+	const [event, setEvent] = useState('M')
 	const [showRatings, setShowRatings] = useState(false)
 	const toggleRatings = useCallback(() => {
 		setShowRatings(r => !r)
 	}, [setShowRatings])
+
+	const refM = useRef(null)
+	const refW = useRef(null)
+	console.log(refM)
+
+	return (
+		<div className="bracket-card card">
+			<div className="card-header">
+				<div className="bracket-event">
+					{EVENTS.map(e =>
+						<button type="button" key={e} className={e === event ? `active` : ''} onClick={() => setEvent(e)}>{e}</button>
+					)}
+				</div>
+				<div className="show-ratings" onClick={toggleRatings}>[{showRatings ? `x` : ' '}]show ratings</div>
+				<button type="button" className="export-brackets" onClick={() => {
+					refM.current.getCode()
+				}}>Export</button>
+				<div className="card-close" onClick={hideBracket}>x</div>
+			</div>
+			<div className="card-content">
+				<BracketContent
+					ref={refM}
+					hidden={event !== 'M'}
+					event={'M'}
+					showRatings={showRatings}
+				/>
+				<BracketContent
+					ref={refW}
+					hidden={event !== 'W'}
+					event={'W'}
+					showRatings={showRatings}
+				/>
+			</div>
+		</div>
+	)
+}
+
+const BracketContent = forwardRef(({ event, showRatings, hidden }, ref) => {
+	const draws = DRAWS[event]
 
 	const [players, setPlayers] = useState(() => {
 		// check if prelims
@@ -111,7 +151,7 @@ export function BracketCard({ hideBracket, hasPrelims = true }) {
 		const draw_idx = draws.length - 1
 
 		const p = new Array(len).fill(null)
-		if (hasPrelims) {
+		if (event === 'M' || event === 'W') {
 			p.push(...new Array(128).fill(0))
 		}
 
@@ -155,17 +195,15 @@ export function BracketCard({ hideBracket, hasPrelims = true }) {
 		})
 	}, [setPlayers])
 
+	useImperativeHandle(ref, () => ({
+		getCode() {
+			console.log(players)
+		}
+	}), [players])
+
 	return (
-		<div className="bracket-card card">
-			<div className="card-header">
-				<div className="show-ratings" onClick={toggleRatings}>[{showRatings ? `x` : ' '}]show ratings</div>
-				<div className="card-close" onClick={hideBracket}>x</div>
-			</div>
-			<div className="card-content">
-				<div>
-					<Bracket players={players} draws={draws} setPlayer={setPlayer} showRatings={showRatings} />
-				</div>
-			</div>
+		<div className={hidden ? 'hidden' : ''}>
+			<Bracket players={players} draws={draws} setPlayer={setPlayer} showRatings={showRatings} />
 		</div>
 	)
-}
+})

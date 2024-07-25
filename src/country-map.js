@@ -118,7 +118,8 @@ export const ISO3to2 = {
     "GEO": "ge",
     "VAN": "vu",
     "LTU": "lt",
-    'REF': 'ref',
+    "REF": "ref",
+    "MDV": 'mv',
 }
 
 export const ISO3toColor = {
@@ -241,4 +242,5 @@ export const ISO3toColor = {
     'GEO': '#FF7F50', // Georgia (Coral)
     'VAN': '#FF6347', // Vanuatu (Tomato)
     'LTU': '#FF4500', // Lithuania
+    'MDV': 'aquamarine', // Maldives
 }

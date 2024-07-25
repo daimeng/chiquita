@@ -67,6 +67,22 @@
 	display: none;
 }
 
+.bracket-org {
+	display: none;
+	position: absolute;
+	left: 0;
+	font-size: 14px;
+	color: saddlebrown;
+}
+
+.bracket-player:hover .bracket-org {
+	display: inline;
+}
+
+.bracket-player:hover .fi {
+	opacity: 0.2;
+}
+
 .bracket-hidden {
 	visibility: hidden;
 	pointer-events: none;
@@ -82,7 +98,7 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: linear-gradient(crimson, cornflowerblue);
+	background: linear-gradient(crimson, lightskyblue);
 	background-size: 100px 1000px;
 	background-repeat: norepeat;
 	border-radius: 3px;
@@ -92,4 +108,8 @@
 
 .show-ratings {
 	cursor: pointer;
+}
+
+.hidden {
+	display: none !important;
 }
