@@ -7,7 +7,7 @@ import { playerById, tournamentById } from './idb'
 import { all_ratings, init, rating_changes } from './ratings'
 import { auth, login, signUp } from './firebase'
 import { Login } from './login'
-import { PlayerCard } from './playercard'
+import { EmptyCard, PlayerCard } from './playercard'
 import { BracketCard } from './bracket'
 import { useHash } from './hash'
 

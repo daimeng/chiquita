@@ -79,3 +79,15 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
 		</div>
 	)
 }
+
+export function EmptyCard({ hidePlayer }) {
+	return (
+		<div className="player-card card empty-card">
+			<div className="card-header">
+				<div className="card-close" onClick={hidePlayer}>x</div>
+			</div>
+			<div className="card-content">
+			</div>
+		</div>
+	)
+}

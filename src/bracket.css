@@ -36,17 +36,25 @@
 }
 
 .bracket-match {
-	margin: 4px 0;
+	margin: 0;
 }
 
 .bracket-player {
 	height: 16px;
 	border: 2px solid #ccc;
 	border-radius: 4px;
-	margin-top: -2px;
+	margin-top: -1px;
+	margin-bottom: -1px;
+	overflow: hidden;
+	word-break: keep-all;
+	white-space: nowrap;
 }
 
 .bracket-hidden {
 	visibility: hidden;
 	pointer-events: none;
+}
+
+.bracket-player.bracket-winner {
+	border-color: cornflowerblue;
 }
