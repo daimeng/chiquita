@@ -100,20 +100,27 @@ export function BracketCard({ hideBracket, hasPrelims = true }) {
 		}
 		return p
 	})
-	console.log(players)
 
 	const setPlayer = useCallback((e) => {
 		const { idx, id } = e.target.dataset
 		setPlayers(p => {
 			const n = [...p]
 
-			const parent = Number(idx)
-			console.log(id, parent, n[parent])
-			// toggle off
-			if (n[parent] === Number(id)) {
-				n[parent] = null
-			} else { // toggle on
-				n[parent] = Number(id)
+			let parent = Number(idx)
+			while (parent >= 0) {
+				const replaced = n[parent]
+				// toggle off
+				if (n[parent] === Number(id)) {
+					n[parent] = null
+				} else { // toggle on
+					n[parent] = Number(id)
+				}
+				// don't fill to root
+				if (replaced == null) break
+
+				// check if parent is same as replaced
+				parent = Math.floor((parent - 1) / 2)
+				if (n[parent] != replaced) break
 			}
 
 			return n
