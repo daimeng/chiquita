@@ -1,9 +1,11 @@
 import './bracket.css'
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import DRAWS from './draws2024.json'
 import { playerById } from './idb'
+import { ISO3to2 } from './country-map'
+import { all_ratings } from './ratings'
 
-export function BracketMatch({ p1, p2, players, setPlayer, idx }) {
+export function BracketMatch({ p1, p2, players, setPlayer, idx, showRatings }) {
 	if (p1 === 0 || p2 === 0) {
 		return (
 			<div className="bracket-match bracket-hidden">
@@ -15,20 +17,40 @@ export function BracketMatch({ p1, p2, players, setPlayer, idx }) {
 	return (
 		<div className="bracket-match">
 			{p1 != null
-				? <div data-id={p1} data-idx={idx} onClick={setPlayer} className={`bracket-player ${players[idx] === p1 ? 'bracket-winner' : ''}`}>{playerById.get(p1).name}</div>
+				? <MatchPlayer playerid={p1} idx={idx} onClick={setPlayer} players={players} showRatings={showRatings} />
 				: <div className="bracket-player"></div>
 			}
 			{p2 != null
-				? <div data-id={p2} data-idx={idx} onClick={setPlayer} className={`bracket-player ${players[idx] === p2 ? 'bracket-winner' : ''}`}>{playerById.get(p2).name}</div>
+				? <MatchPlayer playerid={p2} idx={idx} onClick={setPlayer} players={players} showRatings={showRatings} />
 				: <div className="bracket-player"></div>
 			}
 		</div>
 	)
 }
 
+function MatchPlayer({ playerid, idx, onClick, players, showRatings }) {
+	const latest_ratings = all_ratings[all_ratings.length - 1]
+	const player = playerById.get(playerid)
+	const latest = latest_ratings.get(playerid)
+	let r = latest ? Math.floor(latest.rating) : 0
+	r = Math.min(Math.max(r - 1400, 100), 1000)
+
+	return (
+		<div data-id={playerid} data-idx={idx} onClick={onClick}
+			className={`bracket-player ${players[idx] === playerid ? 'bracket-winner' : ''}`}>
+			<span className={`fi fis fi-${ISO3to2[player.org]}`}></span>
+			<span className="bracket-text">
+				{" "}
+				{player.name}
+			</span>
+			{showRatings && <span className="bracket-ratings" style={{ backgroundPositionY: r }}>{latest && Math.floor(latest.rating)}</span>}
+		</div>
+	)
+}
+
 // [0, 1, 1, 2, 2, 2, 2]
 // 0, 1, 3, 7
-export function BracketRound({ r, players, setPlayer }) {
+export function BracketRound({ r, players, setPlayer, showRatings }) {
 	const match_count = r / 2
 	const base_idx = match_count - 1
 
@@ -43,6 +65,7 @@ export function BracketRound({ r, players, setPlayer }) {
 			idx={base_idx + i}
 			players={players}
 			setPlayer={setPlayer}
+			showRatings={showRatings}
 		/>
 	}
 
@@ -53,13 +76,13 @@ export function BracketRound({ r, players, setPlayer }) {
 	)
 }
 
-export function Bracket({ players, setPlayer }) {
+export function Bracket({ players, setPlayer, showRatings }) {
 	let roundof = (players.length + 1) / 2
 	const rounds = []
 	// roundof 2 is finals
 	while (roundof > 1) {
 		rounds.push(
-			<BracketRound r={roundof} key={roundof} players={players} setPlayer={setPlayer} />
+			<BracketRound r={roundof} key={roundof} players={players} setPlayer={setPlayer} showRatings={showRatings} />
 		)
 		roundof /= 2
 	}
@@ -75,6 +98,11 @@ export function Bracket({ players, setPlayer }) {
 
 export function BracketCard({ hideBracket, hasPrelims = true }) {
 	const draws = DRAWS.M
+	const [showRatings, setShowRatings] = useState(false)
+	const toggleRatings = useCallback(() => {
+		setShowRatings(r => !r)
+	}, [setShowRatings])
+
 	const [players, setPlayers] = useState(() => {
 		// check if prelims
 		let len = 0
@@ -132,11 +160,12 @@ export function BracketCard({ hideBracket, hasPrelims = true }) {
 	return (
 		<div className="bracket-card card">
 			<div className="card-header">
+				<div className="show-ratings" onClick={toggleRatings}>[{showRatings ? `x` : ' '}]show ratings</div>
 				<div className="card-close" onClick={hideBracket}>x</div>
 			</div>
 			<div className="card-content">
 				<div>
-					<Bracket players={players} draws={draws} setPlayer={setPlayer} />
+					<Bracket players={players} draws={draws} setPlayer={setPlayer} showRatings={showRatings} />
 				</div>
 			</div>
 		</div>

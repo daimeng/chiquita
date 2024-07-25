@@ -40,15 +40,29 @@
 }
 
 .bracket-player {
+	position: relative;
 	height: 16px;
 	border: 2px solid #ccc;
 	border-radius: 4px;
 	margin-top: -1px;
 	margin-bottom: -1px;
+	cursor: pointer;
+	word-break: keep-all;
+	white-space: nowrap;
+}
+
+.bracket-text {
 	overflow: hidden;
 	word-break: keep-all;
 	white-space: nowrap;
-	cursor: pointer;
+}
+
+.bracket-player:hover {
+	border-color: transparent;
+}
+
+.bracket-player:hover .bracket-text {
+	overflow: visible;
 }
 
 .bracket-hidden {
@@ -58,4 +72,19 @@
 
 .bracket-player.bracket-winner {
 	border-color: cornflowerblue;
+}
+
+.bracket-ratings {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: linear-gradient(crimson, cornflowerblue);
+	background-size: 100px 1000px;
+	background-repeat: norepeat;
+	border-radius: 3px;
+	color: white;
+}
+
+.show-ratings {
+	cursor: pointer;
 }
