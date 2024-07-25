@@ -31,12 +31,11 @@ export function BracketMatch({ p1, p2, players, setPlayer, idx }) {
 export function BracketRound({ r, players, setPlayer }) {
 	const match_count = r / 2
 	const base_idx = match_count - 1
-	const roundPlayers = players.slice(r - 1, r * 2 - 1)
-	if (r === 128) console.log(roundPlayers)
+
 	const matches = new Array(match_count)
 	for (let i = 0; i < match_count; i++) {
-		const a_id = roundPlayers[2 * i]
-		const x_id = roundPlayers[2 * i + 1]
+		const a_id = players[r - 1 + 2 * i]
+		const x_id = players[r + 2 * i]
 		matches[i] = <BracketMatch
 			key={i}
 			p1={a_id}
