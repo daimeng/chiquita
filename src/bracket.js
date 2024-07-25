@@ -12,16 +12,24 @@ export function BracketMatch({ p1, p2, hidden, winner, setWinner, idx }) {
 	)
 }
 
-export function PrelimRound({ prelims }) {
+export function PrelimRound({ prelims, winners, setWinner }) {
 	const matches = new Array(64)
 	for (let i = 0; i < 64; i++) {
 		if (prelims.has(i)) {
 			let [a_id, x_id] = prelims.get(i).split(':')
 			a_id = Number(a_id)
 			x_id = Number(x_id)
-			matches[i] = <BracketMatch key={i} hidden={false} p1={playerById.get(a_id).name} p2={playerById.get(x_id).name} />
+			matches[i] = <BracketMatch key={i} hidden={false}
+				p1={playerById.get(a_id).name} p2={playerById.get(x_id).name}
+				idx={64 + i}
+				winner={winners[64 + i]}
+				setWinner={setWinner}
+			/>
 		} else {
-			matches[i] = <BracketMatch key={i} hidden={true} p1='' p2='' />
+			matches[i] = <BracketMatch key={i} hidden={true} p1='' p2=''
+				winner={2}
+				setWinner={setWinner}
+			/>
 		}
 	}
 
@@ -81,7 +89,7 @@ export function Bracket({ winners, setWinner, draws }) {
 	return (
 		<>
 			<div className="bracket">
-				{prelims.size && <PrelimRound prelims={prelims} />}
+				{prelims.size && <PrelimRound prelims={prelims} winners={winners} setWinner={setWinner} />}
 				<BracketRound r={64} key={6} players={draws} winners={winners} setWinner={setWinner} />
 				<BracketRound r={32} key={5} winners={winners} setWinner={setWinner} />
 				<BracketRound r={16} key={4} winners={winners} setWinner={setWinner} />
@@ -100,7 +108,7 @@ export function BracketCard({ hideBracket }) {
 		for (let i = 1; i < draws.length; i *= 2) {
 			len += i
 		}
-		return new Array(len).fill(0)
+		return new Array(len).fill(2)
 	})
 
 	const setWinner = useCallback((e) => {
@@ -108,7 +116,13 @@ export function BracketCard({ hideBracket }) {
 		setWinners(w => {
 			const n = [...w]
 			console.log(idx, winner)
-			n[Number(idx)] = Number(winner)
+
+			// toggle off
+			if (n[Number(idx)] === Number(winner)) {
+				n[Number(idx)] = 2
+			} else { // toggle on
+				n[Number(idx)] = Number(winner)
+			}
 			return n
 		})
 	}, [setWinners])
