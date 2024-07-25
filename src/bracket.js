@@ -160,7 +160,7 @@ const BracketContent = forwardRef(({ event, showRatings, hidden }, ref) => {
 			if (Number.isInteger(draws[i])) {
 				p[idx] = draws[i]
 			} else {
-				const [a_id, x_id] = draws[i].split(':')
+				const [a_id, x_id] = draws[i]
 				p[idx] = null
 				p[idx * 2 + 1] = Number(a_id)
 				p[idx * 2 + 2] = Number(x_id)
