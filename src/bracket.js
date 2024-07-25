@@ -53,18 +53,21 @@ export function BracketRound({ r, players, setPlayer }) {
 	)
 }
 
-// winners is an Array of 0 or 1
 export function Bracket({ players, setPlayer }) {
+	let roundof = (players.length + 1) / 2
+	const rounds = []
+	// roundof 2 is finals
+	while (roundof > 1) {
+		rounds.push(
+			<BracketRound r={roundof} key={roundof} players={players} setPlayer={setPlayer} />
+		)
+		roundof /= 2
+	}
+
 	return (
 		<>
 			<div className="bracket">
-				<BracketRound r={128} key={7} players={players} setPlayer={setPlayer} />
-				<BracketRound r={64} key={6} players={players} setPlayer={setPlayer} />
-				<BracketRound r={32} key={5} players={players} setPlayer={setPlayer} />
-				<BracketRound r={16} key={4} players={players} setPlayer={setPlayer} />
-				<BracketRound r={8} key={3} players={players} setPlayer={setPlayer} />
-				<BracketRound r={4} key={2} players={players} setPlayer={setPlayer} />
-				<BracketRound r={2} key={1} players={players} setPlayer={setPlayer} />
+				{rounds}
 			</div>
 		</>
 	)
