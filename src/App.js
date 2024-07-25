@@ -8,7 +8,8 @@ import { all_ratings, init, rating_changes } from './ratings'
 import { auth, login, signUp } from './firebase'
 import { Login } from './login'
 import { PlayerCard } from './playercard'
-import { Bracket, BracketCard } from './bracket'
+import { BracketCard } from './bracket'
+import { useHash } from './hash'
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
   const [gender, setGender] = useState('M')
   const [maxdev, setMaxdev] = useState(100)
   const [openPlayers, setOpenPlayers] = useState([])
+  const [hash, setHash] = useHash()
   const [bracketOpen, setBracketOpen] = useState(false)
+  console.log(hash)
 
   useEffect(() => {
     init.then(() => {
