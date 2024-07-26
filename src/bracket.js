@@ -2,7 +2,7 @@ import './bracket.css'
 import { forwardRef, useCallback, useContext, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react'
 import DRAWS from './draws2024.json'
 import { playerById } from './idb'
-import { ISO3to2 } from './country-map'
+import { ISO3Name, ISO3to2 } from './country-map'
 import { all_ratings } from './ratings'
 
 export function BracketMatch({ RenderPlayer, p1, p2, players, setPlayer, idx, showRatings }) {
@@ -47,14 +47,14 @@ function MatchPlayer({ playerid, idx, onClick, players, showRatings }) {
 	)
 }
 
-function MatchDoubles({ playerid, idx, onClick, players }) {
-	const [a_id, b_id] = playerid.split(':')
+function MatchDoubles({ playerid: pairid, idx, onClick, players }) {
+	const [a_id, b_id] = pairid.split(':')
 	const a = playerById.get(Number(a_id))
 	const b = playerById.get(Number(b_id))
 
 	return (
-		<div data-id={playerid} data-idx={idx} onClick={onClick}
-			className={`bracket-player ${players[idx] === playerid ? 'bracket-winner' : ''}`}>
+		<div data-id={pairid} data-idx={idx} onClick={onClick}
+			className={`bracket-player ${players[idx] === pairid ? 'bracket-winner' : ''}`}>
 			<span className={`fi fis fi-${ISO3to2[a.org]}`}></span>
 			<span className="bracket-org">{a.org}</span>
 			{" "}
@@ -63,6 +63,17 @@ function MatchDoubles({ playerid, idx, onClick, players }) {
 	)
 }
 
+function MatchTeams({ playerid: country, idx, onClick, players }) {
+	return (
+		<div data-id={country} data-idx={idx} onClick={onClick}
+			className={`bracket-player ${players[idx] === country ? 'bracket-winner' : ''}`}>
+			<span className={`fi fis fi-${ISO3to2[country]}`}></span>
+			<span className="bracket-org">{country}</span>
+			{" "}
+			{ISO3Name[country]}
+		</div>
+	)
+}
 
 // [0, 1, 1, 2, 2, 2, 2]
 // 0, 1, 3, 7
@@ -167,18 +178,20 @@ export function BracketCard({ hideBracket }) {
 					showRatings={showRatings}
 					RenderPlayer={MatchDoubles}
 				/>
-				{/* <BracketContent
+				<BracketContent
 					ref={refMT}
 					hidden={event !== 'MT'}
 					event={'MT'}
 					showRatings={showRatings}
+					RenderPlayer={MatchTeams}
 				/>
 				<BracketContent
 					ref={refWT}
 					hidden={event !== 'WT'}
 					event={'WT'}
 					showRatings={showRatings}
-				/> */}
+					RenderPlayer={MatchTeams}
+				/>
 			</div>
 		</div>
 	)

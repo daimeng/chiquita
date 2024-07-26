@@ -246,3 +246,27 @@ export const ISO3toColor = {
     'MDV': 'aquamarine', // Maldives
     'PRK': 'steelblue',
 }
+
+export const ISO3Name = {
+    'CHN': 'China',
+    'EGY': 'Egypt',
+    'AUS': 'Australia',
+    'TPE': 'Taiwan',
+    'HKG': 'Hong Kong',
+    'SWE': 'Sweden',
+    'BRA': 'Brazil',
+    'KOR': 'South Korea',
+    'ROU': 'Romania',
+    'IND': 'India',
+    'USA': 'United States',
+    'GER': 'Germany',
+    'FRA': 'France',
+    'THA': 'Thailand',
+    'POL': 'Poland',
+    'JPN': 'Japan',
+    'CRO': 'Croatia',
+    'POR': 'Portugal',
+    'SLO': 'Slovenia',
+    'DEN': 'Denmark',
+    'CAN': 'Canada',
+}
