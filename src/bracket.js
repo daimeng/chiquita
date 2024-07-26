@@ -4,6 +4,7 @@ import DRAWS from './draws2024.json'
 import { playerById } from './idb'
 import { ISO3Name, ISO3to2 } from './country-map'
 import { all_ratings } from './ratings'
+import { decodePlayers, encodePlayers } from './encode'
 
 export function BracketMatch({ RenderPlayer, p1, p2, players, setPlayer, idx, showRatings }) {
 	if (p1 === 0 || p2 === 0) {
@@ -136,11 +137,21 @@ export function BracketCard({ hideBracket }) {
 		setShowRatings(r => !r)
 	}, [setShowRatings])
 
-	const refM = useRef(null)
-	const refW = useRef(null)
-	const refX = useRef(null)
-	const refMT = useRef(null)
-	const refWT = useRef(null)
+	const refs = {
+		M: useRef(null),
+		W: useRef(null),
+		X: useRef(null),
+		MT: useRef(null),
+		WT: useRef(null),
+	}
+
+	const data = {
+		M: localStorage.getItem('bracket-2024-M'),
+		W: localStorage.getItem('bracket-2024-W'),
+		X: localStorage.getItem('bracket-2024-X'),
+		MT: localStorage.getItem('bracket-2024-MT'),
+		WT: localStorage.getItem('bracket-2024-WT'),
+	}
 
 	return (
 		<div className="bracket-card card">
@@ -152,42 +163,47 @@ export function BracketCard({ hideBracket }) {
 				</div>
 				<div className="show-ratings" onClick={toggleRatings}>[{showRatings ? `x` : ' '}]show ratings</div>
 				<button type="button" className="export-brackets" onClick={() => {
-					refWT.current.getCode()
+					refs['WT'].current.getCode()
 				}}>Export</button>
 				<div className="card-close" onClick={hideBracket}>x</div>
 			</div>
 			<div className="card-content">
 				<BracketContent
-					ref={refM}
+					ref={refs['M']}
+					initData={data['M']}
 					hidden={event !== 'M'}
 					event={'M'}
 					showRatings={showRatings}
 					RenderPlayer={MatchPlayer}
 				/>
 				<BracketContent
-					ref={refW}
+					ref={refs['W']}
+					initData={data['W']}
 					hidden={event !== 'W'}
 					event={'W'}
 					showRatings={showRatings}
 					RenderPlayer={MatchPlayer}
 				/>
 				<BracketContent
-					className="bracket-doubles"
-					ref={refX}
+					className="bracket-X"
+					ref={refs['X']}
+					initData={data['X']}
 					hidden={event !== 'X'}
 					event={'X'}
 					showRatings={showRatings}
 					RenderPlayer={MatchDoubles}
 				/>
 				<BracketContent
-					ref={refMT}
+					ref={refs['MT']}
+					initData={data['MT']}
 					hidden={event !== 'MT'}
 					event={'MT'}
 					showRatings={showRatings}
 					RenderPlayer={MatchTeams}
 				/>
 				<BracketContent
-					ref={refWT}
+					ref={refs['WT']}
+					initData={data['WT']}
 					hidden={event !== 'WT'}
 					event={'WT'}
 					showRatings={showRatings}
@@ -198,7 +214,7 @@ export function BracketCard({ hideBracket }) {
 	)
 }
 
-const BracketContent = forwardRef(({ className, RenderPlayer, event, showRatings, hidden }, ref) => {
+const BracketContent = forwardRef(({ initData, className, RenderPlayer, event, showRatings, hidden }, ref) => {
 	const draws = DRAWS[event]
 
 	const [players, setPlayers] = useState(() => {
@@ -219,6 +235,17 @@ const BracketContent = forwardRef(({ className, RenderPlayer, event, showRatings
 				p[idx * 2 + 2] = String(x_id)
 			} else {
 				p[idx] = String(draws[i])
+			}
+		}
+
+		if (initData) {
+			const winners = decodePlayers(initData)
+
+			// apply winners from bottom up in reverse
+			for (let i = winners.length - 1; i >= 0; i--) {
+				if (winners[i] !== 2) {
+					p[i] = p[2 * i + 1 + winners[i]]
+				}
 			}
 		}
 		return p
@@ -246,28 +273,14 @@ const BracketContent = forwardRef(({ className, RenderPlayer, event, showRatings
 				if (n[parent] != replaced) break
 			}
 
+			localStorage.setItem(`bracket-2024-${event}`, encodePlayers(n))
 			return n
 		})
 	}, [setPlayers])
 
 	useImperativeHandle(ref, () => ({
 		getCode() {
-			const len = (players.length + 1) / 2
-			const code = new Uint8Array(len)
-
-			for (let i = 1; i < len; i++) {
-				if (players[2 * i - 1] === players[i - 1]) {
-					console.log(i, players[i - 1], players[2 * i - 1])
-					code[i - 1] = 0
-				} else if (players[2 * i] === players[i - 1]) {
-					console.log(i, players[i - 1], players[2 * i])
-					code[i - 1] = 1
-				} else {
-					code[i - 1] = 2
-				}
-			}
-
-			return code
+			return encodePlayers(players)
 		}
 	}), [players])
 
