@@ -21,9 +21,8 @@ function App() {
   const [gender, setGender] = useState('M')
   const [maxdev, setMaxdev] = useState(100)
   const [openPlayers, setOpenPlayers] = useState([])
-  const [hash, setHash] = useHash()
+  // const [hash, setHash] = useHash()
   const [bracketOpen, setBracketOpen] = useState(false)
-  console.log(hash)
 
   useEffect(() => {
     init.then(() => {

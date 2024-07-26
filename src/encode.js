@@ -33,3 +33,38 @@ export function encodePlayers(players) {
     return btoa(String.fromCharCode.apply(null, packed))
 }
 
+export function playersFromDraw(draws) {
+    // 1 + 2 + 4 + 8 + 16 + 32
+    const draw_idx = draws.length - 1
+
+    const p = new Array(draws.length * 2 - 1).fill(null)
+
+    // add prelims
+    p.push(...new Array(draws.length * 2).fill(0))
+
+    for (let i = 0; i < draws.length; i++) {
+        const idx = draw_idx + i
+        if (Array.isArray(draws[i])) {
+            const [a_id, x_id] = draws[i]
+            p[idx] = null
+            p[idx * 2 + 1] = String(a_id)
+            p[idx * 2 + 2] = String(x_id)
+        } else {
+            p[idx] = String(draws[i])
+        }
+    }
+
+    return p
+}
+
+export function hydratePlayers(p, data) {
+    const winners = decodePlayers(data)
+
+    // apply winners from bottom up in reverse
+    for (let i = winners.length - 1; i >= 0; i--) {
+        if (winners[i] !== 2) {
+            p[i] = p[2 * i + 1 + winners[i]]
+        }
+    }
+}
+

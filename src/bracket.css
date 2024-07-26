@@ -122,6 +122,7 @@
 
 .export-brackets {
 	position: relative;
+	cursor: copy;
 }
 
 .tooltip {
@@ -138,8 +139,33 @@
 
 .tooltip-header {
 	font-size: 16px;
+	cursor: pointer;
 }
 
 .tooltip.shown {
 	display: block;
+}
+
+.leaderboard {
+	margin-top: 12px;
+	border-collapse: collapse;
+}
+
+.leaderboard th {
+	padding: 8px;
+}
+
+.leaderboard tbody tr {
+	border: 2px dashed slateblue;
+	background-color: #fefefe;
+	cursor: zoom-in;
+}
+
+.leaderboard tbody tr:hover {
+	border: 2px solid slateblue;
+	background-color: ghostwhite;
+}
+
+.leaderboard td {
+	padding: 8px;
 }

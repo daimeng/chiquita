@@ -4,7 +4,7 @@ import DRAWS from './draws2024.json'
 import { playerById } from './idb'
 import { ISO3Name, ISO3to2 } from './country-map'
 import { all_ratings } from './ratings'
-import { decodePlayers, encodePlayers } from './encode'
+import { encodePlayers, hydratePlayers, playersFromDraw } from './encode'
 
 export function BracketMatch({ RenderPlayer, p1, p2, players, setPlayer, idx, showRatings }) {
 	if (p1 === 0 || p2 === 0) {
@@ -137,6 +137,8 @@ export function BracketCard({ hideBracket }) {
 		setShowRatings(r => !r)
 	}, [setShowRatings])
 
+	const [tab, setTab] = useState('brackets')
+
 	const refs = {
 		M: useRef(null),
 		W: useRef(null),
@@ -156,77 +158,90 @@ export function BracketCard({ hideBracket }) {
 	return (
 		<div className="bracket-card card">
 			<div className="card-header">
-				<div className="bracket-event">
-					{EVENTS.map(e =>
-						<button type="button" key={e} className={e === event ? `active` : ''} onClick={() => setEvent(e)}>{e}</button>
-					)}
-				</div>
-				<div className="show-ratings" onClick={toggleRatings}>[{showRatings ? `x` : ' '}]show ratings</div>
-				<button type="button" className="export-brackets" onClick={() => {
-					let ret = ''
-					for (let ev of EVENTS) {
-						ret += `${ev}:${refs[ev].current.getCode()}\n`
-					}
-					document.querySelector('.export-brackets .tooltip').classList.add('shown')
-					document.querySelector('.export-brackets .tooltip-content').innerText = ret
-					navigator.clipboard.writeText(ret)
-				}}>
-					Export
-					<div className="tooltip">
-						<div className="tooltip-header">
-							Copied to Clipboard!
-							<span onClick={(e) => {
-								e.stopPropagation()
-								document.querySelector('.export-brackets .tooltip').classList.remove('shown')
-							}}>{' [x]'}</span>
-						</div>
-						<div className="tooltip-content"></div>
+				{tab === 'brackets' && <>
+					<div className="bracket-event">
+						{EVENTS.map(e =>
+							<button type="button" key={e} className={e === event ? `active` : ''} onClick={() => setEvent(e)}>{e}</button>
+						)}
 					</div>
-				</button>
+					<div className="show-ratings" onClick={toggleRatings}>[{showRatings ? `x` : ' '}]show ratings</div>
+					<button type="button" className="export-brackets" onClick={() => {
+						let ret = ''
+						for (let ev of EVENTS) {
+							ret += `${ev}:${refs[ev].current.getCode()}\n`
+						}
+						document.querySelector('.export-brackets .tooltip').classList.add('shown')
+						document.querySelector('.export-brackets .tooltip-content').innerText = ret
+						navigator.clipboard.writeText(ret)
+					}}>
+						Export
+						<div className="tooltip">
+							<div className="tooltip-header">
+								Copied to Clipboard!
+								<span onClick={(e) => {
+									e.stopPropagation()
+									document.querySelector('.export-brackets .tooltip').classList.remove('shown')
+								}}>{' [x]'}</span>
+							</div>
+							<div className="tooltip-content"></div>
+						</div>
+					</button>
+					<button onClick={() => setTab('leaderboard')}>
+						Leaderboard
+					</button>
+				</>}
+				{tab === 'leaderboard' && <>
+					<button onClick={() => setTab('brackets')}>
+						My Brackets
+					</button>
+				</>}
 				<div className="card-close" onClick={hideBracket}>x</div>
 			</div>
 			<div className="card-content">
-				<BracketContent
-					ref={refs['M']}
-					initData={data['M']}
-					hidden={event !== 'M'}
-					event={'M'}
-					showRatings={showRatings}
-					RenderPlayer={MatchPlayer}
-				/>
-				<BracketContent
-					ref={refs['W']}
-					initData={data['W']}
-					hidden={event !== 'W'}
-					event={'W'}
-					showRatings={showRatings}
-					RenderPlayer={MatchPlayer}
-				/>
-				<BracketContent
-					className="bracket-X"
-					ref={refs['X']}
-					initData={data['X']}
-					hidden={event !== 'X'}
-					event={'X'}
-					showRatings={showRatings}
-					RenderPlayer={MatchDoubles}
-				/>
-				<BracketContent
-					ref={refs['MT']}
-					initData={data['MT']}
-					hidden={event !== 'MT'}
-					event={'MT'}
-					showRatings={showRatings}
-					RenderPlayer={MatchTeams}
-				/>
-				<BracketContent
-					ref={refs['WT']}
-					initData={data['WT']}
-					hidden={event !== 'WT'}
-					event={'WT'}
-					showRatings={showRatings}
-					RenderPlayer={MatchTeams}
-				/>
+				{tab === 'brackets' && <>
+					<BracketContent
+						ref={refs['M']}
+						initData={data['M']}
+						hidden={event !== 'M'}
+						event={'M'}
+						showRatings={showRatings}
+						RenderPlayer={MatchPlayer}
+					/>
+					<BracketContent
+						ref={refs['W']}
+						initData={data['W']}
+						hidden={event !== 'W'}
+						event={'W'}
+						showRatings={showRatings}
+						RenderPlayer={MatchPlayer}
+					/>
+					<BracketContent
+						className="bracket-X"
+						ref={refs['X']}
+						initData={data['X']}
+						hidden={event !== 'X'}
+						event={'X'}
+						showRatings={showRatings}
+						RenderPlayer={MatchDoubles}
+					/>
+					<BracketContent
+						ref={refs['MT']}
+						initData={data['MT']}
+						hidden={event !== 'MT'}
+						event={'MT'}
+						showRatings={showRatings}
+						RenderPlayer={MatchTeams}
+					/>
+					<BracketContent
+						ref={refs['WT']}
+						initData={data['WT']}
+						hidden={event !== 'WT'}
+						event={'WT'}
+						showRatings={showRatings}
+						RenderPlayer={MatchTeams}
+					/>
+				</>}
+				{tab === 'leaderboard' && <Leaderboard />}
 			</div>
 		</div>
 	)
@@ -236,36 +251,9 @@ const BracketContent = forwardRef(({ initData, className, RenderPlayer, event, s
 	const draws = DRAWS[event]
 
 	const [players, setPlayers] = useState(() => {
-		// 1 + 2 + 4 + 8 + 16 + 32
-		const draw_idx = draws.length - 1
+		const p = playersFromDraw(draws)
 
-		const p = new Array(draws.length * 2 - 1).fill(null)
-
-		// add prelims
-		p.push(...new Array(draws.length * 2).fill(0))
-
-		for (let i = 0; i < draws.length; i++) {
-			const idx = draw_idx + i
-			if (Array.isArray(draws[i])) {
-				const [a_id, x_id] = draws[i]
-				p[idx] = null
-				p[idx * 2 + 1] = String(a_id)
-				p[idx * 2 + 2] = String(x_id)
-			} else {
-				p[idx] = String(draws[i])
-			}
-		}
-
-		if (initData) {
-			const winners = decodePlayers(initData)
-
-			// apply winners from bottom up in reverse
-			for (let i = winners.length - 1; i >= 0; i--) {
-				if (winners[i] !== 2) {
-					p[i] = p[2 * i + 1 + winners[i]]
-				}
-			}
-		}
+		if (initData) hydratePlayers(p, initData)
 		return p
 	})
 
@@ -308,3 +296,155 @@ const BracketContent = forwardRef(({ initData, className, RenderPlayer, event, s
 		</div>
 	)
 })
+
+
+function Leaderboard() {
+	const [brackets, setBrackets] = useState([])
+
+
+	useEffect(() => {
+		(async () => {
+			const draws_cache = {
+				M: playersFromDraw(DRAWS.M),
+				W: playersFromDraw(DRAWS.W),
+				X: playersFromDraw(DRAWS.X),
+				MT: playersFromDraw(DRAWS.MT),
+				WT: playersFromDraw(DRAWS.WT),
+			}
+
+			const resp = await fetch(`https://gist.githubusercontent.com/daimeng/1dbb47917e25458719f44c917756af7e/raw/brackets.json?c=${Math.floor(Date.now() / 1000)}`)
+			const data = await resp.json()
+
+			// convert data
+			for (let i = 0; i < data.length; i++) {
+				data[i].players = {
+					M: [...draws_cache.M],
+					W: [...draws_cache.W],
+					X: [...draws_cache.X],
+					MT: [...draws_cache.MT],
+					WT: [...draws_cache.WT],
+				}
+
+				if (data[i].M)
+					hydratePlayers(data[i].players.M, data[i].M)
+				if (data[i].W)
+					hydratePlayers(data[i].players.W, data[i].W)
+				if (data[i].X)
+					hydratePlayers(data[i].players.X, data[i].X)
+				if (data[i].MT)
+					hydratePlayers(data[i].players.MT, data[i].MT)
+				if (data[i].WT)
+					hydratePlayers(data[i].players.WT, data[i].WT)
+			}
+			setBrackets(data)
+		})()
+	}, [setBrackets])
+
+	return (
+		<div className="leaderboard-tab">
+			<table className="leaderboard">
+				<thead>
+					<tr>
+						<th>User</th>
+						<th>Mens</th>
+						<th>Womens</th>
+						<th>Doubles</th>
+						<th>TeamsM</th>
+						<th>TeamsW</th>
+						<th>Updated</th>
+					</tr>
+				</thead>
+				<tbody>
+					{brackets.map(bracket => {
+						const { M, W, X, MT, WT } = bracket.players
+
+						return (
+							<tr key={bracket.user}>
+								<td>{bracket.user}</td>
+								<SinglesWinners p={M} />
+								<SinglesWinners p={W} />
+								<DoublesWinners p={X} />
+								<TeamWinners p={MT} />
+								<TeamWinners p={WT} />
+								<td>{bracket.updated_at}</td>
+							</tr>
+						)
+					})}
+				</tbody>
+			</table>
+		</div>
+	)
+}
+
+function SinglesWinners({ p }) {
+	return <td>
+		<div>
+			{p[0] && <span className={`fi fi-${ISO3to2[playerById.get(Number(p[0])).org]} fis`}></span>}
+			{p[0] && playerById.get(Number(p[0])).name}
+		</div>
+		{p[1] !== p[0] && <div>
+			{p[1] && <span className={`fi fi-${ISO3to2[playerById.get(Number(p[1])).org]} fis`}></span>}
+			{p[1] && playerById.get(Number(p[1])).name}
+		</div>}
+		{p[2] !== p[0] && <div>
+			{p[2] && <span className={`fi fi-${ISO3to2[playerById.get(Number(p[2])).org]} fis`}></span>}
+			{p[2] && playerById.get(Number(p[2])).name}
+		</div>}
+	</td>
+}
+
+function DoublesWinners({ p }) {
+	let a, a2, b, b2
+	if (p[0]) {
+		const [a_id, b_id] = p[0].split(':')
+		a = playerById.get(Number(a_id))
+		b = playerById.get(Number(b_id))
+	}
+
+	let second = null
+	if (p[1] && p[1] !== p[0]) {
+		const [a_id, b_id] = p[1].split(':')
+		a2 = playerById.get(Number(a_id))
+		b2 = playerById.get(Number(b_id))
+		second = <div>
+			<span className={`fi fi-${ISO3to2[a2.org]} fis`}></span>
+			{a2.name}/{b2.name}
+		</div>
+	}
+
+	if (p[2] && p[2] !== p[0]) {
+		const [a_id, b_id] = p[2].split(':')
+		a2 = playerById.get(Number(a_id))
+		b2 = playerById.get(Number(b_id))
+		second = <div>
+			<span className={`fi fi-${ISO3to2[a2.org]} fis`}></span>
+			{a2.name}/{b2.name}
+		</div>
+	}
+
+	return <td>
+		<div>
+			{p[0] && <span className={`fi fi-${ISO3to2[a.org]} fis`}></span>}
+			{p[0] && `${a.name}/${b.name}`}
+		</div>
+		{second}
+	</td>
+}
+
+function TeamWinners({ p }) {
+	return <td>
+		<div>
+			{p[0] && <span className={`fi fi-${ISO3to2[p[0]]} fis`}></span>}
+			{p[0]}
+		</div>
+		{p[0] !== p[1] && <div>
+			{p[1] && <span className={`fi fi-${ISO3to2[p[1]]} fis`}></span>}
+			{p[1]}
+		</div>}
+		{p[0] !== p[2] && <div>
+			{p[2] && <span className={`fi fi-${ISO3to2[p[2]]} fis`}></span>}
+			{p[2]}
+		</div>}
+	</td>
+
+}
