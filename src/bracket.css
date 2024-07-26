@@ -10,7 +10,7 @@
 }
 
 .bracket-card {
-	background-color: #fefefe;
+	background-color: whitesmoke;
 	color: #222;
 }
 
@@ -30,7 +30,7 @@
 	justify-content: space-around;
 	width: 148px;
 	margin-left: -2px;
-	border: 2px dotted #eee;
+	border: 2px dotted rgb(234, 226, 238);
 	border-top: none;
 	border-bottom: none;
 }
@@ -52,6 +52,7 @@
 	white-space: nowrap;
 	box-sizing: border-box;
 	line-height: 18px;
+	background-color: #fefefe;
 }
 
 .bracket-doubles .bracket-round {

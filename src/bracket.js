@@ -29,9 +29,11 @@ export function BracketMatch({ RenderPlayer, p1, p2, players, setPlayer, idx, sh
 }
 
 function MatchPlayer({ playerid, idx, onClick, players, showRatings }) {
+	console.log(playerid)
+	const pid = Number(playerid)
 	const latest_ratings = all_ratings[all_ratings.length - 1]
-	const player = playerById.get(Number(playerid))
-	const latest = latest_ratings.get(playerid)
+	const player = playerById.get(pid)
+	const latest = latest_ratings.get(pid)
 	let r = latest ? Math.floor(latest.rating) : 0
 	r = Math.min(Math.max(r - 1400, 100), 1000)
 
@@ -217,7 +219,7 @@ const BracketContent = forwardRef(({ className, RenderPlayer, event, showRatings
 				p[idx * 2 + 1] = String(a_id)
 				p[idx * 2 + 2] = String(x_id)
 			} else {
-				p[idx] = draws[i]
+				p[idx] = String(draws[i])
 			}
 		}
 		return p
@@ -225,7 +227,6 @@ const BracketContent = forwardRef(({ className, RenderPlayer, event, showRatings
 
 	const setPlayer = useCallback((e) => {
 		const { idx, id } = e.target.dataset
-		console.log(idx, id)
 		setPlayers(p => {
 			const n = [...p]
 
