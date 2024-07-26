@@ -29,7 +29,6 @@ export function BracketMatch({ RenderPlayer, p1, p2, players, setPlayer, idx, sh
 }
 
 function MatchPlayer({ playerid, idx, onClick, players, showRatings }) {
-	console.log(playerid)
 	const pid = Number(playerid)
 	const latest_ratings = all_ratings[all_ratings.length - 1]
 	const player = playerById.get(pid)
@@ -153,7 +152,7 @@ export function BracketCard({ hideBracket }) {
 				</div>
 				<div className="show-ratings" onClick={toggleRatings}>[{showRatings ? `x` : ' '}]show ratings</div>
 				<button type="button" className="export-brackets" onClick={() => {
-					refM.current.getCode()
+					refWT.current.getCode()
 				}}>Export</button>
 				<div className="card-close" onClick={hideBracket}>x</div>
 			</div>
@@ -253,7 +252,22 @@ const BracketContent = forwardRef(({ className, RenderPlayer, event, showRatings
 
 	useImperativeHandle(ref, () => ({
 		getCode() {
-			console.log(players)
+			const len = (players.length + 1) / 2
+			const code = new Uint8Array(len)
+
+			for (let i = 1; i < len; i++) {
+				if (players[2 * i - 1] === players[i - 1]) {
+					console.log(i, players[i - 1], players[2 * i - 1])
+					code[i - 1] = 0
+				} else if (players[2 * i] === players[i - 1]) {
+					console.log(i, players[i - 1], players[2 * i])
+					code[i - 1] = 1
+				} else {
+					code[i - 1] = 2
+				}
+			}
+
+			return code
 		}
 	}), [players])
 
