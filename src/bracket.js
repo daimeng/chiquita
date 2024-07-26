@@ -163,8 +163,26 @@ export function BracketCard({ hideBracket }) {
 				</div>
 				<div className="show-ratings" onClick={toggleRatings}>[{showRatings ? `x` : ' '}]show ratings</div>
 				<button type="button" className="export-brackets" onClick={() => {
-					refs['WT'].current.getCode()
-				}}>Export</button>
+					let ret = ''
+					for (let ev of EVENTS) {
+						ret += `${ev}:${refs[ev].current.getCode()}\n`
+					}
+					document.querySelector('.export-brackets .tooltip').classList.add('shown')
+					document.querySelector('.export-brackets .tooltip-content').innerText = ret
+					navigator.clipboard.writeText(ret)
+				}}>
+					Export
+					<div className="tooltip">
+						<div className="tooltip-header">
+							Copied to Clipboard!
+							<span onClick={(e) => {
+								e.stopPropagation()
+								document.querySelector('.export-brackets .tooltip').classList.remove('shown')
+							}}>{' [x]'}</span>
+						</div>
+						<div className="tooltip-content"></div>
+					</div>
+				</button>
 				<div className="card-close" onClick={hideBracket}>x</div>
 			</div>
 			<div className="card-content">
