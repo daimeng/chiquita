@@ -301,7 +301,7 @@ const BracketContent = forwardRef(({ initData, className, RenderPlayer, event, s
 
 function Leaderboard() {
 	const [brackets, setBrackets] = useState([])
-
+	const [selected, setSelected] = useState(null)
 
 	useEffect(() => {
 		(async () => {
@@ -341,9 +341,15 @@ function Leaderboard() {
 		})()
 	}, [setBrackets])
 
+	const showBracket = useCallback((e) => {
+		const { idx, event } = e.target.dataset
+		setSelected({ idx: Number(idx), event })
+	}, [setSelected])
+
 	return (
 		<div className="leaderboard-tab">
-			<table className="leaderboard">
+			{selected != null && <div className="close-selection" onClick={() => setSelected(null)}>{"<< GO BACK"}</div>}
+			{selected == null && <table className="leaderboard">
 				<thead>
 					<tr>
 						<th>User</th>
@@ -356,23 +362,44 @@ function Leaderboard() {
 					</tr>
 				</thead>
 				<tbody>
-					{brackets.map(bracket => {
+					{brackets.map((bracket, i) => {
 						const { M, W, X, MT, WT } = bracket.players
 
 						return (
 							<tr key={bracket.user}>
 								<td>{bracket.user}</td>
-								<SinglesWinners p={M} />
-								<SinglesWinners p={W} />
-								<DoublesWinners p={X} />
-								<TeamWinners p={MT} />
-								<TeamWinners p={WT} />
+								<SinglesWinners idx={i} event={'M'} onClick={showBracket} p={M} />
+								<SinglesWinners idx={i} event={'W'} onClick={showBracket} p={W} />
+								<DoublesWinners idx={i} event={'X'} onClick={showBracket} p={X} />
+								<TeamWinners idx={i} event={'MT'} onClick={showBracket} p={MT} />
+								<TeamWinners idx={i} event={'WT'} onClick={showBracket} p={WT} />
 								<td>{bracket.updated_at}</td>
 							</tr>
 						)
 					})}
 				</tbody>
-			</table>
+			</table>}
+			{selected != null &&
+				<BracketView
+					players={brackets[selected.idx].players[selected.event]}
+					event={selected.event}
+				/>
+			}
+		</div>
+	)
+}
+
+const EMPTY = () => null
+
+function BracketView({ players, className, event }) {
+	let RenderPlayer = MatchPlayer
+	if (event === 'X') RenderPlayer = MatchDoubles
+	else if (event === 'MT' || event === 'WT') RenderPlayer = MatchTeams
+
+	return (
+		<div className={`${className}`}>
+			<Bracket
+				RenderPlayer={RenderPlayer} players={players} setPlayer={EMPTY} showRatings={false} />
 		</div>
 	)
 }

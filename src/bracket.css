@@ -168,3 +168,23 @@
 .leaderboard td {
 	padding: 8px;
 }
+
+.leaderboard td * {
+	pointer-events: none;
+}
+
+.leaderboard td:hover {
+	background-color: rgb(204, 204, 243);
+}
+
+.leaderboard-tab {
+	position: relative;
+}
+
+.close-selection {
+	font-size: 18px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

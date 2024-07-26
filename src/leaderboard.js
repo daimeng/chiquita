@@ -1,8 +1,8 @@
 import { ISO3to2 } from "./country-map"
 import { playerById } from "./idb"
 
-export function SinglesWinners({ p }) {
-    return <td>
+export function SinglesWinners({ p, idx, event, onClick }) {
+    return <td data-idx={idx} data-event={event} onClick={onClick}>
         <div>
             {p[0] && <span className={`fi fi-${ISO3to2[playerById.get(Number(p[0])).org]} fis`}></span>}
             {p[0] && playerById.get(Number(p[0])).name}
@@ -18,7 +18,7 @@ export function SinglesWinners({ p }) {
     </td>
 }
 
-export function DoublesWinners({ p }) {
+export function DoublesWinners({ p, idx, event, onClick }) {
     let a, a2, b, b2
     if (p[0]) {
         const [a_id, b_id] = p[0].split(':')
@@ -47,7 +47,7 @@ export function DoublesWinners({ p }) {
         </div>
     }
 
-    return <td>
+    return <td data-idx={idx} data-event={event} onClick={onClick}>
         <div>
             {p[0] && <span className={`fi fi-${ISO3to2[a.org]} fis`}></span>}
             {p[0] && `${a.name}/${b.name}`}
@@ -56,8 +56,8 @@ export function DoublesWinners({ p }) {
     </td>
 }
 
-export function TeamWinners({ p }) {
-    return <td>
+export function TeamWinners({ p, idx, event, onClick }) {
+    return <td data-idx={idx} data-event={event} onClick={onClick}>
         <div>
             {p[0] && <span className={`fi fi-${ISO3to2[p[0]]} fis`}></span>}
             {p[0]}
