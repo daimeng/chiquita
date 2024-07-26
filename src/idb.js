@@ -22,7 +22,7 @@ for (let i = 0; i < tournaments.length; i++) {
 	tournaments[i].StartDate = tournaments[i].StartDateTime.slice(0, 10)
 	tournamentById.set(tournaments[i].EventId, tournaments[i])
 }
-2
+
 export const initDB = async () => {
 	// await deleteDB(DBNAME)
 	const db = await openDB(DBNAME, 1, {
