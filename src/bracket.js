@@ -5,7 +5,7 @@ import { playerById } from './idb'
 import { ISO3to2 } from './country-map'
 import { all_ratings } from './ratings'
 
-export function BracketMatch({ p1, p2, players, setPlayer, idx, showRatings }) {
+export function BracketMatch({ RenderPlayer, p1, p2, players, setPlayer, idx, showRatings }) {
 	if (p1 === 0 || p2 === 0) {
 		return (
 			<div className="bracket-match bracket-hidden">
@@ -17,11 +17,11 @@ export function BracketMatch({ p1, p2, players, setPlayer, idx, showRatings }) {
 	return (
 		<div className="bracket-match">
 			{p1 != null
-				? <MatchPlayer playerid={p1} idx={idx} onClick={setPlayer} players={players} showRatings={showRatings} />
+				? <RenderPlayer playerid={p1} idx={idx} onClick={setPlayer} players={players} showRatings={showRatings} />
 				: <div className="bracket-player"></div>
 			}
 			{p2 != null
-				? <MatchPlayer playerid={p2} idx={idx} onClick={setPlayer} players={players} showRatings={showRatings} />
+				? <RenderPlayer playerid={p2} idx={idx} onClick={setPlayer} players={players} showRatings={showRatings} />
 				: <div className="bracket-player"></div>
 			}
 		</div>
@@ -30,7 +30,7 @@ export function BracketMatch({ p1, p2, players, setPlayer, idx, showRatings }) {
 
 function MatchPlayer({ playerid, idx, onClick, players, showRatings }) {
 	const latest_ratings = all_ratings[all_ratings.length - 1]
-	const player = playerById.get(playerid)
+	const player = playerById.get(Number(playerid))
 	const latest = latest_ratings.get(playerid)
 	let r = latest ? Math.floor(latest.rating) : 0
 	r = Math.min(Math.max(r - 1400, 100), 1000)
@@ -47,9 +47,26 @@ function MatchPlayer({ playerid, idx, onClick, players, showRatings }) {
 	)
 }
 
+function MatchDoubles({ playerid, idx, onClick, players }) {
+	const [a_id, b_id] = playerid.split(':')
+	const a = playerById.get(Number(a_id))
+	const b = playerById.get(Number(b_id))
+
+	return (
+		<div data-id={playerid} data-idx={idx} onClick={onClick}
+			className={`bracket-player ${players[idx] === playerid ? 'bracket-winner' : ''}`}>
+			<span className={`fi fis fi-${ISO3to2[a.org]}`}></span>
+			<span className="bracket-org">{a.org}</span>
+			{" "}
+			{a.name}/{b.name}
+		</div>
+	)
+}
+
+
 // [0, 1, 1, 2, 2, 2, 2]
 // 0, 1, 3, 7
-export function BracketRound({ r, players, setPlayer, showRatings }) {
+export function BracketRound({ RenderPlayer, r, players, setPlayer, showRatings }) {
 	const match_count = r / 2
 	const base_idx = match_count - 1
 
@@ -57,6 +74,7 @@ export function BracketRound({ r, players, setPlayer, showRatings }) {
 	for (let i = 0; i < match_count; i++) {
 		const a_id = players[r - 1 + 2 * i]
 		const x_id = players[r + 2 * i]
+
 		matches[i] = <BracketMatch
 			key={i}
 			p1={a_id}
@@ -65,6 +83,7 @@ export function BracketRound({ r, players, setPlayer, showRatings }) {
 			players={players}
 			setPlayer={setPlayer}
 			showRatings={showRatings}
+			RenderPlayer={RenderPlayer}
 		/>
 	}
 
@@ -75,13 +94,16 @@ export function BracketRound({ r, players, setPlayer, showRatings }) {
 	)
 }
 
-export function Bracket({ players, setPlayer, showRatings }) {
+export function Bracket({ RenderPlayer, players, setPlayer, showRatings }) {
 	let roundof = (players.length + 1) / 2
 	const rounds = []
 	// roundof 2 is finals
 	while (roundof > 1) {
 		rounds.push(
-			<BracketRound r={roundof} key={roundof} players={players} setPlayer={setPlayer} showRatings={showRatings} />
+			<BracketRound
+				r={roundof} key={roundof}
+				RenderPlayer={RenderPlayer}
+				players={players} setPlayer={setPlayer} showRatings={showRatings} />
 		)
 		roundof /= 2
 	}
@@ -104,7 +126,9 @@ export function BracketCard({ hideBracket }) {
 
 	const refM = useRef(null)
 	const refW = useRef(null)
-	console.log(refM)
+	const refX = useRef(null)
+	const refMT = useRef(null)
+	const refWT = useRef(null)
 
 	return (
 		<div className="bracket-card card">
@@ -126,44 +150,61 @@ export function BracketCard({ hideBracket }) {
 					hidden={event !== 'M'}
 					event={'M'}
 					showRatings={showRatings}
+					RenderPlayer={MatchPlayer}
 				/>
 				<BracketContent
 					ref={refW}
 					hidden={event !== 'W'}
 					event={'W'}
 					showRatings={showRatings}
+					RenderPlayer={MatchPlayer}
 				/>
+				<BracketContent
+					className="bracket-doubles"
+					ref={refX}
+					hidden={event !== 'X'}
+					event={'X'}
+					showRatings={showRatings}
+					RenderPlayer={MatchDoubles}
+				/>
+				{/* <BracketContent
+					ref={refMT}
+					hidden={event !== 'MT'}
+					event={'MT'}
+					showRatings={showRatings}
+				/>
+				<BracketContent
+					ref={refWT}
+					hidden={event !== 'WT'}
+					event={'WT'}
+					showRatings={showRatings}
+				/> */}
 			</div>
 		</div>
 	)
 }
 
-const BracketContent = forwardRef(({ event, showRatings, hidden }, ref) => {
+const BracketContent = forwardRef(({ className, RenderPlayer, event, showRatings, hidden }, ref) => {
 	const draws = DRAWS[event]
 
 	const [players, setPlayers] = useState(() => {
-		// check if prelims
-		let len = 0
-		for (let i = 1; i <= draws.length; i *= 2) {
-			len += i
-		}
 		// 1 + 2 + 4 + 8 + 16 + 32
 		const draw_idx = draws.length - 1
 
-		const p = new Array(len).fill(null)
-		if (event === 'M' || event === 'W') {
-			p.push(...new Array(128).fill(0))
-		}
+		const p = new Array(draws.length * 2 - 1).fill(null)
+
+		// add prelims
+		p.push(...new Array(draws.length * 2).fill(0))
 
 		for (let i = 0; i < draws.length; i++) {
 			const idx = draw_idx + i
-			if (Number.isInteger(draws[i])) {
-				p[idx] = draws[i]
-			} else {
+			if (Array.isArray(draws[i])) {
 				const [a_id, x_id] = draws[i]
 				p[idx] = null
-				p[idx * 2 + 1] = Number(a_id)
-				p[idx * 2 + 2] = Number(x_id)
+				p[idx * 2 + 1] = String(a_id)
+				p[idx * 2 + 2] = String(x_id)
+			} else {
+				p[idx] = draws[i]
 			}
 		}
 		return p
@@ -171,6 +212,7 @@ const BracketContent = forwardRef(({ event, showRatings, hidden }, ref) => {
 
 	const setPlayer = useCallback((e) => {
 		const { idx, id } = e.target.dataset
+		console.log(idx, id)
 		setPlayers(p => {
 			const n = [...p]
 
@@ -178,10 +220,10 @@ const BracketContent = forwardRef(({ event, showRatings, hidden }, ref) => {
 			while (parent >= 0) {
 				const replaced = n[parent]
 				// toggle off
-				if (n[parent] === Number(id)) {
+				if (n[parent] === id) {
 					n[parent] = null
 				} else { // toggle on
-					n[parent] = Number(id)
+					n[parent] = id
 				}
 				// don't fill to root
 				if (replaced == null) break
@@ -202,8 +244,8 @@ const BracketContent = forwardRef(({ event, showRatings, hidden }, ref) => {
 	}), [players])
 
 	return (
-		<div className={hidden ? 'hidden' : ''}>
-			<Bracket players={players} draws={draws} setPlayer={setPlayer} showRatings={showRatings} />
+		<div className={`${className} ${hidden ? 'hidden' : ''}`}>
+			<Bracket RenderPlayer={RenderPlayer} players={players} draws={draws} setPlayer={setPlayer} showRatings={showRatings} />
 		</div>
 	)
 })

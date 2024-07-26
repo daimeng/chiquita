@@ -120,6 +120,7 @@ export const ISO3to2 = {
     "LTU": "lt",
     "REF": "ref",
     "MDV": 'mv',
+    "PRK": 'kp',
 }
 
 export const ISO3toColor = {
@@ -243,4 +244,5 @@ export const ISO3toColor = {
     'VAN': '#FF6347', // Vanuatu (Tomato)
     'LTU': '#FF4500', // Lithuania
     'MDV': 'aquamarine', // Maldives
+    'PRK': 'steelblue',
 }
