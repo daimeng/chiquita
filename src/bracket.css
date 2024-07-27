@@ -14,11 +14,6 @@
 	color: #444;
 }
 
-.bracket-card .card-content>div {
-	display: flex;
-	justify-content: center;
-}
-
 .bracket {
 	display: flex;
 	flex-direction: row;
@@ -144,6 +139,8 @@
 .tooltip.shown {
 	display: block;
 }
+
+
 
 .leaderboard {
 	margin-top: 12px;
