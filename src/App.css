@@ -61,14 +61,24 @@ select {
   }
 }
 
+.set-event {
+  min-width: 100px;
+}
+
 .set-event>select {
-  width: 200px;
+  max-width: 100%;
 }
 
 .set-maxdev {
+  min-width: 60px;
   display: flex;
   align-items: center;
 }
+
+.set-maxdev>input {
+  max-width: 100%;
+}
+
 
 .set-maxdev>input {
   -webkit-appearance: none;
@@ -101,7 +111,8 @@ select {
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  height: 48px;
+  min-height: 48px;
+  flex-wrap: wrap;
 }
 
 .rating_row {
