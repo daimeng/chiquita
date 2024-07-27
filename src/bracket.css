@@ -166,7 +166,7 @@
 }
 
 .leaderboard td {
-	padding: 8px;
+	padding: 4px 4px;
 }
 
 .leaderboard td * {
@@ -187,4 +187,12 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+.score {
+	background-color: rgba(106, 90, 205, 0.7);
+	color: honeydew;
+	border-radius: 3px;
+	padding: 2px 8px;
+	text-align: right;
 }

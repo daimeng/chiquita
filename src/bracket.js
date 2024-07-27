@@ -6,6 +6,7 @@ import { ISO3Name, ISO3to2 } from './country-map'
 import { all_ratings } from './ratings'
 import { encodePlayers, hydratePlayers, playersFromDraw } from './encode'
 import { DoublesWinners, SinglesWinners, TeamWinners } from './leaderboard'
+import { scoreBracket } from './score'
 
 export function BracketMatch({ RenderPlayer, p1, p2, players, setPlayer, idx, showRatings }) {
 	if (p1 === 0 || p2 === 0) {
@@ -298,26 +299,28 @@ const BracketContent = forwardRef(({ initData, className, RenderPlayer, event, s
 	)
 })
 
+const draws_cache = {
+	M: playersFromDraw(DRAWS.M),
+	W: playersFromDraw(DRAWS.W),
+	X: playersFromDraw(DRAWS.X),
+	MT: playersFromDraw(DRAWS.MT),
+	WT: playersFromDraw(DRAWS.WT),
+}
 
 function Leaderboard() {
 	const [brackets, setBrackets] = useState([])
 	const [selected, setSelected] = useState(null)
+	const [results, setResults] = useState(null)
 
 	useEffect(() => {
 		(async () => {
-			const draws_cache = {
-				M: playersFromDraw(DRAWS.M),
-				W: playersFromDraw(DRAWS.W),
-				X: playersFromDraw(DRAWS.X),
-				MT: playersFromDraw(DRAWS.MT),
-				WT: playersFromDraw(DRAWS.WT),
-			}
-
-			const resp = await fetch(`https://gist.githubusercontent.com/daimeng/1dbb47917e25458719f44c917756af7e/raw/brackets.json?c=${Math.floor(Date.now() / 1000)}`)
+			// every 300 seconds cache break
+			const resp = await fetch(`https://gist.githubusercontent.com/daimeng/1dbb47917e25458719f44c917756af7e/raw/brackets.json?c=${Math.floor(Date.now() / 300000)}`)
 			const data = await resp.json()
 
 			// convert data
 			for (let i = 0; i < data.length; i++) {
+				data[i].updated_at = data[i].updated_at.slice(0, 10) + ' ' + data[i].updated_at.slice(11, 16)
 				data[i].players = {
 					M: [...draws_cache.M],
 					W: [...draws_cache.W],
@@ -340,6 +343,64 @@ function Leaderboard() {
 			setBrackets(data)
 		})()
 	}, [setBrackets])
+
+	useEffect(() => {
+		(async () => {
+			const resp = await fetch(`https://gist.githubusercontent.com/daimeng/dc1f8d40eebb608c69b02dbe82ef3eb5/raw/results2024.json?c=${Math.floor(Date.now() / 300000)}`)
+			const data = await resp.json()
+
+			data.players = {
+				M: [...draws_cache.M],
+				W: [...draws_cache.W],
+				X: [...draws_cache.X],
+				MT: [...draws_cache.MT],
+				WT: [...draws_cache.WT],
+			}
+
+			hydratePlayers(data.players.M, data.M)
+			hydratePlayers(data.players.W, data.W)
+			hydratePlayers(data.players.X, data.X)
+			hydratePlayers(data.players.MT, data.MT)
+			hydratePlayers(data.players.WT, data.WT)
+			setResults(data)
+		})()
+	}, [setResults])
+
+	const scores = useMemo(() => {
+		const s = new Array(brackets.length)
+
+		if (results != null) {
+			const baseScores = {
+				M: scoreBracket(results.players.M, results.players.M),
+				W: scoreBracket(results.players.W, results.players.W),
+				X: scoreBracket(results.players.X, results.players.X),
+				MT: scoreBracket(results.players.MT, results.players.MT),
+				WT: scoreBracket(results.players.WT, results.players.WT),
+			}
+
+			for (let i = 0; i < brackets.length; i++) {
+				s[i] = {
+					M: scoreBracket(brackets[i].players.M, results.players.M) - baseScores.M,
+					W: scoreBracket(brackets[i].players.W, results.players.W) - baseScores.W,
+					X: scoreBracket(brackets[i].players.X, results.players.X) - baseScores.X,
+					MT: scoreBracket(brackets[i].players.MT, results.players.MT) - baseScores.MT,
+					WT: scoreBracket(brackets[i].players.WT, results.players.WT) - baseScores.WT,
+				}
+			}
+		} else {
+			for (let i = 0; i < brackets.length; i++) {
+				s[i] = {
+					M: 0,
+					W: 0,
+					X: 0,
+					MT: 0,
+					WT: 0,
+				}
+			}
+		}
+
+		return s
+	}, [brackets, results])
 
 	const showBracket = useCallback((e) => {
 		const { idx, event } = e.target.dataset
@@ -368,12 +429,17 @@ function Leaderboard() {
 						return (
 							<tr key={bracket.user}>
 								<td>{bracket.user}</td>
-								<SinglesWinners idx={i} event={'M'} onClick={showBracket} p={M} />
-								<SinglesWinners idx={i} event={'W'} onClick={showBracket} p={W} />
-								<DoublesWinners idx={i} event={'X'} onClick={showBracket} p={X} />
-								<TeamWinners idx={i} event={'MT'} onClick={showBracket} p={MT} />
-								<TeamWinners idx={i} event={'WT'} onClick={showBracket} p={WT} />
-								<td>{bracket.updated_at}</td>
+								<SinglesWinners idx={i} event={'M'} onClick={showBracket} p={M} scores={scores} />
+								<SinglesWinners idx={i} event={'W'} onClick={showBracket} p={W} scores={scores} />
+								<DoublesWinners idx={i} event={'X'} onClick={showBracket} p={X} scores={scores} />
+								<TeamWinners idx={i} event={'MT'} onClick={showBracket} p={MT} scores={scores} />
+								<TeamWinners idx={i} event={'WT'} onClick={showBracket} p={WT} scores={scores} />
+								<td>
+									{bracket.updated_at}
+									<div className="score">
+										Total: {scores[i].M + scores[i].W + scores[i].X + scores[i].MT + scores[i].WT}
+									</div>
+								</td>
 							</tr>
 						)
 					})}

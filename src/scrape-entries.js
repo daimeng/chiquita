@@ -11,7 +11,7 @@ function scrape() {
             updated_at: latest.dateTime,
         }
 
-        const text = comments[i].querySelector('#-post-rtjson-content').innerText
+        const text = comments[i].querySelector('[slot=comment]').innerText
         const M = text.match(/M:([\w+=]+)/)
         const W = text.match(/W:([\w+=]+)/)
         const X = text.match(/X:([\w+=]+)/)
@@ -23,7 +23,7 @@ function scrape() {
         if (MT) entry.MT = MT[1]
         if (WT) entry.WT = WT[1]
 
-        entries.append(entry)
+        entries.push(entry)
     }
     return entries
 }
