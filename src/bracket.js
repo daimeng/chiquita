@@ -371,11 +371,11 @@ function Leaderboard() {
 
 		if (results != null) {
 			const baseScores = {
-				M: scoreBracket(results.players.M, results.players.M),
-				W: scoreBracket(results.players.W, results.players.W),
-				X: scoreBracket(results.players.X, results.players.X),
-				MT: scoreBracket(results.players.MT, results.players.MT),
-				WT: scoreBracket(results.players.WT, results.players.WT),
+				M: scoreBracket(draws_cache.M, draws_cache.M),
+				W: scoreBracket(draws_cache.W, draws_cache.W),
+				X: scoreBracket(draws_cache.X, draws_cache.X),
+				MT: scoreBracket(draws_cache.MT, draws_cache.MT),
+				WT: scoreBracket(draws_cache.WT, draws_cache.WT),
 			}
 
 			for (let i = 0; i < brackets.length; i++) {
