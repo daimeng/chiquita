@@ -7,6 +7,9 @@ directory = os.fsencode('data/wtt_matches')
 
 TMP_ID = 0
 
+tf = pd.read_csv('data/tournaments_wtt.tsv', sep='\t', parse_dates=['StartDateTime', 'EndDateTime'])
+tf.set_index('EventId', inplace=True)
+
 def parse_match(m: dict, matches: list):
     doc = m['documentCode']
 
@@ -56,7 +59,15 @@ def parse_match(m: dict, matches: list):
 
     # process date and time data
     startDate = m['matchDateTime']['startDateUTC'] or m['matchDateTime']['startDateLocal']
-    dt = datetime.strptime(startDate, '%m/%d/%Y %H:%M:%S')
+    try:
+        dt = datetime.strptime(startDate, '%m/%d/%Y %H:%M:%S')
+    except Exception as e:
+        evtid = int(m['eventId'])
+        if evtid in tf.index:
+            dt = tf.loc[evtid]['StartDateTime']
+        else:
+            print(json.dumps(m, indent=2))
+            raise e
 
     if m['matchDateTime']['duration']:
         parsed = False

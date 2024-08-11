@@ -1,6 +1,6 @@
 import asyncio
 import pandas as pd
-from playwright.async_api import async_playwright, Playwright, Page
+from playwright.async_api import async_playwright, Playwright, Page, TimeoutError
 import os
 from datetime import datetime
 import json
@@ -39,9 +39,13 @@ async def get_matches(page: Page, evt: int):
         return
 
     while True:
-        load_btn = await page.query_selector('[class="generic_btn"]')
-        if not load_btn:
+        try:
+            load_btn = await page.wait_for_selector('[class="generic_btn"]', timeout=10000)
+        except TimeoutError as e:            
             break
+
+        # if not load_btn:
+        #     break
         await load_btn.click()
         await asyncio.sleep(1)
 
