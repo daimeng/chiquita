@@ -16,12 +16,12 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
 			// decorate matches with their rating changes
 			const all_matches = []
 			for (let i = matches_a.length - 1; i >= 0; i--) {
-				matches_a[i].change = Math.round(rating_changes.get(matches_a[i].id))
+				matches_a[i].change = Math.round(rating_changes.get(matches_a[i].id)[0])
 				matches_a[i].start = Date.parse(tournamentById.get(matches_a[i].event_id).StartDateTime)
 				all_matches.push(matches_a[i])
 			}
 			for (let i = matches_x.length - 1; i >= 0; i--) {
-				matches_x[i].change = Math.round(rating_changes.get(matches_x[i].id))
+				matches_x[i].change = Math.round(rating_changes.get(matches_x[i].id)[1])
 				matches_x[i].start = Date.parse(tournamentById.get(matches_x[i].event_id).StartDateTime)
 				all_matches.push(matches_x[i])
 			}
