@@ -1,0 +1,88 @@
+{
+  "eventId": "2480",
+  "documentCode": "TTEMSINGLES-----------GP01000100----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131997",
+      "competitiorName": "KUNATS Heorhi",
+      "competitiorOrg": "BLR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131997",
+          "playerName": "KUNATS Heorhi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,6,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "106848",
+      "competitiorName": "OBESLO Michal",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106848",
+          "playerName": "OBESLO Michal",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,11,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "5-11,11-13,6-11,0-0,0-0",
+  "resultsGameScores": "5-11,11-13,6-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131997",
+    "serverReceiver": "106848",
+    "serverNext": "",
+    "serverCompetitor": "131997",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:25",
+    "startDateLocal": "08/21/2021 11:38:43",
+    "startDateUTC": "08/21/2021 09:38:43"
+  },
+  "teamParentData": null
+}

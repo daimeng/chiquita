@@ -1,0 +1,88 @@
+{
+  "eventId": "2410",
+  "documentCode": "TTEMSINGLES-----------RND2000500--",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Preliminary Round 2 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "113243",
+      "competitiorName": "SIRUCEK Pavel",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113243",
+          "playerName": "SIRUCEK Pavel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,11,11,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "109946",
+      "competitiorName": "WALTHER Ricardo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "109946",
+          "playerName": "WALTHER Ricardo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,9,8,0"
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "5-11,11-9,11-9,11-8,0-0",
+  "resultsGameScores": "5-11,11-9,11-9,11-8",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "PT",
+    "serverPlayer": "109946",
+    "serverReceiver": "113243",
+    "serverNext": null,
+    "serverCompetitor": "109946",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:42",
+    "startDateLocal": "03/01/2021 07:00:00",
+    "startDateUTC": "03/01/2021 07:00:00"
+  },
+  "teamParentData": null
+}

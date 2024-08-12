@@ -1,0 +1,88 @@
+{
+  "eventId": "2480",
+  "documentCode": "TTEMSINGLES-----------GP01000200----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122095",
+      "competitiorName": "REMBERT Bastien",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122095",
+          "playerName": "REMBERT Bastien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,11,9,11"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "106848",
+      "competitiorName": "OBESLO Michal",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106848",
+          "playerName": "OBESLO Michal",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,8,11,5"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,5-11,11-8,9-11,11-5",
+  "resultsGameScores": "11-6,5-11,11-8,9-11,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122095",
+    "serverReceiver": "106848",
+    "serverNext": "",
+    "serverCompetitor": "122095",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:47:48",
+    "startDateLocal": "08/21/2021 17:47:12",
+    "startDateUTC": "08/21/2021 14:47:12"
+  },
+  "teamParentData": null
+}
