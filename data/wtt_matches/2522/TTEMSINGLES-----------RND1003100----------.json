@@ -1,0 +1,88 @@
+{
+  "eventId": "2522",
+  "documentCode": "TTEMSINGLES-----------RND1003100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Preliminary Round 1 - Match 31",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136567",
+      "competitiorName": "OEHME Benno",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136567",
+          "playerName": "OEHME Benno",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134625",
+      "competitiorName": "PEREZ Juan",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134625",
+          "playerName": "PEREZ Juan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "0,0,0,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-0,11-0,11-0,0-0,0-0",
+  "resultsGameScores": "11-0,11-0,11-0,0-0,0-0",
+  "overallScores": "3-0 WO",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134625",
+    "serverReceiver": "136567",
+    "serverNext": "134625",
+    "serverCompetitor": "134625",
+    "receiverNext": "134625"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "01/17/2022 14:00:00",
+    "startDateUTC": "01/17/2022 13:00:00"
+  },
+  "teamParentData": null
+}
