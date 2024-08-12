@@ -1,0 +1,107 @@
+{
+  "eventId": "2691",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36800",
+      "competitiorName": "JANG Woojin/PARK Ganghyeon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114936",
+          "playerName": "JANG Woojin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "116820",
+          "playerName": "PARK Ganghyeon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,5,12,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "77620",
+      "competitiorName": "CHO Seungmin/CHO Daeseong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119284",
+          "playerName": "CHO Seungmin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123971",
+          "playerName": "CHO Daeseong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,11,10,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,8-11,5-11,12-10,11-5",
+  "resultsGameScores": "11-9,8-11,5-11,12-10,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119284",
+    "serverReceiver": "114936",
+    "serverNext": "119284",
+    "serverCompetitor": "77620",
+    "receiverNext": "114936"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:30",
+    "startDateLocal": "06/25/2023 16:15:00",
+    "startDateUTC": "06/25/2023 15:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "251"
+}

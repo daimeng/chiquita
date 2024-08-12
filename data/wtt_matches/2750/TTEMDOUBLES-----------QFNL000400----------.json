@@ -1,0 +1,107 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEMDOUBLES-----------QFNL000400----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100106929",
+      "competitiorName": "QUAN Kaiyuan/ZENG Beixun",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135886",
+          "playerName": "QUAN Kaiyuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135919",
+          "playerName": "ZENG Beixun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "35914",
+      "competitiorName": "ALKHADRAWI Ali/SHULAYBI Abdulaziz BU",
+      "competitiorOrg": "KSA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113376",
+          "playerName": "ALKHADRAWI Ali",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KSA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115118",
+          "playerName": "SHULAYBI Abdulaziz BU",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KSA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,11,7,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-2,8-11,11-7,12-10,0-0",
+  "resultsGameScores": "11-2,8-11,11-7,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135919",
+    "serverReceiver": "113376",
+    "serverNext": "135919",
+    "serverCompetitor": "100106929",
+    "receiverNext": "113376"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:43",
+    "startDateLocal": "07/29/2023 11:25:00",
+    "startDateUTC": "07/29/2023 09:25:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "206"
+}

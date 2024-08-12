@@ -1,0 +1,107 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "46619",
+      "competitiorName": "LIN Shidong/KUAI Man",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137237",
+          "playerName": "LIN Shidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135049",
+          "playerName": "KUAI Man",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,7,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100107430",
+      "competitiorName": "PITCHFORD Liam/HURSEY Anna",
+      "competitiorOrg": "ENG/WAL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112442",
+          "playerName": "PITCHFORD Liam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131480",
+          "playerName": "HURSEY Anna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "WAL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,2,11,4,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-2,7-11,11-4,11-8",
+  "resultsGameScores": "9-11,11-2,7-11,11-4,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112442",
+    "serverReceiver": "137237",
+    "serverNext": "112442",
+    "serverCompetitor": "100107430",
+    "receiverNext": "137237"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:25",
+    "startDateLocal": "10/05/2023 20:55:00",
+    "startDateUTC": "10/05/2023 12:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "239"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------RND2000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120224",
+      "competitiorName": "SIPOS Rares",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120224",
+          "playerName": "SIPOS Rares",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,8,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "144824",
+      "competitiorName": "HO Jeongmun",
+      "competitiorOrg": "KOR",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "144824",
+          "playerName": "HO Jeongmun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,14,11,5,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-3,12-14,8-11,11-5,11-6",
+  "resultsGameScores": "11-3,12-14,8-11,11-5,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120224",
+    "serverReceiver": "144824",
+    "serverNext": "120224",
+    "serverCompetitor": "120224",
+    "receiverNext": "144824"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:04",
+    "startDateLocal": "10/31/2023 16:00:00",
+    "startDateUTC": "10/31/2023 15:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "270"
+}

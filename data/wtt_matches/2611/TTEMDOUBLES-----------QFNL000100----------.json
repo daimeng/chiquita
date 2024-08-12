@@ -1,0 +1,107 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "35977",
+      "competitiorName": "CIFUENTES Horacio/ALTO Gaston",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119316",
+          "playerName": "CIFUENTES Horacio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "100486",
+          "playerName": "ALTO Gaston",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,11,9,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "50697",
+      "competitiorName": "HIDALGO Rodrigo/FERNANDEZ Carlos",
+      "competitiorOrg": "PER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122607",
+          "playerName": "HIDALGO Rodrigo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132658",
+          "playerName": "FERNANDEZ Carlos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,7,7,11,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,11-7,11-7,9-11,12-10",
+  "resultsGameScores": "10-12,11-7,11-7,9-11,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122607",
+    "serverReceiver": "119316",
+    "serverNext": "122607",
+    "serverCompetitor": "50697",
+    "receiverNext": "119316"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:52:59",
+    "startDateLocal": "11/04/2022 13:30:00",
+    "startDateUTC": "11/04/2022 16:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "301"
+}

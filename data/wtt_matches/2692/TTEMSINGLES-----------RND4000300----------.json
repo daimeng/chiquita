@@ -1,0 +1,91 @@
+{
+  "eventId": "2692",
+  "documentCode": "TTEMSINGLES-----------RND4000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 4 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Dom Sportova",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "109946",
+      "competitiorName": "WALTHER Ricardo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "109946",
+          "playerName": "WALTHER Ricardo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112035",
+      "competitiorName": "ALAMIAN Nima",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112035",
+          "playerName": "ALAMIAN Nima",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,13,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "13-11,11-6,11-13,11-4,0-0",
+  "resultsGameScores": "13-11,11-6,11-13,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112035",
+    "serverReceiver": "109946",
+    "serverNext": "112035",
+    "serverCompetitor": "112035",
+    "receiverNext": "109946"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:47",
+    "startDateLocal": "06/28/2023 14:40:00",
+    "startDateUTC": "06/28/2023 12:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "235"
+}

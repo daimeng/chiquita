@@ -1,0 +1,91 @@
+{
+  "eventId": "2691",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "102832",
+      "competitiorName": "FRANZISKA Patrick",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102832",
+          "playerName": "FRANZISKA Patrick",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,12,3,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "120850",
+      "competitiorName": "OIKAWA Mizuki",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120850",
+          "playerName": "OIKAWA Mizuki",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,11,9,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,12-10,3-11,11-9,11-9",
+  "resultsGameScores": "8-11,12-10,3-11,11-9,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "102832",
+    "serverReceiver": "120850",
+    "serverNext": "102832",
+    "serverCompetitor": "102832",
+    "receiverNext": "120850"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:07",
+    "startDateLocal": "06/24/2023 10:40:00",
+    "startDateUTC": "06/24/2023 09:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "273"
+}

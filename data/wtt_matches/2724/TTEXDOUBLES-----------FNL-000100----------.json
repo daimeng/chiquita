@@ -1,0 +1,107 @@
+{
+  "eventId": "2724",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37061",
+      "competitiorName": "MLADENOVIC Luka/NI Xia Lian",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120074",
+          "playerName": "MLADENOVIC Luka",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "106706",
+          "playerName": "NI Xia Lian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,8,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "76744",
+      "competitiorName": "ZHOU Kai/HE Zhuojia",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117345",
+          "playerName": "ZHOU Kai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119730",
+          "playerName": "HE Zhuojia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,9,11,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,11-9,9-11,8-11,6-11",
+  "resultsGameScores": "11-4,11-9,9-11,8-11,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120074",
+    "serverReceiver": "119730",
+    "serverNext": "120074",
+    "serverCompetitor": "37061",
+    "receiverNext": "119730"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:28",
+    "startDateLocal": "08/26/2023 18:30:00",
+    "startDateUTC": "08/26/2023 16:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "252"
+}

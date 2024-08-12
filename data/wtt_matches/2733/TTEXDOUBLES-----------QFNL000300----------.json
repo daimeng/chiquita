@@ -1,0 +1,107 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100118238",
+      "competitiorName": "LEE Seunghwan/LEE Daeun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123056",
+          "playerName": "LEE Seunghwan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132702",
+          "playerName": "LEE Daeun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,11,13,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "41165",
+      "competitiorName": "OYEBODE John/MONFARDINI Gaia",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122051",
+          "playerName": "OYEBODE John",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120294",
+          "playerName": "MONFARDINI Gaia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "13-11,11-3,13-11,0-0,0-0",
+  "resultsGameScores": "13-11,11-3,13-11,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122051",
+    "serverReceiver": "123056",
+    "serverNext": "122051",
+    "serverCompetitor": "41165",
+    "receiverNext": "123056"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:38",
+    "startDateLocal": "11/03/2023 10:00:00",
+    "startDateUTC": "11/03/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "182"
+}

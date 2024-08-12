@@ -1,0 +1,110 @@
+{
+  "eventId": "2867",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "65364",
+      "competitiorName": "PORET Thibault/GUISNEL Oceane",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134718",
+          "playerName": "PORET Thibault",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121688",
+          "playerName": "GUISNEL Oceane",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,11,7,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "41233",
+      "competitiorName": "ROBLES Alvaro/XIAO Maria",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111050",
+          "playerName": "ROBLES Alvaro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111072",
+          "playerName": "XIAO Maria",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,6,11,13",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,3-11,11-6,7-11,11-13",
+  "resultsGameScores": "11-4,3-11,11-6,7-11,11-13",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121688",
+    "serverReceiver": "111050",
+    "serverNext": "121688",
+    "serverCompetitor": "65364",
+    "receiverNext": "111050"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:59",
+    "startDateLocal": "05/24/2024 13:00:00",
+    "startDateUTC": "05/24/2024 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "278",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2703",
+  "documentCode": "TTEMSINGLES-----------8FNL000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131375",
+      "competitiorName": "TANAKA Yuta",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131375",
+          "playerName": "TANAKA Yuta",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135674",
+      "competitiorName": "SAI Linwei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135674",
+          "playerName": "SAI Linwei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,4,8,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-7,11-4,11-8,0-0,0-0",
+  "resultsGameScores": "11-7,11-4,11-8,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131375",
+    "serverReceiver": "135674",
+    "serverNext": "131375",
+    "serverCompetitor": "131375",
+    "receiverNext": "135674"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:44",
+    "startDateLocal": "02/23/2023 13:45:00",
+    "startDateUTC": "02/23/2023 12:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "138"
+}

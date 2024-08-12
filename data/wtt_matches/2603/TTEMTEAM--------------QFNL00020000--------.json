@@ -1,0 +1,3961 @@
+{
+  "eventId": "2603",
+  "documentCode": "TTEMTEAM--------------QFNL00020000--------",
+  "subEventName": "Men's Team",
+  "subEventDescription": "Men's Team Quarterfinal",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "South Paris Arena 4",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100118919",
+      "competitiorName": "Brazil",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115641",
+          "playerName": "Hugo Calderano",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123031",
+          "playerName": "Guilherme Teodoro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        },
+        {
+          "playerId": "117312",
+          "playerName": "Vitor Ishiy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 3
+        }
+      ],
+      "scores": "0,1,1",
+      "irm": "OK"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100120939",
+      "competitiorName": "France",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135977",
+          "playerName": "Felix Lebrun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "112062",
+          "playerName": "Simon Gauzy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        },
+        {
+          "playerId": "132992",
+          "playerName": "Alexis Lebrun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 3
+        }
+      ],
+      "scores": "3,3,3",
+      "irm": "OK"
+    }
+  ],
+  "currentGameNumber": 1,
+  "full_msg": null,
+  "gameScores": "0-3,1-3,1-3",
+  "resultsGameScores": "",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3,1-3,1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "PT",
+    "serverPlayer": "",
+    "serverReceiver": "",
+    "serverNext": "",
+    "serverCompetitor": "",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "1:20",
+    "startDateLocal": "",
+    "startDateUTC": ""
+  },
+  "teamParentData": {
+    "team_code": "TTEMTEAM--------------QFNL00020000--------",
+    "extended_info": {
+      "final_result": [
+        {
+          "extension": null,
+          "type": "UI",
+          "code": "FINAL_RESULT",
+          "pos": null,
+          "value": "0-3"
+        }
+      ],
+      "matches": [
+        {
+          "value": "TTEMTEAM--------------QFNL00020001--------",
+          "match_result": {
+            "eventId": "2603",
+            "documentCode": "TTEMTEAM--------------QFNL00020001--------",
+            "subEventName": "Men's Team",
+            "subEventDescription": "Men's Team Quarterfinal - Match 1",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": false
+            },
+            "venueName": "South Paris Arena 4",
+            "tableNumber": "T02",
+            "tableName": "Table 2",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "100118919",
+                "competitiorName": "Guilherme TEODORO/Vitor ISHIY",
+                "competitiorOrg": "BRA",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "123031",
+                    "playerName": "Guilherme Teodoro",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": "BRA",
+                    "playerPosition": 1
+                  },
+                  {
+                    "playerId": "117312",
+                    "playerName": "Vitor Ishiy",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": "BRA",
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "8,9,6,0,0",
+                "irm": "OK"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "100120939",
+                "competitiorName": "Simon GAUZY/Alexis LEBRUN",
+                "competitiorOrg": "FRA",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "112062",
+                    "playerName": "Simon Gauzy",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": "FRA",
+                    "playerPosition": 1
+                  },
+                  {
+                    "playerId": "132992",
+                    "playerName": "Alexis Lebrun",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": "FRA",
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "11,11,11,0,0",
+                "irm": "OK"
+              }
+            ],
+            "currentGameNumber": 4,
+            "full_msg": null,
+            "gameScores": "8-11,9-11,6-11,0-0,0-0",
+            "resultsGameScores": "8-11,9-11,6-11",
+            "overallScores": "0-3",
+            "resultOverallScores": "0-3",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "PT",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "0:23",
+              "startDateLocal": "",
+              "startDateUTC": ""
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------QFNL00020000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "0-3"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "100118919",
+                      "type": "H",
+                      "wlt": null,
+                      "roundforRankingCal": null,
+                      "organization": "BRA",
+                      "description": {
+                        "type": "T",
+                        "organization": "BRA",
+                        "teamName": "Brazil"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "9"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": null
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "23"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "12"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "15"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G1",
+                            "value": "8"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G1",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G1",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G1",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G1",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G1",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G2",
+                            "value": "9"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G2",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G2",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G2",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G2",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G2",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G3",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G3",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G3",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G3",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G3",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G3",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "code": "123031",
+                              "order": "1",
+                              "description": {
+                                "givenName": "Guilherme",
+                                "familyName": "Teodoro",
+                                "gender": "M",
+                                "organization": "BRA",
+                                "birthDate": "2001-12-03",
+                                "ifId": "123031"
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": "S"
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": "R"
+                                }
+                              ]
+                            },
+                            {
+                              "code": "117312",
+                              "order": "2",
+                              "description": {
+                                "givenName": "Vitor",
+                                "familyName": "Ishiy",
+                                "gender": "M",
+                                "organization": "BRA",
+                                "birthDate": "1995-09-22",
+                                "ifId": "117312"
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": "S"
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": "R"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "100120939",
+                      "type": "A",
+                      "wlt": null,
+                      "roundforRankingCal": null,
+                      "organization": "FRA",
+                      "description": {
+                        "type": "T",
+                        "organization": "FRA",
+                        "teamName": "France"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "3"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": null
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "33"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "18"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_MATCH",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G1",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G1",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G1",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G1",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G1",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G1",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "G1",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G2",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G2",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G2",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G2",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G2",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G2",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "G2",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G3",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G3",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G3",
+                            "value": "7"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G3",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G3",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G3",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_MATCH",
+                            "pos": "G3",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "code": "112062",
+                              "order": "1",
+                              "description": {
+                                "givenName": "Simon",
+                                "familyName": "Gauzy",
+                                "gender": "M",
+                                "organization": "FRA",
+                                "birthDate": "1994-10-25",
+                                "ifId": "112062"
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": "S"
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": "R"
+                                }
+                              ]
+                            },
+                            {
+                              "code": "132992",
+                              "order": "2",
+                              "description": {
+                                "givenName": "Alexis",
+                                "familyName": "Lebrun",
+                                "gender": "M",
+                                "organization": "FRA",
+                                "birthDate": "2003-08-27",
+                                "ifId": "132992"
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": "S"
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": "R"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Team",
+                "subEventDescription": "Men's Team Quarterfinal - Match 1",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": false
+                },
+                "venueName": "South Paris Arena 4",
+                "tableNumber": "T02",
+                "tableName": "Table 2",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "100118919",
+                    "competitiorName": "Guilherme TEODORO / Vitor ISHIY",
+                    "competitiorOrg": "BRA",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "123031",
+                        "playerName": "Guilherme TEODORO",
+                        "playerGivenName": "Guilherme",
+                        "playerFamilyName": "TEODORO",
+                        "playerOrgCode": "BRA",
+                        "playerPosition": null
+                      },
+                      {
+                        "playerId": "117312",
+                        "playerName": "Vitor ISHIY",
+                        "playerGivenName": "Vitor",
+                        "playerFamilyName": "ISHIY",
+                        "playerOrgCode": "BRA",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "100120939",
+                    "competitiorName": "Simon GAUZY / Alexis LEBRUN",
+                    "competitiorOrg": "FRA",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "112062",
+                        "playerName": "Simon GAUZY",
+                        "playerGivenName": "Simon",
+                        "playerFamilyName": "GAUZY",
+                        "playerOrgCode": "FRA",
+                        "playerPosition": null
+                      },
+                      {
+                        "playerId": "132992",
+                        "playerName": "Alexis LEBRUN",
+                        "playerGivenName": "Alexis",
+                        "playerFamilyName": "LEBRUN",
+                        "playerOrgCode": "FRA",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": "8-11,9-11,6-11",
+                "overallScores": "0-3",
+                "resultOverallScores": "0-3",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "0:23",
+                  "startDateLocal": "",
+                  "startDateUTC": ""
+                },
+                "teamParentData": null,
+                "playByPlaySequenceNumber": null,
+                "teamMatchNo": null,
+                "teamMatchScores": null,
+                "teamMatchScoresSummary": null
+              }
+            },
+            "playByPlaySequenceNumber": "73",
+            "teamMatchNo": "0",
+            "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+            "teamMatchScoresSummary": "0"
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------QFNL00020002--------",
+          "match_result": {
+            "eventId": "2603",
+            "documentCode": "TTEMTEAM--------------QFNL00020002--------",
+            "subEventName": "Men's Team",
+            "subEventDescription": "Men's Team Quarterfinal - Match 2",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": false
+            },
+            "venueName": "South Paris Arena 4",
+            "tableNumber": "T02",
+            "tableName": "Table 2",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "100118919",
+                "competitiorName": "Hugo CALDERANO",
+                "competitiorOrg": "BRA",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "115641",
+                    "playerName": "Hugo Calderano",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": "BRA",
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "6,7,13,6,0",
+                "irm": "OK"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "100120939",
+                "competitiorName": "Felix LEBRUN",
+                "competitiorOrg": "FRA",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "135977",
+                    "playerName": "Felix Lebrun",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": "FRA",
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "11,11,11,11,0",
+                "irm": "OK"
+              }
+            ],
+            "currentGameNumber": 5,
+            "full_msg": null,
+            "gameScores": "6-11,7-11,13-11,6-11,0-0",
+            "resultsGameScores": "6-11,7-11,13-11,6-11",
+            "overallScores": "1-3",
+            "resultOverallScores": "1-3",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "PT",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "0:24",
+              "startDateLocal": "",
+              "startDateUTC": ""
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------QFNL00020000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "1-3"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "100118919",
+                      "type": "H",
+                      "wlt": null,
+                      "roundforRankingCal": null,
+                      "organization": "BRA",
+                      "description": {
+                        "type": "T",
+                        "organization": "BRA",
+                        "teamName": "Brazil"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "9"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": null
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "32"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "14"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "23"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G1",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G1",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G1",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G1",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G1",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G1",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G2",
+                            "value": "7"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G2",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G2",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G2",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G2",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G2",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G3",
+                            "value": "13"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G3",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G3",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G3",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G3",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G3",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "G3",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G4",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G4",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G4",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G4",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G4",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G4",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "code": "115641",
+                              "order": "1",
+                              "description": {
+                                "givenName": "Hugo",
+                                "familyName": "Calderano",
+                                "gender": "M",
+                                "organization": "BRA",
+                                "birthDate": "1996-06-22",
+                                "ifId": "115641"
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": "S"
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": "R"
+                                }
+                              ],
+                              "statsItems": {
+                                "statsItem": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "TOT",
+                                    "value": "32"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "TOT",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "TOT",
+                                    "value": "14"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "TOT",
+                                    "value": "23"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "TOT",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "TOT",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "TOT",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": "-"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": "7"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": "-"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": "13"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "G3",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": "-"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "100120939",
+                      "type": "A",
+                      "wlt": null,
+                      "roundforRankingCal": null,
+                      "organization": "FRA",
+                      "description": {
+                        "type": "T",
+                        "organization": "FRA",
+                        "teamName": "France"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "3"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": null
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "44"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "21"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "18"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_MATCH",
+                            "pos": "TOT",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "TOT",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G1",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G1",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G1",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G1",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G1",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G1",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "G1",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G2",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G2",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G2",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G2",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G2",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G2",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "G2",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G3",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G3",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G3",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G3",
+                            "value": "7"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G3",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G3",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G4",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G4",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G4",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G4",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G4",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G4",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_MATCH",
+                            "pos": "G4",
+                            "value": "3"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "code": "135977",
+                              "order": "1",
+                              "description": {
+                                "givenName": "Felix",
+                                "familyName": "Lebrun",
+                                "gender": "M",
+                                "organization": "FRA",
+                                "birthDate": "2006-09-12",
+                                "ifId": "135977"
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": "P"
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": "R"
+                                }
+                              ],
+                              "statsItems": {
+                                "statsItem": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "TOT",
+                                    "value": "44"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "TOT",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "TOT",
+                                    "value": "21"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "TOT",
+                                    "value": "18"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "TOT",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "TOT",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_MATCH",
+                                    "pos": "TOT",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "TOT",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": "11"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "G1",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": "11"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "G2",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": "11"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": "7"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": "-"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": "11"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_MATCH",
+                                    "pos": "G4",
+                                    "value": "3"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Team",
+                "subEventDescription": "Men's Team Quarterfinal - Match 2",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": false
+                },
+                "venueName": "South Paris Arena 4",
+                "tableNumber": "T02",
+                "tableName": "Table 2",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "100118919",
+                    "competitiorName": "Hugo CALDERANO",
+                    "competitiorOrg": "BRA",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "115641",
+                        "playerName": "Hugo CALDERANO",
+                        "playerGivenName": "Hugo",
+                        "playerFamilyName": "CALDERANO",
+                        "playerOrgCode": "BRA",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "100120939",
+                    "competitiorName": "Felix LEBRUN",
+                    "competitiorOrg": "FRA",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "135977",
+                        "playerName": "Felix LEBRUN",
+                        "playerGivenName": "Felix",
+                        "playerFamilyName": "LEBRUN",
+                        "playerOrgCode": "FRA",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": "6-11,7-11,13-11,6-11",
+                "overallScores": "1-3",
+                "resultOverallScores": "1-3",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "0:24",
+                  "startDateLocal": "",
+                  "startDateUTC": ""
+                },
+                "teamParentData": null,
+                "playByPlaySequenceNumber": null,
+                "teamMatchNo": null,
+                "teamMatchScores": null,
+                "teamMatchScoresSummary": null
+              }
+            },
+            "playByPlaySequenceNumber": "96",
+            "teamMatchNo": "0",
+            "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+            "teamMatchScoresSummary": "0"
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------QFNL00020003--------",
+          "match_result": {
+            "eventId": "2603",
+            "documentCode": "TTEMTEAM--------------QFNL00020003--------",
+            "subEventName": "Men's Team",
+            "subEventDescription": "Men's Team Quarterfinal - Match 3",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": false
+            },
+            "venueName": "South Paris Arena 4",
+            "tableNumber": "T02",
+            "tableName": "Table 2",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "100118919",
+                "competitiorName": "Vitor ISHIY",
+                "competitiorOrg": "BRA",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "117312",
+                    "playerName": "Vitor Ishiy",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": "BRA",
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "6,11,5,7,0",
+                "irm": "OK"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "100120939",
+                "competitiorName": "Alexis LEBRUN",
+                "competitiorOrg": "FRA",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "132992",
+                    "playerName": "Alexis Lebrun",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": "FRA",
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "11,9,11,11,0",
+                "irm": "OK"
+              }
+            ],
+            "currentGameNumber": 5,
+            "full_msg": null,
+            "gameScores": "6-11,11-9,5-11,7-11,0-0",
+            "resultsGameScores": "6-11,11-9,5-11,7-11",
+            "overallScores": "1-3",
+            "resultOverallScores": "1-3",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "PT",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "0:25",
+              "startDateLocal": "",
+              "startDateUTC": ""
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------QFNL00020000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "1-3"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "100118919",
+                      "type": "H",
+                      "wlt": null,
+                      "roundforRankingCal": null,
+                      "organization": "BRA",
+                      "description": {
+                        "type": "T",
+                        "organization": "BRA",
+                        "teamName": "Brazil"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "9"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": null
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "29"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "18"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "17"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G1",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G1",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G1",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G1",
+                            "value": "7"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G1",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G1",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G2",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G2",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G2",
+                            "value": "8"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G2",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G2",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G2",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "G2",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G3",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G3",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G3",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G3",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G3",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G3",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G4",
+                            "value": "7"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G4",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G4",
+                            "value": "5"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G4",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G4",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G4",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "code": "117312",
+                              "order": "1",
+                              "description": {
+                                "givenName": "Vitor",
+                                "familyName": "Ishiy",
+                                "gender": "M",
+                                "organization": "BRA",
+                                "birthDate": "1995-09-22",
+                                "ifId": "117312"
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": "S"
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": "R"
+                                }
+                              ],
+                              "statsItems": {
+                                "statsItem": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "TOT",
+                                    "value": "29"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "TOT",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "TOT",
+                                    "value": "18"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "TOT",
+                                    "value": "17"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "TOT",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "TOT",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "TOT",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": "7"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": "-"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": "11"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": "8"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "G2",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": "-"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": "-"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": "7"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": "5"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": "-"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "100120939",
+                      "type": "A",
+                      "wlt": null,
+                      "roundforRankingCal": null,
+                      "organization": "FRA",
+                      "description": {
+                        "type": "T",
+                        "organization": "FRA",
+                        "teamName": "France"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "3"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": null
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": null
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "42"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "25"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_MATCH",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G1",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G1",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G1",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G1",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G1",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G1",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "G1",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G2",
+                            "value": "9"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G2",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G2",
+                            "value": "7"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G2",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G2",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G2",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G3",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G3",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G3",
+                            "value": "6"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G3",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G3",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G3",
+                            "value": "-"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_GAME",
+                            "pos": "G3",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_WON",
+                            "pos": "G4",
+                            "value": "11"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "LEAD_MAX",
+                            "pos": "G4",
+                            "value": "4"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "G4",
+                            "value": "8"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "G4",
+                            "value": "2"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_CONSEC",
+                            "pos": "G4",
+                            "value": "3"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "DEF_OVC_MAX",
+                            "pos": "G4",
+                            "value": "1"
+                          },
+                          {
+                            "type": "ST",
+                            "code": "PTS_MATCH",
+                            "pos": "G4",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "code": "132992",
+                              "order": "1",
+                              "description": {
+                                "givenName": "Alexis",
+                                "familyName": "Lebrun",
+                                "gender": "M",
+                                "organization": "FRA",
+                                "birthDate": "2003-08-27",
+                                "ifId": "132992"
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": "S"
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": "R"
+                                }
+                              ],
+                              "statsItems": {
+                                "statsItem": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "TOT",
+                                    "value": "42"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "TOT",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "TOT",
+                                    "value": "25"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "TOT",
+                                    "value": "11"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "TOT",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "TOT",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_MATCH",
+                                    "pos": "TOT",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "TOT",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": "11"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "G1",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": "9"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": "7"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": "-"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": "11"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": "6"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": "-"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_GAME",
+                                    "pos": "G3",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": "11"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": "4"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": "8"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": "2"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": "3"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": "1"
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_MATCH",
+                                    "pos": "G4",
+                                    "value": "1"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Team",
+                "subEventDescription": "Men's Team Quarterfinal - Match 3",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": false
+                },
+                "venueName": "South Paris Arena 4",
+                "tableNumber": "T02",
+                "tableName": "Table 2",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "100118919",
+                    "competitiorName": "Vitor ISHIY",
+                    "competitiorOrg": "BRA",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "117312",
+                        "playerName": "Vitor ISHIY",
+                        "playerGivenName": "Vitor",
+                        "playerFamilyName": "ISHIY",
+                        "playerOrgCode": "BRA",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "100120939",
+                    "competitiorName": "Alexis LEBRUN",
+                    "competitiorOrg": "FRA",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "132992",
+                        "playerName": "Alexis LEBRUN",
+                        "playerGivenName": "Alexis",
+                        "playerFamilyName": "LEBRUN",
+                        "playerOrgCode": "FRA",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": "6-11,11-9,5-11,7-11",
+                "overallScores": "1-3",
+                "resultOverallScores": "1-3",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "0:25",
+                  "startDateLocal": "",
+                  "startDateUTC": ""
+                },
+                "teamParentData": null,
+                "playByPlaySequenceNumber": null,
+                "teamMatchNo": null,
+                "teamMatchScores": null,
+                "teamMatchScoresSummary": null
+              }
+            },
+            "playByPlaySequenceNumber": "93",
+            "teamMatchNo": "0",
+            "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+            "teamMatchScoresSummary": "0"
+          }
+        }
+      ],
+      "result_competitors": [
+        [
+          {
+            "code": "100118919",
+            "type": "H",
+            "wlt": null,
+            "roundforRankingCal": null,
+            "organization": "BRA",
+            "description": {
+              "type": "T",
+              "organization": "BRA",
+              "teamName": "Brazil"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "9"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": null
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": null
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": null
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": null
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "type": "ST",
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": "84"
+                },
+                {
+                  "type": "ST",
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": "4"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": "44"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": "55"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": "6"
+                },
+                {
+                  "type": "ST",
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": "3"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_GAME",
+                  "pos": "TOT",
+                  "value": "5"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_WON",
+                  "pos": "1",
+                  "value": "23"
+                },
+                {
+                  "type": "ST",
+                  "code": "LEAD_MAX",
+                  "pos": "1",
+                  "value": "2"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "1",
+                  "value": "12"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "1",
+                  "value": "15"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_CONSEC",
+                  "pos": "1",
+                  "value": "3"
+                },
+                {
+                  "type": "ST",
+                  "code": "DEF_OVC_MAX",
+                  "pos": "1",
+                  "value": "-"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_WON",
+                  "pos": "2",
+                  "value": "32"
+                },
+                {
+                  "type": "ST",
+                  "code": "LEAD_MAX",
+                  "pos": "2",
+                  "value": "4"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "2",
+                  "value": "14"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "2",
+                  "value": "23"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_CONSEC",
+                  "pos": "2",
+                  "value": "6"
+                },
+                {
+                  "type": "ST",
+                  "code": "DEF_OVC_MAX",
+                  "pos": "2",
+                  "value": "3"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_GAME",
+                  "pos": "2",
+                  "value": "4"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_WON",
+                  "pos": "3",
+                  "value": "29"
+                },
+                {
+                  "type": "ST",
+                  "code": "LEAD_MAX",
+                  "pos": "3",
+                  "value": "2"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "3",
+                  "value": "18"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "3",
+                  "value": "17"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_CONSEC",
+                  "pos": "3",
+                  "value": "4"
+                },
+                {
+                  "type": "ST",
+                  "code": "DEF_OVC_MAX",
+                  "pos": "3",
+                  "value": "1"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_GAME",
+                  "pos": "3",
+                  "value": "1"
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "code": "115641",
+                    "order": "1",
+                    "description": {
+                      "givenName": "Hugo",
+                      "familyName": "Calderano",
+                      "gender": "M",
+                      "organization": "BRA",
+                      "birthDate": "1996-06-22",
+                      "ifId": "115641"
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": "X"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": "S"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": "R"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "123031",
+                    "order": "2",
+                    "description": {
+                      "givenName": "Guilherme",
+                      "familyName": "Teodoro",
+                      "gender": "M",
+                      "organization": "BRA",
+                      "birthDate": "2001-12-03",
+                      "ifId": "123031"
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": "Y"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": "S"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": "R"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "117312",
+                    "order": "3",
+                    "description": {
+                      "givenName": "Vitor",
+                      "familyName": "Ishiy",
+                      "gender": "M",
+                      "organization": "BRA",
+                      "birthDate": "1995-09-22",
+                      "ifId": "117312"
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": "Z"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": "S"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": "R"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "code": "100120939",
+            "type": "A",
+            "wlt": null,
+            "roundforRankingCal": null,
+            "organization": "FRA",
+            "description": {
+              "type": "T",
+              "organization": "FRA",
+              "teamName": "France"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "3"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": null
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": null
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": null
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": null
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "type": "ST",
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": "119"
+                },
+                {
+                  "type": "ST",
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": "6"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": "64"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": "40"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": "6"
+                },
+                {
+                  "type": "ST",
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": "2"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_MATCH",
+                  "pos": "TOT",
+                  "value": "6"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_GAME",
+                  "pos": "TOT",
+                  "value": "11"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_WON",
+                  "pos": "1",
+                  "value": "33"
+                },
+                {
+                  "type": "ST",
+                  "code": "LEAD_MAX",
+                  "pos": "1",
+                  "value": "5"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "1",
+                  "value": "18"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "1",
+                  "value": "11"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_CONSEC",
+                  "pos": "1",
+                  "value": "6"
+                },
+                {
+                  "type": "ST",
+                  "code": "DEF_OVC_MAX",
+                  "pos": "1",
+                  "value": "2"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_MATCH",
+                  "pos": "1",
+                  "value": "2"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_GAME",
+                  "pos": "1",
+                  "value": "4"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_WON",
+                  "pos": "2",
+                  "value": "44"
+                },
+                {
+                  "type": "ST",
+                  "code": "LEAD_MAX",
+                  "pos": "2",
+                  "value": "6"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "2",
+                  "value": "21"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "2",
+                  "value": "18"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_CONSEC",
+                  "pos": "2",
+                  "value": "5"
+                },
+                {
+                  "type": "ST",
+                  "code": "DEF_OVC_MAX",
+                  "pos": "2",
+                  "value": "2"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_MATCH",
+                  "pos": "2",
+                  "value": "3"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_GAME",
+                  "pos": "2",
+                  "value": "3"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_WON",
+                  "pos": "3",
+                  "value": "42"
+                },
+                {
+                  "type": "ST",
+                  "code": "LEAD_MAX",
+                  "pos": "3",
+                  "value": "6"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "3",
+                  "value": "25"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "3",
+                  "value": "11"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_CONSEC",
+                  "pos": "3",
+                  "value": "4"
+                },
+                {
+                  "type": "ST",
+                  "code": "DEF_OVC_MAX",
+                  "pos": "3",
+                  "value": "1"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_MATCH",
+                  "pos": "3",
+                  "value": "1"
+                },
+                {
+                  "type": "ST",
+                  "code": "PTS_GAME",
+                  "pos": "3",
+                  "value": "4"
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "code": "135977",
+                    "order": "1",
+                    "description": {
+                      "givenName": "Felix",
+                      "familyName": "Lebrun",
+                      "gender": "M",
+                      "organization": "FRA",
+                      "birthDate": "2006-09-12",
+                      "ifId": "135977"
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": "A"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": "P"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": "R"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "112062",
+                    "order": "2",
+                    "description": {
+                      "givenName": "Simon",
+                      "familyName": "Gauzy",
+                      "gender": "M",
+                      "organization": "FRA",
+                      "birthDate": "1994-10-25",
+                      "ifId": "112062"
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": "B"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": "S"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": "R"
+                      }
+                    ]
+                  },
+                  {
+                    "code": "132992",
+                    "order": "3",
+                    "description": {
+                      "givenName": "Alexis",
+                      "familyName": "Lebrun",
+                      "gender": "M",
+                      "organization": "FRA",
+                      "birthDate": "2003-08-27",
+                      "ifId": "132992"
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": "C"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": "S"
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": "R"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "comp_data": {
+      "eventId": null,
+      "documentCode": null,
+      "subEventName": "Men's Team",
+      "subEventDescription": "Men's Team Quarterfinal",
+      "matchConfig": {
+        "bestOfXGames": 5,
+        "maxPointsPerGame": 11,
+        "advantagePerGame": 2,
+        "suddenDeathPoint": 99,
+        "maxChallengesPerCompetitor": 2,
+        "yellowCard": true,
+        "yellowRed1": true,
+        "yellowRed2": true,
+        "tTRReview": false
+      },
+      "venueName": "South Paris Arena 4",
+      "tableNumber": "T02",
+      "tableName": "Table 2",
+      "competitiors": [
+        {
+          "competitorType": "H",
+          "competitiorId": "100118919",
+          "competitiorName": "Vitor ISHIY",
+          "competitiorOrg": "BRA",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "115641",
+              "playerName": "Hugo CALDERANO",
+              "playerGivenName": "Hugo",
+              "playerFamilyName": "CALDERANO",
+              "playerOrgCode": "BRA",
+              "playerPosition": null
+            },
+            {
+              "playerId": "123031",
+              "playerName": "Guilherme TEODORO",
+              "playerGivenName": "Guilherme",
+              "playerFamilyName": "TEODORO",
+              "playerOrgCode": "BRA",
+              "playerPosition": null
+            },
+            {
+              "playerId": "117312",
+              "playerName": "Vitor ISHIY",
+              "playerGivenName": "Vitor",
+              "playerFamilyName": "ISHIY",
+              "playerOrgCode": "BRA",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "OK"
+        },
+        {
+          "competitorType": "A",
+          "competitiorId": "100120939",
+          "competitiorName": "Alexis LEBRUN",
+          "competitiorOrg": "FRA",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "135977",
+              "playerName": "Felix LEBRUN",
+              "playerGivenName": "Felix",
+              "playerFamilyName": "LEBRUN",
+              "playerOrgCode": "FRA",
+              "playerPosition": null
+            },
+            {
+              "playerId": "112062",
+              "playerName": "Simon GAUZY",
+              "playerGivenName": "Simon",
+              "playerFamilyName": "GAUZY",
+              "playerOrgCode": "FRA",
+              "playerPosition": null
+            },
+            {
+              "playerId": "132992",
+              "playerName": "Alexis LEBRUN",
+              "playerGivenName": "Alexis",
+              "playerFamilyName": "LEBRUN",
+              "playerOrgCode": "FRA",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "OK"
+        }
+      ],
+      "currentGameNumber": null,
+      "full_msg": null,
+      "gameScores": null,
+      "resultsGameScores": "",
+      "overallScores": "0-3",
+      "resultOverallScores": null,
+      "resultStatus": "OFFICIAL",
+      "action": null,
+      "resultSet": null,
+      "matchDateTime": {
+        "duration": "1:20",
+        "startDateLocal": "",
+        "startDateUTC": ""
+      },
+      "teamParentData": null,
+      "playByPlaySequenceNumber": null,
+      "teamMatchNo": null,
+      "teamMatchScores": null,
+      "teamMatchScoresSummary": null
+    }
+  },
+  "playByPlaySequenceNumber": "11",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

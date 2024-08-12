@@ -1,0 +1,110 @@
+{
+  "eventId": "2880",
+  "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "41233",
+      "competitiorName": "ROBLES Alvaro/XIAO Maria",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111050",
+          "playerName": "ROBLES Alvaro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111072",
+          "playerName": "XIAO Maria",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,8,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "38841",
+      "competitiorName": "PANG Yew En Koen/WONG Xin Ru",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131912",
+          "playerName": "PANG Yew En Koen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123575",
+          "playerName": "WONG Xin Ru",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,11,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-5,13-11,8-11,11-8,0-0",
+  "resultsGameScores": "11-5,13-11,8-11,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131912",
+    "serverReceiver": "111050",
+    "serverNext": "131912",
+    "serverCompetitor": "38841",
+    "receiverNext": "111050"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:50",
+    "startDateLocal": "03/31/2024 10:00:00",
+    "startDateUTC": "03/31/2024 08:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "220",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

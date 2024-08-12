@@ -1,0 +1,91 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEWSINGLES-----------QFNL000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121403",
+      "competitiorName": "CHEN Xingtong",
+      "competitiorOrg": "CHN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121403",
+          "playerName": "CHEN Xingtong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,5,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131036",
+      "competitiorName": "KIHARA Miyuu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131036",
+          "playerName": "KIHARA Miyuu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,2,4,11,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-2,11-4,5-11,11-6",
+  "resultsGameScores": "9-11,11-2,11-4,5-11,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121403",
+    "serverReceiver": "131036",
+    "serverNext": "121403",
+    "serverCompetitor": "121403",
+    "receiverNext": "131036"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:14",
+    "startDateLocal": "10/07/2023 14:40:00",
+    "startDateUTC": "10/07/2023 06:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "224"
+}

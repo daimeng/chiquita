@@ -1,0 +1,110 @@
+{
+  "eventId": "2742",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "77476",
+      "competitiorName": "LIM Jonghoon/AN Jaehyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117357",
+          "playerName": "LIM Jonghoon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121514",
+          "playerName": "AN Jaehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36749",
+      "competitiorName": "ECSEKI Nandor/MAJOROS Bence",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114716",
+          "playerName": "ECSEKI Nandor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114860",
+          "playerName": "MAJOROS Bence",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,7,11,3,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-5,11-7,9-11,11-3,0-0",
+  "resultsGameScores": "11-5,11-7,9-11,11-3,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114860",
+    "serverReceiver": "117357",
+    "serverNext": "114860",
+    "serverCompetitor": "36749",
+    "receiverNext": "117357"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:12",
+    "startDateLocal": "10/22/2023 16:15:00",
+    "startDateUTC": "10/22/2023 13:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "184",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

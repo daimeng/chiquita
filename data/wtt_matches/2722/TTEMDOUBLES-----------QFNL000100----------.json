@@ -1,0 +1,107 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "77476",
+      "competitiorName": "AN Jaehyun/LIM Jonghoon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121514",
+          "playerName": "AN Jaehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "117357",
+          "playerName": "LIM Jonghoon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,11,12,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36000",
+      "competitiorName": "PITCHFORD Liam/DRINKHALL Paul",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112442",
+          "playerName": "PITCHFORD Liam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "102380",
+          "playerName": "DRINKHALL Paul",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,4,14,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,6-11,11-4,12-14,11-9",
+  "resultsGameScores": "11-8,6-11,11-4,12-14,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117357",
+    "serverReceiver": "102380",
+    "serverNext": "117357",
+    "serverCompetitor": "77476",
+    "receiverNext": "102380"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:43:03",
+    "startDateLocal": "08/11/2023 10:35:00",
+    "startDateUTC": "08/11/2023 13:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "273"
+}

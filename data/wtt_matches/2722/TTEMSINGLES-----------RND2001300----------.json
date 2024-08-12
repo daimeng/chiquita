@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------RND2001300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 13",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "119565",
+      "competitiorName": "LIAO Cheng-Ting",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119565",
+          "playerName": "LIAO Cheng-Ting",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,7,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123031",
+      "competitiorName": "TEODORO Guilherme",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123031",
+          "playerName": "TEODORO Guilherme",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,6,11,11,13",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-3,11-6,7-11,6-11,11-13",
+  "resultsGameScores": "11-3,11-6,7-11,6-11,11-13",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123031",
+    "serverReceiver": "119565",
+    "serverNext": "123031",
+    "serverCompetitor": "123031",
+    "receiverNext": "119565"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:51",
+    "startDateLocal": "08/08/2023 16:40:00",
+    "startDateUTC": "08/08/2023 19:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "264"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEMSINGLES-----------R32-001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "101222",
+      "competitiorName": "BOLL Timo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101222",
+          "playerName": "BOLL Timo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,8,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135888",
+      "competitiorName": "XIANG Peng",
+      "competitiorOrg": "CHN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135888",
+          "playerName": "XIANG Peng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,7,11,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,11-7,8-11,11-8,0-0",
+  "resultsGameScores": "11-9,11-7,8-11,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135888",
+    "serverReceiver": "101222",
+    "serverNext": "135888",
+    "serverCompetitor": "135888",
+    "receiverNext": "101222"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:25",
+    "startDateLocal": "10/05/2023 17:00:00",
+    "startDateUTC": "10/05/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "223"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2695",
+  "documentCode": "TTEMSINGLES-----------R32-000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121514",
+      "competitiorName": "AN Jaehyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121514",
+          "playerName": "AN Jaehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "1,11,11,6,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133848",
+      "competitiorName": "YUAN Licen",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133848",
+          "playerName": "YUAN Licen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,5,13,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "1-11,11-5,11-13,6-11,0-0",
+  "resultsGameScores": "1-11,11-5,11-13,6-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121514",
+    "serverReceiver": "133848",
+    "serverNext": "121514",
+    "serverCompetitor": "121514",
+    "receiverNext": "133848"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:49",
+    "startDateLocal": "04/26/2023 14:10:00",
+    "startDateUTC": "04/26/2023 07:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "188"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEMSINGLES-----------8FNL000400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135674",
+      "competitiorName": "SAI Linwei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135674",
+          "playerName": "SAI Linwei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,9,8,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117312",
+      "competitiorName": "ISHIY Vitor",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117312",
+          "playerName": "ISHIY Vitor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,9-11,8-11,0-0,0-0",
+  "resultsGameScores": "9-11,9-11,8-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117312",
+    "serverReceiver": "135674",
+    "serverNext": "117312",
+    "serverCompetitor": "117312",
+    "receiverNext": "135674"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:33",
+    "startDateLocal": "02/16/2023 13:10:00",
+    "startDateUTC": "02/16/2023 12:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "160"
+}

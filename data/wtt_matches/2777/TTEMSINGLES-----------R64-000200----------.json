@@ -1,0 +1,91 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEMSINGLES-----------R64-000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 48 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136757",
+      "competitiorName": "YOSHIYAMA Ryoichi",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136757",
+          "playerName": "YOSHIYAMA Ryoichi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,11,11,7,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135367",
+      "competitiorName": "OH Junsung",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135367",
+          "playerName": "OH Junsung",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "14,8,5,11,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-14,11-8,11-5,7-11,11-8",
+  "resultsGameScores": "12-14,11-8,11-5,7-11,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136757",
+    "serverReceiver": "135367",
+    "serverNext": "136757",
+    "serverCompetitor": "136757",
+    "receiverNext": "135367"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:49:05",
+    "startDateLocal": "10/04/2023 19:45:00",
+    "startDateUTC": "10/04/2023 11:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "287"
+}

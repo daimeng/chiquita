@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------RND1002800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 28",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "111683",
+      "competitiorName": "GOMEZ Gustavo",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111683",
+          "playerName": "GOMEZ Gustavo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "106151",
+      "competitiorName": "MINO Alberto",
+      "competitiorOrg": "ECU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106151",
+          "playerName": "MINO Alberto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,5,10,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-9,11-5,12-10,0-0,0-0",
+  "resultsGameScores": "11-9,11-5,12-10,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "106151",
+    "serverReceiver": "111683",
+    "serverNext": "106151",
+    "serverCompetitor": "106151",
+    "receiverNext": "111683"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:08",
+    "startDateLocal": "08/07/2023 19:00:00",
+    "startDateUTC": "08/07/2023 22:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "164"
+}

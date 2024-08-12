@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------RND3000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122064",
+      "competitiorName": "KOLODZIEJCZYK Maciej",
+      "competitiorOrg": "AUT",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122064",
+          "playerName": "KOLODZIEJCZYK Maciej",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUT",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,15,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122086",
+      "competitiorName": "PUPPO Andrea",
+      "competitiorOrg": "ITA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122086",
+          "playerName": "PUPPO Andrea",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,13,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-8,15-13,11-7,0-0,0-0",
+  "resultsGameScores": "11-8,15-13,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122064",
+    "serverReceiver": "122086",
+    "serverNext": "122064",
+    "serverCompetitor": "122064",
+    "receiverNext": "122086"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:42",
+    "startDateLocal": "11/01/2023 16:45:00",
+    "startDateUTC": "11/01/2023 15:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "192"
+}

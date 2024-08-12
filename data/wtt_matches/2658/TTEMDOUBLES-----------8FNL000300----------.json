@@ -1,0 +1,107 @@
+{
+  "eventId": "2658",
+  "documentCode": "TTEMDOUBLES-----------8FNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "42032",
+      "competitiorName": "GOMEZ Gustavo/BURGOS Nicolas",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111683",
+          "playerName": "GOMEZ Gustavo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,9,11,4,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "59947",
+      "competitiorName": "KOZUL Deni/WALTHER Ricardo",
+      "competitiorOrg": "SLO/GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118851",
+          "playerName": "KOZUL Deni",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "109946",
+          "playerName": "WALTHER Ricardo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,9-11,11-6,4-11,0-0",
+  "resultsGameScores": "8-11,9-11,11-6,4-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133441",
+    "serverReceiver": "109946",
+    "serverNext": "133441",
+    "serverCompetitor": "42032",
+    "receiverNext": "109946"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:45",
+    "startDateLocal": "11/23/2022 10:05:00",
+    "startDateUTC": "11/23/2022 09:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "203"
+}

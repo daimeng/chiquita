@@ -1,0 +1,91 @@
+{
+  "eventId": "2695",
+  "documentCode": "TTEMSINGLES-----------RND2000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123971",
+      "competitiorName": "CHO Daeseong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123971",
+          "playerName": "CHO Daeseong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,9,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "109002",
+      "competitiorName": "STOYANOV Niagol",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "109002",
+          "playerName": "STOYANOV Niagol",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,10,11,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,12-10,9-11,11-7,0-0",
+  "resultsGameScores": "11-6,12-10,9-11,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "109002",
+    "serverReceiver": "123971",
+    "serverNext": "109002",
+    "serverCompetitor": "109002",
+    "receiverNext": "123971"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:28",
+    "startDateLocal": "04/24/2023 11:50:00",
+    "startDateUTC": "04/24/2023 04:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "226"
+}

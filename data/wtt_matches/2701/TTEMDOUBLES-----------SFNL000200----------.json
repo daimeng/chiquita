@@ -1,0 +1,107 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "42656",
+      "competitiorName": "LAM Siu Hang/HO Kwan Kit",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115546",
+          "playerName": "LAM Siu Hang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123690",
+          "playerName": "HO Kwan Kit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,8,15",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "39562",
+      "competitiorName": "LIN Shidong/CHEN Yuanyu",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137237",
+          "playerName": "LIN Shidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135050",
+          "playerName": "CHEN Yuanyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,4,11,13",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,7-11,11-4,8-11,15-13",
+  "resultsGameScores": "11-4,7-11,11-4,8-11,15-13",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137237",
+    "serverReceiver": "123690",
+    "serverNext": "137237",
+    "serverCompetitor": "39562",
+    "receiverNext": "123690"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:38",
+    "startDateLocal": "01/25/2023 16:35:00",
+    "startDateUTC": "01/25/2023 13:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "270"
+}

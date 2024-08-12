@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------R64-003200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 32",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122051",
+      "competitiorName": "OYEBODE John",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122051",
+          "playerName": "OYEBODE John",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,8,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "110602",
+      "competitiorName": "ZHMUDENKO Yaroslav",
+      "competitiorOrg": "UKR",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110602",
+          "playerName": "ZHMUDENKO Yaroslav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "UKR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,5,11,3",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,9-11,11-5,8-11,11-3",
+  "resultsGameScores": "11-9,9-11,11-5,8-11,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122051",
+    "serverReceiver": "110602",
+    "serverNext": "122051",
+    "serverCompetitor": "122051",
+    "receiverNext": "110602"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:13",
+    "startDateLocal": "11/02/2023 19:30:00",
+    "startDateUTC": "11/02/2023 18:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "246"
+}

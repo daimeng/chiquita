@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------R32-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100696",
+      "competitiorName": "ASSAR Omar",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100696",
+          "playerName": "ASSAR Omar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133850",
+      "competitiorName": "CHUA Josh Shao Han",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133850",
+          "playerName": "CHUA Josh Shao Han",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,8,9,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-8,11-8,11-9,0-0,0-0",
+  "resultsGameScores": "11-8,11-8,11-9,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133850",
+    "serverReceiver": "100696",
+    "serverNext": "133850",
+    "serverCompetitor": "133850",
+    "receiverNext": "100696"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:03:32",
+    "startDateLocal": "01/24/2023 18:15:00",
+    "startDateUTC": "01/24/2023 15:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "159"
+}

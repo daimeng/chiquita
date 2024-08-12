@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------RND2000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "114716",
+      "competitiorName": "ECSEKI Nandor",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114716",
+          "playerName": "ECSEKI Nandor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,10,8,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114848",
+      "competitiorName": "ALLEGRO Martin",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114848",
+          "playerName": "ALLEGRO Martin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "5-11,10-12,8-11,0-0,0-0",
+  "resultsGameScores": "5-11,10-12,8-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114716",
+    "serverReceiver": "114848",
+    "serverNext": "114716",
+    "serverCompetitor": "114716",
+    "receiverNext": "114848"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:29",
+    "startDateLocal": "08/08/2023 11:10:00",
+    "startDateUTC": "08/08/2023 14:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "161"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------R64-002000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 20",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "137004",
+      "competitiorName": "LEE Hoyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137004",
+          "playerName": "LEE Hoyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,5,11,8,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121514",
+      "competitiorName": "AN Jaehyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121514",
+          "playerName": "AN Jaehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,5,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "7-11,5-11,11-5,8-11,0-0",
+  "resultsGameScores": "7-11,5-11,11-5,8-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121514",
+    "serverReceiver": "137004",
+    "serverNext": "121514",
+    "serverCompetitor": "121514",
+    "receiverNext": "137004"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:33",
+    "startDateLocal": "01/24/2023 12:55:00",
+    "startDateUTC": "01/24/2023 09:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "190"
+}

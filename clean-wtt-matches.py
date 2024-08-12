@@ -138,24 +138,63 @@ def parse_match(m: dict, matches: list):
     matches.append(row)
 
 
-def parse_tournament(match_data: list[dict]):
-    matches = []
-
-    for m in match_data:
-        parse_match(m, matches)
-
-    return matches
+STAGE_TO_NUM = {
+    'FNL': 10,
+    'SFNL': 20,
+    'QFNL': 30,
+    '8FNL': 40,
+    '8FNL': 50,
+    'R16': 60,
+    'R32': 70,
+    'R64': 80,
+    'R128': 90,
+    'RND4': 100,
+    'RND3': 110,
+    'RND2': 120,
+    'RND1': 130,
+    '34': 160,
+    '910': 192,
+    '912': 194,
+    '916': 196,
+    '1616': 198,
+    'GP01': 201,
+    'GP02': 202,
+    'GP03': 203,
+    'GP04': 204,
+    'GP05': 205,
+    'GP06': 206,
+    'GP07': 207,
+    'GP08': 208,
+    'GP09': 209,
+    'GP10': 210,
+    'GP11': 211,
+    'GP12': 212,
+    'GP13': 213,
+    'GP14': 214,
+    'GP15': 215,
+    'GP16': 216,
+    'GP17': 217,
+    'GP18': 218,
+}
 
 def parse_event(evt):
-    path = os.path.join(f'data/wtt_matches/{evt}.json') 
-    with open(path, 'r') as f:
-        matches = json.load(f)
+    matches = []
 
-    matches = parse_tournament(matches)
+    for root, dirs, files in os.walk(os.path.join('data/wtt_matches', evt)):
+        for file in files:
+            with open(os.path.join(root, file), 'r') as f:
+                match = json.load(f)
+                parse_match(match, matches)
 
     mf = pd.DataFrame(matches)
     if not mf.empty:
-        mf.to_csv(f'data/wtt_cleaned/matches/{evt}.tsv', sep='\t', index=False)
+        try:
+            round = mf.stage.map(STAGE_TO_NUM).astype(int)
+            idx = round.sort_values().index
+            mf.loc[idx].to_csv(f'data/wtt_cleaned/matches/{evt}.tsv', sep='\t', index=False)
+        except pd.errors.IntCastingNaNError as e:
+            print(evt, mf.stage.value_counts())
+            raise e
 
 for file in os.listdir(directory):
     filename = os.fsdecode(file)

@@ -1,0 +1,104 @@
+{
+  "eventId": "2480",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men Doubles",
+  "subEventDescription": "Men's Doubles - Finals - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "45621",
+      "competitiorName": "WALKER Samuel/MOREGARD Truls",
+      "competitiorOrg": "ENG/SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114718",
+          "playerName": "WALKER Samuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "122044",
+          "playerName": "MOREGARD Truls",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,11,7,11"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "45623",
+      "competitiorName": "BARDET Lilian/DE NODREST Leo",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122002",
+          "playerName": "BARDET Lilian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123305",
+          "playerName": "DE NODREST Leo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,8,7,11,7"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,11-8,11-7,7-11,11-7",
+  "resultsGameScores": "10-12,11-8,11-7,7-11,11-7",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123305",
+    "serverReceiver": "114718",
+    "serverNext": "",
+    "serverCompetitor": "45623",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:38",
+    "startDateLocal": "08/25/2021 16:19:47",
+    "startDateUTC": "08/25/2021 13:19:47"
+  },
+  "teamParentData": null
+}

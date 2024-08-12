@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------QFNL000400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122095",
+      "competitiorName": "REMBERT Bastien",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122095",
+          "playerName": "REMBERT Bastien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,14,8,2",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112074",
+      "competitiorName": "FALCK Mattias",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112074",
+          "playerName": "FALCK Mattias",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,5,12,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-5,14-12,8-11,2-11",
+  "resultsGameScores": "9-11,11-5,14-12,8-11,2-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112074",
+    "serverReceiver": "122095",
+    "serverNext": "112074",
+    "serverCompetitor": "112074",
+    "receiverNext": "122095"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:31",
+    "startDateLocal": "10/06/2023 12:55:00",
+    "startDateUTC": "10/06/2023 10:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "265"
+}

@@ -1,0 +1,94 @@
+{
+  "eventId": "2900",
+  "documentCode": "TTEMSINGLES-----------R32-001400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123680",
+      "competitiorName": "SURAVAJJULA Snehit",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123680",
+          "playerName": "SURAVAJJULA Snehit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,3,12,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135996",
+      "competitiorName": "MATSUSHIMA Sora",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135996",
+          "playerName": "MATSUSHIMA Sora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,10,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-9,3-11,12-10,9-11",
+  "resultsGameScores": "5-11,11-9,3-11,12-10,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135996",
+    "serverReceiver": "123680",
+    "serverNext": "135996",
+    "serverCompetitor": "135996",
+    "receiverNext": "123680"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:08",
+    "startDateLocal": "07/05/2024 13:35:00",
+    "startDateUTC": "07/05/2024 06:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "265",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

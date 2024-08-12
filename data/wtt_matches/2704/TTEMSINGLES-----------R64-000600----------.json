@@ -1,0 +1,91 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEMSINGLES-----------R64-000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121940",
+      "competitiorName": "SHAMS Navid",
+      "competitiorOrg": "IRI",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121940",
+          "playerName": "SHAMS Navid",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,7,11,7,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112599",
+      "competitiorName": "YEH Chih-Wei",
+      "competitiorOrg": "TPE",
+      "compCardY": "1",
+      "compCardYR1": "1",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112599",
+          "playerName": "YEH Chih-Wei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,7,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "13-11,7-11,11-7,7-11,8-11",
+  "resultsGameScores": "13-11,7-11,11-7,7-11,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112599",
+    "serverReceiver": "121940",
+    "serverNext": "112599",
+    "serverCompetitor": "112599",
+    "receiverNext": "121940"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:50:11",
+    "startDateLocal": "03/29/2023 12:20:00",
+    "startDateUTC": "03/29/2023 09:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "280"
+}

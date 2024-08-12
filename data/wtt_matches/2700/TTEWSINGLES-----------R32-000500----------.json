@@ -1,0 +1,91 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEWSINGLES-----------R32-000500----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "105159",
+      "competitiorName": "LEE Ho Ching",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105159",
+          "playerName": "LEE Ho Ching",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115430",
+      "competitiorName": "HO Tin-Tin",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115430",
+          "playerName": "HO Tin-Tin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,5,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,9-11,11-5,11-8,0-0",
+  "resultsGameScores": "11-8,9-11,11-5,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115430",
+    "serverReceiver": "105159",
+    "serverNext": "115430",
+    "serverCompetitor": "115430",
+    "receiverNext": "105159"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:19",
+    "startDateLocal": "02/02/2023 10:30:00",
+    "startDateUTC": "02/02/2023 07:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "204"
+}

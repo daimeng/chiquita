@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------RND2001400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "144891",
+      "competitiorName": "IIZUKA Leonardo",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "144891",
+          "playerName": "IIZUKA Leonardo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,9,11,11,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111683",
+      "competitiorName": "GOMEZ Gustavo",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111683",
+          "playerName": "GOMEZ Gustavo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,8,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,9-11,11-9,11-8,10-12",
+  "resultsGameScores": "8-11,9-11,11-9,11-8,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "111683",
+    "serverReceiver": "144891",
+    "serverNext": "111683",
+    "serverCompetitor": "111683",
+    "receiverNext": "144891"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:50:44",
+    "startDateLocal": "08/08/2023 11:45:00",
+    "startDateUTC": "08/08/2023 14:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "284"
+}

@@ -1,0 +1,107 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100115922",
+      "competitiorName": "JOUTI Eric/SCHREINER Franziska",
+      "competitiorOrg": "BRA/GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113419",
+          "playerName": "JOUTI Eric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131086",
+          "playerName": "SCHREINER Franziska",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,4,11,11,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "62350",
+      "competitiorName": "FALCK Mattias/BERGSTROM Linda",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112074",
+          "playerName": "FALCK Mattias",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114905",
+          "playerName": "BERGSTROM Linda",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,9,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "4-11,4-11,11-9,11-9,10-12",
+  "resultsGameScores": "4-11,4-11,11-9,11-9,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114905",
+    "serverReceiver": "113419",
+    "serverNext": "114905",
+    "serverCompetitor": "62350",
+    "receiverNext": "113419"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:49",
+    "startDateLocal": "10/06/2023 19:40:00",
+    "startDateUTC": "10/06/2023 17:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "253"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2724",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123976",
+      "competitiorName": "PARK Gyeongtae",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123976",
+          "playerName": "PARK Gyeongtae",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,5,5,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121412",
+      "competitiorName": "XUE Fei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121412",
+          "playerName": "XUE Fei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "5-11,5-11,5-11,0-0,0-0",
+  "resultsGameScores": "5-11,5-11,5-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123976",
+    "serverReceiver": "121412",
+    "serverNext": "123976",
+    "serverCompetitor": "123976",
+    "receiverNext": "121412"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:18:43",
+    "startDateLocal": "08/26/2023 13:45:00",
+    "startDateUTC": "08/26/2023 11:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "130"
+}

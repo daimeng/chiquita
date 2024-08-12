@@ -1,0 +1,107 @@
+{
+  "eventId": "2724",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100110765",
+      "competitiorName": "ZHOU Kai/XUE Fei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117345",
+          "playerName": "ZHOU Kai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121412",
+          "playerName": "XUE Fei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,11,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "76218",
+      "competitiorName": "PENG Wang-Wei/KAO Cheng-Jui",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119877",
+          "playerName": "PENG Wang-Wei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132824",
+          "playerName": "KAO Cheng-Jui",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,8,11,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "4-11,11-7,11-8,6-11,11-5",
+  "resultsGameScores": "4-11,11-7,11-8,6-11,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119877",
+    "serverReceiver": "117345",
+    "serverNext": "119877",
+    "serverCompetitor": "76218",
+    "receiverNext": "117345"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:16",
+    "startDateLocal": "08/27/2023 16:35:00",
+    "startDateUTC": "08/27/2023 14:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "255"
+}

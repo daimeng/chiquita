@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEMSINGLES-----------RND1003000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 30",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115449",
+      "competitiorName": "LEVENKO Andreas",
+      "competitiorOrg": "AUT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115449",
+          "playerName": "LEVENKO Andreas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,3,11,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "113376",
+      "competitiorName": "ALKHADRAWI Ali",
+      "competitiorOrg": "KSA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113376",
+          "playerName": "ALKHADRAWI Ali",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,9,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-7,3-11,11-9,9-11",
+  "resultsGameScores": "5-11,11-7,3-11,11-9,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "113376",
+    "serverReceiver": "115449",
+    "serverNext": "113376",
+    "serverCompetitor": "113376",
+    "receiverNext": "115449"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:16",
+    "startDateLocal": "02/06/2023 18:45:00",
+    "startDateUTC": "02/06/2023 15:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "243"
+}

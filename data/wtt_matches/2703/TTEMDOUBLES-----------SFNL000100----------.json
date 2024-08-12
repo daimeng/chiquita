@@ -1,0 +1,107 @@
+{
+  "eventId": "2703",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "66773",
+      "competitiorName": "LIANG Guodong/NIU Guankai",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136536",
+          "playerName": "LIANG Guodong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134239",
+          "playerName": "NIU Guankai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "46560",
+      "competitiorName": "ALLEGRO Martin/RASSENFOSSE Adrien",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114848",
+          "playerName": "ALLEGRO Martin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123659",
+          "playerName": "RASSENFOSSE Adrien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,3,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,9-11,11-3,11-5,0-0",
+  "resultsGameScores": "11-7,9-11,11-3,11-5,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114848",
+    "serverReceiver": "136536",
+    "serverNext": "114848",
+    "serverCompetitor": "46560",
+    "receiverNext": "136536"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:43",
+    "startDateLocal": "02/23/2023 16:35:00",
+    "startDateUTC": "02/23/2023 15:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "187"
+}

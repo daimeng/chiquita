@@ -17,7 +17,7 @@ for event in tf.itertuples():
     tournaments.append(event)
 
     df = pd.read_csv(f'data/wtt_cleaned/matches/{event.EventId}.tsv', sep='\t', parse_dates=['start'])
-    df.sort_values(by='start', inplace=True)
+    # df.sort_values(by='start', inplace=True)
     df.drop(columns=['event_id', 'doc', 'start', 'b_id', 'y_id'], inplace=True)
     df[df.fmt != 'D'].astype({
         'fmt': 'category',
@@ -29,6 +29,7 @@ for event in tf.itertuples():
         'x_id': 'uint32',
         'res_a': 'u1',
         'res_x': 'u1',
+        # 'priority': 'u1'
     }).to_parquet(
         f'public/matches/{event.EventId}.parquet', #.br
         # compression='brotli'

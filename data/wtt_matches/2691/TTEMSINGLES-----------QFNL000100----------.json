@@ -1,0 +1,91 @@
+{
+  "eventId": "2691",
+  "documentCode": "TTEMSINGLES-----------QFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112074",
+      "competitiorName": "FALCK Mattias",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112074",
+          "playerName": "FALCK Mattias",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,13,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100621",
+      "competitiorName": "APOLONIA Tiago",
+      "competitiorOrg": "POR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100621",
+          "playerName": "APOLONIA Tiago",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,7,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,13-11,11-7,11-7,0-0",
+  "resultsGameScores": "6-11,13-11,11-7,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100621",
+    "serverReceiver": "112074",
+    "serverNext": "100621",
+    "serverCompetitor": "100621",
+    "receiverNext": "112074"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:13",
+    "startDateLocal": "06/24/2023 12:00:00",
+    "startDateUTC": "06/24/2023 11:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "213"
+}

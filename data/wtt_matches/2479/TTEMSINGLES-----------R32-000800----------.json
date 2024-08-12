@@ -1,0 +1,88 @@
+{
+  "eventId": "2479",
+  "documentCode": "TTEMSINGLES-----------R32-000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Kisakallio Sports Institute",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121416",
+      "competitiorName": "ZAKHAROV Vladislav",
+      "competitiorOrg": "KAZ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121416",
+          "playerName": "ZAKHAROV Vladislav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,4,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "113676",
+      "competitiorName": "ANGLES Enzo",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113676",
+          "playerName": "ANGLES Enzo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,11,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "6-11,11-13,4-11,0-0,0-0",
+  "resultsGameScores": "6-11,11-13,4-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "113676",
+    "serverReceiver": "121416",
+    "serverNext": "113676",
+    "serverCompetitor": "113676",
+    "receiverNext": "113676"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:00",
+    "startDateLocal": "12/03/2021 22:20:00",
+    "startDateUTC": "12/03/2021 20:20:00"
+  },
+  "teamParentData": null
+}

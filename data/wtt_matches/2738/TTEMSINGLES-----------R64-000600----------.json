@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------R64-000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135041",
+      "competitiorName": "ORANTES Diego",
+      "competitiorOrg": "ESA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135041",
+          "playerName": "ORANTES Diego",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,4,4,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121690",
+      "competitiorName": "PICARD Vincent",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121690",
+          "playerName": "PICARD Vincent",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,4-11,4-11,0-0,0-0",
+  "resultsGameScores": "9-11,4-11,4-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121690",
+    "serverReceiver": "135041",
+    "serverNext": "121690",
+    "serverCompetitor": "121690",
+    "receiverNext": "135041"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:16:05",
+    "startDateLocal": "10/04/2023 12:20:00",
+    "startDateUTC": "10/04/2023 10:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "132"
+}

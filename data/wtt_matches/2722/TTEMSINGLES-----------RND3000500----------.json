@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------RND3000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "109946",
+      "competitiorName": "WALTHER Ricardo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "109946",
+          "playerName": "WALTHER Ricardo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,12,14,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "102380",
+      "competitiorName": "DRINKHALL Paul",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102380",
+          "playerName": "DRINKHALL Paul",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,4,14,12,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-4,12-14,14-12,0-0",
+  "resultsGameScores": "11-6,11-4,12-14,14-12,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "102380",
+    "serverReceiver": "109946",
+    "serverNext": "102380",
+    "serverCompetitor": "102380",
+    "receiverNext": "109946"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:44:24",
+    "startDateLocal": "08/09/2023 14:35:00",
+    "startDateUTC": "08/09/2023 17:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "247"
+}

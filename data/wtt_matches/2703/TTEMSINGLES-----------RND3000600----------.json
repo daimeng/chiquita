@@ -1,0 +1,91 @@
+{
+  "eventId": "2703",
+  "documentCode": "TTEMSINGLES-----------RND3000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123192",
+      "competitiorName": "LEVAJAC Dimitrije",
+      "competitiorOrg": "SRB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123192",
+          "playerName": "LEVAJAC Dimitrije",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111887",
+      "competitiorName": "SHOUMAN Mohamed",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111887",
+          "playerName": "SHOUMAN Mohamed",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,2,4,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-8,11-2,11-4,0-0,0-0",
+  "resultsGameScores": "11-8,11-2,11-4,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "111887",
+    "serverReceiver": "123192",
+    "serverNext": "111887",
+    "serverCompetitor": "111887",
+    "receiverNext": "123192"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:13:03",
+    "startDateLocal": "02/21/2023 19:30:00",
+    "startDateUTC": "02/21/2023 18:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "131"
+}

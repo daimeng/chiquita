@@ -1,0 +1,110 @@
+{
+  "eventId": "2882",
+  "documentCode": "TTEMDOUBLES-----------RND1000500----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 1 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "ARENA VARA?DIN",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100111858",
+      "competitiorName": "DE LAS HERAS Rafael/VILCHEZ Miguel",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133042",
+          "playerName": "DE LAS HERAS Rafael",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "116213",
+          "playerName": "VILCHEZ Miguel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,10,8,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100119521",
+      "competitiorName": "YOKOTANI Jo/OKANO Shunsuke",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134317",
+          "playerName": "YOKOTANI Jo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "209021",
+          "playerName": "OKANO Shunsuke",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "6-11,10-12,8-11,0-0,0-0",
+  "resultsGameScores": "6-11,10-12,8-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133042",
+    "serverReceiver": "134317",
+    "serverNext": "133042",
+    "serverCompetitor": "100111858",
+    "receiverNext": "134317"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:32",
+    "startDateLocal": "04/02/2024 16:10:00",
+    "startDateUTC": "04/02/2024 14:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "164",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

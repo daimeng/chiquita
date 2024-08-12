@@ -1,0 +1,107 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "42032",
+      "competitiorName": "GOMEZ Gustavo/BURGOS Nicolas",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111683",
+          "playerName": "GOMEZ Gustavo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "60688",
+      "competitiorName": "CASTILLO AROCHA Cesar Augusto/RIOS ROMERO Carlos Josue Alberto",
+      "competitiorOrg": "VEN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "146225",
+          "playerName": "CASTILLO AROCHA Cesar Augusto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "VEN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "200361",
+          "playerName": "RIOS ROMERO Carlos Josue Alberto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "VEN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,9,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-9,11-7,0-0,0-0",
+  "resultsGameScores": "11-5,11-9,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200361",
+    "serverReceiver": "111683",
+    "serverNext": "200361",
+    "serverCompetitor": "60688",
+    "receiverNext": "111683"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:06",
+    "startDateLocal": "11/04/2022 13:30:00",
+    "startDateUTC": "11/04/2022 16:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "149"
+}

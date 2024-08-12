@@ -1,0 +1,91 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEMSINGLES-----------8FNL000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "203067",
+      "competitiorName": "WEN Ruibo",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "203067",
+          "playerName": "WEN Ruibo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "101192",
+      "competitiorName": "BOBOCICA Mihai",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101192",
+          "playerName": "BOBOCICA Mihai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,6,11,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-6,9-11,12-10,0-0",
+  "resultsGameScores": "11-6,11-6,9-11,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "101192",
+    "serverReceiver": "203067",
+    "serverNext": "101192",
+    "serverCompetitor": "101192",
+    "receiverNext": "203067"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:37:46",
+    "startDateLocal": "09/07/2023 19:20:00",
+    "startDateUTC": "09/07/2023 12:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "218"
+}

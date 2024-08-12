@@ -1,0 +1,91 @@
+{
+  "eventId": "2627",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Xinxiang Pingyuan Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121558",
+      "competitiorName": "WANG Chuqin",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121558",
+          "playerName": "WANG Chuqin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,15,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122044",
+      "competitiorName": "MOREGARD Truls",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122044",
+          "playerName": "MOREGARD Truls",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,3,13,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-8,11-3,15-13,0-0,0-0",
+  "resultsGameScores": "11-8,11-3,15-13,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122044",
+    "serverReceiver": "121558",
+    "serverNext": "122044",
+    "serverCompetitor": "122044",
+    "receiverNext": "121558"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:16",
+    "startDateLocal": "10/28/2022 20:35:09",
+    "startDateUTC": "10/28/2022 12:35:09"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "178"
+}

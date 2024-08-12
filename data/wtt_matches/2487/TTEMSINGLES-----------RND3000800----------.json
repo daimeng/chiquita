@@ -1,0 +1,88 @@
+{
+  "eventId": "2487",
+  "documentCode": "TTEMSINGLES-----------RND3000800----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Budapest Olympic Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123192",
+      "competitiorName": "LEVAJAC Dimitrije",
+      "competitiorOrg": "SRB",
+      "compCardY": "1",
+      "compCardYR1": "1",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123192",
+          "playerName": "LEVAJAC Dimitrije",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,6,13,11,7"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131484",
+      "competitiorName": "HODAEI Amir Hossein",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131484",
+          "playerName": "HODAEI Amir Hossein",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,15,9,11"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,6-11,13-15,11-9,7-11",
+  "resultsGameScores": "11-5,6-11,13-15,11-9,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123192",
+    "serverReceiver": "131484",
+    "serverNext": "",
+    "serverCompetitor": "123192",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:53:18",
+    "startDateLocal": "08/16/2021 19:07:01",
+    "startDateUTC": "08/16/2021 17:07:01"
+  },
+  "teamParentData": null
+}

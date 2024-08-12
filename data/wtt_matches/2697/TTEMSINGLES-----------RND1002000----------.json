@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEMSINGLES-----------RND1002000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 20",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "201160",
+      "competitiorName": "WANG Tingyu",
+      "competitiorOrg": "CHN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "201160",
+          "playerName": "WANG Tingyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,14,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "107445",
+      "competitiorName": "PISTEJ Lubomir",
+      "competitiorOrg": "SVK",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107445",
+          "playerName": "PISTEJ Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,12,3,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,11-8,14-12,11-3,0-0",
+  "resultsGameScores": "6-11,11-8,14-12,11-3,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "107445",
+    "serverReceiver": "201160",
+    "serverNext": "107445",
+    "serverCompetitor": "107445",
+    "receiverNext": "201160"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:20",
+    "startDateLocal": "02/06/2023 18:10:00",
+    "startDateUTC": "02/06/2023 15:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "227"
+}

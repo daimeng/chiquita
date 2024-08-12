@@ -1,0 +1,110 @@
+{
+  "eventId": "2869",
+  "documentCode": "TTEMDOUBLES-----------RND2000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Dom Sportova",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "41769",
+      "competitiorName": "HAZIN Jeremy/WANG Eugene",
+      "competitiorOrg": "CAN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117604",
+          "playerName": "HAZIN Jeremy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CAN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114247",
+          "playerName": "WANG Eugene",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CAN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100120502",
+      "competitiorName": "HAUG Borgar/ANDERSEN Martin Buch",
+      "competitiorOrg": "NOR/DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131211",
+          "playerName": "HAUG Borgar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131176",
+          "playerName": "ANDERSEN Martin Buch",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "DEN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,5,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "5-11,11-6,11-5,11-4,0-0",
+  "resultsGameScores": "5-11,11-6,11-5,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131176",
+    "serverReceiver": "117604",
+    "serverNext": "131176",
+    "serverCompetitor": "100120502",
+    "receiverNext": "117604"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:21",
+    "startDateLocal": "06/05/2024 12:55:00",
+    "startDateUTC": "06/05/2024 10:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "174",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

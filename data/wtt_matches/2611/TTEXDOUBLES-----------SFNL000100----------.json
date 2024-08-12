@@ -1,0 +1,107 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37186",
+      "competitiorName": "ISHIY Vitor/TAKAHASHI Bruna",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117312",
+          "playerName": "ISHIY Vitor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121623",
+          "playerName": "TAKAHASHI Bruna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "48410",
+      "competitiorName": "BURGOS Nicolas/VEGA Paulina",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "109777",
+          "playerName": "VEGA Paulina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,6,4,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "12-10,11-6,11-4,0-0,0-0",
+  "resultsGameScores": "12-10,11-6,11-4,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117312",
+    "serverReceiver": "109777",
+    "serverNext": "117312",
+    "serverCompetitor": "37186",
+    "receiverNext": "109777"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:22:42",
+    "startDateLocal": "11/05/2022 16:00:00",
+    "startDateUTC": "11/05/2022 19:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "149"
+}

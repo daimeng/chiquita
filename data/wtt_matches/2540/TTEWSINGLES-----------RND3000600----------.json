@@ -1,0 +1,4935 @@
+{
+  "eventId": "2540",
+  "documentCode": "TTEWSINGLES-----------RND3000600----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Qualifying Round 3 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123982",
+      "competitiorName": "BARBOSA Ariel",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123982",
+          "playerName": "BARBOSA Ariel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,9,9,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117009",
+      "competitiorName": "MARCHETTI Nathalie",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117009",
+          "playerName": "MARCHETTI Nathalie",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": {
+    "playByPlay": null,
+    "results_all": [
+      {
+        "messageType": "DT_RESULT_OFFICIAL",
+        "messagePayLoad": {
+          "matchId": "TTEWSINGLES-----------RND3000600--",
+          "sequenceNumber": 7,
+          "tableNo": "T03",
+          "resultStatus": "OFFICIAL",
+          "competition": {
+            "extendedInfos": {
+              "unitDateTime": {
+                "startDateLocal": "2022-06-22T15:01:09.143",
+                "startDateUTC": "2022-06-22T13:01:09.143",
+                "duration": "00:26:33"
+              },
+              "sportDescription": {
+                "disciplineName": "Table Tennis",
+                "eventName": "Women's Singles",
+                "matchDescription": "Women's Singles - Qualifying Round 3 - Match 6",
+                "gender": "W",
+                "bestOfXGames": 5,
+                "unitNum": "6",
+                "phaseName": "RND3",
+                "maxPointsPerGame": 11,
+                "advantagePerGame": 2,
+                "suddenDeathPoint": 99,
+                "ttrReview": false,
+                "maxChallengesPerCompetitor": 99,
+                "yellowCard": true,
+                "yellowRed1": true,
+                "yellowRed2": true,
+                "periodDescription": [
+                  {
+                    "game": "G1",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G2",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G3",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G4",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G5",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  }
+                ]
+              },
+              "venueDescription": {
+                "venue": "TTV",
+                "venueName": "Sport Centre Otocec",
+                "location": "T03",
+                "locationName": "Table 3"
+              },
+              "extendedInfo": [
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "TABLE",
+                  "pos": null,
+                  "value": "T03"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "SERVE",
+                  "pos": "1",
+                  "value": "H"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CURRENT",
+                  "pos": null,
+                  "value": "3"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "H",
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "A",
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "FINAL_RESULT",
+                  "pos": null,
+                  "value": "0-3"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "RALLY_MAX",
+                  "pos": null,
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "RALLY_AVG",
+                  "pos": null,
+                  "value": null
+                }
+              ]
+            },
+            "officials": [],
+            "periods": {
+              "home": "123982",
+              "away": "117009",
+              "period": [
+                {
+                  "code": "G1",
+                  "homeScore": 0,
+                  "awayScore": 1,
+                  "homePeriodScore": 9,
+                  "awayPeriodScore": 11,
+                  "duration": "00:10:38",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                },
+                {
+                  "code": "G2",
+                  "homeScore": 0,
+                  "awayScore": 2,
+                  "homePeriodScore": 9,
+                  "awayPeriodScore": 11,
+                  "duration": "00:08:21",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                },
+                {
+                  "code": "G3",
+                  "homeScore": 0,
+                  "awayScore": 3,
+                  "homePeriodScore": 9,
+                  "awayPeriodScore": 11,
+                  "duration": "00:08:33",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                },
+                {
+                  "code": "G4",
+                  "homeScore": 0,
+                  "awayScore": 3,
+                  "homePeriodScore": 0,
+                  "awayPeriodScore": 0,
+                  "duration": "00:00:00",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                },
+                {
+                  "code": "G5",
+                  "homeScore": 0,
+                  "awayScore": 3,
+                  "homePeriodScore": 0,
+                  "awayPeriodScore": 0,
+                  "duration": "00:00:00",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "result": [
+              {
+                "result": 0,
+                "irm": "OK",
+                "wlt": "L",
+                "sortOrder": 1,
+                "startSortOrder": 1,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "123982",
+                    "type": "A",
+                    "wlt": "L",
+                    "roundforRankingCal": null,
+                    "organization": "LUX",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "14"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "423"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "2"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "TOT",
+                          "value": "27"
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "TOT",
+                          "value": "4"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "TOT",
+                          "value": "4"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "TOT",
+                          "value": "17"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "TOT",
+                          "value": "10"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "TOT",
+                          "value": "13"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "TOT",
+                          "value": "20"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "TOT",
+                          "value": "4"
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "TOT",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Ariel",
+                              "familyName": "BARBOSA",
+                              "gender": "W",
+                              "organization": "LUX",
+                              "birthDate": "2001-06-27",
+                              "ifId": "123982",
+                              "class": null,
+                              "seed": 14
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "14"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": [
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G1",
+                                  "value": "9"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G1",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G1",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G1",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G1",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G1",
+                                  "value": "0"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G2",
+                                  "value": "9"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G2",
+                                  "value": "1"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G2",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G2",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G2",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G2",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G2",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G2",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G2",
+                                  "value": "0"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G3",
+                                  "value": "9"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G3",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G3",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G3",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G3",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G3",
+                                  "value": "0"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G5",
+                                  "value": ""
+                                }
+                              ]
+                            },
+                            "code": "123982",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "result": 3,
+                "irm": "OK",
+                "wlt": "W",
+                "sortOrder": 2,
+                "startSortOrder": 2,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "117009",
+                    "type": "A",
+                    "wlt": "W",
+                    "roundforRankingCal": null,
+                    "organization": "BEL",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "4"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "372"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "2"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "TOT",
+                          "value": "33"
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "TOT",
+                          "value": "4"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "TOT",
+                          "value": "4"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "TOT",
+                          "value": "20"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "TOT",
+                          "value": "13"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "TOT",
+                          "value": "10"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "TOT",
+                          "value": "17"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "TOT",
+                          "value": "6"
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "TOT",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Nathalie",
+                              "familyName": "MARCHETTI",
+                              "gender": "W",
+                              "organization": "BEL",
+                              "birthDate": "1996-09-10",
+                              "ifId": "117009",
+                              "class": null,
+                              "seed": 4
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "4"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": [
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G1",
+                                  "value": "11"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G1",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G1",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G1",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G1",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G1",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G2",
+                                  "value": "11"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G2",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G2",
+                                  "value": "1"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G2",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G2",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G2",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G2",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G2",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G2",
+                                  "value": "1"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G3",
+                                  "value": "11"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G3",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G3",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G3",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G3",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G3",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G4",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G5",
+                                  "value": ""
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G5",
+                                  "value": ""
+                                }
+                              ]
+                            },
+                            "code": "117009",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "gen": null,
+            "sport": null,
+            "codes": null
+          },
+          "competitionCode": "WTT-2022-2540-TEV-OTH",
+          "documentCode": "TTEWSINGLES-----------RND3000600--",
+          "documentType": "DT_RESULT",
+          "version": "1",
+          "feedFlag": "P",
+          "logicalDate": "2022-06-22",
+          "logicalTime": "152742157",
+          "utcDate": "2022-06-22",
+          "utcTime": "132742157",
+          "localDate": "2022-06-22",
+          "localTime": "152742157",
+          "source": "OVR",
+          "eventId": "2540",
+          "clusterRegion": "sea"
+        },
+        "sequencenumber": 7
+      },
+      {
+        "messageType": "DT_RESULT_ALL",
+        "messagePayLoad": {
+          "matchId": "TTEWSINGLES-----------RND3000600--",
+          "sequenceNumber": 5,
+          "tableNo": "T03",
+          "resultStatus": "INTERMEDIATE",
+          "competition": {
+            "extendedInfos": {
+              "unitDateTime": {
+                "startDateLocal": "2022-06-22T15:01:09.143",
+                "startDateUTC": "2022-06-22T13:01:09.143",
+                "duration": "00:25:31"
+              },
+              "sportDescription": {
+                "disciplineName": "Table Tennis",
+                "eventName": "Women's Singles",
+                "matchDescription": "Women's Singles - Qualifying Round 3 - Match 6",
+                "gender": "W",
+                "bestOfXGames": 5,
+                "unitNum": "6",
+                "phaseName": "RND3",
+                "maxPointsPerGame": 11,
+                "advantagePerGame": 2,
+                "suddenDeathPoint": 99,
+                "ttrReview": false,
+                "maxChallengesPerCompetitor": 99,
+                "yellowCard": true,
+                "yellowRed1": true,
+                "yellowRed2": true,
+                "periodDescription": [
+                  {
+                    "game": "G1",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G2",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G3",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G4",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G5",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  }
+                ]
+              },
+              "venueDescription": {
+                "venue": "TTV",
+                "venueName": "Sport Centre Otocec",
+                "location": "T03",
+                "locationName": "Table 3"
+              },
+              "extendedInfo": [
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "FINAL_RESULT",
+                  "pos": null,
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "TABLE",
+                  "pos": null,
+                  "value": "T03"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "SERVE",
+                  "pos": null,
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CURRENT",
+                  "pos": null,
+                  "value": "3"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "H",
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "A",
+                  "value": null
+                }
+              ]
+            },
+            "officials": [],
+            "periods": {
+              "home": "123982",
+              "away": "117009",
+              "period": [
+                {
+                  "code": "G1",
+                  "homeScore": 0,
+                  "awayScore": 1,
+                  "homePeriodScore": 9,
+                  "awayPeriodScore": 11,
+                  "duration": "00:10:38",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                },
+                {
+                  "code": "G2",
+                  "homeScore": 0,
+                  "awayScore": 2,
+                  "homePeriodScore": 9,
+                  "awayPeriodScore": 11,
+                  "duration": "00:08:21",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                },
+                {
+                  "code": "G3",
+                  "homeScore": 0,
+                  "awayScore": 3,
+                  "homePeriodScore": 9,
+                  "awayPeriodScore": 11,
+                  "duration": "00:08:33",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "result": [
+              {
+                "result": 0,
+                "irm": null,
+                "wlt": "L",
+                "sortOrder": 1,
+                "startSortOrder": 1,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "123982",
+                    "type": "A",
+                    "wlt": "L",
+                    "roundforRankingCal": null,
+                    "organization": "LUX",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "14"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "423"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G3",
+                          "value": "27"
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G3",
+                          "value": "4"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G3",
+                          "value": "4"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G3",
+                          "value": "17"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G3",
+                          "value": "10"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G3",
+                          "value": "13"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G3",
+                          "value": "20"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G3",
+                          "value": "4"
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G3",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Ariel",
+                              "familyName": "BARBOSA",
+                              "gender": "W",
+                              "organization": "LUX",
+                              "birthDate": "2001-06-27",
+                              "ifId": "123982",
+                              "class": null,
+                              "seed": 14
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "14"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": [
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G3",
+                                  "value": "9"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G3",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G3",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G3",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G3",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G3",
+                                  "value": "0"
+                                }
+                              ]
+                            },
+                            "code": "123982",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "result": 3,
+                "irm": null,
+                "wlt": "W",
+                "sortOrder": 2,
+                "startSortOrder": 2,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "117009",
+                    "type": "A",
+                    "wlt": "W",
+                    "roundforRankingCal": null,
+                    "organization": "BEL",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "4"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "372"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G3",
+                          "value": "33"
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G3",
+                          "value": "4"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G3",
+                          "value": "4"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G3",
+                          "value": "20"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G3",
+                          "value": "13"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G3",
+                          "value": "10"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G3",
+                          "value": "17"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G3",
+                          "value": "6"
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G3",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Nathalie",
+                              "familyName": "MARCHETTI",
+                              "gender": "W",
+                              "organization": "BEL",
+                              "birthDate": "1996-09-10",
+                              "ifId": "117009",
+                              "class": null,
+                              "seed": 4
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "4"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": [
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G3",
+                                  "value": "11"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G3",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G3",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G3",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G3",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G3",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G3",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G3",
+                                  "value": "2"
+                                }
+                              ]
+                            },
+                            "code": "117009",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "gen": null,
+            "sport": null,
+            "codes": null
+          },
+          "competitionCode": "WTT-2022-2540-TEV-OTH",
+          "documentCode": "TTEWSINGLES-----------RND3000600--",
+          "documentType": "DT_RESULT",
+          "version": "1",
+          "feedFlag": "P",
+          "logicalDate": "2022-06-22",
+          "logicalTime": "152640599",
+          "utcDate": "2022-06-22",
+          "utcTime": "132640599",
+          "localDate": "2022-06-22",
+          "localTime": "152640599",
+          "source": "OVR",
+          "eventId": "2540",
+          "clusterRegion": "sea"
+        },
+        "sequencenumber": 5
+      },
+      {
+        "messageType": "DT_RESULT_ALL",
+        "messagePayLoad": {
+          "matchId": "TTEWSINGLES-----------RND3000600--",
+          "sequenceNumber": 4,
+          "tableNo": "T03",
+          "resultStatus": "INTERMEDIATE",
+          "competition": {
+            "extendedInfos": {
+              "unitDateTime": {
+                "startDateLocal": "2022-06-22T15:01:09.143",
+                "startDateUTC": "2022-06-22T13:01:09.143",
+                "duration": "09:18:50"
+              },
+              "sportDescription": {
+                "disciplineName": "Table Tennis",
+                "eventName": "Women's Singles",
+                "matchDescription": "Women's Singles - Qualifying Round 3 - Match 6",
+                "gender": "W",
+                "bestOfXGames": 5,
+                "unitNum": "6",
+                "phaseName": "RND3",
+                "maxPointsPerGame": 11,
+                "advantagePerGame": 2,
+                "suddenDeathPoint": 99,
+                "ttrReview": false,
+                "maxChallengesPerCompetitor": 99,
+                "yellowCard": true,
+                "yellowRed1": true,
+                "yellowRed2": true,
+                "periodDescription": [
+                  {
+                    "game": "G1",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G2",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G3",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G4",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G5",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  }
+                ]
+              },
+              "venueDescription": {
+                "venue": "TTV",
+                "venueName": "Sport Centre Otocec",
+                "location": "T03",
+                "locationName": "Table 3"
+              },
+              "extendedInfo": [
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "FINAL_RESULT",
+                  "pos": null,
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "TABLE",
+                  "pos": null,
+                  "value": "T03"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "SERVE",
+                  "pos": null,
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CURRENT",
+                  "pos": null,
+                  "value": "3"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "H",
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "A",
+                  "value": null
+                }
+              ]
+            },
+            "officials": [],
+            "periods": {
+              "home": "123982",
+              "away": "117009",
+              "period": [
+                {
+                  "code": "G1",
+                  "homeScore": 0,
+                  "awayScore": 1,
+                  "homePeriodScore": 9,
+                  "awayPeriodScore": 11,
+                  "duration": "00:10:38",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                },
+                {
+                  "code": "G2",
+                  "homeScore": 0,
+                  "awayScore": 2,
+                  "homePeriodScore": 9,
+                  "awayPeriodScore": 11,
+                  "duration": "00:08:21",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "result": [
+              {
+                "result": 0,
+                "irm": null,
+                "wlt": "",
+                "sortOrder": 1,
+                "startSortOrder": 1,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "123982",
+                    "type": "A",
+                    "wlt": "",
+                    "roundforRankingCal": null,
+                    "organization": "LUX",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "14"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "423"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G2",
+                          "value": "18"
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G2",
+                          "value": "4"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G2",
+                          "value": "4"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G2",
+                          "value": "11"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G2",
+                          "value": "7"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G2",
+                          "value": "9"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G2",
+                          "value": "13"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G2",
+                          "value": "4"
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G2",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Ariel",
+                              "familyName": "BARBOSA",
+                              "gender": "W",
+                              "organization": "LUX",
+                              "birthDate": "2001-06-27",
+                              "ifId": "123982",
+                              "class": null,
+                              "seed": 14
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "14"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": [
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G2",
+                                  "value": "9"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G2",
+                                  "value": "1"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G2",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G2",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G2",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G2",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G2",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G2",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G2",
+                                  "value": "0"
+                                }
+                              ]
+                            },
+                            "code": "123982",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "result": 2,
+                "irm": null,
+                "wlt": "",
+                "sortOrder": 2,
+                "startSortOrder": 2,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "117009",
+                    "type": "A",
+                    "wlt": "",
+                    "roundforRankingCal": null,
+                    "organization": "BEL",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "4"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "372"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G2",
+                          "value": "22"
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G2",
+                          "value": "4"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G2",
+                          "value": "4"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G2",
+                          "value": "13"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G2",
+                          "value": "9"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G2",
+                          "value": "7"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G2",
+                          "value": "11"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G2",
+                          "value": "6"
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G2",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Nathalie",
+                              "familyName": "MARCHETTI",
+                              "gender": "W",
+                              "organization": "BEL",
+                              "birthDate": "1996-09-10",
+                              "ifId": "117009",
+                              "class": null,
+                              "seed": 4
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "4"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": [
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G2",
+                                  "value": "11"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G2",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G2",
+                                  "value": "1"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G2",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G2",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G2",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G2",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G2",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G2",
+                                  "value": "1"
+                                }
+                              ]
+                            },
+                            "code": "117009",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "gen": null,
+            "sport": null,
+            "codes": null
+          },
+          "competitionCode": "WTT-2022-2540-TEV-OTH",
+          "documentCode": "TTEWSINGLES-----------RND3000600--",
+          "documentType": "DT_RESULT",
+          "version": "1",
+          "feedFlag": "P",
+          "logicalDate": "2022-06-22",
+          "logicalTime": "151807289",
+          "utcDate": "2022-06-22",
+          "utcTime": "131807289",
+          "localDate": "2022-06-22",
+          "localTime": "151807289",
+          "source": "OVR",
+          "eventId": "2540",
+          "clusterRegion": "sea"
+        },
+        "sequencenumber": 4
+      },
+      {
+        "messageType": "DT_RESULT_ALL",
+        "messagePayLoad": {
+          "matchId": "TTEWSINGLES-----------RND3000600--",
+          "sequenceNumber": 3,
+          "tableNo": "T03",
+          "resultStatus": "INTERMEDIATE",
+          "competition": {
+            "extendedInfos": {
+              "unitDateTime": {
+                "startDateLocal": "2022-06-22T15:01:09.143",
+                "startDateUTC": "2022-06-22T13:01:09.143",
+                "duration": "09:18:50"
+              },
+              "sportDescription": {
+                "disciplineName": "Table Tennis",
+                "eventName": "Women's Singles",
+                "matchDescription": "Women's Singles - Qualifying Round 3 - Match 6",
+                "gender": "W",
+                "bestOfXGames": 5,
+                "unitNum": "6",
+                "phaseName": "RND3",
+                "maxPointsPerGame": 11,
+                "advantagePerGame": 2,
+                "suddenDeathPoint": 99,
+                "ttrReview": false,
+                "maxChallengesPerCompetitor": 99,
+                "yellowCard": true,
+                "yellowRed1": true,
+                "yellowRed2": true,
+                "periodDescription": [
+                  {
+                    "game": "G1",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G2",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G3",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G4",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G5",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  }
+                ]
+              },
+              "venueDescription": {
+                "venue": "TTV",
+                "venueName": "Sport Centre Otocec",
+                "location": "T03",
+                "locationName": "Table 3"
+              },
+              "extendedInfo": [
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "FINAL_RESULT",
+                  "pos": null,
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "TABLE",
+                  "pos": null,
+                  "value": "T03"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "SERVE",
+                  "pos": null,
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CURRENT",
+                  "pos": null,
+                  "value": "2"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "H",
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "A",
+                  "value": null
+                }
+              ]
+            },
+            "officials": [],
+            "periods": {
+              "home": "123982",
+              "away": "117009",
+              "period": [
+                {
+                  "code": "G1",
+                  "homeScore": 0,
+                  "awayScore": 1,
+                  "homePeriodScore": 9,
+                  "awayPeriodScore": 11,
+                  "duration": "00:10:38",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "result": [
+              {
+                "result": 0,
+                "irm": null,
+                "wlt": "",
+                "sortOrder": 1,
+                "startSortOrder": 1,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "123982",
+                    "type": "A",
+                    "wlt": "",
+                    "roundforRankingCal": null,
+                    "organization": "LUX",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "14"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "423"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G1",
+                          "value": "9"
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G1",
+                          "value": "4"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G1",
+                          "value": "2"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G1",
+                          "value": "5"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G1",
+                          "value": "4"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": "5"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": "6"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G1",
+                          "value": "4"
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G1",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Ariel",
+                              "familyName": "BARBOSA",
+                              "gender": "W",
+                              "organization": "LUX",
+                              "birthDate": "2001-06-27",
+                              "ifId": "123982",
+                              "class": null,
+                              "seed": 14
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "14"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": [
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G1",
+                                  "value": "9"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G1",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G1",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G1",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G1",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G1",
+                                  "value": "0"
+                                }
+                              ]
+                            },
+                            "code": "123982",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "result": 1,
+                "irm": null,
+                "wlt": "",
+                "sortOrder": 2,
+                "startSortOrder": 2,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "117009",
+                    "type": "A",
+                    "wlt": "",
+                    "roundforRankingCal": null,
+                    "organization": "BEL",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "4"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "372"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G1",
+                          "value": "11"
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G1",
+                          "value": "2"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G1",
+                          "value": "4"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G1",
+                          "value": "6"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G1",
+                          "value": "5"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": "4"
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": "5"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G1",
+                          "value": "6"
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G1",
+                          "value": "4"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Nathalie",
+                              "familyName": "MARCHETTI",
+                              "gender": "W",
+                              "organization": "BEL",
+                              "birthDate": "1996-09-10",
+                              "ifId": "117009",
+                              "class": null,
+                              "seed": 4
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "4"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": [
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_WON",
+                                  "pos": "G1",
+                                  "value": "11"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX",
+                                  "pos": "G1",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "LEAD_MAX_AGNST",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_WON",
+                                  "pos": "G1",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_WON",
+                                  "pos": "G1",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_SERVICE_LOST",
+                                  "pos": "G1",
+                                  "value": "4"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_OPP_SERVICE_LOST",
+                                  "pos": "G1",
+                                  "value": "5"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "PTS_CONSEC",
+                                  "pos": "G1",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "ST",
+                                  "code": "DEF_OVC_MAX",
+                                  "pos": "G1",
+                                  "value": "4"
+                                }
+                              ]
+                            },
+                            "code": "117009",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "gen": null,
+            "sport": null,
+            "codes": null
+          },
+          "competitionCode": "WTT-2022-2540-TEV-OTH",
+          "documentCode": "TTEWSINGLES-----------RND3000600--",
+          "documentType": "DT_RESULT",
+          "version": "1",
+          "feedFlag": "P",
+          "logicalDate": "2022-06-22",
+          "logicalTime": "150945766",
+          "utcDate": "2022-06-22",
+          "utcTime": "130945766",
+          "localDate": "2022-06-22",
+          "localTime": "150945766",
+          "source": "OVR",
+          "eventId": "2540",
+          "clusterRegion": "sea"
+        },
+        "sequencenumber": 3
+      },
+      {
+        "messageType": "DT_RESULT_ALL",
+        "messagePayLoad": {
+          "matchId": "TTEWSINGLES-----------RND3000600--",
+          "sequenceNumber": 2,
+          "tableNo": "T03",
+          "resultStatus": "LIVE",
+          "competition": {
+            "extendedInfos": {
+              "unitDateTime": {
+                "startDateLocal": "2022-06-22T15:01:09.143",
+                "startDateUTC": "2022-06-22T13:01:09.143",
+                "duration": "00:00:00"
+              },
+              "sportDescription": {
+                "disciplineName": "Table Tennis",
+                "eventName": "Women's Singles",
+                "matchDescription": "Women's Singles - Qualifying Round 3 - Match 6",
+                "gender": "W",
+                "bestOfXGames": 5,
+                "unitNum": "6",
+                "phaseName": "RND3",
+                "maxPointsPerGame": 11,
+                "advantagePerGame": 2,
+                "suddenDeathPoint": 99,
+                "ttrReview": false,
+                "maxChallengesPerCompetitor": 99,
+                "yellowCard": true,
+                "yellowRed1": true,
+                "yellowRed2": true,
+                "periodDescription": [
+                  {
+                    "game": "G1",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G2",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G3",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G4",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G5",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  }
+                ]
+              },
+              "venueDescription": {
+                "venue": "TTV",
+                "venueName": "Sport Centre Otocec",
+                "location": "T03",
+                "locationName": "Table 3"
+              },
+              "extendedInfo": [
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "TABLE",
+                  "pos": null,
+                  "value": "T03"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "SERVE",
+                  "pos": "1",
+                  "value": "H"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CURRENT",
+                  "pos": null,
+                  "value": "1"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "H",
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "A",
+                  "value": null
+                }
+              ]
+            },
+            "officials": [],
+            "periods": {
+              "home": "123982",
+              "away": "117009",
+              "period": [
+                {
+                  "code": "G1",
+                  "homeScore": 0,
+                  "awayScore": 0,
+                  "homePeriodScore": 0,
+                  "awayPeriodScore": 0,
+                  "duration": "00:00:00",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "result": [
+              {
+                "result": 0,
+                "irm": null,
+                "wlt": "",
+                "sortOrder": 1,
+                "startSortOrder": 1,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "123982",
+                    "type": "A",
+                    "wlt": "",
+                    "roundforRankingCal": null,
+                    "organization": "LUX",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "14"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "423"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G1",
+                          "value": ""
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G1",
+                          "value": ""
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": ""
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G1",
+                          "value": ""
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G1",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Ariel",
+                              "familyName": "BARBOSA",
+                              "gender": "W",
+                              "organization": "LUX",
+                              "birthDate": "2001-06-27",
+                              "ifId": "123982",
+                              "class": null,
+                              "seed": 14
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "14"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": []
+                            },
+                            "code": "123982",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "result": 0,
+                "irm": null,
+                "wlt": "",
+                "sortOrder": 2,
+                "startSortOrder": 2,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "117009",
+                    "type": "A",
+                    "wlt": "",
+                    "roundforRankingCal": null,
+                    "organization": "BEL",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "4"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "372"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G1",
+                          "value": ""
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G1",
+                          "value": ""
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": ""
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G1",
+                          "value": ""
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G1",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Nathalie",
+                              "familyName": "MARCHETTI",
+                              "gender": "W",
+                              "organization": "BEL",
+                              "birthDate": "1996-09-10",
+                              "ifId": "117009",
+                              "class": null,
+                              "seed": 4
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "4"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": []
+                            },
+                            "code": "117009",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "gen": null,
+            "sport": null,
+            "codes": null
+          },
+          "competitionCode": "WTT-2022-2540-TEV-OTH",
+          "documentCode": "TTEWSINGLES-----------RND3000600--",
+          "documentType": "DT_RESULT",
+          "version": "1",
+          "feedFlag": "P",
+          "logicalDate": "2022-06-22",
+          "logicalTime": "150109148",
+          "utcDate": "2022-06-22",
+          "utcTime": "130109148",
+          "localDate": "2022-06-22",
+          "localTime": "150109148",
+          "source": "OVR",
+          "eventId": "2540",
+          "clusterRegion": "sea"
+        },
+        "sequencenumber": 2
+      },
+      {
+        "messageType": "DT_RESULT_ALL",
+        "messagePayLoad": {
+          "matchId": "TTEWSINGLES-----------RND3000600--",
+          "sequenceNumber": 1,
+          "tableNo": "T03",
+          "resultStatus": "STARTLIST",
+          "competition": {
+            "extendedInfos": {
+              "unitDateTime": {
+                "startDateLocal": "2022-06-22T23:45:00",
+                "startDateUTC": "2022-06-22T21:45:00",
+                "duration": "00:00:00"
+              },
+              "sportDescription": {
+                "disciplineName": "Table Tennis",
+                "eventName": "Women's Singles",
+                "matchDescription": "Women's Singles - Qualifying Round 3 - Match 6",
+                "gender": "W",
+                "bestOfXGames": 5,
+                "unitNum": "6",
+                "phaseName": "RND3",
+                "maxPointsPerGame": 11,
+                "advantagePerGame": 2,
+                "suddenDeathPoint": 99,
+                "ttrReview": false,
+                "maxChallengesPerCompetitor": 99,
+                "yellowCard": true,
+                "yellowRed1": true,
+                "yellowRed2": true,
+                "periodDescription": [
+                  {
+                    "game": "G1",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G2",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G3",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G4",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  },
+                  {
+                    "game": "G5",
+                    "maxPointsPerGame": 11,
+                    "advantagePerGame": 2,
+                    "suddenDeathPoint": 99
+                  }
+                ]
+              },
+              "venueDescription": {
+                "venue": "TTV",
+                "venueName": "Sport Centre Otocec",
+                "location": "T03",
+                "locationName": "Table 3"
+              },
+              "extendedInfo": [
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "TABLE",
+                  "pos": null,
+                  "value": "T03"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CURRENT",
+                  "pos": null,
+                  "value": "1"
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "H",
+                  "value": null
+                },
+                {
+                  "extension": null,
+                  "type": "UI",
+                  "code": "CARD",
+                  "pos": "A",
+                  "value": null
+                }
+              ]
+            },
+            "officials": [],
+            "periods": {
+              "home": "123982",
+              "away": "117009",
+              "period": [
+                {
+                  "code": "G1",
+                  "homeScore": 0,
+                  "awayScore": 0,
+                  "homePeriodScore": 0,
+                  "awayPeriodScore": 0,
+                  "duration": "00:00:00",
+                  "extendedPeriods": [
+                    {
+                      "type": "EP",
+                      "code": "RALLY_MAX",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "RALLY_AVG",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINSPINRATE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXSPINDIRECTION",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINHEIGHTOFNETCLEARANCE",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "AVGPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MAXPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINPLAYERREACTIONTIME",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "MINBALLSPEED",
+                      "value": null
+                    },
+                    {
+                      "type": "EP",
+                      "code": "BALLPLACEMENT",
+                      "value": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "result": [
+              {
+                "result": 0,
+                "irm": null,
+                "wlt": "",
+                "sortOrder": 1,
+                "startSortOrder": 1,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "123982",
+                    "type": "A",
+                    "wlt": "",
+                    "roundforRankingCal": null,
+                    "organization": "LUX",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "14"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "423"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G1",
+                          "value": null
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G1",
+                          "value": null
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": null
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G1",
+                          "value": null
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G1",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Ariel",
+                              "familyName": "BARBOSA",
+                              "gender": "W",
+                              "organization": "LUX",
+                              "birthDate": "2001-06-27",
+                              "ifId": "123982",
+                              "class": null,
+                              "seed": 14
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "14"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": []
+                            },
+                            "code": "123982",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "result": 0,
+                "irm": null,
+                "wlt": "",
+                "sortOrder": 2,
+                "startSortOrder": 2,
+                "resultType": "POINTS",
+                "resultItems": {
+                  "resultItem": []
+                },
+                "competitor": [
+                  {
+                    "code": "117009",
+                    "type": "A",
+                    "wlt": "",
+                    "roundforRankingCal": null,
+                    "organization": "BEL",
+                    "description": null,
+                    "eventUnitEntry": [
+                      {
+                        "type": "RAN",
+                        "code": "SEED",
+                        "value": "4"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "QUALF",
+                        "value": "YES"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "CURRANK",
+                        "value": "372"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                        "value": "1"
+                      },
+                      {
+                        "type": "RAN",
+                        "code": "BYE",
+                        "value": "False"
+                      }
+                    ],
+                    "statsItems": {
+                      "statsItem": [
+                        {
+                          "code": "PTS_WON",
+                          "pos": "G1",
+                          "value": null
+                        },
+                        {
+                          "code": "LEAD_MAX",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "LEAD_MAX_AGNST",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_SERVICE_WON",
+                          "pos": "G1",
+                          "value": null
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_WON",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": null
+                        },
+                        {
+                          "code": "PTS_OPP_SERVICE_LOST",
+                          "pos": "G1",
+                          "value": "-"
+                        },
+                        {
+                          "code": "PTS_CONSEC",
+                          "pos": "G1",
+                          "value": null
+                        },
+                        {
+                          "code": "DEF_OVC_MAX",
+                          "pos": "G1",
+                          "value": "-"
+                        }
+                      ]
+                    },
+                    "composition": [
+                      {
+                        "athlete": [
+                          {
+                            "description": {
+                              "givenName": "Nathalie",
+                              "familyName": "MARCHETTI",
+                              "gender": "W",
+                              "organization": "BEL",
+                              "birthDate": "1996-09-10",
+                              "ifId": "117009",
+                              "class": null,
+                              "seed": 4
+                            },
+                            "eventUnitEntry": [
+                              {
+                                "type": "EUE",
+                                "code": "GRIP",
+                                "value": "Shakehand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "HAND",
+                                "value": "Right Hand"
+                              },
+                              {
+                                "type": "EUE",
+                                "code": "SEED",
+                                "value": "4"
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORA",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGTYPEB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "RACKETCOVERINGCOLORB",
+                                "value": null
+                              },
+                              {
+                                "type": "EQU",
+                                "code": "BLADETYPE",
+                                "value": null
+                              }
+                            ],
+                            "statsItems": {
+                              "stats": []
+                            },
+                            "code": "117009",
+                            "order": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "gen": null,
+            "sport": null,
+            "codes": null
+          },
+          "competitionCode": "WTT-2022-2540-TEV-OTH",
+          "documentCode": "TTEWSINGLES-----------RND3000600--",
+          "documentType": "DT_RESULT",
+          "version": "1",
+          "feedFlag": "P",
+          "logicalDate": "2022-06-22",
+          "logicalTime": "145830857",
+          "utcDate": "2022-06-22",
+          "utcTime": "125830857",
+          "localDate": "2022-06-22",
+          "localTime": "145830857",
+          "source": "OVR",
+          "eventId": "2540",
+          "clusterRegion": "sea"
+        },
+        "sequencenumber": 1
+      }
+    ]
+  },
+  "gameScores": "9-11,9-11,9-11,0-0,0-0",
+  "resultsGameScores": "9-11,9-11,9-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "",
+    "serverReceiver": "",
+    "serverNext": "",
+    "serverCompetitor": "",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:26:33",
+    "startDateLocal": "06/22/2022 15:01:09",
+    "startDateUTC": "06/22/2022 13:01:09"
+  },
+  "teamParentData": null
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2619",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Tap Seac Multisport Pavilion",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121404",
+      "competitiorName": "FAN Zhendong",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121404",
+          "playerName": "FAN Zhendong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,7,11,9,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121582",
+      "competitiorName": "LIN Yun-Ju",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121582",
+          "playerName": "LIN Yun-Ju",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "1,10,11,6,11,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 6,
+  "full_msg": null,
+  "gameScores": "11-1,12-10,7-11,11-6,9-11,11-6,0-0",
+  "resultsGameScores": "11-1,12-10,7-11,11-6,9-11,11-6,0-0",
+  "overallScores": "4-2",
+  "resultOverallScores": "4-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121582",
+    "serverReceiver": "121404",
+    "serverNext": "121582",
+    "serverCompetitor": "121582",
+    "receiverNext": "121404"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:55:15",
+    "startDateLocal": "10/22/2022 19:07:37",
+    "startDateUTC": "10/22/2022 11:07:37"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "292"
+}

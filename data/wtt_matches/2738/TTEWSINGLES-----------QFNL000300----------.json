@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEWSINGLES-----------QFNL000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123550",
+      "competitiorName": "LUTZ Camille",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123550",
+          "playerName": "LUTZ Camille",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,10,7,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "106706",
+      "competitiorName": "NI Xia Lian",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106706",
+          "playerName": "NI Xia Lian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "7-11,10-12,7-11,0-0,0-0",
+  "resultsGameScores": "7-11,10-12,7-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123550",
+    "serverReceiver": "106706",
+    "serverNext": "123550",
+    "serverCompetitor": "123550",
+    "receiverNext": "106706"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:01",
+    "startDateLocal": "10/06/2023 17:20:00",
+    "startDateUTC": "10/06/2023 15:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "171"
+}

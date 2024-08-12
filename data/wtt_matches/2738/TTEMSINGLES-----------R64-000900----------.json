@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------R64-000900----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 9",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112409",
+      "competitiorName": "GROTH Jonathan",
+      "competitiorOrg": "DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112409",
+          "playerName": "GROTH Jonathan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "DEN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,10,8,11,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121684",
+      "competitiorName": "JARVIS Tom",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121684",
+          "playerName": "JARVIS Tom",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,12,11,7,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,10-12,8-11,11-7,9-11",
+  "resultsGameScores": "11-6,10-12,8-11,11-7,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112409",
+    "serverReceiver": "121684",
+    "serverNext": "112409",
+    "serverCompetitor": "112409",
+    "receiverNext": "121684"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:48:45",
+    "startDateLocal": "10/04/2023 12:55:00",
+    "startDateUTC": "10/04/2023 10:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "262"
+}

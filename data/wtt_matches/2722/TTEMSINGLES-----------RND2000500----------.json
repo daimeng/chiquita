@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------RND2000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "107445",
+      "competitiorName": "PISTEJ Lubomir",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107445",
+          "playerName": "PISTEJ Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119316",
+      "competitiorName": "CIFUENTES Horacio",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119316",
+          "playerName": "CIFUENTES Horacio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,7,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,8-11,11-7,11-9,0-0",
+  "resultsGameScores": "11-8,8-11,11-7,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119316",
+    "serverReceiver": "107445",
+    "serverNext": "119316",
+    "serverCompetitor": "119316",
+    "receiverNext": "107445"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:12",
+    "startDateLocal": "08/08/2023 11:10:00",
+    "startDateUTC": "08/08/2023 14:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "214"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2630",
+  "documentCode": "TTEMSINGLES-----------FNL-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Broward Table Tennis Club",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112062",
+      "competitiorName": "GAUZY Simon",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112062",
+          "playerName": "GAUZY Simon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,11,11,2,8,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132632",
+      "competitiorName": "AIDA Satoshi",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132632",
+          "playerName": "AIDA Satoshi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,9,4,11,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "11-9,8-11,11-9,11-4,2-11,8-11,7-11",
+  "resultsGameScores": "11-9,8-11,11-9,11-4,2-11,8-11,7-11",
+  "overallScores": "3-4",
+  "resultOverallScores": "3-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112062",
+    "serverReceiver": "132632",
+    "serverNext": "112062",
+    "serverCompetitor": "112062",
+    "receiverNext": "132632"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:10:13",
+    "startDateLocal": "12/14/2022 20:45:00",
+    "startDateUTC": "12/15/2022 01:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "344"
+}

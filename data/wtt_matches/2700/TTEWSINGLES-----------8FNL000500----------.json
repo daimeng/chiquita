@@ -1,0 +1,91 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEWSINGLES-----------8FNL000500----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 16 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131086",
+      "competitiorName": "SCHREINER Franziska",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131086",
+          "playerName": "SCHREINER Franziska",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,11,4,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111416",
+      "competitiorName": "MORET Rachel",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111416",
+          "playerName": "MORET Rachel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,7,11,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,11-8,11-7,4-11,11-5",
+  "resultsGameScores": "6-11,11-8,11-7,4-11,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131086",
+    "serverReceiver": "111416",
+    "serverNext": "131086",
+    "serverCompetitor": "131086",
+    "receiverNext": "111416"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:53:13",
+    "startDateLocal": "02/02/2023 18:30:00",
+    "startDateUTC": "02/02/2023 15:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "229"
+}

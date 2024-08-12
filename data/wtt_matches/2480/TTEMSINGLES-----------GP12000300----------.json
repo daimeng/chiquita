@@ -1,0 +1,88 @@
+{
+  "eventId": "2480",
+  "documentCode": "TTEMSINGLES-----------GP12000300----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Group 12 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "110367",
+      "competitiorName": "YEFIMOV Viktor",
+      "competitiorOrg": "UKR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110367",
+          "playerName": "YEFIMOV Viktor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,5,11,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133321",
+      "competitiorName": "BAKO Radim",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133321",
+          "playerName": "BAKO Radim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,9,11,4,0"
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-9,5-11,11-4,0-0",
+  "resultsGameScores": "11-6,11-9,5-11,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133321",
+    "serverReceiver": "110367",
+    "serverNext": "",
+    "serverCompetitor": "133321",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:38",
+    "startDateLocal": "08/22/2021 14:30:11",
+    "startDateUTC": "08/22/2021 11:30:11"
+  },
+  "teamParentData": null
+}

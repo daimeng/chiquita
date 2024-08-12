@@ -1,0 +1,107 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMDOUBLES-----------RND1000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 1 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100118198",
+      "competitiorName": "ERIKSSON Anders/SODERLUND Hampus",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116846",
+          "playerName": "ERIKSSON Anders",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "112075",
+          "playerName": "SODERLUND Hampus",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100118200",
+      "competitiorName": "AHMADIAN Mahdi/KASES Andre Pierre",
+      "competitiorOrg": "REF/AUT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "204499",
+          "playerName": "AHMADIAN Mahdi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "REF",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134567",
+          "playerName": "KASES Andre Pierre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUT",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,1,3,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-1,11-3,0-0,0-0",
+  "resultsGameScores": "11-5,11-1,11-3,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134567",
+    "serverReceiver": "116846",
+    "serverNext": "134567",
+    "serverCompetitor": "100118200",
+    "receiverNext": "116846"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:13:31",
+    "startDateLocal": "10/02/2023 12:45:00",
+    "startDateUTC": "10/02/2023 10:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "118"
+}

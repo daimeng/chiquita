@@ -1,0 +1,107 @@
+{
+  "eventId": "2742",
+  "documentCode": "TTEXDOUBLES-----------8FNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37028",
+      "competitiorName": "IONESCU Ovidiu/SZOCS Bernadette",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103903",
+          "playerName": "IONESCU Ovidiu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111012",
+          "playerName": "SZOCS Bernadette",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,8,10,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "37034",
+      "competitiorName": "ECSEKI Nandor/MADARASZ Dora",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114716",
+          "playerName": "ECSEKI Nandor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111213",
+          "playerName": "MADARASZ Dora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,6,11,12,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,11-6,8-11,10-12,11-8",
+  "resultsGameScores": "11-8,11-6,8-11,10-12,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114716",
+    "serverReceiver": "111012",
+    "serverNext": "114716",
+    "serverCompetitor": "37034",
+    "receiverNext": "111012"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:17",
+    "startDateLocal": "10/19/2023 10:00:00",
+    "startDateUTC": "10/19/2023 07:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "279"
+}

@@ -1,0 +1,107 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36070",
+      "competitiorName": "LIND Anders/MAJOROS Bence",
+      "competitiorOrg": "DEN/HUN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115029",
+          "playerName": "LIND Anders",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114860",
+          "playerName": "MAJOROS Bence",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,9,8,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "35964",
+      "competitiorName": "KARLSSON Kristian/FALCK Mattias",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "104379",
+          "playerName": "KARLSSON Kristian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "112074",
+          "playerName": "FALCK Mattias",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "7-11,11-9,9-11,8-11,0-0",
+  "resultsGameScores": "7-11,11-9,9-11,8-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114860",
+    "serverReceiver": "112074",
+    "serverNext": "114860",
+    "serverCompetitor": "36070",
+    "receiverNext": "112074"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:53",
+    "startDateLocal": "08/04/2023 10:00:00",
+    "startDateUTC": "08/04/2023 15:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "209"
+}

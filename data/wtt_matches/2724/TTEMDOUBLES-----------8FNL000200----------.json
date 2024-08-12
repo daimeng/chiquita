@@ -1,0 +1,107 @@
+{
+  "eventId": "2724",
+  "documentCode": "TTEMDOUBLES-----------8FNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100110766",
+      "competitiorName": "ZHAO Zihao/CHEN Yuanyu",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134380",
+          "playerName": "ZHAO Zihao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135050",
+          "playerName": "CHEN Yuanyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,15,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "50793",
+      "competitiorName": "SIRUCEK Pavel/MARTINKO Jiri",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113243",
+          "playerName": "SIRUCEK Pavel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120267",
+          "playerName": "MARTINKO Jiri",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,7,17,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-3,11-7,15-17,11-7,0-0",
+  "resultsGameScores": "11-3,11-7,15-17,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "113243",
+    "serverReceiver": "135050",
+    "serverNext": "113243",
+    "serverCompetitor": "50793",
+    "receiverNext": "135050"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:16",
+    "startDateLocal": "08/24/2023 12:20:00",
+    "startDateUTC": "08/24/2023 10:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "232"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEMSINGLES-----------R64-001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "101648",
+      "competitiorName": "CHEN Chien-An",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101648",
+          "playerName": "CHEN Chien-An",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132995",
+      "competitiorName": "BELIK Simon",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132995",
+          "playerName": "BELIK Simon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,2,6,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "12-10,11-2,11-6,0-0,0-0",
+  "resultsGameScores": "12-10,11-2,11-6,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "101648",
+    "serverReceiver": "132995",
+    "serverNext": "101648",
+    "serverCompetitor": "101648",
+    "receiverNext": "132995"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:16:09",
+    "startDateLocal": "07/28/2023 13:00:00",
+    "startDateUTC": "07/28/2023 11:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "150"
+}

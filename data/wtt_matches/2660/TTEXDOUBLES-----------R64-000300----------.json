@@ -1,0 +1,107 @@
+{
+  "eventId": "2660",
+  "documentCode": "TTEXDOUBLES-----------R64-000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Round of 64 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 0,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "ICC Durban",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "71405",
+      "competitiorName": "HUANG Yan-Cheng/LI Yu-Jhun",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124572",
+          "playerName": "HUANG Yan-Cheng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "124162",
+          "playerName": "LI Yu-Jhun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,10,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "42026",
+      "competitiorName": "GOMEZ Gustavo/ORTEGA Daniela",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111683",
+          "playerName": "GOMEZ Gustavo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "117294",
+          "playerName": "ORTEGA Daniela",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,8,11,12,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,11-8,9-11,10-12,11-5",
+  "resultsGameScores": "11-9,11-8,9-11,10-12,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "124162",
+    "serverReceiver": "111683",
+    "serverNext": "124162",
+    "serverCompetitor": "71405",
+    "receiverNext": "111683"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:46",
+    "startDateLocal": "05/20/2023 15:20:00",
+    "startDateUTC": "05/20/2023 13:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "294"
+}

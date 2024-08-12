@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------R32-000900----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 9",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "103903",
+      "competitiorName": "IONESCU Ovidiu",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103903",
+          "playerName": "IONESCU Ovidiu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117002",
+      "competitiorName": "SEYFRIED Joe",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117002",
+          "playerName": "SEYFRIED Joe",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,7,2,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "12-10,11-7,11-2,0-0,0-0",
+  "resultsGameScores": "12-10,11-7,11-2,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "103903",
+    "serverReceiver": "117002",
+    "serverNext": "103903",
+    "serverCompetitor": "103903",
+    "receiverNext": "117002"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:12",
+    "startDateLocal": "11/03/2023 14:05:00",
+    "startDateUTC": "11/03/2023 13:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "150"
+}

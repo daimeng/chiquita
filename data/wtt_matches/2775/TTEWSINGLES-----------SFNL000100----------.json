@@ -1,0 +1,94 @@
+{
+  "eventId": "2775",
+  "documentCode": "TTEWSINGLES-----------SFNL000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sultan Qaboos Sport Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123672",
+      "competitiorName": "HAYATA Hina",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123672",
+          "playerName": "HAYATA Hina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,10,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "124591",
+      "competitiorName": "NAGASAKI Miyu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124591",
+          "playerName": "NAGASAKI Miyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,3,12,2",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-7,11-3,10-12,11-2",
+  "resultsGameScores": "9-11,11-7,11-3,10-12,11-2",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "124591",
+    "serverReceiver": "123672",
+    "serverNext": "124591",
+    "serverCompetitor": "124591",
+    "receiverNext": "123672"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:53",
+    "startDateLocal": "10/13/2023 18:10:00",
+    "startDateUTC": "10/13/2023 14:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "246",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

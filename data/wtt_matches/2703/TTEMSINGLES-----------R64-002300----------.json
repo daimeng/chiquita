@@ -1,0 +1,91 @@
+{
+  "eventId": "2703",
+  "documentCode": "TTEMSINGLES-----------R64-002300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 23",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131723",
+      "competitiorName": "VILARDELL Albert",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131723",
+          "playerName": "VILARDELL Albert",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,11,7,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "202064",
+      "competitiorName": "WANG Chen Ce",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202064",
+          "playerName": "WANG Chen Ce",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,14,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "4-11,11-8,7-11,12-14,0-0",
+  "resultsGameScores": "4-11,11-8,7-11,12-14,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "202064",
+    "serverReceiver": "131723",
+    "serverNext": "202064",
+    "serverCompetitor": "202064",
+    "receiverNext": "131723"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:22",
+    "startDateLocal": "02/22/2023 14:05:00",
+    "startDateUTC": "02/22/2023 13:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "215"
+}

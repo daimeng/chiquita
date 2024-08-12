@@ -1,0 +1,107 @@
+{
+  "eventId": "2698",
+  "documentCode": "TTEMDOUBLES-----------RND2000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 2 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36928",
+      "competitiorName": "PLETEA Cristian/SIPOS Rares",
+      "competitiorOrg": "ROU",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121042",
+          "playerName": "PLETEA Cristian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120224",
+          "playerName": "SIPOS Rares",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,13,12,11,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "62819",
+      "competitiorName": "HOSSEINI Sajad/SHAMS Navid",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120643",
+          "playerName": "HOSSEINI Sajad",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121940",
+          "playerName": "SHAMS Navid",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,15,10,5,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,13-15,12-10,11-5,6-11",
+  "resultsGameScores": "8-11,13-15,12-10,11-5,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120643",
+    "serverReceiver": "120224",
+    "serverNext": "120643",
+    "serverCompetitor": "62819",
+    "receiverNext": "120224"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:13",
+    "startDateLocal": "01/17/2023 10:40:00",
+    "startDateUTC": "01/17/2023 07:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "285"
+}

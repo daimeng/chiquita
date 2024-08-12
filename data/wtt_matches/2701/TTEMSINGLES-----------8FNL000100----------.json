@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------8FNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100696",
+      "competitiorName": "ASSAR Omar",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100696",
+          "playerName": "ASSAR Omar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,9,1,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117345",
+      "competitiorName": "ZHOU Kai",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117345",
+          "playerName": "ZHOU Kai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "7-11,9-11,1-11,0-0,0-0",
+  "resultsGameScores": "7-11,9-11,1-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100696",
+    "serverReceiver": "117345",
+    "serverNext": "100696",
+    "serverCompetitor": "100696",
+    "receiverNext": "117345"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:06:29",
+    "startDateLocal": "01/25/2023 12:55:00",
+    "startDateUTC": "01/25/2023 09:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "140"
+}

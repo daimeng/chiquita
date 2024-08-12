@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------RND2000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121693",
+      "competitiorName": "SGOUROPOULOS Ioannis",
+      "competitiorOrg": "GRE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121693",
+          "playerName": "SGOUROPOULOS Ioannis",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GRE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,6,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122043",
+      "competitiorName": "FRIIS Martin",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122043",
+          "playerName": "FRIIS Martin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,13,9,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,6-11,11-13,11-9,11-6",
+  "resultsGameScores": "11-9,6-11,11-13,11-9,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122043",
+    "serverReceiver": "121693",
+    "serverNext": "122043",
+    "serverCompetitor": "122043",
+    "receiverNext": "121693"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:29",
+    "startDateLocal": "10/02/2023 18:20:00",
+    "startDateUTC": "10/02/2023 16:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "268"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2627",
+  "documentCode": "TTEMSINGLES-----------QFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Xinxiang Pingyuan Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123980",
+      "competitiorName": "HARIMOTO Tomokazu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123980",
+          "playerName": "HARIMOTO Tomokazu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "101222",
+      "competitiorName": "BOLL Timo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101222",
+          "playerName": "BOLL Timo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,4,10,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-8,11-4,12-10,0-0,0-0",
+  "resultsGameScores": "11-8,11-4,12-10,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123980",
+    "serverReceiver": "101222",
+    "serverNext": "123980",
+    "serverCompetitor": "123980",
+    "receiverNext": "101222"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:54",
+    "startDateLocal": "10/28/2022 15:07:35",
+    "startDateUTC": "10/28/2022 07:07:35"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "167"
+}

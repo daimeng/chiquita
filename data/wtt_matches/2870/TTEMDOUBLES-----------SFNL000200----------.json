@@ -1,0 +1,110 @@
+{
+  "eventId": "2870",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36067",
+      "competitiorName": "JORGIC Darko/PUCAR Tomislav",
+      "competitiorOrg": "SLO/CRO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118927",
+          "playerName": "JORGIC Darko",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SLO",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "116532",
+          "playerName": "PUCAR Tomislav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CRO",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,1,11,12,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36763",
+      "competitiorName": "KALLBERG Anton/KARLSSON Kristian",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116853",
+          "playerName": "KALLBERG Anton",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "104379",
+          "playerName": "KARLSSON Kristian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,10,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,1-11,11-6,12-10,10-12",
+  "resultsGameScores": "7-11,1-11,11-6,12-10,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116532",
+    "serverReceiver": "116853",
+    "serverNext": "116532",
+    "serverCompetitor": "36067",
+    "receiverNext": "116853"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:39",
+    "startDateLocal": "06/14/2024 20:55:00",
+    "startDateUTC": "06/14/2024 18:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "280",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

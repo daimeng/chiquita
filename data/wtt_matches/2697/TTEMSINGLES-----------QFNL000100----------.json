@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEMSINGLES-----------QFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133893",
+      "competitiorName": "XU Haidong",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133893",
+          "playerName": "XU Haidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,14,4,13,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "137237",
+      "competitiorName": "LIN Shidong",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137237",
+          "playerName": "LIN Shidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,12,11,15,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,14-12,4-11,13-15,7-11",
+  "resultsGameScores": "11-8,14-12,4-11,13-15,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133893",
+    "serverReceiver": "137237",
+    "serverNext": "133893",
+    "serverCompetitor": "133893",
+    "receiverNext": "137237"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:00:27",
+    "startDateLocal": "02/11/2023 12:00:00",
+    "startDateUTC": "02/11/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "319"
+}

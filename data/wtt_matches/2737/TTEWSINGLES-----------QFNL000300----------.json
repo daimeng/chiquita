@@ -1,0 +1,91 @@
+{
+  "eventId": "2737",
+  "documentCode": "TTEWSINGLES-----------QFNL000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Pingyuan Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123977",
+      "competitiorName": "SHIN Yubin",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123977",
+          "playerName": "SHIN Yubin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,10,5,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "124110",
+      "competitiorName": "WANG Yidi",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124110",
+          "playerName": "WANG Yidi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "3-11,10-12,5-11,0-0,0-0",
+  "resultsGameScores": "3-11,10-12,5-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "124110",
+    "serverReceiver": "123977",
+    "serverNext": "124110",
+    "serverCompetitor": "124110",
+    "receiverNext": "123977"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:15:17",
+    "startDateLocal": "04/13/2023 15:10:00",
+    "startDateUTC": "04/13/2023 07:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "154"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEMSINGLES-----------R64-001900----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 19",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123305",
+      "competitiorName": "DE NODREST Leo",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123305",
+          "playerName": "DE NODREST Leo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "202064",
+      "competitiorName": "WANG Chen Ce",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202064",
+          "playerName": "WANG Chen Ce",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,6,3,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-8,11-6,11-3,0-0,0-0",
+  "resultsGameScores": "11-8,11-6,11-3,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "202064",
+    "serverReceiver": "123305",
+    "serverNext": "202064",
+    "serverCompetitor": "202064",
+    "receiverNext": "123305"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:13:51",
+    "startDateLocal": "02/15/2023 13:30:00",
+    "startDateUTC": "02/15/2023 12:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "132"
+}

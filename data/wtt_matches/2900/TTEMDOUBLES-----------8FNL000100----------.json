@@ -1,0 +1,110 @@
+{
+  "eventId": "2900",
+  "documentCode": "TTEMDOUBLES-----------8FNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "42418",
+      "competitiorName": "JANG Woojin/CHO Daeseong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114936",
+          "playerName": "JANG Woojin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123971",
+          "playerName": "CHO Daeseong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,3,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "99012",
+      "competitiorName": "BOURRASSAUD Florian/DORR Esteban",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120857",
+          "playerName": "BOURRASSAUD Florian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133652",
+          "playerName": "DORR Esteban",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,5,11,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-5,3-11,11-9,0-0",
+  "resultsGameScores": "11-6,11-5,3-11,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133652",
+    "serverReceiver": "114936",
+    "serverNext": "133652",
+    "serverCompetitor": "99012",
+    "receiverNext": "114936"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:39",
+    "startDateLocal": "07/04/2024 19:45:00",
+    "startDateUTC": "07/04/2024 12:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "179",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

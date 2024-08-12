@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------8FNL000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117312",
+      "competitiorName": "ISHIY Vitor",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117312",
+          "playerName": "ISHIY Vitor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,9,1,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114715",
+      "competitiorName": "QIU Dang",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114715",
+          "playerName": "QIU Dang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "5-11,9-11,1-11,0-0,0-0",
+  "resultsGameScores": "5-11,9-11,1-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117312",
+    "serverReceiver": "114715",
+    "serverNext": "117312",
+    "serverCompetitor": "117312",
+    "receiverNext": "114715"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:18:24",
+    "startDateLocal": "08/11/2023 18:00:00",
+    "startDateUTC": "08/11/2023 21:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "133"
+}

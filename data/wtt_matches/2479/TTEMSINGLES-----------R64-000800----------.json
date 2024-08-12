@@ -1,0 +1,88 @@
+{
+  "eventId": "2479",
+  "documentCode": "TTEMSINGLES-----------R64-000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Kisakallio Sports Institute",
+  "tableNumber": "T08",
+  "tableName": "Table 8",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "146141",
+      "competitiorName": "DE HOOP Jacob Jochem",
+      "competitiorOrg": "NED",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "146141",
+          "playerName": "DE HOOP Jacob Jochem",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,13,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133020",
+      "competitiorName": "TSCHANZ Cedric",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133020",
+          "playerName": "TSCHANZ Cedric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,6,11,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-6,13-11,0-0,0-0",
+  "resultsGameScores": "11-5,11-6,13-11,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133020",
+    "serverReceiver": "146141",
+    "serverNext": "133020",
+    "serverCompetitor": "133020",
+    "receiverNext": "133020"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:00",
+    "startDateLocal": "12/03/2021 21:40:00",
+    "startDateUTC": "12/03/2021 19:40:00"
+  },
+  "teamParentData": null
+}

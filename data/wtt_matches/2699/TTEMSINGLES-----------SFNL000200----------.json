@@ -1,0 +1,94 @@
+{
+  "eventId": "2699",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Olive Convention Centre Durban",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "110602",
+      "competitiorName": "ZHMUDENKO Yaroslav",
+      "competitiorOrg": "UKR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110602",
+          "playerName": "ZHMUDENKO Yaroslav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "UKR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,8,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112062",
+      "competitiorName": "GAUZY Simon",
+      "competitiorOrg": "FRA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112062",
+          "playerName": "GAUZY Simon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,7,11,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,11-7,8-11,11-9,0-0",
+  "resultsGameScores": "11-8,11-7,8-11,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112062",
+    "serverReceiver": "110602",
+    "serverNext": "112062",
+    "serverCompetitor": "112062",
+    "receiverNext": "110602"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:25",
+    "startDateLocal": "01/14/2023 17:40:00",
+    "startDateUTC": "01/14/2023 15:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "210",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

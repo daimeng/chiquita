@@ -1,0 +1,91 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEMSINGLES-----------R64-001600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 16",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100445",
+      "competitiorName": "ALIM Azzam",
+      "competitiorOrg": "KSA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100445",
+          "playerName": "ALIM Azzam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,8,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "107445",
+      "competitiorName": "PISTEJ Lubomir",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107445",
+          "playerName": "PISTEJ Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,13,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "3-11,8-11,11-13,0-0,0-0",
+  "resultsGameScores": "3-11,8-11,11-13,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100445",
+    "serverReceiver": "107445",
+    "serverNext": "100445",
+    "serverCompetitor": "100445",
+    "receiverNext": "107445"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:16:41",
+    "startDateLocal": "02/01/2023 17:00:00",
+    "startDateUTC": "02/01/2023 14:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "156"
+}

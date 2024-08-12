@@ -6,13 +6,16 @@ from datetime import datetime
 import json
 
 async def get_matches(page: Page, evt: int):
-    matches = []
     err = None
 
     async def intercept(resp):
+        global err
+
         if 'GetMatchCardDetails' in resp.url:
             try:
-                matches.append(await resp.json())
+                match = await resp.json()
+                with open(os.path.join('data/wtt_matches', evt, match['documentCode']), 'w') as f:
+                    json.dump(match, f, ensure_ascii=False, indent=2)
             except Exception as e:
                 err = e
 
@@ -32,16 +35,15 @@ async def get_matches(page: Page, evt: int):
     first = first_done.pop()
     load_btn = await first
     text = await page.evaluate('(element) => element.textContent', load_btn)
+
     if text.lower() != 'load more':
         print(f'Empty Event! {evt}')
-        with open(f'data/wtt_matches/{evt}.json', 'w') as f:
-            json.dump([], f,)
         return
 
     while True:
         try:
             load_btn = await page.wait_for_selector('[class="generic_btn"]', timeout=10000)
-        except TimeoutError as e:            
+        except TimeoutError as e:
             break
 
         # if not load_btn:
@@ -51,9 +53,6 @@ async def get_matches(page: Page, evt: int):
 
     if err:
         print(err)
-    else:
-        with open(f'data/wtt_matches/{evt}.json', 'w') as f:
-            json.dump(matches, f, ensure_ascii=False, indent=4)
 
 
 async def run(playwright: Playwright):
@@ -72,8 +71,12 @@ async def main():
         tf = pd.read_csv('data/tournaments_wtt.tsv', sep='\t', parse_dates=['StartDateTime', 'EndDateTime'])
         for row in tf[tf.EndDateTime < datetime.now()].itertuples():
             print(f'Processing Event {row.EventId}')
-            if os.path.isfile(f'data/wtt_matches/{row.EventId}.json'):
+            path = os.path.join('data/wtt_matches', f'{row.EventId}')
+            if os.path.exists(path):
                 continue
+            else:
+                os.mkdir(path)
+
             await get_matches(page, row.EventId)
 
         await browser.close()

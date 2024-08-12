@@ -1,0 +1,107 @@
+{
+  "eventId": "2742",
+  "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37084",
+      "competitiorName": "HARIMOTO Tomokazu/HAYATA Hina",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123980",
+          "playerName": "HARIMOTO Tomokazu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123672",
+          "playerName": "HAYATA Hina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "37028",
+      "competitiorName": "IONESCU Ovidiu/SZOCS Bernadette",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103903",
+          "playerName": "IONESCU Ovidiu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111012",
+          "playerName": "SZOCS Bernadette",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,3,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,11-4,11-3,11-7,0-0",
+  "resultsGameScores": "9-11,11-4,11-3,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "103903",
+    "serverReceiver": "123980",
+    "serverNext": "103903",
+    "serverCompetitor": "37028",
+    "receiverNext": "123980"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:23",
+    "startDateLocal": "10/20/2023 20:20:00",
+    "startDateUTC": "10/20/2023 17:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "188"
+}

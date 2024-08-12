@@ -1,0 +1,107 @@
+{
+  "eventId": "2660",
+  "documentCode": "TTEMDOUBLES-----------8FNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 0,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "ICC Durban",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "41485",
+      "competitiorName": "CHO Daeseong/LEE Sang Su",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123971",
+          "playerName": "CHO Daeseong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "105197",
+          "playerName": "LEE Sang Su",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,16,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36255",
+      "competitiorName": "IONESCU Ovidiu/ROBLES Alvaro",
+      "competitiorOrg": "ROU/ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103903",
+          "playerName": "IONESCU Ovidiu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111050",
+          "playerName": "ROBLES Alvaro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,18,9,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "13-11,16-18,11-9,11-7,0-0",
+  "resultsGameScores": "13-11,16-18,11-9,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "111050",
+    "serverReceiver": "105197",
+    "serverNext": "111050",
+    "serverCompetitor": "36255",
+    "receiverNext": "105197"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:41",
+    "startDateLocal": "05/24/2023 11:00:00",
+    "startDateUTC": "05/24/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "299"
+}

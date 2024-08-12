@@ -1,0 +1,91 @@
+{
+  "eventId": "2724",
+  "documentCode": "TTEMSINGLES-----------RND3000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120287",
+      "competitiorName": "MUTTI Matteo",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120287",
+          "playerName": "MUTTI Matteo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,8,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123976",
+      "competitiorName": "PARK Gyeongtae",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123976",
+          "playerName": "PARK Gyeongtae",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,5,11,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,9-11,11-5,8-11,10-12",
+  "resultsGameScores": "11-9,9-11,11-5,8-11,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120287",
+    "serverReceiver": "123976",
+    "serverNext": "120287",
+    "serverCompetitor": "120287",
+    "receiverNext": "123976"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:25",
+    "startDateLocal": "08/23/2023 15:40:00",
+    "startDateUTC": "08/23/2023 13:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "268"
+}

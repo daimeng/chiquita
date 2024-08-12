@@ -1,0 +1,110 @@
+{
+  "eventId": "2755",
+  "documentCode": "TTEXDOUBLES-----------8FNL000500----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Round of 16 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "77712",
+      "competitiorName": "HO Kwan Kit/LAM Yee Lok",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123690",
+          "playerName": "HO Kwan Kit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "116152",
+          "playerName": "LAM Yee Lok",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,8,11,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "95248",
+      "competitiorName": "ABDEL-AZIZ Youssef/ALHODABY Mariam",
+      "competitiorOrg": "EGY",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116723",
+          "playerName": "ABDEL-AZIZ Youssef",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "EGY",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120726",
+          "playerName": "ALHODABY Mariam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "EGY",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-9,8-11,11-8,6-11",
+  "resultsGameScores": "7-11,11-9,8-11,11-8,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116152",
+    "serverReceiver": "116723",
+    "serverNext": "116152",
+    "serverCompetitor": "77712",
+    "receiverNext": "116723"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:43:02",
+    "startDateLocal": "11/29/2023 10:00:00",
+    "startDateUTC": "11/29/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "252",
+  "teamMatchNo": null,
+  "teamMatchScores": null,
+  "teamMatchScoresSummary": null
+}

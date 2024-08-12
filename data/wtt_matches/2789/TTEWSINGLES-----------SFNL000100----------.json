@@ -1,0 +1,91 @@
+{
+  "eventId": "2789",
+  "documentCode": "TTEWSINGLES-----------SFNL000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Expocuba Pablell?n Salud #20",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115009",
+      "competitiorName": "DIAZ Adriana",
+      "competitiorOrg": "PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115009",
+          "playerName": "DIAZ Adriana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,11,11,3,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119022",
+      "competitiorName": "WANG Amy",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119022",
+          "playerName": "WANG Amy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,8,11,2,13,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "11-4,11-8,9-11,11-2,11-13,3-11,9-11",
+  "resultsGameScores": "11-4,11-8,9-11,11-2,11-13,3-11,9-11",
+  "overallScores": "3-4",
+  "resultOverallScores": "3-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119022",
+    "serverReceiver": "115009",
+    "serverNext": "119022",
+    "serverCompetitor": "119022",
+    "receiverNext": "115009"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:28",
+    "startDateLocal": "09/13/2023 15:45:00",
+    "startDateUTC": "09/13/2023 19:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "351"
+}

@@ -1,0 +1,110 @@
+{
+  "eventId": "2629",
+  "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Singapore Sports Hub",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36538",
+      "competitiorName": "UDA Yukiya/TOGAMI Shunsuke",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122777",
+          "playerName": "UDA Yukiya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133694",
+          "playerName": "TOGAMI Shunsuke",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,12,11,4,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36265",
+      "competitiorName": "QIU Dang/DUDA Benedikt",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114715",
+          "playerName": "QIU Dang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "116620",
+          "playerName": "DUDA Benedikt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,7,11,3",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,12-10,11-7,4-11,11-3",
+  "resultsGameScores": "8-11,12-10,11-7,4-11,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116620",
+    "serverReceiver": "122777",
+    "serverNext": "116620",
+    "serverCompetitor": "36265",
+    "receiverNext": "122777"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:57:23",
+    "startDateLocal": "03/16/2023 19:40:00",
+    "startDateUTC": "03/16/2023 11:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "248",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

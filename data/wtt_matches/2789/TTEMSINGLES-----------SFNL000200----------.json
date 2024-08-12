@@ -1,0 +1,91 @@
+{
+  "eventId": "2789",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Expocuba Pablell?n Salud #20",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133441",
+      "competitiorName": "BURGOS Nicolas",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,9,11,12,7,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132793",
+      "competitiorName": "LORENZO Santiago",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132793",
+          "playerName": "LORENZO Santiago",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,3,10,11,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "6-11,11-7,9-11,11-3,12-10,7-11,11-8",
+  "resultsGameScores": "6-11,11-7,9-11,11-3,12-10,7-11,11-8",
+  "overallScores": "4-3",
+  "resultOverallScores": "4-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132793",
+    "serverReceiver": "133441",
+    "serverNext": "132793",
+    "serverCompetitor": "132793",
+    "receiverNext": "133441"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:47:48",
+    "startDateLocal": "09/13/2023 16:30:00",
+    "startDateUTC": "09/13/2023 20:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "363"
+}

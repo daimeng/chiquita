@@ -1,0 +1,107 @@
+{
+  "eventId": "2630",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Broward Table Tennis Club",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "45610",
+      "competitiorName": "PISTEJ Lubomir/ZELINKA Jakub",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107445",
+          "playerName": "PISTEJ Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121869",
+          "playerName": "ZELINKA Jakub",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,6,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "61794",
+      "competitiorName": "LEVINSKI Mishel/BARDET Lilian",
+      "competitiorOrg": "USA/FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112367",
+          "playerName": "LEVINSKI Mishel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "122002",
+          "playerName": "BARDET Lilian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,8,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-9,6-11,11-8,11-8",
+  "resultsGameScores": "9-11,11-9,6-11,11-8,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122002",
+    "serverReceiver": "107445",
+    "serverNext": "122002",
+    "serverCompetitor": "61794",
+    "receiverNext": "107445"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:21",
+    "startDateLocal": "12/13/2022 17:00:00",
+    "startDateUTC": "12/13/2022 22:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "257"
+}

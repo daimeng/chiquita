@@ -1,0 +1,107 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100110995",
+      "competitiorName": "KOLDAS Tomas/STALZER Adam",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120281",
+          "playerName": "KOLDAS Tomas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134340",
+          "playerName": "STALZER Adam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,8,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36508",
+      "competitiorName": "MOREGARD Truls/KALLBERG Anton",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122044",
+          "playerName": "MOREGARD Truls",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "116853",
+          "playerName": "KALLBERG Anton",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,14,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "6-11,8-11,12-14,0-0,0-0",
+  "resultsGameScores": "6-11,8-11,12-14,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134340",
+    "serverReceiver": "116853",
+    "serverNext": "134340",
+    "serverCompetitor": "100110995",
+    "receiverNext": "116853"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:18:01",
+    "startDateLocal": "10/05/2023 17:35:00",
+    "startDateUTC": "10/05/2023 15:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "170"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------RND1001400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "124527",
+      "competitiorName": "ISHIDA Carlos",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124527",
+          "playerName": "ISHIDA Carlos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "17,7,10,5,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123300",
+      "competitiorName": "ROLLAND Jules",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123300",
+          "playerName": "ROLLAND Jules",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "15,11,12,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "17-15,7-11,10-12,5-11,0-0",
+  "resultsGameScores": "17-15,7-11,10-12,5-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "124527",
+    "serverReceiver": "123300",
+    "serverNext": "124527",
+    "serverCompetitor": "124527",
+    "receiverNext": "123300"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:00",
+    "startDateLocal": "08/07/2023 16:40:00",
+    "startDateUTC": "08/07/2023 19:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "255"
+}

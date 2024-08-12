@@ -1,0 +1,91 @@
+{
+  "eventId": "2692",
+  "documentCode": "TTEMSINGLES-----------RND3000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Dom Sportova",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131484",
+      "competitiorName": "HODAEI Amir Hossein",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131484",
+          "playerName": "HODAEI Amir Hossein",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,7,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "120850",
+      "competitiorName": "OIKAWA Mizuki",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120850",
+          "playerName": "OIKAWA Mizuki",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,8,11,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-5,11-8,7-11,12-10,0-0",
+  "resultsGameScores": "11-5,11-8,7-11,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120850",
+    "serverReceiver": "131484",
+    "serverNext": "120850",
+    "serverCompetitor": "120850",
+    "receiverNext": "131484"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:45",
+    "startDateLocal": "06/27/2023 18:00:00",
+    "startDateUTC": "06/27/2023 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "204"
+}

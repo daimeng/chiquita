@@ -1,0 +1,91 @@
+{
+  "eventId": "2699",
+  "documentCode": "TTEMSINGLES-----------R32-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Olive Convention Centre Durban",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121684",
+      "competitiorName": "JARVIS Tom",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121684",
+          "playerName": "JARVIS Tom",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121412",
+      "competitiorName": "XUE Fei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121412",
+          "playerName": "XUE Fei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,8,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-8,11-7,0-0,0-0",
+  "resultsGameScores": "11-5,11-8,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121684",
+    "serverReceiver": "121412",
+    "serverNext": "121684",
+    "serverCompetitor": "121684",
+    "receiverNext": "121412"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:37:48",
+    "startDateLocal": "01/12/2023 11:45:00",
+    "startDateUTC": "01/12/2023 09:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "147"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117003",
+      "competitiorName": "CASSIN Alexandre",
+      "competitiorOrg": "FRA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117003",
+          "playerName": "CASSIN Alexandre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,13,11,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117890",
+      "competitiorName": "GERASSIMENKO Kirill",
+      "competitiorOrg": "KAZ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117890",
+          "playerName": "GERASSIMENKO Kirill",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KAZ",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,15,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-8,13-15,11-8,6-11",
+  "resultsGameScores": "9-11,11-8,13-15,11-8,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117003",
+    "serverReceiver": "117890",
+    "serverNext": "117003",
+    "serverCompetitor": "117003",
+    "receiverNext": "117890"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:56:39",
+    "startDateLocal": "11/05/2023 11:10:00",
+    "startDateUTC": "11/05/2023 10:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "299"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEWSINGLES-----------QFNL000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115009",
+      "competitiorName": "DIAZ Adriana",
+      "competitiorOrg": "PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115009",
+          "playerName": "DIAZ Adriana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,4,8,11,7,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119022",
+      "competitiorName": "WANG Amy",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119022",
+          "playerName": "WANG Amy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,11,2,11,7,2",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "11-5,4-11,8-11,11-2,7-11,11-7,11-2",
+  "resultsGameScores": "11-5,4-11,8-11,11-2,7-11,11-7,11-2",
+  "overallScores": "4-3",
+  "resultOverallScores": "4-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119022",
+    "serverReceiver": "115009",
+    "serverNext": "119022",
+    "serverCompetitor": "119022",
+    "receiverNext": "115009"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:09:58",
+    "startDateLocal": "11/05/2022 11:30:00",
+    "startDateUTC": "11/05/2022 14:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "314"
+}

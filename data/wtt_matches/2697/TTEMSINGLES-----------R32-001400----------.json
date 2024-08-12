@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEMSINGLES-----------R32-001400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "107312",
+      "competitiorName": "PERSSON Jon",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107312",
+          "playerName": "PERSSON Jon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,4,11,11,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135977",
+      "competitiorName": "LEBRUN Felix",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135977",
+          "playerName": "LEBRUN Felix",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,5,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,4-11,11-6,11-5,7-11",
+  "resultsGameScores": "7-11,4-11,11-6,11-5,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135977",
+    "serverReceiver": "107312",
+    "serverNext": "135977",
+    "serverCompetitor": "135977",
+    "receiverNext": "107312"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:40",
+    "startDateLocal": "02/09/2023 19:10:00",
+    "startDateUTC": "02/09/2023 16:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "233"
+}

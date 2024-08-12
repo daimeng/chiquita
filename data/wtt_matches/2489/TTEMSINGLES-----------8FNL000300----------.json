@@ -1,0 +1,88 @@
+{
+  "eventId": "2489",
+  "documentCode": "TTEMSINGLES-----------8FNL000300----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "110726",
+      "competitiorName": "OLAH Benedek",
+      "competitiorOrg": "FIN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110726",
+          "playerName": "OLAH Benedek",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,11,11,11,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115546",
+      "competitiorName": "LAM Siu Hang",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115546",
+          "playerName": "LAM Siu Hang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,6,6,4,0"
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "10-12,11-6,11-6,11-4,0-0",
+  "resultsGameScores": "10-12,11-6,9-6,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "110726",
+    "serverReceiver": "115546",
+    "serverNext": "",
+    "serverCompetitor": "110726",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:37:48",
+    "startDateLocal": "09/23/2021 20:01:18",
+    "startDateUTC": "09/23/2021 17:01:18"
+  },
+  "teamParentData": null
+}

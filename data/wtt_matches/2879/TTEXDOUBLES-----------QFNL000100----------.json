@@ -1,0 +1,110 @@
+{
+  "eventId": "2879",
+  "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Cycling Centre",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37034",
+      "competitiorName": "ECSEKI Nandor/MADARASZ Dora",
+      "competitiorOrg": "HUN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114716",
+          "playerName": "ECSEKI Nandor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111213",
+          "playerName": "MADARASZ Dora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "62299",
+      "competitiorName": "JARVIS Tom/HO Tin-Tin",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121684",
+          "playerName": "JARVIS Tom",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115430",
+          "playerName": "HO Tin-Tin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,7,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,11-7,11-7,11-4,0-0",
+  "resultsGameScores": "9-11,11-7,11-7,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114716",
+    "serverReceiver": "115430",
+    "serverNext": "114716",
+    "serverCompetitor": "37034",
+    "receiverNext": "115430"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:13",
+    "startDateLocal": "02/03/2024 10:00:00",
+    "startDateUTC": "02/03/2024 10:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "206",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

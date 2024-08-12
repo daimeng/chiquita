@@ -1,0 +1,91 @@
+{
+  "eventId": "2695",
+  "documentCode": "TTEMSINGLES-----------QFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133848",
+      "competitiorName": "YUAN Licen",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133848",
+          "playerName": "YUAN Licen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "14,14,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119284",
+      "competitiorName": "CHO Seungmin",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119284",
+          "playerName": "CHO Seungmin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "16,12,8,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "14-16,14-12,11-8,11-5,0-0",
+  "resultsGameScores": "14-16,14-12,11-8,11-5,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133848",
+    "serverReceiver": "119284",
+    "serverNext": "133848",
+    "serverCompetitor": "133848",
+    "receiverNext": "119284"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:13",
+    "startDateLocal": "04/28/2023 11:35:00",
+    "startDateUTC": "04/28/2023 04:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "271"
+}

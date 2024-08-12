@@ -1,0 +1,91 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEMSINGLES-----------R64-003100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 31",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "110674",
+      "competitiorName": "ABO YAMAN Zaid",
+      "competitiorOrg": "JOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110674",
+          "playerName": "ABO YAMAN Zaid",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,11,11,14,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122078",
+      "competitiorName": "GIOVANNETTI Tommaso",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122078",
+          "playerName": "GIOVANNETTI Tommaso",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,7,12,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "3-11,11-6,11-7,14-12,0-0",
+  "resultsGameScores": "3-11,11-6,11-7,14-12,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122078",
+    "serverReceiver": "110674",
+    "serverNext": "122078",
+    "serverCompetitor": "122078",
+    "receiverNext": "110674"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:05",
+    "startDateLocal": "02/01/2023 19:00:00",
+    "startDateUTC": "02/01/2023 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "211"
+}

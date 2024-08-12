@@ -1,0 +1,91 @@
+{
+  "eventId": "2724",
+  "documentCode": "TTEMSINGLES-----------RND3000400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136587",
+      "competitiorName": "SUN Zheng",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136587",
+          "playerName": "SUN Zheng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135678",
+      "competitiorName": "LEI Balazs",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135678",
+          "playerName": "LEI Balazs",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,8,11,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,11-8,9-11,12-10,0-0",
+  "resultsGameScores": "11-9,11-8,9-11,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135678",
+    "serverReceiver": "136587",
+    "serverNext": "135678",
+    "serverCompetitor": "135678",
+    "receiverNext": "136587"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:01",
+    "startDateLocal": "08/23/2023 15:40:00",
+    "startDateUTC": "08/23/2023 13:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "228"
+}

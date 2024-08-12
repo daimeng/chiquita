@@ -1,0 +1,107 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMDOUBLES-----------8FNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36091",
+      "competitiorName": "CHO Seungmin/AN Jaehyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119284",
+          "playerName": "CHO Seungmin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121514",
+          "playerName": "AN Jaehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "64150",
+      "competitiorName": "NARANJO Angel/MASIP Joan",
+      "competitiorOrg": "PUR/ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131446",
+          "playerName": "NARANJO Angel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120872",
+          "playerName": "MASIP Joan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,5,10,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-5,12-10,0-0,0-0",
+  "resultsGameScores": "11-5,11-5,12-10,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121514",
+    "serverReceiver": "131446",
+    "serverNext": "121514",
+    "serverCompetitor": "36091",
+    "receiverNext": "131446"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:13:24",
+    "startDateLocal": "01/24/2023 15:55:00",
+    "startDateUTC": "01/24/2023 12:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "146"
+}

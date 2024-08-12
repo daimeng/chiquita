@@ -1,0 +1,107 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMDOUBLES-----------RND1000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 1 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100107361",
+      "competitiorName": "LIANG Jishan/MA Jinbao",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121222",
+          "playerName": "LIANG Jishan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135745",
+          "playerName": "MA Jinbao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,5,8,8,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "72555",
+      "competitiorName": "OIKAWA Mizuki/MATSUSHIMA Sora",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120850",
+          "playerName": "OIKAWA Mizuki",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135996",
+          "playerName": "MATSUSHIMA Sora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "12-10,5-11,8-11,8-11,0-0",
+  "resultsGameScores": "12-10,5-11,8-11,8-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121222",
+    "serverReceiver": "120850",
+    "serverNext": "121222",
+    "serverCompetitor": "100107361",
+    "receiverNext": "120850"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:12",
+    "startDateLocal": "08/08/2023 10:00:00",
+    "startDateUTC": "08/08/2023 13:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "208"
+}

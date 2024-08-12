@@ -1,0 +1,91 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEMSINGLES-----------R32-001500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 15",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133441",
+      "competitiorName": "BURGOS Nicolas",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122607",
+      "competitiorName": "HIDALGO Rodrigo",
+      "competitiorOrg": "PER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122607",
+          "playerName": "HIDALGO Rodrigo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,5,3,9,9,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,11-5,11-3,11-9,11-9,0-0,0-0",
+  "resultsGameScores": "6-11,11-5,11-3,11-9,11-9,0-0,0-0",
+  "overallScores": "4-1",
+  "resultOverallScores": "4-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122607",
+    "serverReceiver": "133441",
+    "serverNext": "122607",
+    "serverCompetitor": "122607",
+    "receiverNext": "133441"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:09",
+    "startDateLocal": "11/04/2022 10:00:00",
+    "startDateUTC": "11/04/2022 13:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "243"
+}

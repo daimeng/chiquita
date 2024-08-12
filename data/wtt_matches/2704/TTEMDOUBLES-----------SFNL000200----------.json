@@ -1,0 +1,107 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "72031",
+      "competitiorName": "BOULOUSSA Mehdi/RASSENFOSSE Adrien",
+      "competitiorOrg": "ALG/BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113679",
+          "playerName": "BOULOUSSA Mehdi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ALG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123659",
+          "playerName": "RASSENFOSSE Adrien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BEL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,5,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "45343",
+      "competitiorName": "IONESCU Eduard/MOVILEANU Darius",
+      "competitiorOrg": "ROU",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135023",
+          "playerName": "IONESCU Eduard",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134693",
+          "playerName": "MOVILEANU Darius",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,2,11,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,11-2,5-11,11-5,0-0",
+  "resultsGameScores": "11-8,11-2,5-11,11-5,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134693",
+    "serverReceiver": "123659",
+    "serverNext": "134693",
+    "serverCompetitor": "45343",
+    "receiverNext": "123659"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:22:54",
+    "startDateLocal": "03/31/2023 16:45:00",
+    "startDateUTC": "03/31/2023 13:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "168"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEWSINGLES-----------R32-001400----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123120",
+      "competitiorName": "SHI Xunyao",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123120",
+          "playerName": "SHI Xunyao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122348",
+      "competitiorName": "BRATEYKO Solomiya",
+      "competitiorOrg": "UKR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122348",
+          "playerName": "BRATEYKO Solomiya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,1,4,2,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,11-1,11-4,11-2,0-0",
+  "resultsGameScores": "9-11,11-1,11-4,11-2,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123120",
+    "serverReceiver": "122348",
+    "serverNext": "123120",
+    "serverCompetitor": "123120",
+    "receiverNext": "122348"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:23",
+    "startDateLocal": "07/28/2023 16:40:00",
+    "startDateUTC": "07/28/2023 14:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "175"
+}

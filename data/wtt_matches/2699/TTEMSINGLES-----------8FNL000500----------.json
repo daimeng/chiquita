@@ -1,0 +1,91 @@
+{
+  "eventId": "2699",
+  "documentCode": "TTEMSINGLES-----------8FNL000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Olive Convention Centre Durban",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123300",
+      "competitiorName": "ROLLAND Jules",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123300",
+          "playerName": "ROLLAND Jules",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,14,4,11,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "110602",
+      "competitiorName": "ZHMUDENKO Yaroslav",
+      "competitiorOrg": "UKR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110602",
+          "playerName": "ZHMUDENKO Yaroslav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,6,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,14-12,4-11,11-6,8-11",
+  "resultsGameScores": "5-11,14-12,4-11,11-6,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123300",
+    "serverReceiver": "110602",
+    "serverNext": "123300",
+    "serverCompetitor": "123300",
+    "receiverNext": "110602"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:21",
+    "startDateLocal": "01/13/2023 11:10:00",
+    "startDateUTC": "01/13/2023 09:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "264"
+}

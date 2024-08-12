@@ -1,0 +1,94 @@
+{
+  "eventId": "2869",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Dom Sportova",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123980",
+      "competitiorName": "HARIMOTO Tomokazu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123980",
+          "playerName": "HARIMOTO Tomokazu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,12,11,11,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133694",
+      "competitiorName": "TOGAMI Shunsuke",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133694",
+          "playerName": "TOGAMI Shunsuke",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "15,14,8,9,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "13-15,12-14,11-8,11-9,10-12",
+  "resultsGameScores": "13-15,12-14,11-8,11-9,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133694",
+    "serverReceiver": "123980",
+    "serverNext": "133694",
+    "serverCompetitor": "133694",
+    "receiverNext": "123980"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:54:28",
+    "startDateLocal": "06/08/2024 20:20:00",
+    "startDateUTC": "06/08/2024 18:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "343",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

@@ -1,0 +1,107 @@
+{
+  "eventId": "2691",
+  "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "58374",
+      "competitiorName": "LIN Yun-Ju/CHEN Szu-Yu",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121582",
+          "playerName": "LIN Yun-Ju",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114105",
+          "playerName": "CHEN Szu-Yu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,13,15,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "37075",
+      "competitiorName": "JANG Woojin/JEON Jihee",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114936",
+          "playerName": "JANG Woojin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118994",
+          "playerName": "JEON Jihee",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,17,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-7,13-11,15-17,11-8",
+  "resultsGameScores": "5-11,11-7,13-11,15-17,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121582",
+    "serverReceiver": "114936",
+    "serverNext": "121582",
+    "serverCompetitor": "58374",
+    "receiverNext": "114936"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:54:00",
+    "startDateLocal": "06/23/2023 10:00:00",
+    "startDateUTC": "06/23/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "316"
+}

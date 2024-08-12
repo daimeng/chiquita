@@ -1,0 +1,91 @@
+{
+  "eventId": "2734",
+  "documentCode": "TTEWSINGLES-----------SFNL000200----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Aspire Ladies Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123505",
+      "competitiorName": "ZHU Chengzhu",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123505",
+          "playerName": "ZHU Chengzhu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,2,5,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131480",
+      "competitiorName": "HURSEY Anna",
+      "competitiorOrg": "WAL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131480",
+          "playerName": "HURSEY Anna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "WAL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,5,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-13,11-5,2-11,5-11,0-0",
+  "resultsGameScores": "11-13,11-5,2-11,5-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123505",
+    "serverReceiver": "131480",
+    "serverNext": "123505",
+    "serverCompetitor": "123505",
+    "receiverNext": "131480"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:20",
+    "startDateLocal": "10/19/2023 10:35:00",
+    "startDateUTC": "10/19/2023 08:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "198"
+}

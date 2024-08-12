@@ -1,0 +1,107 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "39562",
+      "competitiorName": "LIN Shidong/CHEN Yuanyu",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137237",
+          "playerName": "LIN Shidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135050",
+          "playerName": "CHEN Yuanyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "64287",
+      "competitiorName": "PISTEJ Lubomir/LIANG  Jishan",
+      "competitiorOrg": "SVK/USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107445",
+          "playerName": "PISTEJ Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121222",
+          "playerName": "LIANG  Jishan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,3,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,7-11,11-3,11-8,0-0",
+  "resultsGameScores": "11-9,7-11,11-3,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121222",
+    "serverReceiver": "135050",
+    "serverNext": "121222",
+    "serverCompetitor": "64287",
+    "receiverNext": "135050"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:03",
+    "startDateLocal": "02/03/2023 11:20:00",
+    "startDateUTC": "02/03/2023 08:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "198"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------R64-000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116846",
+      "competitiorName": "ERIKSSON Anders",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116846",
+          "playerName": "ERIKSSON Anders",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "106814",
+      "competitiorName": "NUYTINCK Cedric",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106814",
+          "playerName": "NUYTINCK Cedric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BEL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,6,11,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-6,9-11,11-4,0-0",
+  "resultsGameScores": "11-6,11-6,9-11,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116846",
+    "serverReceiver": "106814",
+    "serverNext": "116846",
+    "serverCompetitor": "116846",
+    "receiverNext": "106814"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:31",
+    "startDateLocal": "10/04/2023 12:55:00",
+    "startDateUTC": "10/04/2023 10:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "181"
+}

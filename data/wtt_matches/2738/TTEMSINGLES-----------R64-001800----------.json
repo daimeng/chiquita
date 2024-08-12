@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------R64-001800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 18",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122051",
+      "competitiorName": "OYEBODE John",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122051",
+          "playerName": "OYEBODE John",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,11,10,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "120168",
+      "competitiorName": "GUNDUZ Ibrahim",
+      "competitiorOrg": "TUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120168",
+          "playerName": "GUNDUZ Ibrahim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,5,12,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-9,11-5,10-12,6-11",
+  "resultsGameScores": "7-11,11-9,11-5,10-12,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120168",
+    "serverReceiver": "122051",
+    "serverNext": "120168",
+    "serverCompetitor": "120168",
+    "receiverNext": "122051"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:43:34",
+    "startDateLocal": "10/04/2023 18:20:00",
+    "startDateUTC": "10/04/2023 16:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "252"
+}

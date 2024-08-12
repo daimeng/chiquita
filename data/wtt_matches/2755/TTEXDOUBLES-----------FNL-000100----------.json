@@ -1,0 +1,110 @@
+{
+  "eventId": "2755",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "76744",
+      "competitiorName": "ZHOU Kai/HE Zhuojia",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117345",
+          "playerName": "ZHOU Kai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119730",
+          "playerName": "HE Zhuojia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,12,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "46380",
+      "competitiorName": "MEISSNER Cedric/WAN Yuan",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133455",
+          "playerName": "MEISSNER Cedric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118777",
+          "playerName": "WAN Yuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,6,10,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "10-12,11-6,12-10,11-9,0-0",
+  "resultsGameScores": "10-12,11-6,12-10,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117345",
+    "serverReceiver": "118777",
+    "serverNext": "117345",
+    "serverCompetitor": "76744",
+    "receiverNext": "118777"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:24",
+    "startDateLocal": "12/01/2023 12:20:00",
+    "startDateUTC": "12/01/2023 11:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "243",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEMSINGLES-----------R32-001600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 16",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112062",
+      "competitiorName": "GAUZY Simon",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112062",
+          "playerName": "GAUZY Simon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,4,10,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "107028",
+      "competitiorName": "OVTCHAROV Dimitrij",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107028",
+          "playerName": "OVTCHAROV Dimitrij",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,11,12,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-13,4-11,10-12,0-0,0-0",
+  "resultsGameScores": "11-13,4-11,10-12,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "107028",
+    "serverReceiver": "112062",
+    "serverNext": "107028",
+    "serverCompetitor": "107028",
+    "receiverNext": "112062"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:51",
+    "startDateLocal": "02/09/2023 18:35:00",
+    "startDateUTC": "02/09/2023 15:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "169"
+}

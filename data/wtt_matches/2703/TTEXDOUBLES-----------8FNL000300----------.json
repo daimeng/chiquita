@@ -1,0 +1,107 @@
+{
+  "eventId": "2703",
+  "documentCode": "TTEXDOUBLES-----------8FNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "46380",
+      "competitiorName": "MEISSNER Cedric/WAN Yuan",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133455",
+          "playerName": "MEISSNER Cedric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118777",
+          "playerName": "WAN Yuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "41216",
+      "competitiorName": "KULCZYCKI Samuel/WEGRZYN Katarzyna",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121031",
+          "playerName": "KULCZYCKI Samuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121041",
+          "playerName": "WEGRZYN Katarzyna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,9,11,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-9,6-11,11-8,0-0",
+  "resultsGameScores": "11-6,11-9,6-11,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133455",
+    "serverReceiver": "121031",
+    "serverNext": "133455",
+    "serverCompetitor": "46380",
+    "receiverNext": "121031"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:08",
+    "startDateLocal": "02/22/2023 10:00:00",
+    "startDateUTC": "02/22/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "202"
+}

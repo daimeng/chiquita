@@ -1,0 +1,91 @@
+{
+  "eventId": "2692",
+  "documentCode": "TTEMSINGLES-----------R32-001400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Dom Sportova",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "111050",
+      "competitiorName": "ROBLES Alvaro",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111050",
+          "playerName": "ROBLES Alvaro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,6,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112620",
+      "competitiorName": "WONG Chun Ting",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112620",
+          "playerName": "WONG Chun Ting",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "13-11,6-11,11-9,11-5,0-0",
+  "resultsGameScores": "13-11,6-11,11-9,11-5,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112620",
+    "serverReceiver": "111050",
+    "serverNext": "112620",
+    "serverCompetitor": "112620",
+    "receiverNext": "111050"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:26",
+    "startDateLocal": "06/29/2023 18:35:00",
+    "startDateUTC": "06/29/2023 16:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "227"
+}

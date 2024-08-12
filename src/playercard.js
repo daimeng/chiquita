@@ -1,6 +1,13 @@
 import { useEffect, useState } from "react"
 import { playerById, tournamentById } from "./idb"
 import { init, rating_changes } from "./ratings"
+import { STAGE_TO_NUM } from "./priority"
+
+function sortStartStage(a, b) {
+	return b.start === a.start
+		? STAGE_TO_NUM[a.stage] - STAGE_TO_NUM[b.stage]
+		: b.start - a.start
+}
 
 export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
 	const player = playerById.get(playerid)
@@ -25,7 +32,7 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
 				matches_x[i].start = Date.parse(tournamentById.get(matches_x[i].event_id).StartDateTime)
 				all_matches.push(matches_x[i])
 			}
-			all_matches.sort((a, b) => b.start - a.start)
+			all_matches.sort(sortStartStage)
 			setMatches(all_matches)
 		})
 	}, [playerid])
@@ -58,8 +65,8 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
 						</div>
 					} else {
 
-						return <div key={m.id} className={`match-row ${m.change > 0 ? 'match-loss' : ''}`}>
-							<div className="match-rating-change">{-m.change}</div>
+						return <div key={m.id} className={`match-row ${m.change < 0 ? 'match-loss' : ''}`}>
+							<div className="match-rating-change">{m.change}</div>
 							<div className="match-res">{m.res_x} - {m.res_a}</div>
 							<div className="match-opponent" data-playerid={m.a_id} onClick={showPlayer}>{playerById.get(m.a_id).name}</div>
 							<div className="match-date">{tourney.StartDate}</div>

@@ -1,0 +1,88 @@
+{
+  "eventId": "2487",
+  "documentCode": "TTEMSINGLES-----------QFNL000100----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Quarterfinals - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Budapest Olympic Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112442",
+      "competitiorName": "PITCHFORD Liam",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112442",
+          "playerName": "PITCHFORD Liam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,14,3,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "116530",
+      "competitiorName": "ORT Kilian",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116530",
+          "playerName": "ORT Kilian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,16,11,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "8-11,14-16,3-11,0-0,0-0",
+  "resultsGameScores": "8-11,14-16,3-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112442",
+    "serverReceiver": "116530",
+    "serverNext": "",
+    "serverCompetitor": "112442",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:58",
+    "startDateLocal": "08/19/2021 15:05:43",
+    "startDateUTC": "08/19/2021 13:05:43"
+  },
+  "teamParentData": null
+}

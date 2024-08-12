@@ -1,0 +1,91 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEMSINGLES-----------R64-001100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "132696",
+      "competitiorName": "KWAK Yu Bin",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132696",
+          "playerName": "KWAK Yu Bin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "203029",
+      "competitiorName": "SUN Yang",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "203029",
+          "playerName": "SUN Yang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,2,10,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-2,12-10,0-0,0-0",
+  "resultsGameScores": "11-5,11-2,12-10,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "203029",
+    "serverReceiver": "132696",
+    "serverNext": "203029",
+    "serverCompetitor": "203029",
+    "receiverNext": "132696"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:25",
+    "startDateLocal": "09/06/2023 12:55:00",
+    "startDateUTC": "09/06/2023 05:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "143"
+}

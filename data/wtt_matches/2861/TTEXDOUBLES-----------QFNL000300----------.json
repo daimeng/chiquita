@@ -1,0 +1,110 @@
+{
+  "eventId": "2861",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37083",
+      "competitiorName": "LIN Gaoyuan/WANG Manyu",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115910",
+          "playerName": "LIN Gaoyuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121411",
+          "playerName": "WANG Manyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "58374",
+      "competitiorName": "LIN Yun-Ju/CHEN Szu-Yu",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121582",
+          "playerName": "LIN Yun-Ju",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114105",
+          "playerName": "CHEN Szu-Yu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,7,8,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-4,11-7,11-8,0-0,0-0",
+  "resultsGameScores": "11-4,11-7,11-8,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121582",
+    "serverReceiver": "115910",
+    "serverNext": "121582",
+    "serverCompetitor": "58374",
+    "receiverNext": "115910"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:16",
+    "startDateLocal": "01/18/2024 13:00:00",
+    "startDateUTC": "01/18/2024 10:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "138",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

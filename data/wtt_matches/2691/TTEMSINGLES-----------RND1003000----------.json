@@ -1,0 +1,91 @@
+{
+  "eventId": "2691",
+  "documentCode": "TTEMSINGLES-----------RND1003000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualification Round 1 - Match 30",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "104760",
+      "competitiorName": "KOJIC Frane",
+      "competitiorOrg": "CRO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "104760",
+          "playerName": "KOJIC Frane",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,12,9,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132172",
+      "competitiorName": "JANG Seongil",
+      "competitiorOrg": "KOR",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132172",
+          "playerName": "JANG Seongil",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,10,11,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,8-11,12-10,9-11,11-8",
+  "resultsGameScores": "11-6,8-11,12-10,9-11,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132172",
+    "serverReceiver": "104760",
+    "serverNext": "132172",
+    "serverCompetitor": "132172",
+    "receiverNext": "104760"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:49:51",
+    "startDateLocal": "06/20/2023 18:50:00",
+    "startDateUTC": "06/20/2023 17:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "263"
+}

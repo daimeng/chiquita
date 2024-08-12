@@ -1,0 +1,110 @@
+{
+  "eventId": "2755",
+  "documentCode": "TTEMDOUBLES-----------RND1000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100118460",
+      "competitiorName": "LILLO Alberto/PANTOJA Miguel",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123829",
+          "playerName": "LILLO Alberto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133627",
+          "playerName": "PANTOJA Miguel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,6,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100118432",
+      "competitiorName": "PARK Ganghyeon/JANG Hanjae",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116820",
+          "playerName": "PARK Ganghyeon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132804",
+          "playerName": "JANG Hanjae",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "7-11,11-13,6-11,0-0,0-0",
+  "resultsGameScores": "7-11,11-13,6-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116820",
+    "serverReceiver": "133627",
+    "serverNext": "116820",
+    "serverCompetitor": "100118432",
+    "receiverNext": "133627"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:08",
+    "startDateLocal": "11/28/2023 13:30:00",
+    "startDateUTC": "11/28/2023 12:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "175",
+  "teamMatchNo": null,
+  "teamMatchScores": null,
+  "teamMatchScoresSummary": null
+}

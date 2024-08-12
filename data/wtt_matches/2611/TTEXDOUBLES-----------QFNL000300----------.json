@@ -1,0 +1,107 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "114247_110560",
+      "competitiorName": "WANG Eugene/ZHANG Mo",
+      "competitiorOrg": "CAN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114247",
+          "playerName": "WANG Eugene",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "110560",
+          "playerName": "ZHANG Mo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,14,8,11,5",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119463_119022",
+      "competitiorName": "KUMAR Nikhil/WANG Amy",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119463",
+          "playerName": "KUMAR Nikhil",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119022",
+          "playerName": "WANG Amy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,16,11,9,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,14-16,8-11,11-9,5-11",
+  "resultsGameScores": "11-8,14-16,8-11,11-9,5-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119022",
+    "serverReceiver": "114247",
+    "serverNext": "119022",
+    "serverCompetitor": "40650",
+    "receiverNext": "114247"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:10:32",
+    "startDateLocal": "11/02/2022 18:00:00",
+    "startDateUTC": "11/02/2022 21:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "303"
+}

@@ -1,0 +1,110 @@
+{
+  "eventId": "2880",
+  "documentCode": "TTEMDOUBLES-----------8FNL000800----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "45070",
+      "competitiorName": "LEVAJAC Dimitrije/PUTUNTICA Andrei",
+      "competitiorOrg": "SRB/MDA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123192",
+          "playerName": "LEVAJAC Dimitrije",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SRB",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "117865",
+          "playerName": "PUTUNTICA Andrei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MDA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,8,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "56779",
+      "competitiorName": "CHO Seungmin/PARK Gyeongtae",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119284",
+          "playerName": "CHO Seungmin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123976",
+          "playerName": "PARK Gyeongtae",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,13,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "6-11,8-11,11-13,0-0,0-0",
+  "resultsGameScores": "6-11,8-11,11-13,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123192",
+    "serverReceiver": "123976",
+    "serverNext": "123192",
+    "serverCompetitor": "45070",
+    "receiverNext": "123976"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:15",
+    "startDateLocal": "03/29/2024 13:30:00",
+    "startDateUTC": "03/29/2024 11:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "178",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

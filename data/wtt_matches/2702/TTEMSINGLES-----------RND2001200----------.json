@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEMSINGLES-----------RND2001200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 12",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "111683",
+      "competitiorName": "GOMEZ Gustavo",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111683",
+          "playerName": "GOMEZ Gustavo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,8,13,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123305",
+      "competitiorName": "DE NODREST Leo",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123305",
+          "playerName": "DE NODREST Leo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,15,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,8-11,13-15,0-0,0-0",
+  "resultsGameScores": "9-11,8-11,13-15,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "111683",
+    "serverReceiver": "123305",
+    "serverNext": "111683",
+    "serverCompetitor": "111683",
+    "receiverNext": "123305"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:43",
+    "startDateLocal": "02/14/2023 16:35:00",
+    "startDateUTC": "02/14/2023 15:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "198"
+}

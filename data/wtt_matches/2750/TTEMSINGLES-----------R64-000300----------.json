@@ -1,0 +1,91 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEMSINGLES-----------R64-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136567",
+      "competitiorName": "OEHME Benno",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136567",
+          "playerName": "OEHME Benno",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,12,16,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131062",
+      "competitiorName": "KLAJBER Adam",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131062",
+          "playerName": "KLAJBER Adam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,10,18,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,11-8,12-10,16-18,11-6",
+  "resultsGameScores": "6-11,11-8,12-10,16-18,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131062",
+    "serverReceiver": "136567",
+    "serverNext": "131062",
+    "serverCompetitor": "131062",
+    "receiverNext": "136567"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:46:51",
+    "startDateLocal": "07/28/2023 13:00:00",
+    "startDateUTC": "07/28/2023 11:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "310"
+}

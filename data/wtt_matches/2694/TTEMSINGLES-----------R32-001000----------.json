@@ -1,0 +1,91 @@
+{
+  "eventId": "2694",
+  "documentCode": "TTEMSINGLES-----------R32-001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135977",
+      "competitiorName": "LEBRUN Felix",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135977",
+          "playerName": "LEBRUN Felix",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100696",
+      "competitiorName": "ASSAR Omar",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100696",
+          "playerName": "ASSAR Omar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,8,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-7,11-8,11-7,0-0,0-0",
+  "resultsGameScores": "11-7,11-8,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135977",
+    "serverReceiver": "100696",
+    "serverNext": "135977",
+    "serverCompetitor": "135977",
+    "receiverNext": "100696"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:27",
+    "startDateLocal": "07/06/2023 16:55:00",
+    "startDateUTC": "07/06/2023 14:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "151"
+}

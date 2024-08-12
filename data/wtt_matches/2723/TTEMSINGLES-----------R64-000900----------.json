@@ -1,0 +1,91 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMSINGLES-----------R64-000900----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 9",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115029",
+      "competitiorName": "LIND Anders",
+      "competitiorOrg": "DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115029",
+          "playerName": "LIND Anders",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "DEN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,14,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114005",
+      "competitiorName": "KRASTEV Petyo",
+      "competitiorOrg": "BUL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114005",
+          "playerName": "KRASTEV Petyo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BUL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,12,3,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-2,14-12,11-3,0-0,0-0",
+  "resultsGameScores": "11-2,14-12,11-3,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114005",
+    "serverReceiver": "115029",
+    "serverNext": "114005",
+    "serverCompetitor": "114005",
+    "receiverNext": "115029"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:58",
+    "startDateLocal": "08/31/2023 17:40:00",
+    "startDateUTC": "08/31/2023 14:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "155"
+}

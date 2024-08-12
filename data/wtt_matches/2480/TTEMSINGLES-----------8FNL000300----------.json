@@ -1,0 +1,88 @@
+{
+  "eventId": "2480",
+  "documentCode": "TTEMSINGLES-----------8FNL000300----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "107456",
+      "competitiorName": "PLATONOV Pavel",
+      "competitiorOrg": "BLR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107456",
+          "playerName": "PLATONOV Pavel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,4,11,10,5,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122002",
+      "competitiorName": "BARDET Lilian",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122002",
+          "playerName": "BARDET Lilian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,12,11,0,0"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,4-11,11-6,10-12,5-11,0-0,0-0",
+  "resultsGameScores": "9-11,4-11,11-6,10-12,5-11,0-0,0-0",
+  "overallScores": "1-4",
+  "resultOverallScores": "1-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122002",
+    "serverReceiver": "107456",
+    "serverNext": "",
+    "serverCompetitor": "122002",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:06",
+    "startDateLocal": "08/24/2021 14:38:42",
+    "startDateUTC": "08/24/2021 11:38:42"
+  },
+  "teamParentData": null
+}

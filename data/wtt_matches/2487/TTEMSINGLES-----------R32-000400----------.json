@@ -1,0 +1,88 @@
+{
+  "eventId": "2487",
+  "documentCode": "TTEMSINGLES-----------R32-000400----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Budapest Olympic Sports Hall",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "110726",
+      "competitiorName": "OLAH Benedek",
+      "competitiorOrg": "FIN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110726",
+          "playerName": "OLAH Benedek",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,10,5,13,11"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "116620",
+      "competitiorName": "DUDA Benedikt",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116620",
+          "playerName": "DUDA Benedikt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,12,11,11,3"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,10-12,5-11,13-11,11-3",
+  "resultsGameScores": "11-6,10-12,5-11,13-11,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116620",
+    "serverReceiver": "110726",
+    "serverNext": "",
+    "serverCompetitor": "116620",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:44:18",
+    "startDateLocal": "08/17/2021 19:05:49",
+    "startDateUTC": "08/17/2021 17:05:49"
+  },
+  "teamParentData": null
+}

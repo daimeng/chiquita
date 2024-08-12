@@ -1,0 +1,110 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "46619",
+      "competitiorName": "LIN Shidong/KUAI Man",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137237",
+          "playerName": "LIN Shidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135049",
+          "playerName": "KUAI Man",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,3,11,9,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "55556",
+      "competitiorName": "XIANG Peng/QIAN Tianyi",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135888",
+          "playerName": "XIANG Peng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119797",
+          "playerName": "QIAN Tianyi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,8,11,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-10,3-11,11-8,9-11,11-8",
+  "resultsGameScores": "12-10,3-11,11-8,9-11,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137237",
+    "serverReceiver": "135888",
+    "serverNext": "137237",
+    "serverCompetitor": "46619",
+    "receiverNext": "135888"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:03:38",
+    "startDateLocal": "01/26/2023 12:20:00",
+    "startDateUTC": "01/26/2023 09:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "273",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

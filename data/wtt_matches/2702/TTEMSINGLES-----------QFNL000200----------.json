@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEMSINGLES-----------QFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "114709",
+      "competitiorName": "LAMBIET Florent",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114709",
+          "playerName": "LAMBIET Florent",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,13,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117312",
+      "competitiorName": "ISHIY Vitor",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117312",
+          "playerName": "ISHIY Vitor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,5,9,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,11-5,11-9,13-11,0-0",
+  "resultsGameScores": "9-11,11-5,11-9,13-11,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114709",
+    "serverReceiver": "117312",
+    "serverNext": "114709",
+    "serverCompetitor": "114709",
+    "receiverNext": "117312"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:36",
+    "startDateLocal": "02/16/2023 18:20:00",
+    "startDateUTC": "02/16/2023 17:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "228"
+}

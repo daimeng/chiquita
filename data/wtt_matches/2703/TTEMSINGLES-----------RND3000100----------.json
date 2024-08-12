@@ -1,0 +1,91 @@
+{
+  "eventId": "2703",
+  "documentCode": "TTEMSINGLES-----------RND3000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "132137",
+      "competitiorName": "CAO Wei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132137",
+          "playerName": "CAO Wei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123664",
+      "competitiorName": "VALENTA Jan",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123664",
+          "playerName": "VALENTA Jan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,4,3,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-7,11-4,11-3,0-0,0-0",
+  "resultsGameScores": "11-7,11-4,11-3,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132137",
+    "serverReceiver": "123664",
+    "serverNext": "132137",
+    "serverCompetitor": "132137",
+    "receiverNext": "123664"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:15:46",
+    "startDateLocal": "02/21/2023 20:05:00",
+    "startDateUTC": "02/21/2023 19:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "128"
+}

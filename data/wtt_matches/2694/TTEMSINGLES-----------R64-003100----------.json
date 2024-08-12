@@ -1,0 +1,91 @@
+{
+  "eventId": "2694",
+  "documentCode": "TTEMSINGLES-----------R64-003100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 48 - Match 31",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121031",
+      "competitiorName": "KULCZYCKI Samuel",
+      "competitiorOrg": "POL",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121031",
+          "playerName": "KULCZYCKI Samuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "102761",
+      "competitiorName": "FILUS Ruwen",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102761",
+          "playerName": "FILUS Ruwen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,14,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "6-11,11-13,12-14,0-0,0-0",
+  "resultsGameScores": "6-11,11-13,12-14,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "102761",
+    "serverReceiver": "121031",
+    "serverNext": "102761",
+    "serverCompetitor": "102761",
+    "receiverNext": "121031"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:26:22",
+    "startDateLocal": "07/05/2023 15:20:00",
+    "startDateUTC": "07/05/2023 13:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "190"
+}

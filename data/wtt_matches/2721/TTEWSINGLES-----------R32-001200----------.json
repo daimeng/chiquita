@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEWSINGLES-----------R32-001200----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 12",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "111213",
+      "competitiorName": "MADARASZ Dora",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111213",
+          "playerName": "MADARASZ Dora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,4,8,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "136711",
+      "competitiorName": "HARIMOTO Miwa",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136711",
+          "playerName": "HARIMOTO Miwa",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "10-12,4-11,8-11,0-0,0-0",
+  "resultsGameScores": "10-12,4-11,8-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136711",
+    "serverReceiver": "111213",
+    "serverNext": "136711",
+    "serverCompetitor": "136711",
+    "receiverNext": "111213"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:29",
+    "startDateLocal": "08/03/2023 15:45:00",
+    "startDateUTC": "08/03/2023 20:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "147"
+}

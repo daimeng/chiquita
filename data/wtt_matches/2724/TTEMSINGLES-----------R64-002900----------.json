@@ -1,0 +1,91 @@
+{
+  "eventId": "2724",
+  "documentCode": "TTEMSINGLES-----------R64-002900----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 29",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123300",
+      "competitiorName": "ROLLAND Jules",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123300",
+          "playerName": "ROLLAND Jules",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,2,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "113329",
+      "competitiorName": "LAKATOS Tamas",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113329",
+          "playerName": "LAKATOS Tamas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,8,11,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-8,2-11,11-7,0-0",
+  "resultsGameScores": "11-6,11-8,2-11,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "113329",
+    "serverReceiver": "123300",
+    "serverNext": "113329",
+    "serverCompetitor": "113329",
+    "receiverNext": "123300"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:56",
+    "startDateLocal": "08/24/2023 20:05:00",
+    "startDateUTC": "08/24/2023 18:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "188"
+}

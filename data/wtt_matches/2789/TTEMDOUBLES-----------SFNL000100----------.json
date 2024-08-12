@@ -1,0 +1,110 @@
+{
+  "eventId": "2789",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Expocuba Pablell?n Salud #20",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "35977",
+      "competitiorName": "ALTO Gaston/CIFUENTES Horacio",
+      "competitiorOrg": "ARG",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100486",
+          "playerName": "ALTO Gaston",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119316",
+          "playerName": "CIFUENTES Horacio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,11,10,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100115785",
+      "competitiorName": "MADRID Marcos/CASTRO Rogelio",
+      "competitiorOrg": "MEX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105679",
+          "playerName": "MADRID Marcos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MEX",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134849",
+          "playerName": "CASTRO Rogelio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MEX",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,4,12,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-8,11-4,10-12,11-8",
+  "resultsGameScores": "9-11,11-8,11-4,10-12,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119316",
+    "serverReceiver": "105679",
+    "serverNext": "119316",
+    "serverCompetitor": "35977",
+    "receiverNext": "105679"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:51:44",
+    "startDateLocal": "09/13/2023 10:30:00",
+    "startDateUTC": "09/13/2023 14:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "265",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

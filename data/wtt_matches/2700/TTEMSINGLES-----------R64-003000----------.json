@@ -1,0 +1,91 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEMSINGLES-----------R64-003000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 30",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "201160",
+      "competitiorName": "WANG Tingyu",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "201160",
+          "playerName": "WANG Tingyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,9,5,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133652",
+      "competitiorName": "DORR Esteban",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133652",
+          "playerName": "DORR Esteban",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,11-6,9-11,5-11,0-0",
+  "resultsGameScores": "9-11,11-6,9-11,5-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133652",
+    "serverReceiver": "201160",
+    "serverNext": "133652",
+    "serverCompetitor": "133652",
+    "receiverNext": "201160"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:48",
+    "startDateLocal": "02/01/2023 19:00:00",
+    "startDateUTC": "02/01/2023 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "207"
+}

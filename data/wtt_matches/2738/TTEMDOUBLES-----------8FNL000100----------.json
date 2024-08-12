@@ -1,0 +1,107 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMDOUBLES-----------8FNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "35964",
+      "competitiorName": "FALCK Mattias/KARLSSON Kristian",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112074",
+          "playerName": "FALCK Mattias",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "104379",
+          "playerName": "KARLSSON Kristian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "44384",
+      "competitiorName": "CHANDRA Jeet/SURAVAJJULA Snehit",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123386",
+          "playerName": "CHANDRA Jeet",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123680",
+          "playerName": "SURAVAJJULA Snehit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,5,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-4,13-11,11-5,0-0,0-0",
+  "resultsGameScores": "11-4,13-11,11-5,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112074",
+    "serverReceiver": "123680",
+    "serverNext": "112074",
+    "serverCompetitor": "35964",
+    "receiverNext": "123680"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:29",
+    "startDateLocal": "10/04/2023 16:00:00",
+    "startDateUTC": "10/04/2023 14:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "162"
+}

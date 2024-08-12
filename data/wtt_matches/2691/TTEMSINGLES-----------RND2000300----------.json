@@ -1,0 +1,91 @@
+{
+  "eventId": "2691",
+  "documentCode": "TTEMSINGLES-----------RND2000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualification Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "132632",
+      "competitiorName": "AIDA Satoshi",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132632",
+          "playerName": "AIDA Satoshi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133020",
+      "competitiorName": "TSCHANZ Cedric",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133020",
+          "playerName": "TSCHANZ Cedric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,3,8,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-7,11-3,11-8,0-0,0-0",
+  "resultsGameScores": "11-7,11-3,11-8,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133020",
+    "serverReceiver": "132632",
+    "serverNext": "133020",
+    "serverCompetitor": "133020",
+    "receiverNext": "132632"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:44",
+    "startDateLocal": "06/21/2023 09:35:00",
+    "startDateUTC": "06/21/2023 08:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "151"
+}

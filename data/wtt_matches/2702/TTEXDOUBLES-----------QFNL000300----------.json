@@ -1,0 +1,107 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37033",
+      "competitiorName": "DUDA Benedikt/WINTER Sabine",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116620",
+          "playerName": "DUDA Benedikt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111066",
+          "playerName": "WINTER Sabine",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,5,11,13,4",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "37187",
+      "competitiorName": "CIFUENTES Horacio/ARGUELLES Camila",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119316",
+          "playerName": "CIFUENTES Horacio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119109",
+          "playerName": "ARGUELLES Camila",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "14,11,7,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-14,5-11,11-7,13-11,4-11",
+  "resultsGameScores": "12-14,5-11,11-7,13-11,4-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116620",
+    "serverReceiver": "119316",
+    "serverNext": "116620",
+    "serverCompetitor": "37033",
+    "receiverNext": "119316"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:33",
+    "startDateLocal": "02/16/2023 10:00:00",
+    "startDateUTC": "02/16/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "283"
+}

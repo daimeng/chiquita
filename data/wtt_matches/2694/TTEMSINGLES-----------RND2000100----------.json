@@ -1,0 +1,91 @@
+{
+  "eventId": "2694",
+  "documentCode": "TTEMSINGLES-----------RND2000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112409",
+      "competitiorName": "GROTH Jonathan",
+      "competitiorOrg": "DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112409",
+          "playerName": "GROTH Jonathan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,14,11,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131912",
+      "competitiorName": "PANG Yew En Koen",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131912",
+          "playerName": "PANG Yew En Koen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,5,11,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,14-12,11-5,6-11,11-6",
+  "resultsGameScores": "6-11,14-12,11-5,6-11,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112409",
+    "serverReceiver": "131912",
+    "serverNext": "112409",
+    "serverCompetitor": "112409",
+    "receiverNext": "131912"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:44:28",
+    "startDateLocal": "07/04/2023 10:10:00",
+    "startDateUTC": "07/04/2023 08:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "253"
+}

@@ -1,0 +1,88 @@
+{
+  "eventId": "2487",
+  "documentCode": "TTEMSINGLES-----------R32-000100----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Budapest Olympic Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112442",
+      "competitiorName": "PITCHFORD Liam",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112442",
+          "playerName": "PITCHFORD Liam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,10,11,11"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114717",
+      "competitiorName": "SZUDI Adam",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114717",
+          "playerName": "SZUDI Adam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,2,12,3,7"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-2,10-12,11-3,11-7",
+  "resultsGameScores": "9-11,11-2,10-12,11-3,11-7",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114717",
+    "serverReceiver": "112442",
+    "serverNext": "",
+    "serverCompetitor": "114717",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:36",
+    "startDateLocal": "08/17/2021 17:01:18",
+    "startDateUTC": "08/17/2021 15:01:18"
+  },
+  "teamParentData": null
+}

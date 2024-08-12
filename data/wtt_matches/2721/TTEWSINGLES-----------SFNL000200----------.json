@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEWSINGLES-----------SFNL000200----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136711",
+      "competitiorName": "HARIMOTO Miwa",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136711",
+          "playerName": "HARIMOTO Miwa",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "14,8,11,9,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123977",
+      "competitiorName": "SHIN Yubin",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123977",
+          "playerName": "SHIN Yubin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "16,11,9,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "14-16,8-11,11-9,9-11,0-0",
+  "resultsGameScores": "14-16,8-11,11-9,9-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123977",
+    "serverReceiver": "136711",
+    "serverNext": "123977",
+    "serverCompetitor": "123977",
+    "receiverNext": "136711"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:46:55",
+    "startDateLocal": "08/05/2023 17:00:00",
+    "startDateUTC": "08/05/2023 22:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "261"
+}

@@ -1,0 +1,104 @@
+{
+  "eventId": "2411",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100--",
+  "subEventName": "Men Doubles",
+  "subEventDescription": "Men's Doubles - Finals - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "35961",
+      "competitiorName": "LEE Sangsu/JEOUNG Youngsik",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105197",
+          "playerName": "LEE Sangsu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "104257",
+          "playerName": "JEOUNG Youngsik",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,11,11,8,11"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36255",
+      "competitiorName": "ROBLES Alvaro/IONESCU Ovidiu",
+      "competitiorOrg": "ESP/ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111050",
+          "playerName": "ROBLES Alvaro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "103903",
+          "playerName": "IONESCU Ovidiu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,8,11,3"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "2-11,11-6,11-8,8-11,11-3",
+  "resultsGameScores": "2-11,11-6,11-8,8-11,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "PT",
+    "serverPlayer": "103903",
+    "serverReceiver": "104257",
+    "serverNext": null,
+    "serverCompetitor": "36255",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:56",
+    "startDateLocal": "03/13/2021 07:40:00",
+    "startDateUTC": "03/13/2021 07:40:00"
+  },
+  "teamParentData": null
+}

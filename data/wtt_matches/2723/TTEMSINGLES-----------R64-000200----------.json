@@ -1,0 +1,91 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMSINGLES-----------R64-000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117530",
+      "competitiorName": "SANCHI Francisco",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117530",
+          "playerName": "SANCHI Francisco",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,16,6,6,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121031",
+      "competitiorName": "KULCZYCKI Samuel",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121031",
+          "playerName": "KULCZYCKI Samuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,14,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,16-14,6-11,6-11,0-0",
+  "resultsGameScores": "9-11,16-14,6-11,6-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117530",
+    "serverReceiver": "121031",
+    "serverNext": "117530",
+    "serverCompetitor": "117530",
+    "receiverNext": "121031"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:13",
+    "startDateLocal": "08/31/2023 16:30:00",
+    "startDateUTC": "08/31/2023 13:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "249"
+}

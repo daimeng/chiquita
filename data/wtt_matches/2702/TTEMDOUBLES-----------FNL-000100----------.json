@@ -1,0 +1,110 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "66771",
+      "competitiorName": "CAO Wei/SAI Linwei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132137",
+          "playerName": "CAO Wei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135674",
+          "playerName": "SAI Linwei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,10,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "50793",
+      "competitiorName": "SIRUCEK Pavel/MARTINKO Jiri",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113243",
+          "playerName": "SIRUCEK Pavel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120267",
+          "playerName": "MARTINKO Jiri",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,12,8,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-7,9-11,10-12,11-8,11-5",
+  "resultsGameScores": "11-7,9-11,10-12,11-8,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132137",
+    "serverReceiver": "120267",
+    "serverNext": "132137",
+    "serverCompetitor": "66771",
+    "receiverNext": "120267"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:42",
+    "startDateLocal": "02/17/2023 16:35:00",
+    "startDateUTC": "02/17/2023 15:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "286",
+  "teamMatchNo": null,
+  "teamMatchScores": null,
+  "teamMatchScoresSummary": null
+}

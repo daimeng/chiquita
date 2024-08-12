@@ -1,0 +1,107 @@
+{
+  "eventId": "2658",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37033",
+      "competitiorName": "DUDA Benedikt/WINTER Sabine",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116620",
+          "playerName": "DUDA Benedikt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111066",
+          "playerName": "WINTER Sabine",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,12,4,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "37013",
+      "competitiorName": "HO Kwan Kit/LEE Ho Ching",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123690",
+          "playerName": "HO Kwan Kit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "105159",
+          "playerName": "LEE Ho Ching",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,10,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,6-11,12-10,4-11,9-11",
+  "resultsGameScores": "11-4,6-11,12-10,4-11,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123690",
+    "serverReceiver": "116620",
+    "serverNext": "123690",
+    "serverCompetitor": "37013",
+    "receiverNext": "116620"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:07",
+    "startDateLocal": "11/24/2022 17:10:00",
+    "startDateUTC": "11/24/2022 16:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "243"
+}

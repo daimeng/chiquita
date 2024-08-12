@@ -1,0 +1,91 @@
+{
+  "eventId": "2694",
+  "documentCode": "TTEMSINGLES-----------RND3000700----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 7",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "132632",
+      "competitiorName": "AIDA Satoshi",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132632",
+          "playerName": "AIDA Satoshi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,14,6,11,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123300",
+      "competitiorName": "ROLLAND Jules",
+      "competitiorOrg": "FRA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123300",
+          "playerName": "ROLLAND Jules",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,7,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,14-12,6-11,11-7,8-11",
+  "resultsGameScores": "8-11,14-12,6-11,11-7,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123300",
+    "serverReceiver": "132632",
+    "serverNext": "123300",
+    "serverCompetitor": "123300",
+    "receiverNext": "132632"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:34",
+    "startDateLocal": "07/04/2023 18:20:00",
+    "startDateUTC": "07/04/2023 16:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "279"
+}

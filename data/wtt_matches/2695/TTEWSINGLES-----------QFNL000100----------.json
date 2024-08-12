@@ -1,0 +1,91 @@
+{
+  "eventId": "2695",
+  "documentCode": "TTEWSINGLES-----------QFNL000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121403",
+      "competitiorName": "CHEN Xingtong",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121403",
+          "playerName": "CHEN Xingtong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135049",
+      "competitiorName": "KUAI Man",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135049",
+          "playerName": "KUAI Man",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,8,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,11-7,11-8,11-6,0-0",
+  "resultsGameScores": "9-11,11-7,11-8,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121403",
+    "serverReceiver": "135049",
+    "serverNext": "121403",
+    "serverCompetitor": "121403",
+    "receiverNext": "135049"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:33",
+    "startDateLocal": "04/28/2023 13:30:00",
+    "startDateUTC": "04/28/2023 06:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "204"
+}

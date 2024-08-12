@@ -1,0 +1,110 @@
+{
+  "eventId": "2789",
+  "documentCode": "TTEXDOUBLES-----------QFNL000400----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Expocuba Pablell?n Salud #20",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37031",
+      "competitiorName": "AFANADOR Brian/DIAZ Adriana",
+      "competitiorOrg": "PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115000",
+          "playerName": "AFANADOR Brian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115009",
+          "playerName": "DIAZ Adriana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,7,13,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "48410",
+      "competitiorName": "BURGOS Nicolas/VEGA Paulina",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "109777",
+          "playerName": "VEGA Paulina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,11,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,8-11,7-11,13-11,9-11",
+  "resultsGameScores": "11-9,8-11,7-11,13-11,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "109777",
+    "serverReceiver": "115000",
+    "serverNext": "109777",
+    "serverCompetitor": "48410",
+    "receiverNext": "115000"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:51",
+    "startDateLocal": "09/12/2023 17:30:00",
+    "startDateUTC": "09/12/2023 21:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "285",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

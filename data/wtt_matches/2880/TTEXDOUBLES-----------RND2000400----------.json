@@ -1,0 +1,110 @@
+{
+  "eventId": "2880",
+  "documentCode": "TTEXDOUBLES-----------RND2000400----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100119523",
+      "competitiorName": "PARK Gyeongtae/KIM Hayeong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123976",
+          "playerName": "PARK Gyeongtae",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123113",
+          "playerName": "KIM Hayeong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,12,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100118436",
+      "competitiorName": "AMATO Antonino/MISCHEK Karoline",
+      "competitiorOrg": "ITA/AUT",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122067",
+          "playerName": "AMATO Antonino",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118893",
+          "playerName": "MISCHEK Karoline",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUT",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,10,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,11-8,12-10,11-6,0-0",
+  "resultsGameScores": "6-11,11-8,12-10,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "118893",
+    "serverReceiver": "123113",
+    "serverNext": "118893",
+    "serverCompetitor": "100118436",
+    "receiverNext": "123113"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:54",
+    "startDateLocal": "03/28/2024 10:00:00",
+    "startDateUTC": "03/28/2024 08:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "207",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

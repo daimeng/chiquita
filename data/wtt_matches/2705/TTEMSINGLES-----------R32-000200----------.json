@@ -1,0 +1,91 @@
+{
+  "eventId": "2705",
+  "documentCode": "TTEMSINGLES-----------R32-000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "S?wag Energie Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "105197",
+      "competitiorName": "LEE Sang Su",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105197",
+          "playerName": "LEE Sang Su",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,7,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "101222",
+      "competitiorName": "BOLL Timo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101222",
+          "playerName": "BOLL Timo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,8,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,7-11,11-8,11-4,0-0",
+  "resultsGameScores": "11-6,7-11,11-8,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "105197",
+    "serverReceiver": "101222",
+    "serverNext": "105197",
+    "serverCompetitor": "105197",
+    "receiverNext": "101222"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:56",
+    "startDateLocal": "10/29/2023 14:45:00",
+    "startDateUTC": "10/29/2023 13:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "191"
+}

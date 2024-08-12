@@ -1,0 +1,107 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100111510",
+      "competitiorName": "HACHARD Antoine/LIND Anders",
+      "competitiorOrg": "FRA/DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112446",
+          "playerName": "HACHARD Antoine",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115029",
+          "playerName": "LIND Anders",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "DEN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,4,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100113048",
+      "competitiorName": "ZHAO Zihao/CAO Wei",
+      "competitiorOrg": "CHN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134380",
+          "playerName": "ZHAO Zihao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132137",
+          "playerName": "CAO Wei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,6,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,11-8,4-11,11-6,11-8",
+  "resultsGameScores": "8-11,11-8,4-11,11-6,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132137",
+    "serverReceiver": "112446",
+    "serverNext": "132137",
+    "serverCompetitor": "100113048",
+    "receiverNext": "112446"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:18",
+    "startDateLocal": "09/03/2023 16:35:00",
+    "startDateUTC": "09/03/2023 13:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "250"
+}

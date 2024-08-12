@@ -1,0 +1,94 @@
+{
+  "eventId": "2871",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123980",
+      "competitiorName": "HARIMOTO Tomokazu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123980",
+          "playerName": "HARIMOTO Tomokazu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,2,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135996",
+      "competitiorName": "MATSUSHIMA Sora",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135996",
+          "playerName": "MATSUSHIMA Sora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,6,11,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,9-11,11-6,2-11,12-10",
+  "resultsGameScores": "11-9,9-11,11-6,2-11,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135996",
+    "serverReceiver": "123980",
+    "serverNext": "135996",
+    "serverCompetitor": "135996",
+    "receiverNext": "123980"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:46",
+    "startDateLocal": "06/29/2024 18:20:00",
+    "startDateUTC": "06/29/2024 17:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "264",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

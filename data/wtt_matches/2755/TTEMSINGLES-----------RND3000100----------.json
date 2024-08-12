@@ -1,0 +1,94 @@
+{
+  "eventId": "2755",
+  "documentCode": "TTEMSINGLES-----------RND3000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131723",
+      "competitiorName": "VILARDELL Albert",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131723",
+          "playerName": "VILARDELL Albert",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,6,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "136567",
+      "competitiorName": "OEHME Benno",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136567",
+          "playerName": "OEHME Benno",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,8,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,6-11,11-8,11-6,0-0",
+  "resultsGameScores": "11-9,6-11,11-8,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136567",
+    "serverReceiver": "131723",
+    "serverNext": "136567",
+    "serverCompetitor": "136567",
+    "receiverNext": "131723"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:01",
+    "startDateLocal": "11/28/2023 11:45:00",
+    "startDateUTC": "11/28/2023 10:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "209",
+  "teamMatchNo": null,
+  "teamMatchScores": null,
+  "teamMatchScoresSummary": null
+}

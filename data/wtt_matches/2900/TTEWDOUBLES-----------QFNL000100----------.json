@@ -1,0 +1,110 @@
+{
+  "eventId": "2900",
+  "documentCode": "TTEWDOUBLES-----------QFNL000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "43021",
+      "competitiorName": "JEON Jihee/SHIN Yubin",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118994",
+          "playerName": "JEON Jihee",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123977",
+          "playerName": "SHIN Yubin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "22,12,9,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "61872",
+      "competitiorName": "KIHARA Miyuu/HARIMOTO Miwa",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131036",
+          "playerName": "KIHARA Miyuu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136711",
+          "playerName": "HARIMOTO Miwa",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "20,10,11,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "22-20,12-10,9-11,11-5,0-0",
+  "resultsGameScores": "22-20,12-10,9-11,11-5,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131036",
+    "serverReceiver": "123977",
+    "serverNext": "131036",
+    "serverCompetitor": "61872",
+    "receiverNext": "123977"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:49:36",
+    "startDateLocal": "07/05/2024 16:30:00",
+    "startDateUTC": "07/05/2024 09:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "317",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

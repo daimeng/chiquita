@@ -1,0 +1,91 @@
+{
+  "eventId": "2734",
+  "documentCode": "TTEMSINGLES-----------8FNL000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Aspire Ladies Sports Hall",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "113931",
+      "competitiorName": "DYJAS Jakub",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113931",
+          "playerName": "DYJAS Jakub",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,12,12,14,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112735",
+      "competitiorName": "WANG Yang",
+      "competitiorOrg": "SVK",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112735",
+          "playerName": "WANG Yang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,10,12,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "7-11,12-10,12-10,14-12,0-0",
+  "resultsGameScores": "7-11,12-10,12-10,14-12,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112735",
+    "serverReceiver": "113931",
+    "serverNext": "112735",
+    "serverCompetitor": "112735",
+    "receiverNext": "113931"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:47:01",
+    "startDateLocal": "10/18/2023 13:30:00",
+    "startDateUTC": "10/18/2023 11:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "256"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEMSINGLES-----------R32-000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "105649",
+      "competitiorName": "MA Long",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105649",
+          "playerName": "MA Long",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,6,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "103126",
+      "competitiorName": "GNANASEKARAN Sathiyan",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103126",
+          "playerName": "GNANASEKARAN Sathiyan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,7,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,6-11,11-7,11-6,0-0",
+  "resultsGameScores": "11-6,6-11,11-7,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "103126",
+    "serverReceiver": "105649",
+    "serverNext": "103126",
+    "serverCompetitor": "103126",
+    "receiverNext": "105649"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:17",
+    "startDateLocal": "10/05/2023 15:15:00",
+    "startDateUTC": "10/05/2023 07:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "195"
+}

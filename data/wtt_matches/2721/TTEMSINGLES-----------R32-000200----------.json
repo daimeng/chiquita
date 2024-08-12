@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEMSINGLES-----------R32-000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "104379",
+      "competitiorName": "KARLSSON Kristian",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "104379",
+          "playerName": "KARLSSON Kristian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,11,9,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112409",
+      "competitiorName": "GROTH Jonathan",
+      "competitiorOrg": "DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112409",
+          "playerName": "GROTH Jonathan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,0,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-4,11-0,9-11,9-11",
+  "resultsGameScores": "7-11,11-4,11-0,9-11,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112409",
+    "serverReceiver": "104379",
+    "serverNext": "112409",
+    "serverCompetitor": "112409",
+    "receiverNext": "104379"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:52",
+    "startDateLocal": "08/03/2023 14:35:00",
+    "startDateUTC": "08/03/2023 19:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "229"
+}

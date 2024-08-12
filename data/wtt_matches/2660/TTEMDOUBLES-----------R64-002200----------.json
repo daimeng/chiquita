@@ -1,0 +1,107 @@
+{
+  "eventId": "2660",
+  "documentCode": "TTEMDOUBLES-----------R64-002200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 64 - Match 22",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 0,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "ICC Durban",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "42032",
+      "competitiorName": "BURGOS Nicolas/GOMEZ Gustavo",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111683",
+          "playerName": "GOMEZ Gustavo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,14,12,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "48567",
+      "competitiorName": "PANG Yew En Koen/QUEK Izaac",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131912",
+          "playerName": "PANG Yew En Koen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133713",
+          "playerName": "QUEK Izaac",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,12,14,7",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,11-7,14-12,12-14,11-7",
+  "resultsGameScores": "6-11,11-7,14-12,12-14,11-7",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133441",
+    "serverReceiver": "133713",
+    "serverNext": "133441",
+    "serverCompetitor": "42032",
+    "receiverNext": "133713"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:08",
+    "startDateLocal": "05/20/2023 19:50:00",
+    "startDateUTC": "05/20/2023 17:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "316"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------R64-003200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 32",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122982",
+      "competitiorName": "BAN Ivor",
+      "competitiorOrg": "CRO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122982",
+          "playerName": "BAN Ivor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CRO",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,8,3,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112074",
+      "competitiorName": "FALCK Mattias",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112074",
+          "playerName": "FALCK Mattias",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "4-11,8-11,3-11,0-0,0-0",
+  "resultsGameScores": "4-11,8-11,3-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112074",
+    "serverReceiver": "122982",
+    "serverNext": "112074",
+    "serverCompetitor": "112074",
+    "receiverNext": "122982"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:21",
+    "startDateLocal": "10/04/2023 19:30:00",
+    "startDateUTC": "10/04/2023 17:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "132"
+}

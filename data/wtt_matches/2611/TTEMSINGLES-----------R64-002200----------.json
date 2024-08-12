@@ -1,0 +1,91 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEMSINGLES-----------R64-002200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 22",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115134",
+      "competitiorName": "OLAVE Alfonso",
+      "competitiorOrg": "CHI",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115134",
+          "playerName": "OLAVE Alfonso",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,5,5,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135362",
+      "competitiorName": "GOMEZ Juan Jesus",
+      "competitiorOrg": "MEX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135362",
+          "playerName": "GOMEZ Juan Jesus",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,11,11,9,6,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "11-7,8-11,5-11,5-11,11-9,11-6,11-8",
+  "resultsGameScores": "11-7,8-11,5-11,5-11,11-9,11-6,11-8",
+  "overallScores": "4-3",
+  "resultOverallScores": "4-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115134",
+    "serverReceiver": "135362",
+    "serverNext": "115134",
+    "serverCompetitor": "115134",
+    "receiverNext": "135362"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:00:38",
+    "startDateLocal": "11/03/2022 15:00:00",
+    "startDateUTC": "11/03/2022 18:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "341"
+}

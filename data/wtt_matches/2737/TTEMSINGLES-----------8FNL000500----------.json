@@ -1,0 +1,91 @@
+{
+  "eventId": "2737",
+  "documentCode": "TTEMSINGLES-----------8FNL000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Pingyuan Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115641",
+      "competitiorName": "CALDERANO Hugo",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115641",
+          "playerName": "CALDERANO Hugo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,10,10,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "102761",
+      "competitiorName": "FILUS Ruwen",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102761",
+          "playerName": "FILUS Ruwen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,14,12,12,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-5,12-14,10-12,10-12,0-0",
+  "resultsGameScores": "11-5,12-14,10-12,10-12,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115641",
+    "serverReceiver": "102761",
+    "serverNext": "115641",
+    "serverCompetitor": "115641",
+    "receiverNext": "102761"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:44:17",
+    "startDateLocal": "04/12/2023 21:20:00",
+    "startDateUTC": "04/12/2023 13:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "243"
+}

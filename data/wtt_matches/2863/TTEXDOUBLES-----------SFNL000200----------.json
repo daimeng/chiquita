@@ -1,0 +1,110 @@
+{
+  "eventId": "2863",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Peddem Indoor Stadium",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "41233",
+      "competitiorName": "ROBLES Alvaro/XIAO Maria",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111050",
+          "playerName": "ROBLES Alvaro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111072",
+          "playerName": "XIAO Maria",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,11,10,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36985",
+      "competitiorName": "WONG Chun Ting/DOO Hoi Kem",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112620",
+          "playerName": "WONG Chun Ting",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115543",
+          "playerName": "DOO Hoi Kem",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,7,12,1",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,6-11,11-7,10-12,11-1",
+  "resultsGameScores": "11-6,6-11,11-7,10-12,11-1",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115543",
+    "serverReceiver": "111050",
+    "serverNext": "115543",
+    "serverCompetitor": "36985",
+    "receiverNext": "111050"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:27",
+    "startDateLocal": "01/26/2024 18:00:00",
+    "startDateUTC": "01/26/2024 12:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "250",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

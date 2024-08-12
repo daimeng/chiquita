@@ -1,0 +1,107 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEXDOUBLES-----------8FNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37028",
+      "competitiorName": "IONESCU Ovidiu/SZOCS Bernadette",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103903",
+          "playerName": "IONESCU Ovidiu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111012",
+          "playerName": "SZOCS Bernadette",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "42394",
+      "competitiorName": "ALDMAISY Zeyad/ABO-YAMAN Taimmaa",
+      "competitiorOrg": "JOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114323",
+          "playerName": "ALDMAISY Zeyad",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118087",
+          "playerName": "ABO-YAMAN Taimmaa",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,3,9,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-2,11-3,11-9,0-0,0-0",
+  "resultsGameScores": "11-2,11-3,11-9,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114323",
+    "serverReceiver": "103903",
+    "serverNext": "114323",
+    "serverCompetitor": "42394",
+    "receiverNext": "103903"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:06:53",
+    "startDateLocal": "02/09/2023 10:35:00",
+    "startDateUTC": "02/09/2023 07:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "140"
+}

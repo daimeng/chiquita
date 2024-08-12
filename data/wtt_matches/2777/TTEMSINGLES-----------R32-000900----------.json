@@ -1,0 +1,91 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEMSINGLES-----------R32-000900----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 9",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115910",
+      "competitiorName": "LIN Gaoyuan",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115910",
+          "playerName": "LIN Gaoyuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133694",
+      "competitiorName": "TOGAMI Shunsuke",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133694",
+          "playerName": "TOGAMI Shunsuke",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,8,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,11-9,11-8,11-8,0-0",
+  "resultsGameScores": "6-11,11-9,11-8,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133694",
+    "serverReceiver": "115910",
+    "serverNext": "133694",
+    "serverCompetitor": "133694",
+    "receiverNext": "115910"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:38",
+    "startDateLocal": "10/05/2023 18:35:00",
+    "startDateUTC": "10/05/2023 10:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "210"
+}

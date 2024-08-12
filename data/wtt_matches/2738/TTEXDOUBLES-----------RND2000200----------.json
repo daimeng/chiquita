@@ -1,0 +1,107 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEXDOUBLES-----------RND2000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100116097",
+      "competitiorName": "PARK Gyeongtae/MORET Rachel",
+      "competitiorOrg": "KOR/SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123976",
+          "playerName": "PARK Gyeongtae",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111416",
+          "playerName": "MORET Rachel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SUI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,8,13,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "45324",
+      "competitiorName": "ALFREDSSON Isak/SVENSSON Agnes",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134606",
+          "playerName": "ALFREDSSON Isak",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "200186",
+          "playerName": "SVENSSON Agnes",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,6,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,11-6,8-11,13-11,0-0",
+  "resultsGameScores": "11-7,11-6,8-11,13-11,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134606",
+    "serverReceiver": "123976",
+    "serverNext": "134606",
+    "serverCompetitor": "45324",
+    "receiverNext": "123976"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:25",
+    "startDateLocal": "10/03/2023 11:00:00",
+    "startDateUTC": "10/03/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "213"
+}

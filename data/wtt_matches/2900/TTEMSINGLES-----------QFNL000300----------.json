@@ -1,0 +1,94 @@
+{
+  "eventId": "2900",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117357",
+      "competitiorName": "LIM Jonghoon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117357",
+          "playerName": "LIM Jonghoon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "2,6,11,13,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123980",
+      "competitiorName": "HARIMOTO Tomokazu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123980",
+          "playerName": "HARIMOTO Tomokazu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,11,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "2-11,6-11,11-9,13-11,10-12",
+  "resultsGameScores": "2-11,6-11,11-9,13-11,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123980",
+    "serverReceiver": "117357",
+    "serverNext": "123980",
+    "serverCompetitor": "123980",
+    "receiverNext": "117357"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:43",
+    "startDateLocal": "07/06/2024 18:00:00",
+    "startDateUTC": "07/06/2024 11:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "271",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2698",
+  "documentCode": "TTEWSINGLES-----------R32-001100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123112",
+      "competitiorName": "ZHANG Rui",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123112",
+          "playerName": "ZHANG Rui",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,10,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "108470",
+      "competitiorName": "SUH Hyowon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "108470",
+          "playerName": "SUH Hyowon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,12,5,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,10-12,11-5,11-8,0-0",
+  "resultsGameScores": "11-6,10-12,11-5,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "108470",
+    "serverReceiver": "123112",
+    "serverNext": "108470",
+    "serverCompetitor": "108470",
+    "receiverNext": "123112"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:22:54",
+    "startDateLocal": "01/18/2023 15:10:00",
+    "startDateUTC": "01/18/2023 12:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "199"
+}

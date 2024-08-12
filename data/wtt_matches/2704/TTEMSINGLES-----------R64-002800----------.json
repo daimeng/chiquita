@@ -1,0 +1,91 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEMSINGLES-----------R64-002800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 28",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "119092",
+      "competitiorName": "BERTRAND Irvin",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119092",
+          "playerName": "BERTRAND Irvin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,9,12,8,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "101648",
+      "competitiorName": "CHEN Chien-An",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101648",
+          "playerName": "CHEN Chien-An",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,10,11,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "13-11,9-11,12-10,8-11,11-9",
+  "resultsGameScores": "13-11,9-11,12-10,8-11,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "101648",
+    "serverReceiver": "119092",
+    "serverNext": "101648",
+    "serverCompetitor": "101648",
+    "receiverNext": "119092"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:08",
+    "startDateLocal": "03/29/2023 20:20:00",
+    "startDateUTC": "03/29/2023 17:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "312"
+}

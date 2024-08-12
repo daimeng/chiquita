@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEMSINGLES-----------R32-001600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 16",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115396",
+      "competitiorName": "GERALDO Joao",
+      "competitiorOrg": "POR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115396",
+          "playerName": "GERALDO Joao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "107028",
+      "competitiorName": "OVTCHAROV Dimitrij",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107028",
+          "playerName": "OVTCHAROV Dimitrij",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,5,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,5-11,11-5,11-6,0-0",
+  "resultsGameScores": "11-6,5-11,11-5,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115396",
+    "serverReceiver": "107028",
+    "serverNext": "115396",
+    "serverCompetitor": "115396",
+    "receiverNext": "107028"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:29",
+    "startDateLocal": "08/03/2023 14:00:00",
+    "startDateUTC": "08/03/2023 19:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "177"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEMSINGLES-----------R64-002600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 26",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120929",
+      "competitiorName": "MAUNGWHAN Chayaduj",
+      "competitiorOrg": "THA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120929",
+          "playerName": "MAUNGWHAN Chayaduj",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "THA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122337",
+      "competitiorName": "KIM Yanghyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122337",
+          "playerName": "KIM Yanghyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,13,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,11-13,11-13,0-0,0-0",
+  "resultsGameScores": "9-11,11-13,11-13,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122337",
+    "serverReceiver": "120929",
+    "serverNext": "122337",
+    "serverCompetitor": "122337",
+    "receiverNext": "120929"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:18",
+    "startDateLocal": "09/06/2023 18:20:00",
+    "startDateUTC": "09/06/2023 11:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "184"
+}

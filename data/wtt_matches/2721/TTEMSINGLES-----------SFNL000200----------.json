@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "114715",
+      "competitiorName": "QIU Dang",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114715",
+          "playerName": "QIU Dang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,10,12,4,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132824",
+      "competitiorName": "KAO Cheng-Jui",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132824",
+          "playerName": "KAO Cheng-Jui",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,12,14,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,10-12,12-14,4-11,0-0",
+  "resultsGameScores": "11-6,10-12,12-14,4-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132824",
+    "serverReceiver": "114715",
+    "serverNext": "132824",
+    "serverCompetitor": "132824",
+    "receiverNext": "114715"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:10",
+    "startDateLocal": "08/05/2023 19:00:00",
+    "startDateUTC": "08/06/2023 00:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "229"
+}

@@ -1,0 +1,110 @@
+{
+  "eventId": "2904",
+  "documentCode": "TTEMDOUBLES-----------R32-000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 32 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Singapore Sports Hub",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "43877",
+      "competitiorName": "CIFUENTES Horacio/LORENZO Santiago",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119316",
+          "playerName": "CIFUENTES Horacio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132793",
+          "playerName": "LORENZO Santiago",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "44629",
+      "competitiorName": "MOREGARD Truls/KARLSSON Kristian",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122044",
+          "playerName": "MOREGARD Truls",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "104379",
+          "playerName": "KARLSSON Kristian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,7,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,11-7,11-7,11-8,0-0",
+  "resultsGameScores": "6-11,11-7,11-7,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122044",
+    "serverReceiver": "132793",
+    "serverNext": "122044",
+    "serverCompetitor": "44629",
+    "receiverNext": "132793"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:39",
+    "startDateLocal": "03/11/2024 13:15:00",
+    "startDateUTC": "03/11/2024 05:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "211",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

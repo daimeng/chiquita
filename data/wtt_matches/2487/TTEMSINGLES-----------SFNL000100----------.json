@@ -1,0 +1,91 @@
+{
+  "eventId": "2487",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Semifinals - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Budapest Olympic Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116530",
+      "competitiorName": "ORT Kilian",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116530",
+          "playerName": "ORT Kilian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,7,12,9,11,11,15",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "116798",
+      "competitiorName": "POLANSKY Tomas",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116798",
+          "playerName": "POLANSKY Tomas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,10,11,7,9,13",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "5-11,7-11,12-10,9-11,11-7,11-9,15-13",
+  "resultsGameScores": "5-11,7-11,12-10,9-11,11-7,11-9,15-13",
+  "overallScores": "4-3",
+  "resultOverallScores": "4-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116530",
+    "serverReceiver": "116798",
+    "serverNext": "",
+    "serverCompetitor": "116530",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:55:07",
+    "startDateLocal": "08/19/2021 19:38:22",
+    "startDateUTC": "08/19/2021 17:38:22"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "312"
+}

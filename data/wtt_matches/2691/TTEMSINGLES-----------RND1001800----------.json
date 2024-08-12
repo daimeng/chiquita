@@ -1,0 +1,91 @@
+{
+  "eventId": "2691",
+  "documentCode": "TTEMSINGLES-----------RND1001800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualification Round 1 - Match 18",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "103621",
+      "competitiorName": "HMAM Adam",
+      "competitiorOrg": "TUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103621",
+          "playerName": "HMAM Adam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,8,5,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135996",
+      "competitiorName": "MATSUSHIMA Sora",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135996",
+          "playerName": "MATSUSHIMA Sora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "10-12,8-11,5-11,0-0,0-0",
+  "resultsGameScores": "10-12,8-11,5-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "103621",
+    "serverReceiver": "135996",
+    "serverNext": "103621",
+    "serverCompetitor": "103621",
+    "receiverNext": "135996"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:37",
+    "startDateLocal": "06/20/2023 17:40:00",
+    "startDateUTC": "06/20/2023 16:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "169"
+}

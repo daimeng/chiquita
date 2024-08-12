@@ -1,0 +1,91 @@
+{
+  "eventId": "2737",
+  "documentCode": "TTEMSINGLES-----------R32-001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Pingyuan Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "102761",
+      "competitiorName": "FILUS Ruwen",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102761",
+          "playerName": "FILUS Ruwen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,11,11,14,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "102891",
+      "competitiorName": "GACINA Andrej",
+      "competitiorOrg": "CRO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102891",
+          "playerName": "GACINA Andrej",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,4,16,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,11-9,11-4,14-16,11-6",
+  "resultsGameScores": "8-11,11-9,11-4,14-16,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "102761",
+    "serverReceiver": "102891",
+    "serverNext": "102761",
+    "serverCompetitor": "102761",
+    "receiverNext": "102891"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:38",
+    "startDateLocal": "04/11/2023 14:35:00",
+    "startDateUTC": "04/11/2023 06:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "288"
+}

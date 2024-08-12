@@ -1,0 +1,91 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEWSINGLES-----------GP04000500----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Group 4 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133328",
+      "competitiorName": "BARANI Arianna",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133328",
+          "playerName": "BARANI Arianna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133463",
+      "competitiorName": "TAHMI Hadjer",
+      "competitiorOrg": "ALG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133463",
+          "playerName": "TAHMI Hadjer",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "1,6,6,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-1,11-6,11-6,0-0,0-0",
+  "resultsGameScores": "11-1,11-6,11-6,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133463",
+    "serverReceiver": "133328",
+    "serverNext": "133463",
+    "serverCompetitor": "133463",
+    "receiverNext": "133328"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:16:55",
+    "startDateLocal": "03/28/2023 15:35:00",
+    "startDateUTC": "03/28/2023 12:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "128"
+}

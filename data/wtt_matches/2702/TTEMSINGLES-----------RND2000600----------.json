@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEMSINGLES-----------RND2000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134239",
+      "competitiorName": "NIU Guankai",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134239",
+          "playerName": "NIU Guankai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,6,14,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112446",
+      "competitiorName": "HACHARD Antoine",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112446",
+          "playerName": "HACHARD Antoine",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,11,12,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-3,6-11,14-12,11-9,0-0",
+  "resultsGameScores": "11-3,6-11,14-12,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112446",
+    "serverReceiver": "134239",
+    "serverNext": "112446",
+    "serverCompetitor": "112446",
+    "receiverNext": "134239"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:14",
+    "startDateLocal": "02/14/2023 16:00:00",
+    "startDateUTC": "02/14/2023 15:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "233"
+}

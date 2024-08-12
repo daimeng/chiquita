@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------R64-002300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 23",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "113931",
+      "competitiorName": "DYJAS Jakub",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113931",
+          "playerName": "DYJAS Jakub",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,11,11,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135019",
+      "competitiorName": "REDZIMSKI Milosz",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135019",
+          "playerName": "REDZIMSKI Milosz",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,13,7,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,8-11,11-13,11-7,10-12",
+  "resultsGameScores": "11-5,8-11,11-13,11-7,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135019",
+    "serverReceiver": "113931",
+    "serverNext": "135019",
+    "serverCompetitor": "135019",
+    "receiverNext": "113931"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:10",
+    "startDateLocal": "11/02/2023 18:55:00",
+    "startDateUTC": "11/02/2023 17:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "286"
+}

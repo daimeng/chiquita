@@ -1,0 +1,91 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMSINGLES-----------8FNL000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "106814",
+      "competitiorName": "NUYTINCK Cedric",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106814",
+          "playerName": "NUYTINCK Cedric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BEL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,4,3,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112062",
+      "competitiorName": "GAUZY Simon",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112062",
+          "playerName": "GAUZY Simon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "7-11,4-11,3-11,0-0,0-0",
+  "resultsGameScores": "7-11,4-11,3-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112062",
+    "serverReceiver": "106814",
+    "serverNext": "112062",
+    "serverCompetitor": "112062",
+    "receiverNext": "106814"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:24",
+    "startDateLocal": "09/01/2023 18:20:00",
+    "startDateUTC": "09/01/2023 15:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "128"
+}

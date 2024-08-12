@@ -1,0 +1,107 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEWDOUBLES-----------SFNL000200----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36029",
+      "competitiorName": "DE NUTTE Sarah/NI Xia Lian",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112280",
+          "playerName": "DE NUTTE Sarah",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "106706",
+          "playerName": "NI Xia Lian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,7,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "63021",
+      "competitiorName": "BALAZOVA Barbora/LUTZ Camille",
+      "competitiorOrg": "SVK/FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100868",
+          "playerName": "BALAZOVA Barbora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123550",
+          "playerName": "LUTZ Camille",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,8,11,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-8,7-11,11-9,0-0",
+  "resultsGameScores": "11-6,11-8,7-11,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100868",
+    "serverReceiver": "106706",
+    "serverNext": "100868",
+    "serverCompetitor": "63021",
+    "receiverNext": "106706"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:42",
+    "startDateLocal": "10/06/2023 15:00:00",
+    "startDateUTC": "10/06/2023 13:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "204"
+}

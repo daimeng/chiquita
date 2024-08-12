@@ -1,0 +1,107 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "35977",
+      "competitiorName": "CIFUENTES Horacio/ALTO Gaston",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119316",
+          "playerName": "CIFUENTES Horacio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "100486",
+          "playerName": "ALTO Gaston",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,3,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36459",
+      "competitiorName": "JOUTI Eric/ISHIY Vitor",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113419",
+          "playerName": "JOUTI Eric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "117312",
+          "playerName": "ISHIY Vitor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,4,11,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,11-4,3-11,11-6,0-0",
+  "resultsGameScores": "11-7,11-4,3-11,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100486",
+    "serverReceiver": "117312",
+    "serverNext": "100486",
+    "serverCompetitor": "35977",
+    "receiverNext": "117312"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:18:26",
+    "startDateLocal": "11/06/2022 11:00:00",
+    "startDateUTC": "11/06/2022 14:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "176"
+}

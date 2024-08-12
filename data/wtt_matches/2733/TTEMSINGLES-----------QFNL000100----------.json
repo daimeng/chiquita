@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------QFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116532",
+      "competitiorName": "PUCAR Tomislav",
+      "competitiorOrg": "CRO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116532",
+          "playerName": "PUCAR Tomislav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CRO",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,6,7,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117003",
+      "competitiorName": "CASSIN Alexandre",
+      "competitiorOrg": "FRA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117003",
+          "playerName": "CASSIN Alexandre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,9,11,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,11-9,6-11,7-11,6-11",
+  "resultsGameScores": "11-8,11-9,6-11,7-11,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117003",
+    "serverReceiver": "116532",
+    "serverNext": "117003",
+    "serverCompetitor": "117003",
+    "receiverNext": "116532"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:11",
+    "startDateLocal": "11/04/2023 12:20:00",
+    "startDateUTC": "11/04/2023 11:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "264"
+}

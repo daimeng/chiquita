@@ -1,0 +1,91 @@
+{
+  "eventId": "2794",
+  "documentCode": "TTEMSINGLES-----------R32-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Taiyuan Binhe Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121558",
+      "competitiorName": "WANG Chuqin",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121558",
+          "playerName": "WANG Chuqin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,9,11,11,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131148",
+      "competitiorName": "XU Yingbin",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131148",
+          "playerName": "XU Yingbin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,2,3,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,9-11,11-2,11-3,8-11",
+  "resultsGameScores": "9-11,9-11,11-2,11-3,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121558",
+    "serverReceiver": "131148",
+    "serverNext": "121558",
+    "serverCompetitor": "121558",
+    "receiverNext": "131148"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:43:05",
+    "startDateLocal": "11/09/2023 11:10:00",
+    "startDateUTC": "11/09/2023 03:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "264"
+}

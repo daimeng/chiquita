@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEMSINGLES-----------RND1002600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 26",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115621",
+      "competitiorName": "YAN Sheng",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115621",
+          "playerName": "YAN Sheng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,7,11,13,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122001",
+      "competitiorName": "DEVOS Laurens",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122001",
+          "playerName": "DEVOS Laurens",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,7,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,7-11,11-7,13-11,0-0",
+  "resultsGameScores": "11-7,7-11,11-7,13-11,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122001",
+    "serverReceiver": "115621",
+    "serverNext": "122001",
+    "serverCompetitor": "122001",
+    "receiverNext": "115621"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:14",
+    "startDateLocal": "02/06/2023 18:45:00",
+    "startDateUTC": "02/06/2023 15:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "230"
+}

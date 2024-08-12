@@ -1,0 +1,91 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEMSINGLES-----------R64-001400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123664",
+      "competitiorName": "VALENTA Jan",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123664",
+          "playerName": "VALENTA Jan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,8,11,8,3",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117002",
+      "competitiorName": "SEYFRIED Joe",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117002",
+          "playerName": "SEYFRIED Joe",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,6,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-10,8-11,11-6,8-11,3-11",
+  "resultsGameScores": "12-10,8-11,11-6,8-11,3-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123664",
+    "serverReceiver": "117002",
+    "serverNext": "123664",
+    "serverCompetitor": "123664",
+    "receiverNext": "117002"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:29",
+    "startDateLocal": "07/28/2023 12:25:00",
+    "startDateUTC": "07/28/2023 10:25:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "270"
+}

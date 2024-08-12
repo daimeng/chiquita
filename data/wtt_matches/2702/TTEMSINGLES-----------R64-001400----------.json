@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEMSINGLES-----------R64-001400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "119945",
+      "competitiorName": "DIXON Xavier",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119945",
+          "playerName": "DIXON Xavier",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,5,4,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135674",
+      "competitiorName": "SAI Linwei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135674",
+          "playerName": "SAI Linwei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "8-11,5-11,4-11,0-0,0-0",
+  "resultsGameScores": "8-11,5-11,4-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135674",
+    "serverReceiver": "119945",
+    "serverNext": "135674",
+    "serverCompetitor": "135674",
+    "receiverNext": "119945"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:02:33",
+    "startDateLocal": "02/15/2023 13:30:00",
+    "startDateUTC": "02/15/2023 12:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "143"
+}

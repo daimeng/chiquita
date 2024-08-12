@@ -1,0 +1,110 @@
+{
+  "eventId": "2883",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100104703",
+      "competitiorName": "OH Junsung/PARK Gyuhyeon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135367",
+          "playerName": "OH Junsung",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133813",
+          "playerName": "PARK Gyuhyeon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,13,12,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "39944",
+      "competitiorName": "YIU Kwan To/CHAN Baldwin",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132325",
+          "playerName": "YIU Kwan To",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133867",
+          "playerName": "CHAN Baldwin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,13,11,14,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,11-13,13-11,12-14,12-10",
+  "resultsGameScores": "11-8,11-13,13-11,12-14,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132325",
+    "serverReceiver": "133813",
+    "serverNext": "132325",
+    "serverCompetitor": "39944",
+    "receiverNext": "133813"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:48:32",
+    "startDateLocal": "04/16/2024 17:05:00",
+    "startDateUTC": "04/16/2024 15:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "364",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

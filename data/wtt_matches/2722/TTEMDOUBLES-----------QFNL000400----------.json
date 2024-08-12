@@ -1,0 +1,107 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMDOUBLES-----------QFNL000400----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "42032",
+      "competitiorName": "BURGOS Nicolas/GOMEZ Gustavo",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111683",
+          "playerName": "GOMEZ Gustavo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,10,5,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "41485",
+      "competitiorName": "LEE Sang Su/CHO Daeseong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105197",
+          "playerName": "LEE Sang Su",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123971",
+          "playerName": "CHO Daeseong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,10-12,5-11,0-0,0-0",
+  "resultsGameScores": "9-11,10-12,5-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123971",
+    "serverReceiver": "111683",
+    "serverNext": "123971",
+    "serverCompetitor": "41485",
+    "receiverNext": "111683"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:03",
+    "startDateLocal": "08/11/2023 18:35:00",
+    "startDateUTC": "08/11/2023 21:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "162"
+}

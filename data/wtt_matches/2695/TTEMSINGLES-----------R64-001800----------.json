@@ -1,0 +1,91 @@
+{
+  "eventId": "2695",
+  "documentCode": "TTEMSINGLES-----------R64-001800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 18",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "105136",
+      "competitiorName": "LEBESSON Emmanuel",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105136",
+          "playerName": "LEBESSON Emmanuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,7,11,15",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117113",
+      "competitiorName": "YOSHIMURA Maharu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117113",
+          "playerName": "YOSHIMURA Maharu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,11,8,13",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-7,9-11,7-11,11-8,15-13",
+  "resultsGameScores": "11-7,9-11,7-11,11-8,15-13",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "105136",
+    "serverReceiver": "117113",
+    "serverNext": "105136",
+    "serverCompetitor": "105136",
+    "receiverNext": "117113"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:28",
+    "startDateLocal": "04/25/2023 15:15:00",
+    "startDateUTC": "04/25/2023 08:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "297"
+}

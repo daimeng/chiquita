@@ -1,0 +1,107 @@
+{
+  "eventId": "2742",
+  "documentCode": "TTEWDOUBLES-----------SFNL000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "63021",
+      "competitiorName": "BALAZOVA Barbora/LUTZ Camille",
+      "competitiorOrg": "SVK/FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100868",
+          "playerName": "BALAZOVA Barbora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123550",
+          "playerName": "LUTZ Camille",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,13,7,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "58428",
+      "competitiorName": "DIACONU Adina/XIAO Maria",
+      "competitiorOrg": "ROU/ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117463",
+          "playerName": "DIACONU Adina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111072",
+          "playerName": "XIAO Maria",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,15,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,11-9,13-15,7-11,0-0",
+  "resultsGameScores": "8-11,11-9,13-15,7-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123550",
+    "serverReceiver": "117463",
+    "serverNext": "123550",
+    "serverCompetitor": "63021",
+    "receiverNext": "117463"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:53",
+    "startDateLocal": "10/21/2023 14:00:00",
+    "startDateUTC": "10/21/2023 11:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "241"
+}

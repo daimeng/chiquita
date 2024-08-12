@@ -1,0 +1,91 @@
+{
+  "eventId": "2789",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Expocuba Pablell?n Salud #20",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "106151",
+      "competitiorName": "MINO Alberto",
+      "competitiorOrg": "ECU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106151",
+          "playerName": "MINO Alberto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ECU",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,13,11,7,11,4,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133441",
+      "competitiorName": "BURGOS Nicolas",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,15,0,11,9,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 6,
+  "full_msg": null,
+  "gameScores": "5-11,13-15,11-0,7-11,11-9,4-11,0-0",
+  "resultsGameScores": "5-11,13-15,11-0,7-11,11-9,4-11,0-0",
+  "overallScores": "2-4",
+  "resultOverallScores": "2-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "106151",
+    "serverReceiver": "133441",
+    "serverNext": "106151",
+    "serverCompetitor": "106151",
+    "receiverNext": "133441"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:48:15",
+    "startDateLocal": "09/13/2023 11:45:00",
+    "startDateUTC": "09/13/2023 15:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "296"
+}

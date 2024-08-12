@@ -1,0 +1,91 @@
+{
+  "eventId": "2694",
+  "documentCode": "TTEWSINGLES-----------R64-001100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 48 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "118777",
+      "competitiorName": "WAN Yuan",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118777",
+          "playerName": "WAN Yuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,11,8,11,4",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131342",
+      "competitiorName": "ZENG Jian",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131342",
+          "playerName": "ZENG Jian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,11-9,8-11,11-8,4-11",
+  "resultsGameScores": "8-11,11-9,8-11,11-8,4-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "118777",
+    "serverReceiver": "131342",
+    "serverNext": "118777",
+    "serverCompetitor": "118777",
+    "receiverNext": "131342"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:14",
+    "startDateLocal": "07/05/2023 15:50:00",
+    "startDateUTC": "07/05/2023 13:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "250"
+}

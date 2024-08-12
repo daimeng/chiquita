@@ -1,0 +1,91 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMSINGLES-----------R64-001300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 13",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135050",
+      "competitiorName": "CHEN Yuanyu",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135050",
+          "playerName": "CHEN Yuanyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "137726",
+      "competitiorName": "PARK Changgeon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137726",
+          "playerName": "PARK Changgeon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,8,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-5,9-11,11-8,11-7,0-0",
+  "resultsGameScores": "11-5,9-11,11-8,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135050",
+    "serverReceiver": "137726",
+    "serverNext": "135050",
+    "serverCompetitor": "135050",
+    "receiverNext": "137726"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:11",
+    "startDateLocal": "08/31/2023 18:15:00",
+    "startDateUTC": "08/31/2023 15:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "275"
+}

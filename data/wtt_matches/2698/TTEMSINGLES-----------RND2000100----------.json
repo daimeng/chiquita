@@ -1,0 +1,91 @@
+{
+  "eventId": "2698",
+  "documentCode": "TTEMSINGLES-----------RND2000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135887",
+      "competitiorName": "LIANG Yanning",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135887",
+          "playerName": "LIANG Yanning",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,11,9,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131128",
+      "competitiorName": "GRELA Artur",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131128",
+          "playerName": "GRELA Artur",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,9,11,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "12-10,11-9,9-11,11-7,0-0",
+  "resultsGameScores": "12-10,11-9,9-11,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131128",
+    "serverReceiver": "135887",
+    "serverNext": "131128",
+    "serverCompetitor": "131128",
+    "receiverNext": "135887"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:07",
+    "startDateLocal": "01/16/2023 12:20:00",
+    "startDateUTC": "01/16/2023 09:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "228"
+}

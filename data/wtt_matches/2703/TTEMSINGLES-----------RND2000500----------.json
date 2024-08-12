@@ -1,0 +1,91 @@
+{
+  "eventId": "2703",
+  "documentCode": "TTEMSINGLES-----------RND2000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135919",
+      "competitiorName": "ZENG Beixun",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135919",
+          "playerName": "ZENG Beixun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,12,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119092",
+      "competitiorName": "BERTRAND Irvin",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119092",
+          "playerName": "BERTRAND Irvin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,8,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "13-11,12-10,11-8,0-0,0-0",
+  "resultsGameScores": "13-11,12-10,11-8,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119092",
+    "serverReceiver": "135919",
+    "serverNext": "119092",
+    "serverCompetitor": "119092",
+    "receiverNext": "135919"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:30",
+    "startDateLocal": "02/21/2023 16:00:00",
+    "startDateUTC": "02/21/2023 15:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "192"
+}

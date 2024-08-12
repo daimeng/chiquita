@@ -1,0 +1,107 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "62350",
+      "competitiorName": "FALCK Mattias/BERGSTROM Linda",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112074",
+          "playerName": "FALCK Mattias",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114905",
+          "playerName": "BERGSTROM Linda",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,11,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "46036",
+      "competitiorName": "LEVAJAC Dimitrije/LUPULESKU Izabela",
+      "competitiorOrg": "SRB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123192",
+          "playerName": "LEVAJAC Dimitrije",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SRB",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120187",
+          "playerName": "LUPULESKU Izabela",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SRB",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,7,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,11-4,11-7,12-10,0-0",
+  "resultsGameScores": "8-11,11-4,11-7,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123192",
+    "serverReceiver": "114905",
+    "serverNext": "123192",
+    "serverCompetitor": "46036",
+    "receiverNext": "114905"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:13",
+    "startDateLocal": "10/06/2023 10:35:00",
+    "startDateUTC": "10/06/2023 08:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "203"
+}

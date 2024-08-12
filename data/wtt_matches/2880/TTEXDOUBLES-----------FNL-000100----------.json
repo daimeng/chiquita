@@ -1,0 +1,110 @@
+{
+  "eventId": "2880",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "41233",
+      "competitiorName": "ROBLES Alvaro/XIAO Maria",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111050",
+          "playerName": "ROBLES Alvaro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111072",
+          "playerName": "XIAO Maria",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "37061",
+      "competitiorName": "MLADENOVIC Luka/NI Xia Lian",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120074",
+          "playerName": "MLADENOVIC Luka",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "106706",
+          "playerName": "NI Xia Lian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,8,3,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-8,11-3,0-0,0-0",
+  "resultsGameScores": "11-5,11-8,11-3,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "111050",
+    "serverReceiver": "106706",
+    "serverNext": "111050",
+    "serverCompetitor": "41233",
+    "receiverNext": "106706"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:08",
+    "startDateLocal": "03/31/2024 19:40:00",
+    "startDateUTC": "03/31/2024 17:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "137",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

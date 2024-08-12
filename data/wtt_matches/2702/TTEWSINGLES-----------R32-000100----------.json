@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEWSINGLES-----------R32-000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "137627",
+      "competitiorName": "LIU Yangzi",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137627",
+          "playerName": "LIU Yangzi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,12,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "124584",
+      "competitiorName": "HUANG Yu-Jie",
+      "competitiorOrg": "TPE",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124584",
+          "playerName": "HUANG Yu-Jie",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,10,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,11-9,12-10,11-9,0-0",
+  "resultsGameScores": "9-11,11-9,12-10,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "124584",
+    "serverReceiver": "137627",
+    "serverNext": "124584",
+    "serverCompetitor": "124584",
+    "receiverNext": "137627"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:49",
+    "startDateLocal": "02/15/2023 15:30:00",
+    "startDateUTC": "02/15/2023 14:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "222"
+}

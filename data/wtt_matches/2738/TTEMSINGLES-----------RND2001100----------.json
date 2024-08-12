@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------RND2001100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123514",
+      "competitiorName": "STAMATOUROS Georgios",
+      "competitiorOrg": "GRE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123514",
+          "playerName": "STAMATOUROS Georgios",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GRE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,10,11,13,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135305",
+      "competitiorName": "TORRES Jabdiel",
+      "competitiorOrg": "PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135305",
+          "playerName": "TORRES Jabdiel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,12,6,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-2,10-12,11-6,13-11,0-0",
+  "resultsGameScores": "11-2,10-12,11-6,13-11,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123514",
+    "serverReceiver": "135305",
+    "serverNext": "123514",
+    "serverCompetitor": "123514",
+    "receiverNext": "135305"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:58",
+    "startDateLocal": "10/03/2023 11:35:00",
+    "startDateUTC": "10/03/2023 09:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "224"
+}

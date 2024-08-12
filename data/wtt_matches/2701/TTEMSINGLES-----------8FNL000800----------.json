@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------8FNL000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123305",
+      "competitiorName": "DE NODREST Leo",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123305",
+          "playerName": "DE NODREST Leo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,3,9,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121940",
+      "competitiorName": "SHAMS Navid",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121940",
+          "playerName": "SHAMS Navid",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,8,11,11,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,11-8,3-11,9-11,11-6",
+  "resultsGameScores": "11-4,11-8,3-11,9-11,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121940",
+    "serverReceiver": "123305",
+    "serverNext": "121940",
+    "serverCompetitor": "121940",
+    "receiverNext": "123305"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:28",
+    "startDateLocal": "01/25/2023 13:30:00",
+    "startDateUTC": "01/25/2023 10:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "228"
+}

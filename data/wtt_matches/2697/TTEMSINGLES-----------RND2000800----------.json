@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEMSINGLES-----------RND2000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "137238",
+      "competitiorName": "HUANG Youzheng",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137238",
+          "playerName": "HUANG Youzheng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,6,14,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "110673",
+      "competitiorName": "ALAMIYAN Noshad",
+      "competitiorOrg": "IRI",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110673",
+          "playerName": "ALAMIYAN Noshad",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,16,8,3",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,6-11,14-16,11-8,11-3",
+  "resultsGameScores": "11-5,6-11,14-16,11-8,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "110673",
+    "serverReceiver": "137238",
+    "serverNext": "110673",
+    "serverCompetitor": "110673",
+    "receiverNext": "137238"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:41",
+    "startDateLocal": "02/07/2023 18:00:00",
+    "startDateUTC": "02/07/2023 15:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "283"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2742",
+  "documentCode": "TTEMSINGLES-----------R32-000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116620",
+      "competitiorName": "DUDA Benedikt",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116620",
+          "playerName": "DUDA Benedikt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,6,7,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "116853",
+      "competitiorName": "KALLBERG Anton",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116853",
+          "playerName": "KALLBERG Anton",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "5-11,11-8,6-11,7-11,0-0",
+  "resultsGameScores": "5-11,11-8,6-11,7-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116620",
+    "serverReceiver": "116853",
+    "serverNext": "116620",
+    "serverCompetitor": "116620",
+    "receiverNext": "116853"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:38",
+    "startDateLocal": "10/19/2023 18:35:00",
+    "startDateUTC": "10/19/2023 15:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "208"
+}

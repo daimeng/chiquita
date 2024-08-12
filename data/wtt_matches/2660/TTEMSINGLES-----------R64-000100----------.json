@@ -1,0 +1,91 @@
+{
+  "eventId": "2660",
+  "documentCode": "TTEMSINGLES-----------R64-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "ICC Durban",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121404",
+      "competitiorName": "FAN Zhendong",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121404",
+          "playerName": "FAN Zhendong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "103107",
+      "competitiorName": "GIONIS Panagiotis",
+      "competitiorOrg": "GRE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103107",
+          "playerName": "GIONIS Panagiotis",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GRE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,4,11,2,8,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,11-4,9-11,11-2,11-8,0-0,0-0",
+  "resultsGameScores": "11-4,11-4,9-11,11-2,11-8,0-0,0-0",
+  "overallScores": "4-1",
+  "resultOverallScores": "4-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121404",
+    "serverReceiver": "103107",
+    "serverNext": "121404",
+    "serverCompetitor": "121404",
+    "receiverNext": "103107"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:47",
+    "startDateLocal": "05/22/2023 14:20:00",
+    "startDateUTC": "05/22/2023 12:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "220"
+}

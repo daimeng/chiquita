@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEMSINGLES-----------R32-001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100621",
+      "competitiorName": "APOLONIA Tiago",
+      "competitiorOrg": "POR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100621",
+          "playerName": "APOLONIA Tiago",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "120850",
+      "competitiorName": "OIKAWA Mizuki",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120850",
+          "playerName": "OIKAWA Mizuki",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,9,10,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-8,11-9,12-10,0-0,0-0",
+  "resultsGameScores": "11-8,11-9,12-10,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120850",
+    "serverReceiver": "100621",
+    "serverNext": "120850",
+    "serverCompetitor": "120850",
+    "receiverNext": "100621"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:26:36",
+    "startDateLocal": "08/03/2023 11:45:00",
+    "startDateUTC": "08/03/2023 16:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "163"
+}

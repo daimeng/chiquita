@@ -1,0 +1,91 @@
+{
+  "eventId": "2699",
+  "documentCode": "TTEMSINGLES-----------R32-001500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 15",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Olive Convention Centre Durban",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123682",
+      "competitiorName": "THAKKAR Manav Vikash",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123682",
+          "playerName": "THAKKAR Manav Vikash",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131478",
+      "competitiorName": "NATHOO Chetan",
+      "competitiorOrg": "RSA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131478",
+          "playerName": "NATHOO Chetan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "1,5,6,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-1,11-5,11-6,0-0,0-0",
+  "resultsGameScores": "11-1,11-5,11-6,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131478",
+    "serverReceiver": "123682",
+    "serverNext": "131478",
+    "serverCompetitor": "131478",
+    "receiverNext": "123682"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:16:32",
+    "startDateLocal": "01/12/2023 18:00:00",
+    "startDateUTC": "01/12/2023 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "133"
+}

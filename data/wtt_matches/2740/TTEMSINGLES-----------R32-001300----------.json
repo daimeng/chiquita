@@ -1,0 +1,91 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEMSINGLES-----------R32-001300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 13",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "109002",
+      "competitiorName": "STOYANOV Niagol",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "109002",
+          "playerName": "STOYANOV Niagol",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,6,11,14,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122337",
+      "competitiorName": "KIM Yanghyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122337",
+          "playerName": "KIM Yanghyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,1,12,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "13-11,6-11,11-1,14-12,0-0",
+  "resultsGameScores": "13-11,6-11,11-1,14-12,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "109002",
+    "serverReceiver": "122337",
+    "serverNext": "109002",
+    "serverCompetitor": "109002",
+    "receiverNext": "122337"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:29",
+    "startDateLocal": "09/07/2023 14:05:00",
+    "startDateUTC": "09/07/2023 07:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "222"
+}

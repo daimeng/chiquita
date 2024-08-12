@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEMSINGLES-----------R32-001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "102841",
+      "competitiorName": "FREITAS Marcos",
+      "competitiorOrg": "POR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102841",
+          "playerName": "FREITAS Marcos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,8,15,9,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112409",
+      "competitiorName": "GROTH Jonathan",
+      "competitiorOrg": "DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112409",
+          "playerName": "GROTH Jonathan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,13,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,8-11,15-13,9-11,0-0",
+  "resultsGameScores": "9-11,8-11,15-13,9-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "102841",
+    "serverReceiver": "112409",
+    "serverNext": "102841",
+    "serverCompetitor": "102841",
+    "receiverNext": "112409"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:50:55",
+    "startDateLocal": "02/09/2023 16:20:00",
+    "startDateUTC": "02/09/2023 13:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "257"
+}

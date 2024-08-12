@@ -1,0 +1,91 @@
+{
+  "eventId": "2724",
+  "documentCode": "TTEMSINGLES-----------R64-001800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 18",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123192",
+      "competitiorName": "LEVAJAC Dimitrije",
+      "competitiorOrg": "SRB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123192",
+          "playerName": "LEVAJAC Dimitrije",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,14,6,11,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123534",
+      "competitiorName": "MARTINKO Tomas",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123534",
+          "playerName": "MARTINKO Tomas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,8,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,14-12,6-11,11-8,10-12",
+  "resultsGameScores": "9-11,14-12,6-11,11-8,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123192",
+    "serverReceiver": "123534",
+    "serverNext": "123192",
+    "serverCompetitor": "123192",
+    "receiverNext": "123534"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:44:01",
+    "startDateLocal": "08/24/2023 17:10:00",
+    "startDateUTC": "08/24/2023 15:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "298"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2660",
+  "documentCode": "TTEMSINGLES-----------QFNL000400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "ICC Durban",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115029",
+      "competitiorName": "LIND Anders",
+      "competitiorOrg": "DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115029",
+          "playerName": "LIND Anders",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "DEN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,6,8,12,8,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121558",
+      "competitiorName": "WANG Chuqin",
+      "competitiorOrg": "CHN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121558",
+          "playerName": "WANG Chuqin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,10,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,6-11,8-11,12-10,8-11,0-0,0-0",
+  "resultsGameScores": "10-12,6-11,8-11,12-10,8-11,0-0,0-0",
+  "overallScores": "1-4",
+  "resultOverallScores": "1-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121558",
+    "serverReceiver": "115029",
+    "serverNext": "121558",
+    "serverCompetitor": "121558",
+    "receiverNext": "115029"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:07",
+    "startDateLocal": "05/26/2023 16:00:00",
+    "startDateUTC": "05/26/2023 14:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "275"
+}

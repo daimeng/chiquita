@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEMSINGLES-----------R32-000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121591",
+      "competitiorName": "LIU Yebo",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121591",
+          "playerName": "LIU Yebo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,12,1,11,5",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "113679",
+      "competitiorName": "BOULOUSSA Mehdi",
+      "competitiorOrg": "ALG",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113679",
+          "playerName": "BOULOUSSA Mehdi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,10,11,6,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,12-10,1-11,11-6,5-11",
+  "resultsGameScores": "10-12,12-10,1-11,11-6,5-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121591",
+    "serverReceiver": "113679",
+    "serverNext": "121591",
+    "serverCompetitor": "121591",
+    "receiverNext": "113679"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:56:37",
+    "startDateLocal": "02/15/2023 17:50:00",
+    "startDateUTC": "02/15/2023 16:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "245"
+}

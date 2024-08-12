@@ -1,0 +1,110 @@
+{
+  "eventId": "2904",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Singapore Sports Hub",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36523",
+      "competitiorName": "FAN Zhendong/WANG Chuqin",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121404",
+          "playerName": "FAN Zhendong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121558",
+          "playerName": "WANG Chuqin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,9,11,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36524",
+      "competitiorName": "MA Long/LIN Gaoyuan",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105649",
+          "playerName": "MA Long",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115910",
+          "playerName": "LIN Gaoyuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,11,6,14",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,7-11,9-11,11-6,12-14",
+  "resultsGameScores": "11-6,7-11,9-11,11-6,12-14",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121404",
+    "serverReceiver": "115910",
+    "serverNext": "121404",
+    "serverCompetitor": "36523",
+    "receiverNext": "115910"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:46:21",
+    "startDateLocal": "03/16/2024 15:00:00",
+    "startDateUTC": "03/16/2024 07:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "271",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

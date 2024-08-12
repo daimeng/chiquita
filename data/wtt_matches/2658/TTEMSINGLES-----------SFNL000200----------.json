@@ -1,0 +1,91 @@
+{
+  "eventId": "2658",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116620",
+      "competitiorName": "DUDA Benedikt",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116620",
+          "playerName": "DUDA Benedikt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,11,11,0,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "116612",
+      "competitiorName": "AKKUZU Can",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116612",
+          "playerName": "AKKUZU Can",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,10,4,8,0,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,12-10,11-4,11-8,0-0,0-0,0-0",
+  "resultsGameScores": "11-8,12-10,11-4,11-8,0-0,0-0,0-0",
+  "overallScores": "4-0",
+  "resultOverallScores": "4-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116620",
+    "serverReceiver": "116612",
+    "serverNext": "116620",
+    "serverCompetitor": "116620",
+    "receiverNext": "116612"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:26:36",
+    "startDateLocal": "11/25/2022 11:30:00",
+    "startDateUTC": "11/25/2022 10:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "208"
+}

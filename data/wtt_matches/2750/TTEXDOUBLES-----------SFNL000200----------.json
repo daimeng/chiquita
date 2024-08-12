@@ -1,0 +1,107 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "45654",
+      "competitiorName": "LIMONOV Anton/BRATEYKO Solomiya",
+      "competitiorOrg": "UKR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124147",
+          "playerName": "LIMONOV Anton",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "122348",
+          "playerName": "BRATEYKO Solomiya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,9,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "46036",
+      "competitiorName": "LEVAJAC Dimitrije/LUPULESKU Izabela",
+      "competitiorOrg": "SRB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123192",
+          "playerName": "LEVAJAC Dimitrije",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120187",
+          "playerName": "LUPULESKU Izabela",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,9,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,9-11,11-9,9-11,6-11",
+  "resultsGameScores": "11-5,9-11,11-9,9-11,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122348",
+    "serverReceiver": "123192",
+    "serverNext": "122348",
+    "serverCompetitor": "45654",
+    "receiverNext": "123192"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:18",
+    "startDateLocal": "07/29/2023 18:10:00",
+    "startDateUTC": "07/29/2023 16:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "256"
+}

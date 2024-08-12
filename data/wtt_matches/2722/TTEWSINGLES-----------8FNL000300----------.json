@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEWSINGLES-----------8FNL000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "111012",
+      "competitiorName": "SZOCS Bernadette",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111012",
+          "playerName": "SZOCS Bernadette",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "107321",
+      "competitiorName": "PESOTSKA Margaryta",
+      "competitiorOrg": "UKR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107321",
+          "playerName": "PESOTSKA Margaryta",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,8,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,11-4,11-8,11-7,0-0",
+  "resultsGameScores": "8-11,11-4,11-8,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "107321",
+    "serverReceiver": "111012",
+    "serverNext": "107321",
+    "serverCompetitor": "107321",
+    "receiverNext": "111012"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:26:26",
+    "startDateLocal": "08/11/2023 15:20:00",
+    "startDateUTC": "08/11/2023 18:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "185"
+}

@@ -1,0 +1,107 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEXDOUBLES-----------RND1000400----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100118239",
+      "competitiorName": "HO Jeongmun/JI Eunchae",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "144824",
+          "playerName": "HO Jeongmun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119676",
+          "playerName": "JI Eunchae",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,10,1,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100118299",
+      "competitiorName": "XU Haidong/WANG Xiaotong",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133893",
+          "playerName": "XU Haidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136539",
+          "playerName": "WANG Xiaotong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,12,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "5-11,11-9,10-12,1-11,0-0",
+  "resultsGameScores": "5-11,11-9,10-12,1-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133893",
+    "serverReceiver": "119676",
+    "serverNext": "133893",
+    "serverCompetitor": "100118299",
+    "receiverNext": "119676"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:23",
+    "startDateLocal": "10/30/2023 11:00:00",
+    "startDateUTC": "10/30/2023 10:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "188"
+}

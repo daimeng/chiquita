@@ -1,0 +1,91 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "132137",
+      "competitiorName": "CAO Wei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132137",
+          "playerName": "CAO Wei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,11,7,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123293",
+      "competitiorName": "MENG Fanbo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123293",
+          "playerName": "MENG Fanbo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,9,11,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-9,11-9,7-11,11-8",
+  "resultsGameScores": "7-11,11-9,11-9,7-11,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132137",
+    "serverReceiver": "123293",
+    "serverNext": "132137",
+    "serverCompetitor": "132137",
+    "receiverNext": "123293"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:19",
+    "startDateLocal": "09/02/2023 13:55:00",
+    "startDateUTC": "09/02/2023 10:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "265"
+}

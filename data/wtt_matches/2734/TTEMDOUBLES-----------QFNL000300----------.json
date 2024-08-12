@@ -1,0 +1,107 @@
+{
+  "eventId": "2734",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Aspire Ladies Sports Hall",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100118352",
+      "competitiorName": "SHAMS Navid/NARANJO Angel",
+      "competitiorOrg": "IRI/PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121940",
+          "playerName": "SHAMS Navid",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IRI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131446",
+          "playerName": "NARANJO Angel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,8,11,3,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "43238",
+      "competitiorName": "HO Kwan Kit/LI Hon Ming",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123690",
+          "playerName": "HO Kwan Kit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115548",
+          "playerName": "LI Hon Ming",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,8,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,8-11,11-8,3-11,0-0",
+  "resultsGameScores": "8-11,8-11,11-8,3-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115548",
+    "serverReceiver": "121940",
+    "serverNext": "115548",
+    "serverCompetitor": "43238",
+    "receiverNext": "121940"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:01",
+    "startDateLocal": "10/18/2023 11:10:00",
+    "startDateUTC": "10/18/2023 09:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "193"
+}

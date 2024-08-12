@@ -1,0 +1,91 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMSINGLES-----------R64-002200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 22",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131690",
+      "competitiorName": "SARIEV Stoyan",
+      "competitiorOrg": "BUL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131690",
+          "playerName": "SARIEV Stoyan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BUL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "1,4,4,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135674",
+      "competitiorName": "SAI Linwei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135674",
+          "playerName": "SAI Linwei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "1-11,4-11,4-11,0-0,0-0",
+  "resultsGameScores": "1-11,4-11,4-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135674",
+    "serverReceiver": "131690",
+    "serverNext": "135674",
+    "serverCompetitor": "135674",
+    "receiverNext": "131690"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:12:16",
+    "startDateLocal": "08/31/2023 20:00:00",
+    "startDateUTC": "08/31/2023 17:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "118"
+}

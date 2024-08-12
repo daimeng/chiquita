@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------R64-000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134239",
+      "competitiorName": "NIU Guankai",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134239",
+          "playerName": "NIU Guankai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,8,11,5",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114717",
+      "competitiorName": "SZUDI Adam",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114717",
+          "playerName": "SZUDI Adam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-9,8-11,11-8,5-11",
+  "resultsGameScores": "7-11,11-9,8-11,11-8,5-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134239",
+    "serverReceiver": "114717",
+    "serverNext": "134239",
+    "serverCompetitor": "134239",
+    "receiverNext": "114717"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:29",
+    "startDateLocal": "11/02/2023 16:00:00",
+    "startDateUTC": "11/02/2023 15:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "278"
+}

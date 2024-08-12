@@ -1,0 +1,91 @@
+{
+  "eventId": "2724",
+  "documentCode": "TTEMSINGLES-----------R32-000400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121869",
+      "competitiorName": "ZELINKA Jakub",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121869",
+          "playerName": "ZELINKA Jakub",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,7,5",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133652",
+      "competitiorName": "DORR Esteban",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133652",
+          "playerName": "DORR Esteban",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,4,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-6,11-4,7-11,5-11",
+  "resultsGameScores": "9-11,11-6,11-4,7-11,5-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121869",
+    "serverReceiver": "133652",
+    "serverNext": "121869",
+    "serverCompetitor": "121869",
+    "receiverNext": "133652"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:03",
+    "startDateLocal": "08/25/2023 16:35:00",
+    "startDateUTC": "08/25/2023 14:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "245"
+}

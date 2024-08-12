@@ -1,0 +1,107 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEWDOUBLES-----------QFNL000300----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "39039",
+      "competitiorName": "WANG Amy/SUNG Rachel",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119022",
+          "playerName": "WANG Amy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121250",
+          "playerName": "SUNG Rachel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,8,4,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "41778",
+      "competitiorName": "MOLERO Candela/ARGUELLES Camila",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116364",
+          "playerName": "MOLERO Candela",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119109",
+          "playerName": "ARGUELLES Camila",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "1,9,11,11,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-1,11-9,8-11,4-11,11-6",
+  "resultsGameScores": "11-1,11-9,8-11,4-11,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119022",
+    "serverReceiver": "119109",
+    "serverNext": "119022",
+    "serverCompetitor": "39039",
+    "receiverNext": "119109"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:54:20",
+    "startDateLocal": "11/04/2022 13:00:00",
+    "startDateUTC": "11/04/2022 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "228"
+}

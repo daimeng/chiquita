@@ -1,0 +1,91 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEMSINGLES-----------R64-003200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 32",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122095",
+      "competitiorName": "REMBERT Bastien",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122095",
+          "playerName": "REMBERT Bastien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,5,8,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115396",
+      "competitiorName": "GERALDO Joao",
+      "competitiorOrg": "POR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115396",
+          "playerName": "GERALDO Joao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "8-11,5-11,8-11,0-0,0-0",
+  "resultsGameScores": "8-11,5-11,8-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115396",
+    "serverReceiver": "122095",
+    "serverNext": "115396",
+    "serverCompetitor": "115396",
+    "receiverNext": "122095"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:43",
+    "startDateLocal": "02/01/2023 19:00:00",
+    "startDateUTC": "02/01/2023 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "172"
+}

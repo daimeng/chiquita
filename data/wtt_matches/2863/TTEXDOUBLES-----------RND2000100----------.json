@@ -1,0 +1,110 @@
+{
+  "eventId": "2863",
+  "documentCode": "TTEXDOUBLES-----------RND2000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Peddem Indoor Stadium",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "79504",
+      "competitiorName": "CHO Daeseong/JOO Cheonhui",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123971",
+          "playerName": "CHO Daeseong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "200413",
+          "playerName": "JOO Cheonhui",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,5,11,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "55476",
+      "competitiorName": "CHO Seungmin/LEE Zion",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119284",
+          "playerName": "CHO Seungmin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119285",
+          "playerName": "LEE Zion",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,11,8,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "4-11,11-4,5-11,11-8,12-10",
+  "resultsGameScores": "4-11,11-4,5-11,11-8,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200413",
+    "serverReceiver": "119284",
+    "serverNext": "200413",
+    "serverCompetitor": "79504",
+    "receiverNext": "119284"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:47",
+    "startDateLocal": "01/24/2024 10:00:00",
+    "startDateUTC": "01/24/2024 04:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "261",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

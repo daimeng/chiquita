@@ -1,0 +1,91 @@
+{
+  "eventId": "2695",
+  "documentCode": "TTEMSINGLES-----------8FNL000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116620",
+      "competitiorName": "DUDA Benedikt",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116620",
+          "playerName": "DUDA Benedikt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,11,8,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119533",
+      "competitiorName": "ZHOU Qihao",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119533",
+          "playerName": "ZHOU Qihao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,9,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,5-11,11-9,8-11,8-11",
+  "resultsGameScores": "11-4,5-11,11-9,8-11,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119533",
+    "serverReceiver": "116620",
+    "serverNext": "119533",
+    "serverCompetitor": "119533",
+    "receiverNext": "116620"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:18",
+    "startDateLocal": "04/27/2023 15:15:00",
+    "startDateUTC": "04/27/2023 08:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "249"
+}

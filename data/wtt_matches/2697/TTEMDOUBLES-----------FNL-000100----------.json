@@ -1,0 +1,110 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36538",
+      "competitiorName": "TOGAMI Shunsuke/UDA Yukiya",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133694",
+          "playerName": "TOGAMI Shunsuke",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "122777",
+          "playerName": "UDA Yukiya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,5,11,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "43750",
+      "competitiorName": "LIU Yebo/XU Yingbin",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121591",
+          "playerName": "LIU Yebo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131148",
+          "playerName": "XU Yingbin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,11,5,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,11-4,5-11,11-5,8-11",
+  "resultsGameScores": "8-11,11-4,5-11,11-5,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121591",
+    "serverReceiver": "122777",
+    "serverNext": "121591",
+    "serverCompetitor": "43750",
+    "receiverNext": "122777"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:50:37",
+    "startDateLocal": "02/12/2023 16:10:00",
+    "startDateUTC": "02/12/2023 13:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "256",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEMSINGLES-----------R32-000700----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 7",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "104036",
+      "competitiorName": "JANCARIK Lubomir",
+      "competitiorOrg": "CZE",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "104036",
+          "playerName": "JANCARIK Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,9,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117002",
+      "competitiorName": "SEYFRIED Joe",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117002",
+          "playerName": "SEYFRIED Joe",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,14,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,9-11,12-14,0-0,0-0",
+  "resultsGameScores": "9-11,9-11,12-14,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117002",
+    "serverReceiver": "104036",
+    "serverNext": "117002",
+    "serverCompetitor": "117002",
+    "receiverNext": "104036"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:05",
+    "startDateLocal": "07/28/2023 17:15:00",
+    "startDateUTC": "07/28/2023 15:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "195"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEMSINGLES-----------8FNL000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123962",
+      "competitiorName": "YOSHIMURA Kazuhiro",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123962",
+          "playerName": "YOSHIMURA Kazuhiro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,9,8,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "137238",
+      "competitiorName": "HUANG Youzheng",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137238",
+          "playerName": "HUANG Youzheng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,5,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "9-11,11-5,9-11,8-11,0-0",
+  "resultsGameScores": "9-11,11-5,9-11,8-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137238",
+    "serverReceiver": "123962",
+    "serverNext": "137238",
+    "serverCompetitor": "137238",
+    "receiverNext": "123962"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:56",
+    "startDateLocal": "09/07/2023 19:55:00",
+    "startDateUTC": "09/07/2023 12:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "221"
+}

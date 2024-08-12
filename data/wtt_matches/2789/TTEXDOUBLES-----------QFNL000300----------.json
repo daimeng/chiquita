@@ -1,0 +1,107 @@
+{
+  "eventId": "2789",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Expocuba Pablell?n Salud #20",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37189",
+      "competitiorName": "MADRID Marcos/SILVA Yadira",
+      "competitiorOrg": "MEX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105679",
+          "playerName": "MADRID Marcos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MEX",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "113309",
+          "playerName": "SILVA Yadira",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MEX",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "42027",
+      "competitiorName": "AGUIRRE Marcelo/OVELAR Lucero",
+      "competitiorOrg": "PAR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111115",
+          "playerName": "AGUIRRE Marcelo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PAR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "111119",
+          "playerName": "OVELAR Lucero",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PAR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,9,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,13-11,11-9,0-0,0-0",
+  "resultsGameScores": "11-5,13-11,11-9,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "111115",
+    "serverReceiver": "105679",
+    "serverNext": "111115",
+    "serverCompetitor": "42027",
+    "receiverNext": "105679"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:50",
+    "startDateLocal": "09/12/2023 17:30:00",
+    "startDateUTC": "09/12/2023 21:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "173"
+}

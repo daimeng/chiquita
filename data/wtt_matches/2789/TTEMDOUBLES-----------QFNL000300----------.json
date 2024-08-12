@@ -1,0 +1,107 @@
+{
+  "eventId": "2789",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Expocuba Pablell?n Salud #20",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36491",
+      "competitiorName": "MINO Alberto/RIOFRIO Emiliano",
+      "competitiorOrg": "ECU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106151",
+          "playerName": "MINO Alberto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ECU",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120896",
+          "playerName": "RIOFRIO Emiliano",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ECU",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,9,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "74925",
+      "competitiorName": "LIANG  Jishan/NARESH Nandan",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121222",
+          "playerName": "LIANG  Jishan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135768",
+          "playerName": "NARESH Nandan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,10,11,11,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,12-10,9-11,6-11,11-9",
+  "resultsGameScores": "11-6,12-10,9-11,6-11,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135768",
+    "serverReceiver": "106151",
+    "serverNext": "135768",
+    "serverCompetitor": "74925",
+    "receiverNext": "106151"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:59",
+    "startDateLocal": "09/12/2023 17:00:00",
+    "startDateUTC": "09/12/2023 21:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "273"
+}

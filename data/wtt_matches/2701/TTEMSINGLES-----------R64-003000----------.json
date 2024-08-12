@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------R64-003000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 30",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123305",
+      "competitiorName": "DE NODREST Leo",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123305",
+          "playerName": "DE NODREST Leo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,12,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "120224",
+      "competitiorName": "SIPOS Rares",
+      "competitiorOrg": "ROU",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120224",
+          "playerName": "SIPOS Rares",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,10,11,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,8-11,12-10,6-11,11-8",
+  "resultsGameScores": "11-6,8-11,12-10,6-11,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123305",
+    "serverReceiver": "120224",
+    "serverNext": "123305",
+    "serverCompetitor": "123305",
+    "receiverNext": "120224"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:09:46",
+    "startDateLocal": "01/24/2023 14:05:00",
+    "startDateUTC": "01/24/2023 11:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "270"
+}

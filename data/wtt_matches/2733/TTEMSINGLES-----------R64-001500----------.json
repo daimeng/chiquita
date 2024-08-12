@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------R64-001500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 15",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "114355",
+      "competitiorName": "FLORE Tristan",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114355",
+          "playerName": "FLORE Tristan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,11,13,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122095",
+      "competitiorName": "REMBERT Bastien",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122095",
+          "playerName": "REMBERT Bastien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,8,15,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-3,11-8,13-15,8-11",
+  "resultsGameScores": "7-11,11-3,11-8,13-15,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122095",
+    "serverReceiver": "114355",
+    "serverNext": "122095",
+    "serverCompetitor": "122095",
+    "receiverNext": "114355"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:20",
+    "startDateLocal": "11/02/2023 17:10:00",
+    "startDateUTC": "11/02/2023 16:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "273"
+}

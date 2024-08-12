@@ -1,0 +1,110 @@
+{
+  "eventId": "2867",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100100197",
+      "competitiorName": "BARDET Lilian/ROLLAND Jules",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122002",
+          "playerName": "BARDET Lilian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123300",
+          "playerName": "ROLLAND Jules",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,6,11,9,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "38692",
+      "competitiorName": "DESCHAMPS Hugo/PORET Thibault",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134590",
+          "playerName": "DESCHAMPS Hugo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134718",
+          "playerName": "PORET Thibault",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,6,11,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-10,6-11,11-6,9-11,12-10",
+  "resultsGameScores": "12-10,6-11,11-6,9-11,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122002",
+    "serverReceiver": "134590",
+    "serverNext": "122002",
+    "serverCompetitor": "100100197",
+    "receiverNext": "134590"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:15",
+    "startDateLocal": "05/24/2024 19:10:00",
+    "startDateUTC": "05/24/2024 22:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "276",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

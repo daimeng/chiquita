@@ -1,0 +1,91 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMSINGLES-----------R64-001100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131723",
+      "competitiorName": "VILARDELL Albert",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131723",
+          "playerName": "VILARDELL Albert",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,9,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134625",
+      "competitiorName": "PEREZ Juan",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134625",
+          "playerName": "PEREZ Juan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,7,11,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-7,11-7,9-11,9-11,7-11",
+  "resultsGameScores": "11-7,11-7,9-11,9-11,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134625",
+    "serverReceiver": "131723",
+    "serverNext": "134625",
+    "serverCompetitor": "134625",
+    "receiverNext": "131723"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:38",
+    "startDateLocal": "08/31/2023 17:40:00",
+    "startDateUTC": "08/31/2023 14:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "270"
+}

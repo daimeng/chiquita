@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEWSINGLES-----------R32-000600----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "108526",
+      "competitiorName": "SHAHSAVARI Neda",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "108526",
+          "playerName": "SHAHSAVARI Neda",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,6,12,8,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134011",
+      "competitiorName": "ZAHARIA Elena",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134011",
+          "playerName": "ZAHARIA Elena",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,10,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "10-12,6-11,12-10,8-11,0-0",
+  "resultsGameScores": "10-12,6-11,12-10,8-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134011",
+    "serverReceiver": "108526",
+    "serverNext": "134011",
+    "serverCompetitor": "134011",
+    "receiverNext": "108526"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:04:29",
+    "startDateLocal": "01/24/2023 17:05:00",
+    "startDateUTC": "01/24/2023 14:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "222"
+}

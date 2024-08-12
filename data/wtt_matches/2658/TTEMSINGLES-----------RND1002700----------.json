@@ -1,0 +1,91 @@
+{
+  "eventId": "2658",
+  "documentCode": "TTEMSINGLES-----------RND1002700----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 27",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120074",
+      "competitiorName": "MLADENOVIC Luka",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120074",
+          "playerName": "MLADENOVIC Luka",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,11,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "120281",
+      "competitiorName": "KOLDAS Tomas",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120281",
+          "playerName": "KOLDAS Tomas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,8,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,5-11,11-8,12-10,0-0",
+  "resultsGameScores": "11-4,5-11,11-8,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120281",
+    "serverReceiver": "120074",
+    "serverNext": "120281",
+    "serverCompetitor": "120281",
+    "receiverNext": "120074"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:04",
+    "startDateLocal": "11/22/2022 11:55:00",
+    "startDateUTC": "11/22/2022 10:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "200"
+}

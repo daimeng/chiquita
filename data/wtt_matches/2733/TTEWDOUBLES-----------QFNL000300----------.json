@@ -1,0 +1,107 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEWDOUBLES-----------QFNL000300----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100118295",
+      "competitiorName": "WU Yangchen/SHI Xunyao",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136101",
+          "playerName": "WU Yangchen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123120",
+          "playerName": "SHI Xunyao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,7,4,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100118294",
+      "competitiorName": "LIU Weishan/LI Yake",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133894",
+          "playerName": "LIU Weishan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136613",
+          "playerName": "LI Yake",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "8-11,7-11,4-11,0-0,0-0",
+  "resultsGameScores": "8-11,7-11,4-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136101",
+    "serverReceiver": "136613",
+    "serverNext": "136101",
+    "serverCompetitor": "100118295",
+    "receiverNext": "136613"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:53",
+    "startDateLocal": "11/03/2023 17:00:00",
+    "startDateUTC": "11/03/2023 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "148"
+}

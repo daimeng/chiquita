@@ -1,0 +1,91 @@
+{
+  "eventId": "2705",
+  "documentCode": "TTEMSINGLES-----------R32-001300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 13",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "S?wag Energie Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "119588",
+      "competitiorName": "LIANG Jingkun",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119588",
+          "playerName": "LIANG Jingkun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,11,11,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132992",
+      "competitiorName": "LEBRUN Alexis",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132992",
+          "playerName": "LEBRUN Alexis",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,9,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,11-7,11-9,12-10,0-0",
+  "resultsGameScores": "8-11,11-7,11-9,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119588",
+    "serverReceiver": "132992",
+    "serverNext": "119588",
+    "serverCompetitor": "119588",
+    "receiverNext": "132992"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:51",
+    "startDateLocal": "10/29/2023 18:35:00",
+    "startDateUTC": "10/29/2023 17:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "216"
+}

@@ -1,0 +1,107 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEWDOUBLES-----------SFNL000200----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100107657",
+      "competitiorName": "CHOI Hyojoo/KIM Nayeong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131401",
+          "playerName": "CHOI Hyojoo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133814",
+          "playerName": "KIM Nayeong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,11,14,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36177",
+      "competitiorName": "KIHARA Miyuu/NAGASAKI Miyu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131036",
+          "playerName": "KIHARA Miyuu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "124591",
+          "playerName": "NAGASAKI Miyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,13,12,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,4-11,11-13,14-12,12-10",
+  "resultsGameScores": "11-6,4-11,11-13,14-12,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133814",
+    "serverReceiver": "124591",
+    "serverNext": "133814",
+    "serverCompetitor": "100107657",
+    "receiverNext": "124591"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:53:10",
+    "startDateLocal": "08/05/2023 15:10:00",
+    "startDateUTC": "08/05/2023 20:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "290"
+}

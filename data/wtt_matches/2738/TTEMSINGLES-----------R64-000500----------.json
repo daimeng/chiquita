@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------R64-000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "105679",
+      "competitiorName": "MADRID Marcos",
+      "competitiorOrg": "MEX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105679",
+          "playerName": "MADRID Marcos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MEX",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,14,10,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123386",
+      "competitiorName": "CHANDRA Jeet",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123386",
+          "playerName": "CHANDRA Jeet",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,12,12,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,8-11,14-12,10-12,7-11",
+  "resultsGameScores": "11-5,8-11,14-12,10-12,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123386",
+    "serverReceiver": "105679",
+    "serverNext": "123386",
+    "serverCompetitor": "123386",
+    "receiverNext": "105679"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:39",
+    "startDateLocal": "10/04/2023 12:20:00",
+    "startDateUTC": "10/04/2023 10:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "300"
+}

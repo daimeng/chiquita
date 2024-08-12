@@ -1,0 +1,91 @@
+{
+  "eventId": "2734",
+  "documentCode": "TTEMSINGLES-----------R64-001100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Aspire Ladies Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "132312",
+      "competitiorName": "PAU Yik Man",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132312",
+          "playerName": "PAU Yik Man",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,3,10,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135394",
+      "competitiorName": "ISTRATE Andrei",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135394",
+          "playerName": "ISTRATE Andrei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,12,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "8-11,3-11,10-12,0-0,0-0",
+  "resultsGameScores": "8-11,3-11,10-12,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135394",
+    "serverReceiver": "132312",
+    "serverNext": "135394",
+    "serverCompetitor": "135394",
+    "receiverNext": "132312"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:43",
+    "startDateLocal": "10/17/2023 12:55:00",
+    "startDateUTC": "10/17/2023 10:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "145"
+}

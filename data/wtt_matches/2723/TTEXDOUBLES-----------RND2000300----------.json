@@ -1,0 +1,107 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEXDOUBLES-----------RND2000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100111887",
+      "competitiorName": "VILARDELL Albert/RAD Elvira Fiona",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131723",
+          "playerName": "VILARDELL Albert",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136180",
+          "playerName": "RAD Elvira Fiona",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,7,11,2",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100112487",
+      "competitiorName": "PARK Gyeongtae/LEE Daeun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123976",
+          "playerName": "PARK Gyeongtae",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135391",
+          "playerName": "LEE Daeun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,7,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-7,7-11,11-7,2-11",
+  "resultsGameScores": "7-11,11-7,7-11,11-7,2-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123976",
+    "serverReceiver": "136180",
+    "serverNext": "123976",
+    "serverCompetitor": "100112487",
+    "receiverNext": "136180"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "08/30/2023 11:45:00",
+    "startDateUTC": "08/30/2023 08:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "234"
+}

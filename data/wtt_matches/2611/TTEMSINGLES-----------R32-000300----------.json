@@ -1,0 +1,91 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEMSINGLES-----------R32-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100486",
+      "competitiorName": "ALTO Gaston",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100486",
+          "playerName": "ALTO Gaston",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,5,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111683",
+      "competitiorName": "GOMEZ Gustavo",
+      "competitiorOrg": "CHI",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111683",
+          "playerName": "GOMEZ Gustavo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,11,6,7,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 6,
+  "full_msg": null,
+  "gameScores": "11-4,8-11,5-11,11-6,11-7,11-5,0-0",
+  "resultsGameScores": "11-4,8-11,5-11,11-6,11-7,11-5,0-0",
+  "overallScores": "4-2",
+  "resultOverallScores": "4-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100486",
+    "serverReceiver": "111683",
+    "serverNext": "100486",
+    "serverCompetitor": "100486",
+    "receiverNext": "111683"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:52:59",
+    "startDateLocal": "11/04/2022 11:30:00",
+    "startDateUTC": "11/04/2022 14:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "288"
+}

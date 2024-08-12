@@ -1,0 +1,91 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEMSINGLES-----------R32-001500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 15",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131484",
+      "competitiorName": "HODAEI Amir Hossein",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131484",
+          "playerName": "HODAEI Amir Hossein",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,6,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133652",
+      "competitiorName": "DORR Esteban",
+      "competitiorOrg": "FRA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133652",
+          "playerName": "DORR Esteban",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,5,4",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-7,6-11,11-5,11-4",
+  "resultsGameScores": "5-11,11-7,6-11,11-5,11-4",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133652",
+    "serverReceiver": "131484",
+    "serverNext": "133652",
+    "serverCompetitor": "133652",
+    "receiverNext": "131484"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:18:57",
+    "startDateLocal": "02/02/2023 14:00:00",
+    "startDateUTC": "02/02/2023 11:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "246"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2775",
+  "documentCode": "TTEWSINGLES-----------RND1000500----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Qualifying Round 1 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sultan Qaboos Sport Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123550",
+      "competitiorName": "LUTZ Camille",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123550",
+          "playerName": "LUTZ Camille",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "124584",
+      "competitiorName": "HUANG Yu-Jie",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124584",
+          "playerName": "HUANG Yu-Jie",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,7,11,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-9,11-7,6-11,11-5",
+  "resultsGameScores": "9-11,11-9,11-7,6-11,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "124584",
+    "serverReceiver": "123550",
+    "serverNext": "124584",
+    "serverCompetitor": "124584",
+    "receiverNext": "123550"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "10/09/2023 10:00:00",
+    "startDateUTC": "10/09/2023 06:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "253"
+}

@@ -1,0 +1,88 @@
+{
+  "eventId": "2234",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinals - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "111115",
+      "competitiorName": "AGUIRRE Marcelo",
+      "competitiorOrg": "PAR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111115",
+          "playerName": "AGUIRRE Marcelo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,3,11,9,8,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114247",
+      "competitiorName": "WANG Eugene",
+      "competitiorOrg": "CAN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114247",
+          "playerName": "WANG Eugene",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,8,11,11,0,0"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,3-11,11-8,9-11,8-11,0-0,0-0",
+  "resultsGameScores": "5-11,3-11,11-8,9-11,8-11,0-0,0-0",
+  "overallScores": "1-4",
+  "resultOverallScores": "1-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "",
+    "serverReceiver": "",
+    "serverNext": "",
+    "serverCompetitor": "",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:37:15",
+    "startDateLocal": "11/15/2021 17:30:19",
+    "startDateUTC": "11/15/2021 22:30:19"
+  },
+  "teamParentData": null
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2694",
+  "documentCode": "TTEMSINGLES-----------R64-001100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 48 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123300",
+      "competitiorName": "ROLLAND Jules",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123300",
+          "playerName": "ROLLAND Jules",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "118851",
+      "competitiorName": "KOZUL Deni",
+      "competitiorOrg": "SLO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118851",
+          "playerName": "KOZUL Deni",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,5,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "12-10,11-5,11-7,0-0,0-0",
+  "resultsGameScores": "12-10,11-5,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "118851",
+    "serverReceiver": "123300",
+    "serverNext": "118851",
+    "serverCompetitor": "118851",
+    "receiverNext": "123300"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:22:23",
+    "startDateLocal": "07/05/2023 15:55:00",
+    "startDateUTC": "07/05/2023 13:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "169"
+}

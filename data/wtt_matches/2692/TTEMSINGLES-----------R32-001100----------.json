@@ -1,0 +1,91 @@
+{
+  "eventId": "2692",
+  "documentCode": "TTEMSINGLES-----------R32-001100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Dom Sportova",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "109946",
+      "competitiorName": "WALTHER Ricardo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "109946",
+          "playerName": "WALTHER Ricardo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,5,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115546",
+      "competitiorName": "LAM Siu Hang",
+      "competitiorOrg": "HKG",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115546",
+          "playerName": "LAM Siu Hang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "15,11,9,7,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "13-15,5-11,11-9,11-7,11-8",
+  "resultsGameScores": "13-15,5-11,11-9,11-7,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "109946",
+    "serverReceiver": "115546",
+    "serverNext": "109946",
+    "serverCompetitor": "109946",
+    "receiverNext": "115546"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:52:00",
+    "startDateLocal": "06/29/2023 14:00:00",
+    "startDateUTC": "06/29/2023 12:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "304"
+}

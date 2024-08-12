@@ -1,0 +1,91 @@
+{
+  "eventId": "2692",
+  "documentCode": "TTEMSINGLES-----------RND2003000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 30",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Dom Sportova",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123829",
+      "competitiorName": "LILLO Alberto",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123829",
+          "playerName": "LILLO Alberto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,10,7,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123971",
+      "competitiorName": "CHO Daeseong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123971",
+          "playerName": "CHO Daeseong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "6-11,10-12,7-11,0-0,0-0",
+  "resultsGameScores": "6-11,10-12,7-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123971",
+    "serverReceiver": "123829",
+    "serverNext": "123971",
+    "serverCompetitor": "123971",
+    "receiverNext": "123829"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:42",
+    "startDateLocal": "06/27/2023 13:35:00",
+    "startDateUTC": "06/27/2023 11:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "161"
+}

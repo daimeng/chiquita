@@ -1,0 +1,107 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEWDOUBLES-----------SFNL000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100106939",
+      "competitiorName": "HAN Feier/CHEN Yi",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133529",
+          "playerName": "HAN Feier",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132132",
+          "playerName": "CHEN Yi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,6,10,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100106940",
+      "competitiorName": "YANG Huijing/SHI Xunyao",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137734",
+          "playerName": "YANG Huijing",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123120",
+          "playerName": "SHI Xunyao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,12,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "10-12,6-11,10-12,0-0,0-0",
+  "resultsGameScores": "10-12,6-11,10-12,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137734",
+    "serverReceiver": "133529",
+    "serverNext": "137734",
+    "serverCompetitor": "100106940",
+    "receiverNext": "133529"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:26:10",
+    "startDateLocal": "07/29/2023 17:00:00",
+    "startDateUTC": "07/29/2023 15:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "164"
+}

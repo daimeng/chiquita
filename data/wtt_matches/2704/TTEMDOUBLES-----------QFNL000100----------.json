@@ -1,0 +1,107 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36005",
+      "competitiorName": "ALLEGRO Martin/LAMBIET Florent",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114848",
+          "playerName": "ALLEGRO Martin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114709",
+          "playerName": "LAMBIET Florent",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,5,6,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "48567",
+      "competitiorName": "PANG Yew En Koen/QUEK Izaac",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131912",
+          "playerName": "PANG Yew En Koen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133713",
+          "playerName": "QUEK Izaac",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,9-11,5-11,6-11,0-0",
+  "resultsGameScores": "11-8,9-11,5-11,6-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131912",
+    "serverReceiver": "114709",
+    "serverNext": "131912",
+    "serverCompetitor": "48567",
+    "receiverNext": "114709"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:45",
+    "startDateLocal": "03/30/2023 16:00:00",
+    "startDateUTC": "03/30/2023 13:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "208"
+}

@@ -1,0 +1,88 @@
+{
+  "eventId": "2411",
+  "documentCode": "TTEWSINGLES-----------R32-001000--",
+  "subEventName": "Women Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123113",
+      "competitiorName": "KIM Hayeong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123113",
+          "playerName": "KIM Hayeong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,7,11,13,11"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "113701",
+      "competitiorName": "EERLAND Britt",
+      "competitiorOrg": "NED",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113701",
+          "playerName": "EERLAND Britt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NED",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,11,4"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "4-11,7-11,11-9,13-11,11-4",
+  "resultsGameScores": "4-11,7-11,11-9,13-11,11-4",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "PT",
+    "serverPlayer": "113701",
+    "serverReceiver": "123113",
+    "serverNext": null,
+    "serverCompetitor": "113701",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:56:09",
+    "startDateLocal": "03/09/2021 11:15:00",
+    "startDateUTC": "03/09/2021 11:15:00"
+  },
+  "teamParentData": null
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------RND3000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121693",
+      "competitiorName": "SGOUROPOULOS Ioannis",
+      "competitiorOrg": "GRE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121693",
+          "playerName": "SGOUROPOULOS Ioannis",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GRE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131466",
+      "competitiorName": "LINDSO Daniel",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131466",
+          "playerName": "LINDSO Daniel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,3,6,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-4,11-3,11-6,0-0,0-0",
+  "resultsGameScores": "11-4,11-3,11-6,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131466",
+    "serverReceiver": "121693",
+    "serverNext": "131466",
+    "serverCompetitor": "131466",
+    "receiverNext": "121693"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:15:28",
+    "startDateLocal": "10/03/2023 17:10:00",
+    "startDateUTC": "10/03/2023 15:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "124"
+}

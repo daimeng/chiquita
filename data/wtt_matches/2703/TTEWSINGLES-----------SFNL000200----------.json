@@ -1,0 +1,91 @@
+{
+  "eventId": "2703",
+  "documentCode": "TTEWSINGLES-----------SFNL000200----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136101",
+      "competitiorName": "WU Yangchen",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136101",
+          "playerName": "WU Yangchen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,9,11,5,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "144628",
+      "competitiorName": "QIN Yuxuan",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "144628",
+          "playerName": "QIN Yuxuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "14,11,8,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "12-14,9-11,11-8,5-11,0-0",
+  "resultsGameScores": "12-14,9-11,11-8,5-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136101",
+    "serverReceiver": "144628",
+    "serverNext": "136101",
+    "serverCompetitor": "136101",
+    "receiverNext": "144628"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:51",
+    "startDateLocal": "02/24/2023 10:00:00",
+    "startDateUTC": "02/24/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "229"
+}

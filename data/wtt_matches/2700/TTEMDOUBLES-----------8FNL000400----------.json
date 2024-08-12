@@ -1,0 +1,107 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEMDOUBLES-----------8FNL000400----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "44384",
+      "competitiorName": "CHANDRA Jeet/SURAVAJJULA Snehit",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123386",
+          "playerName": "CHANDRA Jeet",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123680",
+          "playerName": "SURAVAJJULA Snehit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,10,11,4",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36094",
+      "competitiorName": "KWAN Man Ho/LI Hon Ming",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115545",
+          "playerName": "KWAN Man Ho",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115548",
+          "playerName": "LI Hon Ming",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,12,5,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,4-11,10-12,11-5,4-11",
+  "resultsGameScores": "11-6,4-11,10-12,11-5,4-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115545",
+    "serverReceiver": "123386",
+    "serverNext": "115545",
+    "serverCompetitor": "36094",
+    "receiverNext": "123386"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:08",
+    "startDateLocal": "02/01/2023 15:00:00",
+    "startDateUTC": "02/01/2023 12:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "232"
+}

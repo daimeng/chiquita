@@ -1,0 +1,107 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEWDOUBLES-----------SFNL000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100113313",
+      "competitiorName": "LABOSOVA Ema/BALAZOVA Barbora",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121890",
+          "playerName": "LABOSOVA Ema",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "100868",
+          "playerName": "BALAZOVA Barbora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,8,6,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36574",
+      "competitiorName": "WEGRZYN Anna/WEGRZYN Katarzyna",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121040",
+          "playerName": "WEGRZYN Anna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121041",
+          "playerName": "WEGRZYN Katarzyna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "14,4,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "12-14,11-4,8-11,6-11,0-0",
+  "resultsGameScores": "12-14,11-4,8-11,6-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121041",
+    "serverReceiver": "121890",
+    "serverNext": "121041",
+    "serverCompetitor": "36574",
+    "receiverNext": "121890"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:02",
+    "startDateLocal": "09/02/2023 11:00:00",
+    "startDateUTC": "09/02/2023 08:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "233"
+}

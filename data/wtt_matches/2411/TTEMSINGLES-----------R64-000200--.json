@@ -1,0 +1,88 @@
+{
+  "eventId": "2411",
+  "documentCode": "TTEMSINGLES-----------R64-000200--",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "103126",
+      "competitiorName": "GNANASEKARAN Sathiyan",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103126",
+          "playerName": "GNANASEKARAN Sathiyan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,7,11,11,10"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "105136",
+      "competitiorName": "LEBESSON Emmanuel",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105136",
+          "playerName": "LEBESSON Emmanuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,7,4,4"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,7-11,11-7,11-4,10-4",
+  "resultsGameScores": "9-11,7-11,11-7,11-4,11-4",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "MPOINT",
+    "serverPlayer": "103126",
+    "serverReceiver": "105136",
+    "serverNext": null,
+    "serverCompetitor": "103126",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:53",
+    "startDateLocal": "03/08/2021 07:15:00",
+    "startDateUTC": "03/08/2021 07:15:00"
+  },
+  "teamParentData": null
+}

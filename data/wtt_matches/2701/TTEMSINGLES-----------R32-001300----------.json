@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------R32-001300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 13",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133848",
+      "competitiorName": "YUAN Licen",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133848",
+          "playerName": "YUAN Licen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,11,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "137733",
+      "competitiorName": "SUN Wen",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137733",
+          "playerName": "SUN Wen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,5,8,11,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-5,11-8,6-11,11-6",
+  "resultsGameScores": "7-11,11-5,11-8,6-11,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137733",
+    "serverReceiver": "133848",
+    "serverNext": "137733",
+    "serverCompetitor": "137733",
+    "receiverNext": "133848"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:01:34",
+    "startDateLocal": "01/24/2023 19:25:00",
+    "startDateUTC": "01/24/2023 16:25:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "244"
+}

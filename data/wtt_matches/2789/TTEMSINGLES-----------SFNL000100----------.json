@@ -1,0 +1,91 @@
+{
+  "eventId": "2789",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Expocuba Pablell?n Salud #20",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115641",
+      "competitiorName": "CALDERANO Hugo",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115641",
+          "playerName": "CALDERANO Hugo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115000",
+      "competitiorName": "AFANADOR Brian",
+      "competitiorOrg": "PUR",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115000",
+          "playerName": "AFANADOR Brian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,7,8,13,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,11-7,11-8,11-13,11-7,0-0,0-0",
+  "resultsGameScores": "11-8,11-7,11-8,11-13,11-7,0-0,0-0",
+  "overallScores": "4-1",
+  "resultOverallScores": "4-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115641",
+    "serverReceiver": "115000",
+    "serverNext": "115641",
+    "serverCompetitor": "115641",
+    "receiverNext": "115000"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:44:49",
+    "startDateLocal": "09/13/2023 16:30:00",
+    "startDateUTC": "09/13/2023 20:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "275"
+}

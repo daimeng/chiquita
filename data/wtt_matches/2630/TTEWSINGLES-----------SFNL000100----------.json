@@ -1,0 +1,91 @@
+{
+  "eventId": "2630",
+  "documentCode": "TTEWSINGLES-----------SFNL000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Broward Table Tennis Club",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112221",
+      "competitiorName": "ZHANG Lily",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112221",
+          "playerName": "ZHANG Lily",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,12,10,10,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111072",
+      "competitiorName": "XIAO Maria",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111072",
+          "playerName": "XIAO Maria",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,7,10,12,12,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 6,
+  "full_msg": null,
+  "gameScores": "11-5,11-7,12-10,10-12,10-12,11-6,0-0",
+  "resultsGameScores": "11-5,11-7,12-10,10-12,10-12,11-6,0-0",
+  "overallScores": "4-2",
+  "resultOverallScores": "4-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112221",
+    "serverReceiver": "111072",
+    "serverNext": "112221",
+    "serverCompetitor": "112221",
+    "receiverNext": "111072"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:55:15",
+    "startDateLocal": "12/14/2022 14:00:00",
+    "startDateUTC": "12/14/2022 19:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "320"
+}

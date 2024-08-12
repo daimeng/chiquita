@@ -1,0 +1,91 @@
+{
+  "eventId": "2695",
+  "documentCode": "TTEMSINGLES-----------RND3000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "103903",
+      "competitiorName": "IONESCU Ovidiu",
+      "competitiorOrg": "ROU",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103903",
+          "playerName": "IONESCU Ovidiu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,7,10,11,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133713",
+      "competitiorName": "QUEK Izaac",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133713",
+          "playerName": "QUEK Izaac",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,12,5,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,7-11,10-12,11-5,7-11",
+  "resultsGameScores": "11-8,7-11,10-12,11-5,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133713",
+    "serverReceiver": "103903",
+    "serverNext": "133713",
+    "serverCompetitor": "133713",
+    "receiverNext": "103903"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:37",
+    "startDateLocal": "04/24/2023 18:50:00",
+    "startDateUTC": "04/24/2023 11:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "256"
+}

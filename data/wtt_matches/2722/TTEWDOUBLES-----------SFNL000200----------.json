@@ -1,0 +1,107 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEWDOUBLES-----------SFNL000200----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36050",
+      "competitiorName": "BERGSTROM Linda/KALLBERG Christina",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114905",
+          "playerName": "BERGSTROM Linda",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118507",
+          "playerName": "KALLBERG Christina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,6,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100107657",
+      "competitiorName": "CHOI Hyojoo/KIM Nayeong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131401",
+          "playerName": "CHOI Hyojoo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133814",
+          "playerName": "KIM Nayeong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "4-11,11-13,6-11,0-0,0-0",
+  "resultsGameScores": "4-11,11-13,6-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133814",
+    "serverReceiver": "118507",
+    "serverNext": "133814",
+    "serverCompetitor": "100107657",
+    "receiverNext": "118507"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:02",
+    "startDateLocal": "08/12/2023 15:10:00",
+    "startDateUTC": "08/12/2023 18:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "157"
+}

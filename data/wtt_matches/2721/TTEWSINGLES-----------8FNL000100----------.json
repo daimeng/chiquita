@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEWSINGLES-----------8FNL000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 16 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117821",
+      "competitiorName": "ITO Mima",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117821",
+          "playerName": "ITO Mima",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "15,6,12,8,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119285",
+      "competitiorName": "LEE Zion",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119285",
+          "playerName": "LEE Zion",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,11,10,11,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "15-13,6-11,12-10,8-11,11-5",
+  "resultsGameScores": "15-13,6-11,12-10,8-11,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117821",
+    "serverReceiver": "119285",
+    "serverNext": "117821",
+    "serverCompetitor": "117821",
+    "receiverNext": "119285"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:49",
+    "startDateLocal": "08/04/2023 15:40:00",
+    "startDateUTC": "08/04/2023 20:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "293"
+}

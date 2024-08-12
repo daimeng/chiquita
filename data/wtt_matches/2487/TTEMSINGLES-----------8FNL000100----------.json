@@ -1,0 +1,88 @@
+{
+  "eventId": "2487",
+  "documentCode": "TTEMSINGLES-----------8FNL000100----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Budapest Olympic Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112442",
+      "competitiorName": "PITCHFORD Liam",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112442",
+          "playerName": "PITCHFORD Liam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,11,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114973",
+      "competitiorName": "KHANIN Aleksandr",
+      "competitiorOrg": "BLR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114973",
+          "playerName": "KHANIN Aleksandr",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,7,11,4,0"
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,11-7,9-11,11-4,0-0",
+  "resultsGameScores": "11-9,11-7,9-11,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112442",
+    "serverReceiver": "114973",
+    "serverNext": "",
+    "serverCompetitor": "112442",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:18",
+    "startDateLocal": "08/18/2021 15:40:26",
+    "startDateUTC": "08/18/2021 13:40:26"
+  },
+  "teamParentData": null
+}

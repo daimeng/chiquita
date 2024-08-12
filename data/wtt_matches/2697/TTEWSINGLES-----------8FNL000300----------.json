@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEWSINGLES-----------8FNL000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "107477",
+      "competitiorName": "POLCANOVA Sofia",
+      "competitiorOrg": "AUT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107477",
+          "playerName": "POLCANOVA Sofia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,8,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133529",
+      "competitiorName": "HAN Feier",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133529",
+          "playerName": "HAN Feier",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,6,11,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-2,11-6,8-11,11-9,0-0",
+  "resultsGameScores": "11-2,11-6,8-11,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133529",
+    "serverReceiver": "107477",
+    "serverNext": "133529",
+    "serverCompetitor": "133529",
+    "receiverNext": "107477"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:29",
+    "startDateLocal": "02/10/2023 13:00:00",
+    "startDateUTC": "02/10/2023 10:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "185"
+}

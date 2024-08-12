@@ -1,0 +1,2966 @@
+{
+  "eventId": "2234",
+  "documentCode": "TTEMTEAM--------------GP0300010000--------",
+  "subEventName": "Men's Teams",
+  "subEventDescription": "Men's Teams - Group 3 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "46157",
+      "competitiorName": "Federaci\u00f3n Argentina de Tenis de Mesa 3",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "46157",
+          "playerName": "Federaci\u00f3n Argentina de Tenis de Mesa 3",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "1,1,2,3,3"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "46161",
+      "competitiorName": "Federaci\u00f3n Ecuatoriana de Tenis de Mesa 7",
+      "competitiorOrg": "ECU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "46161",
+          "playerName": "Federaci\u00f3n Ecuatoriana de Tenis de Mesa 7",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "0,1,1,1,1"
+    }
+  ],
+  "currentGameNumber": 1,
+  "full_msg": null,
+  "gameScores": "1-0,1-1,2-1,3-1,3-1",
+  "resultsGameScores": "1-0,1-1,2-1,3-1,3-1",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "46161",
+    "serverReceiver": "46157",
+    "serverNext": "46161",
+    "serverCompetitor": "",
+    "receiverNext": "46161"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "02:30:00",
+    "startDateLocal": "11/16/2021 02:00:00",
+    "startDateUTC": "11/16/2021 07:00:00"
+  },
+  "teamParentData": {
+    "team_code": "TTEMTEAM--------------GP0300010000--------",
+    "extended_info": {
+      "final_result": [
+        {
+          "extension": null,
+          "type": "UI",
+          "code": "FINAL_RESULT",
+          "pos": null,
+          "value": "3-1"
+        }
+      ],
+      "matches": [
+        {
+          "value": "TTEMTEAM--------------GP0300010001--------",
+          "match_result": {
+            "eventId": "2234",
+            "documentCode": "TTEMTEAM--------------GP0300010001--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 3 - Match 1 M1",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Villa Deportiva Nacional (VIDENA)",
+            "tableNumber": "T01",
+            "tableName": "Table 1",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "119316",
+                "competitiorName": "CIFUENTES Horacio",
+                "competitiorOrg": "ARG",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "1",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "119316",
+                    "playerName": "CIFUENTES Horacio",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "11,11,11,0,0"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "120896",
+                "competitiorName": "RIOFRIO Emiliano",
+                "competitiorOrg": "ECU",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "120896",
+                    "playerName": "RIOFRIO Emiliano",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "7,5,6,0,0"
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "11-7,11-5,11-6,0-0,0-0",
+            "resultsGameScores": "11-7,11-5,11-6,0-0,0-0",
+            "overallScores": "3-0",
+            "resultOverallScores": "3-0",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:19:51",
+              "startDateLocal": "11/16/2021 12:04:16",
+              "startDateUTC": "11/16/2021 17:04:16"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0300010000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "3-0"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "46157",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "ARG",
+                      "description": {
+                        "type": "T",
+                        "organization": "ARG",
+                        "teamName": "Federaci\u00f3n Argentina de Tenis de Mesa 3"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "2"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "29"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "33"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "5"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "-"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "20"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "13"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "7"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "11"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Horacio",
+                                "familyName": "CIFUENTES",
+                                "gender": "M",
+                                "organization": "ARG",
+                                "birthDate": "1998-03-16",
+                                "ifId": "119316",
+                                "class": null,
+                                "seed": 2
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "119316",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "46161",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "ECU",
+                      "description": {
+                        "type": "T",
+                        "organization": "ECU",
+                        "teamName": "Federaci\u00f3n Ecuatoriana de Tenis de Mesa 7"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "6"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "52"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "18"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "5"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "11"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "7"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "13"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "20"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Emiliano",
+                                "familyName": "RIOFRIO",
+                                "gender": "M",
+                                "organization": "ECU",
+                                "birthDate": "1998-07-02",
+                                "ifId": "120896",
+                                "class": null,
+                                "seed": 6
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "120896",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 3 - Match 1 M1",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Villa Deportiva Nacional (VIDENA)",
+                "tableNumber": "T01",
+                "tableName": "Table 1",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "46157",
+                    "competitiorName": "Horacio CIFUENTES",
+                    "competitiorOrg": "ARG",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "119316",
+                        "playerName": "Horacio CIFUENTES",
+                        "playerGivenName": "Horacio",
+                        "playerFamilyName": "CIFUENTES",
+                        "playerOrgCode": "ARG",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "46161",
+                    "competitiorName": "Emiliano RIOFRIO",
+                    "competitiorOrg": "ECU",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "120896",
+                        "playerName": "Emiliano RIOFRIO",
+                        "playerGivenName": "Emiliano",
+                        "playerFamilyName": "RIOFRIO",
+                        "playerOrgCode": "ECU",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": null,
+                "overallScores": "3-0",
+                "resultOverallScores": "3-0",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:19:51",
+                  "startDateLocal": "11/16/2021 12:04:16",
+                  "startDateUTC": "11/16/2021 17:04:16"
+                },
+                "teamParentData": null
+              }
+            }
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------GP0300010002--------",
+          "match_result": {
+            "eventId": "2234",
+            "documentCode": "TTEMTEAM--------------GP0300010002--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 3 - Match 1 M2",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Villa Deportiva Nacional (VIDENA)",
+            "tableNumber": "T01",
+            "tableName": "Table 1",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "100486",
+                "competitiorName": "ALTO Gaston",
+                "competitiorOrg": "ARG",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "100486",
+                    "playerName": "ALTO Gaston",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "10,14,8,8,0"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "106151",
+                "competitiorName": "MINO Alberto",
+                "competitiorOrg": "ECU",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "1",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "106151",
+                    "playerName": "MINO Alberto",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "12,12,11,11,0"
+              }
+            ],
+            "currentGameNumber": 4,
+            "full_msg": null,
+            "gameScores": "10-12,14-12,8-11,8-11,0-0",
+            "resultsGameScores": "10-12,14-12,8-11,8-11,0-0",
+            "overallScores": "1-3",
+            "resultOverallScores": "1-3",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:43:39",
+              "startDateLocal": "11/16/2021 12:26:21",
+              "startDateUTC": "11/16/2021 17:26:21"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0300010000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "1-3"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "46157",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "ARG",
+                      "description": {
+                        "type": "T",
+                        "organization": "ARG",
+                        "teamName": "Federaci\u00f3n Argentina de Tenis de Mesa 3"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "2"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "29"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "40"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "3"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "22"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "18"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "24"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "22"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "3"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Gaston",
+                                "familyName": "ALTO",
+                                "gender": "M",
+                                "organization": "ARG",
+                                "birthDate": "1985-07-06",
+                                "ifId": "100486",
+                                "class": null,
+                                "seed": 2
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "100486",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "46161",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "ECU",
+                      "description": {
+                        "type": "T",
+                        "organization": "ECU",
+                        "teamName": "Federaci\u00f3n Ecuatoriana de Tenis de Mesa 7"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "6"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "52"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "46"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "3"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "22"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "24"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "18"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "22"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "5"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "2"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Alberto",
+                                "familyName": "MINO",
+                                "gender": "M",
+                                "organization": "ECU",
+                                "birthDate": "1990-08-21",
+                                "ifId": "106151",
+                                "class": null,
+                                "seed": 6
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "106151",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 3 - Match 1 M2",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Villa Deportiva Nacional (VIDENA)",
+                "tableNumber": "T01",
+                "tableName": "Table 1",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "46157",
+                    "competitiorName": "Gaston ALTO",
+                    "competitiorOrg": "ARG",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "100486",
+                        "playerName": "Gaston ALTO",
+                        "playerGivenName": "Gaston",
+                        "playerFamilyName": "ALTO",
+                        "playerOrgCode": "ARG",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "46161",
+                    "competitiorName": "Alberto MINO",
+                    "competitiorOrg": "ECU",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "106151",
+                        "playerName": "Alberto MINO",
+                        "playerGivenName": "Alberto",
+                        "playerFamilyName": "MINO",
+                        "playerOrgCode": "ECU",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": null,
+                "overallScores": "1-3",
+                "resultOverallScores": "1-3",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:43:39",
+                  "startDateLocal": "11/16/2021 12:26:21",
+                  "startDateUTC": "11/16/2021 17:26:21"
+                },
+                "teamParentData": null
+              }
+            }
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------GP0300010003--------",
+          "match_result": {
+            "eventId": "2234",
+            "documentCode": "TTEMTEAM--------------GP0300010003--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 3 - Match 1 M3",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Villa Deportiva Nacional (VIDENA)",
+            "tableNumber": "T01",
+            "tableName": "Table 1",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "132793",
+                "competitiorName": "LORENZO Santiago",
+                "competitiorOrg": "ARG",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "132793",
+                    "playerName": "LORENZO Santiago",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "7,11,11,9,11"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "113536",
+                "competitiorName": "TAPIA Rodrigo",
+                "competitiorOrg": "ECU",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "1",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "113536",
+                    "playerName": "TAPIA Rodrigo",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "11,2,8,11,7"
+              }
+            ],
+            "currentGameNumber": 5,
+            "full_msg": null,
+            "gameScores": "7-11,11-2,11-8,9-11,11-7",
+            "resultsGameScores": "7-11,11-2,11-8,9-11,11-7",
+            "overallScores": "3-2",
+            "resultOverallScores": "3-2",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:42:19",
+              "startDateLocal": "11/16/2021 13:13:25",
+              "startDateUTC": "11/16/2021 18:13:25"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0300010000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "3-2"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "46157",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "ARG",
+                      "description": {
+                        "type": "T",
+                        "organization": "ARG",
+                        "teamName": "Federaci\u00f3n Argentina de Tenis de Mesa 3"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "2"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "29"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "49"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "30"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "19"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "16"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "23"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "5"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Santiago",
+                                "familyName": "LORENZO",
+                                "gender": "M",
+                                "organization": "ARG",
+                                "birthDate": "2001-09-21",
+                                "ifId": "132793",
+                                "class": null,
+                                "seed": 2
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "132793",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "46161",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "ECU",
+                      "description": {
+                        "type": "T",
+                        "organization": "ECU",
+                        "teamName": "Federaci\u00f3n Ecuatoriana de Tenis de Mesa 7"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "6"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "52"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "39"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "23"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "16"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "19"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "30"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "3"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Rodrigo",
+                                "familyName": "TAPIA",
+                                "gender": "M",
+                                "organization": "ECU",
+                                "birthDate": "1994-07-29",
+                                "ifId": "113536",
+                                "class": null,
+                                "seed": 6
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "113536",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 3 - Match 1 M3",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Villa Deportiva Nacional (VIDENA)",
+                "tableNumber": "T01",
+                "tableName": "Table 1",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "46157",
+                    "competitiorName": "Santiago LORENZO",
+                    "competitiorOrg": "ARG",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "132793",
+                        "playerName": "Santiago LORENZO",
+                        "playerGivenName": "Santiago",
+                        "playerFamilyName": "LORENZO",
+                        "playerOrgCode": "ARG",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "46161",
+                    "competitiorName": "Rodrigo TAPIA",
+                    "competitiorOrg": "ECU",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "113536",
+                        "playerName": "Rodrigo TAPIA",
+                        "playerGivenName": "Rodrigo",
+                        "playerFamilyName": "TAPIA",
+                        "playerOrgCode": "ECU",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": null,
+                "overallScores": "3-2",
+                "resultOverallScores": "3-2",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:42:19",
+                  "startDateLocal": "11/16/2021 13:13:25",
+                  "startDateUTC": "11/16/2021 18:13:25"
+                },
+                "teamParentData": null
+              }
+            }
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------GP0300010004--------",
+          "match_result": {
+            "eventId": "2234",
+            "documentCode": "TTEMTEAM--------------GP0300010004--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 3 - Match 1 M4",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Villa Deportiva Nacional (VIDENA)",
+            "tableNumber": "T01",
+            "tableName": "Table 1",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "119316",
+                "competitiorName": "CIFUENTES Horacio",
+                "competitiorOrg": "ARG",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "1",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "119316",
+                    "playerName": "CIFUENTES Horacio",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "11,12,12,0,0"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "106151",
+                "competitiorName": "MINO Alberto",
+                "competitiorOrg": "ECU",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "106151",
+                    "playerName": "MINO Alberto",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "9,10,10,0,0"
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "11-9,12-10,12-10,0-0,0-0",
+            "resultsGameScores": "11-9,12-10,12-10,0-0,0-0",
+            "overallScores": "3-0",
+            "resultOverallScores": "3-0",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:32:20",
+              "startDateLocal": "11/16/2021 14:01:34",
+              "startDateUTC": "11/16/2021 19:01:34"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0300010000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "3-0"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "46157",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "ARG",
+                      "description": {
+                        "type": "T",
+                        "organization": "ARG",
+                        "teamName": "Federaci\u00f3n Argentina de Tenis de Mesa 3"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "2"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "29"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "35"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "17"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "18"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "15"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "14"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Horacio",
+                                "familyName": "CIFUENTES",
+                                "gender": "M",
+                                "organization": "ARG",
+                                "birthDate": "1998-03-16",
+                                "ifId": "119316",
+                                "class": null,
+                                "seed": 2
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "2"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "119316",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "46161",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "ECU",
+                      "description": {
+                        "type": "T",
+                        "organization": "ECU",
+                        "teamName": "Federaci\u00f3n Ecuatoriana de Tenis de Mesa 7"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "6"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "52"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "29"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "14"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "15"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "18"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "17"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "3"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Alberto",
+                                "familyName": "MINO",
+                                "gender": "M",
+                                "organization": "ECU",
+                                "birthDate": "1990-08-21",
+                                "ifId": "106151",
+                                "class": null,
+                                "seed": 6
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "6"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "106151",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 3 - Match 1 M4",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Villa Deportiva Nacional (VIDENA)",
+                "tableNumber": "T01",
+                "tableName": "Table 1",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "46157",
+                    "competitiorName": "Horacio CIFUENTES",
+                    "competitiorOrg": "ARG",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "119316",
+                        "playerName": "Horacio CIFUENTES",
+                        "playerGivenName": "Horacio",
+                        "playerFamilyName": "CIFUENTES",
+                        "playerOrgCode": "ARG",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "46161",
+                    "competitiorName": "Alberto MINO",
+                    "competitiorOrg": "ECU",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "106151",
+                        "playerName": "Alberto MINO",
+                        "playerGivenName": "Alberto",
+                        "playerFamilyName": "MINO",
+                        "playerOrgCode": "ECU",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": null,
+                "overallScores": "3-0",
+                "resultOverallScores": "3-0",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:32:20",
+                  "startDateLocal": "11/16/2021 14:01:34",
+                  "startDateUTC": "11/16/2021 19:01:34"
+                },
+                "teamParentData": null
+              }
+            }
+          }
+        }
+      ],
+      "result_competitors": [
+        [
+          {
+            "code": "46157",
+            "type": "T",
+            "wlt": "W",
+            "roundforRankingCal": null,
+            "organization": "ARG",
+            "description": {
+              "type": "T",
+              "organization": "ARG",
+              "teamName": "Federaci\u00f3n Argentina de Tenis de Mesa 3"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "2"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "29"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "1"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Santiago",
+                      "familyName": "LORENZO",
+                      "gender": "M",
+                      "organization": "ARG",
+                      "birthDate": "2001-09-21",
+                      "ifId": "132793",
+                      "class": null,
+                      "seed": 2
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "2"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "132793",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Gaston",
+                      "familyName": "ALTO",
+                      "gender": "M",
+                      "organization": "ARG",
+                      "birthDate": "1985-07-06",
+                      "ifId": "100486",
+                      "class": null,
+                      "seed": 2
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "2"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "100486",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Horacio",
+                      "familyName": "CIFUENTES",
+                      "gender": "M",
+                      "organization": "ARG",
+                      "birthDate": "1998-03-16",
+                      "ifId": "119316",
+                      "class": null,
+                      "seed": 2
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "2"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "119316",
+                    "order": 3
+                  },
+                  {
+                    "description": {
+                      "givenName": "Francisco",
+                      "familyName": "SANCHI",
+                      "gender": "M",
+                      "organization": "ARG",
+                      "birthDate": "1999-02-07",
+                      "ifId": "117530",
+                      "class": null,
+                      "seed": 2
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "2"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "117530",
+                    "order": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "code": "46161",
+            "type": "T",
+            "wlt": "L",
+            "roundforRankingCal": null,
+            "organization": "ECU",
+            "description": {
+              "type": "T",
+              "organization": "ECU",
+              "teamName": "Federaci\u00f3n Ecuatoriana de Tenis de Mesa 7"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "6"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "52"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "1"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Alberto",
+                      "familyName": "MINO",
+                      "gender": "M",
+                      "organization": "ECU",
+                      "birthDate": "1990-08-21",
+                      "ifId": "106151",
+                      "class": null,
+                      "seed": 6
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "6"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "106151",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Diego",
+                      "familyName": "PIGUAVE",
+                      "gender": "M",
+                      "organization": "ECU",
+                      "birthDate": "2005-01-26",
+                      "ifId": "136416",
+                      "class": null,
+                      "seed": 6
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "6"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "136416",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Rodrigo",
+                      "familyName": "TAPIA",
+                      "gender": "M",
+                      "organization": "ECU",
+                      "birthDate": "1994-07-29",
+                      "ifId": "113536",
+                      "class": null,
+                      "seed": 6
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "6"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "113536",
+                    "order": 3
+                  },
+                  {
+                    "description": {
+                      "givenName": "Emiliano",
+                      "familyName": "RIOFRIO",
+                      "gender": "M",
+                      "organization": "ECU",
+                      "birthDate": "1998-07-02",
+                      "ifId": "120896",
+                      "class": null,
+                      "seed": 6
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "6"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "120896",
+                    "order": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "comp_data": {
+      "eventId": null,
+      "documentCode": null,
+      "subEventName": "Men's Teams",
+      "subEventDescription": "Men's Teams - Group 3 - Match 1",
+      "matchConfig": {
+        "bestOfXGames": 5,
+        "maxPointsPerGame": 11,
+        "advantagePerGame": 2,
+        "suddenDeathPoint": 99,
+        "maxChallengesPerCompetitor": 2,
+        "yellowCard": true,
+        "yellowRed1": true,
+        "yellowRed2": true,
+        "tTRReview": true
+      },
+      "venueName": "Villa Deportiva Nacional (VIDENA)",
+      "tableNumber": "T01",
+      "tableName": "Table 1",
+      "competitiors": [
+        {
+          "competitorType": "H",
+          "competitiorId": "46157",
+          "competitiorName": "Francisco SANCHI",
+          "competitiorOrg": "ARG",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "132793",
+              "playerName": "Santiago LORENZO",
+              "playerGivenName": "Santiago",
+              "playerFamilyName": "LORENZO",
+              "playerOrgCode": "ARG",
+              "playerPosition": null
+            },
+            {
+              "playerId": "100486",
+              "playerName": "Gaston ALTO",
+              "playerGivenName": "Gaston",
+              "playerFamilyName": "ALTO",
+              "playerOrgCode": "ARG",
+              "playerPosition": null
+            },
+            {
+              "playerId": "119316",
+              "playerName": "Horacio CIFUENTES",
+              "playerGivenName": "Horacio",
+              "playerFamilyName": "CIFUENTES",
+              "playerOrgCode": "ARG",
+              "playerPosition": null
+            },
+            {
+              "playerId": "117530",
+              "playerName": "Francisco SANCHI",
+              "playerGivenName": "Francisco",
+              "playerFamilyName": "SANCHI",
+              "playerOrgCode": "ARG",
+              "playerPosition": null
+            }
+          ],
+          "scores": null
+        },
+        {
+          "competitorType": "A",
+          "competitiorId": "46161",
+          "competitiorName": "Emiliano RIOFRIO",
+          "competitiorOrg": "ECU",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "106151",
+              "playerName": "Alberto MINO",
+              "playerGivenName": "Alberto",
+              "playerFamilyName": "MINO",
+              "playerOrgCode": "ECU",
+              "playerPosition": null
+            },
+            {
+              "playerId": "136416",
+              "playerName": "Diego PIGUAVE",
+              "playerGivenName": "Diego",
+              "playerFamilyName": "PIGUAVE",
+              "playerOrgCode": "ECU",
+              "playerPosition": null
+            },
+            {
+              "playerId": "113536",
+              "playerName": "Rodrigo TAPIA",
+              "playerGivenName": "Rodrigo",
+              "playerFamilyName": "TAPIA",
+              "playerOrgCode": "ECU",
+              "playerPosition": null
+            },
+            {
+              "playerId": "120896",
+              "playerName": "Emiliano RIOFRIO",
+              "playerGivenName": "Emiliano",
+              "playerFamilyName": "RIOFRIO",
+              "playerOrgCode": "ECU",
+              "playerPosition": null
+            }
+          ],
+          "scores": null
+        }
+      ],
+      "currentGameNumber": null,
+      "full_msg": null,
+      "gameScores": null,
+      "resultsGameScores": null,
+      "overallScores": "3-1",
+      "resultOverallScores": "3-1",
+      "resultStatus": "OFFICIAL",
+      "action": null,
+      "resultSet": null,
+      "matchDateTime": {
+        "duration": "02:30:00",
+        "startDateLocal": "11/16/2021 02:00:00",
+        "startDateUTC": "11/16/2021 07:00:00"
+      },
+      "teamParentData": null
+    }
+  }
+}

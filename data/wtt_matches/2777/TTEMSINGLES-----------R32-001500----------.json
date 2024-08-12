@@ -1,0 +1,91 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEMSINGLES-----------R32-001500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 15",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "101820",
+      "competitiorName": "CHUANG Chih-Yuan",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101820",
+          "playerName": "CHUANG Chih-Yuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,9,11,12,13",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121514",
+      "competitiorName": "AN Jaehyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121514",
+          "playerName": "AN Jaehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,10,15",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,9-11,11-9,12-10,13-15",
+  "resultsGameScores": "7-11,9-11,11-9,12-10,13-15",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121514",
+    "serverReceiver": "101820",
+    "serverNext": "121514",
+    "serverCompetitor": "121514",
+    "receiverNext": "101820"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:46",
+    "startDateLocal": "10/05/2023 19:20:00",
+    "startDateUTC": "10/05/2023 11:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "316"
+}

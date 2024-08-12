@@ -1,0 +1,107 @@
+{
+  "eventId": "2789",
+  "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Expocuba Pablell?n Salud #20",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37186",
+      "competitiorName": "ISHIY Vitor/TAKAHASHI Bruna",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117312",
+          "playerName": "ISHIY Vitor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121623",
+          "playerName": "TAKAHASHI Bruna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "41762",
+      "competitiorName": "CAMPOS Jorge/FONSECA CARRAZANA Daniela",
+      "competitiorOrg": "CUB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112121",
+          "playerName": "CAMPOS Jorge",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CUB",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "124042",
+          "playerName": "FONSECA CARRAZANA Daniela",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CUB",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,4,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-4,11-7,0-0,0-0",
+  "resultsGameScores": "11-5,11-4,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121623",
+    "serverReceiver": "112121",
+    "serverNext": "121623",
+    "serverCompetitor": "37186",
+    "receiverNext": "112121"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:15:13",
+    "startDateLocal": "09/12/2023 21:30:00",
+    "startDateUTC": "09/13/2023 01:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "139"
+}

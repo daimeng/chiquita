@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEMSINGLES-----------RND3000700----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 7",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "132793",
+      "competitiorName": "LORENZO Santiago",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132793",
+          "playerName": "LORENZO Santiago",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,10,4,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117312",
+      "competitiorName": "ISHIY Vitor",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117312",
+          "playerName": "ISHIY Vitor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,12,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-13,10-12,4-11,0-0,0-0",
+  "resultsGameScores": "11-13,10-12,4-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132793",
+    "serverReceiver": "117312",
+    "serverNext": "132793",
+    "serverCompetitor": "132793",
+    "receiverNext": "117312"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:22:46",
+    "startDateLocal": "08/02/2023 16:40:00",
+    "startDateUTC": "08/02/2023 21:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "176"
+}

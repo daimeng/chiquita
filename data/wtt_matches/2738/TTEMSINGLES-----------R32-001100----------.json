@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------R32-001100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115449",
+      "competitiorName": "LEVENKO Andreas",
+      "competitiorOrg": "AUT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115449",
+          "playerName": "LEVENKO Andreas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUT",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,8,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117003",
+      "competitiorName": "CASSIN Alexandre",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117003",
+          "playerName": "CASSIN Alexandre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,2,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "12-10,8-11,11-2,11-6,0-0",
+  "resultsGameScores": "12-10,8-11,11-2,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115449",
+    "serverReceiver": "117003",
+    "serverNext": "115449",
+    "serverCompetitor": "115449",
+    "receiverNext": "117003"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:41",
+    "startDateLocal": "10/05/2023 14:05:00",
+    "startDateUTC": "10/05/2023 12:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "201"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2775",
+  "documentCode": "TTEMSINGLES-----------RND2000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sultan Qaboos Sport Complex",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "113679",
+      "competitiorName": "BOULOUSSA Mehdi",
+      "competitiorOrg": "ALG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113679",
+          "playerName": "BOULOUSSA Mehdi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ALG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "2,13,7,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121690",
+      "competitiorName": "PICARD Vincent",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121690",
+          "playerName": "PICARD Vincent",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,15,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "2-11,13-15,7-11,0-0,0-0",
+  "resultsGameScores": "2-11,13-15,7-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121690",
+    "serverReceiver": "113679",
+    "serverNext": "121690",
+    "serverCompetitor": "121690",
+    "receiverNext": "113679"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "10/09/2023 16:00:00",
+    "startDateUTC": "10/09/2023 12:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "176"
+}

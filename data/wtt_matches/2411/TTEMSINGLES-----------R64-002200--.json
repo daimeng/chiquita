@@ -1,0 +1,88 @@
+{
+  "eventId": "2411",
+  "documentCode": "TTEMSINGLES-----------R64-002200--",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 22",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "113243",
+      "competitiorName": "SIRUCEK Pavel",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113243",
+          "playerName": "SIRUCEK Pavel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,8,11,12"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "101820",
+      "competitiorName": "CHUANG Chih-Yuan",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101820",
+          "playerName": "CHUANG Chih-Yuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,9,11"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-8,8-11,11-9,12-11",
+  "resultsGameScores": "9-11,11-8,8-11,11-9,13-11",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "MPOINT",
+    "serverPlayer": "101820",
+    "serverReceiver": "113243",
+    "serverNext": null,
+    "serverCompetitor": "101820",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:52:26",
+    "startDateLocal": "03/08/2021 08:35:00",
+    "startDateUTC": "03/08/2021 08:35:00"
+  },
+  "teamParentData": null
+}

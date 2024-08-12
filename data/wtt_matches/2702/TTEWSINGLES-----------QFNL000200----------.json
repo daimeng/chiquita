@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEWSINGLES-----------QFNL000200----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116152",
+      "competitiorName": "LAM Yee Lok",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116152",
+          "playerName": "LAM Yee Lok",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,5,11,6,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111072",
+      "competitiorName": "XIAO Maria",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111072",
+          "playerName": "XIAO Maria",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "3-11,5-11,11-9,6-11,0-0",
+  "resultsGameScores": "3-11,5-11,11-9,6-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "111072",
+    "serverReceiver": "116152",
+    "serverNext": "111072",
+    "serverCompetitor": "111072",
+    "receiverNext": "116152"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:30",
+    "startDateLocal": "02/16/2023 17:45:00",
+    "startDateUTC": "02/16/2023 16:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "179"
+}

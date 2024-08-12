@@ -1,0 +1,88 @@
+{
+  "eventId": "2480",
+  "documentCode": "TTEMSINGLES-----------GP10000300----------",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Group 10 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133020",
+      "competitiorName": "TSCHANZ Cedric",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133020",
+          "playerName": "TSCHANZ Cedric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,6,11,11,7"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "120281",
+      "competitiorName": "KOLDAS Tomas",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120281",
+          "playerName": "KOLDAS Tomas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,6,11"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,6-11,11-6,11-6,7-11",
+  "resultsGameScores": "6-11,6-11,11-6,11-6,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120281",
+    "serverReceiver": "133020",
+    "serverNext": "",
+    "serverCompetitor": "120281",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:00",
+    "startDateLocal": "08/22/2021 14:29:46",
+    "startDateUTC": "08/22/2021 11:29:46"
+  },
+  "teamParentData": null
+}

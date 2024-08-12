@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------R32-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115000",
+      "competitiorName": "AFANADOR Brian",
+      "competitiorOrg": "PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115000",
+          "playerName": "AFANADOR Brian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,12,13,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "103621",
+      "competitiorName": "HMAM Adam",
+      "competitiorOrg": "TUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103621",
+          "playerName": "HMAM Adam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,11,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,12-10,13-11,11-9,0-0",
+  "resultsGameScores": "8-11,12-10,13-11,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115000",
+    "serverReceiver": "103621",
+    "serverNext": "115000",
+    "serverCompetitor": "115000",
+    "receiverNext": "103621"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:11:10",
+    "startDateLocal": "01/24/2023 18:15:00",
+    "startDateUTC": "01/24/2023 15:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "229"
+}

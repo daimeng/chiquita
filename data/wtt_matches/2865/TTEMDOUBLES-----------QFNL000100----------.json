@@ -1,0 +1,110 @@
+{
+  "eventId": "2865",
+  "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Taiyuan Binhe Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36524",
+      "competitiorName": "MA Long/LIN Gaoyuan",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105649",
+          "playerName": "MA Long",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115910",
+          "playerName": "LIN Gaoyuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,5,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "48567",
+      "competitiorName": "PANG Koen/QUEK Izaac",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131912",
+          "playerName": "PANG Koen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133713",
+          "playerName": "QUEK Izaac",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,2,11,8,1",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-2,5-11,11-8,11-1",
+  "resultsGameScores": "5-11,11-2,5-11,11-8,11-1",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "105649",
+    "serverReceiver": "131912",
+    "serverNext": "105649",
+    "serverCompetitor": "36524",
+    "receiverNext": "131912"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:10",
+    "startDateLocal": "05/24/2024 14:30:00",
+    "startDateUTC": "05/24/2024 06:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "210",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

@@ -1,0 +1,110 @@
+{
+  "eventId": "2867",
+  "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "39818",
+      "competitiorName": "KARLSSON Kristian/KALLBERG Christina",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "104379",
+          "playerName": "KARLSSON Kristian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118507",
+          "playerName": "KALLBERG Christina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,5,11,14",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "54231",
+      "competitiorName": "TANAKA Yuta/NAGASAKI Miyu",
+      "competitiorOrg": "JPN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131375",
+          "playerName": "TANAKA Yuta",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "124591",
+          "playerName": "NAGASAKI Miyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,12,11,6,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,10-12,5-11,11-6,14-12",
+  "resultsGameScores": "11-8,10-12,5-11,11-6,14-12",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131375",
+    "serverReceiver": "104379",
+    "serverNext": "131375",
+    "serverCompetitor": "54231",
+    "receiverNext": "104379"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:54:02",
+    "startDateLocal": "05/24/2024 13:00:00",
+    "startDateUTC": "05/24/2024 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "298",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

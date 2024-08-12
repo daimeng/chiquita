@@ -1,0 +1,110 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "48567",
+      "competitiorName": "PANG Yew En Koen/QUEK Izaac",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131912",
+          "playerName": "PANG Yew En Koen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133713",
+          "playerName": "QUEK Izaac",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "72031",
+      "competitiorName": "BOULOUSSA Mehdi/RASSENFOSSE Adrien",
+      "competitiorOrg": "ALG/BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113679",
+          "playerName": "BOULOUSSA Mehdi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ALG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123659",
+          "playerName": "RASSENFOSSE Adrien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BEL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,2,2,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-8,11-2,11-2,0-0,0-0",
+  "resultsGameScores": "11-8,11-2,11-2,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123659",
+    "serverReceiver": "133713",
+    "serverNext": "123659",
+    "serverCompetitor": "72031",
+    "receiverNext": "133713"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:36",
+    "startDateLocal": "04/01/2023 16:35:00",
+    "startDateUTC": "04/01/2023 13:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "134",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

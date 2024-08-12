@@ -1,0 +1,91 @@
+{
+  "eventId": "2694",
+  "documentCode": "TTEMSINGLES-----------R64-000700----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 48 - Match 7",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "119565",
+      "competitiorName": "LIAO Cheng-Ting",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119565",
+          "playerName": "LIAO Cheng-Ting",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,13,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112442",
+      "competitiorName": "PITCHFORD Liam",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112442",
+          "playerName": "PITCHFORD Liam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,15,9,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-6,13-15,11-9,11-5",
+  "resultsGameScores": "5-11,11-6,13-15,11-9,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112442",
+    "serverReceiver": "119565",
+    "serverNext": "112442",
+    "serverCompetitor": "112442",
+    "receiverNext": "119565"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:28",
+    "startDateLocal": "07/05/2023 17:40:00",
+    "startDateUTC": "07/05/2023 15:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "280"
+}

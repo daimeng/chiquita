@@ -1,0 +1,94 @@
+{
+  "eventId": "2880",
+  "documentCode": "TTEMSINGLES-----------R64-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "101648",
+      "competitiorName": "CHEN Chien-An",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101648",
+          "playerName": "CHEN Chien-An",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,8,7,13",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123534",
+      "competitiorName": "MARTINKO Tomas",
+      "competitiorOrg": "CZE",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123534",
+          "playerName": "MARTINKO Tomas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,7,11,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,11-7,8-11,7-11,13-11",
+  "resultsGameScores": "11-4,11-7,8-11,7-11,13-11",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "101648",
+    "serverReceiver": "123534",
+    "serverNext": "101648",
+    "serverCompetitor": "101648",
+    "receiverNext": "123534"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:20",
+    "startDateLocal": "03/29/2024 16:00:00",
+    "startDateUTC": "03/29/2024 14:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "294",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

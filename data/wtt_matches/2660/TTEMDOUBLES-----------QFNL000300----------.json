@@ -1,0 +1,110 @@
+{
+  "eventId": "2660",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 0,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "ICC Durban",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "43343",
+      "competitiorName": "OVTCHAROV Dimitrij/FRANZISKA Patrick",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107028",
+          "playerName": "OVTCHAROV Dimitrij",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "102832",
+          "playerName": "FRANZISKA Patrick",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36000",
+      "competitiorName": "DRINKHALL Paul/PITCHFORD Liam",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102380",
+          "playerName": "DRINKHALL Paul",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "112442",
+          "playerName": "PITCHFORD Liam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,8,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "7-11,11-9,11-8,11-7,0-0",
+  "resultsGameScores": "7-11,11-9,11-8,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112442",
+    "serverReceiver": "102832",
+    "serverNext": "112442",
+    "serverCompetitor": "36000",
+    "receiverNext": "102832"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:50",
+    "startDateLocal": "05/25/2023 15:40:00",
+    "startDateUTC": "05/25/2023 13:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "207",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEWSINGLES-----------R64-002000----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 64 - Match 20",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123550",
+      "competitiorName": "LUTZ Camille",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123550",
+          "playerName": "LUTZ Camille",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,3,3,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123847",
+      "competitiorName": "ANDO Minami",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123847",
+          "playerName": "ANDO Minami",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "8-11,3-11,3-11,0-0,0-0",
+  "resultsGameScores": "8-11,3-11,3-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123847",
+    "serverReceiver": "123550",
+    "serverNext": "123847",
+    "serverCompetitor": "123847",
+    "receiverNext": "123550"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:06:32",
+    "startDateLocal": "03/29/2023 16:50:00",
+    "startDateUTC": "03/29/2023 13:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "138"
+}

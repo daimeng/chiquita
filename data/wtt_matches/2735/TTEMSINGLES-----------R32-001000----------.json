@@ -1,0 +1,94 @@
+{
+  "eventId": "2735",
+  "documentCode": "TTEMSINGLES-----------R32-001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Pavilhao Desportivo Municipal de Vila Nova de Gaia",
+  "tableNumber": "T07",
+  "tableName": "Table 7",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117003",
+      "competitiorName": "CASSIN Alexandre",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117003",
+          "playerName": "CASSIN Alexandre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,10,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115449",
+      "competitiorName": "LEVENKO Andreas",
+      "competitiorOrg": "AUT",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115449",
+          "playerName": "LEVENKO Andreas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUT",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,6,4,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "3-11,10-12,11-6,11-4,11-5",
+  "resultsGameScores": "3-11,10-12,11-6,11-4,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117003",
+    "serverReceiver": "115449",
+    "serverNext": "117003",
+    "serverCompetitor": "117003",
+    "receiverNext": "115449"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:50",
+    "startDateLocal": "11/23/2023 19:20:00",
+    "startDateUTC": "11/23/2023 19:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "233",
+  "teamMatchNo": null,
+  "teamMatchScores": null,
+  "teamMatchScoresSummary": null
+}

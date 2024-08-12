@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------RND2001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131211",
+      "competitiorName": "HAUG Borgar",
+      "competitiorOrg": "NOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131211",
+          "playerName": "HAUG Borgar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,18,8,11,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "102380",
+      "competitiorName": "DRINKHALL Paul",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102380",
+          "playerName": "DRINKHALL Paul",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,16,11,13,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,18-16,8-11,11-13,7-11",
+  "resultsGameScores": "11-9,18-16,8-11,11-13,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131211",
+    "serverReceiver": "102380",
+    "serverNext": "131211",
+    "serverCompetitor": "131211",
+    "receiverNext": "102380"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:03:48",
+    "startDateLocal": "08/08/2023 16:40:00",
+    "startDateUTC": "08/08/2023 19:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "334"
+}

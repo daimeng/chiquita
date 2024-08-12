@@ -1,0 +1,91 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEMSINGLES-----------R32-001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121179",
+      "competitiorName": "ALGUETTI Sharon",
+      "competitiorOrg": "USA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121179",
+          "playerName": "ALGUETTI Sharon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,7,7,11,8,11,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132793",
+      "competitiorName": "LORENZO Santiago",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132793",
+          "playerName": "LORENZO Santiago",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,11,7,11,3,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "11-8,7-11,7-11,11-7,8-11,11-3,7-11",
+  "resultsGameScores": "11-8,7-11,7-11,11-7,8-11,11-3,7-11",
+  "overallScores": "3-4",
+  "resultOverallScores": "3-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121179",
+    "serverReceiver": "132793",
+    "serverNext": "121179",
+    "serverCompetitor": "121179",
+    "receiverNext": "132793"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:47:21",
+    "startDateLocal": "11/04/2022 10:45:00",
+    "startDateUTC": "11/04/2022 13:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "353"
+}

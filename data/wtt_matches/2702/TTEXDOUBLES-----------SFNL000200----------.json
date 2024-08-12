@@ -1,0 +1,107 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37187",
+      "competitiorName": "CIFUENTES Horacio/ARGUELLES Camila",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119316",
+          "playerName": "CIFUENTES Horacio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119109",
+          "playerName": "ARGUELLES Camila",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,2,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "46385",
+      "competitiorName": "DIXON Xavier/LIU Yangzi",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119945",
+          "playerName": "DIXON Xavier",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "137627",
+          "playerName": "LIU Yangzi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,5,11,11,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,11-5,2-11,6-11,11-5",
+  "resultsGameScores": "11-4,11-5,2-11,6-11,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119316",
+    "serverReceiver": "137627",
+    "serverNext": "119316",
+    "serverCompetitor": "37187",
+    "receiverNext": "137627"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:44",
+    "startDateLocal": "02/16/2023 17:10:00",
+    "startDateUTC": "02/16/2023 16:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "217"
+}

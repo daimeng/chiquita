@@ -1,0 +1,91 @@
+{
+  "eventId": "2737",
+  "documentCode": "TTEWSINGLES-----------QFNL000400----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Pingyuan Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121403",
+      "competitiorName": "CHEN Xingtong",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121403",
+          "playerName": "CHEN Xingtong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "15,9,11,9,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121411",
+      "competitiorName": "WANG Manyu",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121411",
+          "playerName": "WANG Manyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,11,8,11,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "15-13,9-11,11-8,9-11,11-5",
+  "resultsGameScores": "15-13,9-11,11-8,9-11,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121411",
+    "serverReceiver": "121403",
+    "serverNext": "121411",
+    "serverCompetitor": "121411",
+    "receiverNext": "121403"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:10:19",
+    "startDateLocal": "04/13/2023 14:00:00",
+    "startDateUTC": "04/13/2023 06:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "302"
+}

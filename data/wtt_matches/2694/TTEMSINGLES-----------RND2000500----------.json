@@ -1,0 +1,91 @@
+{
+  "eventId": "2694",
+  "documentCode": "TTEMSINGLES-----------RND2000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "103126",
+      "competitiorName": "GNANASEKARAN Sathiyan",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103126",
+          "playerName": "GNANASEKARAN Sathiyan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,12,9,11,3",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121031",
+      "competitiorName": "KULCZYCKI Samuel",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121031",
+          "playerName": "KULCZYCKI Samuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,11,9,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,12-10,9-11,11-9,3-11",
+  "resultsGameScores": "5-11,12-10,9-11,11-9,3-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "103126",
+    "serverReceiver": "121031",
+    "serverNext": "103126",
+    "serverCompetitor": "103126",
+    "receiverNext": "121031"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:25",
+    "startDateLocal": "07/04/2023 13:40:00",
+    "startDateUTC": "07/04/2023 11:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "264"
+}

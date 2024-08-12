@@ -1,0 +1,91 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMSINGLES-----------R64-000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T05",
+  "tableName": "Table 5",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "105679",
+      "competitiorName": "MADRID Marcos",
+      "competitiorOrg": "MEX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105679",
+          "playerName": "MADRID Marcos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MEX",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,11,6,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117002",
+      "competitiorName": "SEYFRIED Joe",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117002",
+          "playerName": "SEYFRIED Joe",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "3-11,11-13,6-11,0-0,0-0",
+  "resultsGameScores": "3-11,11-13,6-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117002",
+    "serverReceiver": "105679",
+    "serverNext": "117002",
+    "serverCompetitor": "117002",
+    "receiverNext": "105679"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:58",
+    "startDateLocal": "08/31/2023 16:30:00",
+    "startDateUTC": "08/31/2023 13:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "164"
+}

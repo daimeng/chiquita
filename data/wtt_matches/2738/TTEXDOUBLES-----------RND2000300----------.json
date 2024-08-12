@@ -1,0 +1,107 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEXDOUBLES-----------RND2000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100113946",
+      "competitiorName": "NAUMI Alex/DONNER Marina",
+      "competitiorOrg": "FIN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120674",
+          "playerName": "NAUMI Alex",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "200904",
+          "playerName": "DONNER Marina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,2,10,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100115749",
+      "competitiorName": "WYKES Jordan/SCHOLZ Vivien",
+      "competitiorOrg": "JEY/LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122165",
+          "playerName": "WYKES Jordan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JEY",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131748",
+          "playerName": "SCHOLZ Vivien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,12,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "7-11,11-9,2-11,10-12,0-0",
+  "resultsGameScores": "7-11,11-9,2-11,10-12,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131748",
+    "serverReceiver": "200904",
+    "serverNext": "131748",
+    "serverCompetitor": "100115749",
+    "receiverNext": "200904"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:05",
+    "startDateLocal": "10/03/2023 11:00:00",
+    "startDateUTC": "10/03/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "204"
+}

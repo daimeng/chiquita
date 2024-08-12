@@ -1,0 +1,91 @@
+{
+  "eventId": "2696",
+  "documentCode": "TTEMSINGLES-----------RND1000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Dr. Shyama Prasad Mukherjee Indoor Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123385",
+      "competitiorName": "BHANJA Ronit",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123385",
+          "playerName": "BHANJA Ronit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,11,2,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "104036",
+      "competitiorName": "JANCARIK Lubomir",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "104036",
+          "playerName": "JANCARIK Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,7,11,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-9,11-7,2-11,10-12",
+  "resultsGameScores": "5-11,11-9,11-7,2-11,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123385",
+    "serverReceiver": "104036",
+    "serverNext": "123385",
+    "serverCompetitor": "123385",
+    "receiverNext": "104036"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:32",
+    "startDateLocal": "02/27/2023 11:10:00",
+    "startDateUTC": "02/27/2023 05:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "246"
+}

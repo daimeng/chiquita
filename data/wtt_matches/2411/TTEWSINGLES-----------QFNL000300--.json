@@ -1,0 +1,88 @@
+{
+  "eventId": "2411",
+  "documentCode": "TTEWSINGLES-----------QFNL000300--",
+  "subEventName": "Women Singles",
+  "subEventDescription": "Women's Singles - Quarterfinals - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123113",
+      "competitiorName": "KIM Hayeong",
+      "competitiorOrg": "KOR",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123113",
+          "playerName": "KIM Hayeong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,11,11,8,12"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "108226",
+      "competitiorName": "SAMARA Elizabeta",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "108226",
+          "playerName": "SAMARA Elizabeta",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "15,7,6,11,14"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "13-15,11-7,11-6,8-11,12-14",
+  "resultsGameScores": "13-15,11-7,11-6,8-11,12-14",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "PT",
+    "serverPlayer": "108226",
+    "serverReceiver": "123113",
+    "serverNext": null,
+    "serverCompetitor": "108226",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:48:06",
+    "startDateLocal": "03/11/2021 07:40:00",
+    "startDateUTC": "03/11/2021 07:40:00"
+  },
+  "teamParentData": null
+}

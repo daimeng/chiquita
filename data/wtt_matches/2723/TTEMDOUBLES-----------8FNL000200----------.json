@@ -1,0 +1,107 @@
+{
+  "eventId": "2723",
+  "documentCode": "TTEMDOUBLES-----------8FNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100113701",
+      "competitiorName": "PETKOV Vladimir/KRASTEV Petyo",
+      "competitiorOrg": "BUL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107335",
+          "playerName": "PETKOV Vladimir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BUL",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114005",
+          "playerName": "KRASTEV Petyo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BUL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,6,11,5,5",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100111510",
+      "competitiorName": "HACHARD Antoine/LIND Anders",
+      "competitiorOrg": "FRA/DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112446",
+          "playerName": "HACHARD Antoine",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115029",
+          "playerName": "LIND Anders",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "DEN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,6,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-10,6-11,11-6,5-11,5-11",
+  "resultsGameScores": "12-10,6-11,11-6,5-11,5-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115029",
+    "serverReceiver": "107335",
+    "serverNext": "115029",
+    "serverCompetitor": "100111510",
+    "receiverNext": "107335"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:02",
+    "startDateLocal": "08/31/2023 12:20:00",
+    "startDateUTC": "08/31/2023 09:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "245"
+}

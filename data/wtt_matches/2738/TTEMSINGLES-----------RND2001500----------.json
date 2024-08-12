@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------RND2001500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 15",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120857",
+      "competitiorName": "BOURRASSAUD Florian",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120857",
+          "playerName": "BOURRASSAUD Florian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,11,11,13,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "200415",
+      "competitiorName": "BEDOYA Sebastian",
+      "competitiorOrg": "COL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200415",
+          "playerName": "BEDOYA Sebastian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "COL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,7,2,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "10-12,11-7,11-2,13-11,0-0",
+  "resultsGameScores": "10-12,11-7,11-2,13-11,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120857",
+    "serverReceiver": "200415",
+    "serverNext": "120857",
+    "serverCompetitor": "120857",
+    "receiverNext": "200415"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:48",
+    "startDateLocal": "10/03/2023 12:10:00",
+    "startDateUTC": "10/03/2023 10:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "212"
+}

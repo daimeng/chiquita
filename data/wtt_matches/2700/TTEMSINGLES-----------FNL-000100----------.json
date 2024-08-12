@@ -1,0 +1,91 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEMSINGLES-----------FNL-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "137237",
+      "competitiorName": "LIN Shidong",
+      "competitiorOrg": "CHN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137237",
+          "playerName": "LIN Shidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,8,11,1,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132137",
+      "competitiorName": "CAO Wei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132137",
+          "playerName": "CAO Wei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,1,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-10,8-11,11-1,1-11,9-11",
+  "resultsGameScores": "12-10,8-11,11-1,1-11,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137237",
+    "serverReceiver": "132137",
+    "serverNext": "137237",
+    "serverCompetitor": "137237",
+    "receiverNext": "132137"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:20:56",
+    "startDateLocal": "02/04/2023 17:30:00",
+    "startDateUTC": "02/04/2023 14:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "240"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEWSINGLES-----------R32-000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131163",
+      "competitiorName": "SUN Yingsha",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131163",
+          "playerName": "SUN Yingsha",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,4,13,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "108470",
+      "competitiorName": "SUH Hyo Won",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "108470",
+          "playerName": "SUH Hyo Won",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,15,6,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-7,4-11,13-15,11-6,11-5",
+  "resultsGameScores": "11-7,4-11,13-15,11-6,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131163",
+    "serverReceiver": "108470",
+    "serverNext": "131163",
+    "serverCompetitor": "131163",
+    "receiverNext": "108470"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:50:16",
+    "startDateLocal": "10/05/2023 20:20:00",
+    "startDateUTC": "10/05/2023 12:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "268"
+}

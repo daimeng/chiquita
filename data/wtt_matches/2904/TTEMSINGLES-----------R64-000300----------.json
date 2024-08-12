@@ -1,0 +1,94 @@
+{
+  "eventId": "2904",
+  "documentCode": "TTEMSINGLES-----------R64-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Singapore Sports Hub",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "101222",
+      "competitiorName": "BOLL Timo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101222",
+          "playerName": "BOLL Timo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "113395",
+      "competitiorName": "CHEW Zhe Yu Clarence",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113395",
+          "playerName": "CHEW Zhe Yu Clarence",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,6,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-5,9-11,11-6,11-5,0-0",
+  "resultsGameScores": "11-5,9-11,11-6,11-5,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "113395",
+    "serverReceiver": "101222",
+    "serverNext": "113395",
+    "serverCompetitor": "113395",
+    "receiverNext": "101222"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:55",
+    "startDateLocal": "03/11/2024 21:20:00",
+    "startDateUTC": "03/11/2024 13:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "194",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

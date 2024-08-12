@@ -1,0 +1,91 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEMSINGLES-----------8FNL000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115134",
+      "competitiorName": "OLAVE Alfonso",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115134",
+          "playerName": "OLAVE Alfonso",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,4,9,5,0,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115000",
+      "competitiorName": "AFANADOR Brian",
+      "competitiorOrg": "PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115000",
+          "playerName": "AFANADOR Brian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,11,0,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "5-11,4-11,9-11,5-11,0-0,0-0,0-0",
+  "resultsGameScores": "5-11,4-11,9-11,5-11,0-0,0-0,0-0",
+  "overallScores": "0-4",
+  "resultOverallScores": "0-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115134",
+    "serverReceiver": "115000",
+    "serverNext": "115134",
+    "serverCompetitor": "115134",
+    "receiverNext": "115000"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:35",
+    "startDateLocal": "11/04/2022 20:15:00",
+    "startDateUTC": "11/04/2022 23:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "180"
+}

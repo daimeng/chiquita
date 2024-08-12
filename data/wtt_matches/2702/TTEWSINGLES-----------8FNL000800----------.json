@@ -1,0 +1,91 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEWSINGLES-----------8FNL000800----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 16 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136101",
+      "competitiorName": "WU Yangchen",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136101",
+          "playerName": "WU Yangchen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,11,5,11,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "136711",
+      "competitiorName": "HARIMOTO Miwa",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136711",
+          "playerName": "HARIMOTO Miwa",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,11,6,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "4-11,11-6,5-11,11-6,12-10",
+  "resultsGameScores": "4-11,11-6,5-11,11-6,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136711",
+    "serverReceiver": "136101",
+    "serverNext": "136711",
+    "serverCompetitor": "136711",
+    "receiverNext": "136101"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:47:38",
+    "startDateLocal": "02/16/2023 12:35:00",
+    "startDateUTC": "02/16/2023 11:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "240"
+}

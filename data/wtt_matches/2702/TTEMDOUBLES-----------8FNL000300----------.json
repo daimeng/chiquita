@@ -1,0 +1,107 @@
+{
+  "eventId": "2702",
+  "documentCode": "TTEMDOUBLES-----------8FNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "66771",
+      "competitiorName": "CAO Wei/SAI Linwei",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132137",
+          "playerName": "CAO Wei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135674",
+          "playerName": "SAI Linwei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,13,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "38692",
+      "competitiorName": "DESCHAMPS Hugo/PORET Thibault",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134590",
+          "playerName": "DESCHAMPS Hugo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134718",
+          "playerName": "PORET Thibault",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,6,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-9,11-6,13-11,0-0,0-0",
+  "resultsGameScores": "11-9,11-6,13-11,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132137",
+    "serverReceiver": "134590",
+    "serverNext": "132137",
+    "serverCompetitor": "66771",
+    "receiverNext": "134590"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:41",
+    "startDateLocal": "02/15/2023 10:35:00",
+    "startDateUTC": "02/15/2023 09:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "170"
+}

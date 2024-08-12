@@ -1,0 +1,94 @@
+{
+  "eventId": "2900",
+  "documentCode": "TTEMSINGLES-----------R64-002200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 22",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120857",
+      "competitiorName": "BOURRASSAUD Florian",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120857",
+          "playerName": "BOURRASSAUD Florian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,9,3,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131375",
+      "competitiorName": "TANAKA Yuta",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131375",
+          "playerName": "TANAKA Yuta",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "3-11,9-11,3-11,0-0,0-0",
+  "resultsGameScores": "3-11,9-11,3-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120857",
+    "serverReceiver": "131375",
+    "serverNext": "120857",
+    "serverCompetitor": "120857",
+    "receiverNext": "131375"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:09",
+    "startDateLocal": "07/04/2024 21:30:00",
+    "startDateUTC": "07/04/2024 14:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "131",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------R64-002800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 28",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121690",
+      "competitiorName": "PICARD Vincent",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121690",
+          "playerName": "PICARD Vincent",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,7,10,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123659",
+      "competitiorName": "RASSENFOSSE Adrien",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123659",
+          "playerName": "RASSENFOSSE Adrien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BEL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,12,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "5-11,7-11,10-12,0-0,0-0",
+  "resultsGameScores": "5-11,7-11,10-12,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123659",
+    "serverReceiver": "121690",
+    "serverNext": "123659",
+    "serverCompetitor": "123659",
+    "receiverNext": "121690"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:09",
+    "startDateLocal": "11/02/2023 18:55:00",
+    "startDateUTC": "11/02/2023 17:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "154"
+}

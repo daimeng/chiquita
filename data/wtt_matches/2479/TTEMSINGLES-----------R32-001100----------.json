@@ -1,0 +1,88 @@
+{
+  "eventId": "2479",
+  "documentCode": "TTEMSINGLES-----------R32-001100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Kisakallio Sports Institute",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131673",
+      "competitiorName": "OSIRO Pedro",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131673",
+          "playerName": "OSIRO Pedro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,10,11,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122066",
+      "competitiorName": "HORT Tomas",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122066",
+          "playerName": "HORT Tomas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,8,12,9,0"
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-8,10-12,11-9,0-0",
+  "resultsGameScores": "11-6,11-8,10-12,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122066",
+    "serverReceiver": "131673",
+    "serverNext": "122066",
+    "serverCompetitor": "122066",
+    "receiverNext": "122066"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:00",
+    "startDateLocal": "12/03/2021 22:50:00",
+    "startDateUTC": "12/03/2021 20:50:00"
+  },
+  "teamParentData": null
+}

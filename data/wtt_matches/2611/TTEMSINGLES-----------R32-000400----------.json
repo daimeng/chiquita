@@ -1,0 +1,91 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEMSINGLES-----------R32-000400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122425",
+      "competitiorName": "LY Edward",
+      "competitiorOrg": "CAN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122425",
+          "playerName": "LY Edward",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,8,8,3,0,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111115",
+      "competitiorName": "AGUIRRE Marcelo",
+      "competitiorOrg": "PAR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111115",
+          "playerName": "AGUIRRE Marcelo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,11,0,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "5-11,8-11,8-11,3-11,0-0,0-0,0-0",
+  "resultsGameScores": "5-11,8-11,8-11,3-11,0-0,0-0,0-0",
+  "overallScores": "0-4",
+  "resultOverallScores": "0-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "111115",
+    "serverReceiver": "122425",
+    "serverNext": "111115",
+    "serverCompetitor": "111115",
+    "receiverNext": "122425"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:02",
+    "startDateLocal": "11/04/2022 12:15:00",
+    "startDateUTC": "11/04/2022 15:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "190"
+}

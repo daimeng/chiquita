@@ -1,0 +1,110 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEWDOUBLES-----------FNL-000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "46542",
+      "competitiorName": "ZHANG Rui/KUAI Man",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123112",
+          "playerName": "ZHANG Rui",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135049",
+          "playerName": "KUAI Man",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,13,6,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "63031",
+      "competitiorName": "QIAN Tianyi/SHI Xunyao",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119797",
+          "playerName": "QIAN Tianyi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123120",
+          "playerName": "SHI Xunyao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,13,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "4-11,13-11,6-11,11-13,0-0",
+  "resultsGameScores": "4-11,13-11,6-11,11-13,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135049",
+    "serverReceiver": "119797",
+    "serverNext": "135049",
+    "serverCompetitor": "46542",
+    "receiverNext": "119797"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:14",
+    "startDateLocal": "01/26/2023 16:00:00",
+    "startDateUTC": "01/26/2023 13:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "229",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

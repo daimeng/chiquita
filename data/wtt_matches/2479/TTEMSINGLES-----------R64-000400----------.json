@@ -1,0 +1,88 @@
+{
+  "eventId": "2479",
+  "documentCode": "TTEMSINGLES-----------R64-000400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Kisakallio Sports Institute",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133341",
+      "competitiorName": "HARDMEIER Elias",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133341",
+          "playerName": "HARDMEIER Elias",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,11,12,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121953",
+      "competitiorName": "VILLANUEVA Nelson",
+      "competitiorOrg": "VEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121953",
+          "playerName": "VILLANUEVA Nelson",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,5,5,10,0"
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "7-11,11-5,11-5,12-10,0-0",
+  "resultsGameScores": "7-11,11-5,11-5,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121953",
+    "serverReceiver": "133341",
+    "serverNext": "121953",
+    "serverCompetitor": "121953",
+    "receiverNext": "121953"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:00",
+    "startDateLocal": "12/03/2021 21:40:00",
+    "startDateUTC": "12/03/2021 19:40:00"
+  },
+  "teamParentData": null
+}

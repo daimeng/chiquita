@@ -1,0 +1,107 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEMDOUBLES-----------QFNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100106734",
+      "competitiorName": "AN Jaehyun/KIM Taehyun",
+      "competitiorOrg": "KOR/AUT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121514",
+          "playerName": "AN Jaehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133347",
+          "playerName": "KIM Taehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100106739",
+      "competitiorName": "MUTTI Matteo/SANCHI Francisco",
+      "competitiorOrg": "ITA/ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120287",
+          "playerName": "MUTTI Matteo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "117530",
+          "playerName": "SANCHI Francisco",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,13,4,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,11-13,11-4,11-8,0-0",
+  "resultsGameScores": "11-9,11-13,11-4,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133347",
+    "serverReceiver": "117530",
+    "serverNext": "133347",
+    "serverCompetitor": "100106734",
+    "receiverNext": "117530"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:13",
+    "startDateLocal": "07/29/2023 11:25:00",
+    "startDateUTC": "07/29/2023 09:25:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "216"
+}

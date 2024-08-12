@@ -1,0 +1,107 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEWDOUBLES-----------FNL-000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100109311",
+      "competitiorName": "ZHANG Xiangyu/ZONG Geman",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133901",
+          "playerName": "ZHANG Xiangyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "200907",
+          "playerName": "ZONG Geman",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,8,8,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100109312",
+      "competitiorName": "FAN Shuhan/QIN Yuxuan",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136403",
+          "playerName": "FAN Shuhan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "144628",
+          "playerName": "QIN Yuxuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,6,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-13,11-6,8-11,8-11,0-0",
+  "resultsGameScores": "11-13,11-6,8-11,8-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "144628",
+    "serverReceiver": "200907",
+    "serverNext": "144628",
+    "serverCompetitor": "100109312",
+    "receiverNext": "200907"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:29",
+    "startDateLocal": "09/09/2023 16:00:00",
+    "startDateUTC": "09/09/2023 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "234"
+}

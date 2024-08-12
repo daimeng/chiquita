@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------R32-000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "110726",
+      "competitiorName": "OLAH Benedek",
+      "competitiorOrg": "FIN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110726",
+          "playerName": "OLAH Benedek",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,7,10,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131484",
+      "competitiorName": "HODAEI Amir Hossein",
+      "competitiorOrg": "IRI",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131484",
+          "playerName": "HODAEI Amir Hossein",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IRI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,11,12,9,13",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-2,7-11,10-12,11-9,11-13",
+  "resultsGameScores": "11-2,7-11,10-12,11-9,11-13",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "110726",
+    "serverReceiver": "131484",
+    "serverNext": "110726",
+    "serverCompetitor": "110726",
+    "receiverNext": "131484"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:52:25",
+    "startDateLocal": "11/03/2023 11:45:00",
+    "startDateUTC": "11/03/2023 10:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "282"
+}

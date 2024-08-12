@@ -1,0 +1,91 @@
+{
+  "eventId": "2722",
+  "documentCode": "TTEMSINGLES-----------RND2000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Carioca 1",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134625",
+      "competitiorName": "PEREZ Juan",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134625",
+          "playerName": "PEREZ Juan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,6,11,9,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114709",
+      "competitiorName": "LAMBIET Florent",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114709",
+          "playerName": "LAMBIET Florent",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,7,11,3",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,6-11,11-7,9-11,11-3",
+  "resultsGameScores": "11-8,6-11,11-7,9-11,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134625",
+    "serverReceiver": "114709",
+    "serverNext": "134625",
+    "serverCompetitor": "134625",
+    "receiverNext": "114709"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:05",
+    "startDateLocal": "08/08/2023 11:45:00",
+    "startDateUTC": "08/08/2023 14:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "240"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------R64-001600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 16",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112073",
+      "competitiorName": "BRODD Viktor",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112073",
+          "playerName": "BRODD Viktor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,7,7,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117890",
+      "competitiorName": "GERASSIMENKO Kirill",
+      "competitiorOrg": "KAZ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117890",
+          "playerName": "GERASSIMENKO Kirill",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KAZ",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,6,11,11,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,11-6,7-11,7-11,10-12",
+  "resultsGameScores": "11-9,11-6,7-11,7-11,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117890",
+    "serverReceiver": "112073",
+    "serverNext": "117890",
+    "serverCompetitor": "117890",
+    "receiverNext": "112073"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:37:41",
+    "startDateLocal": "10/04/2023 13:30:00",
+    "startDateUTC": "10/04/2023 11:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "256"
+}

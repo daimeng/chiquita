@@ -1,0 +1,91 @@
+{
+  "eventId": "2700",
+  "documentCode": "TTEWSINGLES-----------R32-001000----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112249",
+      "competitiorName": "EL-DAWLATLY Nadeen",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112249",
+          "playerName": "EL-DAWLATLY Nadeen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,12,12,6,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111416",
+      "competitiorName": "MORET Rachel",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111416",
+          "playerName": "MORET Rachel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,10,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,12-10,12-10,6-11,6-11",
+  "resultsGameScores": "9-11,12-10,12-10,6-11,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "111416",
+    "serverReceiver": "112249",
+    "serverNext": "111416",
+    "serverCompetitor": "111416",
+    "receiverNext": "112249"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:03:51",
+    "startDateLocal": "02/02/2023 11:30:00",
+    "startDateUTC": "02/02/2023 08:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "270"
+}

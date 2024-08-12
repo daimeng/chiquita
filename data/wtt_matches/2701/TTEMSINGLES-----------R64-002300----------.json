@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------R64-002300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 23",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120872",
+      "competitiorName": "MASIP Joan",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120872",
+          "playerName": "MASIP Joan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,7,8,4",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "104036",
+      "competitiorName": "JANCARIK Lubomir",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "104036",
+          "playerName": "JANCARIK Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,6,11,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-7,11-6,7-11,8-11,4-11",
+  "resultsGameScores": "11-7,11-6,7-11,8-11,4-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120872",
+    "serverReceiver": "104036",
+    "serverNext": "120872",
+    "serverCompetitor": "120872",
+    "receiverNext": "104036"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:22",
+    "startDateLocal": "01/24/2023 13:30:00",
+    "startDateUTC": "01/24/2023 10:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "234"
+}

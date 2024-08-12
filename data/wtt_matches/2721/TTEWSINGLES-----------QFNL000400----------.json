@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEWSINGLES-----------QFNL000400----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "124591",
+      "competitiorName": "NAGASAKI Miyu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124591",
+          "playerName": "NAGASAKI Miyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,11,6,16,4",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123977",
+      "competitiorName": "SHIN Yubin",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123977",
+          "playerName": "SHIN Yubin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,14,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,11-8,6-11,16-14,4-11",
+  "resultsGameScores": "8-11,11-8,6-11,16-14,4-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123977",
+    "serverReceiver": "124591",
+    "serverNext": "123977",
+    "serverCompetitor": "123977",
+    "receiverNext": "124591"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:51:51",
+    "startDateLocal": "08/05/2023 10:00:00",
+    "startDateUTC": "08/05/2023 15:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "299"
+}

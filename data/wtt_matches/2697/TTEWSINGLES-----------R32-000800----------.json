@@ -1,0 +1,91 @@
+{
+  "eventId": "2697",
+  "documentCode": "TTEWSINGLES-----------R32-000800----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Palace Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "108226",
+      "competitiorName": "SAMARA Elizabeta",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "108226",
+          "playerName": "SAMARA Elizabeta",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,6,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111656",
+      "competitiorName": "MESHREF Dina",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111656",
+          "playerName": "MESHREF Dina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,4,5,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "3-11,6-11,11-4,11-5,11-9",
+  "resultsGameScores": "3-11,6-11,11-4,11-5,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "108226",
+    "serverReceiver": "111656",
+    "serverNext": "108226",
+    "serverCompetitor": "108226",
+    "receiverNext": "111656"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:02:43",
+    "startDateLocal": "02/09/2023 15:45:00",
+    "startDateUTC": "02/09/2023 12:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "230"
+}

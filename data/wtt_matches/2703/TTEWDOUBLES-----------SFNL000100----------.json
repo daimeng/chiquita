@@ -1,0 +1,107 @@
+{
+  "eventId": "2703",
+  "documentCode": "TTEWDOUBLES-----------SFNL000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36021",
+      "competitiorName": "MANTZ Chantal/WAN Yuan",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116674",
+          "playerName": "MANTZ Chantal",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118777",
+          "playerName": "WAN Yuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "38880",
+      "competitiorName": "ORTEGA Daniela/VEGA Paulina",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117294",
+          "playerName": "ORTEGA Daniela",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "109777",
+          "playerName": "VEGA Paulina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,7,4,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "12-10,11-7,11-4,0-0,0-0",
+  "resultsGameScores": "12-10,11-7,11-4,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116674",
+    "serverReceiver": "109777",
+    "serverNext": "116674",
+    "serverCompetitor": "36021",
+    "receiverNext": "109777"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:35",
+    "startDateLocal": "02/23/2023 16:00:00",
+    "startDateUTC": "02/23/2023 15:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "153"
+}

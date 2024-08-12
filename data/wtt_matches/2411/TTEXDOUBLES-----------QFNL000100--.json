@@ -1,0 +1,104 @@
+{
+  "eventId": "2411",
+  "documentCode": "TTEXDOUBLES-----------QFNL000100--",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinals - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "40733",
+      "competitiorName": "MIZUTANI Jun/ITO Mima",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106195",
+          "playerName": "MIZUTANI Jun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "117821",
+          "playerName": "ITO Mima",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,11,11,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "40386",
+      "competitiorName": "YUAN Jia Nan/LEBESSON Emmanuel",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137894",
+          "playerName": "YUAN Jia Nan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "105136",
+          "playerName": "LEBESSON Emmanuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,2,4,9,0"
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,11-2,11-4,11-9,0-0",
+  "resultsGameScores": "6-11,11-2,11-4,11-9",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "PT",
+    "serverPlayer": "106195",
+    "serverReceiver": "105136",
+    "serverNext": null,
+    "serverCompetitor": "40733",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:16",
+    "startDateLocal": "03/11/2021 16:00:00",
+    "startDateUTC": "03/11/2021 16:00:00"
+  },
+  "teamParentData": null
+}

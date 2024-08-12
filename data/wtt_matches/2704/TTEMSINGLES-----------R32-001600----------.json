@@ -1,0 +1,91 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEMSINGLES-----------R32-001600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 16",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117006",
+      "competitiorName": "PICCOLIN Jordy",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117006",
+          "playerName": "PICCOLIN Jordy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,11,5,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114848",
+      "competitiorName": "ALLEGRO Martin",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114848",
+          "playerName": "ALLEGRO Martin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,5,11,7",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-6,11-5,5-11,11-7",
+  "resultsGameScores": "5-11,11-6,11-5,5-11,11-7",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117006",
+    "serverReceiver": "114848",
+    "serverNext": "117006",
+    "serverCompetitor": "117006",
+    "receiverNext": "114848"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:50",
+    "startDateLocal": "03/30/2023 13:30:00",
+    "startDateUTC": "03/30/2023 10:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "249"
+}

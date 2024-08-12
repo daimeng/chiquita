@@ -1,0 +1,107 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37085",
+      "competitiorName": "WANG Chuqin/SUN Yingsha",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121558",
+          "playerName": "WANG Chuqin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131163",
+          "playerName": "SUN Yingsha",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,11,16,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "78940",
+      "competitiorName": "LIANG Jingkun/QIAN Tianyi",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119588",
+          "playerName": "LIANG Jingkun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119797",
+          "playerName": "QIAN Tianyi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,11,9,18,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-2,6-11,11-9,16-18,11-8",
+  "resultsGameScores": "11-2,6-11,11-9,16-18,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121558",
+    "serverReceiver": "119588",
+    "serverNext": "121558",
+    "serverCompetitor": "37085",
+    "receiverNext": "119588"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:07",
+    "startDateLocal": "10/05/2023 18:00:00",
+    "startDateUTC": "10/05/2023 10:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "330"
+}

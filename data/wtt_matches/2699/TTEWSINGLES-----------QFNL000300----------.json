@@ -1,0 +1,91 @@
+{
+  "eventId": "2699",
+  "documentCode": "TTEWSINGLES-----------QFNL000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Olive Convention Centre Durban",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "124165",
+      "competitiorName": "CHIEN Tung-Chuan",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124165",
+          "playerName": "CHIEN Tung-Chuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,11,9,11,13",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111656",
+      "competitiorName": "MESHREF Dina",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111656",
+          "playerName": "MESHREF Dina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,5,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,11-8,9-11,11-5,13-11",
+  "resultsGameScores": "8-11,11-8,9-11,11-5,13-11",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "124165",
+    "serverReceiver": "111656",
+    "serverNext": "124165",
+    "serverCompetitor": "124165",
+    "receiverNext": "111656"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:30",
+    "startDateLocal": "01/14/2023 10:00:00",
+    "startDateUTC": "01/14/2023 08:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "300"
+}

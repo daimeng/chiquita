@@ -1,0 +1,107 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "76218",
+      "competitiorName": "KAO Cheng-Jui/PENG Wang-Wei",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132824",
+          "playerName": "KAO Cheng-Jui",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119877",
+          "playerName": "PENG Wang-Wei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,8,11,6,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100106929",
+      "competitiorName": "QUAN Kaiyuan/ZENG Beixun",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135886",
+          "playerName": "QUAN Kaiyuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135919",
+          "playerName": "ZENG Beixun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,8-11,11-9,6-11,0-0",
+  "resultsGameScores": "8-11,8-11,11-9,6-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135919",
+    "serverReceiver": "132824",
+    "serverNext": "135919",
+    "serverCompetitor": "100106929",
+    "receiverNext": "132824"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:01",
+    "startDateLocal": "07/29/2023 17:35:00",
+    "startDateUTC": "07/29/2023 15:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "208"
+}

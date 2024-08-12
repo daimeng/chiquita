@@ -1,0 +1,88 @@
+{
+  "eventId": "2410",
+  "documentCode": "TTEMSINGLES-----------RND4000300--",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Preliminary Round 4 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "101192",
+      "competitiorName": "BOBOCICA Mihai",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101192",
+          "playerName": "BOBOCICA Mihai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,10,3,11,11"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117312",
+      "competitiorName": "ISHIY Vitor",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117312",
+          "playerName": "ISHIY Vitor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,12,11,5,4"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-10,10-12,3-11,11-5,11-4",
+  "resultsGameScores": "12-10,10-12,3-11,11-5,11-4",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "PT",
+    "serverPlayer": "101192",
+    "serverReceiver": "117312",
+    "serverNext": null,
+    "serverCompetitor": "101192",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:43:48",
+    "startDateLocal": "03/02/2021 13:40:00",
+    "startDateUTC": "03/02/2021 13:40:00"
+  },
+  "teamParentData": null
+}

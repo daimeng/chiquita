@@ -1,0 +1,88 @@
+{
+  "eventId": "2411",
+  "documentCode": "TTEMSINGLES-----------R32-001600--",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 16",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123971",
+      "competitiorName": "CHO Daeseong",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123971",
+          "playerName": "CHO Daeseong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,9,8,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115641",
+      "competitiorName": "CALDERANO Hugo",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115641",
+          "playerName": "CALDERANO Hugo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "10-12,9-11,8-11,0-0,0-0",
+  "resultsGameScores": "10-12,9-11,8-11",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "PT",
+    "serverPlayer": "123971",
+    "serverReceiver": "115641",
+    "serverNext": null,
+    "serverCompetitor": "123971",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:19",
+    "startDateLocal": "03/09/2021 13:00:00",
+    "startDateUTC": "03/09/2021 13:00:00"
+  },
+  "teamParentData": null
+}

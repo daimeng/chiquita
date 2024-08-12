@@ -1,0 +1,91 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEWSINGLES-----------FNL-000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115009",
+      "competitiorName": "DIAZ Adriana",
+      "competitiorOrg": "PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115009",
+          "playerName": "DIAZ Adriana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112221",
+      "competitiorName": "ZHANG Lily",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112221",
+          "playerName": "ZHANG Lily",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,5,5,3,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-4,11-5,11-5,11-3,0-0,0-0",
+  "resultsGameScores": "9-11,11-4,11-5,11-5,11-3,0-0,0-0",
+  "overallScores": "4-1",
+  "resultOverallScores": "4-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112221",
+    "serverReceiver": "115009",
+    "serverNext": "112221",
+    "serverCompetitor": "112221",
+    "receiverNext": "115009"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:50:12",
+    "startDateLocal": "11/06/2022 19:10:00",
+    "startDateUTC": "11/06/2022 22:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "224"
+}

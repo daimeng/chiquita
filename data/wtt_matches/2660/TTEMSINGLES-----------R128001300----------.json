@@ -1,0 +1,91 @@
+{
+  "eventId": "2660",
+  "documentCode": "TTEMSINGLES-----------R128001300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 128 - Match 13",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "ICC Durban",
+  "tableNumber": "T07",
+  "tableName": "Table 7",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100696",
+      "competitiorName": "ASSAR Omar",
+      "competitiorOrg": "EGY",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100696",
+          "playerName": "ASSAR Omar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,10,11,9,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "106151",
+      "competitiorName": "MINO Alberto",
+      "competitiorOrg": "ECU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106151",
+          "playerName": "MINO Alberto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,7,11,4,2,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "5-11,10-12,11-7,9-11,11-4,11-2,11-6",
+  "resultsGameScores": "5-11,10-12,11-7,9-11,11-4,11-2,11-6",
+  "overallScores": "4-3",
+  "resultOverallScores": "4-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100696",
+    "serverReceiver": "106151",
+    "serverNext": "100696",
+    "serverCompetitor": "100696",
+    "receiverNext": "106151"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:03:48",
+    "startDateLocal": "05/20/2023 11:20:00",
+    "startDateUTC": "05/20/2023 09:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "344"
+}

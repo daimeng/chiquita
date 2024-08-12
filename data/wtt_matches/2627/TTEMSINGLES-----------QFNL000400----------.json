@@ -1,0 +1,91 @@
+{
+  "eventId": "2627",
+  "documentCode": "TTEMSINGLES-----------QFNL000400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Xinxiang Pingyuan Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121582",
+      "competitiorName": "LIN Yun-Ju",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121582",
+          "playerName": "LIN Yun-Ju",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,11,7,11,3",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "105649",
+      "competitiorName": "MA Long",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105649",
+          "playerName": "MA Long",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "4-11,11-7,7-11,11-8,3-11",
+  "resultsGameScores": "4-11,11-7,7-11,11-8,3-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121582",
+    "serverReceiver": "105649",
+    "serverNext": "121582",
+    "serverCompetitor": "121582",
+    "receiverNext": "105649"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:46",
+    "startDateLocal": "10/28/2022 19:07:41",
+    "startDateUTC": "10/28/2022 11:07:41"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "241"
+}

@@ -1,0 +1,88 @@
+{
+  "eventId": "2411",
+  "documentCode": "TTEMSINGLES-----------8FNL000300--",
+  "subEventName": "Men Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": null
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121514",
+      "competitiorName": "AN Jaehyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121514",
+          "playerName": "AN Jaehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,5,9,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "116853",
+      "competitiorName": "KALLBERG Anton",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116853",
+          "playerName": "KALLBERG Anton",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "3-11,5-11,9-11,0-0,0-0",
+  "resultsGameScores": "3-11,5-11,9-11",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "PT",
+    "serverPlayer": "116853",
+    "serverReceiver": "121514",
+    "serverNext": null,
+    "serverCompetitor": "116853",
+    "receiverNext": null
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:36",
+    "startDateLocal": "03/10/2021 09:15:00",
+    "startDateUTC": "03/10/2021 09:15:00"
+  },
+  "teamParentData": null
+}

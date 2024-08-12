@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------RND2001300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 13",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100001",
+      "competitiorName": "ANTHONY Amalraj",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100001",
+          "playerName": "ANTHONY Amalraj",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "110768",
+      "competitiorName": "YIANGOU Marios",
+      "competitiorOrg": "CYP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110768",
+          "playerName": "YIANGOU Marios",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CYP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,2,6,2,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "4-11,11-2,11-6,11-2,0-0",
+  "resultsGameScores": "4-11,11-2,11-6,11-2,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100001",
+    "serverReceiver": "110768",
+    "serverNext": "100001",
+    "serverCompetitor": "100001",
+    "receiverNext": "110768"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:14",
+    "startDateLocal": "10/03/2023 12:10:00",
+    "startDateUTC": "10/03/2023 10:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "159"
+}

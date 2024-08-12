@@ -1,0 +1,107 @@
+{
+  "eventId": "2611",
+  "documentCode": "TTEXDOUBLES-----------QFNL000400----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": " Centro de Entrenamiento Olimpico",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "113419_113418",
+      "competitiorName": "JOUTI Eric/KUMAHARA Caroline",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113419",
+          "playerName": "JOUTI Eric",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "113418",
+          "playerName": "KUMAHARA Caroline",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,11,8,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119316_119109",
+      "competitiorName": "CIFUENTES Horacio/ARGUELLES Camila",
+      "competitiorOrg": "ARG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119316",
+          "playerName": "CIFUENTES Horacio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119109",
+          "playerName": "ARGUELLES Camila",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,9,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,11-8,11-9,8-11,9-11",
+  "resultsGameScores": "8-11,11-8,11-9,8-11,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "113418",
+    "serverReceiver": "119316",
+    "serverNext": "113418",
+    "serverCompetitor": "46140",
+    "receiverNext": "119316"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:52:43",
+    "startDateLocal": "11/02/2022 18:00:00",
+    "startDateUTC": "11/02/2022 21:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "268"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2733",
+  "documentCode": "TTEMSINGLES-----------RND3000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "114716",
+      "competitiorName": "ECSEKI Nandor",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114716",
+          "playerName": "ECSEKI Nandor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134398",
+      "competitiorName": "KHARKI Iskender",
+      "competitiorOrg": "KAZ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134398",
+          "playerName": "KHARKI Iskender",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KAZ",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,5,5,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "13-11,11-5,11-5,0-0,0-0",
+  "resultsGameScores": "13-11,11-5,11-5,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134398",
+    "serverReceiver": "114716",
+    "serverNext": "134398",
+    "serverCompetitor": "134398",
+    "receiverNext": "114716"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:22:45",
+    "startDateLocal": "11/01/2023 15:35:00",
+    "startDateUTC": "11/01/2023 14:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "159"
+}

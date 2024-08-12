@@ -1,0 +1,91 @@
+{
+  "eventId": "2738",
+  "documentCode": "TTEMSINGLES-----------RND3000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 3 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Erikdalshallen",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116846",
+      "competitiorName": "ERIKSSON Anders",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116846",
+          "playerName": "ERIKSSON Anders",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,7,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "118072",
+      "competitiorName": "FRANCO Carlos",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118072",
+          "playerName": "FRANCO Carlos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,11,7,7",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-7,8-11,7-11,11-7,11-7",
+  "resultsGameScores": "11-7,8-11,7-11,11-7,11-7",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "118072",
+    "serverReceiver": "116846",
+    "serverNext": "118072",
+    "serverCompetitor": "118072",
+    "receiverNext": "116846"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:14",
+    "startDateLocal": "10/03/2023 17:45:00",
+    "startDateUTC": "10/03/2023 15:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "242"
+}
