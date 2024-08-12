@@ -40,15 +40,17 @@ async def get_matches(page: Page, evt: int):
         print(f'Empty Event! {evt}')
         return
 
+    retry = 5
     while True:
-        try:
-            load_btn = await page.wait_for_selector('[class="generic_btn"]', timeout=10000)
-        except TimeoutError as e:
-            break
+        load_btn = await page.query_selector('[class="generic_btn"]')
 
-        # if not load_btn:
-        #     break
-        await load_btn.click()
+        if not load_btn:
+            retry-=1
+            if retry < 0:
+                break
+        else:
+            retry = 5
+            await load_btn.click()
         await asyncio.sleep(1)
 
     if err:
