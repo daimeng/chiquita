@@ -1,0 +1,91 @@
+{
+  "eventId": "2692",
+  "documentCode": "TTEMSINGLES-----------RND1001100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Dom Sportova",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121222",
+      "competitiorName": "LIANG Jishan",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121222",
+          "playerName": "LIANG Jishan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,8,6,11,5",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119579",
+      "competitiorName": "RADOVIC Filip",
+      "competitiorOrg": "MNE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119579",
+          "playerName": "RADOVIC Filip",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,11,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-10,8-11,6-11,11-8,5-11",
+  "resultsGameScores": "12-10,8-11,6-11,11-8,5-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119579",
+    "serverReceiver": "121222",
+    "serverNext": "119579",
+    "serverCompetitor": "119579",
+    "receiverNext": "121222"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:17",
+    "startDateLocal": "06/26/2023 10:05:00",
+    "startDateUTC": "06/26/2023 08:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "267"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEMSINGLES-----------GP06000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 6 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "202397",
+      "competitiorName": "SUSILO Braydon",
+      "competitiorOrg": "INA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202397",
+          "playerName": "SUSILO Braydon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "INA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,4,6,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135920",
+      "competitiorName": "ZHU Jiaqi",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135920",
+          "playerName": "ZHU Jiaqi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "10-12,4-11,6-11,0-0,0-0",
+  "resultsGameScores": "10-12,4-11,6-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135920",
+    "serverReceiver": "202397",
+    "serverNext": "135920",
+    "serverCompetitor": "135920",
+    "receiverNext": "202397"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:22",
+    "startDateLocal": "09/04/2023 12:45:00",
+    "startDateUTC": "09/04/2023 05:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "150"
+}

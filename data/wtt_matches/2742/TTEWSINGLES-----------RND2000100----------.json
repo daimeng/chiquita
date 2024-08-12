@@ -1,0 +1,91 @@
+{
+  "eventId": "2742",
+  "documentCode": "TTEWSINGLES-----------RND2000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Qualifying Round 2 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "111072",
+      "competitiorName": "XIAO Maria",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111072",
+          "playerName": "XIAO Maria",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,11,5,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134011",
+      "competitiorName": "ZAHARIA Elena",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134011",
+          "playerName": "ZAHARIA Elena",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "13-11,11-8,5-11,11-7,0-0",
+  "resultsGameScores": "13-11,11-8,5-11,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134011",
+    "serverReceiver": "111072",
+    "serverNext": "134011",
+    "serverCompetitor": "134011",
+    "receiverNext": "111072"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:41",
+    "startDateLocal": "10/18/2023 15:00:00",
+    "startDateUTC": "10/18/2023 12:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "223"
+}

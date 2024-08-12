@@ -1,0 +1,91 @@
+{
+  "eventId": "2739",
+  "documentCode": "TTEMSINGLES-----------RND1001500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 15",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Table Tennis Centre ADD",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120845",
+      "competitiorName": "KANG Dongsoo",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120845",
+          "playerName": "KANG Dongsoo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,6,6,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134590",
+      "competitiorName": "DESCHAMPS Hugo",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134590",
+          "playerName": "DESCHAMPS Hugo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,5,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,11-5,6-11,6-11,0-0",
+  "resultsGameScores": "6-11,11-5,6-11,6-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120845",
+    "serverReceiver": "134590",
+    "serverNext": "120845",
+    "serverCompetitor": "120845",
+    "receiverNext": "134590"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:00",
+    "startDateLocal": "08/29/2023 11:00:00",
+    "startDateUTC": "08/29/2023 05:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "187"
+}

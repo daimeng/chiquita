@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------R64-001800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 18",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135023",
+      "competitiorName": "IONESCU Eduard",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135023",
+          "playerName": "IONESCU Eduard",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,13,6,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135394",
+      "competitiorName": "ISTRATE Andrei",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135394",
+          "playerName": "ISTRATE Andrei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,11,14",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-7,13-11,6-11,12-14",
+  "resultsGameScores": "9-11,11-7,13-11,6-11,12-14",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135394",
+    "serverReceiver": "135023",
+    "serverNext": "135394",
+    "serverCompetitor": "135394",
+    "receiverNext": "135023"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:38",
+    "startDateLocal": "01/24/2023 12:20:00",
+    "startDateUTC": "01/24/2023 09:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "299"
+}

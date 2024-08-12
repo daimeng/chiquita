@@ -1,0 +1,107 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEXDOUBLES-----------8FNL000500----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Round of 16 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100118199",
+      "competitiorName": "GOMBOS Ludovic/LEE Hoi Man Karen",
+      "competitiorOrg": "USA/HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103163",
+          "playerName": "GOMBOS Ludovic",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132320",
+          "playerName": "LEE Hoi Man Karen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,7,11,11,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100118181",
+      "competitiorName": "CASTILLO AROCHA Cesar Augusto/FERRER Dakota",
+      "competitiorOrg": "VEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "146225",
+          "playerName": "CASTILLO AROCHA Cesar Augusto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "VEN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "201909",
+          "playerName": "FERRER Dakota",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "VEN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,4,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,7-11,11-6,11-4,8-11",
+  "resultsGameScores": "7-11,7-11,11-6,11-4,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "103163",
+    "serverReceiver": "146225",
+    "serverNext": "103163",
+    "serverCompetitor": "100118199",
+    "receiverNext": "146225"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:41",
+    "startDateLocal": "10/04/2023 14:10:00",
+    "startDateUTC": "10/04/2023 06:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "302"
+}

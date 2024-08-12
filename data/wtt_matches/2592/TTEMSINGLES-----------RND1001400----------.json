@@ -1,0 +1,88 @@
+{
+  "eventId": "2592",
+  "documentCode": "TTEMSINGLES-----------RND1001400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "BOK Hall",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134227",
+      "competitiorName": "DILAS Nemanja",
+      "competitiorOrg": "SRB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134227",
+          "playerName": "DILAS Nemanja",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,4,18,11,9"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "120162",
+      "competitiorName": "HRIBAR Peter",
+      "competitiorOrg": "SLO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120162",
+          "playerName": "HRIBAR Peter",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,16,8,11"
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,4-11,18-16,11-8,9-11",
+  "resultsGameScores": "9-11,4-11,18-16,11-8,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120162",
+    "serverReceiver": "134227",
+    "serverNext": "120162",
+    "serverCompetitor": "120162",
+    "receiverNext": "120162"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:00",
+    "startDateLocal": "07/18/2022 12:00:00",
+    "startDateUTC": "07/18/2022 10:00:00"
+  },
+  "teamParentData": null
+}

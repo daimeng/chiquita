@@ -1,0 +1,91 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEMSINGLES-----------R64-000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 48 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "113679",
+      "competitiorName": "BOULOUSSA Mehdi",
+      "competitiorOrg": "ALG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113679",
+          "playerName": "BOULOUSSA Mehdi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ALG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,11,5,8,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111641",
+      "competitiorName": "DESAI Harmeet",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111641",
+          "playerName": "DESAI Harmeet",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,2,11,11,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-10,11-2,5-11,8-11,11-8",
+  "resultsGameScores": "12-10,11-2,5-11,8-11,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "113679",
+    "serverReceiver": "111641",
+    "serverNext": "113679",
+    "serverCompetitor": "113679",
+    "receiverNext": "111641"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:56",
+    "startDateLocal": "10/04/2023 15:15:00",
+    "startDateUTC": "10/04/2023 07:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "279"
+}

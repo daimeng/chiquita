@@ -1,0 +1,91 @@
+{
+  "eventId": "2775",
+  "documentCode": "TTEMSINGLES-----------R32-000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sultan Qaboos Sport Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135996",
+      "competitiorName": "MATSUSHIMA Sora",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135996",
+          "playerName": "MATSUSHIMA Sora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,12,7,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112092",
+      "competitiorName": "ARUNA Quadri",
+      "competitiorOrg": "NGR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112092",
+          "playerName": "ARUNA Quadri",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NGR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,11,8,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,12-10,7-11,11-8,11-6",
+  "resultsGameScores": "9-11,12-10,7-11,11-8,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112092",
+    "serverReceiver": "135996",
+    "serverNext": "112092",
+    "serverCompetitor": "112092",
+    "receiverNext": "135996"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:48",
+    "startDateLocal": "10/11/2023 11:45:00",
+    "startDateUTC": "10/11/2023 07:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "266"
+}

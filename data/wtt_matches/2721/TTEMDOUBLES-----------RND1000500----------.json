@@ -1,0 +1,107 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEMDOUBLES-----------RND1000500----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 1 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100107361",
+      "competitiorName": "LIANG Jishan/MA Jinbao",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121222",
+          "playerName": "LIANG Jishan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135745",
+          "playerName": "MA Jinbao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,5,3,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "39554",
+      "competitiorName": "ROSSI Carlo/OYEBODE John",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120285",
+          "playerName": "ROSSI Carlo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "122051",
+          "playerName": "OYEBODE John",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,5,11,11,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,11-5,5-11,3-11,11-6",
+  "resultsGameScores": "11-4,11-5,5-11,3-11,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135745",
+    "serverReceiver": "120285",
+    "serverNext": "135745",
+    "serverCompetitor": "100107361",
+    "receiverNext": "120285"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:44",
+    "startDateLocal": "07/31/2023 17:40:00",
+    "startDateUTC": "07/31/2023 22:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "214"
+}

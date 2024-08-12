@@ -1,0 +1,91 @@
+{
+  "eventId": "2739",
+  "documentCode": "TTEMSINGLES-----------RND2000400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Table Tennis Centre ADD",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "103903",
+      "competitiorName": "IONESCU Ovidiu",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103903",
+          "playerName": "IONESCU Ovidiu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,7,11,7,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "102968",
+      "competitiorName": "GARDOS Robert",
+      "competitiorOrg": "AUT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102968",
+          "playerName": "GARDOS Robert",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUT",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,3,11,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,7-11,11-3,7-11,12-10",
+  "resultsGameScores": "11-5,7-11,11-3,7-11,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "103903",
+    "serverReceiver": "102968",
+    "serverNext": "103903",
+    "serverCompetitor": "103903",
+    "receiverNext": "102968"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:07",
+    "startDateLocal": "08/30/2023 14:05:00",
+    "startDateUTC": "08/30/2023 08:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "260"
+}

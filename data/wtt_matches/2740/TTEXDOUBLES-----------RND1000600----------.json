@@ -1,0 +1,107 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEXDOUBLES-----------RND1000600----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100114040",
+      "competitiorName": "KIM Daewoo/SIM Hyunju",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119850",
+          "playerName": "KIM Daewoo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121523",
+          "playerName": "SIM Hyunju",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100114017",
+      "competitiorName": "MITRA Abhimanyu/GOEL Radhapriya",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132908",
+          "playerName": "MITRA Abhimanyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135504",
+          "playerName": "GOEL Radhapriya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,6,11,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-3,11-6,9-11,11-7,0-0",
+  "resultsGameScores": "11-3,11-6,9-11,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119850",
+    "serverReceiver": "135504",
+    "serverNext": "119850",
+    "serverCompetitor": "100114040",
+    "receiverNext": "135504"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:01",
+    "startDateLocal": "09/04/2023 11:35:00",
+    "startDateUTC": "09/04/2023 04:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "188"
+}

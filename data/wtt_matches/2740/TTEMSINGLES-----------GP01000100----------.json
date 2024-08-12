@@ -1,0 +1,91 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEMSINGLES-----------GP01000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135371",
+      "competitiorName": "KIM Munsu",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135371",
+          "playerName": "KIM Munsu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "145559",
+      "competitiorName": "LIAUW Felix",
+      "competitiorOrg": "INA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145559",
+          "playerName": "LIAUW Felix",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "INA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,9,6,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-9,11-6,0-0,0-0",
+  "resultsGameScores": "11-5,11-9,11-6,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "145559",
+    "serverReceiver": "135371",
+    "serverNext": "145559",
+    "serverCompetitor": "145559",
+    "receiverNext": "135371"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:31",
+    "startDateLocal": "09/04/2023 12:10:00",
+    "startDateUTC": "09/04/2023 05:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "162"
+}

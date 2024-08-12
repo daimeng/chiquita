@@ -1,0 +1,91 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEMSINGLES-----------GP07000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 7 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "206679",
+      "competitiorName": "YAMLEEMUL Pongspat",
+      "competitiorOrg": "THA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "206679",
+          "playerName": "YAMLEEMUL Pongspat",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "THA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,3,6,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123962",
+      "competitiorName": "YOSHIMURA Kazuhiro",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123962",
+          "playerName": "YOSHIMURA Kazuhiro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "4-11,3-11,6-11,0-0,0-0",
+  "resultsGameScores": "4-11,3-11,6-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "206679",
+    "serverReceiver": "123962",
+    "serverNext": "206679",
+    "serverCompetitor": "206679",
+    "receiverNext": "123962"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:14:49",
+    "startDateLocal": "09/04/2023 13:20:00",
+    "startDateUTC": "09/04/2023 06:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "122"
+}

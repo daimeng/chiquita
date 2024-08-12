@@ -1,0 +1,91 @@
+{
+  "eventId": "2794",
+  "documentCode": "TTEMSINGLES-----------RND2000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Taiyuan Binhe Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133813",
+      "competitiorName": "PARK Gyuhyeon",
+      "competitiorOrg": "KOR",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133813",
+          "playerName": "PARK Gyuhyeon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,11,11,4,16",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135050",
+      "competitiorName": "CHEN Yuanyu",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135050",
+          "playerName": "CHEN Yuanyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,8,11,18",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "3-11,11-8,11-8,4-11,16-18",
+  "resultsGameScores": "3-11,11-8,11-8,4-11,16-18",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133813",
+    "serverReceiver": "135050",
+    "serverNext": "133813",
+    "serverCompetitor": "133813",
+    "receiverNext": "135050"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:44:31",
+    "startDateLocal": "11/08/2023 19:10:00",
+    "startDateUTC": "11/08/2023 11:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "297"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2721",
+  "documentCode": "TTEWSINGLES-----------RND3000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Qualifying Round 3 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "119285",
+      "competitiorName": "LEE Zion",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119285",
+          "playerName": "LEE Zion",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "109777",
+      "competitiorName": "VEGA Paulina",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "109777",
+          "playerName": "VEGA Paulina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,10,6,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-7,12-10,11-6,0-0,0-0",
+  "resultsGameScores": "11-7,12-10,11-6,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119285",
+    "serverReceiver": "109777",
+    "serverNext": "119285",
+    "serverCompetitor": "119285",
+    "receiverNext": "109777"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:30",
+    "startDateLocal": "08/02/2023 14:40:00",
+    "startDateUTC": "08/02/2023 19:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "159"
+}

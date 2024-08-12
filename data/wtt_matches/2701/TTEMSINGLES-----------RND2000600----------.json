@@ -1,0 +1,91 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMSINGLES-----------RND2000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135074",
+      "competitiorName": "LEE Jungmok",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135074",
+          "playerName": "LEE Jungmok",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,11,14,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131128",
+      "competitiorName": "GRELA Artur",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131128",
+          "playerName": "GRELA Artur",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,11,9,12,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-2,5-11,11-9,14-12,0-0",
+  "resultsGameScores": "11-2,5-11,11-9,14-12,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131128",
+    "serverReceiver": "135074",
+    "serverNext": "131128",
+    "serverCompetitor": "131128",
+    "receiverNext": "135074"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:20",
+    "startDateLocal": "01/23/2023 14:00:00",
+    "startDateUTC": "01/23/2023 11:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "223"
+}

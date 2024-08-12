@@ -1,0 +1,91 @@
+{
+  "eventId": "2775",
+  "documentCode": "TTEWSINGLES-----------R32-000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Round of 32 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sultan Qaboos Sport Complex",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115413",
+      "competitiorName": "PICCOLIN Giorgia",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115413",
+          "playerName": "PICCOLIN Giorgia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,12,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111416",
+      "competitiorName": "MORET Rachel",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111416",
+          "playerName": "MORET Rachel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SUI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,5,2,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,12-10,11-5,11-2,0-0",
+  "resultsGameScores": "6-11,12-10,11-5,11-2,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115413",
+    "serverReceiver": "111416",
+    "serverNext": "115413",
+    "serverCompetitor": "115413",
+    "receiverNext": "111416"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:27",
+    "startDateLocal": "10/11/2023 11:45:00",
+    "startDateUTC": "10/11/2023 07:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "184"
+}

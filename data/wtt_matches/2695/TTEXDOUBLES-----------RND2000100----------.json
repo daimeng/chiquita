@@ -1,0 +1,107 @@
+{
+  "eventId": "2695",
+  "documentCode": "TTEXDOUBLES-----------RND2000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Huamark Indoor Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "43870",
+      "competitiorName": "THAKKAR Manav Vikash/KAMATH Archana Girish",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123682",
+          "playerName": "THAKKAR Manav Vikash",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123684",
+          "playerName": "KAMATH Archana Girish",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,12,7,5",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "39808",
+      "competitiorName": "WALKER Samuel/HO Tin-Tin",
+      "competitiorOrg": "ENG",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114718",
+          "playerName": "WALKER Samuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115430",
+          "playerName": "HO Tin-Tin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,12,10,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,10-12,12-10,7-11,5-11",
+  "resultsGameScores": "11-5,10-12,12-10,7-11,5-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123684",
+    "serverReceiver": "114718",
+    "serverNext": "123684",
+    "serverCompetitor": "43870",
+    "receiverNext": "114718"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:19",
+    "startDateLocal": "04/24/2023 09:30:00",
+    "startDateUTC": "04/24/2023 02:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "259"
+}

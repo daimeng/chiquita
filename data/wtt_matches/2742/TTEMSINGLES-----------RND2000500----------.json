@@ -1,0 +1,91 @@
+{
+  "eventId": "2742",
+  "documentCode": "TTEMSINGLES-----------RND2000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133713",
+      "competitiorName": "QUEK Izaac",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133713",
+          "playerName": "QUEK Izaac",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119585",
+      "competitiorName": "YIGENLER Abdullah",
+      "competitiorOrg": "TUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119585",
+          "playerName": "YIGENLER Abdullah",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,14,6,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,12-14,11-6,11-4,0-0",
+  "resultsGameScores": "11-4,12-14,11-6,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119585",
+    "serverReceiver": "133713",
+    "serverNext": "119585",
+    "serverCompetitor": "119585",
+    "receiverNext": "133713"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:22",
+    "startDateLocal": "10/16/2023 16:10:00",
+    "startDateUTC": "10/16/2023 13:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "202"
+}

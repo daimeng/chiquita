@@ -1,0 +1,91 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEMSINGLES-----------GP01000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "202342",
+      "competitiorName": "SAEOU Tieanchai",
+      "competitiorOrg": "THA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202342",
+          "playerName": "SAEOU Tieanchai",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "THA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,9,5,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135371",
+      "competitiorName": "KIM Munsu",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135371",
+          "playerName": "KIM Munsu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,9-11,5-11,0-0,0-0",
+  "resultsGameScores": "9-11,9-11,5-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "202342",
+    "serverReceiver": "135371",
+    "serverNext": "202342",
+    "serverCompetitor": "202342",
+    "receiverNext": "135371"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:01",
+    "startDateLocal": "09/05/2023 16:35:00",
+    "startDateUTC": "09/05/2023 09:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "159"
+}

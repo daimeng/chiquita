@@ -1,0 +1,94 @@
+{
+  "eventId": "2755",
+  "documentCode": "TTEMSINGLES-----------RND2000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120287",
+      "competitiorName": "MUTTI Matteo",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120287",
+          "playerName": "MUTTI Matteo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,6,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123664",
+      "competitiorName": "VALENTA Jan",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123664",
+          "playerName": "VALENTA Jan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,6,11,2,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,11-6,6-11,11-2,0-0",
+  "resultsGameScores": "11-4,11-6,6-11,11-2,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123664",
+    "serverReceiver": "120287",
+    "serverNext": "123664",
+    "serverCompetitor": "123664",
+    "receiverNext": "120287"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:14",
+    "startDateLocal": "11/27/2023 17:45:00",
+    "startDateUTC": "11/27/2023 16:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "174",
+  "teamMatchNo": null,
+  "teamMatchScores": null,
+  "teamMatchScoresSummary": null
+}

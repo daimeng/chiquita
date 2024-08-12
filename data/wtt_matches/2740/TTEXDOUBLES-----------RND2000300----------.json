@@ -1,0 +1,107 @@
+{
+  "eventId": "2740",
+  "documentCode": "TTEXDOUBLES-----------RND2000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Fashion Island",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100113137",
+      "competitiorName": "PAL Akash/BAISYA Poymantee",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137242",
+          "playerName": "PAL Akash",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134888",
+          "playerName": "BAISYA Poymantee",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,4,11,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100114040",
+      "competitiorName": "KIM Daewoo/SIM Hyunju",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119850",
+          "playerName": "KIM Daewoo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121523",
+          "playerName": "SIM Hyunju",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,3,11,3,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,11-3,4-11,11-3,6-11",
+  "resultsGameScores": "10-12,11-3,4-11,11-3,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137242",
+    "serverReceiver": "121523",
+    "serverNext": "137242",
+    "serverCompetitor": "100113137",
+    "receiverNext": "121523"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:46",
+    "startDateLocal": "09/05/2023 11:00:00",
+    "startDateUTC": "09/05/2023 04:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "245"
+}

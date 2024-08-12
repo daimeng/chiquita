@@ -1,0 +1,91 @@
+{
+  "eventId": "2694",
+  "documentCode": "TTEMSINGLES-----------RND1000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115545",
+      "competitiorName": "KWAN Man Ho",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115545",
+          "playerName": "KWAN Man Ho",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,11,11,9,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "105136",
+      "competitiorName": "LEBESSON Emmanuel",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105136",
+          "playerName": "LEBESSON Emmanuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,7,7,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,11-7,11-7,9-11,9-11",
+  "resultsGameScores": "10-12,11-7,11-7,9-11,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "105136",
+    "serverReceiver": "115545",
+    "serverNext": "105136",
+    "serverCompetitor": "105136",
+    "receiverNext": "115545"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:43:58",
+    "startDateLocal": "07/03/2023 10:45:00",
+    "startDateUTC": "07/03/2023 08:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "274"
+}

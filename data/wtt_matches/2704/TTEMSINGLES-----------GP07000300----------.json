@@ -1,0 +1,91 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEMSINGLES-----------GP07000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 7 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "137569",
+      "competitiorName": "ZHUBANOV Sanzhar",
+      "competitiorOrg": "KAZ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137569",
+          "playerName": "ZHUBANOV Sanzhar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,9,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135896",
+      "competitiorName": "RUSTEMOVSKI Raif",
+      "competitiorOrg": "MKD",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135896",
+          "playerName": "RUSTEMOVSKI Raif",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,3,11,11,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,11-3,9-11,9-11,11-5",
+  "resultsGameScores": "11-6,11-3,10-11,9-11,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137569",
+    "serverReceiver": "135896",
+    "serverNext": "137569",
+    "serverCompetitor": "137569",
+    "receiverNext": "135896"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:16",
+    "startDateLocal": "03/28/2023 11:45:00",
+    "startDateUTC": "03/28/2023 08:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "265"
+}

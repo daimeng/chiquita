@@ -1,0 +1,91 @@
+{
+  "eventId": "2777",
+  "documentCode": "TTEMSINGLES-----------RND2000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lanzhou Olympic Center Tulip Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "200361",
+      "competitiorName": "RIOS Carlos",
+      "competitiorOrg": "VEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200361",
+          "playerName": "RIOS Carlos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "VEN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,2,4,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115546",
+      "competitiorName": "LAM Siu Hang",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115546",
+          "playerName": "LAM Siu Hang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,2-11,4-11,0-0,0-0",
+  "resultsGameScores": "9-11,2-11,4-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115546",
+    "serverReceiver": "200361",
+    "serverNext": "115546",
+    "serverCompetitor": "115546",
+    "receiverNext": "200361"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:00",
+    "startDateLocal": "10/03/2023 16:35:00",
+    "startDateUTC": "10/03/2023 08:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "135"
+}

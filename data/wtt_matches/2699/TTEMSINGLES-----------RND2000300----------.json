@@ -1,0 +1,91 @@
+{
+  "eventId": "2699",
+  "documentCode": "TTEMSINGLES-----------RND2000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Olive Convention Centre Durban",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131478",
+      "competitiorName": "NATHOO Chetan",
+      "competitiorOrg": "RSA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131478",
+          "playerName": "NATHOO Chetan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "203851",
+      "competitiorName": "JAIMUNGAL Yashil",
+      "competitiorOrg": "RSA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "203851",
+          "playerName": "JAIMUNGAL Yashil",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,5,11,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-5,11-5,9-11,11-6,0-0",
+  "resultsGameScores": "11-5,11-5,9-11,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "203851",
+    "serverReceiver": "131478",
+    "serverNext": "203851",
+    "serverCompetitor": "203851",
+    "receiverNext": "131478"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:01",
+    "startDateLocal": "01/11/2023 12:35:00",
+    "startDateUTC": "01/11/2023 10:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "189"
+}

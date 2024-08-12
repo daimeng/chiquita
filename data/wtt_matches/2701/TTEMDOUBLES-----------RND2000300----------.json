@@ -1,0 +1,107 @@
+{
+  "eventId": "2701",
+  "documentCode": "TTEMDOUBLES-----------RND2000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "45967",
+      "competitiorName": "ALMUGHANNE Fahed/ALAWLAQI Ahmed",
+      "competitiorOrg": "QAT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100329",
+          "playerName": "ALMUGHANNE Fahed",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "100189",
+          "playerName": "ALAWLAQI Ahmed",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "63180",
+      "competitiorName": "RIYAMI Ahmed AL/AL BALUSHI Muhannad",
+      "competitiorOrg": "OMA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135826",
+          "playerName": "RIYAMI Ahmed AL",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132462",
+          "playerName": "AL BALUSHI Muhannad",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,6,2,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-6,11-6,11-2,0-0,0-0",
+  "resultsGameScores": "11-6,11-6,11-2,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135826",
+    "serverReceiver": "100329",
+    "serverNext": "135826",
+    "serverCompetitor": "63180",
+    "receiverNext": "100329"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:14:25",
+    "startDateLocal": "01/23/2023 15:45:00",
+    "startDateUTC": "01/23/2023 12:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "134"
+}

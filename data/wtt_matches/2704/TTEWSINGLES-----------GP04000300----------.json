@@ -1,0 +1,91 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEWSINGLES-----------GP04000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Group 4 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133328",
+      "competitiorName": "BARANI Arianna",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133328",
+          "playerName": "BARANI Arianna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,9,14,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117499",
+      "competitiorName": "HO Ying",
+      "competitiorOrg": "MAS",
+      "compCardY": "1",
+      "compCardYR1": "1",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117499",
+          "playerName": "HO Ying",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,12,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,11-9,9-11,14-12,11-9",
+  "resultsGameScores": "6-11,11-9,9-11,14-12,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117499",
+    "serverReceiver": "133328",
+    "serverNext": "117499",
+    "serverCompetitor": "117499",
+    "receiverNext": "133328"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:48:47",
+    "startDateLocal": "03/27/2023 17:35:00",
+    "startDateUTC": "03/27/2023 14:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "309"
+}

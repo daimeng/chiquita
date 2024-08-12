@@ -1,0 +1,91 @@
+{
+  "eventId": "2739",
+  "documentCode": "TTEMSINGLES-----------RND1000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Table Tennis Centre ADD",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123962",
+      "competitiorName": "YOSHIMURA Kazuhiro",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123962",
+          "playerName": "YOSHIMURA Kazuhiro",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "103163",
+      "competitiorName": "GOMBOS Ludovic",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103163",
+          "playerName": "GOMBOS Ludovic",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,4,4,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-8,11-4,11-4,0-0,0-0",
+  "resultsGameScores": "11-8,11-4,11-4,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123962",
+    "serverReceiver": "103163",
+    "serverNext": "123962",
+    "serverCompetitor": "123962",
+    "receiverNext": "103163"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:09",
+    "startDateLocal": "08/29/2023 16:05:00",
+    "startDateUTC": "08/29/2023 10:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "149"
+}

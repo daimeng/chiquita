@@ -1,0 +1,91 @@
+{
+  "eventId": "2704",
+  "documentCode": "TTEMSINGLES-----------GP08000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 8 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gloria Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116748",
+      "competitiorName": "NIA Soroosh AMIRI",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116748",
+          "playerName": "NIA Soroosh AMIRI",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,14,8,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "124145",
+      "competitiorName": "SEKER Alican",
+      "competitiorOrg": "TUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124145",
+          "playerName": "SEKER Alican",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,12,11,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,14-12,8-11,11-7,0-0",
+  "resultsGameScores": "11-4,14-12,8-11,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116748",
+    "serverReceiver": "124145",
+    "serverNext": "116748",
+    "serverCompetitor": "116748",
+    "receiverNext": "124145"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:48",
+    "startDateLocal": "03/28/2023 11:45:00",
+    "startDateUTC": "03/28/2023 08:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "212"
+}

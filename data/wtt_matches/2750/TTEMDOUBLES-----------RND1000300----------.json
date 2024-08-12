@@ -1,0 +1,107 @@
+{
+  "eventId": "2750",
+  "documentCode": "TTEMDOUBLES-----------RND1000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100106930",
+      "competitiorName": "SUN Zheng/XIE Congfan",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136587",
+          "playerName": "SUN Zheng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134240",
+          "playerName": "XIE Congfan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,11,10,1",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100106931",
+      "competitiorName": "YAN Sheng/WANG Chen Ce",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115621",
+          "playerName": "YAN Sheng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "202064",
+          "playerName": "WANG Chen Ce",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,4,12,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-8,11-4,10-12,1-11",
+  "resultsGameScores": "5-11,11-8,11-4,10-12,1-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115621",
+    "serverReceiver": "136587",
+    "serverNext": "115621",
+    "serverCompetitor": "100106931",
+    "receiverNext": "136587"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:33",
+    "startDateLocal": "07/27/2023 12:20:00",
+    "startDateUTC": "07/27/2023 10:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "239"
+}
