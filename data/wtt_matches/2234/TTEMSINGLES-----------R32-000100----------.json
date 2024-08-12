@@ -1,0 +1,88 @@
+{
+  "eventId": "2234",
+  "documentCode": "TTEMSINGLES-----------R32-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Villa Deportiva Nacional (VIDENA)",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115641",
+      "competitiorName": "CALDERANO Hugo",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115641",
+          "playerName": "CALDERANO Hugo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,11,0,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "144099",
+      "competitiorName": "VIGO IZAGUIRRE Rodrigo Ali",
+      "competitiorOrg": "PER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "144099",
+          "playerName": "VIGO IZAGUIRRE Rodrigo Ali",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,3,5,5,0,0,0"
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,11-3,11-5,11-5,0-0,0-0,0-0",
+  "resultsGameScores": "11-7,11-3,11-5,11-5,0-0,0-0,0-0",
+  "overallScores": "4-0",
+  "resultOverallScores": "4-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "144099",
+    "serverReceiver": "115641",
+    "serverNext": "",
+    "serverCompetitor": "144099",
+    "receiverNext": ""
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:33",
+    "startDateLocal": "11/13/2021 17:03:37",
+    "startDateUTC": "11/13/2021 22:03:37"
+  },
+  "teamParentData": null
+}

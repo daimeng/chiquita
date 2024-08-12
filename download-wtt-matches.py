@@ -14,7 +14,7 @@ async def get_matches(page: Page, evt: int):
         if 'GetMatchCardDetails' in resp.url:
             try:
                 match = await resp.json()
-                with open(os.path.join('data/wtt_matches', evt, match['documentCode']), 'w') as f:
+                with open(os.path.join('data/wtt_matches', match['eventId'], f"{match['documentCode']}.json"), 'w') as f:
                     json.dump(match, f, ensure_ascii=False, indent=2)
             except Exception as e:
                 err = e
