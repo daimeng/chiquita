@@ -29,7 +29,9 @@ export const initDB = async () => {
 		upgrade(db, oldVersion, newVersion, transaction, event) {
 			console.log('Setting up db schema...')
 			console.log(oldVersion, newVersion, transaction, event)
-			db.deleteObjectStore('matches')
+			if (db.objectStoreNames.contains('matches')) {
+				db.deleteObjectStore('matches')
+			}
 			const matches = db.createObjectStore('matches', { keyPath: 'id', autoIncrement: true })
 			matches.createIndex('event_id', 'event_id', { unique: false })
 			matches.createIndex('a_id', 'a_id', { unique: false })
