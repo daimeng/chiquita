@@ -197,9 +197,7 @@ def parse_event(evt):
             print(evt, mf.stage.value_counts())
             raise e
 
-for file in os.listdir(directory):
-    filename = os.fsdecode(file)
-    if not filename.endswith(".json"):
-        continue
+for dir in os.listdir(directory):
+    dirname = os.fsdecode(dir)
 
-    parse_event(filename[:-5])
+    parse_event(dirname)
