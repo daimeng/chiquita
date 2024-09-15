@@ -1,0 +1,91 @@
+{
+  "eventId": "2787",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100439",
+      "competitiorName": "SALEH Ahmed",
+      "competitiorOrg": "EGY",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100439",
+          "playerName": "SALEH Ahmed",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,9,11,4,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100079",
+      "competitiorName": "ABIODUN Bode",
+      "competitiorOrg": "NGR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100079",
+          "playerName": "ABIODUN Bode",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,8,11,4,7",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "6-11,11-8,9-11,11-8,4-11,11-4,11-7",
+  "resultsGameScores": "6-11,11-8,9-11,11-8,4-11,11-4,11-7",
+  "overallScores": "4-3",
+  "resultOverallScores": "4-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100439",
+    "serverReceiver": "100079",
+    "serverNext": "100439",
+    "serverCompetitor": "100439",
+    "receiverNext": "100079"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:00:26",
+    "startDateLocal": "09/16/2023 19:00:00",
+    "startDateUTC": "09/16/2023 18:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "327"
+}

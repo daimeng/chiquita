@@ -1,0 +1,88 @@
+{
+  "eventId": "2615",
+  "documentCode": "TTEMSINGLES--------U21GP05000100----------",
+  "subEventName": "U21 Men's Singles",
+  "subEventDescription": "U21 Men's Singles - Group 5 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Eastland Shopping Centre",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134803",
+      "competitiorName": "BAE Hwan",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134803",
+          "playerName": "BAE Hwan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135693",
+      "competitiorName": "YEE Joshua",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135693",
+          "playerName": "YEE Joshua",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,3,8,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-3,11-8,0-0,0-0",
+  "resultsGameScores": "11-5,11-3,11-8,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135693",
+    "serverReceiver": "134803",
+    "serverNext": "135693",
+    "serverCompetitor": "135693",
+    "receiverNext": "135693"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:00",
+    "startDateLocal": "09/09/2022 02:40:00",
+    "startDateUTC": "09/08/2022 16:40:00"
+  },
+  "teamParentData": null
+}

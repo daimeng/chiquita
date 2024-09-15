@@ -1,0 +1,2784 @@
+{
+  "eventId": "2615",
+  "documentCode": "TTEMTEAM--------------GP0100030000--------",
+  "subEventName": "Men's Teams",
+  "subEventDescription": "Men's Teams - Group 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Eastland Shopping Centre",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "58746",
+      "competitiorName": "Table Tennis Australia Ltd. 1",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "58746",
+          "playerName": "Table Tennis Australia Ltd. 1",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "1,2,3,3,3",
+      "irm": "OK"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "58747",
+      "competitiorName": "Fiji Table Tennis Association 2",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "58747",
+          "playerName": "Fiji Table Tennis Association 2",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "0,0,0,0,0",
+      "irm": "OK"
+    }
+  ],
+  "currentGameNumber": 1,
+  "full_msg": null,
+  "gameScores": "1-0,2-0,3-0,3-0,3-0",
+  "resultsGameScores": "1-0,2-0,3-0,3-0,3-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "58747",
+    "serverReceiver": "58746",
+    "serverNext": "58747",
+    "serverCompetitor": "",
+    "receiverNext": "58747"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "02:30:00",
+    "startDateLocal": "09/06/2022 05:00:00",
+    "startDateUTC": "09/05/2022 19:00:00"
+  },
+  "teamParentData": {
+    "team_code": "TTEMTEAM--------------GP0100030000--------",
+    "extended_info": {
+      "final_result": [
+        {
+          "extension": null,
+          "type": "UI",
+          "code": "FINAL_RESULT",
+          "pos": null,
+          "value": "3-0"
+        }
+      ],
+      "matches": [
+        {
+          "value": "TTEMTEAM--------------GP0100030001--------",
+          "match_result": {
+            "eventId": "2615",
+            "documentCode": "TTEMTEAM--------------GP0100030001--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 1 - Match 3 M1",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Eastland Shopping Centre",
+            "tableNumber": "T01",
+            "tableName": "Table 1",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "117797",
+                "competitiorName": "YAN  Xin",
+                "competitiorOrg": "AUS",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "117797",
+                    "playerName": "YAN  Xin",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "11,11,11,0,0",
+                "irm": "OK"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "202989",
+                "competitiorName": "ZHANG Bei Yan",
+                "competitiorOrg": "FIJ",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "202989",
+                    "playerName": "ZHANG Bei Yan",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "3,5,2,0,0",
+                "irm": "OK"
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "11-3,11-5,11-2,0-0,0-0",
+            "resultsGameScores": "11-3,11-5,11-2,0-0,0-0",
+            "overallScores": "3-0",
+            "resultOverallScores": "3-0",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:11:37",
+              "startDateLocal": "09/05/2022 19:01:48",
+              "startDateUTC": "09/05/2022 09:01:48"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0100030000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "3-0"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "58746",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "AUS",
+                      "description": {
+                        "type": "T",
+                        "organization": "AUS",
+                        "teamName": "Table Tennis Australia Ltd. 1"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "1"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "33"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "9"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "-"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "17"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "16"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "5"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Xin",
+                                "familyName": "YAN ",
+                                "gender": "M",
+                                "organization": "AUS",
+                                "birthDate": "1988-12-09",
+                                "ifId": "117797",
+                                "class": null,
+                                "seed": 1
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "1"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "117797",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "58747",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "FIJ",
+                      "description": {
+                        "type": "T",
+                        "organization": "FIJ",
+                        "teamName": "Fiji Table Tennis Association 2"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "3"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "10"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "9"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "16"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "17"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Bei Yan",
+                                "familyName": "ZHANG",
+                                "gender": "M",
+                                "organization": "FIJ",
+                                "birthDate": "1951-05-22",
+                                "ifId": "202989",
+                                "class": null,
+                                "seed": 3
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "202989",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 1 - Match 3 M1",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Eastland Shopping Centre",
+                "tableNumber": "T01",
+                "tableName": "Table 1",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "58746",
+                    "competitiorName": "Xin YAN",
+                    "competitiorOrg": "AUS",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "117797",
+                        "playerName": "Xin YAN",
+                        "playerGivenName": "Xin",
+                        "playerFamilyName": "YAN",
+                        "playerOrgCode": "AUS",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "58747",
+                    "competitiorName": "Bei Yan ZHANG",
+                    "competitiorOrg": "FIJ",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "202989",
+                        "playerName": "Bei Yan ZHANG",
+                        "playerGivenName": "Bei Yan",
+                        "playerFamilyName": "ZHANG",
+                        "playerOrgCode": "FIJ",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": null,
+                "overallScores": "3-0",
+                "resultOverallScores": "3-0",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:11:37",
+                  "startDateLocal": "09/05/2022 19:01:48",
+                  "startDateUTC": "09/05/2022 09:01:48"
+                },
+                "teamParentData": null
+              }
+            },
+            "submatch_cache": true
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------GP0100030002--------",
+          "match_result": {
+            "eventId": "2615",
+            "documentCode": "TTEMTEAM--------------GP0100030002--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 1 - Match 3 M2",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Eastland Shopping Centre",
+            "tableNumber": "T01",
+            "tableName": "Table 1",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "119945",
+                "competitiorName": "DIXON Xavier",
+                "competitiorOrg": "AUS",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "119945",
+                    "playerName": "DIXON Xavier",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "11,11,11,0,0",
+                "irm": "OK"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "123935",
+                "competitiorName": "WU Vicky",
+                "competitiorOrg": "FIJ",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "123935",
+                    "playerName": "WU Vicky",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "2,4,2,0,0",
+                "irm": "OK"
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "11-2,11-4,11-2,0-0,0-0",
+            "resultsGameScores": "11-2,11-4,11-2,0-0,0-0",
+            "overallScores": "3-0",
+            "resultOverallScores": "3-0",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:15:34",
+              "startDateLocal": "09/05/2022 19:16:22",
+              "startDateUTC": "09/05/2022 09:16:22"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0100030000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "3-0"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "58746",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "AUS",
+                      "description": {
+                        "type": "T",
+                        "organization": "AUS",
+                        "teamName": "Table Tennis Australia Ltd. 1"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "1"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "33"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "9"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "14"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "19"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "10"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "1"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Xavier",
+                                "familyName": "DIXON",
+                                "gender": "M",
+                                "organization": "AUS",
+                                "birthDate": "1999-05-05",
+                                "ifId": "119945",
+                                "class": null,
+                                "seed": 1
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "1"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "119945",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "58747",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "FIJ",
+                      "description": {
+                        "type": "T",
+                        "organization": "FIJ",
+                        "teamName": "Fiji Table Tennis Association 2"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "3"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "8"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "9"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "2"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "6"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "19"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "14"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Vicky",
+                                "familyName": "WU",
+                                "gender": "M",
+                                "organization": "FIJ",
+                                "birthDate": "2005-04-08",
+                                "ifId": "123935",
+                                "class": null,
+                                "seed": 3
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "123935",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 1 - Match 3 M2",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Eastland Shopping Centre",
+                "tableNumber": "T01",
+                "tableName": "Table 1",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "58746",
+                    "competitiorName": "Xavier DIXON",
+                    "competitiorOrg": "AUS",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "119945",
+                        "playerName": "Xavier DIXON",
+                        "playerGivenName": "Xavier",
+                        "playerFamilyName": "DIXON",
+                        "playerOrgCode": "AUS",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "58747",
+                    "competitiorName": "Vicky WU",
+                    "competitiorOrg": "FIJ",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "123935",
+                        "playerName": "Vicky WU",
+                        "playerGivenName": "Vicky",
+                        "playerFamilyName": "WU",
+                        "playerOrgCode": "FIJ",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": null,
+                "overallScores": "3-0",
+                "resultOverallScores": "3-0",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:15:34",
+                  "startDateLocal": "09/05/2022 19:16:22",
+                  "startDateUTC": "09/05/2022 09:16:22"
+                },
+                "teamParentData": null
+              }
+            },
+            "submatch_cache": true
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------GP0100030003--------",
+          "match_result": {
+            "eventId": "2615",
+            "documentCode": "TTEMTEAM--------------GP0100030003--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 1 - Match 3 M3",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Eastland Shopping Centre",
+            "tableNumber": "T01",
+            "tableName": "Table 1",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "134800",
+                "competitiorName": "LUM Nicholas",
+                "competitiorOrg": "AUS",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "134800",
+                    "playerName": "LUM Nicholas",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "11,11,11,0,0",
+                "irm": "OK"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "133554",
+                "competitiorName": "CHAUHAN Jai",
+                "competitiorOrg": "FIJ",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "133554",
+                    "playerName": "CHAUHAN Jai",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "5,3,1,0,0",
+                "irm": "OK"
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "11-5,11-3,11-1,0-0,0-0",
+            "resultsGameScores": "11-5,11-3,11-1,0-0,0-0",
+            "overallScores": "3-0",
+            "resultOverallScores": "3-0",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:13:19",
+              "startDateLocal": "09/05/2022 19:34:53",
+              "startDateUTC": "09/05/2022 09:34:53"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0100030000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "3-0"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "58746",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "AUS",
+                      "description": {
+                        "type": "T",
+                        "organization": "AUS",
+                        "teamName": "Table Tennis Australia Ltd. 1"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "1"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "33"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "10"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "-"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "16"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "17"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "5"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "9"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Nicholas",
+                                "familyName": "LUM",
+                                "gender": "M",
+                                "organization": "AUS",
+                                "birthDate": "2005-05-29",
+                                "ifId": "134800",
+                                "class": null,
+                                "seed": 1
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "1"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "134800",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "58747",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "FIJ",
+                      "description": {
+                        "type": "T",
+                        "organization": "FIJ",
+                        "teamName": "Fiji Table Tennis Association 2"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "3"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": "9"
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": "10"
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "5"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": "4"
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "17"
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": "16"
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": "1"
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": "-"
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Jai",
+                                "familyName": "CHAUHAN",
+                                "gender": "M",
+                                "organization": "FIJ",
+                                "birthDate": "2006-02-05",
+                                "ifId": "133554",
+                                "class": null,
+                                "seed": 3
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "3"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": []
+                              },
+                              "code": "133554",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 1 - Match 3 M3",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Eastland Shopping Centre",
+                "tableNumber": "T01",
+                "tableName": "Table 1",
+                "competitiors": [
+                  {
+                    "competitorType": "H",
+                    "competitiorId": "58746",
+                    "competitiorName": "Nicholas LUM",
+                    "competitiorOrg": "AUS",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "134800",
+                        "playerName": "Nicholas LUM",
+                        "playerGivenName": "Nicholas",
+                        "playerFamilyName": "LUM",
+                        "playerOrgCode": "AUS",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "58747",
+                    "competitiorName": "Jai CHAUHAN",
+                    "competitiorOrg": "FIJ",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "133554",
+                        "playerName": "Jai CHAUHAN",
+                        "playerGivenName": "Jai",
+                        "playerFamilyName": "CHAUHAN",
+                        "playerOrgCode": "FIJ",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": null,
+                "overallScores": "3-0",
+                "resultOverallScores": "3-0",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:13:19",
+                  "startDateLocal": "09/05/2022 19:34:53",
+                  "startDateUTC": "09/05/2022 09:34:53"
+                },
+                "teamParentData": null
+              }
+            },
+            "submatch_cache": true
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------GP0100030004--------",
+          "match_result": {
+            "eventId": "2615",
+            "documentCode": "TTEMTEAM--------------GP0100030004--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 1 - Match 3 M4",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Eastland Shopping Centre",
+            "tableNumber": "T01",
+            "tableName": " Table 1",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "134800",
+                "competitiorName": "YAN Chris",
+                "competitiorOrg": "AUS",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "134800",
+                    "playerName": "YAN Chris",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "11,11,11,0,0",
+                "irm": null
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "133554",
+                "competitiorName": "WU Vicky",
+                "competitiorOrg": "FIJ",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "133554",
+                    "playerName": "WU Vicky",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "5,3,1,0,0",
+                "irm": null
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "11-4,11-3,11-4,0-0,0-0",
+            "resultsGameScores": "11-4,11-3,11-4,0-0,0-0",
+            "overallScores": "3-0",
+            "resultOverallScores": null,
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": null,
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0100030000--------",
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": null,
+                "subEventDescription": null,
+                "matchConfig": null,
+                "venueName": null,
+                "tableNumber": null,
+                "tableName": null,
+                "competitiors": null,
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": null,
+                "overallScores": null,
+                "resultOverallScores": null,
+                "resultStatus": null,
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": null,
+                "teamParentData": null,
+                "playByPlaySequenceNumber": null
+              }
+            },
+            "playByPlaySequenceNumber": "119",
+            "submatch_cache": true
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------GP0100030005--------",
+          "match_result": {
+            "eventId": "2615",
+            "documentCode": "TTEMTEAM--------------GP0100030005--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 1 - Match 3 M5",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Eastland Shopping Centre",
+            "tableNumber": "T01",
+            "tableName": " Table 1",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "134800",
+                "competitiorName": "DIXON Xavier",
+                "competitiorOrg": "AUS",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "134800",
+                    "playerName": "DIXON Xavier",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "11,11,11,0,0",
+                "irm": null
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "133554",
+                "competitiorName": "ZHANG Bei Yan",
+                "competitiorOrg": "FIJ",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "133554",
+                    "playerName": "ZHANG Bei Yan",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "5,3,1,0,0",
+                "irm": null
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "11-4,11-2,11-6,0-0,0-0",
+            "resultsGameScores": "11-4,11-2,11-6,0-0,0-0",
+            "overallScores": "3-0",
+            "resultOverallScores": null,
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "",
+              "serverReceiver": "",
+              "serverNext": "",
+              "serverCompetitor": "",
+              "receiverNext": ""
+            },
+            "resultSet": null,
+            "matchDateTime": null,
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0100030000--------",
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": null,
+                "subEventDescription": null,
+                "matchConfig": null,
+                "venueName": null,
+                "tableNumber": null,
+                "tableName": null,
+                "competitiors": null,
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": null,
+                "overallScores": null,
+                "resultOverallScores": null,
+                "resultStatus": null,
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": null,
+                "teamParentData": null,
+                "playByPlaySequenceNumber": null
+              }
+            },
+            "playByPlaySequenceNumber": "119",
+            "submatch_cache": true
+          }
+        }
+      ],
+      "result_competitors": [
+        [
+          {
+            "code": "58746",
+            "type": "T",
+            "wlt": "W",
+            "roundforRankingCal": null,
+            "organization": "AUS",
+            "description": {
+              "type": "T",
+              "organization": "AUS",
+              "teamName": "Table Tennis Australia Ltd. 1"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "0"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "0"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "5"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Xin",
+                      "familyName": "YAN ",
+                      "gender": "M",
+                      "organization": "AUS",
+                      "birthDate": "1988-12-09",
+                      "ifId": "117797",
+                      "class": null,
+                      "seed": 0
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "0"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "117797",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Xavier",
+                      "familyName": "DIXON",
+                      "gender": "M",
+                      "organization": "AUS",
+                      "birthDate": "1999-05-05",
+                      "ifId": "119945",
+                      "class": null,
+                      "seed": 0
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "0"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "119945",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Finn",
+                      "familyName": "LUU",
+                      "gender": "M",
+                      "organization": "AUS",
+                      "birthDate": "2004-12-14",
+                      "ifId": "131798",
+                      "class": null,
+                      "seed": 0
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "0"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "131798",
+                    "order": 3
+                  },
+                  {
+                    "description": {
+                      "givenName": "Nicholas",
+                      "familyName": "LUM",
+                      "gender": "M",
+                      "organization": "AUS",
+                      "birthDate": "2005-05-29",
+                      "ifId": "134800",
+                      "class": null,
+                      "seed": 0
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "0"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "134800",
+                    "order": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "code": "58747",
+            "type": "T",
+            "wlt": "L",
+            "roundforRankingCal": null,
+            "organization": "FIJ",
+            "description": {
+              "type": "T",
+              "organization": "FIJ",
+              "teamName": "Fiji Table Tennis Association 2"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "0"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "0"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "5"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Vicky",
+                      "familyName": "WU",
+                      "gender": "M",
+                      "organization": "FIJ",
+                      "birthDate": "2005-04-08",
+                      "ifId": "123935",
+                      "class": null,
+                      "seed": 0
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "0"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "123935",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Jai",
+                      "familyName": "CHAUHAN",
+                      "gender": "M",
+                      "organization": "FIJ",
+                      "birthDate": "2006-02-05",
+                      "ifId": "133554",
+                      "class": null,
+                      "seed": 0
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "0"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "133554",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Joshua",
+                      "familyName": "YEE",
+                      "gender": "M",
+                      "organization": "FIJ",
+                      "birthDate": "2002-07-26",
+                      "ifId": "135693",
+                      "class": null,
+                      "seed": 0
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "0"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "135693",
+                    "order": 3
+                  },
+                  {
+                    "description": {
+                      "givenName": "Bei Yan",
+                      "familyName": "ZHANG",
+                      "gender": "M",
+                      "organization": "FIJ",
+                      "birthDate": "1951-05-22",
+                      "ifId": "202989",
+                      "class": null,
+                      "seed": 0
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "0"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "202989",
+                    "order": 4
+                  },
+                  {
+                    "description": {
+                      "givenName": "Cheng",
+                      "familyName": "ZHOU",
+                      "gender": "M",
+                      "organization": "FIJ",
+                      "birthDate": "2011-05-25",
+                      "ifId": "202915",
+                      "class": null,
+                      "seed": 0
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "0"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "202915",
+                    "order": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "comp_data": {
+      "eventId": null,
+      "documentCode": null,
+      "subEventName": "Men's Teams",
+      "subEventDescription": "Men's Teams - Group 1 - Match 3",
+      "matchConfig": {
+        "bestOfXGames": 5,
+        "maxPointsPerGame": 11,
+        "advantagePerGame": 2,
+        "suddenDeathPoint": 99,
+        "maxChallengesPerCompetitor": 2,
+        "yellowCard": true,
+        "yellowRed1": true,
+        "yellowRed2": true,
+        "tTRReview": true
+      },
+      "venueName": "Eastland Shopping Centre",
+      "tableNumber": "T01",
+      "tableName": "Table 1",
+      "competitiors": [
+        {
+          "competitorType": "H",
+          "competitiorId": "58746",
+          "competitiorName": "Nicholas LUM",
+          "competitiorOrg": "AUS",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "117797",
+              "playerName": "Xin YAN",
+              "playerGivenName": "Xin",
+              "playerFamilyName": "YAN",
+              "playerOrgCode": "AUS",
+              "playerPosition": null
+            },
+            {
+              "playerId": "119945",
+              "playerName": "Xavier DIXON",
+              "playerGivenName": "Xavier",
+              "playerFamilyName": "DIXON",
+              "playerOrgCode": "AUS",
+              "playerPosition": null
+            },
+            {
+              "playerId": "131798",
+              "playerName": "Finn LUU",
+              "playerGivenName": "Finn",
+              "playerFamilyName": "LUU",
+              "playerOrgCode": "AUS",
+              "playerPosition": null
+            },
+            {
+              "playerId": "134800",
+              "playerName": "Nicholas LUM",
+              "playerGivenName": "Nicholas",
+              "playerFamilyName": "LUM",
+              "playerOrgCode": "AUS",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "OK"
+        },
+        {
+          "competitorType": "A",
+          "competitiorId": "58747",
+          "competitiorName": "Cheng ZHOU",
+          "competitiorOrg": "FIJ",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "123935",
+              "playerName": "Vicky WU",
+              "playerGivenName": "Vicky",
+              "playerFamilyName": "WU",
+              "playerOrgCode": "FIJ",
+              "playerPosition": null
+            },
+            {
+              "playerId": "133554",
+              "playerName": "Jai CHAUHAN",
+              "playerGivenName": "Jai",
+              "playerFamilyName": "CHAUHAN",
+              "playerOrgCode": "FIJ",
+              "playerPosition": null
+            },
+            {
+              "playerId": "135693",
+              "playerName": "Joshua YEE",
+              "playerGivenName": "Joshua",
+              "playerFamilyName": "YEE",
+              "playerOrgCode": "FIJ",
+              "playerPosition": null
+            },
+            {
+              "playerId": "202989",
+              "playerName": "Bei Yan ZHANG",
+              "playerGivenName": "Bei Yan",
+              "playerFamilyName": "ZHANG",
+              "playerOrgCode": "FIJ",
+              "playerPosition": null
+            },
+            {
+              "playerId": "202915",
+              "playerName": "Cheng ZHOU",
+              "playerGivenName": "Cheng",
+              "playerFamilyName": "ZHOU",
+              "playerOrgCode": "FIJ",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "OK"
+        }
+      ],
+      "currentGameNumber": null,
+      "full_msg": null,
+      "gameScores": null,
+      "resultsGameScores": null,
+      "overallScores": "3-0",
+      "resultOverallScores": "3-0",
+      "resultStatus": "OFFICIAL",
+      "action": null,
+      "resultSet": null,
+      "matchDateTime": {
+        "duration": "02:30:00",
+        "startDateLocal": "09/06/2022 05:00:00",
+        "startDateUTC": "09/05/2022 19:00:00"
+      },
+      "teamParentData": null,
+      "playByPlaySequenceNumber": null
+    }
+  },
+  "playByPlaySequenceNumber": "3"
+}

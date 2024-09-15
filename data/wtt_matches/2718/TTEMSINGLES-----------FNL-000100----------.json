@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------FNL-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131798",
+      "competitiorName": "LUU Finn",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131798",
+          "playerName": "LUU Finn",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,8,10,7,11,3,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "201504",
+      "competitiorName": "SAREEN Aditya",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "201504",
+          "playerName": "SAREEN Aditya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,12,11,4,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 6,
+  "full_msg": null,
+  "gameScores": "12-10,8-11,10-12,7-11,11-4,3-11,0-0",
+  "resultsGameScores": "12-10,8-11,10-12,7-11,11-4,3-11,0-0",
+  "overallScores": "2-4",
+  "resultOverallScores": "2-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "201504",
+    "serverReceiver": "131798",
+    "serverNext": "201504",
+    "serverCompetitor": "201504",
+    "receiverNext": "201504"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/09/2023 17:00:00",
+    "startDateUTC": "09/09/2023 07:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

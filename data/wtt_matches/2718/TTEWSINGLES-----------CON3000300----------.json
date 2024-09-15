@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEWSINGLES-----------CON3000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Consolation Quarterfinals - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112591",
+      "competitiorName": "LI Carolyn",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112591",
+          "playerName": "LI Carolyn",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIJ",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "105867",
+      "competitiorName": "FAEHAU Fabiana",
+      "competitiorOrg": "NCL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105867",
+          "playerName": "FAEHAU Fabiana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NCL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,3,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "7-11,11-4,11-3,11-5,0-0",
+  "resultsGameScores": "7-11,11-4,11-3,11-5,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "105867",
+    "serverReceiver": "112591",
+    "serverNext": "105867",
+    "serverCompetitor": "105867",
+    "receiverNext": "105867"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/08/2023 18:00:00",
+    "startDateUTC": "09/08/2023 08:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

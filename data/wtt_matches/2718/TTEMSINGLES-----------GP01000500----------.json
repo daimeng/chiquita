@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------GP01000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134800",
+      "competitiorName": "LUM Nicholas",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134800",
+          "playerName": "LUM Nicholas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "13,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "116477",
+      "competitiorName": "WANG Roger",
+      "competitiorOrg": "NZL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116477",
+          "playerName": "WANG Roger",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NZL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "13-11,11-8,11-7,0-0,0-0",
+  "resultsGameScores": "13-11,11-8,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116477",
+    "serverReceiver": "134800",
+    "serverNext": "116477",
+    "serverCompetitor": "116477",
+    "receiverNext": "116477"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/07/2023 12:20:00",
+    "startDateUTC": "09/07/2023 02:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES--------U15CON3000300----------",
+  "subEventName": "U15 Boys' Singles",
+  "subEventDescription": "U15 Boys' Singles - Consolation Quarterfinals - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T08",
+  "tableName": "Table 8",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "206759",
+      "competitiorName": "KING Gideon",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "206759",
+          "playerName": "KING Gideon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIJ",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "2,6,11,6,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "206648",
+      "competitiorName": "GALINIE Noa",
+      "competitiorOrg": "NCL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "206648",
+          "playerName": "GALINIE Noa",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NCL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,8,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "2-11,6-11,11-8,6-11,0-0",
+  "resultsGameScores": "2-11,6-11,11-8,6-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "206648",
+    "serverReceiver": "206759",
+    "serverNext": "206648",
+    "serverCompetitor": "206648",
+    "receiverNext": "206648"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/08/2023 17:00:00",
+    "startDateUTC": "09/08/2023 07:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

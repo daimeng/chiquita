@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------CON3000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Consolation Quarterfinals - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T08",
+  "tableName": "Table 8",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133613",
+      "competitiorName": "CARNET Bydhir",
+      "competitiorOrg": "PYF",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133613",
+          "playerName": "CARNET Bydhir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PYF",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,11,4,11,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122814",
+      "competitiorName": "LOI Geoffrey",
+      "competitiorOrg": "PNG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122814",
+          "playerName": "LOI Geoffrey",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PNG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,7,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "4-11,11-7,4-11,11-7,6-11",
+  "resultsGameScores": "4-11,11-7,4-11,11-7,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122814",
+    "serverReceiver": "133613",
+    "serverNext": "122814",
+    "serverCompetitor": "122814",
+    "receiverNext": "122814"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/08/2023 18:30:00",
+    "startDateUTC": "09/08/2023 08:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

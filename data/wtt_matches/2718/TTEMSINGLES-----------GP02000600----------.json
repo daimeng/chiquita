@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------GP02000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 2 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T07",
+  "tableName": "Table 7",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134904",
+      "competitiorName": "HENDERSON Maxwell",
+      "competitiorOrg": "NZL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134904",
+          "playerName": "HENDERSON Maxwell",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NZL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "101861",
+      "competitiorName": "CLANRY Clarence",
+      "competitiorOrg": "MHL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101861",
+          "playerName": "CLANRY Clarence",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MHL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,6,5,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-2,11-6,11-5,0-0,0-0",
+  "resultsGameScores": "11-2,11-6,11-5,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "101861",
+    "serverReceiver": "134904",
+    "serverNext": "101861",
+    "serverCompetitor": "101861",
+    "receiverNext": "101861"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/07/2023 12:40:00",
+    "startDateUTC": "09/07/2023 02:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

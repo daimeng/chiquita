@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "201504",
+      "competitiorName": "SAREEN Aditya",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "201504",
+          "playerName": "SAREEN Aditya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,15,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "118523",
+      "competitiorName": "CHAMBERS Dillon",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118523",
+          "playerName": "CHAMBERS Dillon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,13,6,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,11-9,15-13,11-6,11-7,0-0,0-0",
+  "resultsGameScores": "6-11,11-9,15-13,11-6,11-7,0-0,0-0",
+  "overallScores": "4-1",
+  "resultOverallScores": "4-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "118523",
+    "serverReceiver": "201504",
+    "serverNext": "118523",
+    "serverCompetitor": "118523",
+    "receiverNext": "118523"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/08/2023 20:20:00",
+    "startDateUTC": "09/08/2023 10:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

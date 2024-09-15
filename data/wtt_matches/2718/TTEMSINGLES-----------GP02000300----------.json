@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------GP02000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T07",
+  "tableName": "Table 7",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "119945",
+      "competitiorName": "DIXON Xavier",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119945",
+          "playerName": "DIXON Xavier",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134904",
+      "competitiorName": "HENDERSON Maxwell",
+      "competitiorOrg": "NZL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134904",
+          "playerName": "HENDERSON Maxwell",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NZL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,5,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-5,11-7,0-0,0-0",
+  "resultsGameScores": "11-5,11-5,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134904",
+    "serverReceiver": "119945",
+    "serverNext": "134904",
+    "serverCompetitor": "134904",
+    "receiverNext": "134904"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/07/2023 11:40:00",
+    "startDateUTC": "09/07/2023 01:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

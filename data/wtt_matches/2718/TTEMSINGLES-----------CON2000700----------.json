@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------CON2000700----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Consolation Round of 16 - Match 7",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T08",
+  "tableName": "Table 8",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "206277",
+      "competitiorName": "CLOUET Olivier",
+      "competitiorOrg": "NCL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "206277",
+          "playerName": "CLOUET Olivier",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NCL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,15,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119371",
+      "competitiorName": "LOI David",
+      "competitiorOrg": "PNG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119371",
+          "playerName": "LOI David",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PNG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,13,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,8-11,15-13,11-8,0-0",
+  "resultsGameScores": "11-9,8-11,15-13,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119371",
+    "serverReceiver": "206277",
+    "serverNext": "119371",
+    "serverCompetitor": "119371",
+    "receiverNext": "119371"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/08/2023 15:30:00",
+    "startDateUTC": "09/08/2023 05:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

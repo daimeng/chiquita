@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEWSINGLES-----------GP05000500----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Group 5 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123938",
+      "competitiorName": "YEE Grace Rosi",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123938",
+          "playerName": "YEE Grace Rosi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIJ",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,4,14,4,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "137055",
+      "competitiorName": "WONG Heimoe",
+      "competitiorOrg": "PYF",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137055",
+          "playerName": "WONG Heimoe",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PYF",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,12,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,4-11,14-12,4-11,6-11",
+  "resultsGameScores": "11-8,4-11,14-12,4-11,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137055",
+    "serverReceiver": "123938",
+    "serverNext": "137055",
+    "serverCompetitor": "137055",
+    "receiverNext": "137055"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/07/2023 10:20:00",
+    "startDateUTC": "09/07/2023 00:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

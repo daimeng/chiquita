@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------GP06000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 6 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "101040",
+      "competitiorName": "BELROSE Ocean",
+      "competitiorOrg": "PYF",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101040",
+          "playerName": "BELROSE Ocean",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PYF",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,8,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "106344",
+      "competitiorName": "MORISSEAU Jerome",
+      "competitiorOrg": "NCL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106344",
+          "playerName": "MORISSEAU Jerome",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NCL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,8,9,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,8-11,11-8,11-9,11-8",
+  "resultsGameScores": "6-11,8-11,11-8,11-9,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "106344",
+    "serverReceiver": "101040",
+    "serverNext": "106344",
+    "serverCompetitor": "106344",
+    "receiverNext": "106344"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/07/2023 12:20:00",
+    "startDateUTC": "09/07/2023 02:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

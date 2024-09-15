@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------GP03000600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 3 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "201504",
+      "competitiorName": "SAREEN Aditya",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "201504",
+          "playerName": "SAREEN Aditya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "202860",
+      "competitiorName": "BOB Kabuati",
+      "competitiorOrg": "MHL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202860",
+          "playerName": "BOB Kabuati",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MHL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "1,2,3,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-1,11-2,11-3,0-0,0-0",
+  "resultsGameScores": "11-1,11-2,11-3,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "202860",
+    "serverReceiver": "201504",
+    "serverNext": "202860",
+    "serverCompetitor": "202860",
+    "receiverNext": "202860"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/07/2023 12:40:00",
+    "startDateUTC": "09/07/2023 02:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

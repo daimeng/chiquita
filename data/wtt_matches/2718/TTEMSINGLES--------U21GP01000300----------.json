@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES--------U21GP01000300----------",
+  "subEventName": "U21 Men's Singles",
+  "subEventDescription": "U21 Men's Singles - Group 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123935",
+      "competitiorName": "WU Vicky",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123935",
+          "playerName": "WU Vicky",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIJ",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "2,8,9,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134904",
+      "competitiorName": "HENDERSON Maxwell",
+      "competitiorOrg": "NZL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134904",
+          "playerName": "HENDERSON Maxwell",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NZL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "2-11,8-11,9-11,0-0,0-0",
+  "resultsGameScores": "2-11,8-11,9-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134904",
+    "serverReceiver": "123935",
+    "serverNext": "134904",
+    "serverCompetitor": "134904",
+    "receiverNext": "134904"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/06/2023 11:40:00",
+    "startDateUTC": "09/06/2023 01:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

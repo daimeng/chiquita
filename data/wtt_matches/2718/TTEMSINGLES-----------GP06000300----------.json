@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------GP06000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 6 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "101040",
+      "competitiorName": "BELROSE Ocean",
+      "competitiorOrg": "PYF",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "101040",
+          "playerName": "BELROSE Ocean",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PYF",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122814",
+      "competitiorName": "LOI Geoffrey",
+      "competitiorOrg": "PNG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122814",
+          "playerName": "LOI Geoffrey",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PNG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,7,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,5-11,11-7,11-9,0-0",
+  "resultsGameScores": "11-7,5-11,11-7,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122814",
+    "serverReceiver": "101040",
+    "serverNext": "122814",
+    "serverCompetitor": "122814",
+    "receiverNext": "122814"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/07/2023 11:40:00",
+    "startDateUTC": "09/07/2023 01:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES--------U21CON4000100----------",
+  "subEventName": "U21 Men's Singles",
+  "subEventDescription": "U21 Men's Singles - Consolation Semifinals - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136202",
+      "competitiorName": "CHOI Timothy",
+      "competitiorOrg": "NZL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136202",
+          "playerName": "CHOI Timothy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NZL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,3,8,15,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "202879",
+      "competitiorName": "VARDINEJAD Rayan",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202879",
+          "playerName": "VARDINEJAD Rayan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,11,13,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,3-11,8-11,15-13,7-11",
+  "resultsGameScores": "11-5,3-11,8-11,15-13,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "202879",
+    "serverReceiver": "136202",
+    "serverNext": "202879",
+    "serverCompetitor": "202879",
+    "receiverNext": "202879"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/08/2023 19:30:00",
+    "startDateUTC": "09/08/2023 09:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

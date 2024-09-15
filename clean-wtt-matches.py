@@ -35,7 +35,7 @@ def parse_match(m: dict, matches: list):
 
     if isTeam:
         # this is a team match, handle diff
-        if not m['teamParentData']:
+        if not m['teamParentData'] or 'extended_info' not in m['teamParentData']:
             return
         if 'matches' not in m['teamParentData']['extended_info']:
             return
@@ -58,8 +58,8 @@ def parse_match(m: dict, matches: list):
         y_id = comp['players'][1]['playerId']
 
     # process date and time data
-    startDate = m['matchDateTime']['startDateUTC'] or m['matchDateTime']['startDateLocal']
     try:
+        startDate = m['matchDateTime']['startDateUTC'] or m['matchDateTime']['startDateLocal']
         dt = datetime.strptime(startDate, '%m/%d/%Y %H:%M:%S')
     except Exception as e:
         evtid = int(m['eventId'])
@@ -69,7 +69,7 @@ def parse_match(m: dict, matches: list):
             print(json.dumps(m, indent=2))
             raise e
 
-    if m['matchDateTime']['duration']:
+    if m['matchDateTime'] and m['matchDateTime']['duration']:
         parsed = False
         for fmt in {'%H:%M:%S', '%H:%M', ':%M'}:
             try:
@@ -92,9 +92,12 @@ def parse_match(m: dict, matches: list):
     if m['resultOverallScores'] and ',' in m['resultOverallScores']:
         mscore = m['overallScores']
 
-    # don't count withdrawals
+    # don't count withdrawals and injuries
     if 'WO' in mscore:
         return
+    if 'INJ' in mscore:
+        return
+
     res = mscore.split('-')
 
     evt = int(m['eventId'])
@@ -152,10 +155,19 @@ STAGE_TO_NUM = {
     'RND3': 110,
     'RND2': 120,
     'RND1': 130,
+    'CON2': 152,
+    'CON3': 153,
+    'CON4': 154,
+    'CON5': 155,
     '34': 160,
-    '910': 192,
-    '912': 194,
-    '916': 196,
+    '56': 182,
+    '58': 184,
+    '78': 186,
+    '910': 188,
+    '912': 190,
+    '916': 192,
+    '1112': 194,
+    '1314': 196,
     '1616': 198,
     'GP01': 201,
     'GP02': 202,

@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEWSINGLES-----------CON5000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Consolation Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T08",
+  "tableName": "Table 8",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "202862",
+      "competitiorName": "TEHAHETUA Keala",
+      "competitiorOrg": "PYF",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202862",
+          "playerName": "TEHAHETUA Keala",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PYF",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,14,5,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "137055",
+      "competitiorName": "WONG Heimoe",
+      "competitiorOrg": "PYF",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137055",
+          "playerName": "WONG Heimoe",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PYF",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,16,11,8,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-7,14-16,5-11,11-8,11-9",
+  "resultsGameScores": "11-7,14-16,5-11,11-8,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137055",
+    "serverReceiver": "202862",
+    "serverNext": "137055",
+    "serverCompetitor": "137055",
+    "receiverNext": "137055"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/09/2023 10:30:00",
+    "startDateUTC": "09/09/2023 00:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

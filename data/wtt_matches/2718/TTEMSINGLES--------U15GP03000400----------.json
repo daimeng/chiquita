@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES--------U15GP03000400----------",
+  "subEventName": "U15 Boys' Singles",
+  "subEventDescription": "U15 Boys' Singles - Group 3 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "206759",
+      "competitiorName": "KING Gideon",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "206759",
+          "playerName": "KING Gideon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIJ",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,1,2,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "206629",
+      "competitiorName": "HUANG Jacob",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "206629",
+          "playerName": "HUANG Jacob",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "4-11,1-11,2-11,0-0,0-0",
+  "resultsGameScores": "4-11,1-11,2-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "206629",
+    "serverReceiver": "206759",
+    "serverNext": "206629",
+    "serverCompetitor": "206629",
+    "receiverNext": "206629"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/06/2023 10:00:00",
+    "startDateUTC": "09/06/2023 00:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

@@ -1,0 +1,4110 @@
+{
+  "eventId": "2787",
+  "documentCode": "TTEMTEAM--------------GP0200020000--------",
+  "subEventName": "Men's Teams",
+  "subEventDescription": "Men's Teams - Group 2 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100116252",
+      "competitiorName": "Zimbabwe Table Tennis Union 16",
+      "competitiorOrg": "ZIM",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100116252",
+          "playerName": "Zimbabwe Table Tennis Union 16",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "0,0,0,0,0",
+      "irm": "OK"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100116245",
+      "competitiorName": "F?d?ration Malgache de Tennis de Table 9",
+      "competitiorOrg": "MAD",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100116245",
+          "playerName": "F?d?ration Malgache de Tennis de Table 9",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "1,1,1,1,1",
+      "irm": "OK"
+    }
+  ],
+  "currentGameNumber": 1,
+  "full_msg": null,
+  "gameScores": "0-1,0-1,0-1,0-1,0-1",
+  "resultsGameScores": "",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-1,0-1,0-1,0-1,0-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "LV",
+    "serverPlayer": "100116245",
+    "serverReceiver": "100116252",
+    "serverNext": "100116245",
+    "serverCompetitor": "",
+    "receiverNext": "100116245"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/11/2023 11:30:00",
+    "startDateUTC": "09/11/2023 10:30:00"
+  },
+  "teamParentData": {
+    "team_code": "TTEMTEAM--------------GP0200020000--------",
+    "extended_info": {
+      "final_result": [
+        {
+          "extension": null,
+          "type": "UI",
+          "code": "FINAL_RESULT",
+          "pos": null,
+          "value": "0-3"
+        }
+      ],
+      "matches": [
+        {
+          "value": "TTEMTEAM--------------GP0200020001--------",
+          "match_result": {
+            "eventId": "2787",
+            "documentCode": "TTEMTEAM--------------GP0200020001--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 2 - Match 2 M1",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Salle Omnisport de Rades",
+            "tableNumber": "T06",
+            "tableName": "Table 6",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "202381",
+                "competitiorName": "FAMBIRA Tinotenda",
+                "competitiorOrg": "ZIM",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "202381",
+                    "playerName": "FAMBIRA Tinotenda",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "7,3,7,0,0",
+                "irm": "OK"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "203934",
+                "competitiorName": "RAZAFINARIVO Antoine",
+                "competitiorOrg": "MAD",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "203934",
+                    "playerName": "RAZAFINARIVO Antoine",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "11,11,11,0,0",
+                "irm": "OK"
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "7-11,3-11,7-11,0-0,0-0",
+            "resultsGameScores": "7-11,3-11,7-11,0-0,0-0",
+            "overallScores": "0-3",
+            "resultOverallScores": "0-3",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "203934",
+              "serverReceiver": "202381",
+              "serverNext": "203934",
+              "serverCompetitor": "100116245",
+              "receiverNext": "203934"
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:00:00",
+              "startDateLocal": "09/11/2023 11:30:00",
+              "startDateUTC": "09/11/2023 10:30:00"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0200020000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "0-3"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "100116252",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "ZIM",
+                      "description": {
+                        "type": "T",
+                        "organization": "ZIM",
+                        "teamName": "Zimbabwe Table Tennis Union 16"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "7"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Tinotenda",
+                                "familyName": "FAMBIRA",
+                                "gender": "M",
+                                "organization": "ZIM",
+                                "birthDate": "2003-06-18",
+                                "ifId": "202381",
+                                "class": null,
+                                "seed": 7
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  }
+                                ]
+                              },
+                              "code": "202381",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "100116245",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "MAD",
+                      "description": {
+                        "type": "T",
+                        "organization": "MAD",
+                        "teamName": "F?d?ration Malgache de Tennis de Table 9"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "16"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Antoine",
+                                "familyName": "RAZAFINARIVO",
+                                "gender": "M",
+                                "organization": "MAD",
+                                "birthDate": "2004-04-09",
+                                "ifId": "203934",
+                                "class": null,
+                                "seed": 16
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "16"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  }
+                                ]
+                              },
+                              "code": "203934",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 2 - Match 2 M1",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Salle Omnisport de Rades",
+                "tableNumber": "T06",
+                "tableName": "Table 6",
+                "competitiors": [
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "100116252",
+                    "competitiorName": "Tinotenda FAMBIRA",
+                    "competitiorOrg": "ZIM",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "202381",
+                        "playerName": "Tinotenda FAMBIRA",
+                        "playerGivenName": "Tinotenda",
+                        "playerFamilyName": "FAMBIRA",
+                        "playerOrgCode": "ZIM",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "100116245",
+                    "competitiorName": "Antoine RAZAFINARIVO",
+                    "competitiorOrg": "MAD",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "203934",
+                        "playerName": "Antoine RAZAFINARIVO",
+                        "playerGivenName": "Antoine",
+                        "playerFamilyName": "RAZAFINARIVO",
+                        "playerOrgCode": "MAD",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": "7-11,3-11,7-11,0-0,0-0",
+                "overallScores": "0-3",
+                "resultOverallScores": "0-3",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:00:00",
+                  "startDateLocal": "09/11/2023 11:30:00",
+                  "startDateUTC": "09/11/2023 10:30:00"
+                },
+                "teamParentData": null,
+                "playByPlaySequenceNumber": null
+              }
+            },
+            "playByPlaySequenceNumber": "2",
+            "submatch_cache": true
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------GP0200020002--------",
+          "match_result": {
+            "eventId": "2787",
+            "documentCode": "TTEMTEAM--------------GP0200020002--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 2 - Match 2 M2",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Salle Omnisport de Rades",
+            "tableNumber": "T06",
+            "tableName": "Table 6",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "202383",
+                "competitiorName": "MUMVUMA Tatenda",
+                "competitiorOrg": "ZIM",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "202383",
+                    "playerName": "MUMVUMA Tatenda",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "1,4,6,0,0",
+                "irm": "OK"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "133367",
+                "competitiorName": "RAKOTOARIMANANA Fabio",
+                "competitiorOrg": "MAD",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "133367",
+                    "playerName": "RAKOTOARIMANANA Fabio",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "11,11,11,0,0",
+                "irm": "OK"
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "1-11,4-11,6-11,0-0,0-0",
+            "resultsGameScores": "1-11,4-11,6-11,0-0,0-0",
+            "overallScores": "0-3",
+            "resultOverallScores": "0-3",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "133367",
+              "serverReceiver": "202383",
+              "serverNext": "133367",
+              "serverCompetitor": "100116245",
+              "receiverNext": "133367"
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:00:00",
+              "startDateLocal": "09/11/2023 11:30:00",
+              "startDateUTC": "09/11/2023 10:30:00"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0200020000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "0-3"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "100116252",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "ZIM",
+                      "description": {
+                        "type": "T",
+                        "organization": "ZIM",
+                        "teamName": "Zimbabwe Table Tennis Union 16"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "7"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Tatenda",
+                                "familyName": "MUMVUMA",
+                                "gender": "M",
+                                "organization": "ZIM",
+                                "birthDate": "1998-02-08",
+                                "ifId": "202383",
+                                "class": null,
+                                "seed": 7
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  }
+                                ]
+                              },
+                              "code": "202383",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "100116245",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "MAD",
+                      "description": {
+                        "type": "T",
+                        "organization": "MAD",
+                        "teamName": "F?d?ration Malgache de Tennis de Table 9"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "16"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Fabio",
+                                "familyName": "RAKOTOARIMANANA",
+                                "gender": "M",
+                                "organization": "MAD",
+                                "birthDate": "2003-07-24",
+                                "ifId": "133367",
+                                "class": null,
+                                "seed": 16
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "16"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  }
+                                ]
+                              },
+                              "code": "133367",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 2 - Match 2 M2",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Salle Omnisport de Rades",
+                "tableNumber": "T06",
+                "tableName": "Table 6",
+                "competitiors": [
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "100116252",
+                    "competitiorName": "Tatenda MUMVUMA",
+                    "competitiorOrg": "ZIM",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "202383",
+                        "playerName": "Tatenda MUMVUMA",
+                        "playerGivenName": "Tatenda",
+                        "playerFamilyName": "MUMVUMA",
+                        "playerOrgCode": "ZIM",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "100116245",
+                    "competitiorName": "Fabio RAKOTOARIMANANA",
+                    "competitiorOrg": "MAD",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "133367",
+                        "playerName": "Fabio RAKOTOARIMANANA",
+                        "playerGivenName": "Fabio",
+                        "playerFamilyName": "RAKOTOARIMANANA",
+                        "playerOrgCode": "MAD",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": "1-11,4-11,6-11,0-0,0-0",
+                "overallScores": "0-3",
+                "resultOverallScores": "0-3",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:00:00",
+                  "startDateLocal": "09/11/2023 11:30:00",
+                  "startDateUTC": "09/11/2023 10:30:00"
+                },
+                "teamParentData": null,
+                "playByPlaySequenceNumber": null
+              }
+            },
+            "playByPlaySequenceNumber": "2"
+          }
+        },
+        {
+          "value": "TTEMTEAM--------------GP0200020003--------",
+          "match_result": {
+            "eventId": "2787",
+            "documentCode": "TTEMTEAM--------------GP0200020003--------",
+            "subEventName": "Men's Teams",
+            "subEventDescription": "Men's Teams - Group 2 - Match 2 M3",
+            "matchConfig": {
+              "bestOfXGames": 5,
+              "maxPointsPerGame": 11,
+              "advantagePerGame": 2,
+              "suddenDeathPoint": 99,
+              "maxChallengesPerCompetitor": 2,
+              "yellowCard": true,
+              "yellowRed1": true,
+              "yellowRed2": true,
+              "tTRReview": true
+            },
+            "venueName": "Salle Omnisport de Rades",
+            "tableNumber": "T06",
+            "tableName": "Table 6",
+            "competitiors": [
+              {
+                "competitorType": "H",
+                "competitiorId": "112639",
+                "competitiorName": "CHAMBOKO Brian",
+                "competitiorOrg": "ZIM",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "112639",
+                    "playerName": "CHAMBOKO Brian",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 1
+                  }
+                ],
+                "scores": "6,9,5,0,0",
+                "irm": "OK"
+              },
+              {
+                "competitorType": "A",
+                "competitiorId": "131906",
+                "competitiorName": "RAKOTOARISOA Setra",
+                "competitiorOrg": "MAD",
+                "compCardY": "0",
+                "compCardYR1": "0",
+                "compCardYR2": "0",
+                "compTimeout": "0",
+                "compMedicalTimeout": "",
+                "players": [
+                  {
+                    "playerId": "131906",
+                    "playerName": "RAKOTOARISOA Setra",
+                    "playerGivenName": null,
+                    "playerFamilyName": null,
+                    "playerOrgCode": null,
+                    "playerPosition": 2
+                  }
+                ],
+                "scores": "11,11,11,0,0",
+                "irm": "OK"
+              }
+            ],
+            "currentGameNumber": 3,
+            "full_msg": null,
+            "gameScores": "6-11,9-11,5-11,0-0,0-0",
+            "resultsGameScores": "6-11,9-11,5-11,0-0,0-0",
+            "overallScores": "0-3",
+            "resultOverallScores": "0-3",
+            "resultStatus": "OFFICIAL",
+            "action": {
+              "actionType": "OF",
+              "serverPlayer": "131906",
+              "serverReceiver": "112639",
+              "serverNext": "131906",
+              "serverCompetitor": "100116245",
+              "receiverNext": "131906"
+            },
+            "resultSet": null,
+            "matchDateTime": {
+              "duration": "00:00:00",
+              "startDateLocal": "09/11/2023 11:30:00",
+              "startDateUTC": "09/11/2023 10:30:00"
+            },
+            "teamParentData": {
+              "team_code": "TTEMTEAM--------------GP0200020000--------",
+              "extended_info": {
+                "final_result": [
+                  {
+                    "extension": null,
+                    "type": "UI",
+                    "code": "FINAL_RESULT",
+                    "pos": null,
+                    "value": "0-3"
+                  }
+                ],
+                "result_competitors": [
+                  [
+                    {
+                      "code": "100116252",
+                      "type": "T",
+                      "wlt": "L",
+                      "roundforRankingCal": null,
+                      "organization": "ZIM",
+                      "description": {
+                        "type": "T",
+                        "organization": "ZIM",
+                        "teamName": "Zimbabwe Table Tennis Union 16"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "7"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Brian",
+                                "familyName": "CHAMBOKO",
+                                "gender": "M",
+                                "organization": "ZIM",
+                                "birthDate": "1985-08-30",
+                                "ifId": "112639",
+                                "class": null,
+                                "seed": 7
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "7"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  }
+                                ]
+                              },
+                              "code": "112639",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "code": "100116245",
+                      "type": "T",
+                      "wlt": "W",
+                      "roundforRankingCal": null,
+                      "organization": "MAD",
+                      "description": {
+                        "type": "T",
+                        "organization": "MAD",
+                        "teamName": "F?d?ration Malgache de Tennis de Table 9"
+                      },
+                      "eventUnitEntry": [
+                        {
+                          "type": "RAN",
+                          "code": "SEED",
+                          "value": "16"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "QUALF",
+                          "value": "YES"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "CURRANK",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                          "value": "0"
+                        },
+                        {
+                          "type": "RAN",
+                          "code": "BYE",
+                          "value": "False"
+                        }
+                      ],
+                      "statsItems": {
+                        "statsItem": [
+                          {
+                            "code": "PTS_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "LEAD_MAX_AGNST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_WON",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_OPP_SERVICE_LOST",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "PTS_CONSEC",
+                            "pos": "TOT",
+                            "value": null
+                          },
+                          {
+                            "code": "DEF_OVC_MAX",
+                            "pos": "TOT",
+                            "value": null
+                          }
+                        ]
+                      },
+                      "composition": [
+                        {
+                          "athlete": [
+                            {
+                              "description": {
+                                "givenName": "Setra",
+                                "familyName": "RAKOTOARISOA",
+                                "gender": "M",
+                                "organization": "MAD",
+                                "birthDate": "2000-06-13",
+                                "ifId": "131906",
+                                "class": null,
+                                "seed": 16
+                              },
+                              "eventUnitEntry": [
+                                {
+                                  "type": "EUE",
+                                  "code": "GRIP",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "HAND",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "TS",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EUE",
+                                  "code": "SEED",
+                                  "value": "16"
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORA",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGTYPEB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "RACKETCOVERINGCOLORB",
+                                  "value": null
+                                },
+                                {
+                                  "type": "EQU",
+                                  "code": "BLADETYPE",
+                                  "value": null
+                                }
+                              ],
+                              "statsItems": {
+                                "stats": [
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G1",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G2",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G3",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G4",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "LEAD_MAX_AGNST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_WON",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_OPP_SERVICE_LOST",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "PTS_CONSEC",
+                                    "pos": "G5",
+                                    "value": null
+                                  },
+                                  {
+                                    "type": "ST",
+                                    "code": "DEF_OVC_MAX",
+                                    "pos": "G5",
+                                    "value": null
+                                  }
+                                ]
+                              },
+                              "code": "131906",
+                              "order": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              },
+              "comp_data": {
+                "eventId": null,
+                "documentCode": null,
+                "subEventName": "Men's Teams",
+                "subEventDescription": "Men's Teams - Group 2 - Match 2 M3",
+                "matchConfig": {
+                  "bestOfXGames": 5,
+                  "maxPointsPerGame": 11,
+                  "advantagePerGame": 2,
+                  "suddenDeathPoint": 99,
+                  "maxChallengesPerCompetitor": 2,
+                  "yellowCard": true,
+                  "yellowRed1": true,
+                  "yellowRed2": true,
+                  "tTRReview": true
+                },
+                "venueName": "Salle Omnisport de Rades",
+                "tableNumber": "T06",
+                "tableName": "Table 6",
+                "competitiors": [
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "100116252",
+                    "competitiorName": "Brian CHAMBOKO",
+                    "competitiorOrg": "ZIM",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "112639",
+                        "playerName": "Brian CHAMBOKO",
+                        "playerGivenName": "Brian",
+                        "playerFamilyName": "CHAMBOKO",
+                        "playerOrgCode": "ZIM",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  },
+                  {
+                    "competitorType": "A",
+                    "competitiorId": "100116245",
+                    "competitiorName": "Setra RAKOTOARISOA",
+                    "competitiorOrg": "MAD",
+                    "compCardY": null,
+                    "compCardYR1": null,
+                    "compCardYR2": null,
+                    "compTimeout": null,
+                    "compMedicalTimeout": null,
+                    "players": [
+                      {
+                        "playerId": "131906",
+                        "playerName": "Setra RAKOTOARISOA",
+                        "playerGivenName": "Setra",
+                        "playerFamilyName": "RAKOTOARISOA",
+                        "playerOrgCode": "MAD",
+                        "playerPosition": null
+                      }
+                    ],
+                    "scores": null,
+                    "irm": "OK"
+                  }
+                ],
+                "currentGameNumber": null,
+                "full_msg": null,
+                "gameScores": null,
+                "resultsGameScores": "6-11,9-11,5-11,0-0,0-0",
+                "overallScores": "0-3",
+                "resultOverallScores": "0-3",
+                "resultStatus": "OFFICIAL",
+                "action": null,
+                "resultSet": null,
+                "matchDateTime": {
+                  "duration": "00:00:00",
+                  "startDateLocal": "09/11/2023 11:30:00",
+                  "startDateUTC": "09/11/2023 10:30:00"
+                },
+                "teamParentData": null,
+                "playByPlaySequenceNumber": null
+              }
+            },
+            "playByPlaySequenceNumber": "2"
+          }
+        }
+      ],
+      "result_competitors": [
+        [
+          {
+            "code": "100116252",
+            "type": "T",
+            "wlt": "L",
+            "roundforRankingCal": null,
+            "organization": "ZIM",
+            "description": {
+              "type": "T",
+              "organization": "ZIM",
+              "teamName": "Zimbabwe Table Tennis Union 16"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "7"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "0"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "1"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Brian",
+                      "familyName": "CHAMBOKO",
+                      "gender": "M",
+                      "organization": "ZIM",
+                      "birthDate": "1985-08-30",
+                      "ifId": "112639",
+                      "class": null,
+                      "seed": 7
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "7"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "112639",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Tinotenda",
+                      "familyName": "FAMBIRA",
+                      "gender": "M",
+                      "organization": "ZIM",
+                      "birthDate": "2003-06-18",
+                      "ifId": "202381",
+                      "class": null,
+                      "seed": 7
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "7"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "202381",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Tatenda",
+                      "familyName": "MUMVUMA",
+                      "gender": "M",
+                      "organization": "ZIM",
+                      "birthDate": "1998-02-08",
+                      "ifId": "202383",
+                      "class": null,
+                      "seed": 7
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "7"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "202383",
+                    "order": 3
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "code": "100116245",
+            "type": "T",
+            "wlt": "W",
+            "roundforRankingCal": null,
+            "organization": "MAD",
+            "description": {
+              "type": "T",
+              "organization": "MAD",
+              "teamName": "F?d?ration Malgache de Tennis de Table 9"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "16"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "0"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "1"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Setra",
+                      "familyName": "RAKOTOARISOA",
+                      "gender": "M",
+                      "organization": "MAD",
+                      "birthDate": "2000-06-13",
+                      "ifId": "131906",
+                      "class": null,
+                      "seed": 16
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "16"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "131906",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Stephen",
+                      "familyName": "RAVONISON",
+                      "gender": "M",
+                      "organization": "MAD",
+                      "birthDate": "1987-08-24",
+                      "ifId": "137434",
+                      "class": null,
+                      "seed": 16
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "16"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "137434",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Fabio",
+                      "familyName": "RAKOTOARIMANANA",
+                      "gender": "M",
+                      "organization": "MAD",
+                      "birthDate": "2003-07-24",
+                      "ifId": "133367",
+                      "class": null,
+                      "seed": 16
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "16"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "133367",
+                    "order": 3
+                  },
+                  {
+                    "description": {
+                      "givenName": "Jonathan",
+                      "familyName": "NATIVEL",
+                      "gender": "M",
+                      "organization": "MAD",
+                      "birthDate": "1987-08-05",
+                      "ifId": "118983",
+                      "class": null,
+                      "seed": 16
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "16"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "118983",
+                    "order": 4
+                  },
+                  {
+                    "description": {
+                      "givenName": "Antoine",
+                      "familyName": "RAZAFINARIVO",
+                      "gender": "M",
+                      "organization": "MAD",
+                      "birthDate": "2004-04-09",
+                      "ifId": "203934",
+                      "class": null,
+                      "seed": 16
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "16"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "203934",
+                    "order": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "comp_data": {
+      "eventId": null,
+      "documentCode": null,
+      "subEventName": "Men's Teams",
+      "subEventDescription": "Men's Teams - Group 2 - Match 2",
+      "matchConfig": {
+        "bestOfXGames": 5,
+        "maxPointsPerGame": 11,
+        "advantagePerGame": 2,
+        "suddenDeathPoint": 99,
+        "maxChallengesPerCompetitor": 2,
+        "yellowCard": true,
+        "yellowRed1": true,
+        "yellowRed2": true,
+        "tTRReview": true
+      },
+      "venueName": "Salle Omnisport de Rades",
+      "tableNumber": "T06",
+      "tableName": "Table 6",
+      "competitiors": [
+        {
+          "competitorType": "H",
+          "competitiorId": "100116252",
+          "competitiorName": "Tatenda MUMVUMA",
+          "competitiorOrg": "ZIM",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "112639",
+              "playerName": "Brian CHAMBOKO",
+              "playerGivenName": "Brian",
+              "playerFamilyName": "CHAMBOKO",
+              "playerOrgCode": "ZIM",
+              "playerPosition": null
+            },
+            {
+              "playerId": "202381",
+              "playerName": "Tinotenda FAMBIRA",
+              "playerGivenName": "Tinotenda",
+              "playerFamilyName": "FAMBIRA",
+              "playerOrgCode": "ZIM",
+              "playerPosition": null
+            },
+            {
+              "playerId": "202383",
+              "playerName": "Tatenda MUMVUMA",
+              "playerGivenName": "Tatenda",
+              "playerFamilyName": "MUMVUMA",
+              "playerOrgCode": "ZIM",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "OK"
+        },
+        {
+          "competitorType": "A",
+          "competitiorId": "100116245",
+          "competitiorName": "Antoine RAZAFINARIVO",
+          "competitiorOrg": "MAD",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "131906",
+              "playerName": "Setra RAKOTOARISOA",
+              "playerGivenName": "Setra",
+              "playerFamilyName": "RAKOTOARISOA",
+              "playerOrgCode": "MAD",
+              "playerPosition": null
+            },
+            {
+              "playerId": "137434",
+              "playerName": "Stephen RAVONISON",
+              "playerGivenName": "Stephen",
+              "playerFamilyName": "RAVONISON",
+              "playerOrgCode": "MAD",
+              "playerPosition": null
+            },
+            {
+              "playerId": "133367",
+              "playerName": "Fabio RAKOTOARIMANANA",
+              "playerGivenName": "Fabio",
+              "playerFamilyName": "RAKOTOARIMANANA",
+              "playerOrgCode": "MAD",
+              "playerPosition": null
+            },
+            {
+              "playerId": "118983",
+              "playerName": "Jonathan NATIVEL",
+              "playerGivenName": "Jonathan",
+              "playerFamilyName": "NATIVEL",
+              "playerOrgCode": "MAD",
+              "playerPosition": null
+            },
+            {
+              "playerId": "203934",
+              "playerName": "Antoine RAZAFINARIVO",
+              "playerGivenName": "Antoine",
+              "playerFamilyName": "RAZAFINARIVO",
+              "playerOrgCode": "MAD",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "OK"
+        }
+      ],
+      "currentGameNumber": null,
+      "full_msg": null,
+      "gameScores": null,
+      "resultsGameScores": "",
+      "overallScores": "0-3",
+      "resultOverallScores": null,
+      "resultStatus": "OFFICIAL",
+      "action": null,
+      "resultSet": null,
+      "matchDateTime": {
+        "duration": "00:00:00",
+        "startDateLocal": "09/11/2023 11:30:00",
+        "startDateUTC": "09/11/2023 10:30:00"
+      },
+      "teamParentData": null,
+      "playByPlaySequenceNumber": null
+    }
+  },
+  "playByPlaySequenceNumber": "2"
+}

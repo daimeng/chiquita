@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------CON3000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Consolation Quarterfinals - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T07",
+  "tableName": "Table 7",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121015",
+      "competitiorName": "WING Philip",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121015",
+          "playerName": "WING Philip",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIJ",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,7,8,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "145172",
+      "competitiorName": "PERROT Adrien Paul",
+      "competitiorOrg": "NCL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145172",
+          "playerName": "PERROT Adrien Paul",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NCL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-13,7-11,8-11,0-0,0-0",
+  "resultsGameScores": "11-13,7-11,8-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "145172",
+    "serverReceiver": "121015",
+    "serverNext": "145172",
+    "serverCompetitor": "145172",
+    "receiverNext": "145172"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/08/2023 18:30:00",
+    "startDateUTC": "09/08/2023 08:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

@@ -1,0 +1,88 @@
+{
+  "eventId": "2615",
+  "documentCode": "TTEMSINGLES-----------GP02000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 2 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Eastland Shopping Centre",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117797",
+      "competitiorName": "YAN  Xin",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117797",
+          "playerName": "YAN  Xin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,11,0,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133613",
+      "competitiorName": "CARNET Bydhir",
+      "competitiorOrg": "PYF",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133613",
+          "playerName": "CARNET Bydhir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "1,10,3,0,0"
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-1,12-10,11-3,0-0,0-0",
+  "resultsGameScores": "11-1,12-10,11-3,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133613",
+    "serverReceiver": "117797",
+    "serverNext": "133613",
+    "serverCompetitor": "133613",
+    "receiverNext": "133613"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:00",
+    "startDateLocal": "09/09/2022 02:40:00",
+    "startDateUTC": "09/08/2022 16:40:00"
+  },
+  "teamParentData": null
+}

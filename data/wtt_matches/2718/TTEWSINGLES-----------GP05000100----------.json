@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEWSINGLES-----------GP05000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Group 5 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123938",
+      "competitiorName": "YEE Grace Rosi",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123938",
+          "playerName": "YEE Grace Rosi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIJ",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "1,16,8,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "200205",
+      "competitiorName": "GEAR Lisa",
+      "competitiorOrg": "NZL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200205",
+          "playerName": "GEAR Lisa",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NZL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,14,11,9,7",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "1-11,16-14,8-11,11-9,11-7",
+  "resultsGameScores": "1-11,16-14,8-11,11-9,11-7",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200205",
+    "serverReceiver": "123938",
+    "serverNext": "200205",
+    "serverCompetitor": "200205",
+    "receiverNext": "200205"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/07/2023 09:00:00",
+    "startDateUTC": "09/06/2023 23:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}

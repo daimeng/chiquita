@@ -1,0 +1,91 @@
+{
+  "eventId": "2787",
+  "documentCode": "TTEMSINGLES-----------FNL-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112092",
+      "competitiorName": "ARUNA Quadri",
+      "competitiorOrg": "NGR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112092",
+          "playerName": "ARUNA Quadri",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,11,11,0,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100439",
+      "competitiorName": "SALEH Ahmed",
+      "competitiorOrg": "EGY",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100439",
+          "playerName": "SALEH Ahmed",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,10,6,6,0,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-2,12-10,11-6,11-6,0-0,0-0,0-0",
+  "resultsGameScores": "11-2,12-10,11-6,11-6,0-0,0-0,0-0",
+  "overallScores": "4-0",
+  "resultOverallScores": "4-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "112092",
+    "serverReceiver": "100439",
+    "serverNext": "112092",
+    "serverCompetitor": "112092",
+    "receiverNext": "100439"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:09",
+    "startDateLocal": "09/17/2023 18:30:00",
+    "startDateUTC": "09/17/2023 17:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "187"
+}

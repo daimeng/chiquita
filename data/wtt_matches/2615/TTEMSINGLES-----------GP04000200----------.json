@@ -1,0 +1,88 @@
+{
+  "eventId": "2615",
+  "documentCode": "TTEMSINGLES-----------GP04000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 4 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Eastland Shopping Centre",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "105604",
+      "competitiorName": "LULU Ham",
+      "competitiorOrg": "VAN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105604",
+          "playerName": "LULU Ham",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,11,11,11,0"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135693",
+      "competitiorName": "YEE Joshua",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135693",
+          "playerName": "YEE Joshua",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,9,9,0"
+    }
+  ],
+  "currentGameNumber": null,
+  "full_msg": null,
+  "gameScores": "3-11,11-9,11-9,11-9,0-0",
+  "resultsGameScores": "3-11,11-9,11-9,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "SL",
+    "serverPlayer": "135693",
+    "serverReceiver": "105604",
+    "serverNext": "135693",
+    "serverCompetitor": "135693",
+    "receiverNext": "135693"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:20:00",
+    "startDateLocal": "09/09/2022 02:40:00",
+    "startDateUTC": "09/08/2022 16:40:00"
+  },
+  "teamParentData": null
+}

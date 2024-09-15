@@ -1,0 +1,107 @@
+{
+  "eventId": "2787",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36382",
+      "competitiorName": "SALEH Ahmed/EL-BEIALI Mohamed",
+      "competitiorOrg": "EGY",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100439",
+          "playerName": "SALEH Ahmed",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "102486",
+          "playerName": "EL-BEIALI Mohamed",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,11,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100116873",
+      "competitiorName": "RAZAFINARIVO Antoine/RAKOTOARIMANANA Fabio",
+      "competitiorOrg": "MAD",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "203934",
+          "playerName": "RAZAFINARIVO Antoine",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133367",
+          "playerName": "RAKOTOARIMANANA Fabio",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": null,
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,5,11,9,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-13,11-5,6-11,11-9,8-11",
+  "resultsGameScores": "11-13,11-5,6-11,11-9,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100439",
+    "serverReceiver": "133367",
+    "serverNext": "100439",
+    "serverCompetitor": "36382",
+    "receiverNext": "133367"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:30",
+    "startDateLocal": "09/16/2023 16:30:00",
+    "startDateUTC": "09/16/2023 15:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "291"
+}

@@ -1,0 +1,91 @@
+{
+  "eventId": "2718",
+  "documentCode": "TTEMSINGLES-----------GP05000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 5 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Townsville Stadium",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123935",
+      "competitiorName": "WU Vicky",
+      "competitiorOrg": "FIJ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123935",
+          "playerName": "WU Vicky",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FIJ",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,8,5,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "206277",
+      "competitiorName": "CLOUET Olivier",
+      "competitiorOrg": "NCL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "206277",
+          "playerName": "CLOUET Olivier",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NCL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,5,11,11,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,11-5,8-11,5-11,11-9",
+  "resultsGameScores": "11-9,11-5,8-11,5-11,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "206277",
+    "serverReceiver": "123935",
+    "serverNext": "206277",
+    "serverCompetitor": "206277",
+    "receiverNext": "206277"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "09/07/2023 11:20:00",
+    "startDateUTC": "09/07/2023 01:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "2"
+}
