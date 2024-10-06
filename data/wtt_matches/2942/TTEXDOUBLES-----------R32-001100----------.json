@@ -1,0 +1,110 @@
+{
+  "eventId": "2942",
+  "documentCode": "TTEXDOUBLES-----------R32-001100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Round of 32 - Match 11",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Shijingshan Shougang Park",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "67212",
+      "competitiorName": "MADRID Marcos/COSSIO ACEVES Arantxa",
+      "competitiorOrg": "MEX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105679",
+          "playerName": "MADRID Marcos",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MEX",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134356",
+          "playerName": "COSSIO ACEVES Arantxa",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MEX",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,7,11,3",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "48410",
+      "competitiorName": "BURGOS Nicolas/VEGA Paulina",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133441",
+          "playerName": "BURGOS Nicolas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "109777",
+          "playerName": "VEGA Paulina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,7,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-9,7-11,11-7,3-11",
+  "resultsGameScores": "5-11,11-9,7-11,11-7,3-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "105679",
+    "serverReceiver": "133441",
+    "serverNext": "105679",
+    "serverCompetitor": "67212",
+    "receiverNext": "133441"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:19",
+    "startDateLocal": "09/29/2024 18:00:00",
+    "startDateUTC": "09/29/2024 10:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "255",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}
