@@ -1,0 +1,110 @@
+{
+  "eventId": "2889",
+  "documentCode": "TTEMDOUBLES-----------QFNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "PalaPirastu",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100122014",
+      "competitiorName": "GIOVANNETTI Tommaso/VALLINO Federico",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122078",
+          "playerName": "GIOVANNETTI Tommaso",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133415",
+          "playerName": "VALLINO Federico",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,9,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100119282",
+      "competitiorName": "STOLL Loic/VEPA Chaitanya",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137037",
+          "playerName": "STOLL Loic",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SUI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "143671",
+          "playerName": "VEPA Chaitanya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SUI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,7,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-8,9-11,11-7,11-5",
+  "resultsGameScores": "7-11,11-8,9-11,11-7,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137037",
+    "serverReceiver": "133415",
+    "serverNext": "137037",
+    "serverCompetitor": "100119282",
+    "receiverNext": "133415"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:08",
+    "startDateLocal": "10/25/2024 12:10:00",
+    "startDateUTC": "10/25/2024 10:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "277",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}
