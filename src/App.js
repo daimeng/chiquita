@@ -37,10 +37,11 @@ function App() {
       if (ev > 0) {
         const lr = new Map()
         all_ratings[ev - 1].toArray()
-          .filter(x =>
-            (playerById.get(x[0]).gender === gender)
-            && x[1].rd <= maxdev
-          )
+          .filter(x => {
+            console.log(x, playerById.get(x[0]))
+            return (playerById.get(x[0]).gender === gender)
+              && x[1].rd <= maxdev
+          })
           .sort((a, b) => b[1].rating - a[1].rating)
           .forEach(([player, _], i) => {
             lr.set(player, i)

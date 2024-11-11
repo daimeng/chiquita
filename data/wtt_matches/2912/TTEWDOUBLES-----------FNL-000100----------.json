@@ -1,0 +1,110 @@
+{
+  "eventId": "2912",
+  "documentCode": "TTEWDOUBLES-----------FNL-000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Gym Elizabeth Popper y Francisco L?pez",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100121648",
+      "competitiorName": "ZHU Ziyu/XU Jiayi",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202747",
+          "playerName": "ZHU Ziyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "210318",
+          "playerName": "XU Jiayi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100122065",
+      "competitiorName": "CODINA Ana/CORDERO Lucia",
+      "competitiorOrg": "ARG/GUA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111053",
+          "playerName": "CODINA Ana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ARG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118028",
+          "playerName": "CORDERO Lucia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GUA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,14,8,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-3,12-14,11-8,11-8,0-0",
+  "resultsGameScores": "11-3,12-14,11-8,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "202747",
+    "serverReceiver": "111053",
+    "serverNext": "202747",
+    "serverCompetitor": "100121648",
+    "receiverNext": "111053"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:37:55",
+    "startDateLocal": "11/03/2024 16:00:00",
+    "startDateUTC": "11/03/2024 19:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "217",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}
