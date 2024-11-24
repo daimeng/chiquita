@@ -21,7 +21,8 @@ async def get_matches(page: Page, evt: int):
 
     page.on('response', lambda resp: asyncio.ensure_future(intercept(resp)))
 
-    await page.goto(f'https://worldtabletennis.com/eventInfo?selectedTab=Results&innerselectedTab=Completed&eventId={evt}')
+    # await page.goto(f'https://worldtabletennis.com/eventInfo?selectedTab=Results&innerselectedTab=Completed&eventId={evt}')
+    await page.goto(f'https://worldtabletennis.com/eventInfo?selectedTab=Matches&eventId={evt}')
     btn_selector = asyncio.create_task(page.wait_for_selector('[class="generic_btn"]'))
     empty_selector = asyncio.create_task(page.wait_for_selector('.fa.fa-info-circle'))
     first_done, pending = await asyncio.wait(
