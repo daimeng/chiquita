@@ -186,12 +186,13 @@ select {
   text-overflow: ellipsis;
   cursor: pointer;
   border-radius: 4px;
+  transition: all 1s;
 }
 
 .rating_name:hover {
   background-color: rgb(235, 233, 255, 1);
   color: slateblue;
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 
 .rating_rating {
