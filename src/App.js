@@ -38,7 +38,6 @@ function App() {
         const lr = new Map()
         all_ratings[ev - 1].toArray()
           .filter(x => {
-            console.log(x, playerById.get(x[0]))
             return (playerById.get(x[0]).gender === gender)
               && x[1].rd <= maxdev
           })
