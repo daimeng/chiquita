@@ -30,7 +30,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig)
 const analytics = getAnalytics(app)
-const auth = getAuth()
+export const auth = getAuth()
 const db = getFirestore()
 // connectAuthEmulator(auth, "http://127.0.0.1:9099")
 // connectFirestoreEmulator(db, 'http://127.0.0.1', 9090)

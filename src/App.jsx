@@ -153,7 +153,7 @@ function App() {
           <span className="rating_bar"></span>
         </div>
         {ranking.length === 0 && <div className="loading">
-          <img alt="chiquita" src="/chiquita/favicon.svg" width={128} height={128} />
+          <img alt="chiquita" src="/favicon.svg" width={128} height={128} />
           <div>
             Loading data, please wait... It will take longer the first time.
           </div>

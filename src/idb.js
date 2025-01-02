@@ -52,7 +52,7 @@ export const initDB = async () => {
 	}
 
 	const results = await Promise.all(missing.map(
-		m => fetch(process.env.PUBLIC_URL + `/matches/${m}.parquet`)
+		m => fetch(`/matches/${m}.parquet`)
 	))
 
 	const rawdb = unwrap(db)
