@@ -11,7 +11,6 @@ import { EmptyCard, PlayerCard } from './playercard'
 import { BracketCard } from './bracket'
 import { useHash } from './hash'
 
-
 function App() {
   const [showDev, setShowDev] = useState(false)
   const [top, setTop] = useState(100)
@@ -153,7 +152,7 @@ function App() {
           <span className="rating_bar"></span>
         </div>
         {ranking.length === 0 && <div className="loading">
-          <img alt="chiquita" src="/favicon.svg" width={128} height={128} />
+          <img alt="chiquita" src="./favicon.svg" width={128} height={128} />
           <div>
             Loading data, please wait... It will take longer the first time.
           </div>
