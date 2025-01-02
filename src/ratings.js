@@ -1,10 +1,9 @@
 import tournaments from './tournaments.json'
 import { glicko } from './glicko'
-import Immutable from 'immutable'
 import { initDB } from "./idb"
 
 export let rating_changes = new Map()
-export let player_ratings = new Immutable.Map()
+export let player_ratings = new Map()
 export const all_ratings = []
 window.all_ratings = all_ratings
 export const G = glicko()
@@ -17,9 +16,19 @@ export const init = initDB().then(async (db) => {
 		p = p.then(() =>
 			db.getAllFromIndex('matches', 'event_id', event_id)
 		).then(m => {
-			player_ratings = player_ratings.withMutations((r) => {
-				G.update_ratings(r, m, Date.parse(tournaments[i].StartDateTime), Date.parse(tournaments[i].EndDateTime), rating_changes)
+			const deepcopy = new Map()
+			player_ratings.forEach((v, k) => {
+				deepcopy.set(k, { ...v })
 			})
+
+			G.update_ratings(
+				deepcopy,
+				m,
+				Date.parse(tournaments[i].StartDateTime),
+				Date.parse(tournaments[i].EndDateTime),
+				rating_changes
+			)
+			player_ratings = deepcopy
 			all_ratings.push(player_ratings)
 		})
 	}

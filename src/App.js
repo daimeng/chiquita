@@ -36,27 +36,36 @@ function App() {
       const ratings = all_ratings[ev]
       if (ev > 0) {
         const lr = new Map()
-        all_ratings[ev - 1].toArray()
-          .filter(x => {
-            return (playerById.get(x[0]).gender === gender)
-              && x[1].rd <= maxdev
-          })
-          .sort((a, b) => b[1].rating - a[1].rating)
-          .forEach(([player, _], i) => {
-            lr.set(player, i)
-          })
+        const ranks = []
+        all_ratings[ev - 1].forEach((v, k) => {
+          if (
+            playerById.get(k).gender === gender
+            && v.rd <= maxdev
+          ) {
+            ranks.push([k, v])
+          }
+        })
+        ranks.sort((a, b) => b[1].rating - a[1].rating)
+        ranks.forEach(([player, _], i) => {
+          lr.set(player, i)
+        })
 
         setLastRanking(lr)
       }
 
-      setRanking(
-        ratings.toArray()
-          .filter(x =>
-            (playerById.get(x[0]).gender === gender)
-            && x[1].rd <= maxdev
-          )
-          .sort((a, b) => b[1].rating - a[1].rating)
-      )
+      {
+        const ranks = []
+        ratings.forEach((v, k) => {
+          if (
+            playerById.get(k).gender === gender
+            && v.rd <= maxdev
+          ) {
+            ranks.push([k, v])
+          }
+        })
+        ranks.sort((a, b) => b[1].rating - a[1].rating)
+        setRanking(ranks)
+      }
     })
   }, [gender, event, maxdev])
 
