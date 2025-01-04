@@ -10,6 +10,7 @@ import { Login } from './login'
 import { EmptyCard, PlayerCard } from './playercard'
 import { BracketCard } from './bracket'
 import { useHash } from './hash'
+import { ymd } from './fast-dt'
 
 function App() {
   const [showDev, setShowDev] = useState(false)
@@ -163,7 +164,7 @@ function App() {
 
           const player = playerById.get(r[0])
           const { rating, rd, last_active } = r[1]
-          const date = new Date(last_active).toISOString().split('T')[0]
+          const date = ymd(last_active)
           let rating_delta = 0
           if (event > 0) {
             const last_rating = all_ratings[event - 1].get(r[0])
