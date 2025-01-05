@@ -34,30 +34,17 @@ function App() {
   }, [])
 
   const handleSetEvent = useCallback((e) => setEvent(+e.target.value), [setEvent])
-  const handleSetMaxdev = useCallback((e) => setMaxdev(e.target.value), [setMaxdev])
-  const handleSetM = useCallback(() => setGender('M'), [setGender])
-  const handleSetW = useCallback(() => setGender('W'), [setGender])
-  const toggleShowDev = useCallback(() => setShowDev((d) => !d), [setShowDev])
-  const handleSetTop = useCallback((e) => setTop(+e.target.value), [setTop])
   const showPlayer = useCallback((e) => setOpenPlayers([+e.target.dataset.playerid]), [setOpenPlayers])
   const hidePlayer = useCallback(() => setOpenPlayers([]), [setOpenPlayers])
-  const showBracket = useCallback(() => setBracketOpen(true), [setBracketOpen])
   const hideBracket = useCallback(() => setBracketOpen(false), [setBracketOpen])
-
-  // let min_rating = 0
-  // let max_rating = 0
-  // if (ranking.length) {
-  //   min_rating = ranking[ranking.length - 1][1].rating
-  //   max_rating = ranking[0][1].rating
-  // }
 
   return (
     <>
       <div className="App">
         <div className="rating_controls">
           <div>
-            <button className={gender === 'M' ? 'active' : ''} onClick={handleSetM}>M</button>
-            <button className={gender === 'W' ? 'active' : ''} onClick={handleSetW}>W</button>
+            <button className={gender === 'M' ? 'active' : ''} onClick={() => setGender('M')}>M</button>
+            <button className={gender === 'W' ? 'active' : ''} onClick={() => setGender('W')}>W</button>
           </div>
 
           <div className="set-event">
@@ -71,15 +58,15 @@ function App() {
           <div className="set-maxdev">
             {"max rd: "}
             <input type="range" min="0" max="350" step="10" value={maxdev}
-              onChange={handleSetMaxdev} />{maxdev}
+              onChange={e => setMaxdev(e.target.value)} />{maxdev}
           </div>
           <div>
-            show rd<input type="checkbox" checked={showDev} onChange={toggleShowDev}></input>
+            show rd<input type="checkbox" checked={showDev} onChange={() => setShowDev((d) => !d)}></input>
           </div>
 
           <div className="set-top">
             {'top '}
-            <select value={top} onChange={handleSetTop}>
+            <select value={top} onChange={e => setTop(+e.target.value)}>
               <option value={10}>10</option>
               <option value={30}>30</option>
               <option value={50}>50</option>
@@ -89,7 +76,7 @@ function App() {
             </select>
           </div>
           {
-            <button id="olympics" onClick={showBracket}>
+            <button id="olympics" onClick={() => setBracketOpen(true)}>
               Paris 2024
             </button>
           }
