@@ -15,8 +15,6 @@ import { ymd } from './fast-dt'
 function App() {
   const [showDev, setShowDev] = useState(false)
   const [top, setTop] = useState(100)
-  const [lastRanking, setLastRanking] = useState(new Map())
-  const [ranking, setRanking] = useState([])
   const [event, setEvent] = useState(-1)
   const [gender, setGender] = useState('M')
   const [maxdev, setMaxdev] = useState(100)
@@ -32,42 +30,8 @@ function App() {
         ev = all_ratings.length - 1
         setEvent(ev)
       }
-
-      const ratings = all_ratings[ev]
-      if (ev > 0) {
-        const lr = new Map()
-        const ranks = []
-        all_ratings[ev - 1].forEach((v, k) => {
-          if (
-            playerById.get(k).gender === gender
-            && v.rd <= maxdev
-          ) {
-            ranks.push([k, v])
-          }
-        })
-        ranks.sort((a, b) => b[1].rating - a[1].rating)
-        ranks.forEach(([player, _], i) => {
-          lr.set(player, i)
-        })
-
-        setLastRanking(lr)
-      }
-
-      {
-        const ranks = []
-        ratings.forEach((v, k) => {
-          if (
-            playerById.get(k).gender === gender
-            && v.rd <= maxdev
-          ) {
-            ranks.push([k, v])
-          }
-        })
-        ranks.sort((a, b) => b[1].rating - a[1].rating)
-        setRanking(ranks)
-      }
     })
-  }, [gender, event, maxdev])
+  }, [])
 
   const handleSetEvent = useCallback((e) => setEvent(+e.target.value), [setEvent])
   const handleSetMaxdev = useCallback((e) => setMaxdev(e.target.value), [setMaxdev])
@@ -131,7 +95,7 @@ function App() {
           }
           {/* <Login /> */}
         </div>
-        <RankTable ranking={ranking} lastRanking={lastRanking} event={event} showDev={showDev} showPlayer={showPlayer} />
+        <RankTable event={event} gender={gender} maxdev={maxdev} showDev={showDev} showPlayer={showPlayer} />
       </div>
 
       <div className="player-panel">
@@ -158,10 +122,42 @@ function App() {
 export default App;
 
 
-function RankTable({ ranking, event, showDev, lastRanking, showPlayer }) {
-  const transition = {
-    ease: 'easeOut',
-    duration: 0.5,
+function RankTable({ event, gender, maxdev, showDev, showPlayer }) {
+  // const [lastRanking, setLastRanking] = useState(new Map())
+  // const [ranking, setRanking] = useState([])
+
+  let ranking = []
+  const lastRanking = new Map()
+
+  if (event !== -1) {
+    const ratings = all_ratings[event]
+    if (event > 0) {
+      const ranks = []
+      all_ratings[event - 1].forEach((v, k) => {
+        if (
+          playerById.get(k).gender === gender
+          && v.rd <= maxdev
+        ) {
+          ranks.push([k, v])
+        }
+      })
+      ranks.sort((a, b) => b[1].rating - a[1].rating)
+      ranks.forEach(([player, _], i) => {
+        lastRanking.set(player, i)
+      })
+    }
+
+    {
+      ratings.forEach((v, k) => {
+        if (
+          playerById.get(k).gender === gender
+          && v.rd <= maxdev
+        ) {
+          ranking.push([k, v])
+        }
+      })
+      ranking.sort((a, b) => b[1].rating - a[1].rating)
+    }
   }
 
   return (
@@ -190,57 +186,71 @@ function RankTable({ ranking, event, showDev, lastRanking, showPlayer }) {
       </div>
       }
       {ranking.map((r, i) => {
-        if (i >= top) return null
+        if (i >= top) return
 
-        const player = playerById.get(r[0])
-        const { rating, rd, last_active } = r[1]
-        const date = ymd(last_active)
-        let rating_delta = 0
-        if (event > 0) {
-          const last_rating = all_ratings[event - 1].get(r[0])
-          if (last_rating) {
-            rating_delta = Math.floor(rating) - Math.floor(last_rating.rating)
-          }
-        }
-
-        const lr = lastRanking.has(r[0]) ? lastRanking.get(r[0]) : lastRanking.size
-
-        return (
-          <motion.div
-            className="rating_row"
-            key={r[0]}
-            layout
-            transition={transition}
-          >
-            <span className="rating_rank">{i + 1}</span>
-            <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''}`}>
-              {Math.abs(lr - i)}
-            </span>
-            <span className="rating_flag">
-              <span className={`fi fi-${ISO3to2[player.org]}`}></span>
-            </span>
-            <span className="rating_org">{player.org}</span>
-            <span className="rating_name" data-playerid={r[0]} onClick={showPlayer}>{player.name}</span>
-            <span className="rating_rating">{Math.floor(rating)}</span>
-            <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
-              {Math.abs(rating_delta)}
-            </span>
-            {showDev &&
-              <>
-                <span className="rating_dev">{Math.floor(rd)}</span>
-                <span className="rating_active">{date}</span>
-              </>
-            }
-            <span className="rating_bar">
-              <span style={{
-                width: `${Math.max(rating - 1400, 0) / 16}%`,
-                backgroundColor: ISO3toColor[player.org],
-              }}>
-              </span>
-            </span>
-          </motion.div>
-        )
+        return <RankRow key={r[0]} i={i} r={r}
+          event={event}
+          lastRanking={lastRanking}
+          showPlayer={showPlayer}
+          showDev={showDev}
+        />
       })}
     </div>
   )
+}
+
+const rowtransition = {
+  ease: 'easeOut',
+  duration: 0.5,
+}
+
+function RankRow({ r, i, event, lastRanking, showPlayer, showDev }) {
+  const player = playerById.get(r[0])
+  const { rating, rd, last_active } = r[1]
+  const date = ymd(last_active)
+  let rating_delta = 0
+  if (event > 0) {
+    const last_rating = all_ratings[event - 1].get(r[0])
+    if (last_rating) {
+      rating_delta = Math.floor(rating) - Math.floor(last_rating.rating)
+    }
+  }
+
+  const lr = lastRanking.has(r[0]) ? lastRanking.get(r[0]) : Infinity
+
+  return (
+    <motion.div
+      className="rating_row"
+      layout
+      transition={rowtransition}
+    >
+      <span className="rating_rank">{i + 1}</span>
+      <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''}`}>
+        {lr === Infinity ? '--' : Math.abs(lr - i)}
+      </span>
+      <span className="rating_flag">
+        <span className={`fi fi-${ISO3to2[player.org]}`}></span>
+      </span>
+      <span className="rating_org">{player.org}</span>
+      <span className="rating_name" data-playerid={r[0]} onClick={showPlayer}>{player.name}</span>
+      <span className="rating_rating">{Math.floor(rating)}</span>
+      <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
+        {Math.abs(rating_delta)}
+      </span>
+      {showDev &&
+        <>
+          <span className="rating_dev">{Math.floor(rd)}</span>
+          <span className="rating_active">{date}</span>
+        </>
+      }
+      <span className="rating_bar">
+        <span style={{
+          width: `${Math.max(rating - 1400, 0) / 16}%`,
+          backgroundColor: ISO3toColor[player.org],
+        }}>
+        </span>
+      </span>
+    </motion.div>
+  )
+
 }

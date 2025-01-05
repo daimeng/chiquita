@@ -5,6 +5,7 @@ import { initDB } from "./idb"
 export let rating_changes = new Map()
 export let player_ratings = new Map()
 export const all_ratings = []
+export const all_ranks = []
 window.all_ratings = all_ratings
 export const G = glicko()
 
@@ -30,6 +31,11 @@ export const init = initDB().then(async (db) => {
 			)
 			player_ratings = deepcopy
 			all_ratings.push(player_ratings)
+
+			const player_ranks = Array.from(player_ratings.keys())
+			player_ranks.sort((playerA, playerB) => player_ratings.get(playerB).rating - player_ratings.get(playerA).rating)
+
+			all_ranks.push(player_ranks)
 		})
 	}
 
