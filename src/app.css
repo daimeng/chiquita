@@ -280,6 +280,11 @@ select {
   justify-content: space-evenly;
 }
 
+.toggle-venue {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
 .card-close {
   position: absolute;
   top: 0;
@@ -314,11 +319,15 @@ select {
 }
 
 .match-row:nth-child(odd) {
-  background-color: rgba(106, 90, 205, 0.35);
+  background-color: rgba(143, 171, 224, 0.1);
 }
 
 .match-res {
   width: 48px;
+}
+
+.match-ratings {
+  width: 120px;
 }
 
 .match-opponent {

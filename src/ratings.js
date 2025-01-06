@@ -2,12 +2,17 @@ import tournaments from './tournaments.json'
 import { glicko } from './glicko'
 import { initDB, playerById } from "./idb"
 
-export let rating_changes = new Map()
+// current pointer
 export let player_ratings = new Map()
+
+// match keyed
+export let rating_changes = new Map()
+
+// tournament keyed
 export const all_ratings = []
 export const all_ranks = []
 export const all_ranks_by_id = []
-window.all_ratings = all_ratings
+
 export const G = glicko()
 export const CANONICAL_RD = 100
 
