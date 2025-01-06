@@ -63,7 +63,7 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
                 <span>{Math.floor(m.rc.r2)}</span>
               </div>}
               <div className="match-opponent" data-playerid={m.x_id} onClick={showPlayer}>{playerById.get(m.x_id).name}</div>
-              {showVenue && <div className="match-date">{tourney.StartDate}</div>}
+              <div className="match-date">{tourney.StartDate}</div>
               {showVenue && <div className="match-event">{tourney.ShortName}</div>}
               <div className="match-scores">
                 {scores.map((set, i) =>
@@ -85,7 +85,7 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
                 <span>{Math.floor(m.rc.r1)}</span>
               </div>}
               <div className="match-opponent" data-playerid={m.a_id} onClick={showPlayer}>{playerById.get(m.a_id).name}</div>
-              {showVenue && <div className="match-date">{tourney.StartDate}</div>}
+              <div className="match-date">{tourney.StartDate}</div>
               {showVenue && <div className="match-event">{tourney.ShortName}</div>}
               <div className="match-scores">
                 {scores.map((set, i) =>
