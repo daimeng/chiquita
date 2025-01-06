@@ -1,10 +1,10 @@
-import './App.css'
+import './app.css'
 import { useCallback, useEffect, useState } from 'react'
 import tournaments from './tournaments.json'
 import { motion } from 'framer-motion'
 import { ISO3to2, ISO3toColor } from './country-map'
 import { playerById, tournamentById } from './idb'
-import { all_ratings, init, rating_changes } from './ratings'
+import { all_ranks, all_ranks_by_id, all_ratings, init, rating_changes } from './ratings'
 import { auth, login, signUp } from './firebase'
 import { Login } from './login'
 import { EmptyCard, PlayerCard } from './playercard'
@@ -19,7 +19,6 @@ function App() {
   const [gender, setGender] = useState('M')
   const [maxdev, setMaxdev] = useState(100)
   const [openPlayers, setOpenPlayers] = useState([])
-  // const [hash, setHash] = useHash()
   const [bracketOpen, setBracketOpen] = useState(false)
 
   useEffect(() => {
@@ -40,7 +39,7 @@ function App() {
 
   return (
     <>
-      <div className="App">
+      <div className="app">
         <div className="rating_controls">
           <div>
             <button className={gender === 'M' ? 'active' : ''} onClick={() => setGender('M')}>M</button>
@@ -82,7 +81,7 @@ function App() {
           }
           {/* <Login /> */}
         </div>
-        <RankTable event={event} gender={gender} maxdev={maxdev} showDev={showDev} showPlayer={showPlayer} />
+        <RankTable event={event} top={top} gender={gender} maxdev={maxdev} showDev={showDev} showPlayer={showPlayer} />
       </div>
 
       <div className="player-panel">
@@ -109,41 +108,49 @@ function App() {
 export default App;
 
 
-function RankTable({ event, gender, maxdev, showDev, showPlayer }) {
-  // const [lastRanking, setLastRanking] = useState(new Map())
-  // const [ranking, setRanking] = useState([])
-
+function RankTable({ event, top, gender, maxdev, showDev, showPlayer }) {
   let ranking = []
-  const lastRanking = new Map()
+  let lastRanking
+  let rankrows = []
 
   if (event !== -1) {
-    const ratings = all_ratings[event]
+    ranking = all_ranks[event]
     if (event > 0) {
-      const ranks = []
-      all_ratings[event - 1].forEach((v, k) => {
-        if (
-          playerById.get(k).gender === gender
-          && v.rd <= maxdev
-        ) {
-          ranks.push([k, v])
-        }
-      })
-      ranks.sort((a, b) => b[1].rating - a[1].rating)
-      ranks.forEach(([player, _], i) => {
-        lastRanking.set(player, i)
-      })
+      lastRanking = all_ranks_by_id[event - 1]
+    } else {
+      lastRanking = new Map()
     }
 
-    {
-      ratings.forEach((v, k) => {
-        if (
-          playerById.get(k).gender === gender
-          && v.rd <= maxdev
-        ) {
-          ranking.push([k, v])
-        }
-      })
-      ranking.sort((a, b) => b[1].rating - a[1].rating)
+    const player_ratings = all_ratings[event]
+    const ranks_by_id = all_ranks_by_id[event]
+
+    let picked = 0
+    for (let i = 0; i < ranking.length; i++) {
+      // top limit
+      if (picked > top) break
+      const playerId = ranking[i]
+
+      // skip gender
+      const player = playerById.get(playerId)
+      if (player.gender !== gender) continue
+
+      // skip above maxdev
+      const rating = player_ratings.get(playerId)
+      if (rating.rd > maxdev) continue
+
+      picked += 1
+
+      rankrows.push(
+        <RankRow key={playerId}
+          i={ranks_by_id.get(playerId)}
+          r={rating}
+          playerId={playerId}
+          event={event}
+          lastRanking={lastRanking}
+          showPlayer={showPlayer}
+          showDev={showDev}
+        />
+      )
     }
   }
 
@@ -165,23 +172,15 @@ function RankTable({ event, gender, maxdev, showDev, showPlayer }) {
         }
         <span className="rating_bar"></span>
       </div>
-      {ranking.length === 0 && <div className="loading">
-        <img alt="chiquita" src="./favicon.svg" width={128} height={128} />
-        <div>
-          Loading data, please wait... It will take longer the first time.
+      {
+        ranking.length === 0 && <div className="loading">
+          <img alt="chiquita" src="./favicon.svg" width={128} height={128} />
+          <div>
+            Loading data, please wait... It will take longer the first time.
+          </div>
         </div>
-      </div>
       }
-      {ranking.map((r, i) => {
-        if (i >= top) return
-
-        return <RankRow key={r[0]} i={i} r={r}
-          event={event}
-          lastRanking={lastRanking}
-          showPlayer={showPlayer}
-          showDev={showDev}
-        />
-      })}
+      {rankrows}
     </div>
   )
 }
@@ -191,19 +190,21 @@ const rowtransition = {
   duration: 0.5,
 }
 
-function RankRow({ r, i, event, lastRanking, showPlayer, showDev }) {
-  const player = playerById.get(r[0])
-  const { rating, rd, last_active } = r[1]
+function RankRow({ r, i, playerId, event, lastRanking, showPlayer, showDev }) {
+  const player = playerById.get(playerId)
+
+  const { rating, rd, last_active } = r
   const date = ymd(last_active)
+
   let rating_delta = 0
   if (event > 0) {
-    const last_rating = all_ratings[event - 1].get(r[0])
+    const last_rating = all_ratings[event - 1].get(playerId)
     if (last_rating) {
       rating_delta = Math.floor(rating) - Math.floor(last_rating.rating)
     }
   }
 
-  const lr = lastRanking.has(r[0]) ? lastRanking.get(r[0]) : Infinity
+  const lr = lastRanking.has(playerId) ? lastRanking.get(playerId) : Infinity
 
   return (
     <motion.div
@@ -211,15 +212,15 @@ function RankRow({ r, i, event, lastRanking, showPlayer, showDev }) {
       layout
       transition={rowtransition}
     >
-      <span className="rating_rank">{i + 1}</span>
+      <span className="rating_rank">{i == null ? '--' : i + 1}</span>
       <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''}`}>
-        {lr === Infinity ? '--' : Math.abs(lr - i)}
+        {lr === Infinity || i === null ? '--' : Math.abs(lr - i)}
       </span>
       <span className="rating_flag">
         <span className={`fi fi-${ISO3to2[player.org]}`}></span>
       </span>
       <span className="rating_org">{player.org}</span>
-      <span className="rating_name" data-playerid={r[0]} onClick={showPlayer}>{player.name}</span>
+      <span className="rating_name" data-playerid={playerId} onClick={showPlayer}>{player.name}</span>
       <span className="rating_rating">{Math.floor(rating)}</span>
       <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
         {Math.abs(rating_delta)}

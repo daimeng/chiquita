@@ -1,9 +1,16 @@
-.App {
+.app {
   position: relative;
   text-align: center;
 }
 
-.App-link {
+.app-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.app-nav-tab {}
+
+.app-link {
   color: #61dafb;
 }
 

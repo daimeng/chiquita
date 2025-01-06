@@ -1,13 +1,15 @@
 import tournaments from './tournaments.json'
 import { glicko } from './glicko'
-import { initDB } from "./idb"
+import { initDB, playerById } from "./idb"
 
 export let rating_changes = new Map()
 export let player_ratings = new Map()
 export const all_ratings = []
 export const all_ranks = []
+export const all_ranks_by_id = []
 window.all_ratings = all_ratings
 export const G = glicko()
+export const CANONICAL_RD = 100
 
 export const init = initDB().then(async (db) => {
 	let p = Promise.resolve()
@@ -36,6 +38,21 @@ export const init = initDB().then(async (db) => {
 			player_ranks.sort((playerA, playerB) => player_ratings.get(playerB).rating - player_ratings.get(playerA).rating)
 
 			all_ranks.push(player_ranks)
+
+			const ranks_by_id = new Map()
+			const gender_count = {
+				M: 0,
+				W: 0,
+			}
+			player_ranks.forEach((playerId) => {
+				if (player_ratings.get(playerId).rd > CANONICAL_RD) return
+
+				const p = playerById.get(playerId)
+
+				ranks_by_id.set(playerId, gender_count[p.gender])
+				gender_count[p.gender] += 1
+			})
+			all_ranks_by_id.push(ranks_by_id)
 		})
 	}
 
