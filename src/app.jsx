@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from 'react'
 import tournaments from './tournaments.json'
 import { motion } from 'framer-motion'
 import { ISO3to2, ISO3toColor } from './country-map'
-import { playerById, tournamentById } from './idb'
+import { playerById, resetDB, tournamentById } from './idb'
 import { all_ranks, all_ranks_by_id, all_ratings, init, rating_changes } from './ratings'
 import { auth, login, signUp } from './firebase'
 import { Login } from './login'
@@ -74,11 +74,17 @@ function App() {
               <option value={Infinity}>All</option>
             </select>
           </div>
-          {
+          <button className="simple-tip" onClick={() => resetDB()}>
+            !
+            <div className="simple-tip-hover">
+              Click to reset database if something looks wrong.
+            </div>
+          </button>
+          {/* {
             <button id="olympics" onClick={() => setBracketOpen(true)}>
               Paris 2024
             </button>
-          }
+          } */}
           {/* <Login /> */}
         </div>
         <RankTable event={event} top={top} gender={gender} maxdev={maxdev} showDev={showDev} showPlayer={showPlayer} />
