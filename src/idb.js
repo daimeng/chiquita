@@ -93,7 +93,9 @@ export const initDB = async () => {
   return db
 }
 
-export function resetDB() {
+export async function resetDB() {
   deleteDB(DBNAME)
+  // problem with deleteDB promise
+  await new Promise(r => setTimeout(r, 1000))
   window.location.reload()
 }

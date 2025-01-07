@@ -74,7 +74,7 @@ function App() {
               <option value={Infinity}>All</option>
             </select>
           </div>
-          <button className="simple-tip" onClick={() => resetDB()}>
+          <button className="simple-tip" onClick={resetDB}>
             !
             <div className="simple-tip-hover">
               Click to reset database if something looks wrong.
