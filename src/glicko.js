@@ -76,7 +76,7 @@ export function glicko({ q = DEFAULT_CONFIG.q, c = DEFAULT_CONFIG.c, init_rd = D
 			const new_r1 = new_rating(r1, rd1, r2, rd2, result, d2_1)
 			const new_r2 = new_rating(r2, rd2, r1, rd1, 1 - result, d2_2)
 
-			rating_changes.set(id, { r1, new_r1, r2, new_r2 })
+			rating_changes.set(id, { r1, new_r1, new_rd1, r2, new_r2, new_rd2 })
 
 			pr1.rating = new_r1
 			pr1.rd = new_rd1

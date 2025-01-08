@@ -7,10 +7,9 @@ import { playerById, resetDB, tournamentById } from './idb'
 import { all_ranks, all_ranks_by_id, all_ratings, init, rating_changes } from './ratings'
 import { auth, login, signUp } from './firebase'
 import { Login } from './login'
-import { EmptyCard, PlayerCard } from './playercard'
+import { PlayerCard } from './playercard'
 import { BracketCard } from './bracket'
 import { useHash } from './hash'
-import { ymd } from './fast-dt'
 
 function App() {
   const [showDev, setShowDev] = useState(false)
@@ -196,11 +195,14 @@ const rowtransition = {
   duration: 0.5,
 }
 
+const FMT_DATE = new Date()
+
 function RankRow({ r, i, playerId, event, lastRanking, showPlayer, showDev }) {
   const player = playerById.get(playerId)
 
   const { rating, rd, last_active } = r
-  const date = ymd(last_active)
+  FMT_DATE.setTime(last_active)
+  const date = FMT_DATE.toISOString().slice(0, 10)
 
   let rating_delta = 0
   if (event > 0) {

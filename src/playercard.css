@@ -1,0 +1,144 @@
+.player-panel {
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    position: fixed;
+    min-width: 800px;
+    height: 100%;
+    pointer-events: none;
+    padding: 24px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    border: 2px solid rgba(106, 90, 205, 0.5);
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+    pointer-events: all;
+}
+
+.card-header {
+    font-size: 18px;
+    position: relative;
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.toggle-venue {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.card-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(106, 90, 205, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.card-close:hover {
+    color: #666;
+    background-color: whitesmoke;
+}
+
+.card-content {
+    height: calc(100% - 32px);
+    overflow: auto;
+}
+
+.match-row {
+    display: flex;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 4px;
+}
+
+.match-row:nth-child(odd) {
+    background-color: rgba(143, 171, 224, 0.1);
+}
+
+.match-res {
+    width: 48px;
+}
+
+.match-ratings {
+    width: 120px;
+}
+
+.match-opponent {
+    width: 200px;
+    cursor: pointer;
+}
+
+.match-opponent:hover {
+    background-color: rgb(235, 233, 255, 1);
+    color: slateblue;
+    transition: all 0.3s;
+    border-radius: 3px;
+}
+
+.match-date {
+    width: 96px;
+}
+
+.match-event {
+    width: 200px;
+    text-wrap: nowrap;
+    word-break: keep-all;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.match-rating-change {
+    width: 48px;
+    color: seagreen;
+}
+
+.match-loss .match-rating-change {
+    color: indianred;
+}
+
+.match-scores {
+    display: flex;
+    font-size: 14px;
+}
+
+.match-scores-set {
+    width: 24px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+
+.player-graph {
+    color: #eee;
+    width: 100%;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+.xticks {
+    fill: #eee;
+    text-anchor: end;
+}
+
+.yticks {
+    fill: #eee;
+}
+
+.xticks-line:first-of-type,
+.xticks:first-of-type {
+    display: none;
+}

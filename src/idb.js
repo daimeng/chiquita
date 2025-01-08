@@ -20,6 +20,7 @@ for (let i = 0; i < tournaments.length; i++) {
     .replace('Feeder', 'Fdr')
     .replace(/(.+) presented(.+)/i, '$1')
   tournaments[i].StartDate = tournaments[i].StartDateTime.slice(0, 10)
+  tournaments[i].EndDate = tournaments[i].EndDateTime.slice(0, 10)
   tournamentById.set(tournaments[i].EventId, tournaments[i])
 }
 
