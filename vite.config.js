@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [
     react(),
     cdn({
-      modules: ['react', 'react-dom'],
+      modules: [
+      ],
     }),
   ],
 })
