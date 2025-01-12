@@ -1,4 +1,4 @@
-import { isoFormat, scaleLinear, scaleLog, scaleTime, utcFormat, utcMonth } from 'd3'
+import { isoFormat, line, path, scaleLinear, scaleLog, scalePow, scaleSqrt, scaleTime, utcFormat, utcMonth } from 'd3'
 import './playercard.css'
 import tournaments from './tournaments.json'
 import { useCallback, useEffect, useMemo, useState } from "react"
@@ -126,14 +126,67 @@ const GRAPH_START = Date.parse('01 Jan 2021 00:00:00 GMT')
 const GRAPH_END = new Date()
 const GRAPH_SCALE_X = [GRAPH_START, GRAPH_END]
 const GRAPH_SCALE_Y = [1400, 2400]
+const GRAPH_SCALE_YRANK = [0, 100]
 const ISOMONTH = utcFormat("%Y-%m")
 
+const y = scaleLog(GRAPH_SCALE_Y, [0, SVG_BOT])
+const yrank = scalePow(GRAPH_SCALE_YRANK, [0, SVG_BOT]).exponent(0.5)
+const yticks = y.ticks(10)
+const yrankticks = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100]
+
 export function PlayerGraph({ playerid, matches }) {
-  // for (let i in tournaments) {
-  //   const t = tournaments[i]
-  //   t.EndDateTime
+  const [width, setWidth] = useState(null);
+  const div = useCallback(node => {
+    if (node !== null) {
+      setWidth(node.getBoundingClientRect().width);
+    }
+  }, [])
+
+  const end = width
+  const x = scaleTime(GRAPH_SCALE_X, [0, width])
+  const xticks = x.ticks(utcMonth.every(6))
+
+  const rankPath = line()
+    .x((d) => x(d.dt))
+    .y((d) => yrank(d.rank))
+    .defined((d) => d.rank !== undefined)
+
+  const ranks = useMemo(() => {
+    const r = []
+    let lastrank = undefined
+    for (let i in tournaments) {
+      const t = tournaments[i]
+      const rank = all_ranks_by_id[i].get(playerid)
+      if (rank !== lastrank) {
+        r.push({
+          rank,
+          dt: Date.parse(t.EndDateTime)
+        })
+        lastrank = rank
+      }
+    }
+
+    return r
+  }, [playerid])
+
+  // const rankPath = useMemo(() => {
+  //   return 
+  // let p = path()
+
+  // let fromUndefined = true
+  // for (let i = 0; i < ranks.length; i++) {
+  //   const { dt, rank } = ranks[i]
+  //   if (fromUndefined) {
+  //     p.moveTo(x(dt), yrank(rank))
+  //     fromUndefined = false // shouldn't be two undefined in a row
+  //   } else if (rank === undefined) {
+  //     fromUndefined = true
+  //   } else {
+  //     p.lineTo(x(dt), yrank(rank))
+  //     fromUndefined = false
+  //   }
   // }
-  // all_ranks_by_id[].get(playerid)
+  // }, [ranks])
 
   const validMatches = useMemo(() => {
     let v = []
@@ -165,54 +218,67 @@ export function PlayerGraph({ playerid, matches }) {
     return v
   }, [matches])
 
-  const [width, setWidth] = useState(null);
-  const div = useCallback(node => {
-    if (node !== null) {
-      setWidth(node.getBoundingClientRect().width);
-    }
-  }, [])
-
-  const end = width
-  const y = scaleLog(GRAPH_SCALE_Y, [0, SVG_BOT])
-  const x = scaleTime(GRAPH_SCALE_X, [0, width])
-  const xticks = x.ticks(utcMonth.every(6))
-  const yticks = y.ticks(10)
-
   return (
     <div ref={div}>
       <svg className="player-graph" height={SVG_BOT}>
-        {xticks.map(t => {
-          const xx = x(t)
+        <g>
+          {xticks.map(t => {
+            const xx = x(t)
+            return (
+              <line key={t} className="xticks-line" x1={xx} x2={xx} y1={0} y2={SVG_BOT} stroke="#333" />
+            )
+          })}
+        </g>
+        <g>
+          {xticks.map(t => {
+            return (
+              <text key={t} className="xticks" transform={`translate(${x(t) + 10}, ${SVG_BOT - 30}) rotate(-30)`}>{ISOMONTH(t)}</text>
+            )
+          })}
+        </g>
+        <g>
+          {yticks.map(t => {
+            const yy = SVG_BOT - y(t)
+            return (
+              <line key={t} className="yticks-line" x1={0} x2={width} y1={yy} y2={yy} stroke="#333" />
+            )
+          })}
+        </g>
+        <g>
+          {yticks.map(t => {
+            return (
+              <text key={t} className="yticks" transform={`translate(0, ${SVG_BOT - y(t)})`}>{t}</text>
+            )
+          })}
+        </g>
+        {/* {yrankticks.map(t => {
           return (
-            <line className="xticks-line" x1={xx} x2={xx} y1={0} y2={SVG_BOT} stroke="#333" />
+            <text className="yrankticks" transform={`translate(${width - 30}, ${yrank(t)})`}>{t}</text>
           )
-        })}
-        {xticks.map(t => {
-          return (
-            <text className="xticks" transform={`translate(${x(t) + 10}, ${SVG_BOT - 30}) rotate(-30)`}>{ISOMONTH(t)}</text>
-          )
-        })}
-        {yticks.map(t => {
-          const yy = SVG_BOT - y(t)
-          return (
-            <line className="yticks-line" x1={0} x2={width} y1={yy} y2={yy} stroke="#333" />
-          )
-        })}
-        {yticks.map(t => {
-          return (
-            <text className="yticks" transform={`translate(0, ${SVG_BOT - y(t)})`}>{t}</text>
-          )
-        })}
+        })} */}
+
         <line className="y-axis" x1={SVG_START} y1={SVG_TOP} x2={SVG_START} y2={SVG_BOT - 10} stroke="#eee"></line>
         <line className="x-axis" x1={10} y1={SVG_BOT - 40} x2={end} y2={SVG_BOT - 40} stroke="#eee"></line>
         {validMatches.map(m => {
           return (
-            <circle key={m.id}
+            <circle key={m.start}
               opacity={(180 - m.rd) / 100}
               cx={x(m.start)} cy={SVG_BOT - y(m.rating)} r={3} stroke="#eee"
             />
           )
         })}
+
+        {/* {ranks.map(({ rank, dt }, i) => {
+          if (rank === undefined) return
+
+          return (
+            <rect key={i}
+              x={x(dt) - 3} y={yrank(rank) - 3} width={6} height={6} stroke="#eee"
+            />
+          )
+        })}
+        <path d={rankPath(ranks)} stroke="#eee" strokeWidth="1.5" fill="none" /> */}
+
       </svg>
     </div>
   )
