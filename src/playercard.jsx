@@ -123,10 +123,9 @@ const SVG_START = 40
 const SVG_TOP = 10
 const SVG_BOT = 400
 const GRAPH_START = Date.parse('01 Jan 2021 00:00:00 GMT')
-const GRAPH_END = new Date()
+const GRAPH_END = new Date(new Date().getTime() + 30 * 86400000);
 const GRAPH_SCALE_X = [GRAPH_START, GRAPH_END]
 const GRAPH_SCALE_Y = [1200, 2400]
-const GRAPH_SCALE_YRANK = [0, 100]
 const ISOMONTH = utcFormat("%Y-%m")
 
 const y = scaleLog(GRAPH_SCALE_Y, [0, SVG_BOT])
@@ -239,9 +238,11 @@ export function PlayerGraph({ playerid, matches }) {
           if (rating == null || rating.rd > 120) return
           const rank = all_ranks_by_id[i].get(playerid) + 1
           const ranklog = Math.floor(Math.log2(rank))
+          const opacity = (150 - rating.rd) / 100
 
           return <circle
             key={t.EventId}
+            opacity={opacity}
             cx={x(t.Start)} cy={SVG_BOT - y(rating.rating)} r={2}
             fill={RANKCOLORS[ranklog] || DEFAULT_RANK_COLOR}
           />
