@@ -12,3 +12,7 @@ I may find time to go through tournaments manually since 2022 and update values.
 
 ## TODO
 Fix downloading of ITTF Team Championship matches, ATTU, ETTU.
+
+Restore regional championships in some form
+
+Fix some team events: 2751
