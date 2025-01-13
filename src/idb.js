@@ -21,6 +21,9 @@ for (let i = 0; i < tournaments.length; i++) {
     .replace(/(.+) presented(.+)/i, '$1')
   tournaments[i].StartDate = tournaments[i].StartDateTime.slice(0, 10)
   tournaments[i].EndDate = tournaments[i].EndDateTime.slice(0, 10)
+  tournaments[i].Start = Date.parse(tournaments[i].StartDateTime)
+  tournaments[i].End = Date.parse(tournaments[i].EndDateTime)
+  tournaments[i].Index = i
   tournamentById.set(tournaments[i].EventId, tournaments[i])
 }
 
