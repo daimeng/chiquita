@@ -82,12 +82,13 @@
 .match-opponent {
     width: 200px;
     cursor: pointer;
+    transition: all 1s;
 }
 
 .match-opponent:hover {
     background-color: rgb(235, 233, 255, 1);
     color: slateblue;
-    transition: all 0.3s;
+    transition: all 0.1s;
     border-radius: 3px;
 }
 
