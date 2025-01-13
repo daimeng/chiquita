@@ -194,7 +194,6 @@ export function PlayerGraph({ playerid, matches }) {
   return (
     <div className="graph-container" ref={div}>
       <div className="graph-tooltip" ref={tooltip}>
-        test
       </div>
       <svg className="player-graph" height={SVG_BOT}
         onMouseOver={handleMouseOver}
@@ -235,10 +234,10 @@ export function PlayerGraph({ playerid, matches }) {
         <line className="x-axis" x1={10} y1={SVG_BOT - 40} x2={end} y2={SVG_BOT - 40} stroke="#eee"></line>
         {tournaments.map((t, i) => {
           const rating = all_ratings[i].get(playerid)
-          if (rating == null || rating.rd > 120) return
+          if (rating == null) return
           const rank = all_ranks_by_id[i].get(playerid) + 1
           const ranklog = Math.floor(Math.log2(rank))
-          const opacity = (150 - rating.rd) / 100
+          const opacity = Math.max((150 - rating.rd) / 100, 0.1)
 
           return <circle
             key={t.EventId}
