@@ -122,8 +122,9 @@ export function EmptyCard({ hidePlayer }) {
 const SVG_START = 40
 const SVG_TOP = 10
 const SVG_BOT = 400
-const GRAPH_START = Date.parse('01 Jan 2021 00:00:00 GMT')
-const GRAPH_END = new Date(new Date().getTime() + 30 * 86400000);
+const GRAPH_START = Date.parse('01 Jul 2022 00:00:00 GMT')
+const THIRTYDAY = 30 * 86400000
+const GRAPH_END = new Date(new Date().getTime() + THIRTYDAY);
 const GRAPH_SCALE_X = [GRAPH_START, GRAPH_END]
 const GRAPH_SCALE_Y = [1200, 2400]
 const ISOMONTH = utcFormat("%Y-%m")
@@ -233,6 +234,7 @@ export function PlayerGraph({ playerid, matches }) {
         <line className="y-axis" x1={SVG_START} y1={SVG_TOP} x2={SVG_START} y2={SVG_BOT - 10} stroke="#eee"></line>
         <line className="x-axis" x1={10} y1={SVG_BOT - 40} x2={end} y2={SVG_BOT - 40} stroke="#eee"></line>
         {tournaments.map((t, i) => {
+          if (t.Start < GRAPH_START + 2 * THIRTYDAY) return
           const rating = all_ratings[i].get(playerid)
           if (rating == null) return
           const rank = all_ranks_by_id[i].get(playerid) + 1
@@ -248,6 +250,8 @@ export function PlayerGraph({ playerid, matches }) {
         })}
 
         {validMatches.map(m => {
+          if (m.start < GRAPH_START + 2 * THIRTYDAY) return
+
           let opacity = 1
           if (m.rd > 120) return
           opacity = (150 - m.rd) / 100
