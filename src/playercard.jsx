@@ -175,29 +175,64 @@ export function PlayerGraph({ playerid, matches }) {
   }, [matches])
 
   const tooltip = useRef(null)
-  const handleMouseOver = useCallback((evt) => {
-    const t = tooltip.current
-    if (t == null) return
-
-    if (evt.target.className.baseVal === 'graph-match') {
-      t.classList.add('tooltip-shown')
-      const data = evt.target.dataset
-      t.style.transform = `translate(${evt.target.cx.baseVal.value - 50}px, ${evt.target.cy.baseVal.value}px)`
-      t.innerText = `${tournamentById.get(+data.event).StartDate}
-        Rank ${data.rank}
-        ${data.rating} ± ${data.rd}
-      `
-    } else {
-      t.classList.remove('tooltip-shown')
+  const tooltxt = useRef(null)
+  const [graphx, setGraphx] = useState(0)
+  const graph = useCallback(node => {
+    if (node !== null) {
+      setGraphx(node.getBoundingClientRect().x)
     }
   }, [])
+
+  const handleMouseOver = useCallback((evt) => {
+    const t = tooltip.current
+    const txt = tooltxt.current
+
+    if (t != null) {
+      if (evt.target.className.baseVal === 'graph-match') {
+        t.classList.add('tooltip-shown')
+        const data = evt.target.dataset
+        t.style.transform = `translate(${evt.target.cx.baseVal.value - 50}px, ${evt.target.cy.baseVal.value}px)`
+        t.innerText = `${tournamentById.get(+data.event).StartDate}
+          Rank ${data.rank}
+          ${data.rating} ± ${data.rd}
+        `
+      } else {
+        t.classList.remove('tooltip-shown')
+      }
+    }
+
+    if (txt != null && graphx != 0) {
+      const date = x.invert(evt.clientX - graphx)
+      let l = 0, r = tournaments.length - 1
+      let p
+      while (l < r) {
+        p = Math.floor((l + r) / 2)
+
+        if (tournaments[p].Start === date) {
+          l = r = p
+        } else if (tournaments[p].Start < date) {
+          l = p + 1
+        } else {
+          r = p
+        }
+      }
+      if (p) {
+        txt.innerText = tournaments[p].ShortName
+      } else {
+        txt.innerText = ''
+      }
+    }
+  }, [graphx])
 
   return (
     <div className="graph-container" ref={div}>
       <div className="graph-tooltip" ref={tooltip}>
       </div>
-      <svg className="player-graph" height={SVG_BOT}
-        onMouseOver={handleMouseOver}
+      <div className="graph-tooltxt" ref={tooltxt}>
+      </div>
+      <svg className="player-graph" ref={graph} height={SVG_BOT}
+        onMouseMove={handleMouseOver}
+      // onMouseOver={handleMouseOver}
       >
         <g>
           {xticks.map(t => {
@@ -230,9 +265,9 @@ export function PlayerGraph({ playerid, matches }) {
           })}
         </g>
 
-
         <line className="y-axis" x1={SVG_START} y1={SVG_TOP} x2={SVG_START} y2={SVG_BOT - 10} stroke="#eee"></line>
         <line className="x-axis" x1={10} y1={SVG_BOT - 40} x2={end} y2={SVG_BOT - 40} stroke="#eee"></line>
+
         {tournaments.map((t, i) => {
           if (t.Start < GRAPH_START + 2 * THIRTYDAY) return
           const rating = all_ratings[i].get(playerid)

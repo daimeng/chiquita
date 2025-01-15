@@ -185,6 +185,15 @@
     background-color: rgba(255, 255, 255, 0.7);
 }
 
+.graph-tooltxt {
+    width: 100%;
+    bottom: 70px;
+    text-align: center;
+    pointer-events: none;
+    position: absolute;
+    color: #eee;
+}
+
 .tooltip-shown {
     opacity: 1;
 }
