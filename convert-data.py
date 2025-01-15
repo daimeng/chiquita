@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 
-tf = pd.read_csv('data/tournaments_wtt.tsv', sep='\t').sort_values(['StartDateTime'])
+tf = pd.read_csv('data/tournaments_wtt.tsv', sep='\t').sort_values(['EndDateTime'])
 
 pf = pd.read_csv('data/wtt_cleaned/players.tsv', sep='\t').astype({'id': 'uint32'})
 pf2 = pd.read_csv('data/wtt_cleaned/players_extra.tsv', sep='\t').astype({'id': 'uint32'})

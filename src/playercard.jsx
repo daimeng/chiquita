@@ -7,9 +7,9 @@ import { all_ranks_by_id, all_ratings, init, player_ratings, rating_changes } fr
 import { STAGE_TO_NUM } from "./priority"
 
 function sortStartStage(a, b) {
-  return b.start === a.start
+  return b.end === a.end
     ? STAGE_TO_NUM[a.stage] - STAGE_TO_NUM[b.stage]
-    : b.start - a.start
+    : b.end - a.end
 }
 
 export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
@@ -28,12 +28,12 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
       const all_matches = []
       for (let i = matches_a.length - 1; i >= 0; i--) {
         matches_a[i].rc = rating_changes.get(matches_a[i].id)
-        matches_a[i].start = Date.parse(tournamentById.get(matches_a[i].event_id).StartDateTime)
+        matches_a[i].end = Date.parse(tournamentById.get(matches_a[i].event_id).EndDateTime)
         all_matches.push(matches_a[i])
       }
       for (let i = matches_x.length - 1; i >= 0; i--) {
         matches_x[i].rc = rating_changes.get(matches_x[i].id)
-        matches_x[i].start = Date.parse(tournamentById.get(matches_x[i].event_id).StartDateTime)
+        matches_x[i].end = Date.parse(tournamentById.get(matches_x[i].event_id).EndDateTime)
         all_matches.push(matches_x[i])
       }
       all_matches.sort(sortStartStage)
@@ -149,11 +149,11 @@ export function PlayerGraph({ playerid, matches }) {
     let curr = null
     matches.forEach(m => {
       // if new tournament, add new entry
-      if (curr == null || curr.start !== m.start) {
+      if (curr == null || curr.end !== m.end) {
         if (playerid === m.a_id) {
-          curr = { event_id: m.event_id, start: m.start, rating: m.rc.new_r1, rd: m.rc.new_rd1 }
+          curr = { event_id: m.event_id, end: m.end, rating: m.rc.new_r1, rd: m.rc.new_rd1 }
         } else {
-          curr = { event_id: m.event_id, start: m.start, rating: m.rc.new_r2, rd: m.rc.new_rd2 }
+          curr = { event_id: m.event_id, end: m.end, rating: m.rc.new_r2, rd: m.rc.new_rd2 }
         }
         v.push(curr)
       } else {
@@ -192,7 +192,7 @@ export function PlayerGraph({ playerid, matches }) {
         t.classList.add('tooltip-shown')
         const data = evt.target.dataset
         t.style.transform = `translate(${evt.target.cx.baseVal.value - 50}px, ${evt.target.cy.baseVal.value}px)`
-        t.innerText = `${tournamentById.get(+data.event).StartDate}
+        t.innerText = `${tournamentById.get(+data.event).EndDate}
           Rank ${data.rank}
           ${data.rating} ± ${data.rd}
         `
@@ -204,23 +204,20 @@ export function PlayerGraph({ playerid, matches }) {
     if (txt != null && graphx != 0) {
       const date = x.invert(evt.clientX - graphx)
       let l = 0, r = tournaments.length - 1
-      let p
+      console.log(date)
       while (l < r) {
-        p = Math.floor((l + r) / 2)
+        const p = Math.ceil((l + r) / 2)
 
-        if (tournaments[p].Start === date) {
+        if (tournaments[p].End === date) {
           l = r = p
-        } else if (tournaments[p].Start < date) {
-          l = p + 1
+        } else if (tournaments[p].End < date) {
+          l = p
         } else {
-          r = p
+          r = p - 1
         }
       }
-      if (p) {
-        txt.innerText = tournaments[p].ShortName
-      } else {
-        txt.innerText = ''
-      }
+
+      txt.innerText = tournaments[l].ShortName
     }
   }, [graphx])
 
@@ -232,7 +229,6 @@ export function PlayerGraph({ playerid, matches }) {
       </div>
       <svg className="player-graph" ref={graph} height={SVG_BOT}
         onMouseMove={handleMouseOver}
-      // onMouseOver={handleMouseOver}
       >
         <g>
           {xticks.map(t => {
@@ -269,7 +265,7 @@ export function PlayerGraph({ playerid, matches }) {
         <line className="x-axis" x1={10} y1={SVG_BOT - 40} x2={end} y2={SVG_BOT - 40} stroke="#eee"></line>
 
         {tournaments.map((t, i) => {
-          if (t.Start < GRAPH_START + 2 * THIRTYDAY) return
+          if (t.End < GRAPH_START + THIRTYDAY) return
           const rating = all_ratings[i].get(playerid)
           if (rating == null) return
           const rank = all_ranks_by_id[i].get(playerid) + 1
@@ -279,13 +275,13 @@ export function PlayerGraph({ playerid, matches }) {
           return <circle
             key={t.EventId}
             opacity={opacity}
-            cx={x(t.Start)} cy={SVG_BOT - y(rating.rating)} r={2}
+            cx={x(t.End)} cy={SVG_BOT - y(rating.rating)} r={2}
             fill={RANKCOLORS[ranklog] || DEFAULT_RANK_COLOR}
           />
         })}
 
         {validMatches.map(m => {
-          if (m.start < GRAPH_START + 2 * THIRTYDAY) return
+          if (m.end < GRAPH_START + THIRTYDAY) return
 
           let opacity = 1
           if (m.rd > 120) return
@@ -302,12 +298,12 @@ export function PlayerGraph({ playerid, matches }) {
             <circle key={m.event_id}
               data-event={m.event_id}
               data-rank={rank}
-              data-start={m.start}
+              data-start={m.end}
               data-rating={Math.floor(m.rating)}
               data-rd={Math.floor(m.rd)}
               className="graph-match"
               opacity={opacity}
-              cx={x(m.start)} cy={SVG_BOT - y(m.rating)} r={4}
+              cx={x(m.end)} cy={SVG_BOT - y(m.rating)} r={4}
               stroke={RANKCOLORS[ranklog] || DEFAULT_RANK_COLOR}
             />
           )
