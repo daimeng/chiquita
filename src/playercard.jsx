@@ -177,11 +177,18 @@ export function PlayerGraph({ playerid, matches }) {
   const tooltip = useRef(null)
   const tooltxt = useRef(null)
   const [graphx, setGraphx] = useState(0)
-  const graph = useCallback(node => {
-    if (node !== null) {
-      setGraphx(node.getBoundingClientRect().x)
+  const graph = useRef(null)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setGraphx(graph.current.getBoundingClientRect().x)
     }
-  }, [])
+    handleResize()
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on unmount
+    return () => window.removeEventListener('resize', handleResize);
+  }, [graph]);
 
   const handleMouseOver = useCallback((evt) => {
     const t = tooltip.current
