@@ -202,9 +202,8 @@ export function PlayerGraph({ playerid, matches }) {
     }
 
     if (txt != null && graphx != 0) {
-      const date = x.invert(evt.clientX - graphx)
+      const date = x.invert(evt.clientX - graphx + 5) // 5 px buffer for circle size
       let l = 0, r = tournaments.length - 1
-      console.log(date)
       while (l < r) {
         const p = Math.ceil((l + r) / 2)
 
@@ -265,7 +264,7 @@ export function PlayerGraph({ playerid, matches }) {
         <line className="x-axis" x1={10} y1={SVG_BOT - 40} x2={end} y2={SVG_BOT - 40} stroke="#eee"></line>
 
         {tournaments.map((t, i) => {
-          if (t.End < GRAPH_START + THIRTYDAY) return
+          if (t.End < GRAPH_START + 2 * THIRTYDAY) return
           const rating = all_ratings[i].get(playerid)
           if (rating == null) return
           const rank = all_ranks_by_id[i].get(playerid) + 1
@@ -281,7 +280,7 @@ export function PlayerGraph({ playerid, matches }) {
         })}
 
         {validMatches.map(m => {
-          if (m.end < GRAPH_START + THIRTYDAY) return
+          if (m.end < GRAPH_START + 2 * THIRTYDAY) return
 
           let opacity = 1
           if (m.rd > 120) return
