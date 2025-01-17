@@ -30,6 +30,23 @@ function App() {
     })
   }, [])
 
+  useEffect(() => {
+    function handleKeyDown(event) {
+      if (event.key === 'ArrowLeft') {
+        setEvent(ev => Math.max(ev - 1, 0))
+      } else if (event.key === 'ArrowRight') {
+        setEvent(ev => Math.min(ev + 1, tournaments.length - 1))
+      }
+      return false
+    }
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [])
+
   const handleSetEvent = useCallback((e) => setEvent(+e.target.value), [setEvent])
   const showPlayer = useCallback((e) => setOpenPlayers([+e.target.dataset.playerid]), [setOpenPlayers])
   const hidePlayer = useCallback(() => setOpenPlayers([]), [setOpenPlayers])
@@ -45,11 +62,13 @@ function App() {
           </div>
 
           <div className="set-event">
+            <button className="event-left" onClick={() => setEvent(ev => Math.max(ev - 1, 0))}>◀</button>
             <select value={event} onChange={handleSetEvent}>
               {tournaments.map((t, i) => {
                 return <option key={t.EventId} value={i}>{`${t.EventName}`}</option>
               })}true
             </select>
+            <button className="event-right" onClick={() => setEvent(ev => Math.min(ev + 1, tournaments.length - 1))}>▶</button>
           </div>
 
           <div className="set-maxdev">
@@ -128,7 +147,7 @@ function RankTable({ event, top, gender, maxdev, showPlayer }) {
     let picked = 0
     for (let i = 0; i < ranking.length; i++) {
       // top limit
-      if (picked > top) break
+      if (picked >= top) break
       const playerId = ranking[i]
 
       // skip gender

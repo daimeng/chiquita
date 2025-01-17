@@ -16,7 +16,6 @@
 
 button {
   padding: 4px;
-  margin-left: 4px;
   border: 2px solid #777;
   border-radius: 4px;
   background-color: whitesmoke;
@@ -69,7 +68,9 @@ select {
 }
 
 .set-event {
+  display: flex;
   min-width: 100px;
+  max-width: 300px;
 }
 
 .set-event>select {
