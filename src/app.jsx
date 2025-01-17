@@ -12,7 +12,6 @@ import { BracketCard } from './bracket'
 import { useHash } from './hash'
 
 function App() {
-  const [showDev, setShowDev] = useState(false)
   const [top, setTop] = useState(100)
   const [event, setEvent] = useState(-1)
   const [gender, setGender] = useState('M')
@@ -58,9 +57,6 @@ function App() {
             <input type="range" min="0" max="350" step="10" value={maxdev}
               onChange={e => setMaxdev(e.target.value)} />{maxdev}
           </div>
-          <div>
-            show rd<input type="checkbox" checked={showDev} onChange={() => setShowDev((d) => !d)}></input>
-          </div>
 
           <div className="set-top">
             {'top '}
@@ -86,7 +82,7 @@ function App() {
           } */}
           {/* <Login /> */}
         </div>
-        <RankTable event={event} top={top} gender={gender} maxdev={maxdev} showDev={showDev} showPlayer={showPlayer} />
+        <RankTable event={event} top={top} gender={gender} maxdev={maxdev} showPlayer={showPlayer} />
       </div>
 
       <div className="player-panel">
@@ -113,7 +109,7 @@ function App() {
 export default App;
 
 
-function RankTable({ event, top, gender, maxdev, showDev, showPlayer }) {
+function RankTable({ event, top, gender, maxdev, showPlayer }) {
   let ranking = []
   let lastRanking
   let rankrows = []
@@ -153,7 +149,6 @@ function RankTable({ event, top, gender, maxdev, showDev, showPlayer }) {
           event={event}
           lastRanking={lastRanking}
           showPlayer={showPlayer}
-          showDev={showDev}
         />
       )
     }
@@ -169,12 +164,8 @@ function RankTable({ event, top, gender, maxdev, showDev, showPlayer }) {
         <span className="rating_name">name</span>
         <span className="rating_rating">pts</span>
         <span className="rating_delta"></span>
-        {showDev &&
-          <>
-            <span className="rating_dev">±</span>
-            <span className="rating_active">active</span>
-          </>
-        }
+        <span className="rating_dev">±</span>
+        <span className="rating_active">active</span>
         <span className="rating_bar"></span>
       </div>
       {
@@ -197,7 +188,7 @@ const rowtransition = {
 
 const FMT_DATE = new Date()
 
-function RankRow({ r, i, playerId, event, lastRanking, showPlayer, showDev }) {
+function RankRow({ r, i, playerId, event, lastRanking, showPlayer }) {
   const player = playerById.get(playerId)
 
   const { rating, rd, last_active } = r
@@ -233,15 +224,11 @@ function RankRow({ r, i, playerId, event, lastRanking, showPlayer, showDev }) {
       <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
         {Math.abs(rating_delta)}
       </span>
-      {showDev &&
-        <>
-          <span className="rating_dev">{Math.floor(rd)}</span>
-          <span className="rating_active">{date}</span>
-        </>
-      }
+      <span className="rating_dev">{Math.floor(rd)}</span>
+      <span className="rating_active">{date}</span>
       <span className="rating_bar">
         <span style={{
-          width: `${Math.max(rating - 1400, 0) / 16}%`,
+          width: `${Math.max(rating - 1400, 0) / 12}%`,
           backgroundColor: ISO3toColor[player.org],
         }}>
         </span>
