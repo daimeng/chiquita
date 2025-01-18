@@ -26,6 +26,7 @@ for (let i = 0; i < tournaments.length; i++) {
   tournaments[i].Index = i
   tournamentById.set(tournaments[i].EventId, tournaments[i])
 }
+export const tournamentsByIx = tournaments
 
 export const initDB = async () => {
   // await deleteDB(DBNAME)

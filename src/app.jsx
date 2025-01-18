@@ -3,13 +3,14 @@ import { useCallback, useEffect, useState } from 'react'
 import tournaments from './tournaments.json'
 import { motion } from 'framer-motion'
 import { ISO3to2, ISO3toColor } from './country-map'
-import { playerById, resetDB, tournamentById } from './idb'
+import { playerById, resetDB, tournamentById, tournamentsByIx } from './idb'
 import { all_ranks, all_ranks_by_id, all_ratings, init, rating_changes } from './ratings'
 import { auth, login, signUp } from './firebase'
 import { Login } from './login'
 import { PlayerCard } from './playercard'
 import { BracketCard } from './bracket'
 import { useHash } from './hash'
+import { TournamentCard } from './event'
 
 function App() {
   const [top, setTop] = useState(100)
@@ -17,6 +18,7 @@ function App() {
   const [gender, setGender] = useState('M')
   const [maxdev, setMaxdev] = useState(100)
   const [openPlayers, setOpenPlayers] = useState([])
+  const [openTournament, setOpenTournament] = useState(null)
   const [bracketOpen, setBracketOpen] = useState(false)
 
   useEffect(() => {
@@ -48,9 +50,9 @@ function App() {
   }, [])
 
   const handleSetEvent = useCallback((e) => setEvent(+e.target.value), [setEvent])
-  const showPlayer = useCallback((e) => setOpenPlayers([+e.target.dataset.playerid]), [setOpenPlayers])
+  const showPlayer = useCallback((e) => { setOpenTournament(null); setOpenPlayers([+e.target.dataset.playerid]) }, [setOpenPlayers])
   const hidePlayer = useCallback(() => setOpenPlayers([]), [setOpenPlayers])
-  const hideBracket = useCallback(() => setBracketOpen(false), [setBracketOpen])
+  // const hideBracket = useCallback(() => setBracketOpen(false), [setBracketOpen])
 
   return (
     <>
@@ -68,6 +70,7 @@ function App() {
                 return <option key={t.EventId} value={i}>{`${t.EventName}`}</option>
               })}true
             </select>
+            <button className="event-open" onClick={() => { setOpenTournament(tournamentsByIx[event].EventId); hidePlayer() }}>show</button>
             <button className="event-right" onClick={() => setEvent(ev => Math.min(ev + 1, tournaments.length - 1))}>▶</button>
           </div>
 
@@ -115,9 +118,11 @@ function App() {
       </div>
 
       <div className="bracket-panel">
-        {bracketOpen
-          && <BracketCard
-            hideBracket={hideBracket}
+        {(openTournament != null)
+          && <TournamentCard
+            event_id={openTournament}
+            close={() => setOpenTournament(null)}
+            showPlayer={showPlayer}
           />
         }
       </div>
