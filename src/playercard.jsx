@@ -5,12 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { playerById, tournamentById } from "./idb"
 import { all_ranks_by_id, all_ratings, init, player_ratings, rating_changes } from "./ratings"
 import { STAGE_TO_NUM } from "./priority"
-
-function sortStartStage(a, b) {
-  return b.end === a.end
-    ? STAGE_TO_NUM[a.stage] - STAGE_TO_NUM[b.stage]
-    : b.end - a.end
-}
+import { sortStartStage } from './event'
 
 export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
   const player = playerById.get(playerid)
@@ -68,6 +63,9 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
               </div>}
               <div className="match-opponent" data-playerid={m.x_id} onClick={showPlayer}>{playerById.get(m.x_id).name}</div>
               <div className="match-date">{tourney.EndDate}</div>
+              <div className="match-stage">
+                {m.team ? 'T' : ''}{m.stage}
+              </div>
               {showVenue && <div className="match-event">{tourney.ShortName}</div>}
               <div className="match-scores">
                 {scores.map((set, i) =>
@@ -90,6 +88,9 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
               </div>}
               <div className="match-opponent" data-playerid={m.a_id} onClick={showPlayer}>{playerById.get(m.a_id).name}</div>
               <div className="match-date">{tourney.EndDate}</div>
+              <div className="match-stage">
+                {m.team ? 'T' : ''}{m.stage}
+              </div>
               {showVenue && <div className="match-event">{tourney.ShortName}</div>}
               <div className="match-scores">
                 {scores.map((set, i) =>

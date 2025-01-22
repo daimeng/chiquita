@@ -3,7 +3,7 @@
     right: 0;
     box-sizing: border-box;
     position: fixed;
-    min-width: 860px;
+    min-width: 910px;
     height: 100%;
     pointer-events: none;
     padding: 24px;
@@ -69,6 +69,10 @@
 
 .match-row:nth-child(odd) {
     background-color: rgba(143, 171, 224, 0.1);
+}
+
+.match-stage {
+    width: 48px;
 }
 
 .match-res {

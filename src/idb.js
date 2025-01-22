@@ -30,7 +30,7 @@ export const tournamentsByIx = tournaments
 
 export const initDB = async () => {
   // await deleteDB(DBNAME)
-  const db = await openDB(DBNAME, 2, {
+  const db = await openDB(DBNAME, 3, {
     upgrade(db, oldVersion, newVersion, transaction, event) {
       console.log('Setting up db schema...')
       console.log(oldVersion, newVersion, transaction, event)
@@ -86,6 +86,7 @@ export const initDB = async () => {
               res_a: data[row][7],
               res_x: data[row][8],
               scores: data[row][9],
+              team: data[row][10],
             }
             matches.put(entry)
           }

@@ -4,9 +4,11 @@ import { playerById, tournamentById, tournamentsByIx } from "../idb"
 import { STAGE_TO_NUM } from "../priority"
 import { init, rating_changes } from "../ratings"
 
-function sortStartStage(a, b) {
+export function sortStartStage(a, b) {
   return b.end === a.end
-    ? STAGE_TO_NUM[a.stage] - STAGE_TO_NUM[b.stage]
+    ? a.team === b.team
+      ? STAGE_TO_NUM[a.stage] - STAGE_TO_NUM[b.stage]
+      : b.team - a.team
     : b.end - a.end
 }
 
@@ -49,16 +51,19 @@ export function MatchRow({ m, showPlayer }) {
 
   return (
     <div key={m.id} className="match-row event-match-row">
+      <div className="match-stage">
+        {m.team ? 'T' : ''}{m.stage}
+      </div>
       <div className={`match-rating-change ${change1 < 0 ? 'match-loss' : ''}`}>{change1}</div>
-      <div className="match-opponent" data-playerid={m.a_id} onClick={showPlayer}>{playerById.get(m.a_id).name}</div>
       <div className="match-ratings">
         {Math.floor(m.rc.r1)}
       </div>
+      <div className="match-opponent" data-playerid={m.a_id} onClick={showPlayer}>{playerById.get(m.a_id).name}</div>
       <div className="match-res">{m.res_a} - {m.res_x}</div>
+      <div className="match-opponent" data-playerid={m.x_id} onClick={showPlayer}>{playerById.get(m.x_id).name}</div>
       <div className="match-ratings">
         {Math.floor(m.rc.r2)}
       </div>
-      <div className="match-opponent" data-playerid={m.x_id} onClick={showPlayer}>{playerById.get(m.x_id).name}</div>
       <div className={`match-rating-change ${change2 < 0 ? 'match-loss' : ''}`}>{change2}</div>
       <div className="match-scores">
         {scores.map((set, i) =>
