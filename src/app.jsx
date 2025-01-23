@@ -113,6 +113,11 @@ function App() {
             playerid={openPlayers[0]}
             hidePlayer={hidePlayer}
             showPlayer={showPlayer}
+            showTourney={(e) => {
+              setOpenTournament(+e.target.dataset.eventid)
+              hidePlayer()
+              console.log(e.target.dataset)
+            }}
           />
         }
       </div>

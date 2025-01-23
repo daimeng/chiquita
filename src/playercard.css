@@ -63,8 +63,12 @@
 .match-row {
     display: flex;
     text-align: center;
-    padding: 6px 0;
+    padding: 0;
     border-radius: 4px;
+}
+
+.match-row>div {
+    padding: 6px 0;
 }
 
 .match-row:nth-child(odd) {
@@ -82,6 +86,7 @@
 .match-ratings {
     width: 120px;
 }
+
 
 .match-opponent {
     width: 200px;
@@ -106,6 +111,16 @@
     word-break: keep-all;
     overflow-x: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 1s;
+}
+
+.match-event:hover {
+    background-color: rgb(235, 233, 255, 1);
+    color: slateblue;
+    transition: all 0.1s;
+
 }
 
 .match-rating-change {

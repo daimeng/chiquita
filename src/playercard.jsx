@@ -7,7 +7,7 @@ import { all_ranks_by_id, all_ratings, init, player_ratings, rating_changes } fr
 import { STAGE_TO_NUM } from "./priority"
 import { sortStartStage } from './event'
 
-export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
+export function PlayerCard({ playerid, showPlayer, hidePlayer, showTourney }) {
   const player = playerById.get(playerid)
   const [matches, setMatches] = useState([])
   const [showVenue, setShowVenue] = useState(true)
@@ -66,7 +66,9 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
               <div className="match-stage">
                 {m.team ? 'T' : ''}{m.stage}
               </div>
-              {showVenue && <div className="match-event">{tourney.ShortName}</div>}
+              {showVenue && <div className="match-event" data-eventid={m.event_id} onClick={showTourney}>
+                {tourney.ShortName}
+              </div>}
               <div className="match-scores">
                 {scores.map((set, i) =>
                   <div key={i} className="match-scores-set">
@@ -91,7 +93,9 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer }) {
               <div className="match-stage">
                 {m.team ? 'T' : ''}{m.stage}
               </div>
-              {showVenue && <div className="match-event">{tourney.ShortName}</div>}
+              {showVenue && <div className="match-event" data-eventid={m.event_id} onClick={showTourney}>
+                {tourney.ShortName}
+              </div>}
               <div className="match-scores">
                 {scores.map((set, i) =>
                   <div key={i} className="match-scores-set">
