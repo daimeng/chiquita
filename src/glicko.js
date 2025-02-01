@@ -2,7 +2,7 @@ export const DEFAULT_CONFIG = {
 	init_r: 1500,
 	init_rd: 350,
 	q: Math.log(10) / 400,
-	c: 1.9,
+	c: 4,
 }
 
 const PISQ = Math.PI * Math.PI
@@ -30,10 +30,10 @@ export function glicko({ q = DEFAULT_CONFIG.q, c = DEFAULT_CONFIG.c, init_rd = D
 	}
 
 	const c2 = c * c
-	function increase_rd_over_time(player_ratings, current_time) {
+	function increase_rd_over_time(player_ratings, current_time, last_updated) {
 		for (let [player, rating] of player_ratings) {
 			// Calculate time elapsed in days
-			const days_inactive = Math.floor((current_time - rating.last_active) / 84600000)
+			const days_inactive = Math.floor((current_time - last_updated) / 84600000)
 			if (days_inactive > 0) {
 				// Increase RD based on time elapsed
 				player_ratings.get(player).rd = Math.min(
@@ -44,8 +44,8 @@ export function glicko({ q = DEFAULT_CONFIG.q, c = DEFAULT_CONFIG.c, init_rd = D
 		}
 	}
 
-	function update_ratings(player_ratings, match_results, current_time, end_time, rating_changes) {
-		increase_rd_over_time(player_ratings, current_time)
+	function update_ratings(player_ratings, match_results, current_time, end_time, last_updated, rating_changes) {
+		increase_rd_over_time(player_ratings, current_time, last_updated)
 
 		for (let i = 0; i < match_results.length; i++) {
 			const { a_id: player1, x_id: player2, res_a, res_x, id } = match_results[i]

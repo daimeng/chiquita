@@ -19,6 +19,8 @@ export const CANONICAL_RD = 100
 export const init = initDB().then(async (db) => {
 	let p = Promise.resolve()
 
+	let last_updated = Date.parse(2000, 1, 1)
+
 	for (let i in tournaments) {
 		const event_id = tournaments[i].EventId
 		p = p.then(() =>
@@ -29,13 +31,16 @@ export const init = initDB().then(async (db) => {
 				deepcopy.set(k, { ...v })
 			})
 
+			const end_time = Date.parse(tournaments[i].EndDateTime)
 			G.update_ratings(
 				deepcopy,
 				m,
 				Date.parse(tournaments[i].StartDateTime),
-				Date.parse(tournaments[i].EndDateTime),
+				end_time,
+				last_updated,
 				rating_changes
 			)
+			last_updated = end_time
 			player_ratings = deepcopy
 			all_ratings.push(player_ratings)
 
