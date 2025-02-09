@@ -1,0 +1,95 @@
+{
+  "eventId": "3085",
+  "documentCode": "TTEWSINGLES-----------QFNL000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Singapore Sports Hub",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123672",
+      "competitiorName": "HAYATA Hina",
+      "competitiorOrg": "JPN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123672",
+          "playerName": "HAYATA Hina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,11,9,8,11,4",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121403",
+      "competitiorName": "CHEN Xingtong",
+      "competitiorOrg": "CHN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121403",
+          "playerName": "CHEN Xingtong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,8,11,11,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "9-11,11-9,11-8,9-11,8-11,11-8,4-11",
+  "resultsGameScores": "9-11,11-9,11-8,9-11,8-11,11-8,4-11",
+  "overallScores": "3-4",
+  "resultOverallScores": "3-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123672",
+    "serverReceiver": "121403",
+    "serverNext": "123672",
+    "serverCompetitor": "123672",
+    "receiverNext": "121403"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:16:59",
+    "startDateLocal": "02/07/2025 13:20:00",
+    "startDateUTC": "02/07/2025 05:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "376",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-02-07T06:34:35.877Z"
+}

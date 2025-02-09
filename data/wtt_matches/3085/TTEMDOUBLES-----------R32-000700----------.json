@@ -1,0 +1,111 @@
+{
+  "eventId": "3085",
+  "documentCode": "TTEMDOUBLES-----------R32-000700----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 32 - Match 7",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Singapore Sports Hub",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100129285",
+      "competitiorName": "IIZUKA Leonardo/BAE Hwan",
+      "competitiorOrg": "BRA/AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "144891",
+          "playerName": "IIZUKA Leonardo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134803",
+          "playerName": "BAE Hwan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,12,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100129284",
+      "competitiorName": "AFANADOR Brian/SAREEN Aditya",
+      "competitiorOrg": "PUR/AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115000",
+          "playerName": "AFANADOR Brian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "201504",
+          "playerName": "SAREEN Aditya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,8,14,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "12-10,11-8,12-14,11-7,0-0",
+  "resultsGameScores": "12-10,11-8,12-14,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "144891",
+    "serverReceiver": "201504",
+    "serverNext": "144891",
+    "serverCompetitor": "100129285",
+    "receiverNext": "201504"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:25",
+    "startDateLocal": "02/04/2025 19:45:00",
+    "startDateUTC": "02/04/2025 11:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "250",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-02-04T12:24:13.91Z"
+}

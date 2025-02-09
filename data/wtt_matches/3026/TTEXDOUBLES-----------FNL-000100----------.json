@@ -1,0 +1,111 @@
+{
+  "eventId": "3026",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Aspire Ladies Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100129840",
+      "competitiorName": "YUAN Licen/FAN Shuhan",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133848",
+          "playerName": "YUAN Licen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136403",
+          "playerName": "FAN Shuhan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100133680",
+      "competitiorName": "ESSID Wassim/NEUMANN Josephina",
+      "competitiorOrg": "TUN/GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136170",
+          "playerName": "ESSID Wassim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TUN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "145807",
+          "playerName": "NEUMANN Josephina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,11,6,4,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-13,7-11,11-6,11-4,11-6",
+  "resultsGameScores": "11-13,7-11,11-6,11-4,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "145807",
+    "serverReceiver": "133848",
+    "serverNext": "145807",
+    "serverCompetitor": "100133680",
+    "receiverNext": "133848"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:19",
+    "startDateLocal": "02/08/2025 12:20:00",
+    "startDateUTC": "02/08/2025 09:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "259",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-02-08T10:10:30.537Z"
+}

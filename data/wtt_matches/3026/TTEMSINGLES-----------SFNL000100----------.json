@@ -1,0 +1,95 @@
+{
+  "eventId": "3026",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Aspire Ladies Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131413",
+      "competitiorName": "WOO Hyeonggyu",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131413",
+          "playerName": "WOO Hyeonggyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,4,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133813",
+      "competitiorName": "PARK Gyuhyeon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133813",
+          "playerName": "PARK Gyuhyeon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,11,7,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-3,4-11,11-7,11-9",
+  "resultsGameScores": "7-11,11-3,4-11,11-7,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131413",
+    "serverReceiver": "133813",
+    "serverNext": "131413",
+    "serverCompetitor": "131413",
+    "receiverNext": "133813"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:38",
+    "startDateLocal": "02/08/2025 11:10:00",
+    "startDateUTC": "02/08/2025 08:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "244",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-02-08T09:00:08.673Z"
+}

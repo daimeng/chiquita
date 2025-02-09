@@ -1,0 +1,111 @@
+{
+  "eventId": "3026",
+  "documentCode": "TTEWDOUBLES-----------FNL-000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Aspire Ladies Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100129838",
+      "competitiorName": "CHEN Yi/ZHU Sibing",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132132",
+          "playerName": "CHEN Yi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "200908",
+          "playerName": "ZHU Sibing",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,12,5,11,14",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100126017",
+      "competitiorName": "WANG Xiaotong/FAN Shuhan",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136539",
+          "playerName": "WANG Xiaotong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136403",
+          "playerName": "FAN Shuhan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,11,7,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,12-10,5-11,11-7,14-12",
+  "resultsGameScores": "6-11,12-10,5-11,11-7,14-12",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200908",
+    "serverReceiver": "136403",
+    "serverNext": "200908",
+    "serverCompetitor": "100129838",
+    "receiverNext": "136403"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:50:30",
+    "startDateLocal": "02/08/2025 16:00:00",
+    "startDateUTC": "02/08/2025 13:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "296",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}
