@@ -1,0 +1,111 @@
+{
+  "eventId": "3020",
+  "documentCode": "TTEXDOUBLES-----------RND1000400----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100122286",
+      "competitiorName": "VERDONSCHOT Wim/KLEE Sophia",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "201466",
+          "playerName": "VERDONSCHOT Wim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132978",
+          "playerName": "KLEE Sophia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,3,11,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100130437",
+      "competitiorName": "KIM Daewoo/LEE Daeun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119850",
+          "playerName": "KIM Daewoo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132702",
+          "playerName": "LEE Daeun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,11,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-7,4-11,3-11,11-8,9-11",
+  "resultsGameScores": "11-7,4-11,3-11,11-8,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119850",
+    "serverReceiver": "201466",
+    "serverNext": "119850",
+    "serverCompetitor": "100130437",
+    "receiverNext": "201466"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:11",
+    "startDateLocal": "02/11/2025 11:05:00",
+    "startDateUTC": "02/11/2025 10:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "241",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-02-11T10:38:58.727Z"
+}

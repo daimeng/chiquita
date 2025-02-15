@@ -1,0 +1,111 @@
+{
+  "eventId": "3020",
+  "documentCode": "TTEXDOUBLES-----------QFNL000400----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "58107",
+      "competitiorName": "BERTELSMEIER Andre/GRIESEL Mia",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145799",
+          "playerName": "BERTELSMEIER Andre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135498",
+          "playerName": "GRIESEL Mia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,3,11,3,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100129839",
+      "competitiorName": "HUANG Youzheng/CHEN Yi",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137238",
+          "playerName": "HUANG Youzheng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132132",
+          "playerName": "CHEN Yi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,8,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "5-11,3-11,11-8,3-11,0-0",
+  "resultsGameScores": "5-11,3-11,11-8,3-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132132",
+    "serverReceiver": "145799",
+    "serverNext": "132132",
+    "serverCompetitor": "100129839",
+    "receiverNext": "145799"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:30",
+    "startDateLocal": "02/13/2025 10:00:00",
+    "startDateUTC": "02/13/2025 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "184",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

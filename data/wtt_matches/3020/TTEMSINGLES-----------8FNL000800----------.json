@@ -1,0 +1,95 @@
+{
+  "eventId": "3020",
+  "documentCode": "TTEMSINGLES-----------8FNL000800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 16 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "145799",
+      "competitiorName": "BERTELSMEIER Andre",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145799",
+          "playerName": "BERTELSMEIER Andre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,6,11,14,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "201466",
+      "competitiorName": "VERDONSCHOT Wim",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "201466",
+          "playerName": "VERDONSCHOT Wim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,5,12,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,6-11,11-5,14-12,11-6",
+  "resultsGameScores": "10-12,6-11,11-5,14-12,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "145799",
+    "serverReceiver": "201466",
+    "serverNext": "145799",
+    "serverCompetitor": "145799",
+    "receiverNext": "201466"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:31",
+    "startDateLocal": "02/13/2025 13:45:00",
+    "startDateUTC": "02/13/2025 12:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "274",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-02-13T13:23:10.683Z"
+}

@@ -1,0 +1,111 @@
+{
+  "eventId": "3020",
+  "documentCode": "TTEXDOUBLES-----------RND1000500----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100118453",
+      "competitiorName": "DE LAS HERAS Rafael/RAD Elvira",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133042",
+          "playerName": "DE LAS HERAS Rafael",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136180",
+          "playerName": "RAD Elvira",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,7,11,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100130604",
+      "competitiorName": "VALUCH Alexander/JOKIC Tijana",
+      "competitiorOrg": "SVK/SRB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115100",
+          "playerName": "VALUCH Alexander",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121708",
+          "playerName": "JOKIC Tijana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SRB",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,5,11,6,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,11-5,7-11,11-6,8-11",
+  "resultsGameScores": "10-12,11-5,7-11,11-6,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121708",
+    "serverReceiver": "136180",
+    "serverNext": "121708",
+    "serverCompetitor": "100130604",
+    "receiverNext": "136180"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:11",
+    "startDateLocal": "02/11/2025 11:40:00",
+    "startDateUTC": "02/11/2025 10:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "255",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-02-11T11:14:47.923Z"
+}
