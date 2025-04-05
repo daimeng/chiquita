@@ -1,0 +1,111 @@
+{
+  "eventId": "3025",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "45201",
+      "competitiorName": "BAN Ivor/ARAPOVIC Hana",
+      "competitiorOrg": "CRO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122982",
+          "playerName": "BAN Ivor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CRO",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132756",
+          "playerName": "ARAPOVIC Hana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CRO",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "46296",
+      "competitiorName": "CHANG Yu-An/CHENG Pusyuan",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135924",
+          "playerName": "CHANG Yu-An",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135091",
+          "playerName": "CHENG Pusyuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,3,11,11,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,11-3,6-11,6-11,11-6",
+  "resultsGameScores": "11-8,11-3,6-11,6-11,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135924",
+    "serverReceiver": "132756",
+    "serverNext": "135924",
+    "serverCompetitor": "46296",
+    "receiverNext": "132756"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:02",
+    "startDateLocal": "04/03/2025 12:20:00",
+    "startDateUTC": "04/03/2025 11:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "240",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-04-03T11:24:14.69Z"
+}
