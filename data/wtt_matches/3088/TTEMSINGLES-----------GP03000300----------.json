@@ -1,0 +1,95 @@
+{
+  "eventId": "3088",
+  "documentCode": "TTEMSINGLES-----------GP03000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 3 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Taiyuan Binhe Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133848",
+      "competitiorName": "YUAN Licen",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133848",
+          "playerName": "YUAN Licen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,6,11,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135887",
+      "competitiorName": "LIANG Yanning",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135887",
+          "playerName": "LIANG Yanning",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,11,11,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-3,9-11,6-11,11-8,7-11",
+  "resultsGameScores": "11-3,9-11,6-11,11-8,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135887",
+    "serverReceiver": "133848",
+    "serverNext": "135887",
+    "serverCompetitor": "135887",
+    "receiverNext": "133848"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:36",
+    "startDateLocal": "04/08/2025 17:45:00",
+    "startDateUTC": "04/08/2025 09:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "245",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

@@ -1,0 +1,95 @@
+{
+  "eventId": "3088",
+  "documentCode": "TTEMSINGLES-----------GP01000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Taiyuan Binhe Sports Center",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133893",
+      "competitiorName": "XU Haidong",
+      "competitiorOrg": "CHN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133893",
+          "playerName": "XU Haidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,11,13,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "203029",
+      "competitiorName": "SUN Yang",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "203029",
+          "playerName": "SUN Yang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,2,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "12-10,11-2,13-11,0-0,0-0",
+  "resultsGameScores": "12-10,11-2,13-11,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "203029",
+    "serverReceiver": "133893",
+    "serverNext": "203029",
+    "serverCompetitor": "203029",
+    "receiverNext": "133893"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:24",
+    "startDateLocal": "04/08/2025 17:10:00",
+    "startDateUTC": "04/08/2025 09:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "167",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

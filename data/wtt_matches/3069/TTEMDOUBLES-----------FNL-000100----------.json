@@ -1,0 +1,111 @@
+{
+  "eventId": "3069",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "42422",
+      "competitiorName": "CHOONG Javen/WONG Qi Shen",
+      "competitiorOrg": "MAS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131932",
+          "playerName": "CHOONG Javen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MAS",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136377",
+          "playerName": "WONG Qi Shen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MAS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,4,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "45610",
+      "competitiorName": "PISTEJ Lubomir/ZELINKA Jakub",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107445",
+          "playerName": "PISTEJ Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121869",
+          "playerName": "ZELINKA Jakub",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,13,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,11-8,4-11,11-13,0-0",
+  "resultsGameScores": "8-11,11-8,4-11,11-13,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136377",
+    "serverReceiver": "107445",
+    "serverNext": "136377",
+    "serverCompetitor": "42422",
+    "receiverNext": "107445"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:55",
+    "startDateLocal": "04/09/2025 17:05:00",
+    "startDateUTC": "04/09/2025 15:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "220",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

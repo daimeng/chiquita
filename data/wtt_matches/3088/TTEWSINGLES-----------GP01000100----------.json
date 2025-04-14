@@ -1,0 +1,95 @@
+{
+  "eventId": "3088",
+  "documentCode": "TTEWSINGLES-----------GP01000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Group 1 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Taiyuan Binhe Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "145860",
+      "competitiorName": "DENG Zhen",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145860",
+          "playerName": "DENG Zhen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,12,14,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132320",
+      "competitiorName": "LEE Hoi Man",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132320",
+          "playerName": "LEE Hoi Man",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,12,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "4-11,12-10,14-12,11-4,0-0",
+  "resultsGameScores": "4-11,12-10,14-12,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132320",
+    "serverReceiver": "145860",
+    "serverNext": "132320",
+    "serverCompetitor": "132320",
+    "receiverNext": "145860"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:15",
+    "startDateLocal": "04/08/2025 10:00:00",
+    "startDateUTC": "04/08/2025 02:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "219",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-04-08T02:37:04.027Z"
+}
