@@ -4,8 +4,11 @@ from playwright.async_api import async_playwright, Playwright, Page, TimeoutErro
 import os
 from datetime import datetime
 import json
+from typing import Any
 
-async def get_matches(page: Page, evt: int):
+async def get_matches(page: Page, row: Any):
+    evt: int = row.EventId
+    ittfworld: bool = row.EventTypeId == 95 or 'ITTF World' in row.EventName
     err = None
 
     async def intercept(resp):
@@ -22,7 +25,10 @@ async def get_matches(page: Page, evt: int):
     page.on('response', lambda resp: asyncio.ensure_future(intercept(resp)))
 
     # await page.goto(f'https://worldtabletennis.com/eventInfo?selectedTab=Results&innerselectedTab=Completed&eventId={evt}')
-    await page.goto(f'https://worldtabletennis.com/eventInfo?selectedTab=Matches&eventId={evt}')
+    if ittfworld:
+        await page.goto(f'https://worldcupresults.ittf.com/eventInfo?selectedTab=Results&innerselectedTab=Completed&eventId={evt}')
+    else:
+        await page.goto(f'https://worldtabletennis.com/eventInfo?selectedTab=Matches&eventId={evt}')
     btn_selector = asyncio.create_task(page.wait_for_selector('[class="generic_btn"]'))
     empty_selector = asyncio.create_task(page.wait_for_selector('.fa.fa-info-circle'))
     first_done, pending = await asyncio.wait(
@@ -43,7 +49,11 @@ async def get_matches(page: Page, evt: int):
 
     retry = 5
     while True:
-        load_btn = await page.query_selector('[class="generic_btn"]')
+        cookies = await page.query_selector('.cc_b_ok')
+        if cookies and await cookies.is_visible():
+            await cookies.click()
+
+        load_btn = await page.query_selector('[class="generic_btn"]:has-text("load more")')
 
         if not load_btn:
             retry-=1
@@ -80,7 +90,7 @@ async def main():
             else:
                 os.mkdir(path)
 
-            await get_matches(page, row.EventId)
+            await get_matches(page, row)
 
         await browser.close()
     
