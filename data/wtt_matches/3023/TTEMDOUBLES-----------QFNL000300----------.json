@@ -1,0 +1,111 @@
+{
+  "eventId": "3023",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Cycling Centre",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100130153",
+      "competitiorName": "DE LAS HERAS Rafael/LILLO Diego",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133042",
+          "playerName": "DE LAS HERAS Rafael",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133628",
+          "playerName": "LILLO Diego",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,8,7,12,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "42815",
+      "competitiorName": "LEI Balazs/SZANTOSI David",
+      "competitiorOrg": "HUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135678",
+          "playerName": "LEI Balazs",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136005",
+          "playerName": "SZANTOSI David",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,11,10,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-10,8-11,7-11,12-10,11-9",
+  "resultsGameScores": "12-10,8-11,7-11,12-10,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136005",
+    "serverReceiver": "133628",
+    "serverNext": "136005",
+    "serverCompetitor": "42815",
+    "receiverNext": "133628"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:38",
+    "startDateLocal": "04/26/2025 12:05:00",
+    "startDateUTC": "04/26/2025 11:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "307",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}
