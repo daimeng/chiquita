@@ -802,8 +802,8 @@
                 "City": "San Francisco",
                 "ContinentCode": "americas",
                 "Subcontinent": "northern america",
-                "StartDateTime": "2025-07-17T00:00:00",
-                "EndDateTime": "2025-07-20T00:00:00",
+                "StartDateTime": "2025-09-17T00:00:00",
+                "EndDateTime": "2025-09-20T00:00:00",
                 "Tags": null,
                 "EventCode": "0",
                 "Comments": null,
@@ -1090,8 +1090,8 @@
                 "City": "San Francisco",
                 "ContinentCode": "americas",
                 "Subcontinent": "northern america",
-                "StartDateTime": "2025-11-22T00:00:00",
-                "EndDateTime": "2025-11-25T00:00:00",
+                "StartDateTime": "2025-10-29T00:00:00",
+                "EndDateTime": "2025-11-01T00:00:00",
                 "Tags": null,
                 "EventCode": "0",
                 "Comments": null,
@@ -1827,7 +1827,7 @@
             },
             {
                 "PageLink": null,
-                "EventName": "WTT Contender Tunis 2025",
+                "EventName": "WTT Contender Tunis 2025 Presented By Tunisie Telecom",
                 "EventType": "WTT Contender",
                 "EventTypeId": 34,
                 "Country": "Tunisia",
@@ -1903,7 +1903,7 @@
                 "EventType": "WTT Contender",
                 "EventTypeId": 34,
                 "Country": "Croatia",
-                "City": null,
+                "City": "Zagreb",
                 "ContinentCode": "europe",
                 "Subcontinent": "southern europe",
                 "StartDateTime": "2025-06-24T00:00:00",
@@ -2161,7 +2161,7 @@
             },
             {
                 "PageLink": null,
-                "EventName": "ITTF MEN'S AND WOMEN'S WORLD CUP MACAO 2025",
+                "EventName": "ITTF MEN'S AND WOMEN'S WORLD CUP MACAO 2025 PRESENTED BY GALAXY ENTERTAINMENT GROUP",
                 "EventType": "Singles World Cup",
                 "EventTypeId": 95,
                 "Country": "Macao, China",
@@ -2191,13 +2191,37 @@
                 "City": "London",
                 "ContinentCode": "europe",
                 "Subcontinent": "northern europe",
-                "StartDateTime": "2025-10-20T00:00:00",
+                "StartDateTime": "2025-10-21T00:00:00",
                 "EndDateTime": "2025-10-26T00:00:00",
                 "Tags": null,
                 "EventCode": null,
                 "Comments": null,
                 "EventDateChangeId": null,
                 "EventId": 3110,
+                "FromStartDate": null,
+                "FromEndDate": null,
+                "ToStartDate": null,
+                "ToEndDate": null,
+                "ShowInCalendar": null,
+                "Type": null,
+                "Event_Tier_Name": "WTT Series"
+            },
+            {
+                "PageLink": null,
+                "EventName": "WTT Finals Hong Kong 2025",
+                "EventType": "WTT Finals",
+                "EventTypeId": 75,
+                "Country": "Hong Kong, China",
+                "City": null,
+                "ContinentCode": "asia",
+                "Subcontinent": "east asia",
+                "StartDateTime": "2025-12-10T00:00:00",
+                "EndDateTime": "2025-12-14T00:00:00",
+                "Tags": null,
+                "EventCode": null,
+                "Comments": null,
+                "EventDateChangeId": null,
+                "EventId": 3112,
                 "FromStartDate": null,
                 "FromEndDate": null,
                 "ToStartDate": null,
@@ -2529,30 +2553,6 @@
                 "Comments": null,
                 "EventDateChangeId": null,
                 "EventId": 3131,
-                "FromStartDate": null,
-                "FromEndDate": null,
-                "ToStartDate": null,
-                "ToEndDate": null,
-                "ShowInCalendar": null,
-                "Type": null,
-                "Event_Tier_Name": "WTT Feeder Series"
-            },
-            {
-                "PageLink": null,
-                "EventName": "WTT Feeder Caracas 2025",
-                "EventType": "WTT Feeder",
-                "EventTypeId": 81,
-                "Country": "Venezuela",
-                "City": "Caracas",
-                "ContinentCode": "americas",
-                "Subcontinent": "south america",
-                "StartDateTime": "2025-06-25T00:00:00",
-                "EndDateTime": "2025-06-29T00:00:00",
-                "Tags": null,
-                "EventCode": null,
-                "Comments": null,
-                "EventDateChangeId": null,
-                "EventId": 3132,
                 "FromStartDate": null,
                 "FromEndDate": null,
                 "ToStartDate": null,
@@ -3146,7 +3146,7 @@
                 "City": "Lima",
                 "ContinentCode": "americas",
                 "Subcontinent": "south america",
-                "StartDateTime": "2025-06-22T00:00:00",
+                "StartDateTime": "2025-06-23T00:00:00",
                 "EndDateTime": "2025-06-29T00:00:00",
                 "Tags": null,
                 "EventCode": null,
@@ -3679,8 +3679,8 @@
                 "City": "Dammam",
                 "ContinentCode": "asia",
                 "Subcontinent": "west asia",
-                "StartDateTime": "2025-04-14T00:00:00",
-                "EndDateTime": "2025-04-16T00:00:00",
+                "StartDateTime": "2025-04-24T00:00:00",
+                "EndDateTime": "2025-04-25T00:00:00",
                 "Tags": null,
                 "EventCode": "5524",
                 "Comments": null,
@@ -3784,9 +3784,55 @@
                 "ToEndDate": null,
                 "ShowInCalendar": null,
                 "Type": null
+            },
+            {
+                "PageLink": null,
+                "EventName": "West Asian Regional Championships 2025",
+                "EventType": "WTTC Finals Regional Qualifications",
+                "EventTypeId": 83,
+                "Country": "Saudi Arabia",
+                "City": "Dammam",
+                "ContinentCode": "asia",
+                "Subcontinent": "west asia",
+                "StartDateTime": "2025-04-27T00:00:00",
+                "EndDateTime": "2025-04-28T00:00:00",
+                "Tags": null,
+                "EventCode": "5524",
+                "Comments": null,
+                "EventDateChangeId": null,
+                "EventId": 3187,
+                "FromStartDate": null,
+                "FromEndDate": null,
+                "ToStartDate": null,
+                "ToEndDate": null,
+                "ShowInCalendar": null,
+                "Type": null
+            },
+            {
+                "PageLink": null,
+                "EventName": "West Asian Regional Championships 2025",
+                "EventType": "ITTF International Youth Open",
+                "EventTypeId": 84,
+                "Country": "Saudi Arabia",
+                "City": "Dammam",
+                "ContinentCode": "asia",
+                "Subcontinent": "west asia",
+                "StartDateTime": "2025-04-27T00:00:00",
+                "EndDateTime": "2025-04-28T00:00:00",
+                "Tags": null,
+                "EventCode": "5524",
+                "Comments": null,
+                "EventDateChangeId": null,
+                "EventId": 3187,
+                "FromStartDate": null,
+                "FromEndDate": null,
+                "ToStartDate": null,
+                "ToEndDate": null,
+                "ShowInCalendar": null,
+                "Type": null
             }
         ],
-        "Count": 160,
+        "Count": 162,
         "filterconfig": {
             "EventTypeId": [
                 {
@@ -3802,14 +3848,19 @@
                             "Count": 5
                         },
                         {
+                            "display": "ITTF Challenger",
+                            "name": "101",
+                            "Count": 1
+                        },
+                        {
                             "display": "ITTF Future",
                             "name": "100",
-                            "Count": 2
+                            "Count": 5
                         },
                         {
                             "display": "ITTF International Youth Open",
                             "name": "84",
-                            "Count": 13
+                            "Count": 14
                         },
                         {
                             "display": "Multi-Sport Games",
@@ -3909,7 +3960,7 @@
                         {
                             "display": "WTTC Finals Regional Qualifications",
                             "name": "83",
-                            "Count": 8
+                            "Count": 11
                         },
                         {
                             "display": "Youth Continental Championships",
@@ -3917,7 +3968,7 @@
                             "Count": 5
                         }
                     ],
-                    "Count": 25,
+                    "Count": 26,
                     "filterconfig": null
                 }
             ],
@@ -3972,7 +4023,7 @@
                         {
                             "display": "China",
                             "name": "CHN",
-                            "Count": 7
+                            "Count": 6
                         },
                         {
                             "display": "Colombia",
@@ -3987,7 +4038,7 @@
                         {
                             "display": "Costa Rica",
                             "name": "CRC",
-                            "Count": 1
+                            "Count": 2
                         },
                         {
                             "display": "Croatia",
@@ -4015,6 +4066,11 @@
                             "Count": 2
                         },
                         {
+                            "display": "Finland",
+                            "name": "FIN",
+                            "Count": 1
+                        },
+                        {
                             "display": "France",
                             "name": "FRA",
                             "Count": 4
@@ -4037,7 +4093,7 @@
                         {
                             "display": "Hong Kong, China",
                             "name": "HKG",
-                            "Count": 1
+                            "Count": 2
                         },
                         {
                             "display": "Hungary",
@@ -4072,7 +4128,7 @@
                         {
                             "display": "Jordan",
                             "name": "JOR",
-                            "Count": 1
+                            "Count": 2
                         },
                         {
                             "display": "Kazakhstan",
@@ -4187,7 +4243,7 @@
                         {
                             "display": "Poland",
                             "name": "POL",
-                            "Count": 1
+                            "Count": 2
                         },
                         {
                             "display": "Portugal",
@@ -4217,7 +4273,7 @@
                         {
                             "display": "Saudi Arabia",
                             "name": "KSA",
-                            "Count": 3
+                            "Count": 5
                         },
                         {
                             "display": "Serbia",
@@ -4290,7 +4346,7 @@
                             "Count": 4
                         }
                     ],
-                    "Count": 73,
+                    "Count": 74,
                     "filterconfig": null
                 }
             ],
@@ -4300,7 +4356,7 @@
                         {
                             "display": null,
                             "name": null,
-                            "Count": 167
+                            "Count": 173
                         },
                         {
                             "display": "",
@@ -4313,6 +4369,6 @@
                 }
             ]
         },
-        "Original_Count": "161"
+        "Original_Count": "163"
     }
 ]
