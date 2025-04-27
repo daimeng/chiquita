@@ -1,0 +1,94 @@
+{
+  "eventId": "2937",
+  "documentCode": "TTEMSINGLES-----------GP10000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 10 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 0,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Galaxy Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123980",
+      "competitiorName": "HARIMOTO Tomokazu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123980",
+          "playerName": "HARIMOTO Tomokazu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,6,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "112409",
+      "competitiorName": "GROTH Jonathan",
+      "competitiorOrg": "DEN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112409",
+          "playerName": "GROTH Jonathan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "DEN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "7-11,6-11,11-6,11-5",
+  "resultsGameScores": "7-11,6-11,11-6,11-5",
+  "overallScores": "2-2",
+  "resultOverallScores": "2-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123980",
+    "serverReceiver": "112409",
+    "serverNext": "123980",
+    "serverCompetitor": "123980",
+    "receiverNext": "112409"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:35",
+    "startDateLocal": "04/17/2024 11:30:00",
+    "startDateUTC": "04/17/2024 03:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "188",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}

@@ -1,0 +1,95 @@
+{
+  "eventId": "3089",
+  "documentCode": "TTEMSINGLES-----------GP15000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 15 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "104036",
+      "competitiorName": "JANCARIK Lubomir",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "104036",
+          "playerName": "JANCARIK Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,14,11,4,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "204289",
+      "competitiorName": "WANG Jixuan",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "204289",
+          "playerName": "WANG Jixuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,16,8,11,3",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,14-16,11-8,4-11,11-3",
+  "resultsGameScores": "11-4,14-16,11-8,4-11,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "204289",
+    "serverReceiver": "104036",
+    "serverNext": "204289",
+    "serverCompetitor": "204289",
+    "receiverNext": "104036"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:41:10",
+    "startDateLocal": "04/22/2025 14:05:00",
+    "startDateUTC": "04/22/2025 13:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "263",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-04-22T13:55:12.15Z"
+}

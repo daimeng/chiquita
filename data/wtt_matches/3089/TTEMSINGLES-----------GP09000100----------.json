@@ -1,0 +1,95 @@
+{
+  "eventId": "3089",
+  "documentCode": "TTEMSINGLES-----------GP09000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 9 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123659",
+      "competitiorName": "RASSENFOSSE Adrien",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123659",
+          "playerName": "RASSENFOSSE Adrien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BEL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "146154",
+      "competitiorName": "CHAIEB Firas",
+      "competitiorOrg": "TUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "146154",
+          "playerName": "CHAIEB Firas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TUN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,3,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "12-10,11-3,11-7,0-0,0-0",
+  "resultsGameScores": "12-10,11-3,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "146154",
+    "serverReceiver": "123659",
+    "serverNext": "146154",
+    "serverCompetitor": "146154",
+    "receiverNext": "123659"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:27",
+    "startDateLocal": "04/22/2025 12:20:00",
+    "startDateUTC": "04/22/2025 11:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "160",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

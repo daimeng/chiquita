@@ -1,0 +1,111 @@
+{
+  "eventId": "3089",
+  "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "99012",
+      "competitiorName": "DORR Esteban/BOURRASSAUD Florian",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133652",
+          "playerName": "DORR Esteban",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120857",
+          "playerName": "BOURRASSAUD Florian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,3,11,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100111454",
+      "competitiorName": "ELBEIALI Mohamed/ABDELAZIZ Youssef",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102486",
+          "playerName": "ELBEIALI Mohamed",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "EGY",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "116723",
+          "playerName": "ABDELAZIZ Youssef",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "EGY",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,4,11,13,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,11-4,3-11,11-13,6-11",
+  "resultsGameScores": "11-6,11-4,3-11,11-13,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "102486",
+    "serverReceiver": "133652",
+    "serverNext": "102486",
+    "serverCompetitor": "100111454",
+    "receiverNext": "133652"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:41",
+    "startDateLocal": "04/26/2025 10:00:00",
+    "startDateUTC": "04/26/2025 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "265",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-04-26T09:42:29.873Z"
+}

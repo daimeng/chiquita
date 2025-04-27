@@ -1,0 +1,95 @@
+{
+  "eventId": "3089",
+  "documentCode": "TTEMSINGLES-----------GP07000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 7 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "202561",
+      "competitiorName": "SAKAI Yuhi",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202561",
+          "playerName": "SAKAI Yuhi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,9,10,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123192",
+      "competitiorName": "LEVAJAC Dimitrije",
+      "competitiorOrg": "SRB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123192",
+          "playerName": "LEVAJAC Dimitrije",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SRB",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,8,11,12,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,11-8,9-11,10-12,11-9",
+  "resultsGameScores": "11-9,11-8,9-11,10-12,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123192",
+    "serverReceiver": "202561",
+    "serverNext": "123192",
+    "serverCompetitor": "123192",
+    "receiverNext": "202561"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:42",
+    "startDateLocal": "04/22/2025 11:45:00",
+    "startDateUTC": "04/22/2025 10:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "291",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-04-22T11:50:08.827Z"
+}

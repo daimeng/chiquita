@@ -1,0 +1,95 @@
+{
+  "eventId": "3089",
+  "documentCode": "TTEMSINGLES-----------GP12000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 12 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Salle Omnisport de Rades",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117002",
+      "competitiorName": "SEYFRIED Joe",
+      "competitiorOrg": "FRA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117002",
+          "playerName": "SEYFRIED Joe",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,10,11,4",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "136170",
+      "competitiorName": "ESSID Wassim",
+      "competitiorOrg": "TUN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136170",
+          "playerName": "ESSID Wassim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TUN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,12,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,8-11,10-12,11-8,4-11",
+  "resultsGameScores": "11-6,8-11,10-12,11-8,4-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117002",
+    "serverReceiver": "136170",
+    "serverNext": "117002",
+    "serverCompetitor": "117002",
+    "receiverNext": "136170"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:37:50",
+    "startDateLocal": "04/23/2025 18:55:00",
+    "startDateUTC": "04/23/2025 17:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "265",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

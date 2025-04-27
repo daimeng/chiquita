@@ -1,0 +1,95 @@
+{
+  "eventId": "3109",
+  "documentCode": "TTEMSINGLES-----------GP05000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 5 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 0,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Galaxy Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122777",
+      "competitiorName": "UDA Yukiya",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122777",
+          "playerName": "UDA Yukiya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,4,7,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114247",
+      "competitiorName": "WANG Eugene",
+      "competitiorOrg": "CAN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114247",
+          "playerName": "WANG Eugene",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CAN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,11,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,4-11,7-11,11-9",
+  "resultsGameScores": "11-4,4-11,7-11,11-9",
+  "overallScores": "2-2",
+  "resultOverallScores": "2-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122777",
+    "serverReceiver": "114247",
+    "serverNext": "122777",
+    "serverCompetitor": "122777",
+    "receiverNext": "114247"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:20",
+    "startDateLocal": "04/14/2025 12:30:00",
+    "startDateUTC": "04/14/2025 04:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "185",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-04-14T05:05:36.83Z"
+}
