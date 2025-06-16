@@ -1,0 +1,95 @@
+{
+  "eventId": "3090",
+  "documentCode": "TTEMSINGLES-----------R32-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sports Center Jane Sandanski",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "118851",
+      "competitiorName": "KOZUL Deni",
+      "competitiorOrg": "SLO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118851",
+          "playerName": "KOZUL Deni",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SLO",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,8,12,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123293",
+      "competitiorName": "MENG Fanbo",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123293",
+          "playerName": "MENG Fanbo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,11,10,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,11-3,8-11,12-10,11-8",
+  "resultsGameScores": "6-11,11-3,8-11,12-10,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "118851",
+    "serverReceiver": "123293",
+    "serverNext": "118851",
+    "serverCompetitor": "118851",
+    "receiverNext": "123293"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:16",
+    "startDateLocal": "06/12/2025 12:45:00",
+    "startDateUTC": "06/12/2025 10:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "263",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-06-12T11:13:19.34Z"
+}
