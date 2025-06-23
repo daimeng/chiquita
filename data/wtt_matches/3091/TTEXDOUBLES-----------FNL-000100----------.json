@@ -1,0 +1,111 @@
+{
+  "eventId": "3091",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "57776",
+      "competitiorName": "LIM Jonghoon/SHIN Yubin",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117357",
+          "playerName": "LIM Jonghoon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123977",
+          "playerName": "SHIN Yubin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "37260",
+      "competitiorName": "CALDERANO Hugo/TAKAHASHI Bruna",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115641",
+          "playerName": "CALDERANO Hugo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121623",
+          "playerName": "TAKAHASHI Bruna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,7,7,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "12-10,11-7,11-7,0-0,0-0",
+  "resultsGameScores": "12-10,11-7,11-7,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123977",
+    "serverReceiver": "115641",
+    "serverNext": "123977",
+    "serverCompetitor": "57776",
+    "receiverNext": "115641"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:33",
+    "startDateLocal": "06/22/2025 13:30:00",
+    "startDateUTC": "06/22/2025 11:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "181",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

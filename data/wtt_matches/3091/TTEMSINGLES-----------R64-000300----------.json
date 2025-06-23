@@ -1,0 +1,95 @@
+{
+  "eventId": "3091",
+  "documentCode": "TTEMSINGLES-----------R64-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112620",
+      "competitiorName": "WONG Chun Ting",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112620",
+          "playerName": "WONG Chun Ting",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "109459",
+      "competitiorName": "TOKIC Bojan",
+      "competitiorOrg": "SLO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "109459",
+          "playerName": "TOKIC Bojan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SLO",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,9,8,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-9,11-9,11-8,0-0,0-0",
+  "resultsGameScores": "11-9,11-9,11-8,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "109459",
+    "serverReceiver": "112620",
+    "serverNext": "109459",
+    "serverCompetitor": "109459",
+    "receiverNext": "112620"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:21",
+    "startDateLocal": "06/19/2025 18:10:00",
+    "startDateUTC": "06/19/2025 16:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "176",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

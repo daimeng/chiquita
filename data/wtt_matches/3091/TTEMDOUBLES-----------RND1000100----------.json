@@ -1,0 +1,111 @@
+{
+  "eventId": "3091",
+  "documentCode": "TTEMDOUBLES-----------RND1000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 1 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hala Tivoli",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36265",
+      "competitiorName": "DUDA Benedikt/QIU Dang",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116620",
+          "playerName": "DUDA Benedikt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "114715",
+          "playerName": "QIU Dang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100157543",
+      "competitiorName": "GAUZY Simon/PORET Thibault",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112062",
+          "playerName": "GAUZY Simon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134718",
+          "playerName": "PORET Thibault",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,11,7,13,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-3,6-11,11-7,11-13,11-9",
+  "resultsGameScores": "11-3,6-11,11-7,11-13,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114715",
+    "serverReceiver": "134718",
+    "serverNext": "114715",
+    "serverCompetitor": "36265",
+    "receiverNext": "134718"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:16",
+    "startDateLocal": "06/18/2025 14:30:00",
+    "startDateUTC": "06/18/2025 12:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "271",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}
