@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------8FNL000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles R 16 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135977",
+      "competitiorName": "LEBRUN Felix",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135977",
+          "playerName": "LEBRUN Felix",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,10,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "116620",
+      "competitiorName": "DUDA Benedikt",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116620",
+          "playerName": "DUDA Benedikt",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,9,12,11,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-2,11-9,10-12,6-11,11-8",
+  "resultsGameScores": "11-2,11-9,10-12,6-11,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "116620",
+    "serverReceiver": "135977",
+    "serverNext": "116620",
+    "serverCompetitor": "116620",
+    "receiverNext": "135977"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:49",
+    "startDateLocal": "07/10/2025 14:50:00",
+    "startDateUTC": "07/10/2025 21:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "261",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

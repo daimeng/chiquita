@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------RND2001600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles Qualifying R 2 - Match 16",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123690",
+      "competitiorName": "HO Kwan Kit",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123690",
+          "playerName": "HO Kwan Kit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,15,6,11,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117890",
+      "competitiorName": "GERASSIMENKO Kirill",
+      "competitiorOrg": "KAZ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117890",
+          "playerName": "GERASSIMENKO Kirill",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KAZ",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,13,11,5,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,15-13,6-11,11-5,6-11",
+  "resultsGameScores": "9-11,15-13,6-11,11-5,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117890",
+    "serverReceiver": "123690",
+    "serverNext": "117890",
+    "serverCompetitor": "117890",
+    "receiverNext": "123690"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:47:29",
+    "startDateLocal": "07/05/2025 13:45:00",
+    "startDateUTC": "07/05/2025 20:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "282",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

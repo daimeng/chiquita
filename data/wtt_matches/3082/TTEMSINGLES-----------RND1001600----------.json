@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------RND1001600----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men?s Singles Qualifying R 1 - Match 16",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "106050",
+      "competitiorName": "MENGEL Steffen",
+      "competitiorOrg": "GER",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "106050",
+          "playerName": "MENGEL Steffen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,6,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134169",
+      "competitiorName": "CHIRITA Iulian",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134169",
+          "playerName": "CHIRITA Iulian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,13,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "8-11,6-11,11-13,0-0,0-0",
+  "resultsGameScores": "8-11,6-11,11-13,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134169",
+    "serverReceiver": "106050",
+    "serverNext": "134169",
+    "serverCompetitor": "134169",
+    "receiverNext": "106050"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:22:46",
+    "startDateLocal": "07/03/2025 13:10:00",
+    "startDateUTC": "07/03/2025 20:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "173",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-03T20:51:32.91Z"
+}

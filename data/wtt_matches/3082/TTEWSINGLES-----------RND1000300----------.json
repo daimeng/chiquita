@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEWSINGLES-----------RND1000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles Qualifying R 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "117294",
+      "competitiorName": "ORTEGA Daniela",
+      "competitiorOrg": "CHI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117294",
+          "playerName": "ORTEGA Daniela",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHI",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,4,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123550",
+      "competitiorName": "LUTZ Camille",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123550",
+          "playerName": "LUTZ Camille",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,6,11,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,11-6,4-11,12-10,0-0",
+  "resultsGameScores": "11-7,11-6,4-11,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117294",
+    "serverReceiver": "123550",
+    "serverNext": "117294",
+    "serverCompetitor": "117294",
+    "receiverNext": "123550"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:32",
+    "startDateLocal": "07/04/2025 12:35:00",
+    "startDateUTC": "07/04/2025 19:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "198",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-04T20:17:25.567Z"
+}

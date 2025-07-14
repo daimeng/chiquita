@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------R32-001300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles R 32 - Match 13",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "118927",
+      "competitiorName": "JORGIC Darko",
+      "competitiorOrg": "SLO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118927",
+          "playerName": "JORGIC Darko",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SLO",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,16,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134442",
+      "competitiorName": "SHINOZUKA Hiroto",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134442",
+          "playerName": "SHINOZUKA Hiroto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,8,13,18,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,11-8,11-13,16-18,11-6",
+  "resultsGameScores": "11-6,11-8,11-13,16-18,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "118927",
+    "serverReceiver": "134442",
+    "serverNext": "118927",
+    "serverCompetitor": "118927",
+    "receiverNext": "134442"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:49:12",
+    "startDateLocal": "07/08/2025 20:20:00",
+    "startDateUTC": "07/09/2025 03:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "336",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

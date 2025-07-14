@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEWSINGLES-----------R64-000500----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles R 64 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123672",
+      "competitiorName": "HAYATA Hina",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123672",
+          "playerName": "HAYATA Hina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,5,11,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "110560",
+      "competitiorName": "ZHANG Mo",
+      "competitiorOrg": "CAN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110560",
+          "playerName": "ZHANG Mo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CAN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,4,5,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "6-11,5-11,11-4,11-5,11-9",
+  "resultsGameScores": "6-11,5-11,11-4,11-5,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "110560",
+    "serverReceiver": "123672",
+    "serverNext": "110560",
+    "serverCompetitor": "110560",
+    "receiverNext": "123672"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:33",
+    "startDateLocal": "07/06/2025 19:45:00",
+    "startDateUTC": "07/07/2025 02:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "232",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

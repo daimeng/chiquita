@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------RND2000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles Qualifying R 2 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "112735",
+      "competitiorName": "WANG Yang",
+      "competitiorOrg": "SVK",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112735",
+          "playerName": "WANG Yang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,11,6,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133347",
+      "competitiorName": "KIM Taehyun",
+      "competitiorOrg": "MLT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133347",
+          "playerName": "KIM Taehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MLT",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,7,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,5-11,11-7,6-11,0-11",
+  "resultsGameScores": "11-9,5-11,11-7,6-11,0-11",
+  "overallScores": "2-3 DSQ",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133347",
+    "serverReceiver": "112735",
+    "serverNext": "133347",
+    "serverCompetitor": "133347",
+    "receiverNext": "112735"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "07/04/2025 18:00:00",
+    "startDateUTC": "07/05/2025 01:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "204",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

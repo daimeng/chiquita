@@ -1,0 +1,111 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEXDOUBLES-----------R32-001000----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles R 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37282",
+      "competitiorName": "LIN Yun-Ju/CHENG I-Ching",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121582",
+          "playerName": "LIN Yun-Ju",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "110797",
+          "playerName": "CHENG I-Ching",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100165159",
+      "competitiorName": "QUEK Izaac/NG Wing Lam",
+      "competitiorOrg": "SGP/HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133713",
+          "playerName": "QUEK Izaac",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132318",
+          "playerName": "NG Wing Lam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,3,4,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-3,11-3,11-4,0-0,0-0",
+  "resultsGameScores": "11-3,11-3,11-4,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132318",
+    "serverReceiver": "121582",
+    "serverNext": "132318",
+    "serverCompetitor": "100165159",
+    "receiverNext": "121582"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:16:48",
+    "startDateLocal": "07/06/2025 20:55:00",
+    "startDateUTC": "07/07/2025 03:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "123",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-07T05:10:32.007Z"
+}

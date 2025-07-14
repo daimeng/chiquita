@@ -1,0 +1,111 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEWDOUBLES-----------SFNL000100----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "79593",
+      "competitiorName": "WANG Yidi/KUAI Man",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124110",
+          "playerName": "WANG Yidi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135049",
+          "playerName": "KUAI Man",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,7,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "46599",
+      "competitiorName": "CHENG I-Ching/LI Yu-Jhun",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110797",
+          "playerName": "CHENG I-Ching",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "124162",
+          "playerName": "LI Yu-Jhun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,13,11,4,7",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,11-13,7-11,11-4,11-7",
+  "resultsGameScores": "11-9,11-13,7-11,11-4,11-7",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "124162",
+    "serverReceiver": "124110",
+    "serverNext": "124162",
+    "serverCompetitor": "46599",
+    "receiverNext": "124110"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:32",
+    "startDateLocal": "07/11/2025 12:45:00",
+    "startDateUTC": "07/11/2025 19:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "267",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-11T20:12:32.01Z"
+}

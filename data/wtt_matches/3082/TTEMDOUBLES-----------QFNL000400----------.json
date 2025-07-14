@@ -1,0 +1,111 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMDOUBLES-----------QFNL000400----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "53376",
+      "competitiorName": "WONG Chun Ting/CHAN Baldwin",
+      "competitiorOrg": "HKG",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112620",
+          "playerName": "WONG Chun Ting",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133867",
+          "playerName": "CHAN Baldwin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,11,6,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100129204",
+      "competitiorName": "LIN Yun-Ju/KAO Cheng-Jui",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121582",
+          "playerName": "LIN Yun-Ju",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "132824",
+          "playerName": "KAO Cheng-Jui",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,1,11,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,4-11,11-1,6-11,11-9",
+  "resultsGameScores": "11-8,4-11,11-1,6-11,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121582",
+    "serverReceiver": "112620",
+    "serverNext": "121582",
+    "serverCompetitor": "100129204",
+    "receiverNext": "112620"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:41",
+    "startDateLocal": "07/10/2025 12:30:00",
+    "startDateUTC": "07/10/2025 19:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "240",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

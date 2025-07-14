@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------RND1001000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles Qualifying R 1 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120857",
+      "competitiorName": "BOURRASSAUD Florian",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120857",
+          "playerName": "BOURRASSAUD Florian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,4,2,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115396",
+      "competitiorName": "GERALDO Joao",
+      "competitiorOrg": "POR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115396",
+          "playerName": "GERALDO Joao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,4-11,2-11,0-0,0-0",
+  "resultsGameScores": "9-11,4-11,2-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120857",
+    "serverReceiver": "115396",
+    "serverNext": "120857",
+    "serverCompetitor": "120857",
+    "receiverNext": "115396"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:08",
+    "startDateLocal": "07/04/2025 13:10:00",
+    "startDateUTC": "07/04/2025 20:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "133",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

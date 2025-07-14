@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------R64-002500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles R 64 - Match 25",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "118927",
+      "competitiorName": "JORGIC Darko",
+      "competitiorOrg": "SLO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118927",
+          "playerName": "JORGIC Darko",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SLO",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,14,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117357",
+      "competitiorName": "LIM Jonghoon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117357",
+          "playerName": "LIM Jonghoon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,7,12,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-13,11-7,14-12,11-4,0-0",
+  "resultsGameScores": "11-13,11-7,14-12,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "118927",
+    "serverReceiver": "117357",
+    "serverNext": "118927",
+    "serverCompetitor": "118927",
+    "receiverNext": "117357"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:31",
+    "startDateLocal": "07/06/2025 14:15:00",
+    "startDateUTC": "07/06/2025 21:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "242",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

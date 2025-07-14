@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------R64-001500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles R 64 - Match 15",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133867",
+      "competitiorName": "CHAN Baldwin",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133867",
+          "playerName": "CHAN Baldwin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,11,10,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121222",
+      "competitiorName": "LIANG Jishan",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121222",
+          "playerName": "LIANG Jishan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,12,5,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,11-3,10-12,11-5,11-6",
+  "resultsGameScores": "9-11,11-3,10-12,11-5,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121222",
+    "serverReceiver": "133867",
+    "serverNext": "121222",
+    "serverCompetitor": "121222",
+    "receiverNext": "133867"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:30",
+    "startDateLocal": "07/07/2025 20:55:00",
+    "startDateUTC": "07/08/2025 03:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "254",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

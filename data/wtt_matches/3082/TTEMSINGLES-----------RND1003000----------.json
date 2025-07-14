@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------RND1003000----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men?s Singles Qualifying R 1 - Match 30",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115000",
+      "competitiorName": "AFANADOR Brian",
+      "competitiorOrg": "PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115000",
+          "playerName": "AFANADOR Brian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,2,7,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "103345",
+      "competitiorName": "HABESOHN Daniel",
+      "competitiorOrg": "AUT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103345",
+          "playerName": "HABESOHN Daniel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUT",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,11-3,2-11,7-11,0-0",
+  "resultsGameScores": "6-11,11-3,2-11,7-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115000",
+    "serverReceiver": "103345",
+    "serverNext": "115000",
+    "serverCompetitor": "115000",
+    "receiverNext": "103345"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:47",
+    "startDateLocal": "07/03/2025 19:10:00",
+    "startDateUTC": "07/04/2025 02:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "183",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

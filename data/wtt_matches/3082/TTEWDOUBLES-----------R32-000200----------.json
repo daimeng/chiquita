@@ -1,0 +1,111 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEWDOUBLES-----------R32-000200----------",
+  "subEventName": "Women's Doubles",
+  "subEventDescription": "Women's Doubles R 32 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "62777",
+      "competitiorName": "WINTER Sabine/WAN Yuan",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111066",
+          "playerName": "WINTER Sabine",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "118777",
+          "playerName": "WAN Yuan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,5,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "70444",
+      "competitiorName": "MESHREF Dina/GODA Hana",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111656",
+          "playerName": "MESHREF Dina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "EGY",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131335",
+          "playerName": "GODA Hana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "EGY",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,1,11,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-1,5-11,11-4,0-0",
+  "resultsGameScores": "11-6,11-1,5-11,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131335",
+    "serverReceiver": "118777",
+    "serverNext": "131335",
+    "serverCompetitor": "70444",
+    "receiverNext": "118777"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:49",
+    "startDateLocal": "07/07/2025 11:00:00",
+    "startDateUTC": "07/07/2025 18:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "173",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

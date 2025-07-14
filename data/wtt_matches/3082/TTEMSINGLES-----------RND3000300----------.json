@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------RND3000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles Qualifying R 3 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115396",
+      "competitiorName": "GERALDO Joao",
+      "competitiorOrg": "POR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115396",
+          "playerName": "GERALDO Joao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122586",
+      "competitiorName": "ZHANG Xiangjing",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122586",
+          "playerName": "ZHANG Xiangjing",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,5,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,9-11,11-5,12-10,0-0",
+  "resultsGameScores": "11-4,9-11,11-5,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115396",
+    "serverReceiver": "122586",
+    "serverNext": "115396",
+    "serverCompetitor": "115396",
+    "receiverNext": "122586"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:11",
+    "startDateLocal": "07/05/2025 20:55:00",
+    "startDateUTC": "07/06/2025 03:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "198",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-06T04:30:21.247Z"
+}

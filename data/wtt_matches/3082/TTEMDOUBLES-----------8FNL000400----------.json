@@ -1,0 +1,111 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMDOUBLES-----------8FNL000400----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles R 16 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "58174",
+      "competitiorName": "NARESH Sid/NARESH Nandan",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135769",
+          "playerName": "NARESH Sid",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135768",
+          "playerName": "NARESH Nandan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,4,4,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "39101",
+      "competitiorName": "HUANG Youzheng/LIN Shidong",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137238",
+          "playerName": "HUANG Youzheng",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "137237",
+          "playerName": "LIN Shidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "9-11,4-11,4-11,0-0,0-0",
+  "resultsGameScores": "9-11,4-11,4-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135768",
+    "serverReceiver": "137237",
+    "serverNext": "135768",
+    "serverCompetitor": "58174",
+    "receiverNext": "137237"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:15:27",
+    "startDateLocal": "07/09/2025 12:30:00",
+    "startDateUTC": "07/09/2025 19:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "136",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

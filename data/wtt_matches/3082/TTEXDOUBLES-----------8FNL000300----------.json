@@ -1,0 +1,111 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEXDOUBLES-----------8FNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles R 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "36985",
+      "competitiorName": "WONG Chun Ting/DOO Hoi Kem",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112620",
+          "playerName": "WONG Chun Ting",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115543",
+          "playerName": "DOO Hoi Kem",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100163060",
+      "competitiorName": "LY Edward/LUPULESKU Izabela",
+      "competitiorOrg": "CAN/SRB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122425",
+          "playerName": "LY Edward",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CAN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "120187",
+          "playerName": "LUPULESKU Izabela",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SRB",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,8,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "6-11,11-3,11-8,11-7,0-0",
+  "resultsGameScores": "6-11,11-3,11-8,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115543",
+    "serverReceiver": "122425",
+    "serverNext": "115543",
+    "serverCompetitor": "36985",
+    "receiverNext": "122425"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:12",
+    "startDateLocal": "07/08/2025 15:25:00",
+    "startDateUTC": "07/08/2025 22:25:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "188",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-08T22:45:26.83Z"
+}

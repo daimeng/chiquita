@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------RND1000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men?s Singles Qualifying R 1 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135023",
+      "competitiorName": "IONESCU Eduard",
+      "competitiorOrg": "ROU",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135023",
+          "playerName": "IONESCU Eduard",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,12,11,8,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115546",
+      "competitiorName": "LAM Siu Hang",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115546",
+          "playerName": "LAM Siu Hang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,9,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "4-11,12-10,11-9,8-11,6-11",
+  "resultsGameScores": "4-11,12-10,11-9,8-11,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115546",
+    "serverReceiver": "135023",
+    "serverNext": "115546",
+    "serverCompetitor": "115546",
+    "receiverNext": "135023"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:02",
+    "startDateLocal": "07/03/2025 12:00:00",
+    "startDateUTC": "07/03/2025 19:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "268",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

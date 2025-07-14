@@ -1,0 +1,111 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMDOUBLES-----------R32-000700----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles R 32 - Match 7",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "58174",
+      "competitiorName": "NARESH Sid/NARESH Nandan",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135769",
+          "playerName": "NARESH Sid",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135768",
+          "playerName": "NARESH Nandan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100165156",
+      "competitiorName": "DANI Mudit/OMOTAYO Olajide",
+      "competitiorOrg": "IND/NGR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116758",
+          "playerName": "DANI Mudit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "113563",
+          "playerName": "OMOTAYO Olajide",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NGR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,6,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,6-11,11-6,11-9,0-0",
+  "resultsGameScores": "11-7,6-11,11-6,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135769",
+    "serverReceiver": "116758",
+    "serverNext": "135769",
+    "serverCompetitor": "58174",
+    "receiverNext": "116758"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:00",
+    "startDateLocal": "07/08/2025 15:25:00",
+    "startDateUTC": "07/08/2025 22:25:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "203",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-08T22:28:56.643Z"
+}

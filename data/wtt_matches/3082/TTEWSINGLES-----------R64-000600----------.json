@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEWSINGLES-----------R64-000600----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles R 64 - Match 6",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "111656",
+      "competitiorName": "MESHREF Dina",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111656",
+          "playerName": "MESHREF Dina",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "EGY",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,3,5,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "121623",
+      "competitiorName": "TAKAHASHI Bruna",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121623",
+          "playerName": "TAKAHASHI Bruna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "5-11,3-11,5-11,0-0,0-0",
+  "resultsGameScores": "5-11,3-11,5-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121623",
+    "serverReceiver": "111656",
+    "serverNext": "121623",
+    "serverCompetitor": "121623",
+    "receiverNext": "111656"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:15:50",
+    "startDateLocal": "07/06/2025 19:45:00",
+    "startDateUTC": "07/07/2025 02:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "130",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-07T02:56:30.37Z"
+}

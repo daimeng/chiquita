@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEWSINGLES-----------SFNL000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "132132",
+      "competitiorName": "CHEN Yi",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132132",
+          "playerName": "CHEN Yi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "6,11,3,11,9,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135049",
+      "competitiorName": "KUAI Man",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135049",
+          "playerName": "KUAI Man",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,11,9,11,1,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 7,
+  "full_msg": null,
+  "gameScores": "6-11,11-3,3-11,11-9,9-11,11-1,11-9",
+  "resultsGameScores": "6-11,11-3,3-11,11-9,9-11,11-1,11-9",
+  "overallScores": "4-3",
+  "resultOverallScores": "4-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135049",
+    "serverReceiver": "132132",
+    "serverNext": "135049",
+    "serverCompetitor": "135049",
+    "receiverNext": "132132"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:52:26",
+    "startDateLocal": "07/12/2025 14:45:00",
+    "startDateUTC": "07/12/2025 21:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "318",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

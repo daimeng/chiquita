@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEWSINGLES-----------QFNL000400----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles Quarterfinal - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123977",
+      "competitiorName": "SHIN Yubin",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123977",
+          "playerName": "SHIN Yubin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,9,12,11,8,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117332",
+      "competitiorName": "ZHU Yuling",
+      "competitiorOrg": "MAC",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117332",
+          "playerName": "ZHU Yuling",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MAC",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,14,8,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "4-11,9-11,12-14,11-8,8-11,0-0,0-0",
+  "resultsGameScores": "4-11,9-11,12-14,11-8,8-11,0-0,0-0",
+  "overallScores": "1-4",
+  "resultOverallScores": "1-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123977",
+    "serverReceiver": "117332",
+    "serverNext": "123977",
+    "serverCompetitor": "123977",
+    "receiverNext": "117332"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:43:03",
+    "startDateLocal": "07/11/2025 13:30:00",
+    "startDateUTC": "07/11/2025 20:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "286",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-11T21:56:34.477Z"
+}

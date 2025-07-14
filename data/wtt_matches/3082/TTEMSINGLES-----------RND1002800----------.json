@@ -1,0 +1,95 @@
+{
+  "eventId": "3082",
+  "documentCode": "TTEMSINGLES-----------RND1002800----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men?s Singles Qualifying R 1 - Match 28",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Orleans Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100621",
+      "competitiorName": "APOLONIA Tiago",
+      "competitiorOrg": "POR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100621",
+          "playerName": "APOLONIA Tiago",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,10,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "111641",
+      "competitiorName": "DESAI Harmeet",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "111641",
+          "playerName": "DESAI Harmeet",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,7,12,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,11-7,10-12,11-8,0-0",
+  "resultsGameScores": "11-6,11-7,10-12,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100621",
+    "serverReceiver": "111641",
+    "serverNext": "100621",
+    "serverCompetitor": "100621",
+    "receiverNext": "111641"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:35:00",
+    "startDateLocal": "07/03/2025 20:20:00",
+    "startDateUTC": "07/04/2025 03:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "217",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-04T03:47:05.41Z"
+}
