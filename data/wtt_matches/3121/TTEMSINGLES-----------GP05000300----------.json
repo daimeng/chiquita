@@ -1,0 +1,95 @@
+{
+  "eventId": "3121",
+  "documentCode": "TTEMSINGLES-----------GP05000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 5 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sir Molade Okoya Thomas Indoor Sports Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133506",
+      "competitiorName": "AKAKPO Kossi",
+      "competitiorOrg": "TOG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133506",
+          "playerName": "AKAKPO Kossi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TOG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,6,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "220604",
+      "competitiorName": "BELLO Ibrahim",
+      "competitiorOrg": "NGR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "220604",
+          "playerName": "BELLO Ibrahim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NGR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,11,6,4",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-6,6-11,11-6,11-4",
+  "resultsGameScores": "7-11,11-6,6-11,11-6,11-4",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133506",
+    "serverReceiver": "220604",
+    "serverNext": "133506",
+    "serverCompetitor": "133506",
+    "receiverNext": "220604"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:39",
+    "startDateLocal": "07/23/2025 11:45:00",
+    "startDateUTC": "07/23/2025 10:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "232",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-23T11:16:35.48Z"
+}

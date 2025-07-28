@@ -1,0 +1,95 @@
+{
+  "eventId": "3175",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Parque Ol?mpico - America Pavillion",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123682",
+      "competitiorName": "THAKKAR Manav",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123682",
+          "playerName": "THAKKAR Manav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,13,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133347",
+      "competitiorName": "KIM Taehyun",
+      "competitiorOrg": "MLT",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133347",
+          "playerName": "KIM Taehyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MLT",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,4,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-6,13-11,11-4,0-0,0-0",
+  "resultsGameScores": "11-6,13-11,0-0,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "2-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133347",
+    "serverReceiver": "123682",
+    "serverNext": "133347",
+    "serverCompetitor": "133347",
+    "receiverNext": "123682"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:55",
+    "startDateLocal": "07/26/2025 12:55:00",
+    "startDateUTC": "07/26/2025 15:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "166",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-26T16:34:05.903Z"
+}

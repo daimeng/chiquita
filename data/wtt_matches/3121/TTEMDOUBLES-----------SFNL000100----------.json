@@ -1,0 +1,111 @@
+{
+  "eventId": "3121",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sir Molade Okoya Thomas Indoor Sports Hall",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100168720",
+      "competitiorName": "MARFO James/COMMEY Emmanuel",
+      "competitiorOrg": "GHA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "205257",
+          "playerName": "MARFO James",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GHA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123143",
+          "playerName": "COMMEY Emmanuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GHA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,3,4,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100168727",
+      "competitiorName": "GNANASEKARAN Sathiyan/PAL Akash",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103126",
+          "playerName": "GNANASEKARAN Sathiyan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "137242",
+          "playerName": "PAL Akash",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "3-11,3-11,4-11,0-0,0-0",
+  "resultsGameScores": "3-11,3-11,4-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "103126",
+    "serverReceiver": "123143",
+    "serverNext": "103126",
+    "serverCompetitor": "100168727",
+    "receiverNext": "123143"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:12:43",
+    "startDateLocal": "07/25/2025 16:30:00",
+    "startDateUTC": "07/25/2025 15:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "116",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-07-25T15:48:21.177Z"
+}
