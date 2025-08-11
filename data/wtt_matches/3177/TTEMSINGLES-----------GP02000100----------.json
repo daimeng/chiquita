@@ -1,0 +1,95 @@
+{
+  "eventId": "3177",
+  "documentCode": "TTEMSINGLES-----------GP02000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 2 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "The Podium",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "137004",
+      "competitiorName": "LEE Hoyun",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137004",
+          "playerName": "LEE Hoyun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,11,10,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "105233",
+      "competitiorName": "LEIBOVITZ Tahl",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "105233",
+          "playerName": "LEIBOVITZ Tahl",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,9,12,8,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,11-9,10-12,11-8,11-5",
+  "resultsGameScores": "10-12,11-9,10-12,11-8,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "105233",
+    "serverReceiver": "137004",
+    "serverNext": "105233",
+    "serverCompetitor": "105233",
+    "receiverNext": "137004"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:42",
+    "startDateLocal": "08/05/2025 11:00:00",
+    "startDateUTC": "08/05/2025 18:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "295",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

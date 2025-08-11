@@ -1,0 +1,95 @@
+{
+  "eventId": "3177",
+  "documentCode": "TTEMSINGLES-----------QFNL000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "The Podium",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123305",
+      "competitiorName": "DE NODREST Leo",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123305",
+          "playerName": "DE NODREST Leo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,11,10,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131211",
+      "competitiorName": "HAUG Borgar",
+      "competitiorOrg": "NOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131211",
+          "playerName": "HAUG Borgar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,5,12,5",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,5-11,11-5,10-12,11-5",
+  "resultsGameScores": "11-8,5-11,11-5,10-12,11-5",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131211",
+    "serverReceiver": "123305",
+    "serverNext": "131211",
+    "serverCompetitor": "131211",
+    "receiverNext": "123305"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:10",
+    "startDateLocal": "08/07/2025 18:50:00",
+    "startDateUTC": "08/08/2025 01:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "248",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-08T02:41:27.213Z"
+}

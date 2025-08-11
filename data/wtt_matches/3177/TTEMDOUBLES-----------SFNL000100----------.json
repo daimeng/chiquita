@@ -1,0 +1,111 @@
+{
+  "eventId": "3177",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "The Podium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "41620",
+      "competitiorName": "BERTRAND Irvin/ROLLAND Jules",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119092",
+          "playerName": "BERTRAND Irvin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123300",
+          "playerName": "ROLLAND Jules",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100173130",
+      "competitiorName": "HAUG Borgar/MA Jinbao",
+      "competitiorOrg": "NOR/USA",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131211",
+          "playerName": "HAUG Borgar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135745",
+          "playerName": "MA Jinbao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,4,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,9-11,11-4,11-6,0-0",
+  "resultsGameScores": "11-9,9-11,11-4,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135745",
+    "serverReceiver": "119092",
+    "serverNext": "135745",
+    "serverCompetitor": "100173130",
+    "receiverNext": "119092"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:39",
+    "startDateLocal": "08/07/2025 17:05:00",
+    "startDateUTC": "08/08/2025 00:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "202",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

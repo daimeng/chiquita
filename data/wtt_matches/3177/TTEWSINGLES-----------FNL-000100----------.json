@@ -1,0 +1,95 @@
+{
+  "eventId": "3177",
+  "documentCode": "TTEWSINGLES-----------FNL-000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "The Podium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123848",
+      "competitiorName": "SHIBATA Saki",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123848",
+          "playerName": "SHIBATA Saki",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,7,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "136309",
+      "competitiorName": "AKAE Kaho",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136309",
+          "playerName": "AKAE Kaho",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,8,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,7-11,11-8,11-6,0-0",
+  "resultsGameScores": "11-8,7-11,11-8,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123848",
+    "serverReceiver": "136309",
+    "serverNext": "123848",
+    "serverCompetitor": "123848",
+    "receiverNext": "136309"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:20",
+    "startDateLocal": "08/08/2025 17:10:00",
+    "startDateUTC": "08/09/2025 00:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "202",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-09T01:20:56.78Z"
+}
