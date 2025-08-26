@@ -1,0 +1,95 @@
+{
+  "eventId": "3128",
+  "documentCode": "TTEMSINGLES-----------RND1000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles Qualifying R 1 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Baltiska Hallen",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131375",
+      "competitiorName": "TANAKA Yuta",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131375",
+          "playerName": "TANAKA Yuta",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,14,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "200157",
+      "competitiorName": "BATIX Ylane",
+      "competitiorOrg": "CMR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200157",
+          "playerName": "BATIX Ylane",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CMR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,12,6,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-7,14-12,11-6,0-0,0-0",
+  "resultsGameScores": "11-7,14-12,11-6,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200157",
+    "serverReceiver": "131375",
+    "serverNext": "200157",
+    "serverCompetitor": "200157",
+    "receiverNext": "131375"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:23",
+    "startDateLocal": "08/15/2025 12:10:00",
+    "startDateUTC": "08/15/2025 10:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "174",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

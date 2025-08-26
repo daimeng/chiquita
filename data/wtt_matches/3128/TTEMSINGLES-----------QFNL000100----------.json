@@ -1,0 +1,95 @@
+{
+  "eventId": "3128",
+  "documentCode": "TTEMSINGLES-----------QFNL000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles Quarterfinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Malmö Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "137237",
+      "competitiorName": "LIN Shidong",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137237",
+          "playerName": "LIN Shidong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,12,0,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114715",
+      "competitiorName": "QIU Dang",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114715",
+          "playerName": "QIU Dang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,8,3,10,0,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-3,11-8,11-3,12-10,0-0,0-0,0-0",
+  "resultsGameScores": "11-3,11-8,11-3,12-10,0-0,0-0,0-0",
+  "overallScores": "4-0",
+  "resultOverallScores": "4-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "114715",
+    "serverReceiver": "137237",
+    "serverNext": "114715",
+    "serverCompetitor": "114715",
+    "receiverNext": "137237"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:41",
+    "startDateLocal": "08/22/2025 18:00:00",
+    "startDateUTC": "08/22/2025 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "205",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-22T16:38:55.217Z"
+}

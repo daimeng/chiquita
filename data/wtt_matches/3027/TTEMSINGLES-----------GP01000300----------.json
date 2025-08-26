@@ -1,0 +1,95 @@
+{
+  "eventId": "3027",
+  "documentCode": "TTEMSINGLES-----------GP01000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "145087",
+      "competitiorName": "KOTEV Radoslav",
+      "competitiorOrg": "BUL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145087",
+          "playerName": "KOTEV Radoslav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BUL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,7,6,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "107335",
+      "competitiorName": "PETKOV Vladimir",
+      "competitiorOrg": "BUL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107335",
+          "playerName": "PETKOV Vladimir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BUL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "7-11,7-11,6-11,0-0,0-0",
+  "resultsGameScores": "7-11,7-11,6-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "145087",
+    "serverReceiver": "107335",
+    "serverNext": "145087",
+    "serverCompetitor": "145087",
+    "receiverNext": "107335"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:18:09",
+    "startDateLocal": "08/21/2025 19:05:00",
+    "startDateUTC": "08/21/2025 16:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "169",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-21T16:24:37.18Z"
+}

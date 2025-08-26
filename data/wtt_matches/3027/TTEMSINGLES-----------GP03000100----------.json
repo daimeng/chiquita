@@ -1,0 +1,95 @@
+{
+  "eventId": "3027",
+  "documentCode": "TTEMSINGLES-----------GP03000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 3 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "209073",
+      "competitiorName": "KOSEV Ivaylo",
+      "competitiorOrg": "BUL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "209073",
+          "playerName": "KOSEV Ivaylo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BUL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,5,9,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131066",
+      "competitiorName": "HRISTEV Hristo",
+      "competitiorOrg": "BUL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131066",
+          "playerName": "HRISTEV Hristo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BUL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "10-12,5-11,9-11,0-0,0-0",
+  "resultsGameScores": "10-12,5-11,9-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "209073",
+    "serverReceiver": "131066",
+    "serverNext": "209073",
+    "serverCompetitor": "209073",
+    "receiverNext": "131066"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:40",
+    "startDateLocal": "08/21/2025 12:00:00",
+    "startDateUTC": "08/21/2025 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "171",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

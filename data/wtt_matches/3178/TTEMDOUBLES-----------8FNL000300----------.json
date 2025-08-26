@@ -1,0 +1,111 @@
+{
+  "eventId": "3178",
+  "documentCode": "TTEMDOUBLES-----------8FNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 16 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "The Podium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100130835",
+      "competitiorName": "PICARD Vincent/KOURAICHI Alexis",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121690",
+          "playerName": "PICARD Vincent",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136116",
+          "playerName": "KOURAICHI Alexis",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100129559",
+      "competitiorName": "LUO Alex/SAREEN Aditya",
+      "competitiorOrg": "USA/AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "205930",
+          "playerName": "LUO Alex",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "201504",
+          "playerName": "SAREEN Aditya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,10,9,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,12-10,11-9,0-0,0-0",
+  "resultsGameScores": "11-5,12-10,11-9,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "201504",
+    "serverReceiver": "136116",
+    "serverNext": "201504",
+    "serverCompetitor": "100129559",
+    "receiverNext": "136116"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:01",
+    "startDateLocal": "08/10/2025 15:35:00",
+    "startDateUTC": "08/10/2025 22:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "163",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-10T22:44:44.347Z"
+}

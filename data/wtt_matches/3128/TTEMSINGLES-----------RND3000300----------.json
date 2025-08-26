@@ -1,0 +1,95 @@
+{
+  "eventId": "3128",
+  "documentCode": "TTEMSINGLES-----------RND3000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles Qualifying R 3 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Baltiska Hallen",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123659",
+      "competitiorName": "RASSENFOSSE Adrien",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123659",
+          "playerName": "RASSENFOSSE Adrien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BEL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "12,11,12,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115063",
+      "competitiorName": "BERGLUND Simon",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115063",
+          "playerName": "BERGLUND Simon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,9,14,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "12-10,11-9,12-14,11-6,0-0",
+  "resultsGameScores": "12-10,11-9,12-14,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115063",
+    "serverReceiver": "123659",
+    "serverNext": "115063",
+    "serverCompetitor": "115063",
+    "receiverNext": "123659"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:43",
+    "startDateLocal": "08/16/2025 18:10:00",
+    "startDateUTC": "08/16/2025 16:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "255",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-16T16:41:12.84Z"
+}

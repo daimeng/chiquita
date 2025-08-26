@@ -1,0 +1,95 @@
+{
+  "eventId": "3128",
+  "documentCode": "TTEWSINGLES-----------R32-000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles R 32 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Baltiska Hallen",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "110797",
+      "competitiorName": "CHENG I-Ching",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110797",
+          "playerName": "CHENG I-Ching",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,9,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122052",
+      "competitiorName": "LEE Eunhye",
+      "competitiorOrg": "KOR",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122052",
+          "playerName": "LEE Eunhye",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,5,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,9-11,11-5,9-11,6-11",
+  "resultsGameScores": "11-8,9-11,11-5,9-11,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122052",
+    "serverReceiver": "110797",
+    "serverNext": "122052",
+    "serverCompetitor": "122052",
+    "receiverNext": "110797"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:45:18",
+    "startDateLocal": "08/20/2025 14:20:00",
+    "startDateUTC": "08/20/2025 12:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "264",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-20T13:38:33.7Z"
+}

@@ -1,0 +1,95 @@
+{
+  "eventId": "3131",
+  "documentCode": "TTEMSINGLES-----------GP03000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 3 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "ITECC Mall, Vientiane",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133663",
+      "competitiorName": "NUCHCHART Sitisak",
+      "competitiorOrg": "THA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133663",
+          "playerName": "NUCHCHART Sitisak",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "THA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,11,7,11,7",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "202405",
+      "competitiorName": "JUNINDRA Muhammad",
+      "competitiorOrg": "INA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202405",
+          "playerName": "JUNINDRA Muhammad",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "INA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,11,7,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "7-11,11-9,7-11,11-7,7-11",
+  "resultsGameScores": "7-11,11-9,7-11,11-7,7-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133663",
+    "serverReceiver": "202405",
+    "serverNext": "133663",
+    "serverCompetitor": "133663",
+    "receiverNext": "202405"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:02",
+    "startDateLocal": "08/12/2025 15:30:00",
+    "startDateUTC": "08/12/2025 08:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "265",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-12T09:04:05.853Z"
+}

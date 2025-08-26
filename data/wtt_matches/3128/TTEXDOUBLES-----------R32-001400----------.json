@@ -1,0 +1,111 @@
+{
+  "eventId": "3128",
+  "documentCode": "TTEXDOUBLES-----------R32-001400----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles R 32 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Malmö Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "37347",
+      "competitiorName": "PISTEJ Lubomir/KUKULKOVA Tatiana",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "107445",
+          "playerName": "PISTEJ Lubomir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "121714",
+          "playerName": "KUKULKOVA Tatiana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,3,5,11,1",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100129254",
+      "competitiorName": "LIND Anders/DIAZ Adriana",
+      "competitiorOrg": "DEN/PUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115029",
+          "playerName": "LIND Anders",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "DEN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115009",
+          "playerName": "DIAZ Adriana",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "PUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,11,9,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,3-11,5-11,11-9,1-11",
+  "resultsGameScores": "11-9,3-11,5-11,11-9,1-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "107445",
+    "serverReceiver": "115009",
+    "serverNext": "107445",
+    "serverCompetitor": "37347",
+    "receiverNext": "115009"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:23",
+    "startDateLocal": "08/17/2025 12:00:00",
+    "startDateUTC": "08/17/2025 10:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "230",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

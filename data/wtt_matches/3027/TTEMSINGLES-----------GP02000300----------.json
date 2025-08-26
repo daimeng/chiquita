@@ -1,0 +1,95 @@
+{
+  "eventId": "3027",
+  "documentCode": "TTEMSINGLES-----------GP02000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "119579",
+      "competitiorName": "RADOVIC Filip",
+      "competitiorOrg": "MNE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119579",
+          "playerName": "RADOVIC Filip",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MNE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "14,11,8,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115802",
+      "competitiorName": "KOSTADINOV David",
+      "competitiorOrg": "BUL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115802",
+          "playerName": "KOSTADINOV David",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BUL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,7,11,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "14-12,11-7,8-11,11-9,0-0",
+  "resultsGameScores": "14-12,11-7,8-11,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119579",
+    "serverReceiver": "115802",
+    "serverNext": "119579",
+    "serverCompetitor": "119579",
+    "receiverNext": "115802"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:47",
+    "startDateLocal": "08/21/2025 16:30:00",
+    "startDateUTC": "08/21/2025 13:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "249",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-21T14:02:21.27Z"
+}

@@ -1,0 +1,111 @@
+{
+  "eventId": "3178",
+  "documentCode": "TTEXDOUBLES-----------8FNL000800----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Round of 16 - Match 8",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "The Podium",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100171266",
+      "competitiorName": "PICARD Vincent/PICARD Claire",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121690",
+          "playerName": "PICARD Vincent",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "123548",
+          "playerName": "PICARD Claire",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,6,11,13,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100129133",
+      "competitiorName": "LIANG Jishan/MOYLAND Sally",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121222",
+          "playerName": "LIANG Jishan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134489",
+          "playerName": "MOYLAND Sally",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,6-11,11-9,13-11,9-11",
+  "resultsGameScores": "5-11,6-11,11-9,13-11,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123548",
+    "serverReceiver": "134489",
+    "serverNext": "123548",
+    "serverCompetitor": "100171266",
+    "receiverNext": "134489"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:39",
+    "startDateLocal": "08/10/2025 10:30:00",
+    "startDateUTC": "08/10/2025 17:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "281",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-10T18:13:44.3Z"
+}

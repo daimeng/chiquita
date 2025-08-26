@@ -1,0 +1,111 @@
+{
+  "eventId": "3027",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Arena Asarel",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100129266",
+      "competitiorName": "LIN Yen-Chun/CHANG Yu-An",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133827",
+          "playerName": "LIN Yen-Chun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135924",
+          "playerName": "CHANG Yu-An",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "38528",
+      "competitiorName": "LEVAJAC Dimitrije/DILAS Nemanja",
+      "competitiorOrg": "SRB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123192",
+          "playerName": "LEVAJAC Dimitrije",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SRB",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134227",
+          "playerName": "DILAS Nemanja",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SRB",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,6,3,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-6,11-3,0-0,0-0",
+  "resultsGameScores": "11-5,11-6,11-3,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133827",
+    "serverReceiver": "123192",
+    "serverNext": "133827",
+    "serverCompetitor": "100129266",
+    "receiverNext": "123192"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:08",
+    "startDateLocal": "08/23/2025 17:05:00",
+    "startDateUTC": "08/23/2025 14:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "140",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-23T14:34:06.88Z"
+}

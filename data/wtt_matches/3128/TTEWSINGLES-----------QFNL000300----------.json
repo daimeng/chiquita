@@ -1,0 +1,95 @@
+{
+  "eventId": "3128",
+  "documentCode": "TTEWSINGLES-----------QFNL000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Malmö Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "133405",
+      "competitiorName": "ODO Satsuki",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133405",
+          "playerName": "ODO Satsuki",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "4,8,7,4,0,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123120",
+      "competitiorName": "SHI Xunyao",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123120",
+          "playerName": "SHI Xunyao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,11,0,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "4-11,8-11,7-11,4-11,0-0,0-0,0-0",
+  "resultsGameScores": "4-11,8-11,7-11,4-11,0-0,0-0,0-0",
+  "overallScores": "0-4",
+  "resultOverallScores": "0-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133405",
+    "serverReceiver": "123120",
+    "serverNext": "133405",
+    "serverCompetitor": "133405",
+    "receiverNext": "123120"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:34",
+    "startDateLocal": "08/22/2025 18:45:00",
+    "startDateUTC": "08/22/2025 16:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "202",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-22T17:21:50.95Z"
+}

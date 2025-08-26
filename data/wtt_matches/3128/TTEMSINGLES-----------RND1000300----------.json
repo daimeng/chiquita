@@ -1,0 +1,95 @@
+{
+  "eventId": "3128",
+  "documentCode": "TTEMSINGLES-----------RND1000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles Qualifying R 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Baltiska Hallen",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "103903",
+      "competitiorName": "IONESCU Ovidiu",
+      "competitiorOrg": "ROU",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "103903",
+          "playerName": "IONESCU Ovidiu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ROU",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,4,11,11,14",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "118851",
+      "competitiorName": "KOZUL Deni",
+      "competitiorOrg": "SLO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "118851",
+          "playerName": "KOZUL Deni",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SLO",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,9,7,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,4-11,11-9,11-7,14-12",
+  "resultsGameScores": "9-11,4-11,11-9,11-7,14-12",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "103903",
+    "serverReceiver": "118851",
+    "serverNext": "103903",
+    "serverCompetitor": "103903",
+    "receiverNext": "118851"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:28",
+    "startDateLocal": "08/15/2025 13:55:00",
+    "startDateUTC": "08/15/2025 11:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "307",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-15T12:14:53.537Z"
+}
