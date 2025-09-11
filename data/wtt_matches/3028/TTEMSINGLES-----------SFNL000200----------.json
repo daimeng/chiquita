@@ -1,0 +1,95 @@
+{
+  "eventId": "3028",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "110673",
+      "competitiorName": "ALAMIYAN Noshad",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "110673",
+          "playerName": "ALAMIYAN Noshad",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IRI",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,11,10,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "122320",
+      "competitiorName": "URSU Vladislav",
+      "competitiorOrg": "MDA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122320",
+          "playerName": "URSU Vladislav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MDA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,7,12,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,11-8,11-7,10-12,12-10",
+  "resultsGameScores": "5-11,11-8,11-7,10-12,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "110673",
+    "serverReceiver": "122320",
+    "serverNext": "110673",
+    "serverCompetitor": "110673",
+    "receiverNext": "122320"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:38:58",
+    "startDateLocal": "08/31/2025 11:10:00",
+    "startDateUTC": "08/31/2025 09:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "286",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

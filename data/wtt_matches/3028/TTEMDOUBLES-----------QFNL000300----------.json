@@ -1,0 +1,111 @@
+{
+  "eventId": "3028",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "35975",
+      "competitiorName": "ALAMIAN Nima/ALAMIYAN Noshad",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "112035",
+          "playerName": "ALAMIAN Nima",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IRI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "110673",
+          "playerName": "ALAMIYAN Noshad",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IRI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,11,11,3,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100130153",
+      "competitiorName": "DE LAS HERAS Rafael/LILLO Diego",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133042",
+          "playerName": "DE LAS HERAS Rafael",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133628",
+          "playerName": "LILLO Diego",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "14,8,1,11,3",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "12-14,11-8,11-1,3-11,11-3",
+  "resultsGameScores": "12-14,11-8,11-1,3-11,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133628",
+    "serverReceiver": "110673",
+    "serverNext": "133628",
+    "serverCompetitor": "100130153",
+    "receiverNext": "110673"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:30",
+    "startDateLocal": "08/30/2025 10:35:00",
+    "startDateUTC": "08/30/2025 08:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "253",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-30T08:28:11.763Z"
+}

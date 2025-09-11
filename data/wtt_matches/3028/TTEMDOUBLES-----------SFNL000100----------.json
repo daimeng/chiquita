@@ -1,0 +1,111 @@
+{
+  "eventId": "3028",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "39853",
+      "competitiorName": "URSU Vladislav/PUTUNTICA Andrei",
+      "competitiorOrg": "MDA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122320",
+          "playerName": "URSU Vladislav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MDA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "117865",
+          "playerName": "PUTUNTICA Andrei",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MDA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,10,11,9,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100173060",
+      "competitiorName": "ABE Yuto/NODA Sota",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136440",
+          "playerName": "ABE Yuto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "222052",
+          "playerName": "NODA Sota",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,12,9,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "3-11,10-12,11-9,9-11,0-0",
+  "resultsGameScores": "3-11,10-12,11-9,9-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122320",
+    "serverReceiver": "136440",
+    "serverNext": "122320",
+    "serverCompetitor": "39853",
+    "receiverNext": "136440"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:49",
+    "startDateLocal": "08/30/2025 18:00:00",
+    "startDateUTC": "08/30/2025 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "216",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

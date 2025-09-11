@@ -1,0 +1,111 @@
+{
+  "eventId": "3028",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "61861",
+      "competitiorName": "YOSHIYAMA Kazuki/OJIO Yuna",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135981",
+          "playerName": "YOSHIYAMA Kazuki",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "145267",
+          "playerName": "OJIO Yuna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,13,3,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "45121",
+      "competitiorName": "URSU Vladislav/CHIRIACOVA Alexandra",
+      "competitiorOrg": "MDA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122320",
+          "playerName": "URSU Vladislav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MDA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "146263",
+          "playerName": "CHIRIACOVA Alexandra",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MDA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "10,11,11,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "12-10,13-11,3-11,11-5,0-0",
+  "resultsGameScores": "12-10,13-11,3-11,11-5,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122320",
+    "serverReceiver": "145267",
+    "serverNext": "122320",
+    "serverCompetitor": "45121",
+    "receiverNext": "145267"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:47",
+    "startDateLocal": "08/31/2025 12:20:00",
+    "startDateUTC": "08/31/2025 10:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "230",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

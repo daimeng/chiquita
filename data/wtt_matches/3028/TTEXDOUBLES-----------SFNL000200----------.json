@@ -1,0 +1,111 @@
+{
+  "eventId": "3028",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "45121",
+      "competitiorName": "URSU Vladislav/CHIRIACOVA Alexandra",
+      "competitiorOrg": "MDA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122320",
+          "playerName": "URSU Vladislav",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MDA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "146263",
+          "playerName": "CHIRIACOVA Alexandra",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MDA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100178258",
+      "competitiorName": "VALENTA Jan/HRABICOVA Klara",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123664",
+          "playerName": "VALENTA Jan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134339",
+          "playerName": "HRABICOVA Klara",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,7,9,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-3,11-7,11-9,0-0,0-0",
+  "resultsGameScores": "11-3,11-7,11-9,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123664",
+    "serverReceiver": "122320",
+    "serverNext": "123664",
+    "serverCompetitor": "100178258",
+    "receiverNext": "122320"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:30",
+    "startDateLocal": "08/30/2025 16:50:00",
+    "startDateUTC": "08/30/2025 14:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "151",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-30T14:57:04.15Z"
+}

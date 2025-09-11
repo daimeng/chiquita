@@ -1,0 +1,95 @@
+{
+  "eventId": "3028",
+  "documentCode": "TTEMSINGLES-----------GP04000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 4 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136440",
+      "competitiorName": "ABE Yuto",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136440",
+          "playerName": "ABE Yuto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "212623",
+      "competitiorName": "DUTTA Riyan",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "212623",
+          "playerName": "DUTTA Riyan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,7,10,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-4,11-7,12-10,0-0,0-0",
+  "resultsGameScores": "11-4,11-7,12-10,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "212623",
+    "serverReceiver": "136440",
+    "serverNext": "212623",
+    "serverCompetitor": "212623",
+    "receiverNext": "136440"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:58",
+    "startDateLocal": "08/28/2025 10:10:00",
+    "startDateUTC": "08/28/2025 08:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "167",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-08-28T08:31:26.78Z"
+}
