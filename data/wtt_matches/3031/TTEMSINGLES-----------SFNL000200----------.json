@@ -1,0 +1,95 @@
+{
+  "eventId": "3031",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Nevşehir Hacı Bektaş Veli University Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "202561",
+      "competitiorName": "SAKAI Yuhi",
+      "competitiorOrg": "JPN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202561",
+          "playerName": "SAKAI Yuhi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,11,13,11,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "145404",
+      "competitiorName": "OTALVARO Emanuel",
+      "competitiorOrg": "COL",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145404",
+          "playerName": "OTALVARO Emanuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "COL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,9,15,7,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,11-9,13-15,11-7,12-10",
+  "resultsGameScores": "10-12,11-9,13-15,11-7,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "145404",
+    "serverReceiver": "202561",
+    "serverNext": "145404",
+    "serverCompetitor": "145404",
+    "receiverNext": "202561"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:30",
+    "startDateLocal": "09/20/2025 11:45:00",
+    "startDateUTC": "09/20/2025 08:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "320",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-09-20T09:35:02.07Z"
+}

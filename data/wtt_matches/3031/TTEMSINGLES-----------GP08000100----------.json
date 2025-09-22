@@ -1,0 +1,95 @@
+{
+  "eventId": "3031",
+  "documentCode": "TTEMSINGLES-----------GP08000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 8 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Nevşehir Hacı Bektaş Veli University Sport Center",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123230",
+      "competitiorName": "KENZHIGULOV Dastan",
+      "competitiorOrg": "KAZ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123230",
+          "playerName": "KENZHIGULOV Dastan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KAZ",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,13,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133702",
+      "competitiorName": "OH Seunghwan",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133702",
+          "playerName": "OH Seunghwan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,6,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-3,11-6,13-11,0-0,0-0",
+  "resultsGameScores": "11-3,11-6,13-11,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123230",
+    "serverReceiver": "133702",
+    "serverNext": "123230",
+    "serverCompetitor": "123230",
+    "receiverNext": "133702"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:50",
+    "startDateLocal": "09/16/2025 13:20:00",
+    "startDateUTC": "09/16/2025 10:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "159",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-09-16T10:43:57.517Z"
+}

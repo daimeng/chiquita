@@ -1,0 +1,95 @@
+{
+  "eventId": "3031",
+  "documentCode": "TTEMSINGLES-----------GP01000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Nevşehir Hacı Bektaş Veli University Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122001",
+      "competitiorName": "DEVOS Laurens",
+      "competitiorOrg": "BEL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122001",
+          "playerName": "DEVOS Laurens",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BEL",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,7,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "113914",
+      "competitiorName": "CHEN Alexander",
+      "competitiorOrg": "AUT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "113914",
+          "playerName": "CHEN Alexander",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUT",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,9,11,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,11-9,7-11,11-9,0-0",
+  "resultsGameScores": "7-6,11-9,7-11,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "113914",
+    "serverReceiver": "122001",
+    "serverNext": "113914",
+    "serverCompetitor": "113914",
+    "receiverNext": "122001"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:23:32",
+    "startDateLocal": "09/17/2025 17:05:00",
+    "startDateUTC": "09/17/2025 14:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "240",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-09-17T14:34:11.98Z"
+}
