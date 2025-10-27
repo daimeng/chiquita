@@ -1,0 +1,95 @@
+{
+  "eventId": "3110",
+  "documentCode": "TTEMSINGLES-----------FNL-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 7,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Copper Box Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123980",
+      "competitiorName": "HARIMOTO Tomokazu",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123980",
+          "playerName": "HARIMOTO Tomokazu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,10,12,11,11,10,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "114715",
+      "competitiorName": "QIU Dang",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "114715",
+          "playerName": "QIU Dang",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,12,14,9,7,12,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 6,
+  "full_msg": null,
+  "gameScores": "11-13,10-12,12-14,11-9,11-7,10-12,0-0",
+  "resultsGameScores": "11-13,10-12,12-14,11-9,11-7,10-12,0-0",
+  "overallScores": "2-4",
+  "resultOverallScores": "2-4",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123980",
+    "serverReceiver": "114715",
+    "serverNext": "123980",
+    "serverCompetitor": "123980",
+    "receiverNext": "114715"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "01:00:02",
+    "startDateLocal": "10/26/2025 18:00:00",
+    "startDateUTC": "10/26/2025 17:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "391",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

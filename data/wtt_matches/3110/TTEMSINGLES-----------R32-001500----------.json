@@ -1,0 +1,95 @@
+{
+  "eventId": "3110",
+  "documentCode": "TTEMSINGLES-----------R32-001500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 32 - Match 15",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Copper Box Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122002",
+      "competitiorName": "BARDET Lilian",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122002",
+          "playerName": "BARDET Lilian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,6,11,13,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "102891",
+      "competitiorName": "GACINA Andrej",
+      "competitiorOrg": "CRO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102891",
+          "playerName": "GACINA Andrej",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CRO",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,5,11,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,6-11,11-5,13-11,10-12",
+  "resultsGameScores": "5-11,6-11,11-5,13-11,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "102891",
+    "serverReceiver": "122002",
+    "serverNext": "102891",
+    "serverCompetitor": "102891",
+    "receiverNext": "122002"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:46:50",
+    "startDateLocal": "10/24/2025 18:45:00",
+    "startDateUTC": "10/24/2025 17:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "307",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

@@ -1,0 +1,95 @@
+{
+  "eventId": "3110",
+  "documentCode": "TTEMSINGLES-----------QFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Quarterfinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Copper Box Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121582",
+      "competitiorName": "LIN Yun-Ju",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121582",
+          "playerName": "LIN Yun-Ju",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,7,4,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135996",
+      "competitiorName": "MATSUSHIMA Sora",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135996",
+          "playerName": "MATSUSHIMA Sora",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,9,11,11,8",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,11-9,7-11,4-11,11-8",
+  "resultsGameScores": "11-5,11-9,7-11,4-11,11-8",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121582",
+    "serverReceiver": "135996",
+    "serverNext": "121582",
+    "serverCompetitor": "121582",
+    "receiverNext": "135996"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:46",
+    "startDateLocal": "10/25/2025 17:00:00",
+    "startDateUTC": "10/25/2025 16:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "247",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2025-10-25T16:46:34.797Z"
+}

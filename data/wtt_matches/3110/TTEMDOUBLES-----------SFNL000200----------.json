@@ -1,0 +1,111 @@
+{
+  "eventId": "3110",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Copper Box Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100119618",
+      "competitiorName": "JARVIS Tom/GREEN Connor",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121684",
+          "playerName": "JARVIS Tom",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "137863",
+          "playerName": "GREEN Connor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,9,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100155483",
+      "competitiorName": "KUO Guan-Hong/FENG Yi-Hsin",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200044",
+          "playerName": "KUO Guan-Hong",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "122727",
+          "playerName": "FENG Yi-Hsin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "13,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-13,9-11,9-11,0-0,0-0",
+  "resultsGameScores": "11-13,9-11,9-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200044",
+    "serverReceiver": "121684",
+    "serverNext": "200044",
+    "serverCompetitor": "100155483",
+    "receiverNext": "121684"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:23",
+    "startDateLocal": "10/24/2025 19:20:00",
+    "startDateUTC": "10/24/2025 18:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "191",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}
