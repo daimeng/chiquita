@@ -1,0 +1,111 @@
+{
+  "eventId": "3232",
+  "documentCode": "TTEXDOUBLES-----------8FNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Round of 16 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100207205",
+      "competitiorName": "AL-KUWARI Sultan/ELBAZ Rokaia",
+      "competitiorOrg": "QAT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135386",
+          "playerName": "AL-KUWARI Sultan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "QAT",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "201305",
+          "playerName": "ELBAZ Rokaia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "QAT",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "2,6,6,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100192164",
+      "competitiorName": "CHEN Yuanyu/KUAI Man",
+      "competitiorOrg": "CHN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135050",
+          "playerName": "CHEN Yuanyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135049",
+          "playerName": "KUAI Man",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CHN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "2-11,6-11,6-11,0-0,0-0",
+  "resultsGameScores": "2-11,6-11,6-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135386",
+    "serverReceiver": "135049",
+    "serverNext": "135386",
+    "serverCompetitor": "100207205",
+    "receiverNext": "135049"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:14:48",
+    "startDateLocal": "01/15/2026 14:30:00",
+    "startDateUTC": "01/15/2026 11:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "137",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

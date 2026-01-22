@@ -1,0 +1,95 @@
+{
+  "eventId": "3232",
+  "documentCode": "TTEMSINGLES-----------RND1001400----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 14",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121940",
+      "competitiorName": "SHAMS Navid",
+      "competitiorOrg": "IRI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121940",
+          "playerName": "SHAMS Navid",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IRI",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,14,2,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131211",
+      "competitiorName": "HAUG Borgar",
+      "competitiorOrg": "NOR",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131211",
+          "playerName": "HAUG Borgar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,12,11,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,9-11,14-12,2-11,11-6",
+  "resultsGameScores": "11-6,9-11,14-12,2-11,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131211",
+    "serverReceiver": "121940",
+    "serverNext": "131211",
+    "serverCompetitor": "131211",
+    "receiverNext": "121940"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:36",
+    "startDateLocal": "01/13/2026 18:30:00",
+    "startDateUTC": "01/13/2026 15:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "278",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-01-13T16:19:55.247Z"
+}
