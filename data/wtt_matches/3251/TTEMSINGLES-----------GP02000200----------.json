@@ -1,0 +1,95 @@
+{
+  "eventId": "3251",
+  "documentCode": "TTEMSINGLES-----------GP02000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 2 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sultan Qaboos Sport Complex",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134625",
+      "competitiorName": "PEREZ Juan",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134625",
+          "playerName": "PEREZ Juan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,6,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "119585",
+      "competitiorName": "YIGENLER Abdullah",
+      "competitiorOrg": "TUR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119585",
+          "playerName": "YIGENLER Abdullah",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,3,11,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,11-3,6-11,11-9,0-0",
+  "resultsGameScores": "11-9,11-3,6-11,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "119585",
+    "serverReceiver": "134625",
+    "serverNext": "119585",
+    "serverCompetitor": "119585",
+    "receiverNext": "134625"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:34:04",
+    "startDateLocal": "01/19/2026 10:05:00",
+    "startDateUTC": "01/19/2026 06:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "250",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-01-19T07:05:11.143Z"
+}

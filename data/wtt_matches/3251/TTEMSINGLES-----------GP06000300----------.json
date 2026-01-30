@@ -1,0 +1,95 @@
+{
+  "eventId": "3251",
+  "documentCode": "TTEMSINGLES-----------GP06000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 6 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sultan Qaboos Sport Complex",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "145799",
+      "competitiorName": "BERTELSMEIER Andre",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145799",
+          "playerName": "BERTELSMEIER Andre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,8,9,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "115545",
+      "competitiorName": "KWAN Man Ho",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115545",
+          "playerName": "KWAN Man Ho",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,9,11,11,3",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-8,11-9,8-11,9-11,11-3",
+  "resultsGameScores": "11-8,11-9,8-11,9-11,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115545",
+    "serverReceiver": "145799",
+    "serverNext": "115545",
+    "serverCompetitor": "115545",
+    "receiverNext": "145799"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:07",
+    "startDateLocal": "01/19/2026 16:35:00",
+    "startDateUTC": "01/19/2026 12:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "262",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-01-19T13:33:25.517Z"
+}
