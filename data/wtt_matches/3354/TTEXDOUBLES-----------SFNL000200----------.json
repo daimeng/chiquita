@@ -1,0 +1,111 @@
+{
+  "eventId": "3354",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100195708",
+      "competitiorName": "GREEN Connor/HO Tin-Tin",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137863",
+          "playerName": "GREEN Connor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115430",
+          "playerName": "HO Tin-Tin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,5,13,5,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100176282",
+      "competitiorName": "TIKHONOV Evgeny/PANFILOVA Maria",
+      "competitiorOrg": "AIN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133251",
+          "playerName": "TIKHONOV Evgeny",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AIN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133117",
+          "playerName": "PANFILOVA Maria",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AIN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "4-11,5-11,13-11,5-11,0-0",
+  "resultsGameScores": "4-11,5-11,13-11,5-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137863",
+    "serverReceiver": "133251",
+    "serverNext": "137863",
+    "serverCompetitor": "100195708",
+    "receiverNext": "133251"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:35",
+    "startDateLocal": "01/30/2026 20:00:00",
+    "startDateUTC": "01/30/2026 17:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "202",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

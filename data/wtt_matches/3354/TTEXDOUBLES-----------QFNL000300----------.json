@@ -1,0 +1,111 @@
+{
+  "eventId": "3354",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Lusail Sports Arena",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "58982",
+      "competitiorName": "TAN Zhao Ray/TAN Zhao Yun",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133601",
+          "playerName": "TAN Zhao Ray",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131966",
+          "playerName": "TAN Zhao Yun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,13,10,11,10",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100195708",
+      "competitiorName": "GREEN Connor/HO Tin-Tin",
+      "competitiorOrg": "ENG",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137863",
+          "playerName": "GREEN Connor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115430",
+          "playerName": "HO Tin-Tin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,12,5,12",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,13-11,10-12,11-5,10-12",
+  "resultsGameScores": "5-11,13-11,10-12,11-5,10-12",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133601",
+    "serverReceiver": "137863",
+    "serverNext": "133601",
+    "serverCompetitor": "58982",
+    "receiverNext": "137863"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:48:11",
+    "startDateLocal": "01/30/2026 10:00:00",
+    "startDateUTC": "01/30/2026 07:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "297",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-01-30T07:51:33.51Z"
+}
