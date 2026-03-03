@@ -1,0 +1,95 @@
+{
+  "eventId": "3234",
+  "documentCode": "TTEMSINGLES-----------RND1000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "The Kallang",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123031",
+      "competitiorName": "TEODORO Guilherme",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123031",
+          "playerName": "TEODORO Guilherme",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,10,11,17,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "200389",
+      "competitiorName": "ARADO Felipe",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200389",
+          "playerName": "ARADO Felipe",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,12,7,15,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-9,10-12,11-7,17-15,0-0",
+  "resultsGameScores": "11-9,10-12,11-7,17-15,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200389",
+    "serverReceiver": "123031",
+    "serverNext": "200389",
+    "serverCompetitor": "200389",
+    "receiverNext": "123031"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:48",
+    "startDateLocal": "02/19/2026 16:00:00",
+    "startDateUTC": "02/19/2026 08:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "272",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

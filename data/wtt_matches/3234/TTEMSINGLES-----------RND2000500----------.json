@@ -1,0 +1,95 @@
+{
+  "eventId": "3234",
+  "documentCode": "TTEMSINGLES-----------RND2000500----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 2 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "The Kallang",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "124576",
+      "competitiorName": "SIDORENKO Vladimir",
+      "competitiorOrg": "AIN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "124576",
+          "playerName": "SIDORENKO Vladimir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AIN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,11,8,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135745",
+      "competitiorName": "MA Jinbao",
+      "competitiorOrg": "USA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135745",
+          "playerName": "MA Jinbao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "USA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,6,11,6,9",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,11-6,8-11,11-6,11-9",
+  "resultsGameScores": "10-12,11-6,8-11,11-6,11-9",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "135745",
+    "serverReceiver": "124576",
+    "serverNext": "135745",
+    "serverCompetitor": "135745",
+    "receiverNext": "124576"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:40:01",
+    "startDateLocal": "02/20/2026 16:35:00",
+    "startDateUTC": "02/20/2026 08:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "286",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-02-20T09:33:11.66Z"
+}

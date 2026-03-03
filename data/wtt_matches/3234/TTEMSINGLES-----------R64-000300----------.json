@@ -1,0 +1,95 @@
+{
+  "eventId": "3234",
+  "documentCode": "TTEMSINGLES-----------R64-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Round of 64 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "The Kallang",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115396",
+      "competitiorName": "GERALDO Joao",
+      "competitiorOrg": "POR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115396",
+          "playerName": "GERALDO Joao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,12,9,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "145799",
+      "competitiorName": "BERTELSMEIER Andre",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145799",
+          "playerName": "BERTELSMEIER Andre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,11,14,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,8-11,12-14,9-11,0-0",
+  "resultsGameScores": "11-7,8-11,12-14,9-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "145799",
+    "serverReceiver": "115396",
+    "serverNext": "145799",
+    "serverCompetitor": "145799",
+    "receiverNext": "115396"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:22",
+    "startDateLocal": "02/22/2026 19:45:00",
+    "startDateUTC": "02/22/2026 11:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "235",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-02-22T12:10:56.96Z"
+}

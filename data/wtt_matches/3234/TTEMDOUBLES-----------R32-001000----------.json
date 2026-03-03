@@ -1,0 +1,111 @@
+{
+  "eventId": "3234",
+  "documentCode": "TTEMDOUBLES-----------R32-001000----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Round of 32 - Match 10",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "The Kallang",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100111454",
+      "competitiorName": "ABDELAZIZ Youssef/ELBEIALI Mohamed",
+      "competitiorOrg": "EGY",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116723",
+          "playerName": "ABDELAZIZ Youssef",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "EGY",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "102486",
+          "playerName": "ELBEIALI Mohamed",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "EGY",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100105852",
+      "competitiorName": "LOY Xing Yao/LE Ellsworth",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202749",
+          "playerName": "LOY Xing Yao",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "144488",
+          "playerName": "LE Ellsworth",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,8,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "5-11,11-6,11-8,11-8,0-0",
+  "resultsGameScores": "5-11,11-6,11-8,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "102486",
+    "serverReceiver": "202749",
+    "serverNext": "102486",
+    "serverCompetitor": "100111454",
+    "receiverNext": "202749"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:43",
+    "startDateLocal": "02/22/2026 18:00:00",
+    "startDateUTC": "02/22/2026 10:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "232",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-02-22T10:35:23.82Z"
+}
