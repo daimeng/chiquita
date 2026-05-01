@@ -1,0 +1,95 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEWSINGLES-----------GP02000300----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Group 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123548",
+      "competitiorName": "PICARD Claire",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123548",
+          "playerName": "PICARD Claire",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133422",
+      "competitiorName": "WONG Jasmin",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133422",
+          "playerName": "WONG Jasmin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,6,3,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "10-12,11-6,11-3,11-9,0-0",
+  "resultsGameScores": "10-12,11-6,11-3,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123548",
+    "serverReceiver": "133422",
+    "serverNext": "123548",
+    "serverCompetitor": "123548",
+    "receiverNext": "133422"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:24:54",
+    "startDateLocal": "04/14/2026 10:40:00",
+    "startDateUTC": "04/14/2026 08:40:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "214",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

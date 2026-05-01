@@ -1,0 +1,95 @@
+{
+  "eventId": "3267",
+  "documentCode": "TTEMSINGLES-----------GP11000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 11 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136399",
+      "competitiorName": "VAN DESSEL Mael",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136399",
+          "playerName": "VAN DESSEL Mael",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "200553",
+      "competitiorName": "MANOLOPOULOS Efstathios Efraim",
+      "competitiorOrg": "GRE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200553",
+          "playerName": "MANOLOPOULOS Efstathios Efraim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GRE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,10,4,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-7,12-10,11-4,0-0,0-0",
+  "resultsGameScores": "11-7,12-10,11-4,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200553",
+    "serverReceiver": "136399",
+    "serverNext": "200553",
+    "serverCompetitor": "200553",
+    "receiverNext": "136399"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:21:24",
+    "startDateLocal": "03/02/2026 12:55:00",
+    "startDateUTC": "03/02/2026 11:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "165",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-03-02T12:23:39.713Z"
+}

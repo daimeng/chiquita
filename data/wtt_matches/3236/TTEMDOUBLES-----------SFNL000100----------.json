@@ -1,0 +1,111 @@
+{
+  "eventId": "3236",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Palais des Sports el Menzah",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "99012",
+      "competitiorName": "BOURRASSAUD Florian/DORR Esteban",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120857",
+          "playerName": "BOURRASSAUD Florian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133652",
+          "playerName": "DORR Esteban",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,15,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "36004",
+      "competitiorName": "GUNDUZ Ibrahim/YIGENLER Abdullah",
+      "competitiorOrg": "TUR",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120168",
+          "playerName": "GUNDUZ Ibrahim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TUR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "119585",
+          "playerName": "YIGENLER Abdullah",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TUR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,7,13,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-9,11-7,15-13,0-0,0-0",
+  "resultsGameScores": "11-9,11-7,15-13,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "120168",
+    "serverReceiver": "133652",
+    "serverNext": "120168",
+    "serverCompetitor": "36004",
+    "receiverNext": "133652"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:46",
+    "startDateLocal": "03/28/2026 13:55:00",
+    "startDateUTC": "03/28/2026 12:55:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "208",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

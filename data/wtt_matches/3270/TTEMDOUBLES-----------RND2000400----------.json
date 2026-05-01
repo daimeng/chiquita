@@ -1,0 +1,111 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEMDOUBLES-----------RND2000400----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Qualifying Round 2 - Match 4",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T04",
+  "tableName": "Table 4",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100235474",
+      "competitiorName": "CHOI Hojun/BACK Donghoon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "209002",
+          "playerName": "CHOI Hojun",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "137006",
+          "playerName": "BACK Donghoon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,12,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100119563",
+      "competitiorName": "MOULLET Barish/BOCCARD Sam",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132223",
+          "playerName": "MOULLET Barish",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SUI",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "133352",
+          "playerName": "BOCCARD Sam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SUI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,7,10,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-9,11-7,12-10,0-0,0-0",
+  "resultsGameScores": "11-9,11-7,12-10,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "132223",
+    "serverReceiver": "137006",
+    "serverNext": "132223",
+    "serverCompetitor": "100119563",
+    "receiverNext": "137006"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:01",
+    "startDateLocal": "04/14/2026 16:35:00",
+    "startDateUTC": "04/14/2026 14:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "175",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

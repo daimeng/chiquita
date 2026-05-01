@@ -1,0 +1,95 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEMSINGLES-----------GP02000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122086",
+      "competitiorName": "PUPPO Andrea",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122086",
+          "playerName": "PUPPO Andrea",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,8,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135529",
+      "competitiorName": "PALUSEK Samuel",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135529",
+          "playerName": "PALUSEK Samuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,5,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-4,9-11,11-5,8-11,8-11",
+  "resultsGameScores": "11-4,9-11,11-5,8-11,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "122086",
+    "serverReceiver": "135529",
+    "serverNext": "122086",
+    "serverCompetitor": "122086",
+    "receiverNext": "135529"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:43:06",
+    "startDateLocal": "04/14/2026 11:50:00",
+    "startDateUTC": "04/14/2026 09:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "256",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

@@ -1,0 +1,111 @@
+{
+  "eventId": "3267",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Deutsches Tischtennis- Zentrum",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100195708",
+      "competitiorName": "GREEN Connor/HO Tin-Tin",
+      "competitiorOrg": "ENG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137863",
+          "playerName": "GREEN Connor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "115430",
+          "playerName": "HO Tin-Tin",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ENG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,7,11,5,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100222186",
+      "competitiorName": "HAUG Borgar/HURSEY Anna",
+      "competitiorOrg": "NOR/WAL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131211",
+          "playerName": "HAUG Borgar",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "131480",
+          "playerName": "HURSEY Anna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "WAL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,9,11,6",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,7-11,11-9,5-11,11-6",
+  "resultsGameScores": "11-6,7-11,11-9,5-11,11-6",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137863",
+    "serverReceiver": "131480",
+    "serverNext": "137863",
+    "serverCompetitor": "100195708",
+    "receiverNext": "131480"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:39:15",
+    "startDateLocal": "03/06/2026 12:20:00",
+    "startDateUTC": "03/06/2026 11:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "283",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-03-06T12:02:21.053Z"
+}

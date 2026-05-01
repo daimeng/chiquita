@@ -1,0 +1,95 @@
+{
+  "eventId": "3237",
+  "documentCode": "TTEMSINGLES-----------GP02000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 2 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Taiyuan Binhe Sports Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "116641",
+      "competitiorName": "RUIZ Romain",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "116641",
+          "playerName": "RUIZ Romain",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "131932",
+      "competitiorName": "CHOONG Javen",
+      "competitiorOrg": "MAS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131932",
+          "playerName": "CHOONG Javen",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "MAS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,8,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,9-11,11-8,11-7,0-0",
+  "resultsGameScores": "11-4,9-11,11-8,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131932",
+    "serverReceiver": "116641",
+    "serverNext": "131932",
+    "serverCompetitor": "131932",
+    "receiverNext": "116641"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:03",
+    "startDateLocal": "04/07/2026 12:10:00",
+    "startDateUTC": "04/07/2026 04:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "211",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-04-07T04:41:50.083Z"
+}

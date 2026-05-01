@@ -1,0 +1,95 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEMSINGLES-----------GP07000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 7 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115100",
+      "competitiorName": "VALUCH Alexander",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115100",
+          "playerName": "VALUCH Alexander",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,7,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134802",
+      "competitiorName": "BAE Won",
+      "competitiorOrg": "AUS",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134802",
+          "playerName": "BAE Won",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUS",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,8,11,5,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,11-8,7-11,11-5,0-0",
+  "resultsGameScores": "11-8,11-8,7-11,11-5,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115100",
+    "serverReceiver": "134802",
+    "serverNext": "115100",
+    "serverCompetitor": "115100",
+    "receiverNext": "134802"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:50",
+    "startDateLocal": "04/14/2026 12:25:00",
+    "startDateUTC": "04/14/2026 10:25:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "214",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

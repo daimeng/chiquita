@@ -1,0 +1,95 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEMSINGLES-----------GP16000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 16 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136399",
+      "competitiorName": "VAN DESSEL Mael",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136399",
+          "playerName": "VAN DESSEL Mael",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "7,4,9,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "137006",
+      "competitiorName": "BACK Donghoon",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137006",
+          "playerName": "BACK Donghoon",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "7-11,4-11,9-11,0-0,0-0",
+  "resultsGameScores": "7-11,4-11,9-11,0-0,0-0",
+  "overallScores": "0-3",
+  "resultOverallScores": "0-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136399",
+    "serverReceiver": "137006",
+    "serverNext": "136399",
+    "serverCompetitor": "136399",
+    "receiverNext": "137006"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:19:00",
+    "startDateLocal": "04/13/2026 14:10:00",
+    "startDateUTC": "04/13/2026 12:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "149",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-04-13T12:29:06.687Z"
+}

@@ -1,0 +1,95 @@
+{
+  "eventId": "3236",
+  "documentCode": "TTEMSINGLES-----------GP05000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 5 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Palais des Sports el Menzah",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135500",
+      "competitiorName": "JELLOULI Milhane",
+      "competitiorOrg": "ALG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135500",
+          "playerName": "JELLOULI Milhane",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ALG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "5,11,14,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134556",
+      "competitiorName": "CAMARA Gabrielius",
+      "competitiorOrg": "NED",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134556",
+          "playerName": "CAMARA Gabrielius",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NED",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,12,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "5-11,11-8,14-12,11-4,0-0",
+  "resultsGameScores": "5-11,11-8,14-12,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134556",
+    "serverReceiver": "135500",
+    "serverNext": "134556",
+    "serverCompetitor": "134556",
+    "receiverNext": "135500"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:31:42",
+    "startDateLocal": "03/24/2026 12:20:00",
+    "startDateUTC": "03/24/2026 11:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "229",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-03-24T11:53:41.907Z"
+}

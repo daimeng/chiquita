@@ -1,0 +1,95 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEWSINGLES-----------GP09000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Group 9 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131748",
+      "competitiorName": "SCHOLZ Vivien",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131748",
+          "playerName": "SCHOLZ Vivien",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,11,11,8,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "137036",
+      "competitiorName": "DOUTAZ Fanny",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "137036",
+          "playerName": "DOUTAZ Fanny",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SUI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,9,9,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "8-11,11-9,11-9,8-11,9-11",
+  "resultsGameScores": "8-11,11-9,11-9,8-11,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "137036",
+    "serverReceiver": "131748",
+    "serverNext": "137036",
+    "serverCompetitor": "137036",
+    "receiverNext": "131748"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:19",
+    "startDateLocal": "04/13/2026 11:50:00",
+    "startDateUTC": "04/13/2026 09:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "275",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-04-13T10:30:44.227Z"
+}

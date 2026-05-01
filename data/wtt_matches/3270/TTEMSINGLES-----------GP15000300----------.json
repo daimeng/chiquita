@@ -1,0 +1,95 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEMSINGLES-----------GP15000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 15 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "145782",
+      "competitiorName": "LOVHA Mykhailo",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145782",
+          "playerName": "LOVHA Mykhailo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,7,13,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "136158",
+      "competitiorName": "SCHOLTES Tom",
+      "competitiorOrg": "LUX",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136158",
+          "playerName": "SCHOLTES Tom",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "LUX",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "7,10,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-7,12-10,7-11,13-11,0-0",
+  "resultsGameScores": "11-7,12-10,7-11,13-11,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136158",
+    "serverReceiver": "145782",
+    "serverNext": "136158",
+    "serverCompetitor": "136158",
+    "receiverNext": "145782"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:14",
+    "startDateLocal": "04/13/2026 19:30:00",
+    "startDateUTC": "04/13/2026 17:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "234",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

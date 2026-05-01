@@ -1,0 +1,95 @@
+{
+  "eventId": "3237",
+  "documentCode": "TTEMSINGLES-----------GP04000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 4 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Taiyuan Binhe Sports Center",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "115545",
+      "competitiorName": "KWAN Man Ho",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "115545",
+          "playerName": "KWAN Man Ho",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "3,11,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "132310",
+      "competitiorName": "CHOY Chun Kit",
+      "competitiorOrg": "HKG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "132310",
+          "playerName": "CHOY Chun Kit",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HKG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,4,6,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "3-11,11-8,11-4,11-6,0-0",
+  "resultsGameScores": "3-11,11-8,11-4,11-6,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "115545",
+    "serverReceiver": "132310",
+    "serverNext": "115545",
+    "serverCompetitor": "115545",
+    "receiverNext": "132310"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:25:30",
+    "startDateLocal": "04/07/2026 12:45:00",
+    "startDateUTC": "04/07/2026 04:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "180",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-04-07T05:29:19.287Z"
+}

@@ -1,0 +1,95 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEMSINGLES-----------GP12000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 12 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T06",
+  "tableName": "Table 6",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "120162",
+      "competitiorName": "HRIBAR Peter",
+      "competitiorOrg": "SLO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "120162",
+          "playerName": "HRIBAR Peter",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SLO",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,12,12,8,12",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "143671",
+      "competitiorName": "VEPA Chaitanya",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "143671",
+          "playerName": "VEPA Chaitanya",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SUI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,10,10,11,10",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,12-10,12-10,8-11,12-10",
+  "resultsGameScores": "9-11,12-10,12-10,8-11,12-10",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "143671",
+    "serverReceiver": "120162",
+    "serverNext": "143671",
+    "serverCompetitor": "143671",
+    "receiverNext": "120162"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:42:16",
+    "startDateLocal": "04/13/2026 13:00:00",
+    "startDateUTC": "04/13/2026 11:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "320",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

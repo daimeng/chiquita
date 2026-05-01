@@ -1,0 +1,95 @@
+{
+  "eventId": "3236",
+  "documentCode": "TTEMSINGLES-----------QER-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualification Elimination Round - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Palais des Sports el Menzah",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122086",
+      "competitiorName": "PUPPO Andrea",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122086",
+          "playerName": "PUPPO Andrea",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,4,9,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133671",
+      "competitiorName": "BETELU Remi",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133671",
+          "playerName": "BETELU Remi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,11,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,5-11,4-11,9-11,0-0",
+  "resultsGameScores": "11-4,5-11,4-11,9-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133671",
+    "serverReceiver": "122086",
+    "serverNext": "133671",
+    "serverCompetitor": "133671",
+    "receiverNext": "122086"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:27",
+    "startDateLocal": "03/25/2026 19:10:00",
+    "startDateUTC": "03/25/2026 18:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "184",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

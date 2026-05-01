@@ -1,0 +1,111 @@
+{
+  "eventId": "3357",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "subEventName": "Mixed Doubles",
+  "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Transpetrol Sport Hall",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100236324",
+      "competitiorName": "ARADO Felipe/WATANABE Laura",
+      "competitiorOrg": "BRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200389",
+          "playerName": "ARADO Felipe",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "136420",
+          "playerName": "WATANABE Laura",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "BRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,8,11,7,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100238662",
+      "competitiorName": "LOVHA Mykhailo/MOLNAROVA Emma",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145782",
+          "playerName": "LOVHA Mykhailo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "200067",
+          "playerName": "MOLNAROVA Emma",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,11,6,11,3",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,8-11,11-6,7-11,11-3",
+  "resultsGameScores": "11-5,8-11,11-6,7-11,11-3",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200389",
+    "serverReceiver": "200067",
+    "serverNext": "200389",
+    "serverCompetitor": "100236324",
+    "receiverNext": "200067"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:09",
+    "startDateLocal": "04/20/2026 20:35:00",
+    "startDateUTC": "04/20/2026 18:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "235",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

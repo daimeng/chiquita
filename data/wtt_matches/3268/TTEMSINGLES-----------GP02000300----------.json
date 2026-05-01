@@ -1,0 +1,95 @@
+{
+  "eventId": "3268",
+  "documentCode": "TTEMSINGLES-----------GP02000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 2 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Sport Centre Otocec",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "212495",
+      "competitiorName": "TOKUDA Kanta",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "212495",
+          "playerName": "TOKUDA Kanta",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,9,11,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "117006",
+      "competitiorName": "PICCOLIN Jordy",
+      "competitiorOrg": "ITA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "117006",
+          "playerName": "PICCOLIN Jordy",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ITA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,11,8,4",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-6,8-11,9-11,11-8,11-4",
+  "resultsGameScores": "11-6,8-11,9-11,11-8,11-4",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "117006",
+    "serverReceiver": "212495",
+    "serverNext": "117006",
+    "serverCompetitor": "117006",
+    "receiverNext": "212495"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:40",
+    "startDateLocal": "03/08/2026 11:35:00",
+    "startDateUTC": "03/08/2026 10:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "263",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-03-08T11:10:35.983Z"
+}

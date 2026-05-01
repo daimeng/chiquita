@@ -1,0 +1,95 @@
+{
+  "eventId": "3357",
+  "documentCode": "TTEMSINGLES-----------GP06000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 6 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Transpetrol Sport Hall",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "135529",
+      "competitiorName": "PALUSEK Samuel",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135529",
+          "playerName": "PALUSEK Samuel",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "200069",
+      "competitiorName": "VITORSKI Daniil",
+      "competitiorOrg": "AIN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200069",
+          "playerName": "VITORSKI Daniil",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AIN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,7,1,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-6,11-7,11-1,0-0,0-0",
+  "resultsGameScores": "11-6,11-7,11-1,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200069",
+    "serverReceiver": "135529",
+    "serverNext": "200069",
+    "serverCompetitor": "200069",
+    "receiverNext": "135529"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:16:56",
+    "startDateLocal": "04/18/2026 12:20:00",
+    "startDateUTC": "04/18/2026 10:20:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "135",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

@@ -1,0 +1,95 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEWSINGLES-----------SFNL000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134790",
+      "competitiorName": "SASAO Asuka",
+      "competitiorOrg": "JPN",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134790",
+          "playerName": "SASAO Asuka",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "10,11,11,12,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "136309",
+      "competitiorName": "AKAE Kaho",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136309",
+          "playerName": "AKAE Kaho",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "12,7,7,14,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "10-12,11-7,11-7,12-14,9-11",
+  "resultsGameScores": "10-12,11-7,11-7,12-14,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "136309",
+    "serverReceiver": "134790",
+    "serverNext": "136309",
+    "serverCompetitor": "136309",
+    "receiverNext": "134790"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:49:29",
+    "startDateLocal": "04/17/2026 10:00:00",
+    "startDateUTC": "04/17/2026 08:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "305",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

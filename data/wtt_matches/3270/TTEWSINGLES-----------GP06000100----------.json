@@ -1,0 +1,95 @@
+{
+  "eventId": "3270",
+  "documentCode": "TTEWSINGLES-----------GP06000100----------",
+  "subEventName": "Women's Singles",
+  "subEventDescription": "Women's Singles - Group 6 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "National Training Centre Havirov",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "202245",
+      "competitiorName": "LEE Dahye",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "202245",
+          "playerName": "LEE Dahye",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,5,11,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "144873",
+      "competitiorName": "PAWELEC Zuzanna",
+      "competitiorOrg": "POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "144873",
+          "playerName": "PAWELEC Zuzanna",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,11,5,7,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-3,5-11,11-5,11-7,0-0",
+  "resultsGameScores": "11-3,5-11,11-5,11-7,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "144873",
+    "serverReceiver": "202245",
+    "serverNext": "144873",
+    "serverCompetitor": "144873",
+    "receiverNext": "202245"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:34",
+    "startDateLocal": "04/13/2026 11:15:00",
+    "startDateUTC": "04/13/2026 09:15:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "238",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-04-13T09:47:53.423Z"
+}
