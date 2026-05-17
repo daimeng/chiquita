@@ -1,0 +1,1095 @@
+{
+  "eventId": "3216",
+  "documentCode": "TTEWTEAM--------------GP1500050000--------",
+  "subEventName": "Women's Teams",
+  "subEventDescription": "Women's Teams - Group 15 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Copper Box Arena",
+  "tableNumber": "T13",
+  "tableName": "Table 13",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100215690",
+      "competitiorName": "Singapore Table Tennis Association 21",
+      "competitiorOrg": "SGP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100215690",
+          "playerName": "Singapore Table Tennis Association 21",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SGP",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "0,0,0,0,0",
+      "irm": "OK"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100214066",
+      "competitiorName": "Ethiopian Table Tennis Federation 54",
+      "competitiorOrg": "ETH",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100214066",
+          "playerName": "Ethiopian Table Tennis Federation 54",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ETH",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "",
+      "irm": "WO"
+    }
+  ],
+  "currentGameNumber": 1,
+  "full_msg": null,
+  "gameScores": "0-0,0-0,0-0,0-0,0-0",
+  "resultsGameScores": "",
+  "overallScores": "3-0 WO",
+  "resultOverallScores": "0-0,0-0,0-0,0-0,0-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100214066",
+    "serverReceiver": "100215690",
+    "serverNext": "100214066",
+    "serverCompetitor": "",
+    "receiverNext": "100214066"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "05/01/2026 12:30:00",
+    "startDateUTC": "05/01/2026 12:30:00"
+  },
+  "teamParentData": {
+    "team_code": "TTEWTEAM--------------GP1500050000--------",
+    "extended_info": {
+      "final_result": [
+        {
+          "extension": null,
+          "type": "UI",
+          "code": "FINAL_RESULT",
+          "pos": null,
+          "value": "3-0 WO"
+        }
+      ],
+      "matches": [],
+      "result_competitors": [
+        [
+          {
+            "code": "100215690",
+            "type": "T",
+            "wlt": "W",
+            "roundforRankingCal": null,
+            "organization": "SGP",
+            "description": {
+              "type": "T",
+              "organization": "SGP",
+              "teamName": "Singapore Table Tennis Association 21"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "21"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "20"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "3"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Chloe",
+                      "familyName": "LAI",
+                      "gender": "W",
+                      "organization": "SGP",
+                      "birthDate": "2007-03-02",
+                      "ifId": "135571",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "21"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "135571",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Ming Ying",
+                      "familyName": "LOY",
+                      "gender": "W",
+                      "organization": "SGP",
+                      "birthDate": "2010-10-26",
+                      "ifId": "201453",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "21"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "201453",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Lin Qian",
+                      "familyName": "SER",
+                      "gender": "W",
+                      "organization": "SGP",
+                      "birthDate": "2006-05-01",
+                      "ifId": "132144",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "21"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "132144",
+                    "order": 3
+                  },
+                  {
+                    "description": {
+                      "givenName": "Zhao Yun",
+                      "familyName": "TAN",
+                      "gender": "W",
+                      "organization": "SGP",
+                      "birthDate": "2005-01-11",
+                      "ifId": "131966",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "21"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "131966",
+                    "order": 4
+                  },
+                  {
+                    "description": {
+                      "givenName": "Jian",
+                      "familyName": "ZENG",
+                      "gender": "W",
+                      "organization": "SGP",
+                      "birthDate": "1996-11-19",
+                      "ifId": "131342",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "21"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "131342",
+                    "order": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "code": "100214066",
+            "type": "T",
+            "wlt": "L",
+            "roundforRankingCal": null,
+            "organization": "ETH",
+            "description": {
+              "type": "T",
+              "organization": "ETH",
+              "teamName": "Ethiopian Table Tennis Federation 54"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "54"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "54"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "3"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Gidey",
+                      "familyName": "ABRHA",
+                      "gender": "W",
+                      "organization": "ETH",
+                      "birthDate": "2002-01-29",
+                      "ifId": "136761",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "54"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "136761",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Yordanos",
+                      "familyName": "DEJENE",
+                      "gender": "W",
+                      "organization": "ETH",
+                      "birthDate": "2001-07-10",
+                      "ifId": "145183",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "54"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "145183",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Fana",
+                      "familyName": "FTWI",
+                      "gender": "W",
+                      "organization": "ETH",
+                      "birthDate": "1999-03-11",
+                      "ifId": "124066",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "54"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "124066",
+                    "order": 3
+                  },
+                  {
+                    "description": {
+                      "givenName": "Arsema",
+                      "familyName": "FOGI",
+                      "gender": "W",
+                      "organization": "ETH",
+                      "birthDate": "2010-12-24",
+                      "ifId": "224813",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "54"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "224813",
+                    "order": 4
+                  },
+                  {
+                    "description": {
+                      "givenName": "Feven",
+                      "familyName": "KINFU",
+                      "gender": "W",
+                      "organization": "ETH",
+                      "birthDate": "2000-01-07",
+                      "ifId": "134991",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "54"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "134991",
+                    "order": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "comp_data": {
+      "eventId": null,
+      "documentCode": null,
+      "subEventName": "Women's Teams",
+      "subEventDescription": "Women's Teams - Group 15 - Match 5",
+      "matchConfig": {
+        "bestOfXGames": 5,
+        "maxPointsPerGame": 11,
+        "advantagePerGame": 2,
+        "suddenDeathPoint": 99,
+        "maxChallengesPerCompetitor": 2,
+        "yellowCard": true,
+        "yellowRed1": true,
+        "yellowRed2": true,
+        "tTRReview": true
+      },
+      "venueName": "Copper Box Arena",
+      "tableNumber": "T13",
+      "tableName": "Table 13",
+      "competitiors": [
+        {
+          "competitorType": "H",
+          "competitiorId": "100215690",
+          "competitiorName": "ZENG Jian",
+          "competitiorOrg": "SGP",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "135571",
+              "playerName": "LAI Chloe",
+              "playerGivenName": "Chloe",
+              "playerFamilyName": "LAI",
+              "playerOrgCode": "SGP",
+              "playerPosition": null
+            },
+            {
+              "playerId": "201453",
+              "playerName": "LOY Ming Ying",
+              "playerGivenName": "Ming Ying",
+              "playerFamilyName": "LOY",
+              "playerOrgCode": "SGP",
+              "playerPosition": null
+            },
+            {
+              "playerId": "132144",
+              "playerName": "SER Lin Qian",
+              "playerGivenName": "Lin Qian",
+              "playerFamilyName": "SER",
+              "playerOrgCode": "SGP",
+              "playerPosition": null
+            },
+            {
+              "playerId": "131966",
+              "playerName": "TAN Zhao Yun",
+              "playerGivenName": "Zhao Yun",
+              "playerFamilyName": "TAN",
+              "playerOrgCode": "SGP",
+              "playerPosition": null
+            },
+            {
+              "playerId": "131342",
+              "playerName": "ZENG Jian",
+              "playerGivenName": "Jian",
+              "playerFamilyName": "ZENG",
+              "playerOrgCode": "SGP",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "OK"
+        },
+        {
+          "competitorType": "A",
+          "competitiorId": "100214066",
+          "competitiorName": "Feven KINFU",
+          "competitiorOrg": "ETH",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "136761",
+              "playerName": "Gidey ABRHA",
+              "playerGivenName": "Gidey",
+              "playerFamilyName": "ABRHA",
+              "playerOrgCode": "ETH",
+              "playerPosition": null
+            },
+            {
+              "playerId": "145183",
+              "playerName": "Yordanos DEJENE",
+              "playerGivenName": "Yordanos",
+              "playerFamilyName": "DEJENE",
+              "playerOrgCode": "ETH",
+              "playerPosition": null
+            },
+            {
+              "playerId": "124066",
+              "playerName": "Fana FTWI",
+              "playerGivenName": "Fana",
+              "playerFamilyName": "FTWI",
+              "playerOrgCode": "ETH",
+              "playerPosition": null
+            },
+            {
+              "playerId": "224813",
+              "playerName": "Arsema FOGI",
+              "playerGivenName": "Arsema",
+              "playerFamilyName": "FOGI",
+              "playerOrgCode": "ETH",
+              "playerPosition": null
+            },
+            {
+              "playerId": "134991",
+              "playerName": "Feven KINFU",
+              "playerGivenName": "Feven",
+              "playerFamilyName": "KINFU",
+              "playerOrgCode": "ETH",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "WO"
+        }
+      ],
+      "currentGameNumber": null,
+      "full_msg": null,
+      "gameScores": null,
+      "resultsGameScores": "",
+      "overallScores": "3-0 WO",
+      "resultOverallScores": null,
+      "resultStatus": "OFFICIAL",
+      "action": null,
+      "resultSet": null,
+      "matchDateTime": {
+        "duration": "00:00:00",
+        "startDateLocal": "05/01/2026 12:30:00",
+        "startDateUTC": "05/01/2026 12:30:00"
+      },
+      "teamParentData": null,
+      "playByPlaySequenceNumber": null,
+      "teamMatchNo": null,
+      "teamMatchScores": null,
+      "teamMatchScoresSummary": null,
+      "matchStartTimeUTC": null
+    }
+  },
+  "playByPlaySequenceNumber": "3",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

@@ -1,0 +1,1095 @@
+{
+  "eventId": "3216",
+  "documentCode": "TTEMTEAM--------------GP1300050000--------",
+  "subEventName": "Men's Teams",
+  "subEventDescription": "Men's Teams - Group 13 - Match 5",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 2,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": true
+  },
+  "venueName": "Copper Box Arena",
+  "tableNumber": "T09",
+  "tableName": "Table 9",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100214148",
+      "competitiorName": "Österreichischer Tischtennis Verband 86",
+      "competitiorOrg": "AUT",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100214148",
+          "playerName": "Österreichischer Tischtennis Verband 86",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "AUT",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "0,0,0,0,0",
+      "irm": "OK"
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100214104",
+      "competitiorName": "Fédération Togolaise de Tennis de Table 115",
+      "competitiorOrg": "TOG",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "100214104",
+          "playerName": "Fédération Togolaise de Tennis de Table 115",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TOG",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "",
+      "irm": "WO"
+    }
+  ],
+  "currentGameNumber": 1,
+  "full_msg": null,
+  "gameScores": "0-0,0-0,0-0,0-0,0-0",
+  "resultsGameScores": "",
+  "overallScores": "3-0 WO",
+  "resultOverallScores": "0-0,0-0,0-0,0-0,0-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "100214104",
+    "serverReceiver": "100214148",
+    "serverNext": "100214104",
+    "serverCompetitor": "",
+    "receiverNext": "100214104"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:00:00",
+    "startDateLocal": "05/01/2026 10:00:00",
+    "startDateUTC": "05/01/2026 10:00:00"
+  },
+  "teamParentData": {
+    "team_code": "TTEMTEAM--------------GP1300050000--------",
+    "extended_info": {
+      "final_result": [
+        {
+          "extension": null,
+          "type": "UI",
+          "code": "FINAL_RESULT",
+          "pos": null,
+          "value": "3-0 WO"
+        }
+      ],
+      "matches": [],
+      "result_competitors": [
+        [
+          {
+            "code": "100214148",
+            "type": "T",
+            "wlt": "W",
+            "roundforRankingCal": null,
+            "organization": "AUT",
+            "description": {
+              "type": "T",
+              "organization": "AUT",
+              "teamName": "Österreichischer Tischtennis Verband 86"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "23"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "22"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "3"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Zhenlong",
+                      "familyName": "LIU",
+                      "gender": "M",
+                      "organization": "AUT",
+                      "birthDate": "2005-06-10",
+                      "ifId": "137212",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "23"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "137212",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Robert",
+                      "familyName": "GARDOS",
+                      "gender": "M",
+                      "organization": "AUT",
+                      "birthDate": "1979-01-16",
+                      "ifId": "102968",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "23"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "102968",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Daniel",
+                      "familyName": "HABESOHN",
+                      "gender": "M",
+                      "organization": "AUT",
+                      "birthDate": "1986-07-22",
+                      "ifId": "103345",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "23"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "103345",
+                    "order": 3
+                  },
+                  {
+                    "description": {
+                      "givenName": "Maciej",
+                      "familyName": "KOLODZIEJCZYK",
+                      "gender": "M",
+                      "organization": "AUT",
+                      "birthDate": "2001-01-14",
+                      "ifId": "122064",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "23"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "122064",
+                    "order": 4
+                  },
+                  {
+                    "description": {
+                      "givenName": "Andreas",
+                      "familyName": "LEVENKO",
+                      "gender": "M",
+                      "organization": "AUT",
+                      "birthDate": "1998-07-17",
+                      "ifId": "115449",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "23"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "115449",
+                    "order": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "code": "100214104",
+            "type": "T",
+            "wlt": "L",
+            "roundforRankingCal": null,
+            "organization": "TOG",
+            "description": {
+              "type": "T",
+              "organization": "TOG",
+              "teamName": "Fédération Togolaise de Tennis de Table 115"
+            },
+            "eventUnitEntry": [
+              {
+                "type": "RAN",
+                "code": "SEED",
+                "value": "51"
+              },
+              {
+                "type": "RAN",
+                "code": "QUALF",
+                "value": "YES"
+              },
+              {
+                "type": "RAN",
+                "code": "CURRANK",
+                "value": "52"
+              },
+              {
+                "type": "RAN",
+                "code": "NUMBEROFMATCHESPLAYEDINSUBEVENT",
+                "value": "3"
+              },
+              {
+                "type": "RAN",
+                "code": "BYE",
+                "value": "False"
+              }
+            ],
+            "statsItems": {
+              "statsItem": [
+                {
+                  "code": "PTS_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "LEAD_MAX_AGNST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_WON",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_OPP_SERVICE_LOST",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "PTS_CONSEC",
+                  "pos": "TOT",
+                  "value": null
+                },
+                {
+                  "code": "DEF_OVC_MAX",
+                  "pos": "TOT",
+                  "value": null
+                }
+              ]
+            },
+            "composition": [
+              {
+                "athlete": [
+                  {
+                    "description": {
+                      "givenName": "Elias",
+                      "familyName": "AGBODJAN",
+                      "gender": "M",
+                      "organization": "TOG",
+                      "birthDate": "2006-06-21",
+                      "ifId": "146212",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "51"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "146212",
+                    "order": 1
+                  },
+                  {
+                    "description": {
+                      "givenName": "Kossi",
+                      "familyName": "AKAKPO",
+                      "gender": "M",
+                      "organization": "TOG",
+                      "birthDate": "2001-05-06",
+                      "ifId": "133506",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "51"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "133506",
+                    "order": 2
+                  },
+                  {
+                    "description": {
+                      "givenName": "Atarou",
+                      "familyName": "ASSOU",
+                      "gender": "M",
+                      "organization": "TOG",
+                      "birthDate": "1998-05-02",
+                      "ifId": "133661",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "51"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "133661",
+                    "order": 3
+                  },
+                  {
+                    "description": {
+                      "givenName": "Kokou",
+                      "familyName": "FANNY",
+                      "gender": "M",
+                      "organization": "TOG",
+                      "birthDate": "1987-04-15",
+                      "ifId": "118722",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "51"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "118722",
+                    "order": 4
+                  },
+                  {
+                    "description": {
+                      "givenName": "Abdoulmadjid",
+                      "familyName": "TCHASSAMA",
+                      "gender": "M",
+                      "organization": "TOG",
+                      "birthDate": "2005-12-22",
+                      "ifId": "221960",
+                      "class": null,
+                      "seed": null
+                    },
+                    "eventUnitEntry": [
+                      {
+                        "type": "EUE",
+                        "code": "GRIP",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "HAND",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "TS",
+                        "value": null
+                      },
+                      {
+                        "type": "EUE",
+                        "code": "SEED",
+                        "value": "51"
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORA",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGTYPEB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "RACKETCOVERINGCOLORB",
+                        "value": null
+                      },
+                      {
+                        "type": "EQU",
+                        "code": "BLADETYPE",
+                        "value": null
+                      }
+                    ],
+                    "statsItems": {
+                      "stats": []
+                    },
+                    "code": "221960",
+                    "order": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "comp_data": {
+      "eventId": null,
+      "documentCode": null,
+      "subEventName": "Men's Teams",
+      "subEventDescription": "Men's Teams - Group 13 - Match 5",
+      "matchConfig": {
+        "bestOfXGames": 5,
+        "maxPointsPerGame": 11,
+        "advantagePerGame": 2,
+        "suddenDeathPoint": 99,
+        "maxChallengesPerCompetitor": 2,
+        "yellowCard": true,
+        "yellowRed1": true,
+        "yellowRed2": true,
+        "tTRReview": true
+      },
+      "venueName": "Copper Box Arena",
+      "tableNumber": "T09",
+      "tableName": "Table 9",
+      "competitiors": [
+        {
+          "competitorType": "H",
+          "competitiorId": "100214148",
+          "competitiorName": "Andreas LEVENKO",
+          "competitiorOrg": "AUT",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "137212",
+              "playerName": "Zhenlong LIU",
+              "playerGivenName": "Zhenlong",
+              "playerFamilyName": "LIU",
+              "playerOrgCode": "AUT",
+              "playerPosition": null
+            },
+            {
+              "playerId": "102968",
+              "playerName": "Robert GARDOS",
+              "playerGivenName": "Robert",
+              "playerFamilyName": "GARDOS",
+              "playerOrgCode": "AUT",
+              "playerPosition": null
+            },
+            {
+              "playerId": "103345",
+              "playerName": "Daniel HABESOHN",
+              "playerGivenName": "Daniel",
+              "playerFamilyName": "HABESOHN",
+              "playerOrgCode": "AUT",
+              "playerPosition": null
+            },
+            {
+              "playerId": "122064",
+              "playerName": "Maciej KOLODZIEJCZYK",
+              "playerGivenName": "Maciej",
+              "playerFamilyName": "KOLODZIEJCZYK",
+              "playerOrgCode": "AUT",
+              "playerPosition": null
+            },
+            {
+              "playerId": "115449",
+              "playerName": "Andreas LEVENKO",
+              "playerGivenName": "Andreas",
+              "playerFamilyName": "LEVENKO",
+              "playerOrgCode": "AUT",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "OK"
+        },
+        {
+          "competitorType": "A",
+          "competitiorId": "100214104",
+          "competitiorName": "Abdoulmadjid TCHASSAMA",
+          "competitiorOrg": "TOG",
+          "compCardY": null,
+          "compCardYR1": null,
+          "compCardYR2": null,
+          "compTimeout": null,
+          "compMedicalTimeout": null,
+          "players": [
+            {
+              "playerId": "146212",
+              "playerName": "Elias AGBODJAN",
+              "playerGivenName": "Elias",
+              "playerFamilyName": "AGBODJAN",
+              "playerOrgCode": "TOG",
+              "playerPosition": null
+            },
+            {
+              "playerId": "133506",
+              "playerName": "Kossi AKAKPO",
+              "playerGivenName": "Kossi",
+              "playerFamilyName": "AKAKPO",
+              "playerOrgCode": "TOG",
+              "playerPosition": null
+            },
+            {
+              "playerId": "133661",
+              "playerName": "Atarou ASSOU",
+              "playerGivenName": "Atarou",
+              "playerFamilyName": "ASSOU",
+              "playerOrgCode": "TOG",
+              "playerPosition": null
+            },
+            {
+              "playerId": "118722",
+              "playerName": "Kokou FANNY",
+              "playerGivenName": "Kokou",
+              "playerFamilyName": "FANNY",
+              "playerOrgCode": "TOG",
+              "playerPosition": null
+            },
+            {
+              "playerId": "221960",
+              "playerName": "Abdoulmadjid TCHASSAMA",
+              "playerGivenName": "Abdoulmadjid",
+              "playerFamilyName": "TCHASSAMA",
+              "playerOrgCode": "TOG",
+              "playerPosition": null
+            }
+          ],
+          "scores": null,
+          "irm": "WO"
+        }
+      ],
+      "currentGameNumber": null,
+      "full_msg": null,
+      "gameScores": null,
+      "resultsGameScores": "",
+      "overallScores": "3-0 WO",
+      "resultOverallScores": null,
+      "resultStatus": "OFFICIAL",
+      "action": null,
+      "resultSet": null,
+      "matchDateTime": {
+        "duration": "00:00:00",
+        "startDateLocal": "05/01/2026 10:00:00",
+        "startDateUTC": "05/01/2026 10:00:00"
+      },
+      "teamParentData": null,
+      "playByPlaySequenceNumber": null,
+      "teamMatchNo": null,
+      "teamMatchScores": null,
+      "teamMatchScoresSummary": null,
+      "matchStartTimeUTC": null
+    }
+  },
+  "playByPlaySequenceNumber": "3",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

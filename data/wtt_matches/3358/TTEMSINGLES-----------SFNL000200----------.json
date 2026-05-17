@@ -1,0 +1,95 @@
+{
+  "eventId": "3358",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Semifinal - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Ata Sporları Merkezi",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "131917",
+      "competitiorName": "JAIN Payas",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131917",
+          "playerName": "JAIN Payas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,5,12,3",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "102891",
+      "competitiorName": "GACINA Andrej",
+      "competitiorOrg": "CRO",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "102891",
+          "playerName": "GACINA Andrej",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CRO",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,9,11,14,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,11-9,5-11,12-14,3-11",
+  "resultsGameScores": "11-5,11-9,5-11,12-14,3-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "102891",
+    "serverReceiver": "131917",
+    "serverNext": "102891",
+    "serverCompetitor": "102891",
+    "receiverNext": "131917"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:46:55",
+    "startDateLocal": "05/14/2026 10:35:00",
+    "startDateUTC": "05/14/2026 07:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "268",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-05-14T08:18:34.52Z"
+}

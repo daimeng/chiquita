@@ -1,0 +1,95 @@
+{
+  "eventId": "3358",
+  "documentCode": "TTEMSINGLES-----------GP11000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 11 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Ata Sporları Merkezi",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "121693",
+      "competitiorName": "SGOUROPOULOS Ioannis",
+      "competitiorOrg": "GRE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "121693",
+          "playerName": "SGOUROPOULOS Ioannis",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GRE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "146293",
+      "competitiorName": "ISKANDAROV Shokhrukh",
+      "competitiorOrg": "UZB",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "146293",
+          "playerName": "ISKANDAROV Shokhrukh",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "UZB",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,9,4,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-6,11-9,11-4,0-0,0-0",
+  "resultsGameScores": "11-6,11-9,11-4,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "121693",
+    "serverReceiver": "146293",
+    "serverNext": "121693",
+    "serverCompetitor": "121693",
+    "receiverNext": "146293"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:17:12",
+    "startDateLocal": "05/11/2026 11:10:00",
+    "startDateUTC": "05/11/2026 08:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "152",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-05-11T08:28:56.587Z"
+}

@@ -1,0 +1,111 @@
+{
+  "eventId": "3358",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Ata Sporları Merkezi",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100233212",
+      "competitiorName": "WOO Hyeonggyu/CHOI Jiwook",
+      "competitiorOrg": "KOR",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131413",
+          "playerName": "WOO Hyeonggyu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "201214",
+          "playerName": "CHOI Jiwook",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "KOR",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,7,11,11,6",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100115372",
+      "competitiorName": "YOSHIYAMA Ryoichi/HAMADA Kazuki",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136757",
+          "playerName": "YOSHIYAMA Ryoichi",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "134583",
+          "playerName": "HAMADA Kazuki",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,2,5,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "5-11,7-11,11-2,11-5,6-11",
+  "resultsGameScores": "5-11,7-11,11-2,11-5,6-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "131413",
+    "serverReceiver": "134583",
+    "serverNext": "131413",
+    "serverCompetitor": "100233212",
+    "receiverNext": "134583"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:37:49",
+    "startDateLocal": "05/13/2026 17:05:00",
+    "startDateUTC": "05/13/2026 14:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "247",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

@@ -1,0 +1,95 @@
+{
+  "eventId": "3358",
+  "documentCode": "TTEMSINGLES-----------GP14000200----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 14 - Match 2",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Ata Sporları Merkezi",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "123664",
+      "competitiorName": "VALENTA Jan",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123664",
+          "playerName": "VALENTA Jan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,11,0,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "224000",
+      "competitiorName": "SIRAJ Abubaker",
+      "competitiorOrg": "IRQ",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "224000",
+          "playerName": "SIRAJ Abubaker",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IRQ",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,8,5,0,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 3,
+  "full_msg": null,
+  "gameScores": "11-5,11-8,11-5,0-0,0-0",
+  "resultsGameScores": "11-5,11-8,11-5,0-0,0-0",
+  "overallScores": "3-0",
+  "resultOverallScores": "3-0",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "224000",
+    "serverReceiver": "123664",
+    "serverNext": "224000",
+    "serverCompetitor": "224000",
+    "receiverNext": "123664"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:15:13",
+    "startDateLocal": "05/10/2026 19:30:00",
+    "startDateUTC": "05/10/2026 16:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "151",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

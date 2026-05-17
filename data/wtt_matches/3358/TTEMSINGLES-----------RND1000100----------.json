@@ -1,0 +1,95 @@
+{
+  "eventId": "3358",
+  "documentCode": "TTEMSINGLES-----------RND1000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Ata Sporları Merkezi",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "122982",
+      "competitiorName": "BAN Ivor",
+      "competitiorOrg": "CRO",
+      "compCardY": "1",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "122982",
+          "playerName": "BAN Ivor",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CRO",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "8,11,3,9,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "123664",
+      "competitiorName": "VALENTA Jan",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "123664",
+          "playerName": "VALENTA Jan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,6,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "8-11,11-6,3-11,9-11,0-0",
+  "resultsGameScores": "8-11,11-6,3-11,9-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "123664",
+    "serverReceiver": "122982",
+    "serverNext": "123664",
+    "serverCompetitor": "123664",
+    "receiverNext": "122982"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:25",
+    "startDateLocal": "05/11/2026 17:45:00",
+    "startDateUTC": "05/11/2026 14:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "194",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-05-11T15:17:54.49Z"
+}
