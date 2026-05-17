@@ -2,7 +2,7 @@ export const DEFAULT_CONFIG = {
 	init_r: 1500,
 	init_rd: 350,
 	q: Math.log(10) / 400,
-	c: 4,
+	c: 4.5,
 }
 
 const PISQ = Math.PI * Math.PI
