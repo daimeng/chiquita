@@ -1,0 +1,95 @@
+{
+  "eventId": "3361",
+  "documentCode": "TTEMSINGLES-----------QER-000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualification Elimination Round - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hennebont Ping Center ",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "119794",
+      "competitiorName": "KIZUKURI Yuto",
+      "competitiorOrg": "JPN",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "119794",
+          "playerName": "KIZUKURI Yuto",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "JPN",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,4,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "144530",
+      "competitiorName": "LAM Nathan",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "144530",
+          "playerName": "LAM Nathan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,10,11,8,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,12-10,4-11,11-8,0-0",
+  "resultsGameScores": "11-4,12-10,4-11,11-8,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "144530",
+    "serverReceiver": "119794",
+    "serverNext": "144530",
+    "serverCompetitor": "144530",
+    "receiverNext": "119794"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:27:57",
+    "startDateLocal": "05/21/2026 17:10:00",
+    "startDateUTC": "05/21/2026 15:10:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "209",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-05-21T15:41:03.117Z"
+}

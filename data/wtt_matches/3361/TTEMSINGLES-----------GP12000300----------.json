@@ -1,0 +1,95 @@
+{
+  "eventId": "3361",
+  "documentCode": "TTEMSINGLES-----------GP12000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 12 - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hennebont Ping Center ",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "146233",
+      "competitiorName": "PILARD Nathan",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "146233",
+          "playerName": "PILARD Nathan",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,12,5,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "135103",
+      "competitiorName": "SJOGREN Elias",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "135103",
+          "playerName": "SJOGREN Elias",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,10,11,4,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,12-10,5-11,11-4,0-0",
+  "resultsGameScores": "11-6,12-10,5-11,11-4,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "146233",
+    "serverReceiver": "135103",
+    "serverNext": "146233",
+    "serverCompetitor": "146233",
+    "receiverNext": "135103"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:29",
+    "startDateLocal": "05/21/2026 11:50:00",
+    "startDateUTC": "05/21/2026 09:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "214",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-05-21T10:27:04.933Z"
+}

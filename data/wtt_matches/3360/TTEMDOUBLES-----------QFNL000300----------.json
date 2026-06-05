@@ -1,0 +1,111 @@
+{
+  "eventId": "3360",
+  "documentCode": "TTEMDOUBLES-----------QFNL000300----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Quarterfinal - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Pavilhão Municipal de Lagos",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100241924",
+      "competitiorName": "VILARDELL Albert/MAYOROV Ladimir",
+      "competitiorOrg": "ESP",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "131723",
+          "playerName": "VILARDELL Albert",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "201839",
+          "playerName": "MAYOROV Ladimir",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "ESP",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,14,9,12,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100121292",
+      "competitiorName": "VERDONSCHOT Wim/BERTELSMEIER Andre",
+      "competitiorOrg": "GER",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "201466",
+          "playerName": "VERDONSCHOT Wim",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "145799",
+          "playerName": "BERTELSMEIER Andre",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "GER",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "4,12,11,10,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-4,14-12,9-11,12-10,0-0",
+  "resultsGameScores": "11-4,14-12,9-11,12-10,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "201466",
+    "serverReceiver": "131723",
+    "serverNext": "201466",
+    "serverCompetitor": "100121292",
+    "receiverNext": "131723"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:32:42",
+    "startDateLocal": "05/18/2026 11:35:00",
+    "startDateUTC": "05/18/2026 10:35:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "240",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

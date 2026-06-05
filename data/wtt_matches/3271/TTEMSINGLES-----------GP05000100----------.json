@@ -1,0 +1,95 @@
+{
+  "eventId": "3271",
+  "documentCode": "TTEMSINGLES-----------GP05000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 5 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Palace of Youth and Sport",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "223605",
+      "competitiorName": "CHOWDHURY Swarnendu",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "223605",
+          "playerName": "CHOWDHURY Swarnendu",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,7,11,1,9",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134650",
+      "competitiorName": "ANDERSSON Anton",
+      "competitiorOrg": "SWE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134650",
+          "playerName": "ANDERSSON Anton",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SWE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "9,11,9,11,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-9,7-11,11-9,1-11,9-11",
+  "resultsGameScores": "11-9,7-11,11-9,1-11,9-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "223605",
+    "serverReceiver": "134650",
+    "serverNext": "223605",
+    "serverCompetitor": "223605",
+    "receiverNext": "134650"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:26:55",
+    "startDateLocal": "05/27/2026 11:30:00",
+    "startDateUTC": "05/27/2026 09:30:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "252",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

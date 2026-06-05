@@ -1,0 +1,95 @@
+{
+  "eventId": "3360",
+  "documentCode": "TTEMSINGLES-----------QER-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualification Elimination Round - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Pavilhão Municipal de Lagos",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "136359",
+      "competitiorName": "BRARD Romain",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136359",
+          "playerName": "BRARD Romain",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "9,8,11,11,8",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "145043",
+      "competitiorName": "HSU Hsien-Chia",
+      "competitiorOrg": "TPE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "145043",
+          "playerName": "HSU Hsien-Chia",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "TPE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,11,6,8,11",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "9-11,8-11,11-6,11-8,8-11",
+  "resultsGameScores": "9-11,8-11,11-6,11-8,8-11",
+  "overallScores": "2-3",
+  "resultOverallScores": "2-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "145043",
+    "serverReceiver": "136359",
+    "serverNext": "145043",
+    "serverCompetitor": "145043",
+    "receiverNext": "136359"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:36:27",
+    "startDateLocal": "05/16/2026 17:45:00",
+    "startDateUTC": "05/16/2026 16:45:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "280",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

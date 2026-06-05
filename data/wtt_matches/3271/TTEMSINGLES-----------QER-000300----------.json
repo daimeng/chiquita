@@ -1,0 +1,95 @@
+{
+  "eventId": "3271",
+  "documentCode": "TTEMSINGLES-----------QER-000300----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Qualification Elimination Round - Match 3",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Palace of Youth and Sport",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "200073",
+      "competitiorName": "FLORO Damian",
+      "competitiorOrg": "SVK",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200073",
+          "playerName": "FLORO Damian",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SVK",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,9,14,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "134557",
+      "competitiorName": "DE BOER Milo",
+      "competitiorOrg": "NED",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134557",
+          "playerName": "DE BOER Milo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NED",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "3,11,12,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-3,9-11,14-12,11-9,0-0",
+  "resultsGameScores": "11-3,9-11,14-12,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134557",
+    "serverReceiver": "200073",
+    "serverNext": "134557",
+    "serverCompetitor": "134557",
+    "receiverNext": "200073"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:29:12",
+    "startDateLocal": "05/28/2026 16:00:00",
+    "startDateUTC": "05/28/2026 14:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "227",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

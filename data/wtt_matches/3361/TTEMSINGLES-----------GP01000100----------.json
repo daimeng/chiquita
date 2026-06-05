@@ -1,0 +1,95 @@
+{
+  "eventId": "3361",
+  "documentCode": "TTEMSINGLES-----------GP01000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Hennebont Ping Center ",
+  "tableNumber": "T02",
+  "tableName": "Table 2",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "210855",
+      "competitiorName": "LAROCHE Thomas",
+      "competitiorOrg": "FRA",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "210855",
+          "playerName": "LAROCHE Thomas",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "FRA",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,8,8,8,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "133352",
+      "competitiorName": "BOCCARD Sam",
+      "competitiorOrg": "SUI",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "133352",
+          "playerName": "BOCCARD Sam",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "SUI",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "6,11,11,11,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-6,8-11,8-11,8-11,0-0",
+  "resultsGameScores": "11-6,8-11,8-11,8-11,0-0",
+  "overallScores": "1-3",
+  "resultOverallScores": "1-3",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "133352",
+    "serverReceiver": "210855",
+    "serverNext": "133352",
+    "serverCompetitor": "133352",
+    "receiverNext": "210855"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:28:03",
+    "startDateLocal": "05/20/2026 11:50:00",
+    "startDateUTC": "05/20/2026 09:50:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "219",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": "2026-05-20T10:19:57.663Z"
+}

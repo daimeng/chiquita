@@ -1,0 +1,94 @@
+{
+  "eventId": "3271",
+  "documentCode": "TTEMSINGLES-----------GP01000100----------",
+  "subEventName": "Men's Singles",
+  "subEventDescription": "Men's Singles - Group 1 - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "tTRReview": false
+  },
+  "venueName": "Palace of Youth and Sport",
+  "tableNumber": "T03",
+  "tableName": "Table 3",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "134557",
+      "competitiorName": "DE BOER Milo",
+      "competitiorOrg": "NED",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "0",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "134557",
+          "playerName": "DE BOER Milo",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "NED",
+          "playerPosition": 1
+        }
+      ],
+      "scores": "11,11,4,9,11",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "203686",
+      "competitiorName": "MAKARA Jakub",
+      "competitiorOrg": "CZE",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "203686",
+          "playerName": "MAKARA Jakub",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "CZE",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "5,6,11,11,4",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 5,
+  "full_msg": null,
+  "gameScores": "11-5,11-6,4-11,9-11,11-4",
+  "resultsGameScores": "11-5,11-6,4-11,9-11,11-4",
+  "overallScores": "3-2",
+  "resultOverallScores": "3-2",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "134557",
+    "serverReceiver": "203686",
+    "serverNext": "134557",
+    "serverCompetitor": "134557",
+    "receiverNext": "203686"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:33:22",
+    "startDateLocal": "05/27/2026 11:00:00",
+    "startDateUTC": "05/27/2026 09:00:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "229",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0"
+}
