@@ -12,6 +12,8 @@ tf.set_index('EventId', inplace=True)
 
 def parse_match(m: dict, matches: list):
     doc = m['documentCode']
+    # Updated structure starting June 2026, Event 3241
+    m = m.get('match_card') or m
 
     isTeam = False
     gscores = m['gameScores'] or m['resultsGameScores']

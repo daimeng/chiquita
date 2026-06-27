@@ -1,0 +1,121 @@
+{
+  "id": 15193713,
+  "eventId": "3241",
+  "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3241",
+    "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Quarterfinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Hala Tivoli",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100255397",
+        "competitiorName": "YOSHIYAMA Ryoichi/KOBAYASHI Hiromu",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136757",
+            "playerName": "YOSHIYAMA Ryoichi",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133695",
+            "playerName": "KOBAYASHI Hiromu",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,8,12,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100118869",
+        "competitiorName": "LIM Jonghoon/OH Junsung",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "117357",
+            "playerName": "LIM Jonghoon",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135367",
+            "playerName": "OH Junsung",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,14,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "6-11,8-11,12-14,0-0,0-0",
+    "resultsGameScores": "6-11,8-11,12-14,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136757",
+      "serverReceiver": "135367",
+      "serverNext": "136757",
+      "serverCompetitor": "100255397",
+      "receiverNext": "135367"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:24:25",
+      "startDateLocal": "06/19/2026 11:00:00",
+      "startDateUTC": "06/19/2026 09:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "193",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-06-19T11:00:00"
+}

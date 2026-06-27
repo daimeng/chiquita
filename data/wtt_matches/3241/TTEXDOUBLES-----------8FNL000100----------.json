@@ -1,0 +1,121 @@
+{
+  "id": 15186154,
+  "eventId": "3241",
+  "documentCode": "TTEXDOUBLES-----------8FNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3241",
+    "documentCode": "TTEXDOUBLES-----------8FNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Hala Tivoli",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "57776",
+        "competitiorName": "LIM Jonghoon/SHIN Yubin",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "117357",
+            "playerName": "LIM Jonghoon",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "123977",
+            "playerName": "SHIN Yubin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,8,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100254339",
+        "competitiorName": "WEN Ruibo/KUAI Man",
+        "competitiorOrg": "CHN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "203067",
+            "playerName": "WEN Ruibo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135049",
+            "playerName": "KUAI Man",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "9,4,11,6,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-9,11-4,8-11,11-6,0-0",
+    "resultsGameScores": "11-9,11-4,8-11,11-6,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "203067",
+      "serverReceiver": "123977",
+      "serverNext": "203067",
+      "serverCompetitor": "100254339",
+      "receiverNext": "123977"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:32:27",
+      "startDateLocal": "06/18/2026 17:00:00",
+      "startDateUTC": "06/18/2026 15:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "210",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-06-18T17:00:00"
+}

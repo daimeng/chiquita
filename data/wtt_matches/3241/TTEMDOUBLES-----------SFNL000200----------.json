@@ -1,0 +1,121 @@
+{
+  "id": 15202168,
+  "eventId": "3241",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3241",
+    "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Hala Tivoli",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100106032",
+        "competitiorName": "WEN Ruibo/HUANG Youzheng",
+        "competitiorOrg": "CHN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "203067",
+            "playerName": "WEN Ruibo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137238",
+            "playerName": "HUANG Youzheng",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100255424",
+        "competitiorName": "XIANG Peng/CHEN Junsong",
+        "competitiorOrg": "CHN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135888",
+            "playerName": "XIANG Peng",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "204288",
+            "playerName": "CHEN Junsong",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,6,6,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "11-5,11-6,11-6,0-0,0-0",
+    "resultsGameScores": "11-5,11-6,11-6,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "135888",
+      "serverReceiver": "203067",
+      "serverNext": "135888",
+      "serverCompetitor": "100255424",
+      "receiverNext": "203067"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:18:49",
+      "startDateLocal": "06/19/2026 18:45:00",
+      "startDateUTC": "06/19/2026 16:45:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "142",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-06-19T18:45:00"
+}

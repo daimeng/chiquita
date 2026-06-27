@@ -1,0 +1,458 @@
+2026-06-27 12:37:10,396 - INFO - Script started: download-wtt-matches
+2026-06-27 12:37:10,755 - INFO - Loaded 231 tournament records from TSV
+2026-06-27 12:37:10,757 - INFO - Event 2345 already processed (directory exists: data/wtt_matches/2345), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2346 already processed (directory exists: data/wtt_matches/2346), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2410 already processed (directory exists: data/wtt_matches/2410), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2411 already processed (directory exists: data/wtt_matches/2411), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2479 already processed (directory exists: data/wtt_matches/2479), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2480 already processed (directory exists: data/wtt_matches/2480), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2484 already processed (directory exists: data/wtt_matches/2484), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2487 already processed (directory exists: data/wtt_matches/2487), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2489 already processed (directory exists: data/wtt_matches/2489), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2502 already processed (directory exists: data/wtt_matches/2502), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2503 already processed (directory exists: data/wtt_matches/2503), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2504 already processed (directory exists: data/wtt_matches/2504), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2510 already processed (directory exists: data/wtt_matches/2510), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2513 already processed (directory exists: data/wtt_matches/2513), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2516 already processed (directory exists: data/wtt_matches/2516), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2519 already processed (directory exists: data/wtt_matches/2519), skipping
+2026-06-27 12:37:10,757 - INFO - Event 2521 already processed (directory exists: data/wtt_matches/2521), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2522 already processed (directory exists: data/wtt_matches/2522), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2531 already processed (directory exists: data/wtt_matches/2531), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2532 already processed (directory exists: data/wtt_matches/2532), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2533 already processed (directory exists: data/wtt_matches/2533), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2534 already processed (directory exists: data/wtt_matches/2534), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2535 already processed (directory exists: data/wtt_matches/2535), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2536 already processed (directory exists: data/wtt_matches/2536), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2539 already processed (directory exists: data/wtt_matches/2539), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2540 already processed (directory exists: data/wtt_matches/2540), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2541 already processed (directory exists: data/wtt_matches/2541), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2542 already processed (directory exists: data/wtt_matches/2542), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2568 already processed (directory exists: data/wtt_matches/2568), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2569 already processed (directory exists: data/wtt_matches/2569), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2570 already processed (directory exists: data/wtt_matches/2570), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2574 already processed (directory exists: data/wtt_matches/2574), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2589 already processed (directory exists: data/wtt_matches/2589), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2591 already processed (directory exists: data/wtt_matches/2591), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2592 already processed (directory exists: data/wtt_matches/2592), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2593 already processed (directory exists: data/wtt_matches/2593), skipping
+2026-06-27 12:37:10,758 - INFO - Event 2605 already processed (directory exists: data/wtt_matches/2605), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2606 already processed (directory exists: data/wtt_matches/2606), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2619 already processed (directory exists: data/wtt_matches/2619), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2627 already processed (directory exists: data/wtt_matches/2627), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2630 already processed (directory exists: data/wtt_matches/2630), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2658 already processed (directory exists: data/wtt_matches/2658), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2629 already processed (directory exists: data/wtt_matches/2629), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2660 already processed (directory exists: data/wtt_matches/2660), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2691 already processed (directory exists: data/wtt_matches/2691), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2692 already processed (directory exists: data/wtt_matches/2692), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2693 already processed (directory exists: data/wtt_matches/2693), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2694 already processed (directory exists: data/wtt_matches/2694), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2695 already processed (directory exists: data/wtt_matches/2695), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2696 already processed (directory exists: data/wtt_matches/2696), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2697 already processed (directory exists: data/wtt_matches/2697), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2698 already processed (directory exists: data/wtt_matches/2698), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2699 already processed (directory exists: data/wtt_matches/2699), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2700 already processed (directory exists: data/wtt_matches/2700), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2701 already processed (directory exists: data/wtt_matches/2701), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2702 already processed (directory exists: data/wtt_matches/2702), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2703 already processed (directory exists: data/wtt_matches/2703), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2704 already processed (directory exists: data/wtt_matches/2704), skipping
+2026-06-27 12:37:10,759 - INFO - Event 2705 already processed (directory exists: data/wtt_matches/2705), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2721 already processed (directory exists: data/wtt_matches/2721), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2722 already processed (directory exists: data/wtt_matches/2722), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2723 already processed (directory exists: data/wtt_matches/2723), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2724 already processed (directory exists: data/wtt_matches/2724), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2728 already processed (directory exists: data/wtt_matches/2728), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2732 already processed (directory exists: data/wtt_matches/2732), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2733 already processed (directory exists: data/wtt_matches/2733), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2734 already processed (directory exists: data/wtt_matches/2734), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2735 already processed (directory exists: data/wtt_matches/2735), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2737 already processed (directory exists: data/wtt_matches/2737), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2738 already processed (directory exists: data/wtt_matches/2738), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2739 already processed (directory exists: data/wtt_matches/2739), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2740 already processed (directory exists: data/wtt_matches/2740), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2742 already processed (directory exists: data/wtt_matches/2742), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2750 already processed (directory exists: data/wtt_matches/2750), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2755 already processed (directory exists: data/wtt_matches/2755), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2775 already processed (directory exists: data/wtt_matches/2775), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2776 already processed (directory exists: data/wtt_matches/2776), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2777 already processed (directory exists: data/wtt_matches/2777), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2794 already processed (directory exists: data/wtt_matches/2794), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2603 already processed (directory exists: data/wtt_matches/2603), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2751 already processed (directory exists: data/wtt_matches/2751), skipping
+2026-06-27 12:37:10,760 - INFO - Event 2861 already processed (directory exists: data/wtt_matches/2861), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2862 already processed (directory exists: data/wtt_matches/2862), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2863 already processed (directory exists: data/wtt_matches/2863), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2865 already processed (directory exists: data/wtt_matches/2865), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2866 already processed (directory exists: data/wtt_matches/2866), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2867 already processed (directory exists: data/wtt_matches/2867), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2868 already processed (directory exists: data/wtt_matches/2868), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2869 already processed (directory exists: data/wtt_matches/2869), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2870 already processed (directory exists: data/wtt_matches/2870), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2871 already processed (directory exists: data/wtt_matches/2871), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2872 already processed (directory exists: data/wtt_matches/2872), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2873 already processed (directory exists: data/wtt_matches/2873), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2877 already processed (directory exists: data/wtt_matches/2877), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2878 already processed (directory exists: data/wtt_matches/2878), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2879 already processed (directory exists: data/wtt_matches/2879), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2880 already processed (directory exists: data/wtt_matches/2880), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2881 already processed (directory exists: data/wtt_matches/2881), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2882 already processed (directory exists: data/wtt_matches/2882), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2883 already processed (directory exists: data/wtt_matches/2883), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2884 already processed (directory exists: data/wtt_matches/2884), skipping
+2026-06-27 12:37:10,761 - INFO - Event 2885 already processed (directory exists: data/wtt_matches/2885), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2886 already processed (directory exists: data/wtt_matches/2886), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2887 already processed (directory exists: data/wtt_matches/2887), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2889 already processed (directory exists: data/wtt_matches/2889), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2890 already processed (directory exists: data/wtt_matches/2890), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2891 already processed (directory exists: data/wtt_matches/2891), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2893 already processed (directory exists: data/wtt_matches/2893), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2894 already processed (directory exists: data/wtt_matches/2894), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2899 already processed (directory exists: data/wtt_matches/2899), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2900 already processed (directory exists: data/wtt_matches/2900), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2904 already processed (directory exists: data/wtt_matches/2904), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2911 already processed (directory exists: data/wtt_matches/2911), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2912 already processed (directory exists: data/wtt_matches/2912), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2932 already processed (directory exists: data/wtt_matches/2932), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2934 already processed (directory exists: data/wtt_matches/2934), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2937 already processed (directory exists: data/wtt_matches/2937), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2940 already processed (directory exists: data/wtt_matches/2940), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2941 already processed (directory exists: data/wtt_matches/2941), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2942 already processed (directory exists: data/wtt_matches/2942), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2947 already processed (directory exists: data/wtt_matches/2947), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2964 already processed (directory exists: data/wtt_matches/2964), skipping
+2026-06-27 12:37:10,762 - INFO - Event 2965 already processed (directory exists: data/wtt_matches/2965), skipping
+2026-06-27 12:37:10,763 - INFO - Event 2983 already processed (directory exists: data/wtt_matches/2983), skipping
+2026-06-27 12:37:10,763 - INFO - Event 2997 already processed (directory exists: data/wtt_matches/2997), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3020 already processed (directory exists: data/wtt_matches/3020), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3023 already processed (directory exists: data/wtt_matches/3023), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3024 already processed (directory exists: data/wtt_matches/3024), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3025 already processed (directory exists: data/wtt_matches/3025), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3026 already processed (directory exists: data/wtt_matches/3026), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3027 already processed (directory exists: data/wtt_matches/3027), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3028 already processed (directory exists: data/wtt_matches/3028), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3030 already processed (directory exists: data/wtt_matches/3030), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3031 already processed (directory exists: data/wtt_matches/3031), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3058 already processed (directory exists: data/wtt_matches/3058), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3059 already processed (directory exists: data/wtt_matches/3059), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3065 already processed (directory exists: data/wtt_matches/3065), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3066 already processed (directory exists: data/wtt_matches/3066), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3069 already processed (directory exists: data/wtt_matches/3069), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3082 already processed (directory exists: data/wtt_matches/3082), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3083 already processed (directory exists: data/wtt_matches/3083), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3084 already processed (directory exists: data/wtt_matches/3084), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3085 already processed (directory exists: data/wtt_matches/3085), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3086 already processed (directory exists: data/wtt_matches/3086), skipping
+2026-06-27 12:37:10,763 - INFO - Event 3087 already processed (directory exists: data/wtt_matches/3087), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3088 already processed (directory exists: data/wtt_matches/3088), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3089 already processed (directory exists: data/wtt_matches/3089), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3090 already processed (directory exists: data/wtt_matches/3090), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3091 already processed (directory exists: data/wtt_matches/3091), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3092 already processed (directory exists: data/wtt_matches/3092), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3093 already processed (directory exists: data/wtt_matches/3093), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3094 already processed (directory exists: data/wtt_matches/3094), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3096 already processed (directory exists: data/wtt_matches/3096), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3097 already processed (directory exists: data/wtt_matches/3097), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3098 already processed (directory exists: data/wtt_matches/3098), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3099 already processed (directory exists: data/wtt_matches/3099), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3100 already processed (directory exists: data/wtt_matches/3100), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3104 already processed (directory exists: data/wtt_matches/3104), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3108 already processed (directory exists: data/wtt_matches/3108), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3109 already processed (directory exists: data/wtt_matches/3109), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3110 already processed (directory exists: data/wtt_matches/3110), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3112 already processed (directory exists: data/wtt_matches/3112), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3121 already processed (directory exists: data/wtt_matches/3121), skipping
+2026-06-27 12:37:10,764 - INFO - Event 3128 already processed (directory exists: data/wtt_matches/3128), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3131 already processed (directory exists: data/wtt_matches/3131), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3133 already processed (directory exists: data/wtt_matches/3133), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3147 already processed (directory exists: data/wtt_matches/3147), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3175 already processed (directory exists: data/wtt_matches/3175), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3176 already processed (directory exists: data/wtt_matches/3176), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3177 already processed (directory exists: data/wtt_matches/3177), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3178 already processed (directory exists: data/wtt_matches/3178), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3216 already processed (directory exists: data/wtt_matches/3216), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3231 already processed (directory exists: data/wtt_matches/3231), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3232 already processed (directory exists: data/wtt_matches/3232), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3233 already processed (directory exists: data/wtt_matches/3233), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3234 already processed (directory exists: data/wtt_matches/3234), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3235 already processed (directory exists: data/wtt_matches/3235), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3236 already processed (directory exists: data/wtt_matches/3236), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3237 already processed (directory exists: data/wtt_matches/3237), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3238 already processed (directory exists: data/wtt_matches/3238), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3239 already processed (directory exists: data/wtt_matches/3239), skipping
+2026-06-27 12:37:10,765 - INFO - Event 3240 already processed (directory exists: data/wtt_matches/3240), skipping
+2026-06-27 12:37:10,765 - INFO - Creating directory: data/wtt_matches/3241
+2026-06-27 12:37:10,765 - INFO - Starting processing for Event 3241 (Name: WTT Star Contender Ljubljana 2026)
+2026-06-27 12:37:10,766 - INFO - Event 3241: Navigating to https://worldtabletennis.com/eventInfo?selectedTab=Matches&eventId=3241
+2026-06-27 12:37:21,189 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------FNL-000100----------.json
+2026-06-27 12:37:21,189 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------FNL-000100----------.json
+2026-06-27 12:37:21,200 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------FNL-000100----------.json
+2026-06-27 12:37:21,200 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------SFNL000100----------.json
+2026-06-27 12:37:21,201 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------SFNL000100----------.json
+2026-06-27 12:37:21,201 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------SFNL000200----------.json
+2026-06-27 12:37:21,201 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------SFNL000200----------.json
+2026-06-27 12:37:21,201 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------FNL-000100----------.json
+2026-06-27 12:37:21,201 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------FNL-000100----------.json
+2026-06-27 12:37:21,201 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------QFNL000200----------.json
+2026-06-27 12:37:21,202 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------QFNL000300----------.json
+2026-06-27 12:37:21,202 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------QFNL000100----------.json
+2026-06-27 12:37:21,202 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------QFNL000400----------.json
+2026-06-27 12:37:21,202 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------QFNL000200----------.json
+2026-06-27 12:37:21,202 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------QFNL000400----------.json
+2026-06-27 12:37:21,203 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------QFNL000300----------.json
+2026-06-27 12:37:21,203 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------QFNL000100----------.json
+2026-06-27 12:37:21,203 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------SFNL000200----------.json
+2026-06-27 12:37:21,203 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------8FNL000700----------.json
+2026-06-27 12:37:21,203 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------SFNL000100----------.json
+2026-06-27 12:37:21,204 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------8FNL000800----------.json
+2026-06-27 12:37:21,204 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------8FNL000800----------.json
+2026-06-27 12:37:21,204 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------8FNL000400----------.json
+2026-06-27 12:37:21,204 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------8FNL000200----------.json
+2026-06-27 12:37:21,204 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------8FNL000700----------.json
+2026-06-27 12:37:21,205 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------8FNL000100----------.json
+2026-06-27 12:37:21,205 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------8FNL000500----------.json
+2026-06-27 12:37:21,205 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------8FNL000300----------.json
+2026-06-27 12:37:21,205 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------8FNL000400----------.json
+2026-06-27 12:37:21,205 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------8FNL000100----------.json
+2026-06-27 12:37:21,205 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------8FNL000600----------.json
+2026-06-27 12:37:21,206 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------8FNL000300----------.json
+2026-06-27 12:37:21,206 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------8FNL000600----------.json
+2026-06-27 12:37:21,206 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------8FNL000500----------.json
+2026-06-27 12:37:21,206 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------8FNL000200----------.json
+2026-06-27 12:37:21,206 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-001600----------.json
+2026-06-27 12:37:21,206 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-000400----------.json
+2026-06-27 12:37:21,207 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------SFNL000100----------.json
+2026-06-27 12:37:21,207 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------SFNL000100----------.json
+2026-06-27 12:37:21,207 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------SFNL000200----------.json
+2026-06-27 12:37:21,207 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-001500----------.json
+2026-06-27 12:37:21,207 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-001300----------.json
+2026-06-27 12:37:21,208 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------SFNL000200----------.json
+2026-06-27 12:37:21,208 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-001500----------.json
+2026-06-27 12:37:21,208 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-000600----------.json
+2026-06-27 12:37:21,208 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-000100----------.json
+2026-06-27 12:37:21,208 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-000500----------.json
+2026-06-27 12:37:21,208 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-001100----------.json
+2026-06-27 12:37:21,209 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-001300----------.json
+2026-06-27 12:37:21,209 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-001200----------.json
+2026-06-27 12:37:21,209 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-001400----------.json
+2026-06-27 12:37:21,209 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-000600----------.json
+2026-06-27 12:37:21,209 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-001000----------.json
+2026-06-27 12:37:21,209 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-000900----------.json
+2026-06-27 12:37:21,210 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-000300----------.json
+2026-06-27 12:37:21,210 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------QFNL000200----------.json
+2026-06-27 12:37:21,210 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------QFNL000400----------.json
+2026-06-27 12:37:21,210 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------QFNL000300----------.json
+2026-06-27 12:37:21,210 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------QFNL000100----------.json
+2026-06-27 12:37:21,211 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-000200----------.json
+2026-06-27 12:37:21,211 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-000100----------.json
+2026-06-27 12:37:21,211 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-001600----------.json
+2026-06-27 12:37:21,211 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-000800----------.json
+2026-06-27 12:37:21,211 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-000800----------.json
+2026-06-27 12:37:21,211 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-001100----------.json
+2026-06-27 12:37:21,211 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-000500----------.json
+2026-06-27 12:37:21,212 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-001400----------.json
+2026-06-27 12:37:21,212 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-000300----------.json
+2026-06-27 12:37:21,212 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-000700----------.json
+2026-06-27 12:37:21,212 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-000400----------.json
+2026-06-27 12:37:21,212 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-001000----------.json
+2026-06-27 12:37:21,213 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-001200----------.json
+2026-06-27 12:37:21,213 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-000700----------.json
+2026-06-27 12:37:21,213 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------QFNL000200----------.json
+2026-06-27 12:37:21,213 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R32-000200----------.json
+2026-06-27 12:37:21,213 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------QFNL000200----------.json
+2026-06-27 12:37:21,213 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R32-000900----------.json
+2026-06-27 12:37:21,214 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------QFNL000300----------.json
+2026-06-27 12:37:21,214 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------QFNL000100----------.json
+2026-06-27 12:37:21,214 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------QFNL000400----------.json
+2026-06-27 12:37:21,214 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------QFNL000300----------.json
+2026-06-27 12:37:21,214 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------QFNL000400----------.json
+2026-06-27 12:37:21,215 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------QFNL000100----------.json
+2026-06-27 12:37:21,215 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-003000----------.json
+2026-06-27 12:37:21,215 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-001800----------.json
+2026-06-27 12:37:21,215 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-003100----------.json
+2026-06-27 12:37:21,215 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-003000----------.json
+2026-06-27 12:37:21,216 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-002700----------.json
+2026-06-27 12:37:21,216 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-000200----------.json
+2026-06-27 12:37:21,216 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-002700----------.json
+2026-06-27 12:37:21,216 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-002600----------.json
+2026-06-27 12:37:21,216 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-002200----------.json
+2026-06-27 12:37:21,216 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-002300----------.json
+2026-06-27 12:37:21,217 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-002600----------.json
+2026-06-27 12:37:21,217 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-001400----------.json
+2026-06-27 12:37:21,217 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-001900----------.json
+2026-06-27 12:37:21,217 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-003100----------.json
+2026-06-27 12:37:21,217 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-001500----------.json
+2026-06-27 12:37:21,217 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-001900----------.json
+2026-06-27 12:37:21,218 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-001000----------.json
+2026-06-27 12:37:21,218 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-000300----------.json
+2026-06-27 12:37:21,218 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-001400----------.json
+2026-06-27 12:37:21,218 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-001500----------.json
+2026-06-27 12:37:21,218 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-001100----------.json
+2026-06-27 12:37:21,219 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------8FNL000700----------.json
+2026-06-27 12:37:21,219 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------8FNL000500----------.json
+2026-06-27 12:37:21,219 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------8FNL000100----------.json
+2026-06-27 12:37:21,219 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------8FNL000100----------.json
+2026-06-27 12:37:21,220 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------8FNL000300----------.json
+2026-06-27 12:37:21,220 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------8FNL000600----------.json
+2026-06-27 12:37:21,220 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------8FNL000700----------.json
+2026-06-27 12:37:21,220 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------8FNL000400----------.json
+2026-06-27 12:37:21,220 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------8FNL000500----------.json
+2026-06-27 12:37:21,221 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-001000----------.json
+2026-06-27 12:37:21,221 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------8FNL000200----------.json
+2026-06-27 12:37:21,221 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------8FNL000800----------.json
+2026-06-27 12:37:21,221 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-001100----------.json
+2026-06-27 12:37:21,221 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-000200----------.json
+2026-06-27 12:37:21,222 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------8FNL000500----------.json
+2026-06-27 12:37:21,222 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-000700----------.json
+2026-06-27 12:37:21,222 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-000600----------.json
+2026-06-27 12:37:21,222 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------8FNL000600----------.json
+2026-06-27 12:37:21,222 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-001800----------.json
+2026-06-27 12:37:21,222 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------8FNL000400----------.json
+2026-06-27 12:37:21,223 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------8FNL000200----------.json
+2026-06-27 12:37:21,223 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-000600----------.json
+2026-06-27 12:37:21,223 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------8FNL000400----------.json
+2026-06-27 12:37:21,223 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-002300----------.json
+2026-06-27 12:37:21,223 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------8FNL000800----------.json
+2026-06-27 12:37:21,223 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------8FNL000700----------.json
+2026-06-27 12:37:21,224 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-000700----------.json
+2026-06-27 12:37:21,224 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------8FNL000300----------.json
+2026-06-27 12:37:21,224 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------8FNL000100----------.json
+2026-06-27 12:37:21,224 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------R64-002200----------.json
+2026-06-27 12:37:21,224 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------8FNL000800----------.json
+2026-06-27 12:37:21,225 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------8FNL000600----------.json
+2026-06-27 12:37:21,225 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------8FNL000200----------.json
+2026-06-27 12:37:21,225 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------8FNL000300----------.json
+2026-06-27 12:37:21,225 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------R64-000300----------.json
+2026-06-27 12:37:21,225 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND3000700----------.json
+2026-06-27 12:37:21,225 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND3000700----------.json
+2026-06-27 12:37:21,226 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND3000800----------.json
+2026-06-27 12:37:21,226 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND3000800----------.json
+2026-06-27 12:37:21,226 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND3000500----------.json
+2026-06-27 12:37:21,226 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND3000600----------.json
+2026-06-27 12:37:21,227 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND3000300----------.json
+2026-06-27 12:37:21,227 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND3000500----------.json
+2026-06-27 12:37:21,227 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND3000300----------.json
+2026-06-27 12:37:21,227 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND3000600----------.json
+2026-06-27 12:37:21,227 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND3000200----------.json
+2026-06-27 12:37:21,228 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND3000400----------.json
+2026-06-27 12:37:21,228 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND3000400----------.json
+2026-06-27 12:37:21,228 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND3000200----------.json
+2026-06-27 12:37:21,228 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND3000100----------.json
+2026-06-27 12:37:21,228 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND3000100----------.json
+2026-06-27 12:37:21,228 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------RND1000100----------.json
+2026-06-27 12:37:21,229 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------RND1000400----------.json
+2026-06-27 12:37:21,229 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------RND1000300----------.json
+2026-06-27 12:37:21,229 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEXDOUBLES-----------RND1000200----------.json
+2026-06-27 12:37:21,229 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------RND1000200----------.json
+2026-06-27 12:37:21,229 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------RND1000400----------.json
+2026-06-27 12:37:21,230 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------RND1000300----------.json
+2026-06-27 12:37:21,230 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------RND1000400----------.json
+2026-06-27 12:37:21,230 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------RND1000200----------.json
+2026-06-27 12:37:21,230 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------RND1000300----------.json
+2026-06-27 12:37:21,230 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMDOUBLES-----------RND1000100----------.json
+2026-06-27 12:37:21,231 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2001500----------.json
+2026-06-27 12:37:21,231 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWDOUBLES-----------RND1000100----------.json
+2026-06-27 12:37:21,231 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2000300----------.json
+2026-06-27 12:37:21,231 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2001300----------.json
+2026-06-27 12:37:21,231 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2000900----------.json
+2026-06-27 12:37:21,231 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2000500----------.json
+2026-06-27 12:37:21,232 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2000400----------.json
+2026-06-27 12:37:21,232 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2001400----------.json
+2026-06-27 12:37:21,232 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2001600----------.json
+2026-06-27 12:37:21,232 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2000700----------.json
+2026-06-27 12:37:21,232 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2001000----------.json
+2026-06-27 12:37:21,232 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2001300----------.json
+2026-06-27 12:37:21,233 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2001100----------.json
+2026-06-27 12:37:21,233 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2000900----------.json
+2026-06-27 12:37:21,233 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2001000----------.json
+2026-06-27 12:37:21,233 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2001400----------.json
+2026-06-27 12:37:21,233 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2000800----------.json
+2026-06-27 12:37:21,234 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2000800----------.json
+2026-06-27 12:37:21,234 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2000300----------.json
+2026-06-27 12:37:21,234 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2000700----------.json
+2026-06-27 12:37:21,234 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2000400----------.json
+2026-06-27 12:37:21,234 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2001200----------.json
+2026-06-27 12:37:21,234 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2001500----------.json
+2026-06-27 12:37:21,235 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2000500----------.json
+2026-06-27 12:37:21,235 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2001100----------.json
+2026-06-27 12:37:21,235 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2000600----------.json
+2026-06-27 12:37:21,235 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2000600----------.json
+2026-06-27 12:37:21,235 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2000200----------.json
+2026-06-27 12:37:21,236 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2001200----------.json
+2026-06-27 12:37:21,236 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2000100----------.json
+2026-06-27 12:37:21,236 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2000100----------.json
+2026-06-27 12:37:21,236 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND2000200----------.json
+2026-06-27 12:37:21,236 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND2001600----------.json
+2026-06-27 12:37:21,236 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1002900----------.json
+2026-06-27 12:37:21,237 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1001800----------.json
+2026-06-27 12:37:21,237 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1003000----------.json
+2026-06-27 12:37:21,237 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1002600----------.json
+2026-06-27 12:37:21,237 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1002800----------.json
+2026-06-27 12:37:21,237 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1002000----------.json
+2026-06-27 12:37:21,237 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1002300----------.json
+2026-06-27 12:37:21,238 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1002100----------.json
+2026-06-27 12:37:21,238 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1002200----------.json
+2026-06-27 12:37:21,238 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1002700----------.json
+2026-06-27 12:37:21,238 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1001900----------.json
+2026-06-27 12:37:21,238 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1003100----------.json
+2026-06-27 12:37:21,238 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1003000----------.json
+2026-06-27 12:37:21,239 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1001700----------.json
+2026-06-27 12:37:21,239 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1002700----------.json
+2026-06-27 12:37:21,239 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1003100----------.json
+2026-06-27 12:37:21,239 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1001400----------.json
+2026-06-27 12:37:21,239 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1001500----------.json
+2026-06-27 12:37:21,239 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1002300----------.json
+2026-06-27 12:37:21,240 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1002600----------.json
+2026-06-27 12:37:21,240 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1001200----------.json
+2026-06-27 12:37:21,240 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1001300----------.json
+2026-06-27 12:37:21,240 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1002200----------.json
+2026-06-27 12:37:21,240 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1001900----------.json
+2026-06-27 12:37:21,241 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1001800----------.json
+2026-06-27 12:37:21,241 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1001100----------.json
+2026-06-27 12:37:21,241 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1001000----------.json
+2026-06-27 12:37:21,241 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1001500----------.json
+2026-06-27 12:37:21,241 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1000700----------.json
+2026-06-27 12:37:21,242 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1001100----------.json
+2026-06-27 12:37:21,242 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1001400----------.json
+2026-06-27 12:37:21,242 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1000600----------.json
+2026-06-27 12:37:21,242 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1000500----------.json
+2026-06-27 12:37:21,243 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1000700----------.json
+2026-06-27 12:37:21,243 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1001000----------.json
+2026-06-27 12:37:21,243 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1000400----------.json
+2026-06-27 12:37:21,243 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1000200----------.json
+2026-06-27 12:37:21,244 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1000300----------.json
+2026-06-27 12:37:21,244 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEMSINGLES-----------RND1000200----------.json
+2026-06-27 12:37:21,245 - INFO - Event 3241: Saved match details (from officialresult.json) to data/wtt_matches/3241/TTEWSINGLES-----------RND1000600----------.json
+2026-06-27 12:37:22,468 - INFO - Event 3241: Cookie banner visible, clicking accept
+2026-06-27 12:37:22,500 - INFO - Event 3241: Clicking 'load more' button
+2026-06-27 12:37:23,634 - INFO - Event 3241: Clicking 'load more' button
+2026-06-27 12:37:24,847 - INFO - Event 3241: Clicking 'load more' button
+2026-06-27 12:37:26,158 - INFO - Event 3241: Clicking 'load more' button
+2026-06-27 12:37:34,786 - INFO - Event 3241: Clicking 'load more' button
+2026-06-27 12:37:38,892 - INFO - Event 3241: 'load more' button not found. Retries remaining: 4
+2026-06-27 12:37:39,932 - INFO - Event 3241: 'load more' button not found. Retries remaining: 3
+2026-06-27 12:37:40,968 - INFO - Event 3241: 'load more' button not found. Retries remaining: 2
+2026-06-27 12:37:42,013 - INFO - Event 3241: 'load more' button not found. Retries remaining: 1
+2026-06-27 12:37:43,055 - INFO - Event 3241: 'load more' button not found. Retries remaining: 0
+2026-06-27 12:37:44,097 - INFO - Event 3241: 'load more' button not found. Retries remaining: -1
+2026-06-27 12:37:44,097 - INFO - Event 3241: Stopped looking for 'load more' button
+2026-06-27 12:37:44,097 - INFO - Event 3241: Finished successfully
+2026-06-27 12:37:44,097 - INFO - Finished processing for Event 3241
+2026-06-27 12:37:44,097 - INFO - Event 3251 already processed (directory exists: data/wtt_matches/3251), skipping
+2026-06-27 12:37:44,097 - INFO - Event 3266 already processed (directory exists: data/wtt_matches/3266), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3267 already processed (directory exists: data/wtt_matches/3267), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3268 already processed (directory exists: data/wtt_matches/3268), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3270 already processed (directory exists: data/wtt_matches/3270), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3271 already processed (directory exists: data/wtt_matches/3271), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3353 already processed (directory exists: data/wtt_matches/3353), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3354 already processed (directory exists: data/wtt_matches/3354), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3355 already processed (directory exists: data/wtt_matches/3355), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3356 already processed (directory exists: data/wtt_matches/3356), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3357 already processed (directory exists: data/wtt_matches/3357), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3358 already processed (directory exists: data/wtt_matches/3358), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3360 already processed (directory exists: data/wtt_matches/3360), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3361 already processed (directory exists: data/wtt_matches/3361), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3373 already processed (directory exists: data/wtt_matches/3373), skipping
+2026-06-27 12:37:44,098 - INFO - Event 3379 already processed (directory exists: data/wtt_matches/3379), skipping
+2026-06-27 12:37:44,158 - INFO - Script completed: download-wtt-matches
