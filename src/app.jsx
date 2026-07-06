@@ -91,10 +91,14 @@ function App() {
               <option value={Infinity}>All</option>
             </select>
           </div>
-          <button className="simple-tip" onClick={resetDB}>
+          <button className="simple-tip" onClick={() => {
+            if (window.confirm("Reset database?")) {
+              resetDB();
+            }
+          }}>
             !
             <div className="simple-tip-hover">
-              Click to reset database if something looks wrong.
+              Click to reset database if anything looks wrong.
             </div>
           </button>
           {/* {

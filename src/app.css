@@ -6,6 +6,11 @@
 .app-nav {
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+  background-color: #222;
+  padding: 8px 0;
 }
 
 .app-link {
@@ -121,6 +126,15 @@ select {
   align-items: center;
   min-height: 48px;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #222;
+  border-bottom: 2px solid slateblue;
+}
+
+.app-nav ~ .app .rating_controls {
+  top: 48px;
 }
 
 .rating_row {
@@ -194,13 +208,13 @@ select {
   text-overflow: ellipsis;
   cursor: pointer;
   border-radius: 4px;
-  transition: all 1s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .rating_name:hover {
   background-color: rgb(235, 233, 255, 1);
   color: slateblue;
-  transition: all 0.1s;
+  transition: background-color 0.1s, color 0.1s;
 }
 
 .rating_rating {
@@ -304,4 +318,137 @@ select {
 
 .simple-tip:hover .simple-tip-hover {
   display: block;
+}
+
+@media (max-width: 910px) {
+  /* Controls styling */
+  .rating_controls {
+    display: grid !important;
+    grid-template-columns: auto 1fr auto;
+    gap: 12px;
+    padding: 12px;
+    background-color: #222;
+    border-bottom: 2px solid slateblue;
+  }
+
+  .app-nav ~ .app .rating_controls {
+    top: 52px;
+  }
+
+  .app-desk:has(.card) .app-nav,
+  .app-desk:has(.card) .rating_controls {
+    display: none !important;
+  }
+
+  .rating_controls > div:first-child {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    gap: 4px;
+  }
+
+  .set-top {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .simple-tip {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    z-index: 1000;
+  }
+
+  .set-event {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    max-width: 100% !important;
+    width: 100%;
+    display: flex;
+    gap: 4px;
+  }
+
+  .set-event > select {
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  .set-maxdev {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .set-maxdev > input {
+    flex-grow: 1;
+  }
+
+  button, select {
+    padding: 4px 12px !important;
+    font-size: 16px;
+  }
+
+  .simple-tip {
+    padding: 0 !important;
+    height: 32px !important;
+    width: 32px !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+
+  /* Table styling */
+  .rating_rank_delta,
+  .rating_org,
+  .rating_delta,
+  .rating_active,
+  .rating_bar {
+    display: none !important;
+  }
+
+  .rating_row {
+    justify-content: flex-start;
+    padding: 3px 4px;
+    font-size: 17px;
+  }
+
+  .rating_rank {
+    width: 36px !important;
+    text-align: center;
+  }
+
+  .rating_flag {
+    width: 32px !important;
+    text-align: center;
+  }
+
+  .rating_name {
+    width: auto !important;
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 8px;
+    font-size: 17px;
+  }
+
+  .rating_rating {
+    width: 50px !important;
+    text-align: right;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .rating_dev {
+    display: block !important;
+    width: 40px !important;
+    font-size: 13px;
+    color: #777;
+    text-align: center;
+  }
 }

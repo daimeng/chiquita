@@ -7,3 +7,115 @@
 .event-match-row>.match-loss.match-rating-change {
   background-color: indianred;
 }
+
+@media (max-width: 910px) {
+  .event-match-row {
+    display: grid !important;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 4px;
+    padding: 8px 12px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .event-match-row > div {
+    padding: 0 !important;
+    width: auto !important;
+  }
+
+  .event-match-row > .match-stage {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 4px !important;
+    text-align: center;
+  }
+
+  /* Player A info (left column) */
+  .event-match-row > .match-opponent:nth-child(4) {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 16px;
+    font-weight: 600;
+    color: inherit;
+    text-align: left;
+  }
+
+  .event-match-row > .match-ratings:nth-child(3) {
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+  }
+
+  .event-match-row > .match-rating-change:nth-child(2) {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 45px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 1px 6px !important;
+    border-radius: 3px;
+    display: inline-block;
+    color: white !important;
+  }
+
+  /* Match Result (middle column) */
+  .event-match-row > .match-res {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 15px;
+    font-weight: bold;
+    color: inherit;
+    padding: 0 8px !important;
+  }
+
+  /* Player B info (right column) */
+  .event-match-row > .match-opponent:nth-child(6) {
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 16px;
+    font-weight: 600;
+    color: inherit;
+    text-align: right;
+  }
+
+  .event-match-row > .match-ratings:nth-child(7) {
+    grid-column: 3;
+    grid-row: 3;
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    display: block;
+  }
+
+  .event-match-row > .match-rating-change:nth-child(8) {
+    grid-column: 3;
+    grid-row: 3;
+    margin-right: 45px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 1px 6px !important;
+    border-radius: 3px;
+    display: inline-block;
+    float: right;
+    color: white !important;
+  }
+
+  /* Detailed Scores (bottom row) */
+  .event-match-row > .match-scores {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+    justify-content: center;
+    margin-top: 4px;
+  }
+}

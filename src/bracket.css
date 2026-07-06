@@ -195,3 +195,34 @@
 	padding: 2px 8px;
 	text-align: right;
 }
+
+@media (max-width: 910px) {
+  .bracket-panel {
+    top: auto !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 80% !important;
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .bracket-panel .card {
+    border-radius: 16px 16px 0 0 !important;
+    border: 2px solid rgba(106, 90, 205, 0.5) !important;
+    border-bottom: none !important;
+    pointer-events: auto !important;
+    animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

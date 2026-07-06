@@ -3,10 +3,12 @@
     right: 0;
     box-sizing: border-box;
     position: fixed;
-    min-width: 910px;
+    width: 100%;
+    max-width: 910px;
     height: 100%;
     pointer-events: none;
     padding: 24px;
+    z-index: 1000;
 }
 
 .card {
@@ -91,13 +93,13 @@
 .match-opponent {
     width: 200px;
     cursor: pointer;
-    transition: all 1s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .match-opponent:hover {
     background-color: rgb(235, 233, 255, 1);
     color: slateblue;
-    transition: all 0.1s;
+    transition: background-color 0.1s, color 0.1s;
     border-radius: 3px;
 }
 
@@ -113,14 +115,13 @@
     text-overflow: ellipsis;
     cursor: pointer;
     border-radius: 3px;
-    transition: all 1s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .match-event:hover {
     background-color: rgb(235, 233, 255, 1);
     color: slateblue;
-    transition: all 0.1s;
-
+    transition: background-color 0.1s, color 0.1s;
 }
 
 .match-rating-change {
@@ -220,4 +221,142 @@
 .graph-legend {
     pointer-events: none;
     transform: translate(50px, 20px);
+}
+
+@media (max-width: 910px) {
+  .player-panel {
+    top: auto !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 80% !important;
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .card {
+    border-radius: 16px 16px 0 0 !important;
+    border: 2px solid rgba(106, 90, 205, 0.5) !important;
+    border-bottom: none !important;
+    padding: 8px 8px !important;
+    pointer-events: auto !important;
+    animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  .card-header {
+    font-size: 17px !important;
+    gap: 4px;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto !important;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .card-content {
+    height: calc(100% - 48px) !important;
+  }
+
+  .match-row {
+    display: grid !important;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto auto;
+    gap: 4px;
+    padding: 6px 12px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.02);
+  }
+
+  .match-row > div {
+    padding: 0 !important;
+    width: auto !important;
+  }
+
+  .match-rating-change {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+    padding: 3px 8px !important;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+  }
+
+  .match-loss .match-rating-change,
+  .match-loss.match-rating-change {
+    background-color: indianred !important;
+  }
+
+  .match-res {
+    grid-column: 2;
+    grid-row: 2;
+    font-weight: bold;
+    margin-left: 8px;
+    color: inherit;
+  }
+
+  .match-ratings {
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 12px;
+    color: #888;
+    margin-left: 8px;
+  }
+
+  .match-opponent {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    font-size: 17px;
+    font-weight: 600;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .match-date {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    font-size: 12px;
+    color: #888;
+  }
+
+  .match-stage {
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 12px;
+    color: #aaa;
+    font-weight: 500;
+  }
+
+  .match-event {
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 12px;
+    color: slateblue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .match-scores {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+    justify-self: end;
+    display: flex;
+    font-size: 12px;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
