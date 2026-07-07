@@ -103,6 +103,18 @@
     border-radius: 3px;
 }
 
+.player-link {
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.player-link:hover {
+    background-color: rgb(235, 233, 255, 1);
+    color: slateblue;
+    transition: background-color 0.1s, color 0.1s;
+}
+
 .match-date {
     width: 96px;
 }

@@ -5,12 +5,13 @@ import { motion } from 'framer-motion'
 import { ISO3to2, ISO3toColor } from './country-map'
 import { playerById, resetDB, tournamentById, tournamentsByIx } from './idb'
 import { all_ranks, all_ranks_by_id, all_ratings, init, rating_changes } from './ratings'
+import { init_doubles, doubles_all_ranks, doubles_all_ranks_by_id, doubles_all_ratings } from './doubles-ratings'
 import { auth, login, signUp } from './firebase'
 import { Login } from './login'
-import { PlayerCard } from './playercard'
+import { PlayerCard, DoublesPlayerCard } from './playercard'
 import { BracketCard } from './bracket'
 import { useHash } from './hash'
-import { TournamentCard } from './event'
+import { TournamentCard, DoublesTournamentCard } from './event'
 
 function App() {
   const [top, setTop] = useState(100)
@@ -22,7 +23,7 @@ function App() {
   const [bracketOpen, setBracketOpen] = useState(false)
 
   useEffect(() => {
-    init.then(() => {
+    Promise.all([init, init_doubles]).then(() => {
       let ev = event
       // event won't update right away
       if (ev === -1) {
@@ -61,6 +62,9 @@ function App() {
           <div>
             <button className={gender === 'M' ? 'active' : ''} onClick={() => setGender('M')}>M</button>
             <button className={gender === 'W' ? 'active' : ''} onClick={() => setGender('W')}>W</button>
+            <button className={gender === 'MD' ? 'active' : ''} onClick={() => setGender('MD')}>MD</button>
+            <button className={gender === 'WD' ? 'active' : ''} onClick={() => setGender('WD')}>WD</button>
+            <button className={gender === 'X' ? 'active' : ''} onClick={() => setGender('X')}>X</button>
           </div>
 
           <div className="set-event">
@@ -68,17 +72,19 @@ function App() {
             <select value={event} onChange={handleSetEvent}>
               {tournaments.map((t, i) => {
                 return <option key={t.EventId} value={i}>{`${t.EventName}`}</option>
-              })}true
+              })}
             </select>
             <button className="event-open" onClick={() => { setOpenTournament(tournamentsByIx[event].EventId); hidePlayer() }}>show</button>
             <button className="event-right" onClick={() => setEvent(ev => Math.min(ev + 1, tournaments.length - 1))}>▶</button>
           </div>
 
-          <div className="set-maxdev">
-            {"max rd: "}
-            <input type="range" min="0" max="350" step="10" value={maxdev}
-              onChange={e => setMaxdev(e.target.value)} />{maxdev}
-          </div>
+          {!['MD', 'WD', 'X'].includes(gender) && (
+            <div className="set-maxdev">
+              {"max rd: "}
+              <input type="range" min="0" max="350" step="10" value={maxdev}
+                onChange={e => setMaxdev(e.target.value)} />{maxdev}
+            </div>
+          )}
 
           <div className="set-top">
             {'top '}
@@ -108,32 +114,55 @@ function App() {
           } */}
           {/* <Login /> */}
         </div>
-        <RankTable event={event} top={top} gender={gender} maxdev={maxdev} showPlayer={showPlayer} />
+        {['M', 'W'].includes(gender) ? (
+          <RankTable event={event} top={top} gender={gender} maxdev={maxdev} showPlayer={showPlayer} />
+        ) : (
+          <DoublesRankTable event={event} top={top} gender={gender} showPlayer={showPlayer} />
+        )}
       </div>
 
       <div className="player-panel">
-        {openPlayers.length === 1
-          && <PlayerCard
-            playerid={openPlayers[0]}
-            hidePlayer={hidePlayer}
-            showPlayer={showPlayer}
-            showTourney={(e) => {
-              setOpenTournament(+e.target.dataset.eventid)
-              hidePlayer()
-              console.log(e.target.dataset)
-            }}
-          />
-        }
+        {openPlayers.length === 1 && (
+          ['MD', 'WD', 'X'].includes(gender) ? (
+            <DoublesPlayerCard
+              playerid={openPlayers[0]}
+              hidePlayer={hidePlayer}
+              showPlayer={showPlayer}
+              showTourney={(e) => {
+                setOpenTournament(+e.target.dataset.eventid)
+                hidePlayer()
+              }}
+            />
+          ) : (
+            <PlayerCard
+              playerid={openPlayers[0]}
+              hidePlayer={hidePlayer}
+              showPlayer={showPlayer}
+              showTourney={(e) => {
+                setOpenTournament(+e.target.dataset.eventid)
+                hidePlayer()
+              }}
+            />
+          )
+        )}
       </div>
 
       <div className="bracket-panel">
-        {(openTournament != null)
-          && <TournamentCard
-            event_id={openTournament}
-            close={() => setOpenTournament(null)}
-            showPlayer={showPlayer}
-          />
-        }
+        {(openTournament != null) && (
+          ['MD', 'WD', 'X'].includes(gender) ? (
+            <DoublesTournamentCard
+              event_id={openTournament}
+              close={() => setOpenTournament(null)}
+              showPlayer={showPlayer}
+            />
+          ) : (
+            <TournamentCard
+              event_id={openTournament}
+              close={() => setOpenTournament(null)}
+              showPlayer={showPlayer}
+            />
+          )
+        )}
       </div>
     </>
   );
@@ -268,5 +297,137 @@ function RankRow({ r, i, playerId, event, lastRanking, showPlayer }) {
       </span>
     </motion.div>
   )
+}
 
+function DoublesRankTable({ event, top, gender, showPlayer }) {
+  let ranking = []
+  let lastRanking
+  let rankrows = []
+
+  if (event !== -1) {
+    ranking = doubles_all_ranks[event] || []
+    if (event > 0) {
+      lastRanking = doubles_all_ranks_by_id[event - 1] || new Map()
+    } else {
+      lastRanking = new Map()
+    }
+
+    const player_ratings = doubles_all_ratings[event] || new Map()
+    const ranks_by_id = doubles_all_ranks_by_id[event] || new Map()
+
+    let picked = 0
+    for (let i = 0; i < ranking.length; i++) {
+      if (picked >= top) break
+      const playerId = ranking[i]
+
+      const player = playerById.get(playerId)
+      if (!player) continue
+
+      if (gender === 'MD' && player.gender !== 'M') continue
+      if (gender === 'WD' && player.gender !== 'W') continue
+
+      const rating = player_ratings.get(playerId)
+      if (!rating) continue
+
+      picked += 1
+
+      const getRankVal = (map, pid) => {
+        const val = map.get(pid)
+        if (!val) return null
+        return gender === 'MD' ? val.MD : gender === 'WD' ? val.WD : val.X
+      }
+
+      rankrows.push(
+        <DoublesRankRow key={playerId}
+          i={getRankVal(ranks_by_id, playerId)}
+          r={rating}
+          playerId={playerId}
+          event={event}
+          lastRanking={lastRanking}
+          gender={gender}
+          showPlayer={showPlayer}
+        />
+      )
+    }
+  }
+
+  return (
+    <div className="rank-table">
+      <div className="rating_row" key="title">
+        <span className="rating_rank">#</span>
+        <span className="rating_rank_delta"></span>
+        <span className="rating_flag"></span>
+        <span className="rating_org">org</span>
+        <span className="rating_name">name</span>
+        <span className="rating_rating">pts</span>
+        <span className="rating_delta"></span>
+        <span className="rating_active">active</span>
+        <span className="rating_bar"></span>
+      </div>
+      {
+        ranking.length === 0 && <div className="loading">
+          <img alt="chiquita" src="./favicon.svg" width={128} height={128} />
+          <div>
+            Loading doubles data, please wait...
+          </div>
+        </div>
+      }
+      {rankrows}
+    </div>
+  )
+}
+
+function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer }) {
+  const player = playerById.get(playerId)
+
+  const { rating, last_active } = r
+  FMT_DATE.setTime(last_active)
+  const date = FMT_DATE.toISOString().slice(0, 10)
+
+  let rating_delta = 0
+  if (event > 0) {
+    const last_rating = doubles_all_ratings[event - 1]?.get(playerId)
+    if (last_rating) {
+      rating_delta = Math.floor(rating) - Math.floor(last_rating.rating)
+    }
+  }
+
+  const getRankVal = (map, pid) => {
+    const val = map.get(pid)
+    if (!val) return Infinity
+    const rank = gender === 'MD' ? val.MD : gender === 'WD' ? val.WD : val.X
+    return rank === undefined ? Infinity : rank
+  }
+
+  const lr = getRankVal(lastRanking, playerId)
+
+  return (
+    <motion.div
+      className="rating_row"
+      layout
+      transition={rowtransition}
+    >
+      <span className="rating_rank">{i == null ? '--' : i + 1}</span>
+      <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''}`}>
+        {lr === Infinity || i === null ? '--' : Math.abs(lr - i)}
+      </span>
+      <span className="rating_flag">
+        <span className={`fi fi-${ISO3to2[player.org]}`}></span>
+      </span>
+      <span className="rating_org">{player.org}</span>
+      <span className="rating_name" data-playerid={playerId} onClick={showPlayer}>{player.name}</span>
+      <span className="rating_rating">{Math.floor(rating)}</span>
+      <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
+        {Math.abs(rating_delta)}
+      </span>
+      <span className="rating_active">{date}</span>
+      <span className="rating_bar">
+        <span style={{
+          width: `${Math.max(rating - 1400, 0) / 12}%`,
+          backgroundColor: ISO3toColor[player.org],
+        }}>
+        </span>
+      </span>
+    </motion.div>
+  )
 }
