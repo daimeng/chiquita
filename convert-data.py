@@ -19,15 +19,22 @@ for event in tf.itertuples():
     df = pd.read_csv(f'data/wtt_cleaned/matches/{event.EventId}.tsv', sep='\t', parse_dates=['start'])
     # df.sort_values(by='start', inplace=True)
     df['team'] = df.doc.str.contains('TEAM')
-    df.drop(columns=['event_id', 'doc', 'start', 'b_id', 'y_id'], inplace=True)
-    df[df.fmt != 'D'].astype({
+    df['b_id'] = df['b_id'].fillna(0)
+    df['y_id'] = df['y_id'].fillna(0)
+    df = df[[
+        'fmt', 'gender', 'stage', 'stage_id', 'duration',
+        'a_id', 'b_id', 'x_id', 'y_id', 'res_a', 'res_x', 'scores', 'team'
+    ]]
+    df.astype({
         'fmt': 'category',
         'gender': 'category',
         # 'stage': 'category',
         'stage_id': 'uint16',
         'duration': 'uint16',
         'a_id': 'uint32',
+        'b_id': 'uint32',
         'x_id': 'uint32',
+        'y_id': 'uint32',
         'res_a': 'u1',
         'res_x': 'u1',
         'team': 'bool',

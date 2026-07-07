@@ -30,17 +30,27 @@ export const tournamentsByIx = tournaments
 
 export const initDB = async () => {
   // await deleteDB(DBNAME)
-  const db = await openDB(DBNAME, 3, {
+  const db = await openDB(DBNAME, 4, {
     upgrade(db, oldVersion, newVersion, transaction, event) {
       console.log('Setting up db schema...')
       console.log(oldVersion, newVersion, transaction, event)
       if (db.objectStoreNames.contains('matches')) {
         db.deleteObjectStore('matches')
       }
+      if (db.objectStoreNames.contains('doubles')) {
+        db.deleteObjectStore('doubles')
+      }
       const matches = db.createObjectStore('matches', { keyPath: 'id', autoIncrement: true })
       matches.createIndex('event_id', 'event_id', { unique: false })
       matches.createIndex('a_id', 'a_id', { unique: false })
       matches.createIndex('x_id', 'x_id', { unique: false })
+
+      const doubles = db.createObjectStore('doubles', { keyPath: 'id', autoIncrement: true })
+      doubles.createIndex('event_id', 'event_id', { unique: false })
+      doubles.createIndex('a_id', 'a_id', { unique: false })
+      doubles.createIndex('b_id', 'b_id', { unique: false })
+      doubles.createIndex('x_id', 'x_id', { unique: false })
+      doubles.createIndex('y_id', 'y_id', { unique: false })
     }
   })
   window.db = db
@@ -72,23 +82,46 @@ export const initDB = async () => {
       await parquetRead({
         file: arrayBuffer,
         onComplete: (data) => {
-          const matches = rawdb.transaction('matches', 'readwrite').objectStore('matches')
+          const tx = rawdb.transaction(['matches', 'doubles'], 'readwrite')
+          const matchesStore = tx.objectStore('matches')
+          const doublesStore = tx.objectStore('doubles')
           for (let row = 0; row < data.length; row++) {
-            const entry = {
-              event_id,
-              fmt: data[row][0],
-              gender: data[row][1],
-              stage: data[row][2],
-              stage_id: data[row][3],
-              duration: data[row][4],
-              a_id: data[row][5],
-              x_id: data[row][6],
-              res_a: data[row][7],
-              res_x: data[row][8],
-              scores: data[row][9],
-              team: data[row][10],
+            const fmt = data[row][0]
+            if (fmt === 'D') {
+              const entry = {
+                event_id,
+                fmt,
+                gender: data[row][1],
+                stage: data[row][2],
+                stage_id: data[row][3],
+                duration: data[row][4],
+                a_id: data[row][5],
+                b_id: data[row][6],
+                x_id: data[row][7],
+                y_id: data[row][8],
+                res_a: data[row][9],
+                res_x: data[row][10],
+                scores: data[row][11],
+                team: data[row][12],
+              }
+              doublesStore.put(entry)
+            } else {
+              const entry = {
+                event_id,
+                fmt,
+                gender: data[row][1],
+                stage: data[row][2],
+                stage_id: data[row][3],
+                duration: data[row][4],
+                a_id: data[row][5],
+                x_id: data[row][7],
+                res_a: data[row][9],
+                res_x: data[row][10],
+                scores: data[row][11],
+                team: data[row][12],
+              }
+              matchesStore.put(entry)
             }
-            matches.put(entry)
           }
         }
       })
