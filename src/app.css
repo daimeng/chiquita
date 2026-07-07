@@ -193,19 +193,7 @@ select {
   transition: color 0.2s ease-in;
 }
 
-.rating_rank_delta.positive::before {
-  position: absolute;
-  content: '▲';
-  font-size: 12px;
-  left: -8px;
-}
 
-.rating_rank_delta.negative::before {
-  position: absolute;
-  content: '▼';
-  font-size: 12px;
-  left: -8px;
-}
 
 .rating_rank_delta.negative {
   color: tomato;
@@ -447,10 +435,6 @@ select {
     margin-right: 4px;
   }
 
-  .rating_rank_delta.positive::before,
-  .rating_rank_delta.negative::before {
-    left: 2px !important;
-  }
 
   .rating_flag {
     width: 32px !important;
