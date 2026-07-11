@@ -4,7 +4,7 @@ import tournaments from './tournaments.json'
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { playerById, tournamentById } from "./idb"
 import { all_ranks_by_id, all_ratings, init, player_ratings, rating_changes } from "./ratings"
-import { doubles_all_ranks_by_id, doubles_all_ratings, init_doubles, doubles_player_ratings, doubles_rating_changes } from "./doubles-ratings"
+import { doubles_all_ranks_by_id_by_discipline, doubles_all_ratings_by_discipline, init_doubles, doubles_player_ratings, doubles_rating_changes } from "./doubles-ratings"
 import { STAGE_TO_NUM } from "./priority"
 import { sortStartStage } from './event'
 
@@ -346,7 +346,7 @@ const DEFAULT_RANK_COLOR = 'rgb(183, 171, 255)'
 
 const RANKCOLORS = ['crimson', 'coral', '#e9c46a', 'turquoise', 'skyblue']
 
-export function DoublesPlayerCard({ playerid, showPlayer, hidePlayer, showTourney }) {
+export function DoublesPlayerCard({ playerid, gender, showPlayer, hidePlayer, showTourney }) {
   const player = playerById.get(playerid)
   const [matches, setMatches] = useState([])
   const [showVenue, setShowVenue] = useState(true)
@@ -379,12 +379,20 @@ export function DoublesPlayerCard({ playerid, showPlayer, hidePlayer, showTourne
       processMatches(matches_x)
       processMatches(matches_y)
 
-      all_matches.sort(sortStartStage)
-      setMatches(all_matches)
+      const filterGender = gender === 'MD' ? 'M' : gender === 'WD' ? 'W' : null
+      const filtered = filterGender
+        ? all_matches.filter(m => m.gender === filterGender)
+        : all_matches.filter(m => m.gender !== 'M' && m.gender !== 'W')
+      // attach discipline-specific rating changes
+      filtered.forEach(m => { m.rc = doubles_rating_changes.get(`${m.id}:${gender}`) })
+      filtered.sort(sortStartStage)
+      setMatches(filtered)
     })
-  }, [playerid])
+  }, [playerid, gender])
 
-  const rating = doubles_player_ratings.get(playerid) || { rating: 1500 }
+  const disciplineRatings = doubles_all_ratings_by_discipline[gender] || []
+  const disciplineRanks = doubles_all_ranks_by_id_by_discipline[gender] || []
+  const rating = (disciplineRatings[disciplineRatings.length - 1] || new Map()).get(playerid) || { rating: 1500 }
 
   return (
     <div className="player-card card">
@@ -394,7 +402,7 @@ export function DoublesPlayerCard({ playerid, showPlayer, hidePlayer, showTourne
         <div className="card-close" onClick={hidePlayer}>x</div>
       </div>
       <div className="card-content">
-        <DoublesPlayerGraph playerid={playerid} matches={matches} />
+        <DoublesPlayerGraph playerid={playerid} matches={matches} disciplineRatings={disciplineRatings} disciplineRanks={disciplineRanks} />
         {matches.map(m => {
           const tourney = tournamentById.get(m.event_id)
           const scores = m.scores.split(',').map(x => x.split('-'))
@@ -463,7 +471,7 @@ export function DoublesPlayerCard({ playerid, showPlayer, hidePlayer, showTourne
   )
 }
 
-export function DoublesPlayerGraph({ playerid, matches }) {
+export function DoublesPlayerGraph({ playerid, matches, disciplineRatings, disciplineRanks }) {
   const [width, setWidth] = useState(null)
   const div = useCallback(node => {
     if (node !== null) {
@@ -581,10 +589,10 @@ export function DoublesPlayerGraph({ playerid, matches }) {
 
         {tournaments.map((t, i) => {
           if (t.End < GRAPH_START + 2 * THIRTYDAY) return
-          const rating = doubles_all_ratings[i]?.get(playerid)
+          const rating = disciplineRatings[i]?.get(playerid)
           if (rating == null) return
-          const rankData = doubles_all_ranks_by_id[i]?.get(playerid)
-          const rank = rankData ? rankData.X + 1 : 9999
+          const rankData = disciplineRanks[i]?.get(playerid)
+          const rank = rankData ? (rankData.X ?? rankData.MD ?? rankData.WD ?? 9999) + 1 : 9999
           const ranklog = Math.floor(Math.log2(rank))
 
           return <circle
@@ -598,8 +606,8 @@ export function DoublesPlayerGraph({ playerid, matches }) {
         {validMatches.map(m => {
           if (m.end < GRAPH_START + 2 * THIRTYDAY) return
           const t = tournamentById.get(m.event_id)
-          const rankData = doubles_all_ranks_by_id[t.Index]?.get(playerid)
-          let rank = rankData ? rankData.X + 1 : NaN
+          const rankData = disciplineRanks[t.Index]?.get(playerid)
+          let rank = rankData ? (rankData.X ?? rankData.MD ?? rankData.WD ?? NaN) + 1 : NaN
           const ranklog = Math.floor(Math.log2(rank))
 
           if (isNaN(rank)) {

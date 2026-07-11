@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { ISO3to2, ISO3toColor } from './country-map'
 import { playerById, resetDB, tournamentById, tournamentsByIx } from './idb'
 import { all_ranks, all_ranks_by_id, all_ratings, init, rating_changes } from './ratings'
-import { init_doubles, doubles_all_ranks, doubles_all_ranks_by_id, doubles_all_ratings } from './doubles-ratings'
+import { init_doubles, doubles_all_ratings_by_discipline, doubles_all_ranks_by_id_by_discipline } from './doubles-ratings'
 import { auth, login, signUp } from './firebase'
 import { Login } from './login'
 import { PlayerCard, DoublesPlayerCard, HeadToHeadCard } from './playercard'
@@ -170,6 +170,7 @@ function App() {
           ['MD', 'WD', 'X'].includes(gender) ? (
             <DoublesPlayerCard
               playerid={openPlayers[0]}
+              gender={gender}
               hidePlayer={hidePlayer}
               showPlayer={showPlayer}
               showTourney={(e) => {
@@ -420,8 +421,9 @@ function DoublesRankTable({ event, top, gender, maxYears, showPlayer }) {
   let rankrows = []
 
   if (event !== -1) {
-    const player_ratings = doubles_all_ratings[event] || new Map()
-    const last_player_ratings = event > 0 ? (doubles_all_ratings[event - 1] || new Map()) : new Map()
+    const disciplineRatings = doubles_all_ratings_by_discipline[gender] || []
+    const player_ratings = disciplineRatings[event] || new Map()
+    const last_player_ratings = event > 0 ? (disciplineRatings[event - 1] || new Map()) : new Map()
 
     const currentEventTime = Date.parse(tournaments[event].EndDateTime)
     const lastEventTime = event > 0 ? Date.parse(tournaments[event - 1].EndDateTime) : 0
@@ -520,6 +522,7 @@ function DoublesRankTable({ event, top, gender, maxYears, showPlayer }) {
           event={event}
           lastRanking={lastRanking}
           gender={gender}
+          disciplineRatings={disciplineRatings}
           showPlayer={showPlayer}
         />
       )
@@ -557,7 +560,7 @@ function DoublesRankTable({ event, top, gender, maxYears, showPlayer }) {
   )
 }
 
-function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer }) {
+function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, disciplineRatings, showPlayer }) {
   const player = playerById.get(playerId)
 
   const { rating, last_active } = r
@@ -566,7 +569,7 @@ function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer
 
   let rating_delta = 0
   if (event > 0) {
-    const last_rating = doubles_all_ratings[event - 1]?.get(playerId)
+    const last_rating = disciplineRatings[event - 1]?.get(playerId)
     if (last_rating) {
       rating_delta = Math.floor(rating) - Math.floor(last_rating.rating)
     }
@@ -596,7 +599,7 @@ function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer
   for (let e = 0; e <= event; e++) {
     const eTime = Date.parse(tournaments[e].EndDateTime)
     if (eTime >= oneYearAgo && eTime <= currentEventTime) {
-      const rObj = doubles_all_ratings[e]?.get(playerId)
+      const rObj = disciplineRatings[e]?.get(playerId)
       if (rObj) {
         points.push({ time: eTime, rating: rObj.rating })
       }
