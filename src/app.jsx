@@ -13,11 +13,39 @@ import { BracketCard } from './bracket'
 import { useHash } from './hash'
 import { TournamentCard, DoublesTournamentCard } from './event'
 
+function getPpmStyle(roundedPpm) {
+  if (roundedPpm === undefined || isNaN(roundedPpm)) return {}
+  const absPpm = Math.abs(roundedPpm)
+  // log scale: factor approaches 1 as absPpm approaches 50, factor is 0 when absPpm is 0
+  const t = Math.min(1, Math.log(absPpm + 1) / Math.log(51))
+  const w = 1 - t
+  let color
+  if (roundedPpm > 0) {
+    // positive base color: #00f5b4 (RGB: 0, 245, 180)
+    // interpolate towards white (255, 255, 255) using w
+    const r = Math.round(255 * w)
+    const g = Math.round(245 + 10 * w)
+    const b = Math.round(180 + 75 * w)
+    color = `rgb(${r}, ${g}, ${b})`
+  } else if (roundedPpm < 0) {
+    // negative base color: #ff903f (RGB: 255, 144, 63)
+    // interpolate towards white (255, 255, 255) using w
+    const r = 255
+    const g = Math.round(144 + 111 * w)
+    const b = Math.round(63 + 192 * w)
+    color = `rgb(${r}, ${g}, ${b})`
+  } else {
+    color = '#ffffff'
+  }
+  return { color }
+}
+
 function App() {
   const [top, setTop] = useState(100)
   const [event, setEvent] = useState(-1)
   const [gender, setGender] = useState('M')
   const [maxdev, setMaxdev] = useState(100)
+  const [maxYears, setMaxYears] = useState(1)
   const [openPlayers, setOpenPlayers] = useState([])
   const [openTournament, setOpenTournament] = useState(null)
   const [bracketOpen, setBracketOpen] = useState(false)
@@ -88,11 +116,17 @@ function App() {
             <button className="event-right" onClick={() => setEvent(ev => Math.min(ev + 1, tournaments.length - 1))}>▶</button>
           </div>
 
-          {!['MD', 'WD', 'X'].includes(gender) && (
+          {!['MD', 'WD', 'X'].includes(gender) ? (
             <div className="set-maxdev">
               {"max rd: "}
               <input type="range" min="0" max="350" step="10" value={maxdev}
                 onChange={e => setMaxdev(e.target.value)} />{maxdev}
+            </div>
+          ) : (
+            <div className="set-maxdev">
+              {"max years: "}
+              <input type="range" min="0.5" max="5" step="0.5" value={maxYears}
+                onChange={e => setMaxYears(+e.target.value)} />{maxYears}
             </div>
           )}
 
@@ -127,7 +161,7 @@ function App() {
         {['M', 'W'].includes(gender) ? (
           <RankTable event={event} top={top} gender={gender} maxdev={maxdev} showPlayer={showPlayer} />
         ) : (
-          <DoublesRankTable event={event} top={top} gender={gender} showPlayer={showPlayer} />
+          <DoublesRankTable event={event} top={top} gender={gender} maxYears={maxYears} showPlayer={showPlayer} />
         )}
       </div>
 
@@ -320,6 +354,7 @@ function RankRow({ r, i, playerId, event, lastRanking, showPlayer, maxdev }) {
 
   let ppmStr = '--'
   let ppmClass = ''
+  let ppmStyle = {}
   if (points.length >= 2) {
     let sumX = 0
     let sumY = 0
@@ -339,6 +374,7 @@ function RankRow({ r, i, playerId, event, lastRanking, showPlayer, maxdev }) {
     const roundedPpm = Math.round(ppm)
     ppmStr = roundedPpm > 0 ? `+${roundedPpm}` : `${roundedPpm}`
     ppmClass = roundedPpm > 0 ? 'positive' : roundedPpm < 0 ? 'negative' : ''
+    ppmStyle = getPpmStyle(roundedPpm)
   }
 
   return (
@@ -364,7 +400,7 @@ function RankRow({ r, i, playerId, event, lastRanking, showPlayer, maxdev }) {
       <span className="rating_sparkline">
         <Sparkline points={points} oneYearAgo={oneYearAgo} currentEventTime={currentEventTime} />
       </span>
-      <span className={`rating_slope ${ppmClass}`}>{ppmStr}</span>
+      <span className={`rating_slope ${ppmClass}`} style={ppmStyle}>{ppmStr}</span>
       <span className="rating_dev">{Math.floor(rd)}</span>
       <span className="rating_active">{date}</span>
       <span className="rating_bar">
@@ -378,21 +414,81 @@ function RankRow({ r, i, playerId, event, lastRanking, showPlayer, maxdev }) {
   )
 }
 
-function DoublesRankTable({ event, top, gender, showPlayer }) {
+function DoublesRankTable({ event, top, gender, maxYears, showPlayer }) {
   let ranking = []
-  let lastRanking
+  let lastRanking = new Map()
   let rankrows = []
 
   if (event !== -1) {
-    ranking = doubles_all_ranks[event] || []
-    if (event > 0) {
-      lastRanking = doubles_all_ranks_by_id[event - 1] || new Map()
-    } else {
-      lastRanking = new Map()
-    }
-
     const player_ratings = doubles_all_ratings[event] || new Map()
-    const ranks_by_id = doubles_all_ranks_by_id[event] || new Map()
+    const last_player_ratings = event > 0 ? (doubles_all_ratings[event - 1] || new Map()) : new Map()
+
+    const currentEventTime = Date.parse(tournaments[event].EndDateTime)
+    const lastEventTime = event > 0 ? Date.parse(tournaments[event - 1].EndDateTime) : 0
+
+    const oneYear = 365 * 24 * 60 * 60 * 1000
+    const currentThreshold = currentEventTime - maxYears * oneYear
+    const lastThreshold = lastEventTime - maxYears * oneYear
+
+    // Current event rankings
+    ranking = Array.from(player_ratings.keys()).filter(playerId => {
+      const rating = player_ratings.get(playerId)
+      return rating.last_active >= currentThreshold
+    })
+    ranking.sort((playerA, playerB) => player_ratings.get(playerB).rating - player_ratings.get(playerA).rating)
+
+    const ranks_by_id = new Map()
+    const gender_count = { M: 0, W: 0 }
+    let overall_count = 0
+
+    ranking.forEach((playerId) => {
+      const p = playerById.get(playerId)
+      if (!p) return
+
+      ranks_by_id.set(playerId, {
+        MD: p.gender === 'M' ? gender_count.M : undefined,
+        WD: p.gender === 'W' ? gender_count.W : undefined,
+        X: overall_count,
+      })
+
+      if (p.gender === 'M') {
+        gender_count.M += 1
+      } else if (p.gender === 'W') {
+        gender_count.W += 1
+      }
+      overall_count += 1
+    })
+
+    // Previous event rankings (for rank delta calculations)
+    const last_ranking = Array.from(last_player_ratings.keys()).filter(playerId => {
+      const rating = last_player_ratings.get(playerId)
+      return rating.last_active >= lastThreshold
+    })
+    last_ranking.sort((playerA, playerB) => last_player_ratings.get(playerB).rating - last_player_ratings.get(playerA).rating)
+
+    const last_ranks_by_id = new Map()
+    const last_gender_count = { M: 0, W: 0 }
+    let last_overall_count = 0
+
+    last_ranking.forEach((playerId) => {
+      const p = playerById.get(playerId)
+      if (!p) return
+
+      last_ranks_by_id.set(playerId, {
+        MD: p.gender === 'M' ? last_gender_count.M : undefined,
+        WD: p.gender === 'W' ? last_gender_count.W : undefined,
+        X: last_overall_count,
+      })
+
+      if (p.gender === 'M') {
+        last_gender_count.M += 1
+      } else if (p.gender === 'W') {
+        last_gender_count.W += 1
+      }
+      last_overall_count += 1
+    })
+
+    lastRanking = last_ranks_by_id
 
     let picked = 0
     for (let i = 0; i < ranking.length; i++) {
@@ -509,6 +605,7 @@ function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer
 
   let ppmStr = '--'
   let ppmClass = ''
+  let ppmStyle = {}
   if (points.length >= 2) {
     let sumX = 0
     let sumY = 0
@@ -528,6 +625,7 @@ function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer
     const roundedPpm = Math.round(ppm)
     ppmStr = roundedPpm > 0 ? `+${roundedPpm}` : `${roundedPpm}`
     ppmClass = roundedPpm > 0 ? 'positive' : roundedPpm < 0 ? 'negative' : ''
+    ppmStyle = getPpmStyle(roundedPpm)
   }
 
   return (
@@ -553,7 +651,7 @@ function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer
       <span className="rating_sparkline">
         <Sparkline points={points} oneYearAgo={oneYearAgo} currentEventTime={currentEventTime} />
       </span>
-      <span className={`rating_slope ${ppmClass}`}>{ppmStr}</span>
+      <span className={`rating_slope ${ppmClass}`} style={ppmStyle}>{ppmStr}</span>
       <span className="rating_active">{date}</span>
       <span className="rating_bar">
         <span style={{

@@ -113,7 +113,12 @@ export const init_doubles = init.then(async (db) => {
 			doubles_player_ratings = deepcopy
 			doubles_all_ratings.push(doubles_player_ratings)
 
+			const event_time = Date.parse(tournaments[i].EndDateTime)
+			const one_year_ago = event_time - 365 * 24 * 60 * 60 * 1000
+
 			const player_ranks = Array.from(doubles_player_ratings.keys())
+				.filter(playerId => doubles_player_ratings.get(playerId).last_active >= one_year_ago)
+
 			player_ranks.sort((playerA, playerB) => doubles_player_ratings.get(playerB).rating - doubles_player_ratings.get(playerA).rating)
 
 			doubles_all_ranks.push(player_ranks)

@@ -344,11 +344,11 @@ select {
 }
 
 .rating_slope.positive {
-  color: limegreen;
+  color: #00f5b4; /* Greener aqua-tinted teal */
 }
 
 .rating_slope.negative {
-  color: tomato;
+  color: #ff903f; /* Pure orange, less red */
 }
 
 /* Tooltip container */
