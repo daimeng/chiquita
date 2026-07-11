@@ -1,0 +1,121 @@
+{
+  "id": 15246961,
+  "eventId": "3242",
+  "documentCode": "TTEXDOUBLES-----------R32-000600----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3242",
+    "documentCode": "TTEXDOUBLES-----------R32-000600----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 32 - Match 6",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Ontario Convention Center",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100254339",
+        "competitiorName": "WEN Ruibo/KUAI Man",
+        "competitiorOrg": "CHN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "203067",
+            "playerName": "WEN Ruibo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135049",
+            "playerName": "KUAI Man",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,6,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100122100",
+        "competitiorName": "LUM Nicholas/LIU Yangzi",
+        "competitiorOrg": "AUS",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "134800",
+            "playerName": "LUM Nicholas",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "AUS",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137627",
+            "playerName": "LIU Yangzi",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "AUS",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "1,9,11,5,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-1,11-9,6-11,11-5,0-0",
+    "resultsGameScores": "11-1,11-9,6-11,11-5,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "137627",
+      "serverReceiver": "135049",
+      "serverNext": "137627",
+      "serverCompetitor": "100122100",
+      "receiverNext": "135049"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:24:15",
+      "startDateLocal": "06/28/2026 19:10:00",
+      "startDateUTC": "06/29/2026 02:10:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "187",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-06-28T19:10:00"
+}

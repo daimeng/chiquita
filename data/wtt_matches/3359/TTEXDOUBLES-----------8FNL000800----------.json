@@ -1,0 +1,121 @@
+{
+  "id": 15283012,
+  "eventId": "3359",
+  "documentCode": "TTEXDOUBLES-----------8FNL000800----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3359",
+    "documentCode": "TTEXDOUBLES-----------8FNL000800----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 8",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Ata Sporları Merkezi",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100176281",
+        "competitiorName": "GREBNEV Maksim/VORONINA Vlada",
+        "competitiorOrg": "AIN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123931",
+            "playerName": "GREBNEV Maksim",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "AIN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137574",
+            "playerName": "VORONINA Vlada",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "AIN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,9,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100256526",
+        "competitiorName": "DESAI Harmeet/ALTINKAYA Sibel",
+        "competitiorOrg": "IND/TUR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111641",
+            "playerName": "DESAI Harmeet",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "IND",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "112944",
+            "playerName": "ALTINKAYA Sibel",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TUR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,6,11,8,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-7,11-6,9-11,11-8,0-0",
+    "resultsGameScores": "11-7,11-6,9-11,11-8,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "111641",
+      "serverReceiver": "123931",
+      "serverNext": "111641",
+      "serverCompetitor": "100256526",
+      "receiverNext": "123931"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:27:14",
+      "startDateLocal": "07/03/2026 10:00:00",
+      "startDateUTC": "07/03/2026 07:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "214",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-03T10:00:00"
+}

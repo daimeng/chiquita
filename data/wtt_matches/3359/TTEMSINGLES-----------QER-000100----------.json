@@ -1,0 +1,105 @@
+{
+  "id": 15279360,
+  "eventId": "3359",
+  "documentCode": "TTEMSINGLES-----------QER-000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3359",
+    "documentCode": "TTEMSINGLES-----------QER-000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Qualification Elimination Round - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Ata Sporları Merkezi",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "132081",
+        "competitiorName": "ALSHAREIF Khalid",
+        "competitiorOrg": "KSA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "132081",
+            "playerName": "ALSHAREIF Khalid",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KSA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "9,6,11,11,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "136158",
+        "competitiorName": "SCHOLTES Tom",
+        "competitiorOrg": "LUX",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136158",
+            "playerName": "SCHOLTES Tom",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "LUX",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,4,6,7",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "9-11,6-11,11-4,11-6,11-7",
+    "resultsGameScores": "9-11,6-11,11-4,11-6,11-7",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136158",
+      "serverReceiver": "132081",
+      "serverNext": "136158",
+      "serverCompetitor": "136158",
+      "receiverNext": "132081"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:32:39",
+      "startDateLocal": "07/02/2026 17:50:00",
+      "startDateUTC": "07/02/2026 14:50:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "244",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-02T17:50:00"
+}

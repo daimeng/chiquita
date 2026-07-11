@@ -1,0 +1,105 @@
+{
+  "id": 15248430,
+  "eventId": "3242",
+  "documentCode": "TTEMSINGLES-----------R64-001000----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3242",
+    "documentCode": "TTEMSINGLES-----------R64-001000----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Round of 64 - Match 10",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Ontario Convention Center",
+    "tableNumber": "T04",
+    "tableName": "Table 4",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "112620",
+        "competitiorName": "WONG Chun Ting",
+        "competitiorOrg": "HKG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "112620",
+            "playerName": "WONG Chun Ting",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "5,12,12,8,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "112409",
+        "competitiorName": "GROTH Jonathan",
+        "competitiorOrg": "DEN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "112409",
+            "playerName": "GROTH Jonathan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "DEN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,10,10,11,6",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "5-11,12-10,12-10,8-11,11-6",
+    "resultsGameScores": "5-11,12-10,12-10,8-11,11-6",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "112409",
+      "serverReceiver": "112620",
+      "serverNext": "112409",
+      "serverCompetitor": "112409",
+      "receiverNext": "112620"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:45:03",
+      "startDateLocal": "06/28/2026 19:45:00",
+      "startDateUTC": "06/29/2026 02:45:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "280",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-06-28T19:45:00"
+}

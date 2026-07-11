@@ -1,0 +1,121 @@
+{
+  "id": 15275190,
+  "eventId": "3242",
+  "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3242",
+    "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Ontario Convention Center",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100254339",
+        "competitiorName": "WEN Ruibo/KUAI Man",
+        "competitiorOrg": "CHN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "203067",
+            "playerName": "WEN Ruibo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135049",
+            "playerName": "KUAI Man",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,8,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "46298",
+        "competitiorName": "MATSUSHIMA Sora/HARIMOTO Miwa",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135996",
+            "playerName": "MATSUSHIMA Sora",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "136711",
+            "playerName": "HARIMOTO Miwa",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,2,11,9,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-8,11-2,8-11,11-9,0-0",
+    "resultsGameScores": "11-8,11-2,8-11,11-9,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "203067",
+      "serverReceiver": "135996",
+      "serverNext": "203067",
+      "serverCompetitor": "100254339",
+      "receiverNext": "135996"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:32:22",
+      "startDateLocal": "07/01/2026 20:55:00",
+      "startDateUTC": "07/02/2026 03:55:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "203",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-01T20:55:00"
+}

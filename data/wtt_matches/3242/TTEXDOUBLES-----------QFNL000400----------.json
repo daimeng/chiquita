@@ -1,0 +1,121 @@
+{
+  "id": 15272984,
+  "eventId": "3242",
+  "documentCode": "TTEXDOUBLES-----------QFNL000400----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3242",
+    "documentCode": "TTEXDOUBLES-----------QFNL000400----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 4",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Ontario Convention Center",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100129133",
+        "competitiorName": "LIANG Jishan/MOYLAND Sally",
+        "competitiorOrg": "USA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "121222",
+            "playerName": "LIANG Jishan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "USA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "134489",
+            "playerName": "MOYLAND Sally",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "USA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,11,8,12,4",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "37260",
+        "competitiorName": "CALDERANO Hugo/TAKAHASHI Bruna",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "115641",
+            "playerName": "CALDERANO Hugo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "121623",
+            "playerName": "TAKAHASHI Bruna",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,7,11,10,11",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "6-11,11-7,8-11,12-10,4-11",
+    "resultsGameScores": "6-11,11-7,8-11,12-10,4-11",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "121222",
+      "serverReceiver": "121623",
+      "serverNext": "121222",
+      "serverCompetitor": "100129133",
+      "receiverNext": "121623"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:39:01",
+      "startDateLocal": "07/01/2026 14:55:00",
+      "startDateUTC": "07/01/2026 21:55:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "264",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-01T14:55:00"
+}

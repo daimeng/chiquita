@@ -1,0 +1,121 @@
+{
+  "id": 15253580,
+  "eventId": "3242",
+  "documentCode": "TTEXDOUBLES-----------8FNL000500----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3242",
+    "documentCode": "TTEXDOUBLES-----------8FNL000500----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 5",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Ontario Convention Center",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "41233",
+        "competitiorName": "ROBLES Alvaro/XIAO Maria",
+        "competitiorOrg": "ESP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111050",
+            "playerName": "ROBLES Alvaro",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "111072",
+            "playerName": "XIAO Maria",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "9,5,3,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100215698",
+        "competitiorName": "LEBRUN Alexis/ODO Satsuki",
+        "competitiorOrg": "FRA/JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "132992",
+            "playerName": "LEBRUN Alexis",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133405",
+            "playerName": "ODO Satsuki",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "9-11,5-11,3-11,0-0,0-0",
+    "resultsGameScores": "9-11,5-11,3-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "111072",
+      "serverReceiver": "133405",
+      "serverNext": "111072",
+      "serverCompetitor": "41233",
+      "receiverNext": "133405"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:14:40",
+      "startDateLocal": "06/29/2026 14:55:00",
+      "startDateUTC": "06/29/2026 21:55:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "154",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-06-29T14:55:00"
+}
