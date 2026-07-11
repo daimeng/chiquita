@@ -282,7 +282,7 @@ select {
 }
 
 .rating_rating.stale {
-  color: #f7e38b;
+  color: #777;
 }
 
 .rating_delta {
@@ -340,7 +340,7 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #00ffd2;
+  color: #c5d7e8;
 }
 
 .rating_slope.positive {
@@ -372,7 +372,7 @@ select {
   font-size: 13px;
   font-weight: 500;
   white-space: nowrap;
-  z-index: 100;
+  z-index: 1100;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   pointer-events: none;
   opacity: 0;
@@ -446,6 +446,7 @@ select {
   min-width: 100px;
   max-width: 300px;
   right: 0%;
+  z-index: 1100;
 }
 
 .simple-tip:hover .simple-tip-hover {

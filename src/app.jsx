@@ -8,7 +8,7 @@ import { all_ranks, all_ranks_by_id, all_ratings, init, rating_changes } from '.
 import { init_doubles, doubles_all_ranks, doubles_all_ranks_by_id, doubles_all_ratings } from './doubles-ratings'
 import { auth, login, signUp } from './firebase'
 import { Login } from './login'
-import { PlayerCard, DoublesPlayerCard } from './playercard'
+import { PlayerCard, DoublesPlayerCard, HeadToHeadCard } from './playercard'
 import { BracketCard } from './bracket'
 import { useHash } from './hash'
 import { TournamentCard, DoublesTournamentCard } from './event'
@@ -60,6 +60,9 @@ function App() {
   const handleSetEvent = useCallback((e) => setEvent(+e.target.value), [setEvent])
   const showPlayer = useCallback((e) => { setOpenTournament(null); setOpenPlayers([+e.target.dataset.playerid]) }, [setOpenPlayers])
   const hidePlayer = useCallback(() => setOpenPlayers([]), [setOpenPlayers])
+  const showHeadToHead = useCallback((p1, p2) => {
+    setOpenPlayers([p1, p2])
+  }, [setOpenPlayers])
   // const hideBracket = useCallback(() => setBracketOpen(false), [setBracketOpen])
 
   return (
@@ -145,12 +148,25 @@ function App() {
               playerid={openPlayers[0]}
               hidePlayer={hidePlayer}
               showPlayer={showPlayer}
+              showHeadToHead={showHeadToHead}
               showTourney={(e) => {
                 setOpenTournament(+e.target.dataset.eventid)
                 hidePlayer()
               }}
             />
           )
+        )}
+        {openPlayers.length === 2 && (
+          <HeadToHeadCard
+            player1Id={openPlayers[0]}
+            player2Id={openPlayers[1]}
+            hideCard={() => setOpenPlayers([openPlayers[0]])}
+            showPlayer={showPlayer}
+            showTourney={(e) => {
+              setOpenTournament(+e.target.dataset.eventid)
+              hidePlayer()
+            }}
+          />
         )}
       </div>
 

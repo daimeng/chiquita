@@ -8,7 +8,7 @@ import { doubles_all_ranks_by_id, doubles_all_ratings, init_doubles, doubles_pla
 import { STAGE_TO_NUM } from "./priority"
 import { sortStartStage } from './event'
 
-export function PlayerCard({ playerid, showPlayer, hidePlayer, showTourney }) {
+export function PlayerCard({ playerid, showPlayer, hidePlayer, showTourney, showHeadToHead }) {
   const player = playerById.get(playerid)
   const [matches, setMatches] = useState([])
   const [showVenue, setShowVenue] = useState(true)
@@ -62,6 +62,9 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer, showTourney }) {
                 {' '}
                 <span>{Math.floor(m.rc.r2)}</span>
               </div>}
+              <div className="match-battle">
+                <span className="battle-symbol-btn" title="Head to Head" onClick={() => showHeadToHead(playerid, m.x_id)}>VS</span>
+              </div>
               <div className="match-opponent" data-playerid={m.x_id} onClick={showPlayer}>{playerById.get(m.x_id).name}</div>
               <div className="match-date">{tourney.EndDate}</div>
               <div className="match-stage">
@@ -89,6 +92,9 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer, showTourney }) {
                 {' '}
                 <span>{Math.floor(m.rc.r1)}</span>
               </div>}
+              <div className="match-battle">
+                <span className="battle-symbol-btn" title="Head to Head" onClick={() => showHeadToHead(playerid, m.a_id)}>VS</span>
+              </div>
               <div className="match-opponent" data-playerid={m.a_id} onClick={showPlayer}>{playerById.get(m.a_id).name}</div>
               <div className="match-date">{tourney.EndDate}</div>
               <div className="match-stage">
@@ -624,6 +630,134 @@ export function DoublesPlayerGraph({ playerid, matches }) {
           })}
         </g>
       </svg>
+    </div>
+  )
+}
+
+export function HeadToHeadCard({ player1Id, player2Id, hideCard, showPlayer, showTourney }) {
+  const p1 = playerById.get(player1Id)
+  const p2 = playerById.get(player2Id)
+  const r1 = player_ratings.get(player1Id) || { rating: 1500 }
+  const r2 = player_ratings.get(player2Id) || { rating: 1500 }
+
+  const [matches, setMatches] = useState([])
+
+  useEffect(() => {
+    init.then((db) => {
+      return Promise.all([
+        db.getAllFromIndex('matches', 'a_id', player1Id),
+        db.getAllFromIndex('matches', 'x_id', player1Id)
+      ])
+    }).then(([matches_a, matches_x]) => {
+      const all_matches = []
+      
+      const addMatch = (m) => {
+        if (m.a_id === player2Id || m.x_id === player2Id) {
+          m.rc = rating_changes.get(m.id)
+          m.end = Date.parse(tournamentById.get(m.event_id).EndDateTime)
+          all_matches.push(m)
+        }
+      }
+      
+      matches_a.forEach(addMatch)
+      matches_x.forEach(addMatch)
+      
+      all_matches.sort(sortStartStage)
+      setMatches(all_matches)
+    })
+  }, [player1Id, player2Id])
+
+  const stats = useMemo(() => {
+    let p1Wins = 0
+    let p2Wins = 0
+    matches.forEach(m => {
+      const isPlayer1A = m.a_id === player1Id
+      if (isPlayer1A) {
+        if (m.res_a > m.res_x) {
+          p1Wins++
+        } else if (m.res_x > m.res_a) {
+          p2Wins++
+        }
+      } else {
+        if (m.res_x > m.res_a) {
+          p1Wins++
+        } else if (m.res_a > m.res_x) {
+          p2Wins++
+        }
+      }
+    })
+    return { p1Wins, p2Wins }
+  }, [matches, player1Id, player2Id])
+
+  return (
+    <div className="player-card card h2h-card">
+      <div className="card-header">
+        <span>Head to Head</span>
+        <div className="card-close" onClick={hideCard}>x</div>
+      </div>
+      <div className="card-content">
+        <div className="h2h-summary">
+          <div className="h2h-player-info left">
+            <div className="h2h-player-name" onClick={() => showPlayer({ target: { dataset: { playerid: player1Id } } })} style={{ cursor: 'pointer' }}>{p1.name}</div>
+            <div className="h2h-player-rating">{Math.floor(r1.rating)}</div>
+          </div>
+          <div className="h2h-score-container">
+            <div className="h2h-score">{stats.p1Wins}</div>
+            <div className="h2h-divider">vs</div>
+            <div className="h2h-score">{stats.p2Wins}</div>
+          </div>
+          <div className="h2h-player-info right">
+            <div className="h2h-player-name" onClick={() => showPlayer({ target: { dataset: { playerid: player2Id } } })} style={{ cursor: 'pointer' }}>{p2.name}</div>
+            <div className="h2h-player-rating">{Math.floor(r2.rating)}</div>
+          </div>
+        </div>
+        
+        <div className="h2h-bar-container">
+          <div className="h2h-bar-p1" style={{ width: `${stats.p1Wins + stats.p2Wins > 0 ? (stats.p1Wins / (stats.p1Wins + stats.p2Wins)) * 100 : 50}%` }}></div>
+          <div className="h2h-bar-p2" style={{ width: `${stats.p1Wins + stats.p2Wins > 0 ? (stats.p2Wins / (stats.p1Wins + stats.p2Wins)) * 100 : 50}%` }}></div>
+        </div>
+
+        <div className="h2h-matches-title">Matches ({matches.length})</div>
+
+        {matches.map(m => {
+          const tourney = tournamentById.get(m.event_id)
+          const scores = m.scores.split(',').map(x => x.split('-'))
+          const isP1A = m.a_id === player1Id
+          const p1Won = isP1A ? m.res_a > m.res_x : m.res_x > m.res_a
+          
+          const p1Score = isP1A ? m.res_a : m.res_x
+          const p2Score = isP1A ? m.res_x : m.res_a
+          
+          const change = isP1A ? Math.round(m.rc.new_r1 - m.rc.r1) : Math.round(m.rc.new_r2 - m.rc.r2)
+
+          return (
+            <div key={m.id} className={`match-row ${!p1Won ? 'match-loss' : ''}`}>
+              <div className="match-rating-change">{change > 0 ? `+${change}` : change}</div>
+              <div className="match-res">{p1Score} - {p2Score}</div>
+              <div className="match-opponent">{p1Won ? `${p1.name} won` : `${p2.name} won`}</div>
+              <div className="match-date">{tourney.EndDate}</div>
+              <div className="match-stage">
+                {m.team ? 'T' : ''}{m.stage}
+              </div>
+              <div className="match-event" data-eventid={m.event_id} onClick={showTourney}>
+                {tourney.ShortName}
+              </div>
+              <div className="match-scores">
+                {scores.map((set, i) => {
+                  const s1 = isP1A ? set[0] : set[1]
+                  const s2 = isP1A ? set[1] : set[0]
+                  return (
+                    <div key={i} className="match-scores-set">
+                      <div>{s1}</div>
+                      <div>{s2}</div>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }

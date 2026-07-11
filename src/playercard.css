@@ -89,6 +89,13 @@
   width: 120px;
 }
 
+.match-battle {
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .match-opponent {
   width: 200px;
@@ -321,13 +328,22 @@
     margin-left: 8px;
   }
 
+  .match-battle {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    display: flex;
+    width: auto !important;
+  }
+
   .match-opponent {
-    grid-column: 1 / span 2;
+    grid-column: 2;
     grid-row: 1;
     font-size: 17px;
     font-weight: 600;
     color: inherit;
     cursor: pointer;
+    margin-left: 8px;
   }
 
   .match-date {
@@ -372,4 +388,120 @@
   to {
     transform: translateY(0);
   }
+}
+
+.h2h-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.h2h-player-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.h2h-player-info.left {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.h2h-player-info.right {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.h2h-player-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.2s;
+}
+
+.h2h-player-name:hover {
+  color: slateblue;
+  text-decoration: underline;
+}
+
+.h2h-player-rating {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 4px;
+}
+
+.h2h-score-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.h2h-score {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00ffd2;
+}
+
+.h2h-divider {
+  font-size: 14px;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.h2h-bar-container {
+  display: flex;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.h2h-bar-p1 {
+  background-color: #00ffd2;
+  transition: width 0.3s ease;
+}
+
+.h2h-bar-p2 {
+  background-color: slateblue;
+  transition: width 0.3s ease;
+}
+
+.h2h-matches-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #aaa;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.battle-symbol-btn {
+  cursor: pointer;
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(106, 90, 205, 0.2);
+  border: 1px solid rgba(106, 90, 205, 0.4);
+  color: #a29bfe;
+  font-size: 11px;
+  padding: 3px 5px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  line-height: 1;
+}
+
+.battle-symbol-btn:hover {
+  background-color: rgba(0, 255, 210, 0.2);
+  border-color: #00ffd2;
+  color: #00ffd2;
+  transform: scale(1.08);
 }
