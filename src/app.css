@@ -344,11 +344,13 @@ select {
 }
 
 .rating_slope.positive {
-  color: #00f5b4; /* Greener aqua-tinted teal */
+  color: #00f5b4;
+  /* Greener aqua-tinted teal */
 }
 
 .rating_slope.negative {
-  color: #ff903f; /* Pure orange, less red */
+  color: #ff903f;
+  /* Pure orange, less red */
 }
 
 /* Tooltip container */
@@ -466,10 +468,7 @@ select {
     flex-shrink: 0 !important;
   }
 
-  .app-desk:has(.card) .app-nav,
-  .app-desk:has(.card) .rating_controls {
-    display: none !important;
-  }
+
 
   .rating_controls>div:first-child {
     grid-column: 1;

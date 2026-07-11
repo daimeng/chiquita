@@ -55,7 +55,7 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer, showTourney, show
 
           if (m.a_id === playerid) {
             return <div key={m.id} className={`match-row ${change < 0 ? 'match-loss' : ''}`}>
-              <div className="match-rating-change">{change}</div>
+              <div className="match-rating-change">{Math.abs(change)}</div>
               <div className="match-res">{m.res_a} - {m.res_x}</div>
               {!showVenue && <div className="match-ratings">
                 <span>{Math.floor(m.rc.r1)}</span>
@@ -85,7 +85,7 @@ export function PlayerCard({ playerid, showPlayer, hidePlayer, showTourney, show
           } else {
             const change = Math.round(m.rc.new_r2 - m.rc.r2)
             return <div key={m.id} className={`match-row ${change < 0 ? 'match-loss' : ''}`}>
-              <div className="match-rating-change">{change}</div>
+              <div className="match-rating-change">{Math.abs(change)}</div>
               <div className="match-res">{m.res_x} - {m.res_a}</div>
               {!showVenue && <div className="match-ratings">
                 <span>{Math.floor(m.rc.r2)}</span>
@@ -428,7 +428,7 @@ export function DoublesPlayerCard({ playerid, showPlayer, hidePlayer, showTourne
           const change = isTeamA ? Math.round(m.rc.new_r1_1 - m.rc.r1_1) : Math.round(m.rc.new_r2_1 - m.rc.r2_1)
 
           return <div key={m.id} className={`match-row ${change < 0 ? 'match-loss' : ''}`}>
-            <div className="match-rating-change">{change}</div>
+            <div className="match-rating-change">{Math.abs(change)}</div>
             <div className="match-res">{scoreSelf} - {scoreOpp}</div>
             {!showVenue && <div className="match-ratings">
               <span>{Math.floor(my_r)}</span>
@@ -650,7 +650,7 @@ export function HeadToHeadCard({ player1Id, player2Id, hideCard, showPlayer, sho
       ])
     }).then(([matches_a, matches_x]) => {
       const all_matches = []
-      
+
       const addMatch = (m) => {
         if (m.a_id === player2Id || m.x_id === player2Id) {
           m.rc = rating_changes.get(m.id)
@@ -658,10 +658,10 @@ export function HeadToHeadCard({ player1Id, player2Id, hideCard, showPlayer, sho
           all_matches.push(m)
         }
       }
-      
+
       matches_a.forEach(addMatch)
       matches_x.forEach(addMatch)
-      
+
       all_matches.sort(sortStartStage)
       setMatches(all_matches)
     })
@@ -711,7 +711,7 @@ export function HeadToHeadCard({ player1Id, player2Id, hideCard, showPlayer, sho
             <div className="h2h-player-rating">{Math.floor(r2.rating)}</div>
           </div>
         </div>
-        
+
         <div className="h2h-bar-container">
           <div className="h2h-bar-p1" style={{ width: `${stats.p1Wins + stats.p2Wins > 0 ? (stats.p1Wins / (stats.p1Wins + stats.p2Wins)) * 100 : 50}%` }}></div>
           <div className="h2h-bar-p2" style={{ width: `${stats.p1Wins + stats.p2Wins > 0 ? (stats.p2Wins / (stats.p1Wins + stats.p2Wins)) * 100 : 50}%` }}></div>
@@ -724,15 +724,15 @@ export function HeadToHeadCard({ player1Id, player2Id, hideCard, showPlayer, sho
           const scores = m.scores.split(',').map(x => x.split('-'))
           const isP1A = m.a_id === player1Id
           const p1Won = isP1A ? m.res_a > m.res_x : m.res_x > m.res_a
-          
+
           const p1Score = isP1A ? m.res_a : m.res_x
           const p2Score = isP1A ? m.res_x : m.res_a
-          
+
           const change = isP1A ? Math.round(m.rc.new_r1 - m.rc.r1) : Math.round(m.rc.new_r2 - m.rc.r2)
 
           return (
             <div key={m.id} className={`match-row ${!p1Won ? 'match-loss' : ''}`}>
-              <div className="match-rating-change">{change > 0 ? `+${change}` : change}</div>
+              <div className="match-rating-change">{Math.abs(change)}</div>
               <div className="match-res">{p1Score} - {p2Score}</div>
               <div className="match-opponent">{p1Won ? `${p1.name} won` : `${p2.name} won`}</div>
               <div className="match-date">{tourney.EndDate}</div>
