@@ -1,238 +1,238 @@
 .player-panel {
-    top: 0;
-    right: 0;
-    box-sizing: border-box;
-    position: fixed;
-    width: 100%;
-    max-width: 910px;
-    height: 100%;
-    pointer-events: none;
-    padding: 24px;
-    z-index: 1000;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  max-width: 910px;
+  height: 100%;
+  pointer-events: none;
+  padding: 24px;
+  z-index: 1000;
 }
 
 .card {
-    width: 100%;
-    height: 100%;
-    background-color: #222;
-    border: 2px solid rgba(106, 90, 205, 0.5);
-    border-radius: 4px;
-    padding: 8px;
-    box-sizing: border-box;
-    pointer-events: all;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  border: 2px solid rgba(106, 90, 205, 0.5);
+  border-radius: 4px;
+  padding: 8px;
+  box-sizing: border-box;
+  pointer-events: all;
 }
 
 .card-header {
-    font-size: 18px;
-    position: relative;
-    height: 32px;
-    display: flex;
-    justify-content: space-evenly;
+  font-size: 18px;
+  position: relative;
+  height: 32px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .toggle-venue {
-    font-size: 14px;
-    text-decoration: underline;
+  font-size: 14px;
+  text-decoration: underline;
 }
 
 .card-close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 24px;
-    height: 24px;
-    background-color: rgba(106, 90, 205, 0.5);
-    border-radius: 50%;
-    text-align: center;
-    line-height: 20px;
-    font-weight: bold;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(106, 90, 205, 0.5);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
 }
 
 .card-close:hover {
-    color: #666;
-    background-color: whitesmoke;
+  color: #666;
+  background-color: whitesmoke;
 }
 
 .card-content {
-    height: calc(100% - 32px);
-    overflow-y: auto;
-    overflow-x: hidden;
+  height: calc(100% - 32px);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .match-row {
-    display: flex;
-    text-align: center;
-    padding: 0;
-    border-radius: 4px;
+  display: flex;
+  text-align: center;
+  padding: 0;
+  border-radius: 4px;
 }
 
 .match-row>div {
-    padding: 6px 0;
+  padding: 6px 0;
 }
 
 .match-row:nth-child(odd) {
-    background-color: rgba(143, 171, 224, 0.1);
+  background-color: rgba(143, 171, 224, 0.1);
 }
 
 .match-stage {
-    width: 48px;
+  width: 48px;
 }
 
 .match-res {
-    width: 48px;
+  width: 48px;
 }
 
 .match-ratings {
-    width: 120px;
+  width: 120px;
 }
 
 
 .match-opponent {
-    width: 200px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+  width: 200px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .match-opponent:hover {
-    background-color: rgb(235, 233, 255, 1);
-    color: slateblue;
-    transition: background-color 0.1s, color 0.1s;
-    border-radius: 3px;
+  background-color: rgb(235, 233, 255, 1);
+  color: slateblue;
+  transition: background-color 0.1s, color 0.1s;
+  border-radius: 3px;
 }
 
 .player-link {
-    cursor: pointer;
-    border-radius: 3px;
-    transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .player-link:hover {
-    background-color: rgb(235, 233, 255, 1);
-    color: slateblue;
-    transition: background-color 0.1s, color 0.1s;
+  background-color: rgb(235, 233, 255, 1);
+  color: slateblue;
+  transition: background-color 0.1s, color 0.1s;
 }
 
 .match-date {
-    width: 96px;
+  width: 96px;
 }
 
 .match-event {
-    width: 200px;
-    text-wrap: nowrap;
-    word-break: keep-all;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
-    cursor: pointer;
-    border-radius: 3px;
-    transition: background-color 0.3s, color 0.3s;
+  width: 200px;
+  text-wrap: nowrap;
+  word-break: keep-all;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .match-event:hover {
-    background-color: rgb(235, 233, 255, 1);
-    color: slateblue;
-    transition: background-color 0.1s, color 0.1s;
+  background-color: rgb(235, 233, 255, 1);
+  color: slateblue;
+  transition: background-color 0.1s, color 0.1s;
 }
 
 .match-rating-change {
-    width: 48px;
-    color: seagreen;
+  width: 48px;
+  color: seagreen;
 }
 
 .match-loss .match-rating-change {
-    color: indianred;
+  color: indianred;
 }
 
 .match-scores {
-    display: flex;
-    font-size: 14px;
-    width: 170px;
+  display: flex;
+  font-size: 14px;
+  width: 170px;
 }
 
 .match-scores-set {
-    width: 24px;
-    margin-top: -8px;
-    margin-bottom: -8px;
+  width: 24px;
+  margin-top: -8px;
+  margin-bottom: -8px;
 }
 
 .player-graph {
-    color: #eee;
-    width: 100%;
-    background-color: #222;
-    border-radius: 8px;
+  color: #eee;
+  width: 100%;
+  background-color: #222;
+  border-radius: 8px;
 }
 
 .xticks {
-    fill: #eee;
-    text-anchor: end;
+  fill: #eee;
+  text-anchor: end;
 }
 
 .yticks {
-    fill: #eee;
+  fill: #eee;
 }
 
 .xticks-line:first-of-type,
 .xticks:first-of-type {
-    display: none;
+  display: none;
 }
 
 .yrankticks {
-    fill: #eee;
+  fill: #eee;
 }
 
 .graph-container {
-    position: relative;
-    cursor: crosshair;
+  position: relative;
+  cursor: crosshair;
 }
 
 .graph-match {
-    /* stroke: rgb(183, 171, 255); */
-    stroke-width: 2px;
-    fill: none;
-    animation: shine 0.5s ease-in-out infinite alternate;
+  /* stroke: rgb(183, 171, 255); */
+  stroke-width: 2px;
+  fill: none;
+  animation: shine 0.5s ease-in-out infinite alternate;
 }
 
 @keyframes shine {
-    from {
-        stroke-width: 1px;
-    }
+  from {
+    stroke-width: 1px;
+  }
 
-    to {
-        stroke-width: 2px;
-    }
+  to {
+    stroke-width: 2px;
+  }
 }
 
 .graph-tooltip {
-    text-align: center;
-    pointer-events: none;
-    position: absolute;
-    opacity: 0;
-    min-width: 100px;
-    border: 1px solid #eee;
-    border-radius: 3px;
-    padding: 4px;
-    color: #222;
-    background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+  min-width: 100px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding: 4px;
+  color: #222;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .graph-tooltxt {
-    width: 100%;
-    bottom: 70px;
-    text-align: center;
-    pointer-events: none;
-    position: absolute;
-    color: #eee;
+  width: 100%;
+  bottom: 70px;
+  text-align: center;
+  pointer-events: none;
+  position: absolute;
+  color: #eee;
 }
 
 .tooltip-shown {
-    opacity: 1;
+  opacity: 1;
 }
 
 .graph-legend {
-    pointer-events: none;
-    transform: translate(50px, 20px);
+  pointer-events: none;
+  transform: translate(50px, 20px);
 }
 
 @media (max-width: 910px) {
@@ -282,7 +282,7 @@
     background-color: rgba(255, 255, 255, 0.02);
   }
 
-  .match-row > div {
+  .match-row>div {
     padding: 0 !important;
     width: auto !important;
   }
@@ -368,6 +368,7 @@
   from {
     transform: translateY(100%);
   }
+
   to {
     transform: translateY(0);
   }

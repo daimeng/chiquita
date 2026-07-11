@@ -128,7 +128,8 @@ export function EmptyCard({ hidePlayer }) {
 const SVG_START = 40
 const SVG_TOP = 10
 const SVG_BOT = 400
-const GRAPH_START = Date.parse('01 Jul 2022 00:00:00 GMT')
+const THREE_YEARS = 3 * 365 * 86400000
+const GRAPH_START = new Date().getTime() - THREE_YEARS
 const THIRTYDAY = 30 * 86400000
 const GRAPH_END = new Date(new Date().getTime() + THIRTYDAY);
 const GRAPH_SCALE_X = [GRAPH_START, GRAPH_END]

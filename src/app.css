@@ -31,7 +31,7 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.rank-table > .rating_row:first-child {
+.rank-table>.rating_row:first-child {
   position: sticky;
   top: 0;
   z-index: 10;
@@ -168,20 +168,65 @@ select {
   background-color: #333;
 }
 
+
+.rating_row.points-won .rating_name {
+  --highlight-color: rgba(50, 205, 50, 0.65);
+  --glow-shadow: inset 0 0 8px rgba(50, 205, 50, 0.15);
+  background-color: rgba(50, 205, 50, 0.04);
+}
+
+.rating_row.points-lost .rating_name {
+  --highlight-color: rgba(255, 99, 71, 0.65);
+  --glow-shadow: inset 0 0 8px rgba(255, 99, 71, 0.15);
+  background-color: rgba(255, 99, 71, 0.04);
+}
+
+.rating_row:is(.points-won, .points-lost) .rating_name {
+  box-shadow: inset 0 0 0 2px var(--highlight-color), var(--glow-shadow);
+  z-index: 1;
+}
+
+/* 1. Preceded by another highlighted row (no top border) */
+.rating_row:is(.points-won, .points-lost)+.rating_row:is(.points-won, .points-lost) .rating_name {
+  box-shadow: inset 2px 0 0 0 var(--highlight-color),
+    inset -2px 0 0 0 var(--highlight-color),
+    inset 0 -2px 0 0 var(--highlight-color),
+    var(--glow-shadow);
+}
+
+/* 2. Followed by another highlighted row (no bottom border) */
+.rating_row:is(.points-won, .points-lost):has(+ :is(.points-won, .points-lost)) .rating_name {
+  box-shadow: inset 2px 0 0 0 var(--highlight-color),
+    inset -2px 0 0 0 var(--highlight-color),
+    inset 0 2px 0 0 var(--highlight-color),
+    var(--glow-shadow);
+}
+
+/* 3. Both preceded and followed by a highlighted row (no top or bottom border) */
+.rating_row:is(.points-won, .points-lost)+.rating_row:is(.points-won, .points-lost):has(+ :is(.points-won, .points-lost)) .rating_name {
+  box-shadow: inset 2px 0 0 0 var(--highlight-color),
+    inset -2px 0 0 0 var(--highlight-color),
+    var(--glow-shadow);
+}
+
 .rating_row>span {
   padding: 8px 0;
   /* border: 1px solid red; */
   /* margin: -0.5px; */
 }
 
+.rating_row>span:not(.rating_bar) {
+  flex: none;
+}
+
 .rating_rank {
-  width: 64px;
+  width: 32px;
 }
 
 .rating_rank_delta {
   position: relative;
   font-weight: bold;
-  width: 64px;
+  width: 24px;
   text-align: left;
   color: transparent;
   transition: none;
@@ -193,7 +238,9 @@ select {
   transition: color 0.2s ease-in;
 }
 
-
+.rating_rank_delta.passive {
+  opacity: 0.5;
+}
 
 .rating_rank_delta.negative {
   color: tomato;
@@ -201,16 +248,16 @@ select {
 }
 
 .rating_flag {
-  width: 48px;
+  width: 24px;
 }
 
 .rating_org {
   color: #777;
-  width: 72px;
+  width: 32px;
 }
 
 .rating_name {
-  width: 420px;
+  width: 300px;
   overflow: hidden;
   word-break: keep-all;
   text-wrap: nowrap;
@@ -218,6 +265,9 @@ select {
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
+  box-sizing: border-box;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .rating_name:hover {
@@ -227,14 +277,18 @@ select {
 }
 
 .rating_rating {
-  width: 100px;
-  text-align: center;
+  width: 48px;
+  text-align: right;
+}
+
+.rating_rating.stale {
+  color: #f7e38b;
 }
 
 .rating_delta {
   font-weight: bold;
-  width: 64px;
-  text-align: left;
+  width: 40px;
+  text-align: right;
   color: transparent;
   transition: none;
   /* transition-delay: 1s; */
@@ -250,20 +304,89 @@ select {
   transition: color 0.2s ease-in;
 }
 
+.rating_delta .delta_number {
+  display: none;
+}
+
+.rank-table:has(.rating_delta:hover) .rating_delta .delta_number {
+  display: inline;
+}
+
+.rank-table:has(.rating_delta:hover) .rating_delta .delta_chars {
+  display: none;
+}
+
+.rating_dev,
+.rating_slope {
+  width: 32px;
+  text-align: center;
+}
+
 .rating_dev {
   color: #777;
-  width: 64px;
-  text-align: center;
+}
+
+.rating_slope {
+  font-weight: bold;
 }
 
 .rating_active {
   color: #777;
-  width: 180px;
+  width: 100px;
+}
+
+.rating_sparkline {
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00ffd2;
+}
+
+.rating_slope.positive {
+  color: limegreen;
+}
+
+.rating_slope.negative {
+  color: tomato;
+}
+
+/* Tooltip container */
+.has-tooltip {
+  position: relative;
+  cursor: help;
+}
+
+/* Tooltip text - positioned below the header to avoid clipping */
+.has-tooltip .tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 100;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.has-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
 }
 
 .rating_bar {
   text-align: left;
-  width: 100%;
+  flex: 1 1 auto;
 }
 
 .rating_bar>span {
@@ -330,6 +453,7 @@ select {
 }
 
 @media (max-width: 910px) {
+
   /* Controls styling */
   .rating_controls {
     display: grid !important;
@@ -346,7 +470,7 @@ select {
     display: none !important;
   }
 
-  .rating_controls > div:first-child {
+  .rating_controls>div:first-child {
     grid-column: 1;
     grid-row: 1;
     display: flex;
@@ -378,7 +502,7 @@ select {
     gap: 4px;
   }
 
-  .set-event > select {
+  .set-event>select {
     flex-grow: 1;
     min-width: 0;
   }
@@ -393,11 +517,12 @@ select {
     gap: 12px;
   }
 
-  .set-maxdev > input {
+  .set-maxdev>input {
     flex-grow: 1;
   }
 
-  button, select {
+  button,
+  select {
     padding: 4px 12px !important;
     font-size: 16px;
   }
@@ -413,7 +538,9 @@ select {
   /* Table styling */
   .rating_org,
   .rating_active,
-  .rating_bar {
+  .rating_bar,
+  .rating_sparkline,
+  .rating_dev {
     display: none !important;
   }
 
@@ -424,15 +551,14 @@ select {
   }
 
   .rating_rank {
-    width: 36px !important;
+    width: 32px !important;
     text-align: center;
   }
 
   .rating_rank_delta {
     display: block !important;
-    width: 40px !important;
-    text-align: right !important;
-    margin-right: 4px;
+    width: 24px !important;
+    text-align: left !important;
   }
 
 
@@ -443,15 +569,15 @@ select {
 
   .rating_name {
     width: auto !important;
-    flex-grow: 1;
-    text-align: left;
-    padding-left: 8px;
+    flex: 1 1 auto !important;
+    text-align: center;
+    padding-left: 0;
     font-size: 17px;
   }
 
   .rating_rating {
-    width: 50px !important;
-    text-align: right;
+    width: 48px !important;
+    text-align: right !important;
     font-weight: bold;
     font-size: 17px;
   }
@@ -462,10 +588,9 @@ select {
     text-align: right !important;
   }
 
-  .rating_dev {
+  .rating_slope {
     display: block !important;
-    width: 44px !important;
-    color: #777;
+    width: 32px !important;
     text-align: center;
   }
 }

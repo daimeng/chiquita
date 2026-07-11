@@ -21,6 +21,13 @@ function App() {
   const [openPlayers, setOpenPlayers] = useState([])
   const [openTournament, setOpenTournament] = useState(null)
   const [bracketOpen, setBracketOpen] = useState(false)
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 910)
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 910)
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   useEffect(() => {
     Promise.all([init, init_doubles]).then(() => {
@@ -71,7 +78,7 @@ function App() {
             <button className="event-left" onClick={() => setEvent(ev => Math.max(ev - 1, 0))}>◀</button>
             <select value={event} onChange={handleSetEvent}>
               {tournaments.map((t, i) => {
-                return <option key={t.EventId} value={i}>{`${t.EventName}`}</option>
+                return <option key={t.EventId} value={i}>{isMobile ? t.ShortName : t.EventName}</option>
               })}
             </select>
             <button className="event-open" onClick={() => { setOpenTournament(tournamentsByIx[event].EventId); hidePlayer() }}>show</button>
@@ -211,6 +218,7 @@ function RankTable({ event, top, gender, maxdev, showPlayer }) {
           event={event}
           lastRanking={lastRanking}
           showPlayer={showPlayer}
+          maxdev={maxdev}
         />
       )
     }
@@ -226,6 +234,11 @@ function RankTable({ event, top, gender, maxdev, showPlayer }) {
         <span className="rating_name">name</span>
         <span className="rating_rating">pts</span>
         <span className="rating_delta"></span>
+        <span className="rating_sparkline">trend</span>
+        <span className="rating_slope has-tooltip">
+          ppm
+          <div className="tooltip-text">Points per month</div>
+        </span>
         <span className="rating_dev">±</span>
         <span className="rating_active">active</span>
         <span className="rating_bar"></span>
@@ -250,7 +263,7 @@ const rowtransition = {
 
 const FMT_DATE = new Date()
 
-function RankRow({ r, i, playerId, event, lastRanking, showPlayer }) {
+function RankRow({ r, i, playerId, event, lastRanking, showPlayer, maxdev }) {
   const player = playerById.get(playerId)
 
   const { rating, rd, last_active } = r
@@ -265,27 +278,77 @@ function RankRow({ r, i, playerId, event, lastRanking, showPlayer }) {
     }
   }
 
-  const lr = lastRanking.has(playerId) ? lastRanking.get(playerId) : Infinity
+  const lr = lastRanking.get(playerId) === undefined ? Infinity : lastRanking.get(playerId)
+  const rankChangedWithoutRating = rating_delta === 0 && lr !== Infinity && i !== null && lr - i !== 0
+
+  let deltaChars = '';
+  if (rating_delta > 0) {
+    deltaChars = '+'.repeat(Math.min(5, Math.ceil(rating_delta / 10)));
+  } else if (rating_delta < 0) {
+    deltaChars = '-'.repeat(Math.min(5, Math.ceil(Math.abs(rating_delta) / 10)));
+  }
+
+  const currentEventTime = Date.parse(tournaments[event].EndDateTime)
+  const oneYearAgo = currentEventTime - 365 * 24 * 60 * 60 * 1000
+
+  const points = []
+  for (let e = 0; e <= event; e++) {
+    const eTime = Date.parse(tournaments[e].EndDateTime)
+    if (eTime >= oneYearAgo && eTime <= currentEventTime) {
+      const rObj = all_ratings[e]?.get(playerId)
+      if (rObj && rObj.rd <= maxdev) {
+        points.push({ time: eTime, rating: rObj.rating })
+      }
+    }
+  }
+
+  let ppmStr = '--'
+  let ppmClass = ''
+  if (points.length >= 2) {
+    let sumX = 0
+    let sumY = 0
+    let sumXY = 0
+    let sumXX = 0
+    for (let p of points) {
+      const xVal = (p.time - oneYearAgo) / (24 * 60 * 60 * 1000)
+      const yVal = p.rating
+      sumX += xVal
+      sumY += yVal
+      sumXY += xVal * yVal
+      sumXX += xVal * xVal
+    }
+    const denominator = points.length * sumXX - sumX * sumX
+    const slope = denominator === 0 ? 0 : (points.length * sumXY - sumX * sumY) / denominator
+    const ppm = slope * 30
+    const roundedPpm = Math.round(ppm)
+    ppmStr = roundedPpm > 0 ? `+${roundedPpm}` : `${roundedPpm}`
+    ppmClass = roundedPpm > 0 ? 'positive' : roundedPpm < 0 ? 'negative' : ''
+  }
 
   return (
     <motion.div
-      className="rating_row"
+      className={`rating_row ${rating_delta > 0 ? 'points-won' : rating_delta < 0 ? 'points-lost' : ''}`}
       layout
       transition={rowtransition}
     >
       <span className="rating_rank">{i == null ? '--' : i + 1}</span>
-      <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''}`}>
-        {lr === Infinity || i === null ? '--' : Math.abs(lr - i)}
+      <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''} ${rankChangedWithoutRating ? 'passive' : ''}`}>
+        {i === null ? '--' : (lr === Infinity ? '>>' : Math.abs(lr - i))}
       </span>
       <span className="rating_flag">
         <span className={`fi fi-${ISO3to2[player.org]}`}></span>
       </span>
       <span className="rating_org">{player.org}</span>
       <span className="rating_name" data-playerid={playerId} onClick={showPlayer}>{player.name}</span>
-      <span className="rating_rating">{Math.floor(rating)}</span>
+      <span className={`rating_rating ${rd > 80 ? 'stale' : ''}`}>{Math.floor(rating)}</span>
       <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
-        {Math.abs(rating_delta)}
+        <span className="delta_chars">{deltaChars}</span>
+        <span className="delta_number">{Math.abs(rating_delta)}</span>
       </span>
+      <span className="rating_sparkline">
+        <Sparkline points={points} oneYearAgo={oneYearAgo} currentEventTime={currentEventTime} />
+      </span>
+      <span className={`rating_slope ${ppmClass}`}>{ppmStr}</span>
       <span className="rating_dev">{Math.floor(rd)}</span>
       <span className="rating_active">{date}</span>
       <span className="rating_bar">
@@ -361,6 +424,11 @@ function DoublesRankTable({ event, top, gender, showPlayer }) {
         <span className="rating_name">name</span>
         <span className="rating_rating">pts</span>
         <span className="rating_delta"></span>
+        <span className="rating_sparkline">trend</span>
+        <span className="rating_slope has-tooltip">
+          ppm
+          <div className="tooltip-text">Points per month</div>
+        </span>
         <span className="rating_active">active</span>
         <span className="rating_bar"></span>
       </div>
@@ -400,16 +468,61 @@ function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer
   }
 
   const lr = getRankVal(lastRanking, playerId)
+  const rankChangedWithoutRating = rating_delta === 0 && lr !== Infinity && i !== null && lr - i !== 0
+
+  let deltaChars = '';
+  if (rating_delta > 0) {
+    deltaChars = '+'.repeat(Math.min(5, Math.ceil(rating_delta / 10)));
+  } else if (rating_delta < 0) {
+    deltaChars = '-'.repeat(Math.min(5, Math.ceil(Math.abs(rating_delta) / 10)));
+  }
+
+  const currentEventTime = Date.parse(tournaments[event].EndDateTime)
+  const oneYearAgo = currentEventTime - 365 * 24 * 60 * 60 * 1000
+
+  const points = []
+  for (let e = 0; e <= event; e++) {
+    const eTime = Date.parse(tournaments[e].EndDateTime)
+    if (eTime >= oneYearAgo && eTime <= currentEventTime) {
+      const rObj = doubles_all_ratings[e]?.get(playerId)
+      if (rObj) {
+        points.push({ time: eTime, rating: rObj.rating })
+      }
+    }
+  }
+
+  let ppmStr = '--'
+  let ppmClass = ''
+  if (points.length >= 2) {
+    let sumX = 0
+    let sumY = 0
+    let sumXY = 0
+    let sumXX = 0
+    for (let p of points) {
+      const xVal = (p.time - oneYearAgo) / (24 * 60 * 60 * 1000)
+      const yVal = p.rating
+      sumX += xVal
+      sumY += yVal
+      sumXY += xVal * yVal
+      sumXX += xVal * xVal
+    }
+    const denominator = points.length * sumXX - sumX * sumX
+    const slope = denominator === 0 ? 0 : (points.length * sumXY - sumX * sumY) / denominator
+    const ppm = slope * 30
+    const roundedPpm = Math.round(ppm)
+    ppmStr = roundedPpm > 0 ? `+${roundedPpm}` : `${roundedPpm}`
+    ppmClass = roundedPpm > 0 ? 'positive' : roundedPpm < 0 ? 'negative' : ''
+  }
 
   return (
     <motion.div
-      className="rating_row"
+      className={`rating_row ${rating_delta > 0 ? 'points-won' : rating_delta < 0 ? 'points-lost' : ''}`}
       layout
       transition={rowtransition}
     >
       <span className="rating_rank">{i == null ? '--' : i + 1}</span>
-      <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''}`}>
-        {lr === Infinity || i === null ? '--' : Math.abs(lr - i)}
+      <span className={`rating_rank_delta ${lr - i < 0 ? 'negative' : lr - i > 0 ? 'positive' : ''} ${rankChangedWithoutRating ? 'passive' : ''}`}>
+        {i === null ? '--' : (lr === Infinity ? '>>' : Math.abs(lr - i))}
       </span>
       <span className="rating_flag">
         <span className={`fi fi-${ISO3to2[player.org]}`}></span>
@@ -418,8 +531,13 @@ function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer
       <span className="rating_name" data-playerid={playerId} onClick={showPlayer}>{player.name}</span>
       <span className="rating_rating">{Math.floor(rating)}</span>
       <span className={`rating_delta ${rating_delta < 0 ? 'negative' : rating_delta > 0 ? 'positive' : ''}`}>
-        {Math.abs(rating_delta)}
+        <span className="delta_chars">{deltaChars}</span>
+        <span className="delta_number">{Math.abs(rating_delta)}</span>
       </span>
+      <span className="rating_sparkline">
+        <Sparkline points={points} oneYearAgo={oneYearAgo} currentEventTime={currentEventTime} />
+      </span>
+      <span className={`rating_slope ${ppmClass}`}>{ppmStr}</span>
       <span className="rating_active">{date}</span>
       <span className="rating_bar">
         <span style={{
@@ -429,5 +547,67 @@ function DoublesRankRow({ r, i, playerId, event, lastRanking, gender, showPlayer
         </span>
       </span>
     </motion.div>
+  )
+}
+
+function Sparkline({ points, oneYearAgo, currentEventTime }) {
+  const width = 80
+  const height = 20
+  const padding = 2
+
+  if (!points || points.length === 0) {
+    return <span style={{ color: '#555' }}>--</span>
+  }
+
+  if (points.length === 1) {
+    const x = ((points[0].time - oneYearAgo) / (currentEventTime - oneYearAgo)) * width
+    return (
+      <svg width={width} height={height} style={{ overflow: 'visible' }}>
+        <line
+          x1={0}
+          y1={height / 2}
+          x2={width}
+          y2={height / 2}
+          stroke="currentColor"
+          strokeWidth={1.5}
+          opacity={0.4}
+        />
+        <circle cx={x} cy={height / 2} r={3} fill="currentColor" />
+      </svg>
+    )
+  }
+
+  const ratings = points.map(p => p.rating)
+  const minRating = Math.min(...ratings)
+  const maxRating = Math.max(...ratings)
+  const range = maxRating - minRating
+
+  const pathParts = points.map((p, index) => {
+    const x = ((p.time - oneYearAgo) / (currentEventTime - oneYearAgo)) * width
+    const y = range === 0
+      ? height / 2
+      : height - padding - ((p.rating - minRating) / range) * (height - 2 * padding)
+    return `${index === 0 ? 'M' : 'L'} ${x.toFixed(1)} ${y.toFixed(1)}`
+  })
+  const d = pathParts.join(' ')
+
+  const lastPoint = points[points.length - 1]
+  const lastX = ((lastPoint.time - oneYearAgo) / (currentEventTime - oneYearAgo)) * width
+  const lastY = range === 0
+    ? height / 2
+    : height - padding - ((lastPoint.rating - minRating) / range) * (height - 2 * padding)
+
+  return (
+    <svg width={width} height={height} style={{ overflow: 'visible' }}>
+      <path
+        d={d}
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.5}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <circle cx={lastX} cy={lastY} r={2.5} fill="currentColor" />
+    </svg>
   )
 }
