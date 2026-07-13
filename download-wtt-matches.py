@@ -12,7 +12,7 @@ logger = logging.getLogger('download_logger')
 logger.setLevel(logging.INFO)
 logger.propagate = False  # Prevent messages from propagating to the root logger/stdout
 
-file_handler = logging.FileHandler('download_log.txt', mode='a', encoding='utf-8')
+file_handler = logging.FileHandler('download_log.txt', mode='w', encoding='utf-8')
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
@@ -122,7 +122,15 @@ async def main():
 
         tf = pd.read_csv('data/tournaments_wtt.tsv', sep='\t', parse_dates=['StartDateTime', 'EndDateTime'])
         logger.info(f"Loaded {len(tf)} tournament records from TSV")
-        for row in tf[tf.EndDateTime < datetime.now()].itertuples():
+        for row in tf.itertuples():
+            end_time = row.EndDateTime
+            if end_time.time() == datetime.min.time():
+                end_time = end_time + pd.Timedelta(days=1)
+
+            if end_time >= datetime.now():
+                logger.info(f"Event {row.EventId} ({row.EventName}) has not ended yet (EndDateTime: {row.EndDateTime}), skipping download")
+                continue
+
             print(f'Processing Event {row.EventId}')
             path = os.path.join('data/wtt_matches', f'{row.EventId}')
             if os.path.exists(path):
