@@ -1,0 +1,105 @@
+{
+  "id": 15440070,
+  "eventId": "3363",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "123305",
+        "competitiorName": "DE NODREST Leo",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123305",
+            "playerName": "DE NODREST Leo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "15,9,4,11,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "123031",
+        "competitiorName": "TEODORO Guilherme",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123031",
+            "playerName": "TEODORO Guilherme",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "13,11,11,5,9",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "15-13,9-11,4-11,11-5,11-9",
+    "resultsGameScores": "15-13,9-11,4-11,11-5,11-9",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "123031",
+      "serverReceiver": "123305",
+      "serverNext": "123031",
+      "serverCompetitor": "123031",
+      "receiverNext": "123305"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:45:42",
+      "startDateLocal": "07/12/2026 11:10:00",
+      "startDateUTC": "07/12/2026 14:10:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "299",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": "2026-07-12T14:34:06.33Z"
+  },
+  "startDateLocal": "2026-07-12T11:10:00"
+}

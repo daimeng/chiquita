@@ -1,0 +1,121 @@
+{
+  "id": 15427799,
+  "eventId": "3363",
+  "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "56634",
+        "competitiorName": "TEODORO Guilherme/TAKAHASHI Giulia",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123031",
+            "playerName": "TEODORO Guilherme",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133478",
+            "playerName": "TAKAHASHI Giulia",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "16,8,8,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "42026",
+        "competitiorName": "GOMEZ Gustavo/ORTEGA Daniela",
+        "competitiorOrg": "CHI",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111683",
+            "playerName": "GOMEZ Gustavo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "117294",
+            "playerName": "ORTEGA Daniela",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "18,11,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "16-18,8-11,8-11,0-0,0-0",
+    "resultsGameScores": "16-18,8-11,8-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "133478",
+      "serverReceiver": "117294",
+      "serverNext": "133478",
+      "serverCompetitor": "56634",
+      "receiverNext": "117294"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:31:41",
+      "startDateLocal": "07/11/2026 20:00:00",
+      "startDateUTC": "07/11/2026 23:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "223",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-11T20:00:00"
+}

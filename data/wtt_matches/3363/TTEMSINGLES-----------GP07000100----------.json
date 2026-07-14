@@ -1,0 +1,105 @@
+{
+  "id": 15350527,
+  "eventId": "3363",
+  "documentCode": "TTEMSINGLES-----------GP07000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEMSINGLES-----------GP07000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 7 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "112125",
+        "competitiorName": "VILA Isaac",
+        "competitiorOrg": "DOM",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "112125",
+            "playerName": "VILA Isaac",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "DOM",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "5,6,7,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "136124",
+        "competitiorName": "GUILLOT Jose",
+        "competitiorOrg": "ESP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136124",
+            "playerName": "GUILLOT Jose",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "5-11,6-11,7-11,0-0,0-0",
+    "resultsGameScores": "5-11,6-11,7-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136124",
+      "serverReceiver": "112125",
+      "serverNext": "136124",
+      "serverCompetitor": "136124",
+      "receiverNext": "112125"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:20:39",
+      "startDateLocal": "07/08/2026 11:10:00",
+      "startDateUTC": "07/08/2026 14:10:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "140",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-08T11:10:00"
+}

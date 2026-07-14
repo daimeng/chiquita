@@ -1,0 +1,105 @@
+{
+  "id": 15367811,
+  "eventId": "3363",
+  "documentCode": "TTEMSINGLES-----------GP06000500----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEMSINGLES-----------GP06000500----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 6 - Match 5",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "200415",
+        "competitiorName": "BEDOYA Sebastian",
+        "competitiorOrg": "COL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "200415",
+            "playerName": "BEDOYA Sebastian",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "COL",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "202046",
+        "competitiorName": "RIVEROS Saul",
+        "competitiorOrg": "PAR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "202046",
+            "playerName": "RIVEROS Saul",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PAR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "4,4,6,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "11-4,11-4,11-6,0-0,0-0",
+    "resultsGameScores": "11-4,11-4,11-6,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "202046",
+      "serverReceiver": "200415",
+      "serverNext": "202046",
+      "serverCompetitor": "202046",
+      "receiverNext": "200415"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:11:58",
+      "startDateLocal": "07/09/2026 11:10:00",
+      "startDateUTC": "07/09/2026 14:10:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "129",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-09T11:10:00"
+}

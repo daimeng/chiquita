@@ -1,0 +1,121 @@
+{
+  "id": 15349385,
+  "eventId": "3363",
+  "documentCode": "TTEXDOUBLES-----------RND1000700----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEXDOUBLES-----------RND1000700----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 7",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100256547",
+        "competitiorName": "VARELA Franco/MOLERO Candela",
+        "competitiorOrg": "ARG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "200724",
+            "playerName": "VARELA Franco",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ARG",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "116364",
+            "playerName": "MOLERO Candela",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ARG",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,8,11,11,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100256528",
+        "competitiorName": "CARVALHO Dennis/PRATES Jessica",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "118136",
+            "playerName": "CARVALHO Dennis",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "122786",
+            "playerName": "PRATES Jessica",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,5,5,3",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "8-11,8-11,11-5,11-5,11-3",
+    "resultsGameScores": "8-11,8-11,11-5,11-5,11-3",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "200724",
+      "serverReceiver": "118136",
+      "serverNext": "200724",
+      "serverCompetitor": "100256547",
+      "receiverNext": "118136"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:33:00",
+      "startDateLocal": "07/08/2026 10:00:00",
+      "startDateUTC": "07/08/2026 13:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "233",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-08T10:00:00"
+}

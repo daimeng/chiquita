@@ -1,0 +1,121 @@
+{
+  "id": 15390817,
+  "eventId": "3363",
+  "documentCode": "TTEXDOUBLES-----------8FNL000500----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEXDOUBLES-----------8FNL000500----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 5",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100258572",
+        "competitiorName": "GUILLOT Jose/LEON Edmarie",
+        "competitiorOrg": "ESP/PUR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136124",
+            "playerName": "GUILLOT Jose",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137185",
+            "playerName": "LEON Edmarie",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PUR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,11,12,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100236324",
+        "competitiorName": "ARADO Felipe/WATANABE Laura",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "200389",
+            "playerName": "ARADO Felipe",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "136420",
+            "playerName": "WATANABE Laura",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,6,10,4,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "8-11,11-6,12-10,11-4,0-0",
+    "resultsGameScores": "8-11,11-6,12-10,11-4,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "200389",
+      "serverReceiver": "137185",
+      "serverNext": "200389",
+      "serverCompetitor": "100236324",
+      "receiverNext": "137185"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:33:57",
+      "startDateLocal": "07/10/2026 10:00:00",
+      "startDateUTC": "07/10/2026 13:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "210",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-10T10:00:00"
+}

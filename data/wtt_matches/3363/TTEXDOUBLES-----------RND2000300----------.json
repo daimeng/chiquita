@@ -1,0 +1,121 @@
+{
+  "id": 15367233,
+  "eventId": "3363",
+  "documentCode": "TTEXDOUBLES-----------RND2000300----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEXDOUBLES-----------RND2000300----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100258572",
+        "competitiorName": "GUILLOT Jose/LEON Edmarie",
+        "competitiorOrg": "ESP/PUR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136124",
+            "playerName": "GUILLOT Jose",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137185",
+            "playerName": "LEON Edmarie",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PUR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,11,11,10,12",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100145312",
+        "competitiorName": "RIOS Enrique/MELENDEZ Kristal",
+        "competitiorOrg": "PUR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "146307",
+            "playerName": "RIOS Enrique",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PUR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137183",
+            "playerName": "MELENDEZ Kristal",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PUR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,7,9,12,10",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "7-11,11-7,11-9,10-12,12-10",
+    "resultsGameScores": "7-11,11-7,11-9,10-12,12-10",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "146307",
+      "serverReceiver": "137185",
+      "serverNext": "146307",
+      "serverCompetitor": "100145312",
+      "receiverNext": "137185"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:53:17",
+      "startDateLocal": "07/09/2026 10:00:00",
+      "startDateUTC": "07/09/2026 13:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "294",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-09T10:00:00"
+}

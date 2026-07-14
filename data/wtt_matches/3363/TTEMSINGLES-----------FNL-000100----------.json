@@ -1,0 +1,105 @@
+{
+  "id": 15441488,
+  "eventId": "3363",
+  "documentCode": "TTEMSINGLES-----------FNL-000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEMSINGLES-----------FNL-000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Final - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "123305",
+        "competitiorName": "DE NODREST Leo",
+        "competitiorOrg": "FRA",
+        "compCardY": "1",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123305",
+            "playerName": "DE NODREST Leo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,8,9,11,8",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "136116",
+        "competitiorName": "KOURAICHI Alexis",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136116",
+            "playerName": "KOURAICHI Alexis",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "9,11,11,7,11",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-9,8-11,9-11,11-7,8-11",
+    "resultsGameScores": "11-9,8-11,9-11,11-7,8-11",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "123305",
+      "serverReceiver": "136116",
+      "serverNext": "123305",
+      "serverCompetitor": "123305",
+      "receiverNext": "136116"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:46:29",
+      "startDateLocal": "07/12/2026 18:15:00",
+      "startDateUTC": "07/12/2026 21:15:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "273",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-12T18:15:00"
+}

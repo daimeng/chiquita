@@ -1,0 +1,121 @@
+{
+  "id": 15440953,
+  "eventId": "3363",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Final - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "42032",
+        "competitiorName": "GOMEZ Gustavo/BURGOS Nicolas",
+        "competitiorOrg": "CHI",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111683",
+            "playerName": "GOMEZ Gustavo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133441",
+            "playerName": "BURGOS Nicolas",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,5,11,9,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "46519",
+        "competitiorName": "DE NODREST Leo/PICARD Vincent",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123305",
+            "playerName": "DE NODREST Leo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "121690",
+            "playerName": "PICARD Vincent",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,7,11,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "6-11,5-11,11-7,9-11,0-0",
+    "resultsGameScores": "6-11,5-11,11-7,9-11,0-0",
+    "overallScores": "1-3",
+    "resultOverallScores": "1-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "121690",
+      "serverReceiver": "111683",
+      "serverNext": "121690",
+      "serverCompetitor": "46519",
+      "receiverNext": "111683"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:25:26",
+      "startDateLocal": "07/12/2026 17:05:00",
+      "startDateUTC": "07/12/2026 20:05:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "210",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-12T17:05:00"
+}

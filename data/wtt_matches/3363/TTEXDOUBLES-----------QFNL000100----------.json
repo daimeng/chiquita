@@ -1,0 +1,121 @@
+{
+  "id": 15421245,
+  "eventId": "3363",
+  "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "56634",
+        "competitiorName": "TEODORO Guilherme/TAKAHASHI Giulia",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123031",
+            "playerName": "TEODORO Guilherme",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133478",
+            "playerName": "TAKAHASHI Giulia",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "12,7,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100179440",
+        "competitiorName": "VILA Ramon/BRITO Eva",
+        "competitiorOrg": "DOM",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145366",
+            "playerName": "VILA Ramon",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "DOM",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "111517",
+            "playerName": "BRITO Eva",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "DOM",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "10,11,5,6,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "12-10,7-11,11-5,11-6,0-0",
+    "resultsGameScores": "12-10,7-11,11-5,11-6,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "145366",
+      "serverReceiver": "123031",
+      "serverNext": "145366",
+      "serverCompetitor": "100179440",
+      "receiverNext": "123031"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:30:31",
+      "startDateLocal": "07/11/2026 10:00:00",
+      "startDateUTC": "07/11/2026 13:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "208",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-11T10:00:00"
+}

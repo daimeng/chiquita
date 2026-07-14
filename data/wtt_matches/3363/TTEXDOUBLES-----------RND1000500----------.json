@@ -1,0 +1,121 @@
+{
+  "id": 15349266,
+  "eventId": "3363",
+  "documentCode": "TTEXDOUBLES-----------RND1000500----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEXDOUBLES-----------RND1000500----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 5",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100256538",
+        "competitiorName": "YAMANE Hamilton/KANASHIRO Beatriz",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "146021",
+            "playerName": "YAMANE Hamilton",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "146213",
+            "playerName": "KANASHIRO Beatriz",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "12,7,5,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100258572",
+        "competitiorName": "GUILLOT Jose/LEON Edmarie",
+        "competitiorOrg": "ESP/PUR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136124",
+            "playerName": "GUILLOT Jose",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137185",
+            "playerName": "LEON Edmarie",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PUR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "14,11,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "12-14,7-11,5-11,0-0,0-0",
+    "resultsGameScores": "12-14,7-11,5-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "146213",
+      "serverReceiver": "137185",
+      "serverNext": "146213",
+      "serverCompetitor": "100256538",
+      "receiverNext": "137185"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:23:34",
+      "startDateLocal": "07/08/2026 10:00:00",
+      "startDateUTC": "07/08/2026 13:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "174",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-08T10:00:00"
+}

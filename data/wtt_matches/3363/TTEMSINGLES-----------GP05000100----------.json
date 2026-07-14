@@ -1,0 +1,105 @@
+{
+  "id": 15350882,
+  "eventId": "3363",
+  "documentCode": "TTEMSINGLES-----------GP05000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEMSINGLES-----------GP05000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 5 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T04",
+    "tableName": "Table 4",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "106298",
+        "competitiorName": "MONTEIRO Thiago",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "106298",
+            "playerName": "MONTEIRO Thiago",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "205001",
+        "competitiorName": "FERNANDEZ Jose",
+        "competitiorOrg": "PAR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "205001",
+            "playerName": "FERNANDEZ Jose",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PAR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "2,6,2,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "11-2,11-6,11-2,0-0,0-0",
+    "resultsGameScores": "11-2,11-6,11-2,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "205001",
+      "serverReceiver": "106298",
+      "serverNext": "205001",
+      "serverCompetitor": "205001",
+      "receiverNext": "106298"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:10:38",
+      "startDateLocal": "07/08/2026 11:45:00",
+      "startDateUTC": "07/08/2026 14:45:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "120",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-08T11:45:00"
+}

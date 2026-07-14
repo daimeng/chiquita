@@ -1,0 +1,105 @@
+{
+  "id": 15350433,
+  "eventId": "3363",
+  "documentCode": "TTEMSINGLES-----------GP04000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEMSINGLES-----------GP04000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 4 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "145366",
+        "competitiorName": "VILA Ramon",
+        "competitiorOrg": "DOM",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145366",
+            "playerName": "VILA Ramon",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "DOM",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "12,11,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "202053",
+        "competitiorName": "DOLDAN Fabrico",
+        "competitiorOrg": "PAR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "202053",
+            "playerName": "DOLDAN Fabrico",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PAR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "10,9,5,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "12-10,11-9,11-5,0-0,0-0",
+    "resultsGameScores": "12-10,11-9,11-5,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "202053",
+      "serverReceiver": "145366",
+      "serverNext": "202053",
+      "serverCompetitor": "202053",
+      "receiverNext": "145366"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:15:36",
+      "startDateLocal": "07/08/2026 11:10:00",
+      "startDateUTC": "07/08/2026 14:10:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "170",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-08T11:10:00"
+}

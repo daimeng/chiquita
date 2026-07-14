@@ -1,0 +1,121 @@
+{
+  "id": 15396228,
+  "eventId": "3363",
+  "documentCode": "TTEMDOUBLES-----------8FNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEMDOUBLES-----------8FNL000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Round of 16 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "42032",
+        "competitiorName": "GOMEZ Gustavo/BURGOS Nicolas",
+        "competitiorOrg": "CHI",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111683",
+            "playerName": "GOMEZ Gustavo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133441",
+            "playerName": "BURGOS Nicolas",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,13,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100121816",
+        "competitiorName": "ARADO Felipe/YAMANE Hamilton",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "200389",
+            "playerName": "ARADO Felipe",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "146021",
+            "playerName": "YAMANE Hamilton",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,11,2,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "11-5,13-11,11-2,0-0,0-0",
+    "resultsGameScores": "11-5,13-11,11-2,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "133441",
+      "serverReceiver": "146021",
+      "serverNext": "133441",
+      "serverCompetitor": "42032",
+      "receiverNext": "146021"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:18:20",
+      "startDateLocal": "07/10/2026 16:30:00",
+      "startDateUTC": "07/10/2026 19:30:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "153",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-10T16:30:00"
+}

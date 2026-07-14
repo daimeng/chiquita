@@ -1,0 +1,121 @@
+{
+  "id": 15425922,
+  "eventId": "3363",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3363",
+    "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Estadio Federación Paraguaya de Tenis de Mesa (FPTM)",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "42032",
+        "competitiorName": "GOMEZ Gustavo/BURGOS Nicolas",
+        "competitiorOrg": "CHI",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111683",
+            "playerName": "GOMEZ Gustavo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133441",
+            "playerName": "BURGOS Nicolas",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,12,11,12,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100120659",
+        "competitiorName": "AGUIRRE Marcelo/PASTORE Ivan",
+        "competitiorOrg": "PAR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111115",
+            "playerName": "AGUIRRE Marcelo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PAR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "146221",
+            "playerName": "PASTORE Ivan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PAR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,10,7,10,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "6-11,12-10,11-7,12-10,0-0",
+    "resultsGameScores": "6-11,12-10,11-7,12-10,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "111115",
+      "serverReceiver": "111683",
+      "serverNext": "111115",
+      "serverCompetitor": "100120659",
+      "receiverNext": "111683"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:31:55",
+      "startDateLocal": "07/11/2026 17:05:00",
+      "startDateUTC": "07/11/2026 20:05:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "230",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-11T17:05:00"
+}
