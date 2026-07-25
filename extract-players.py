@@ -19,7 +19,7 @@ def main():
             continue
 
         for filename in os.listdir(evt):
-            if not filename.endswith(".json"):
+            if not filename.endswith(".json") or filename == "metadata.json":
                 continue
 
             with open(os.path.join('data/wtt_matches', str(row.EventId), filename)) as f:

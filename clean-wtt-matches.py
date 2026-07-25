@@ -197,6 +197,8 @@ def parse_event(evt):
 
     for root, dirs, files in os.walk(os.path.join('data/wtt_matches', evt)):
         for file in files:
+            if file == 'metadata.json' or not file.endswith('.json'):
+                continue
             with open(os.path.join(root, file), 'r') as f:
                 match = json.load(f)
                 parse_match(match, matches)
