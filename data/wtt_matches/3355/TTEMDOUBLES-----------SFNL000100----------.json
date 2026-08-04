@@ -1,0 +1,121 @@
+{
+  "id": 13512000,
+  "eventId": "3355",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "46560",
+        "competitiorName": "ALLEGRO Martin/RASSENFOSSE Adrien",
+        "competitiorOrg": "BEL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "114848",
+            "playerName": "ALLEGRO Martin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BEL",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "123659",
+            "playerName": "RASSENFOSSE Adrien",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BEL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "14,11,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100212739",
+        "competitiorName": "KUBIK Maciej/ZALEWSKI Mateusz",
+        "competitiorOrg": "POL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "131671",
+            "playerName": "KUBIK Maciej",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135021",
+            "playerName": "ZALEWSKI Mateusz",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "12,5,8,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "14-12,11-5,11-8,0-0,0-0",
+    "resultsGameScores": "14-12,11-5,11-8,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "135021",
+      "serverReceiver": "114848",
+      "serverNext": "135021",
+      "serverCompetitor": "100212739",
+      "receiverNext": "114848"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:28:54",
+      "startDateLocal": "01/30/2026 18:05:00",
+      "startDateUTC": "01/30/2026 17:05:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "198",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-30T18:05:00"
+}

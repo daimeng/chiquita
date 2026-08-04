@@ -1,0 +1,121 @@
+{
+  "id": 12985040,
+  "eventId": "3059",
+  "documentCode": "TTEXDOUBLES-----------8FNL000700----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3059",
+    "documentCode": "TTEXDOUBLES-----------8FNL000700----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 7",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "CENTRO SPORTIVO BORMIOLI",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100175729",
+        "competitiorName": "KHARKI Iskender/MIRKADIROVA Sarvinoz",
+        "competitiorOrg": "KAZ",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "134398",
+            "playerName": "KHARKI Iskender",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KAZ",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133113",
+            "playerName": "MIRKADIROVA Sarvinoz",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KAZ",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,14,7,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100202545",
+        "competitiorName": "NARESH Nandan/MASSART Lilou",
+        "competitiorOrg": "USA/BEL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135768",
+            "playerName": "NARESH Nandan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "USA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "136258",
+            "playerName": "MASSART Lilou",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BEL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "9,6,16,11,9",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-9,11-6,14-16,7-11,11-9",
+    "resultsGameScores": "11-9,11-6,14-16,7-11,11-9",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136258",
+      "serverReceiver": "133113",
+      "serverNext": "136258",
+      "serverCompetitor": "100202545",
+      "receiverNext": "133113"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:40:57",
+      "startDateLocal": "12/01/2025 09:30:00",
+      "startDateUTC": "12/01/2025 08:30:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "304",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2025-12-01T09:30:00"
+}

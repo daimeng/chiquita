@@ -1,0 +1,121 @@
+{
+  "id": 13018404,
+  "eventId": "3059",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3059",
+    "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Final - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "CENTRO SPORTIVO BORMIOLI",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "43122",
+        "competitiorName": "FREITAS Marcos/APOLONIA Tiago",
+        "competitiorOrg": "POR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "102841",
+            "playerName": "FREITAS Marcos",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "100621",
+            "playerName": "APOLONIA Tiago",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "10,9,3,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100119521",
+        "competitiorName": "OKANO Shunsuke/YOKOTANI Jo",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "209021",
+            "playerName": "OKANO Shunsuke",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "134317",
+            "playerName": "YOKOTANI Jo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "12,11,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "10-12,9-11,3-11,0-0,0-0",
+    "resultsGameScores": "10-12,9-11,3-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "134317",
+      "serverReceiver": "102841",
+      "serverNext": "134317",
+      "serverCompetitor": "100119521",
+      "receiverNext": "102841"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:26:58",
+      "startDateLocal": "12/03/2025 16:35:00",
+      "startDateUTC": "12/03/2025 15:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "162",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2025-12-03T16:35:00"
+}

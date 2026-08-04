@@ -1,0 +1,121 @@
+{
+  "id": 13004830,
+  "eventId": "3059",
+  "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3059",
+    "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "CENTRO SPORTIVO BORMIOLI",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "37347",
+        "competitiorName": "PISTEJ Lubomir/KUKULKOVA Tatiana",
+        "competitiorOrg": "SVK",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "107445",
+            "playerName": "PISTEJ Lubomir",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SVK",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "121714",
+            "playerName": "KUKULKOVA Tatiana",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SVK",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "9,6,9,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100199021",
+        "competitiorName": "JANG Seongil/YANG Ha Eun",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "132172",
+            "playerName": "JANG Seongil",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "112368",
+            "playerName": "YANG Ha Eun",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "9-11,6-11,9-11,0-0,0-0",
+    "resultsGameScores": "9-11,6-11,9-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "132172",
+      "serverReceiver": "107445",
+      "serverNext": "132172",
+      "serverCompetitor": "100199021",
+      "receiverNext": "107445"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:20:27",
+      "startDateLocal": "12/02/2025 10:00:00",
+      "startDateUTC": "12/02/2025 09:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "161",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2025-12-02T10:00:00"
+}

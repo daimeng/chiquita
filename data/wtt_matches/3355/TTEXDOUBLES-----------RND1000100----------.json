@@ -1,0 +1,121 @@
+{
+  "id": 13444847,
+  "eventId": "3355",
+  "documentCode": "TTEXDOUBLES-----------RND1000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEXDOUBLES-----------RND1000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100212691",
+        "competitiorName": "MATI Taiwo/CHRISTENSEN Ann-Christine",
+        "competitiorOrg": "NGR/DEN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133736",
+            "playerName": "MATI Taiwo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "NGR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135866",
+            "playerName": "CHRISTENSEN Ann-Christine",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "DEN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,11,7,7,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100212787",
+        "competitiorName": "BOCCARD Sam/DOUTAZ Fanny",
+        "competitiorOrg": "SUI",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133352",
+            "playerName": "BOCCARD Sam",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SUI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137036",
+            "playerName": "DOUTAZ Fanny",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SUI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,4,11,11,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "7-11,11-4,7-11,7-11,0-0",
+    "resultsGameScores": "7-11,11-4,7-11,7-11,0-0",
+    "overallScores": "1-3",
+    "resultOverallScores": "1-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "137036",
+      "serverReceiver": "133736",
+      "serverNext": "137036",
+      "serverCompetitor": "100212787",
+      "receiverNext": "133736"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:22:17",
+      "startDateLocal": "01/28/2026 10:00:00",
+      "startDateUTC": "01/28/2026 09:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "211",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-28T10:00:00"
+}

@@ -1,0 +1,121 @@
+{
+  "id": 13018235,
+  "eventId": "3059",
+  "documentCode": "TTEWDOUBLES-----------FNL-000100----------",
+  "messagePayload": null,
+  "subEventType": "Women Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3059",
+    "documentCode": "TTEWDOUBLES-----------FNL-000100----------",
+    "subEventName": "Women's Doubles",
+    "subEventDescription": "Women's Doubles - Final - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "CENTRO SPORTIVO BORMIOLI",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100201936",
+        "competitiorName": "CHOI Seoyeon/LEE Daeun",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145805",
+            "playerName": "CHOI Seoyeon",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "132702",
+            "playerName": "LEE Daeun",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,5,11,2,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100129137",
+        "competitiorName": "AKAE Kaho/MENDE Rin",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136309",
+            "playerName": "AKAE Kaho",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "144860",
+            "playerName": "MENDE Rin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,9,11,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "5-11,5-11,11-9,2-11,0-0",
+    "resultsGameScores": "5-11,5-11,11-9,2-11,0-0",
+    "overallScores": "1-3",
+    "resultOverallScores": "1-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "144860",
+      "serverReceiver": "145805",
+      "serverNext": "144860",
+      "serverCompetitor": "100129137",
+      "receiverNext": "145805"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:24:09",
+      "startDateLocal": "12/03/2025 16:00:00",
+      "startDateUTC": "12/03/2025 15:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "191",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2025-12-03T16:00:00"
+}

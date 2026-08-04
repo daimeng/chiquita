@@ -1,0 +1,121 @@
+{
+  "id": 13495785,
+  "eventId": "3355",
+  "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100114860",
+        "competitiorName": "COTON Flavien/LUTZ Charlotte",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "144528",
+            "playerName": "COTON Flavien",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135501",
+            "playerName": "LUTZ Charlotte",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "4,11,12,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100212787",
+        "competitiorName": "BOCCARD Sam/DOUTAZ Fanny",
+        "competitiorOrg": "SUI",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133352",
+            "playerName": "BOCCARD Sam",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SUI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137036",
+            "playerName": "DOUTAZ Fanny",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SUI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,7,10,2,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "4-11,11-7,12-10,11-2,0-0",
+    "resultsGameScores": "4-11,11-7,12-10,11-2,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "144528",
+      "serverReceiver": "133352",
+      "serverNext": "144528",
+      "serverCompetitor": "100114860",
+      "receiverNext": "133352"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:27:04",
+      "startDateLocal": "01/30/2026 10:00:00",
+      "startDateUTC": "01/30/2026 09:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "199",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-30T10:00:00"
+}

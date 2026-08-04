@@ -1,0 +1,121 @@
+{
+  "id": 12747895,
+  "eventId": "3066",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3066",
+    "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Final - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Pavilhao Municipal de Vila Nova de Gaia",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "41233",
+        "competitiorName": "ROBLES Alvaro/XIAO Maria",
+        "competitiorOrg": "ESP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111050",
+            "playerName": "ROBLES Alvaro",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "111072",
+            "playerName": "XIAO Maria",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "58208",
+        "competitiorName": "WONG Qi Shen/TEE Ai Xin",
+        "competitiorOrg": "MAS",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136377",
+            "playerName": "WONG Qi Shen",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "MAS",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "134085",
+            "playerName": "TEE Ai Xin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "MAS",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,5,4,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "11-6,11-5,11-4,0-0,0-0",
+    "resultsGameScores": "11-6,11-5,11-4,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "111072",
+      "serverReceiver": "134085",
+      "serverNext": "111072",
+      "serverCompetitor": "41233",
+      "receiverNext": "134085"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:20:02",
+      "startDateLocal": "11/09/2025 12:20:00",
+      "startDateUTC": "11/09/2025 12:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "143",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2025-11-09T12:20:00"
+}

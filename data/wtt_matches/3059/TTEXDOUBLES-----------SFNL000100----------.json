@@ -1,0 +1,121 @@
+{
+  "id": 13014368,
+  "eventId": "3059",
+  "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3059",
+    "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "CENTRO SPORTIVO BORMIOLI",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100199021",
+        "competitiorName": "JANG Seongil/YANG Ha Eun",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "132172",
+            "playerName": "JANG Seongil",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "112368",
+            "playerName": "YANG Ha Eun",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,5,10,17,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100202106",
+        "competitiorName": "MONTEIRO Joao/LEAL Julia",
+        "competitiorOrg": "POR",
+        "compCardY": "1",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "106296",
+            "playerName": "MONTEIRO Joao",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "145615",
+            "playerName": "LEAL Julia",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "1,11,12,15,6",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-1,5-11,10-12,17-15,11-6",
+    "resultsGameScores": "11-1,5-11,10-12,17-15,11-6",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "145615",
+      "serverReceiver": "132172",
+      "serverNext": "145615",
+      "serverCompetitor": "100202106",
+      "receiverNext": "132172"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:44:35",
+      "startDateLocal": "12/02/2025 20:20:00",
+      "startDateUTC": "12/02/2025 19:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "293",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2025-12-02T20:20:00"
+}

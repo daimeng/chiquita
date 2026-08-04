@@ -1,0 +1,120 @@
+{
+  "id": 13007671,
+  "eventId": "3059",
+  "documentCode": "TTEMDOUBLES-----------QFNL000400----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3059",
+    "documentCode": "TTEMDOUBLES-----------QFNL000400----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Quarterfinal - Match 4",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "CENTRO SPORTIVO BORMIOLI",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100119521",
+        "competitiorName": "OKANO Shunsuke/YOKOTANI Jo",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "209021",
+            "playerName": "OKANO Shunsuke",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "134317",
+            "playerName": "YOKOTANI Jo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,11,11,4,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100173209",
+        "competitiorName": "PISTEJ Lubomir/CHO Seungmin",
+        "competitiorOrg": "SVK/KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "107445",
+            "playerName": "PISTEJ Lubomir",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SVK",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "119284",
+            "playerName": "CHO Seungmin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,4,3,11,8",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "7-11,11-4,11-3,4-11,11-8",
+    "resultsGameScores": "7-11,11-4,11-3,4-11,11-8",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "119284",
+      "serverReceiver": "209021",
+      "serverNext": "119284",
+      "serverCompetitor": "100173209",
+      "receiverNext": "209021"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:30:49",
+      "startDateLocal": "12/02/2025 11:35:00",
+      "startDateUTC": "12/02/2025 10:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "244",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2025-12-02T11:35:00"
+}

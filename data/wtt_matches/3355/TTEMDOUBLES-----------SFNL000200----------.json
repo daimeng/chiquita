@@ -1,0 +1,121 @@
+{
+  "id": 13511903,
+  "eventId": "3355",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100130153",
+        "competitiorName": "LILLO Diego/DE LAS HERAS Rafael",
+        "competitiorOrg": "ESP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133628",
+            "playerName": "LILLO Diego",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133042",
+            "playerName": "DE LAS HERAS Rafael",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,11,6,11,8",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "36654",
+        "competitiorName": "ROLLAND Jules/DE NODREST Leo",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123300",
+            "playerName": "ROLLAND Jules",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "123305",
+            "playerName": "DE NODREST Leo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,9,11,8,11",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "5-11,11-9,6-11,11-8,8-11",
+    "resultsGameScores": "5-11,11-9,6-11,11-8,8-11",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "133628",
+      "serverReceiver": "123300",
+      "serverNext": "133628",
+      "serverCompetitor": "100130153",
+      "receiverNext": "123300"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:38:57",
+      "startDateLocal": "01/30/2026 18:05:00",
+      "startDateUTC": "01/30/2026 17:05:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "266",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-30T18:05:00"
+}

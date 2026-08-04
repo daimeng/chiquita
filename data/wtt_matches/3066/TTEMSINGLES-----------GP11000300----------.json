@@ -1,0 +1,104 @@
+{
+  "id": 12660430,
+  "eventId": "3066",
+  "documentCode": "TTEMSINGLES-----------GP11000300----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3066",
+    "documentCode": "TTEMSINGLES-----------GP11000300----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 11 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Pavilhao Municipal de Vila Nova de Gaia",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "122001",
+        "competitiorName": "DEVOS Laurens",
+        "competitiorOrg": "BEL",
+        "compCardY": "1",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "122001",
+            "playerName": "DEVOS Laurens",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BEL",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,11,9,6,12",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "200159",
+        "competitiorName": "FRUCHART Benjamin",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "200159",
+            "playerName": "FRUCHART Benjamin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,9,11,11,10",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-7,11-9,9-11,6-11,12-10",
+    "resultsGameScores": "11-7,11-9,9-11,6-11,12-10",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "122001",
+      "serverReceiver": "200159",
+      "serverNext": "122001",
+      "serverCompetitor": "122001",
+      "receiverNext": "200159"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:37:23",
+      "startDateLocal": "11/05/2025 20:05:00",
+      "startDateUTC": "11/05/2025 20:05:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "280",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2025-11-05T20:05:00"
+}

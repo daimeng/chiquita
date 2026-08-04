@@ -1,0 +1,121 @@
+{
+  "id": 13469741,
+  "eventId": "3355",
+  "documentCode": "TTEXDOUBLES-----------8FNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEXDOUBLES-----------8FNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100114860",
+        "competitiorName": "COTON Flavien/LUTZ Charlotte",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "144528",
+            "playerName": "COTON Flavien",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135501",
+            "playerName": "LUTZ Charlotte",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,11,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100212775",
+        "competitiorName": "SHUSHAN Eitay/SCHOLZ Vivien",
+        "competitiorOrg": "ISR/LUX",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135219",
+            "playerName": "SHUSHAN Eitay",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ISR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "131748",
+            "playerName": "SCHOLZ Vivien",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "LUX",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,3,9,4,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "7-11,11-3,11-9,11-4,0-0",
+    "resultsGameScores": "7-11,11-3,11-9,11-4,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "135219",
+      "serverReceiver": "144528",
+      "serverNext": "135219",
+      "serverCompetitor": "100212775",
+      "receiverNext": "144528"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:26:28",
+      "startDateLocal": "01/29/2026 10:35:00",
+      "startDateUTC": "01/29/2026 09:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "194",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-29T10:35:00"
+}

@@ -1,0 +1,121 @@
+{
+  "id": 13483533,
+  "eventId": "3355",
+  "documentCode": "TTEMDOUBLES-----------8FNL000800----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEMDOUBLES-----------8FNL000800----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Round of 16 - Match 8",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100121520",
+        "competitiorName": "DOYEN Antoine/NAUMI Alex",
+        "competitiorOrg": "POR/FIN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "121687",
+            "playerName": "DOYEN Antoine",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "120674",
+            "playerName": "NAUMI Alex",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FIN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,11,8,4,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "36654",
+        "competitiorName": "ROLLAND Jules/DE NODREST Leo",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123300",
+            "playerName": "ROLLAND Jules",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "123305",
+            "playerName": "DE NODREST Leo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,9,11,11,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "5-11,11-9,8-11,4-11,0-0",
+    "resultsGameScores": "5-11,11-9,8-11,4-11,0-0",
+    "overallScores": "1-3",
+    "resultOverallScores": "1-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "123305",
+      "serverReceiver": "121687",
+      "serverNext": "123305",
+      "serverCompetitor": "36654",
+      "receiverNext": "121687"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:24:05",
+      "startDateLocal": "01/29/2026 17:30:00",
+      "startDateUTC": "01/29/2026 16:30:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "209",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-29T17:30:00"
+}

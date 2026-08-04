@@ -1,0 +1,105 @@
+{
+  "id": 13520141,
+  "eventId": "3355",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "201466",
+        "competitiorName": "VERDONSCHOT Wim",
+        "competitiorOrg": "GER",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "201466",
+            "playerName": "VERDONSCHOT Wim",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "GER",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,5,11,10,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "145799",
+        "competitiorName": "BERTELSMEIER Andre",
+        "competitiorOrg": "GER",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145799",
+            "playerName": "BERTELSMEIER Andre",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "GER",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "4,11,8,12,5",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-4,5-11,11-8,10-12,11-5",
+    "resultsGameScores": "11-4,5-11,11-8,10-12,11-5",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "145799",
+      "serverReceiver": "201466",
+      "serverNext": "145799",
+      "serverCompetitor": "145799",
+      "receiverNext": "201466"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:39:00",
+      "startDateLocal": "01/31/2026 12:10:00",
+      "startDateUTC": "01/31/2026 11:10:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "257",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-31T12:10:00"
+}

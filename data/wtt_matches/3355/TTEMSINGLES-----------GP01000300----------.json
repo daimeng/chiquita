@@ -1,0 +1,105 @@
+{
+  "id": 13447364,
+  "eventId": "3355",
+  "documentCode": "TTEMSINGLES-----------GP01000300----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEMSINGLES-----------GP01000300----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 1 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "133627",
+        "competitiorName": "PANTOJA Miguel",
+        "competitiorOrg": "ESP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133627",
+            "playerName": "PANTOJA Miguel",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,7,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "134556",
+        "competitiorName": "CAMARA Gabrielius",
+        "competitiorOrg": "NED",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "134556",
+            "playerName": "CAMARA Gabrielius",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "NED",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "9,11,9,9,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-9,7-11,11-9,11-9,0-0",
+    "resultsGameScores": "11-9,7-11,11-9,11-9,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "133627",
+      "serverReceiver": "134556",
+      "serverNext": "133627",
+      "serverCompetitor": "133627",
+      "receiverNext": "134556"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:28:25",
+      "startDateLocal": "01/28/2026 11:35:00",
+      "startDateUTC": "01/28/2026 10:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "234",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-28T11:35:00"
+}

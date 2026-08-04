@@ -1,0 +1,121 @@
+{
+  "id": 13523432,
+  "eventId": "3355",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Final - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "46560",
+        "competitiorName": "ALLEGRO Martin/RASSENFOSSE Adrien",
+        "competitiorOrg": "BEL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "114848",
+            "playerName": "ALLEGRO Martin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BEL",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "123659",
+            "playerName": "RASSENFOSSE Adrien",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BEL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,8,10,3,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "36654",
+        "competitiorName": "ROLLAND Jules/DE NODREST Leo",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123300",
+            "playerName": "ROLLAND Jules",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "123305",
+            "playerName": "DE NODREST Leo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,11,12,11,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-8,8-11,10-12,3-11,0-0",
+    "resultsGameScores": "11-8,8-11,10-12,3-11,0-0",
+    "overallScores": "1-3",
+    "resultOverallScores": "1-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "123659",
+      "serverReceiver": "123305",
+      "serverNext": "123659",
+      "serverCompetitor": "46560",
+      "receiverNext": "123305"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:33:25",
+      "startDateLocal": "01/31/2026 18:05:00",
+      "startDateUTC": "01/31/2026 17:05:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "225",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-31T18:05:00"
+}

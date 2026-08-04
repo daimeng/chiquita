@@ -1,0 +1,121 @@
+{
+  "id": 13456263,
+  "eventId": "3355",
+  "documentCode": "TTEMDOUBLES-----------RND2000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEMDOUBLES-----------RND2000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Qualifying Round 2 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100124603",
+        "competitiorName": "MLADENOVIC Luka/VAN DESSEL Mael",
+        "competitiorOrg": "LUX",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "120074",
+            "playerName": "MLADENOVIC Luka",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "LUX",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "136399",
+            "playerName": "VAN DESSEL Mael",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "LUX",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,10,11,7,4",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100121520",
+        "competitiorName": "DOYEN Antoine/NAUMI Alex",
+        "competitiorOrg": "POR/FIN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "121687",
+            "playerName": "DOYEN Antoine",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "120674",
+            "playerName": "NAUMI Alex",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FIN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,12,9,11,11",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-5,10-12,11-9,7-11,4-11",
+    "resultsGameScores": "11-5,10-12,11-9,7-11,4-11",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "120674",
+      "serverReceiver": "136399",
+      "serverNext": "120674",
+      "serverCompetitor": "100121520",
+      "receiverNext": "136399"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:35:17",
+      "startDateLocal": "01/28/2026 15:05:00",
+      "startDateUTC": "01/28/2026 14:05:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "268",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-28T15:05:00"
+}

@@ -1,0 +1,121 @@
+{
+  "id": 13012362,
+  "eventId": "3059",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3059",
+    "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "CENTRO SPORTIVO BORMIOLI",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100202976",
+        "competitiorName": "NARESH Nandan/SURAVAJJULA Snehit",
+        "competitiorOrg": "USA/IND",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135768",
+            "playerName": "NARESH Nandan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "USA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "123680",
+            "playerName": "SURAVAJJULA Snehit",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "IND",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,9,11,3,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100119521",
+        "competitiorName": "OKANO Shunsuke/YOKOTANI Jo",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "209021",
+            "playerName": "OKANO Shunsuke",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "134317",
+            "playerName": "YOKOTANI Jo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,8,11,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "6-11,9-11,11-8,3-11,0-0",
+    "resultsGameScores": "6-11,9-11,11-8,3-11,0-0",
+    "overallScores": "1-3",
+    "resultOverallScores": "1-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "123680",
+      "serverReceiver": "209021",
+      "serverNext": "123680",
+      "serverCompetitor": "100202976",
+      "receiverNext": "209021"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:28:11",
+      "startDateLocal": "12/02/2025 17:05:00",
+      "startDateUTC": "12/02/2025 16:05:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "202",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2025-12-02T17:05:00"
+}

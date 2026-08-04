@@ -1,0 +1,121 @@
+{
+  "id": 12969216,
+  "eventId": "3059",
+  "documentCode": "TTEXDOUBLES-----------RND1000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3059",
+    "documentCode": "TTEXDOUBLES-----------RND1000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "CENTRO SPORTIVO BORMIOLI",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100202106",
+        "competitiorName": "MONTEIRO Joao/LEAL Julia",
+        "competitiorOrg": "POR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "106296",
+            "playerName": "MONTEIRO Joao",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "145615",
+            "playerName": "LEAL Julia",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,12,12,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "37150",
+        "competitiorName": "BADOWSKI Marek/BAJOR Natalia",
+        "competitiorOrg": "POL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "120154",
+            "playerName": "BADOWSKI Marek",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "115454",
+            "playerName": "BAJOR Natalia",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,10,10,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "11-8,12-10,12-10,0-0,0-0",
+    "resultsGameScores": "11-8,12-10,12-10,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "145615",
+      "serverReceiver": "115454",
+      "serverNext": "145615",
+      "serverCompetitor": "100202106",
+      "receiverNext": "115454"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:26:49",
+      "startDateLocal": "11/30/2025 10:00:00",
+      "startDateUTC": "11/30/2025 09:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "184",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2025-11-30T10:00:00"
+}

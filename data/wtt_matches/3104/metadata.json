@@ -2,11 +2,11 @@
   "event_id": 3104,
   "event_name": "ITTF African Championships 2025",
   "completed": false,
-  "retry_count": 0,
-  "start_time": null,
-  "end_time": null,
-  "duration_seconds": null,
+  "retry_count": 3,
+  "start_time": "2026-08-04T14:59:29.359220",
+  "end_time": "2026-08-04T15:00:02.606758",
+  "duration_seconds": 33.25,
   "entries_downloaded": 0,
-  "exception": null,
-  "last_updated": "2026-07-25T13:23:49.460143"
+  "exception": "Page.wait_for_selector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"[class=\\\"generic_btn\\\"]\") to be visible\n",
+  "last_updated": "2026-08-04T15:00:02.608540"
 }

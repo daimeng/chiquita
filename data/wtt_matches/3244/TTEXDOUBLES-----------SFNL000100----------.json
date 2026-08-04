@@ -1,0 +1,121 @@
+{
+  "iD": 15610925,
+  "eventId": "3244",
+  "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3244",
+    "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Vale Sul Shopping",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "37260",
+        "competitiorName": "CALDERANO Hugo/TAKAHASHI Bruna",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "115641",
+            "playerName": "CALDERANO Hugo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "121623",
+            "playerName": "TAKAHASHI Bruna",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,10,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "58986",
+        "competitiorName": "YIU Kwan To/NG Wing Lam",
+        "competitiorOrg": "HKG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "132325",
+            "playerName": "YIU Kwan To",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "132318",
+            "playerName": "NG Wing Lam",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "1,7,12,9,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-1,11-7,10-12,11-9,0-0",
+    "resultsGameScores": "11-1,11-7,10-12,11-9,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "132325",
+      "serverReceiver": "115641",
+      "serverNext": "132325",
+      "serverCompetitor": "58986",
+      "receiverNext": "115641"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:30:10",
+      "startDateLocal": "07/25/2026 13:20:00",
+      "startDateUTC": "07/25/2026 16:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "218",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-25T13:20:00"
+}

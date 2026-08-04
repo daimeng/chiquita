@@ -1,0 +1,105 @@
+{
+  "id": 13447465,
+  "eventId": "3355",
+  "documentCode": "TTEMSINGLES-----------GP02000300----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEMSINGLES-----------GP02000300----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 2 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "101192",
+        "competitiorName": "BOBOCICA Mihai",
+        "competitiorOrg": "ITA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "101192",
+            "playerName": "BOBOCICA Mihai",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ITA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,11,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "201075",
+        "competitiorName": "VITEL Noah",
+        "competitiorOrg": "FRA",
+        "compCardY": "1",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "201075",
+            "playerName": "VITEL Noah",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,9,13,8,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-8,11-9,11-13,11-8,0-0",
+    "resultsGameScores": "11-8,11-9,11-13,11-8,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "201075",
+      "serverReceiver": "101192",
+      "serverNext": "201075",
+      "serverCompetitor": "201075",
+      "receiverNext": "101192"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:35:06",
+      "startDateLocal": "01/28/2026 11:35:00",
+      "startDateUTC": "01/28/2026 10:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "238",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-28T11:35:00"
+}

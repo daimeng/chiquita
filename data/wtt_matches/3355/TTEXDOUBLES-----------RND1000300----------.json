@@ -1,0 +1,121 @@
+{
+  "id": 13445208,
+  "eventId": "3355",
+  "documentCode": "TTEXDOUBLES-----------RND1000300----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3355",
+    "documentCode": "TTEXDOUBLES-----------RND1000300----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Palais Saint Sauveur",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100212768",
+        "competitiorName": "NEMRAS Reda/DUVIVIER Eloise",
+        "competitiorOrg": "MAR/BEL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "205937",
+            "playerName": "NEMRAS Reda",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "MAR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133600",
+            "playerName": "DUVIVIER Eloise",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BEL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,3,4,2",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100212794",
+        "competitiorName": "BENKO Leon/PAVLOVIC Andrea",
+        "competitiorOrg": "CRO",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136687",
+            "playerName": "BENKO Leon",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CRO",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "122988",
+            "playerName": "PAVLOVIC Andrea",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CRO",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,7,11,11,11",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-8,11-7,3-11,4-11,2-11",
+    "resultsGameScores": "11-8,11-7,3-11,4-11,2-11",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136687",
+      "serverReceiver": "205937",
+      "serverNext": "136687",
+      "serverCompetitor": "100212794",
+      "receiverNext": "205937"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:31:16",
+      "startDateLocal": "01/28/2026 10:00:00",
+      "startDateUTC": "01/28/2026 09:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "227",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-01-28T10:00:00"
+}

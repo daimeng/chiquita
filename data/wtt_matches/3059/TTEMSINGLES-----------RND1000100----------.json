@@ -1,0 +1,104 @@
+{
+  "id": 12960044,
+  "eventId": "3059",
+  "documentCode": "TTEMSINGLES-----------RND1000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3059",
+    "documentCode": "TTEMSINGLES-----------RND1000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Qualifying Round 1 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "CENTRO SPORTIVO BORMIOLI",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "209021",
+        "competitiorName": "OKANO Shunsuke",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "209021",
+            "playerName": "OKANO Shunsuke",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "12,4,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "136208",
+        "competitiorName": "GIORDANO Antonio",
+        "competitiorOrg": "ITA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136208",
+            "playerName": "GIORDANO Antonio",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ITA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "10,11,7,5,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "12-10,4-11,11-7,11-5,0-0",
+    "resultsGameScores": "12-10,4-11,11-7,11-5,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136208",
+      "serverReceiver": "209021",
+      "serverNext": "136208",
+      "serverCompetitor": "136208",
+      "receiverNext": "209021"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:26:28",
+      "startDateLocal": "11/29/2025 16:00:00",
+      "startDateUTC": "11/29/2025 15:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "214",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2025-11-29T16:00:00"
+}
