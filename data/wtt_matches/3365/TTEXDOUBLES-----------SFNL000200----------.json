@@ -1,0 +1,121 @@
+{
+  "id": 15658831,
+  "eventId": "3365",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3365",
+    "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Olympic Town",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100258702",
+        "competitiorName": "KATSMAN Lev/TAILAKOVA Mariia",
+        "competitiorOrg": "AIN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123282",
+            "playerName": "KATSMAN Lev",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "AIN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "121706",
+            "playerName": "TAILAKOVA Mariia",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "AIN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,5,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100246235",
+        "competitiorName": "TSAI Tien-Yu/CHIEN Tung-Chuan",
+        "competitiorOrg": "TPE",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "146266",
+            "playerName": "TSAI Tien-Yu",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "124165",
+            "playerName": "CHIEN Tung-Chuan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,6,11,8,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-8,11-6,5-11,11-8,0-0",
+    "resultsGameScores": "11-8,11-6,5-11,11-8,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "124165",
+      "serverReceiver": "123282",
+      "serverNext": "124165",
+      "serverCompetitor": "100246235",
+      "receiverNext": "123282"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:28:19",
+      "startDateLocal": "07/27/2026 20:00:00",
+      "startDateUTC": "07/27/2026 15:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "207",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-27T20:00:00"
+}

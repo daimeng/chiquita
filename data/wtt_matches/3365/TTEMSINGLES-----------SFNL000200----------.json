@@ -1,0 +1,105 @@
+{
+  "id": 15659954,
+  "eventId": "3365",
+  "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3365",
+    "documentCode": "TTEMSINGLES-----------SFNL000200----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Olympic Town",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "133652",
+        "competitiorName": "DORR Esteban",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133652",
+            "playerName": "DORR Esteban",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,11,8,10,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "145264",
+        "competitiorName": "KAWAKAMI Ryuusei",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145264",
+            "playerName": "KAWAKAMI Ryuusei",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,8,11,12,4",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-7,11-8,8-11,10-12,11-4",
+    "resultsGameScores": "11-7,11-8,8-11,10-12,11-4",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "145264",
+      "serverReceiver": "133652",
+      "serverNext": "145264",
+      "serverCompetitor": "145264",
+      "receiverNext": "133652"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:52:26",
+      "startDateLocal": "07/28/2026 11:10:00",
+      "startDateUTC": "07/28/2026 06:10:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "269",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-28T11:10:00"
+}

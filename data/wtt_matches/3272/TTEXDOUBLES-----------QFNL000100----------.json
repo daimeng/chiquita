@@ -1,0 +1,121 @@
+{
+  "id": 15726092,
+  "eventId": "3272",
+  "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3272",
+    "documentCode": "TTEXDOUBLES-----------QFNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "ITECC Mall, Vientiane",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100135316",
+        "competitiorName": "LI Ki Ho/YUEN Sum Lok",
+        "competitiorOrg": "HKG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "201274",
+            "playerName": "LI Ki Ho",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "201799",
+            "playerName": "YUEN Sum Lok",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,5,12,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100258971",
+        "competitiorName": "NAM Seongbeen/YOO Siwoo",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "132708",
+            "playerName": "NAM Seongbeen",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "132715",
+            "playerName": "YOO Siwoo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,11,10,7,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-7,5-11,12-10,11-7,0-0",
+    "resultsGameScores": "11-7,5-11,12-10,11-7,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "201799",
+      "serverReceiver": "132708",
+      "serverNext": "201799",
+      "serverCompetitor": "100135316",
+      "receiverNext": "132708"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:26:30",
+      "startDateLocal": "08/07/2026 10:00:00",
+      "startDateUTC": "08/07/2026 03:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "208",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-08-07T10:00:00"
+}

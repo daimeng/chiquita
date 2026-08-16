@@ -5,6 +5,7 @@ import os
 import shutil
 from datetime import datetime
 import json
+import random
 from typing import Any, Optional
 import logging
 
@@ -178,6 +179,12 @@ async def get_matches(page: Page, row: Any):
         logger.info(f"Event {evt}: Finished successfully")
 
 
+def get_retry_chance(retry_count: int, min_chance: float = 0.05) -> float:
+    """Calculates the probability of retrying a download based on the number of retries,
+    decaying exponentially (0.5 ** retry_count) down to a minimum chance of min_chance."""
+    return max(min_chance, 0.5 ** retry_count)
+
+
 async def process_event(browser, row: Any, max_retries: int = 3):
     evt = row.EventId
     dest_dir = os.path.join('data/wtt_matches', str(evt))
@@ -198,12 +205,22 @@ async def process_event(browser, row: Any, max_retries: int = 3):
         return
 
     initial_retry_count = metadata.get('retry_count', 0) if metadata else 0
-    current_retry_count = initial_retry_count
+
+    if initial_retry_count > 0:
+        retry_chance = get_retry_chance(initial_retry_count)
+        if random.random() >= retry_chance:
+            logger.info(
+                f"Event {evt}: Skipped retrying download based on retry_count={initial_retry_count} "
+                f"(retry_chance={retry_chance:.4f})"
+            )
+            print(f"Skipping retry for Event {evt} (retry_count={initial_retry_count}, chance={retry_chance:.4f})")
+            return
+
+    current_retry_count = initial_retry_count + 1
 
     for attempt in range(max_retries + 1):
         if attempt > 0:
-            current_retry_count += 1
-            logger.info(f"Event {evt}: Retrying scraping (attempt {attempt}/{max_retries}, retry_count={current_retry_count})")
+            logger.info(f"Event {evt}: Retrying scraping (attempt {attempt}/{max_retries})")
             await asyncio.sleep(2)
 
         start_time = datetime.now()

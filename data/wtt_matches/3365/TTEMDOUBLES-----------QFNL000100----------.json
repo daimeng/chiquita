@@ -1,0 +1,121 @@
+{
+  "id": 15648284,
+  "eventId": "3365",
+  "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3365",
+    "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Quarterfinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Olympic Town",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100258765",
+        "competitiorName": "GERASSIMENKO Kirill/KHARKI Iskender",
+        "competitiorOrg": "KAZ",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "117890",
+            "playerName": "GERASSIMENKO Kirill",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KAZ",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "134398",
+            "playerName": "KHARKI Iskender",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KAZ",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100258863",
+        "competitiorName": "ISKANDAROV Shokhrukh/TESHABOEV Kutbidillo",
+        "competitiorOrg": "UZB",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "146293",
+            "playerName": "ISKANDAROV Shokhrukh",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "UZB",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "115060",
+            "playerName": "TESHABOEV Kutbidillo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "UZB",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,1,4,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "11-5,11-1,11-4,0-0,0-0",
+    "resultsGameScores": "11-5,11-1,11-4,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "146293",
+      "serverReceiver": "117890",
+      "serverNext": "146293",
+      "serverCompetitor": "100258863",
+      "receiverNext": "117890"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:15:54",
+      "startDateLocal": "07/27/2026 11:35:00",
+      "startDateUTC": "07/27/2026 06:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "125",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-27T11:35:00"
+}

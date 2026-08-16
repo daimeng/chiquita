@@ -1,0 +1,121 @@
+{
+  "id": 15738339,
+  "eventId": "3272",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3272",
+    "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Final - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "ITECC Mall, Vientiane",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100135316",
+        "competitiorName": "LI Ki Ho/YUEN Sum Lok",
+        "competitiorOrg": "HKG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "201274",
+            "playerName": "LI Ki Ho",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "201799",
+            "playerName": "YUEN Sum Lok",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,10,6,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100259045",
+        "competitiorName": "CHOI Jiwook/LEE Daeun",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "201214",
+            "playerName": "CHOI Jiwook",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135391",
+            "playerName": "LEE Daeun",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,12,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "6-11,10-12,6-11,0-0,0-0",
+    "resultsGameScores": "6-11,10-12,6-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "201799",
+      "serverReceiver": "135391",
+      "serverNext": "201799",
+      "serverCompetitor": "100135316",
+      "receiverNext": "135391"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:23:04",
+      "startDateLocal": "08/08/2026 12:20:00",
+      "startDateUTC": "08/08/2026 05:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "165",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-08-08T12:20:00"
+}

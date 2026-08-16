@@ -1,0 +1,121 @@
+{
+  "id": 15660474,
+  "eventId": "3365",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3365",
+    "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Final - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Olympic Town",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "78085",
+        "competitiorName": "YIGENLER Abdullah/HARAC Ece",
+        "competitiorOrg": "TUR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "119585",
+            "playerName": "YIGENLER Abdullah",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TUR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133340",
+            "playerName": "HARAC Ece",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TUR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,11,13,8,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100258702",
+        "competitiorName": "KATSMAN Lev/TAILAKOVA Mariia",
+        "competitiorOrg": "AIN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123282",
+            "playerName": "KATSMAN Lev",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "AIN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "121706",
+            "playerName": "TAILAKOVA Mariia",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "AIN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,8,11,11,5",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "5-11,11-8,13-11,8-11,11-5",
+    "resultsGameScores": "5-11,11-8,13-11,8-11,11-5",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "121706",
+      "serverReceiver": "119585",
+      "serverNext": "121706",
+      "serverCompetitor": "100258702",
+      "receiverNext": "119585"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:42:23",
+      "startDateLocal": "07/28/2026 12:20:00",
+      "startDateUTC": "07/28/2026 07:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "276",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-28T12:20:00"
+}

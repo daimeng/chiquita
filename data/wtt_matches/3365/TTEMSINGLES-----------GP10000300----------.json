@@ -1,0 +1,105 @@
+{
+  "id": 15598564,
+  "eventId": "3365",
+  "documentCode": "TTEMSINGLES-----------GP10000300----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3365",
+    "documentCode": "TTEMSINGLES-----------GP10000300----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 10 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Olympic Town",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "123057",
+        "competitiorName": "KIM Byunghyeon",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123057",
+            "playerName": "KIM Byunghyeon",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "2,11,12,8,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "135077",
+        "competitiorName": "ARTUKMETOV Irisbek",
+        "competitiorOrg": "KAZ",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135077",
+            "playerName": "ARTUKMETOV Irisbek",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KAZ",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,8,10,11,8",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "2-11,11-8,12-10,8-11,11-8",
+    "resultsGameScores": "2-11,11-8,12-10,8-11,11-8",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "135077",
+      "serverReceiver": "123057",
+      "serverNext": "135077",
+      "serverCompetitor": "135077",
+      "receiverNext": "123057"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:36:32",
+      "startDateLocal": "07/25/2026 12:30:00",
+      "startDateUTC": "07/25/2026 07:30:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "253",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-07-25T12:30:00"
+}

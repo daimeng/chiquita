@@ -1,0 +1,101 @@
+{
+  "id": 15751195,
+  "eventId": "3245",
+  "documentCode": "TTEWSINGLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Women Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3245",
+    "documentCode": "TTEWSINGLES-----------SFNL000100----------",
+    "subEventName": "Women's Singles",
+    "subEventDescription": "Women's Singles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 7,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Yokohama BUNTAI",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "136711",
+        "competitiorName": "HARIMOTO Miwa",
+        "competitiorOrg": "JPN",
+        "compCardY": "1",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136711",
+            "playerName": "HARIMOTO Miwa",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": null,
+            "playerPosition": 1
+          }
+        ],
+        "scores": "4,12,12,14,8,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "124110",
+        "competitiorName": "WANG Yidi",
+        "competitiorOrg": "CHN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "124110",
+            "playerName": "WANG Yidi",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": null,
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,10,10,12,11,6,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 6,
+    "full_msg": null,
+    "gameScores": "4-11,12-10,12-10,14-12,8-11,11-6,0-0",
+    "resultsGameScores": "4-11,12-10,12-10,14-12,8-11,11-6,0-0",
+    "overallScores": "4-2",
+    "resultOverallScores": "4-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "124110",
+      "serverReceiver": "136711",
+      "serverNext": "124110",
+      "serverCompetitor": "124110",
+      "receiverNext": "136711"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:58:41",
+      "startDateLocal": "08/09/2026 11:30:00",
+      "startDateUTC": "08/09/2026 02:30:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "362"
+  },
+  "startDateLocal": "2026-08-09T11:30:00"
+}

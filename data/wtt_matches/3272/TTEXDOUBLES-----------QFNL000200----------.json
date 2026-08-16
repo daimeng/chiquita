@@ -1,0 +1,121 @@
+{
+  "id": 15726050,
+  "eventId": "3272",
+  "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3272",
+    "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "ITECC Mall, Vientiane",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100175758",
+        "competitiorName": "NAYRE Jann Mari/MEN Shuohan",
+        "competitiorOrg": "PHI/NED",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123864",
+            "playerName": "NAYRE Jann Mari",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PHI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "131383",
+            "playerName": "MEN Shuohan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "NED",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,8,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100120699",
+        "competitiorName": "YANG Ze Yi/CHIANG Janelle",
+        "competitiorOrg": "SGP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136338",
+            "playerName": "YANG Ze Yi",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SGP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "201454",
+            "playerName": "CHIANG Janelle",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SGP",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,13,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "6-11,8-11,11-13,0-0,0-0",
+    "resultsGameScores": "6-11,8-11,11-13,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "201454",
+      "serverReceiver": "131383",
+      "serverNext": "201454",
+      "serverCompetitor": "100120699",
+      "receiverNext": "131383"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:24:55",
+      "startDateLocal": "08/07/2026 10:00:00",
+      "startDateUTC": "08/07/2026 03:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "180",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-08-07T10:00:00"
+}
