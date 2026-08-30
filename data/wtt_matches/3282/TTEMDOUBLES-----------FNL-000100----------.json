@@ -1,0 +1,111 @@
+{
+  "eventId": "3282",
+  "documentCode": "TTEMDOUBLES-----------FNL-000100----------",
+  "subEventName": "Men's Doubles",
+  "subEventDescription": "Men's Doubles - Final - Match 1",
+  "matchConfig": {
+    "bestOfXGames": 5,
+    "maxPointsPerGame": 11,
+    "advantagePerGame": 2,
+    "suddenDeathPoint": 99,
+    "maxChallengesPerCompetitor": 99,
+    "yellowCard": true,
+    "yellowRed1": true,
+    "yellowRed2": true,
+    "ttrReview": false
+  },
+  "venueName": "OMEGA Sport Center",
+  "tableNumber": "T01",
+  "tableName": "Table 1",
+  "competitiors": [
+    {
+      "competitorType": "H",
+      "competitiorId": "100260733",
+      "competitiorName": "BHATTACHARJEE Ankur/PAL Akash",
+      "competitiorOrg": "IND",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "200316",
+          "playerName": "BHATTACHARJEE Ankur",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "137242",
+          "playerName": "PAL Akash",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "IND",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "11,4,13,11,0",
+      "irm": null
+    },
+    {
+      "competitorType": "A",
+      "competitiorId": "100260731",
+      "competitiorName": "SZANTOSI David/ZALEWSKI Mateusz",
+      "competitiorOrg": "HUN/POL",
+      "compCardY": "0",
+      "compCardYR1": "0",
+      "compCardYR2": "0",
+      "compTimeout": "1",
+      "compMedicalTimeout": "",
+      "players": [
+        {
+          "playerId": "136005",
+          "playerName": "SZANTOSI David",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "HUN",
+          "playerPosition": 1
+        },
+        {
+          "playerId": "135021",
+          "playerName": "ZALEWSKI Mateusz",
+          "playerGivenName": null,
+          "playerFamilyName": null,
+          "playerOrgCode": "POL",
+          "playerPosition": 2
+        }
+      ],
+      "scores": "8,11,11,9,0",
+      "irm": null
+    }
+  ],
+  "currentGameNumber": 4,
+  "full_msg": null,
+  "gameScores": "11-8,4-11,13-11,11-9,0-0",
+  "resultsGameScores": "11-8,4-11,13-11,11-9,0-0",
+  "overallScores": "3-1",
+  "resultOverallScores": "3-1",
+  "resultStatus": "OFFICIAL",
+  "action": {
+    "actionType": "OF",
+    "serverPlayer": "200316",
+    "serverReceiver": "136005",
+    "serverNext": "200316",
+    "serverCompetitor": "100260733",
+    "receiverNext": "136005"
+  },
+  "resultSet": null,
+  "matchDateTime": {
+    "duration": "00:30:37",
+    "startDateLocal": "08/28/2026 17:05:00",
+    "startDateUTC": "08/28/2026 15:05:00"
+  },
+  "teamParentData": null,
+  "playByPlaySequenceNumber": "238",
+  "teamMatchNo": "0",
+  "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+  "teamMatchScoresSummary": "0",
+  "matchStartTimeUTC": null
+}

@@ -1,0 +1,121 @@
+{
+  "id": 15774762,
+  "eventId": "3246",
+  "documentCode": "TTEXDOUBLES-----------R32-001500----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3246",
+    "documentCode": "TTEXDOUBLES-----------R32-001500----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 32 - Match 15",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Baltiska Hallen",
+    "tableNumber": "T04",
+    "tableName": "Table 4",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100121672",
+        "competitiorName": "LY Edward/ZHANG Mo",
+        "competitiorOrg": "CAN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "122425",
+            "playerName": "LY Edward",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CAN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "110560",
+            "playerName": "ZHANG Mo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CAN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,8,11,8,3",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "42026",
+        "competitiorName": "GOMEZ Gustavo/ORTEGA Daniela",
+        "competitiorOrg": "CHI",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111683",
+            "playerName": "GOMEZ Gustavo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "117294",
+            "playerName": "ORTEGA Daniela",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "1,11,3,11,11",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-1,8-11,11-3,8-11,3-11",
+    "resultsGameScores": "11-1,8-11,11-3,8-11,3-11",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "111683",
+      "serverReceiver": "122425",
+      "serverNext": "111683",
+      "serverCompetitor": "42026",
+      "receiverNext": "122425"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:32:34",
+      "startDateLocal": "08/11/2026 18:00:00",
+      "startDateUTC": "08/11/2026 16:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "253",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-08-11T18:00:00"
+}

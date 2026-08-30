@@ -1,0 +1,121 @@
+{
+  "id": 15840534,
+  "eventId": "3374",
+  "documentCode": "TTEXDOUBLES-----------RND2000400----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3374",
+    "documentCode": "TTEXDOUBLES-----------RND2000400----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 4",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "TT DOME HEYSE25",
+    "tableNumber": "T04",
+    "tableName": "Table 4",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100259206",
+        "competitiorName": "KOEHL William/PUJOL Elise",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "222596",
+            "playerName": "KOEHL William",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "137626",
+            "playerName": "PUJOL Elise",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,9,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100259196",
+        "competitiorName": "DORCESCU Denis/DE STOPPELEIRE Clea",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133342",
+            "playerName": "DORCESCU Denis",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "136361",
+            "playerName": "DE STOPPELEIRE Clea",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,11,5,9,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-8,9-11,11-5,11-9,0-0",
+    "resultsGameScores": "11-8,9-11,11-5,11-9,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "133342",
+      "serverReceiver": "222596",
+      "serverNext": "133342",
+      "serverCompetitor": "100259196",
+      "receiverNext": "222596"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:26:36",
+      "startDateLocal": "08/20/2026 10:00:00",
+      "startDateUTC": "08/20/2026 08:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "217",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-08-20T10:00:00"
+}

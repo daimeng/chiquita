@@ -1,0 +1,120 @@
+{
+  "id": 15798142,
+  "eventId": "3246",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3246",
+    "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Baltiska Hallen",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "36985",
+        "competitiorName": "WONG Chun Ting/DOO Hoi Kem",
+        "competitiorOrg": "HKG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "112620",
+            "playerName": "WONG Chun Ting",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "115543",
+            "playerName": "DOO Hoi Kem",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "12,12,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "41233",
+        "competitiorName": "ROBLES Alvaro/XIAO Maria",
+        "competitiorOrg": "ESP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111050",
+            "playerName": "ROBLES Alvaro",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "111072",
+            "playerName": "XIAO Maria",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "10,10,6,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "12-10,12-10,11-6,0-0,0-0",
+    "resultsGameScores": "12-10,12-10,11-6,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "111072",
+      "serverReceiver": "115543",
+      "serverNext": "111072",
+      "serverCompetitor": "41233",
+      "receiverNext": "115543"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:21:49",
+      "startDateLocal": "08/14/2026 12:00:00",
+      "startDateUTC": "08/14/2026 10:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "177",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2026-08-14T12:00:00"
+}

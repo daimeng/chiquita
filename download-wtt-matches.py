@@ -6,6 +6,7 @@ import shutil
 from datetime import datetime
 import json
 import random
+import re
 from typing import Any, Optional
 import logging
 
@@ -103,13 +104,18 @@ async def get_matches(page: Page, row: Any):
 
     async def intercept(resp):
         nonlocal err
-        if 'GetMatchCardDetails' in resp.url:
+        if 'GetMatchCardDetails' in resp.url or re.search(r'TTE.*\.json', resp.url):
             try:
-                match = await resp.json()
-                save_match(match, 'GetMatchCardDetails')
+                data = await resp.json()
+                source_type = 'GetMatchCardDetails' if 'GetMatchCardDetails' in resp.url else 'TTE match JSON'
+                if isinstance(data, list):
+                    for match in data:
+                        save_match(match, source_type)
+                elif isinstance(data, dict):
+                    save_match(data, source_type)
             except Exception as e:
                 err = e
-                logger.error(f"Event {evt}: Error saving match details from GetMatchCardDetails: {e}", exc_info=True)
+                logger.error(f"Event {evt}: Error saving match details from {resp.url}: {e}", exc_info=True)
 
         elif 'officialresult.json' in resp.url:
             try:
@@ -117,7 +123,6 @@ async def get_matches(page: Page, row: Any):
                 for match in data:
                     save_match(match, 'officialresult.json')
             except Exception as e:
-                err = e
                 logger.error(f"Event {evt}: Error saving match details from officialresult.json: {e}", exc_info=True)
 
     page.on('response', lambda resp: asyncio.create_task(intercept(resp)))

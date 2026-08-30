@@ -1,0 +1,121 @@
+{
+  "id": 15846883,
+  "eventId": "3374",
+  "documentCode": "TTEXDOUBLES-----------8FNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3374",
+    "documentCode": "TTEXDOUBLES-----------8FNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "TT DOME HEYSE25",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100121672",
+        "competitiorName": "LY Edward/ZHANG Mo",
+        "competitiorOrg": "CAN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "122425",
+            "playerName": "LY Edward",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CAN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "110560",
+            "playerName": "ZHANG Mo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CAN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "4,11,11,12,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100259075",
+        "competitiorName": "QUEK Izaac/LOY Ming Ying",
+        "competitiorOrg": "SGP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133713",
+            "playerName": "QUEK Izaac",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SGP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "201453",
+            "playerName": "LOY Ming Ying",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SGP",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,7,7,10,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "4-11,11-7,11-7,12-10,0-0",
+    "resultsGameScores": "4-11,11-7,11-7,12-10,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "201453",
+      "serverReceiver": "110560",
+      "serverNext": "201453",
+      "serverCompetitor": "100259075",
+      "receiverNext": "110560"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:30:15",
+      "startDateLocal": "08/21/2026 10:00:00",
+      "startDateUTC": "08/21/2026 08:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "217",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-08-21T10:00:00"
+}

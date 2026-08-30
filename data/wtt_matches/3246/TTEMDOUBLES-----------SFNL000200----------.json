@@ -1,0 +1,120 @@
+{
+  "id": 15809557,
+  "eventId": "3246",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3246",
+    "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Baltiska Hallen",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "59286",
+        "competitiorName": "TOGAMI Shunsuke/SHINOZUKA Hiroto",
+        "competitiorOrg": "JPN",
+        "compCardY": "1",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133694",
+            "playerName": "TOGAMI Shunsuke",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "134442",
+            "playerName": "SHINOZUKA Hiroto",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "4,11,11,8,8",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "53376",
+        "competitiorName": "WONG Chun Ting/CHAN Baldwin",
+        "competitiorOrg": "HKG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "112620",
+            "playerName": "WONG Chun Ting",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133867",
+            "playerName": "CHAN Baldwin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HKG",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,7,7,11,11",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "4-11,11-7,11-7,8-11,8-11",
+    "resultsGameScores": "4-11,11-7,11-7,8-11,8-11",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "112620",
+      "serverReceiver": "134442",
+      "serverNext": "112620",
+      "serverCompetitor": "53376",
+      "receiverNext": "134442"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:42:50",
+      "startDateLocal": "08/14/2026 18:00:00",
+      "startDateUTC": "08/14/2026 16:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "275",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2026-08-14T18:00:00"
+}

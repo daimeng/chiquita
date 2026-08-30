@@ -1,0 +1,121 @@
+{
+  "id": 15840726,
+  "eventId": "3374",
+  "documentCode": "TTEXDOUBLES-----------RND2000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3374",
+    "documentCode": "TTEXDOUBLES-----------RND2000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Qualifying Round 2 - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "TT DOME HEYSE25",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100260282",
+        "competitiorName": "ZALEWSKI Mateusz/MICHALAK Aleksandra",
+        "competitiorOrg": "POL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135021",
+            "playerName": "ZALEWSKI Mateusz",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135022",
+            "playerName": "MICHALAK Aleksandra",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,11,11,7,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100139090",
+        "competitiorName": "BUCH Martin/STOFFREGEN Mille",
+        "competitiorOrg": "DEN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "131176",
+            "playerName": "BUCH Martin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "DEN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "145695",
+            "playerName": "STOFFREGEN Mille",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "DEN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,8,9,11,6",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "7-11,11-8,11-9,7-11,11-6",
+    "resultsGameScores": "7-11,11-8,11-9,7-11,11-6",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "135022",
+      "serverReceiver": "131176",
+      "serverNext": "135022",
+      "serverCompetitor": "100260282",
+      "receiverNext": "131176"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:36:52",
+      "startDateLocal": "08/20/2026 10:00:00",
+      "startDateUTC": "08/20/2026 08:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "277",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-08-20T10:00:00"
+}

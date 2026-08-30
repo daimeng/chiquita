@@ -1,0 +1,121 @@
+{
+  "id": 15860484,
+  "eventId": "3374",
+  "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3374",
+    "documentCode": "TTEXDOUBLES-----------SFNL000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "TT DOME HEYSE25",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100212801",
+        "competitiorName": "BADOWSKI Marek/WIELGOS Zuzanna",
+        "competitiorOrg": "POL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "120154",
+            "playerName": "BADOWSKI Marek",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135039",
+            "playerName": "WIELGOS Zuzanna",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,11,8,11,12",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100146420",
+        "competitiorName": "HSU Hsien-Chia/CHEN Min-Hsin",
+        "competitiorOrg": "TPE",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145043",
+            "playerName": "HSU Hsien-Chia",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "203313",
+            "playerName": "CHEN Min-Hsin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,5,11,5,10",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "6-11,11-5,8-11,11-5,12-10",
+    "resultsGameScores": "6-11,11-5,8-11,11-5,12-10",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "145043",
+      "serverReceiver": "135039",
+      "serverNext": "145043",
+      "serverCompetitor": "100146420",
+      "receiverNext": "135039"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:38:21",
+      "startDateLocal": "08/22/2026 20:00:00",
+      "startDateUTC": "08/22/2026 18:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "275",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-08-22T20:00:00"
+}
