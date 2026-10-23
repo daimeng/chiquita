@@ -1,0 +1,120 @@
+{
+  "id": 16357245,
+  "eventId": "3375",
+  "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3375",
+    "documentCode": "TTEXDOUBLES-----------SFNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Sportpark Lissfeld",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100195708",
+        "competitiorName": "GREEN Connor/HO Tin-Tin",
+        "competitiorOrg": "ENG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "137863",
+            "playerName": "GREEN Connor",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ENG",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "115430",
+            "playerName": "HO Tin-Tin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ENG",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,4,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100207949",
+        "competitiorName": "LOVHA Mykhailo/MASSART Lilou",
+        "competitiorOrg": "SVK/BEL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145782",
+            "playerName": "LOVHA Mykhailo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SVK",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "136258",
+            "playerName": "MASSART Lilou",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BEL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,11,5,8,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-8,4-11,11-5,11-8,0-0",
+    "resultsGameScores": "11-8,4-11,11-5,11-8,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136258",
+      "serverReceiver": "137863",
+      "serverNext": "136258",
+      "serverCompetitor": "100207949",
+      "receiverNext": "137863"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:32:12",
+      "startDateLocal": "09/26/2026 20:00:00",
+      "startDateUTC": "09/26/2026 18:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "195",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2026-09-26T20:00:00"
+}

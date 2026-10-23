@@ -1,0 +1,121 @@
+{
+  "id": 16495425,
+  "eventId": "3249",
+  "documentCode": "TTEXDOUBLES-----------8FNL000800----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3249",
+    "documentCode": "TTEXDOUBLES-----------8FNL000800----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 8",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Shougang Park",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100129165",
+        "competitiorName": "IONESCU Eduard/SZOCS Bernadette",
+        "competitiorOrg": "ROU",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135023",
+            "playerName": "IONESCU Eduard",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ROU",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "111012",
+            "playerName": "SZOCS Bernadette",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ROU",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,8,11,3,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "37260",
+        "competitiorName": "CALDERANO Hugo/TAKAHASHI Bruna",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "115641",
+            "playerName": "CALDERANO Hugo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "121623",
+            "playerName": "TAKAHASHI Bruna",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "9,11,9,11,8",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-9,8-11,11-9,3-11,11-8",
+    "resultsGameScores": "11-9,8-11,11-9,3-11,11-8",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "111012",
+      "serverReceiver": "121623",
+      "serverNext": "111012",
+      "serverCompetitor": "100129165",
+      "receiverNext": "121623"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:38:07",
+      "startDateLocal": "10/06/2026 20:55:00",
+      "startDateUTC": "10/06/2026 12:55:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "281",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-10-06T20:55:00"
+}

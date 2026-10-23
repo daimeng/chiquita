@@ -1,0 +1,121 @@
+{
+  "id": 16336208,
+  "eventId": "3375",
+  "documentCode": "TTEXDOUBLES-----------8FNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3375",
+    "documentCode": "TTEXDOUBLES-----------8FNL000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Sportpark Lissfeld",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100195708",
+        "competitiorName": "GREEN Connor/HO Tin-Tin",
+        "competitiorOrg": "ENG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "137863",
+            "playerName": "GREEN Connor",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ENG",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "115430",
+            "playerName": "HO Tin-Tin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ENG",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "4,11,9,12,17",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100212788",
+        "competitiorName": "HENCL Ivan/COSIC Dora",
+        "competitiorOrg": "CRO",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145421",
+            "playerName": "HENCL Ivan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CRO",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "134345",
+            "playerName": "COSIC Dora",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CRO",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,6,11,10,15",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "4-11,11-6,9-11,12-10,17-15",
+    "resultsGameScores": "4-11,11-6,9-11,12-10,17-15",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "134345",
+      "serverReceiver": "137863",
+      "serverNext": "134345",
+      "serverCompetitor": "100212788",
+      "receiverNext": "137863"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:50:32",
+      "startDateLocal": "09/25/2026 10:35:00",
+      "startDateUTC": "09/25/2026 08:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "317",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-25T10:35:00"
+}

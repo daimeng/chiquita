@@ -1,0 +1,121 @@
+{
+  "id": 16335347,
+  "eventId": "3375",
+  "documentCode": "TTEXDOUBLES-----------8FNL000300----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3375",
+    "documentCode": "TTEXDOUBLES-----------8FNL000300----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Sportpark Lissfeld",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "45355",
+        "competitiorName": "ZALEWSKI Mateusz/WIELGOS Zuzanna",
+        "competitiorOrg": "POL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135021",
+            "playerName": "ZALEWSKI Mateusz",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135039",
+            "playerName": "WIELGOS Zuzanna",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,11,9,5,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100262092",
+        "competitiorName": "SHUTOV Nikon/TSIMASHKOVA Lizaveta",
+        "competitiorOrg": "BLR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136080",
+            "playerName": "SHUTOV Nikon",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BLR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "136947",
+            "playerName": "TSIMASHKOVA Lizaveta",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BLR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,8,11,11,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "7-11,11-8,9-11,5-11,0-0",
+    "resultsGameScores": "7-11,11-8,9-11,5-11,0-0",
+    "overallScores": "1-3",
+    "resultOverallScores": "1-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136947",
+      "serverReceiver": "135039",
+      "serverNext": "136947",
+      "serverCompetitor": "100262092",
+      "receiverNext": "135039"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:26:27",
+      "startDateLocal": "09/25/2026 10:00:00",
+      "startDateUTC": "09/25/2026 08:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "209",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-25T10:00:00"
+}

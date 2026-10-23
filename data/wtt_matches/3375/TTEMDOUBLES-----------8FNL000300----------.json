@@ -1,0 +1,120 @@
+{
+  "id": 16342386,
+  "eventId": "3375",
+  "documentCode": "TTEMDOUBLES-----------8FNL000300----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3375",
+    "documentCode": "TTEMDOUBLES-----------8FNL000300----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Round of 16 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Sportpark Lissfeld",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "45001",
+        "competitiorName": "BAN Ivor/ANDRAS Csaba",
+        "competitiorOrg": "CRO/HUN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "122982",
+            "playerName": "BAN Ivor",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CRO",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "123019",
+            "playerName": "ANDRAS Csaba",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "HUN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100262146",
+        "competitiorName": "ARYA Sarthak/HARSHIT Kumar",
+        "competitiorOrg": "IND",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "201372",
+            "playerName": "ARYA Sarthak",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "IND",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "206444",
+            "playerName": "HARSHIT Kumar",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "IND",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "4,6,4,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "11-4,11-6,11-4,0-0,0-0",
+    "resultsGameScores": "11-4,11-6,11-4,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "123019",
+      "serverReceiver": "206444",
+      "serverNext": "123019",
+      "serverCompetitor": "45001",
+      "receiverNext": "206444"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:13:24",
+      "startDateLocal": "09/25/2026 17:20:00",
+      "startDateUTC": "09/25/2026 15:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "131",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2026-09-25T17:20:00"
+}

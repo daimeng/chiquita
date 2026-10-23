@@ -1,0 +1,120 @@
+{
+  "id": 16350254,
+  "eventId": "3375",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3375",
+    "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Sportpark Lissfeld",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100212766",
+        "competitiorName": "VAN DESSEL Mael/DE NUTTE Sarah",
+        "competitiorOrg": "LUX",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136399",
+            "playerName": "VAN DESSEL Mael",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "LUX",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "112280",
+            "playerName": "DE NUTTE Sarah",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "LUX",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "10,6,8,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "46187",
+        "competitiorName": "ZELINKA Jakub/PUCHOVANOVA Nikoleta",
+        "competitiorOrg": "SVK",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "121869",
+            "playerName": "ZELINKA Jakub",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SVK",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "121715",
+            "playerName": "PUCHOVANOVA Nikoleta",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SVK",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "12,11,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "10-12,6-11,8-11,0-0,0-0",
+    "resultsGameScores": "10-12,6-11,8-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "121715",
+      "serverReceiver": "112280",
+      "serverNext": "121715",
+      "serverCompetitor": "46187",
+      "receiverNext": "112280"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:22:53",
+      "startDateLocal": "09/26/2026 10:35:00",
+      "startDateUTC": "09/26/2026 08:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "167",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2026-09-26T10:35:00"
+}

@@ -1,0 +1,121 @@
+{
+  "id": 16456146,
+  "eventId": "3249",
+  "documentCode": "TTEXDOUBLES-----------R32-001000----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3249",
+    "documentCode": "TTEXDOUBLES-----------R32-001000----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 32 - Match 10",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Shougang Park",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "42026",
+        "competitiorName": "GOMEZ Gustavo/ORTEGA Daniela",
+        "competitiorOrg": "CHI",
+        "compCardY": "1",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111683",
+            "playerName": "GOMEZ Gustavo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "117294",
+            "playerName": "ORTEGA Daniela",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "3,11,11,11,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100195708",
+        "competitiorName": "GREEN Connor/HO Tin-Tin",
+        "competitiorOrg": "ENG",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "137863",
+            "playerName": "GREEN Connor",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ENG",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "115430",
+            "playerName": "HO Tin-Tin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ENG",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,13,6,7,13",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "3-11,11-13,11-6,11-7,11-13",
+    "resultsGameScores": "3-11,11-13,11-6,11-7,11-13",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "111683",
+      "serverReceiver": "115430",
+      "serverNext": "111683",
+      "serverCompetitor": "42026",
+      "receiverNext": "115430"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:37:43",
+      "startDateLocal": "10/04/2026 14:20:00",
+      "startDateUTC": "10/04/2026 06:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "291",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-10-04T14:20:00"
+}

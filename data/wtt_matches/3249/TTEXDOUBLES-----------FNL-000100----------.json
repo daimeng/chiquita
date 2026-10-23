@@ -1,0 +1,121 @@
+{
+  "id": 16519876,
+  "eventId": "3249",
+  "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3249",
+    "documentCode": "TTEXDOUBLES-----------FNL-000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Final - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Shougang Park",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "57776",
+        "competitiorName": "LIM Jonghoon/SHIN Yubin",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "117357",
+            "playerName": "LIM Jonghoon",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "123977",
+            "playerName": "SHIN Yubin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "12,11,16,13,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "37282",
+        "competitiorName": "LIN Yun-Ju/CHENG I-Ching",
+        "competitiorOrg": "TPE",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "121582",
+            "playerName": "LIN Yun-Ju",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "110797",
+            "playerName": "CHENG I-Ching",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "14,9,18,11,8",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "12-14,11-9,16-18,13-11,11-8",
+    "resultsGameScores": "12-14,11-9,16-18,13-11,11-8",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "123977",
+      "serverReceiver": "110797",
+      "serverNext": "123977",
+      "serverCompetitor": "57776",
+      "receiverNext": "110797"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:58:12",
+      "startDateLocal": "10/09/2026 20:15:00",
+      "startDateUTC": "10/09/2026 12:15:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "384",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-10-09T20:15:00"
+}

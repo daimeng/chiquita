@@ -1,0 +1,121 @@
+{
+  "id": 16496042,
+  "eventId": "3249",
+  "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3249",
+    "documentCode": "TTEXDOUBLES-----------QFNL000300----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 2,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": true
+    },
+    "venueName": "Shougang Park",
+    "tableNumber": "T04",
+    "tableName": "Table 4",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "37282",
+        "competitiorName": "LIN Yun-Ju/CHENG I-Ching",
+        "competitiorOrg": "TPE",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "121582",
+            "playerName": "LIN Yun-Ju",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "110797",
+            "playerName": "CHENG I-Ching",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,9,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "46463",
+        "competitiorName": "LEBRUN Alexis/LUTZ Charlotte",
+        "competitiorOrg": "FRA",
+        "compCardY": "1",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "132992",
+            "playerName": "LEBRUN Alexis",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135501",
+            "playerName": "LUTZ Charlotte",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,11,4,6,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-5,9-11,11-4,11-6,0-0",
+    "resultsGameScores": "11-5,9-11,11-4,11-6,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "110797",
+      "serverReceiver": "135501",
+      "serverNext": "110797",
+      "serverCompetitor": "37282",
+      "receiverNext": "135501"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:28:30",
+      "startDateLocal": "10/07/2026 11:00:00",
+      "startDateUTC": "10/07/2026 03:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "202",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-10-07T11:00:00"
+}
