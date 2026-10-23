@@ -1,0 +1,105 @@
+{
+  "id": 16070804,
+  "eventId": "3253",
+  "documentCode": "TTEMSINGLES-----------GP11000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEMSINGLES-----------GP11000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 11 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T04",
+    "tableName": "Table 4",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "136359",
+        "competitiorName": "BRARD Romain",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136359",
+            "playerName": "BRARD Romain",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,5,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "133415",
+        "competitiorName": "VALLINO Federico",
+        "competitiorOrg": "ITA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133415",
+            "playerName": "VALLINO Federico",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ITA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "7,11,7,7,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-7,5-11,11-7,11-7,0-0",
+    "resultsGameScores": "11-7,5-11,11-7,11-7,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136359",
+      "serverReceiver": "133415",
+      "serverNext": "136359",
+      "serverCompetitor": "136359",
+      "receiverNext": "133415"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:29:12",
+      "startDateLocal": "09/08/2026 12:20:00",
+      "startDateUTC": "09/08/2026 09:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "204",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-08T12:20:00"
+}

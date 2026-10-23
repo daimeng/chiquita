@@ -1,0 +1,105 @@
+{
+  "id": 16170432,
+  "eventId": "3253",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "104379",
+        "competitiorName": "KARLSSON Kristian",
+        "competitiorOrg": "SWE",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "104379",
+            "playerName": "KARLSSON Kristian",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SWE",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "10,11,11,6,12",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "114410",
+        "competitiorName": "RANEFUR Elias",
+        "competitiorOrg": "SWE",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "114410",
+            "playerName": "RANEFUR Elias",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SWE",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "12,7,6,11,14",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "10-12,11-7,11-6,6-11,12-14",
+    "resultsGameScores": "10-12,11-7,11-6,6-11,12-14",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "104379",
+      "serverReceiver": "114410",
+      "serverNext": "104379",
+      "serverCompetitor": "104379",
+      "receiverNext": "114410"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:46:05",
+      "startDateLocal": "09/12/2026 17:35:00",
+      "startDateUTC": "09/12/2026 14:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "281",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-12T17:35:00"
+}

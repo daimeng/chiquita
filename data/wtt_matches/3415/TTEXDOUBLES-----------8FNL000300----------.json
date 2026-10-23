@@ -1,0 +1,121 @@
+{
+  "id": 16106666,
+  "eventId": "3415",
+  "documentCode": "TTEXDOUBLES-----------8FNL000300----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3415",
+    "documentCode": "TTEXDOUBLES-----------8FNL000300----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Edward S. Hagedorn Coliseum",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100165131",
+        "competitiorName": "BOTHA Bosman/WANG Amy",
+        "competitiorOrg": "USA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "206472",
+            "playerName": "BOTHA Bosman",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "USA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "119022",
+            "playerName": "WANG Amy",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "USA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,5,9,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100119735",
+        "competitiorName": "MA Yeongmin/LEE Haelin",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "202356",
+            "playerName": "MA Yeongmin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "204010",
+            "playerName": "LEE Haelin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "5-11,5-11,9-11,0-0,0-0",
+    "resultsGameScores": "5-11,5-11,9-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "119022",
+      "serverReceiver": "204010",
+      "serverNext": "119022",
+      "serverCompetitor": "100165131",
+      "receiverNext": "204010"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:19:52",
+      "startDateLocal": "09/10/2026 10:00:00",
+      "startDateUTC": "09/10/2026 02:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "165",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-10T10:00:00"
+}

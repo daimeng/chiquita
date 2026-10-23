@@ -1,0 +1,105 @@
+{
+  "id": 16105823,
+  "eventId": "3253",
+  "documentCode": "TTEMSINGLES-----------QER-000500----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEMSINGLES-----------QER-000500----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Qualification Elimination Round - Match 5",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "136359",
+        "competitiorName": "BRARD Romain",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136359",
+            "playerName": "BRARD Romain",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "9,11,11,7,14",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "135021",
+        "competitiorName": "ZALEWSKI Mateusz",
+        "competitiorOrg": "POL",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135021",
+            "playerName": "ZALEWSKI Mateusz",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,9,6,11,12",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "9-11,11-9,11-6,7-11,14-12",
+    "resultsGameScores": "9-11,11-9,11-6,7-11,14-12",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "136359",
+      "serverReceiver": "135021",
+      "serverNext": "136359",
+      "serverCompetitor": "136359",
+      "receiverNext": "135021"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:45:19",
+      "startDateLocal": "09/09/2026 20:20:00",
+      "startDateUTC": "09/09/2026 17:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "298",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-09T20:20:00"
+}

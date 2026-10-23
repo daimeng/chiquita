@@ -1,0 +1,121 @@
+{
+  "id": 16169419,
+  "eventId": "3253",
+  "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEMDOUBLES-----------SFNL000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "99012",
+        "competitiorName": "BOURRASSAUD Florian/DORR Esteban",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "120857",
+            "playerName": "BOURRASSAUD Florian",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133652",
+            "playerName": "DORR Esteban",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "12,14,10,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100121292",
+        "competitiorName": "BERTELSMEIER Andre/VERDONSCHOT Wim",
+        "competitiorOrg": "GER",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145799",
+            "playerName": "BERTELSMEIER Andre",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "GER",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "201466",
+            "playerName": "VERDONSCHOT Wim",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "GER",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "10,12,12,8,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "12-10,14-12,10-12,11-8,0-0",
+    "resultsGameScores": "12-10,14-12,10-12,11-8,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "133652",
+      "serverReceiver": "145799",
+      "serverNext": "133652",
+      "serverCompetitor": "99012",
+      "receiverNext": "145799"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:40:01",
+      "startDateLocal": "09/12/2026 13:55:00",
+      "startDateUTC": "09/12/2026 10:55:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "273",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-12T13:55:00"
+}

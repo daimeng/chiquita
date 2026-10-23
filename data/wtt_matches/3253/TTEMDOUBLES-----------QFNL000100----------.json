@@ -1,0 +1,121 @@
+{
+  "id": 16149785,
+  "eventId": "3253",
+  "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEMDOUBLES-----------QFNL000100----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Quarterfinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "99012",
+        "competitiorName": "BOURRASSAUD Florian/DORR Esteban",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "120857",
+            "playerName": "BOURRASSAUD Florian",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133652",
+            "playerName": "DORR Esteban",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,10,13,14,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "43122",
+        "competitiorName": "APOLONIA Tiago/FREITAS Marcos",
+        "competitiorOrg": "POR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "100621",
+            "playerName": "APOLONIA Tiago",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "102841",
+            "playerName": "FREITAS Marcos",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,12,11,12,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-5,10-12,13-11,14-12,0-0",
+    "resultsGameScores": "11-5,10-12,13-11,14-12,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "100621",
+      "serverReceiver": "133652",
+      "serverNext": "100621",
+      "serverCompetitor": "43122",
+      "receiverNext": "133652"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:38:53",
+      "startDateLocal": "09/11/2026 13:20:00",
+      "startDateUTC": "09/11/2026 10:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "258",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-11T13:20:00"
+}

@@ -1,0 +1,121 @@
+{
+  "id": 16143928,
+  "eventId": "3253",
+  "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T03",
+    "tableName": "Table 3",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100260962",
+        "competitiorName": "BADOWSKI Marek/KUKULKOVA Tatiana",
+        "competitiorOrg": "POL/SVK",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "120154",
+            "playerName": "BADOWSKI Marek",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "POL",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "121714",
+            "playerName": "KUKULKOVA Tatiana",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SVK",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,13,7,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100121587",
+        "competitiorName": "FRIIS Martin/BERGAND Filippa",
+        "competitiorOrg": "SWE",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "122043",
+            "playerName": "FRIIS Martin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SWE",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "120125",
+            "playerName": "BERGAND Filippa",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "SWE",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "8,11,11,3,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-8,13-11,7-11,11-3,0-0",
+    "resultsGameScores": "11-8,13-11,7-11,11-3,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "120125",
+      "serverReceiver": "120154",
+      "serverNext": "120125",
+      "serverCompetitor": "100121587",
+      "receiverNext": "120154"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:33:45",
+      "startDateLocal": "09/11/2026 11:00:00",
+      "startDateUTC": "09/11/2026 08:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "228",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-11T11:00:00"
+}

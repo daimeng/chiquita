@@ -1,0 +1,121 @@
+{
+  "id": 16107025,
+  "eventId": "3415",
+  "documentCode": "TTEXDOUBLES-----------8FNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3415",
+    "documentCode": "TTEXDOUBLES-----------8FNL000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Edward S. Hagedorn Coliseum",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100260899",
+        "competitiorName": "NAYRE Jann Mari/GUDES Althea",
+        "competitiorOrg": "PHI",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "123864",
+            "playerName": "NAYRE Jann Mari",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PHI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "206198",
+            "playerName": "GUDES Althea",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "PHI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,5,9,11,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100258747",
+        "competitiorName": "CHUANG Chia-Chuan/TSAI Yun-En",
+        "competitiorOrg": "TPE",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "136622",
+            "playerName": "CHUANG Chia-Chuan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "133835",
+            "playerName": "TSAI Yun-En",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TPE",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "4,11,11,8,4",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-4,5-11,9-11,11-8,11-4",
+    "resultsGameScores": "11-4,5-11,9-11,11-8,11-4",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "206198",
+      "serverReceiver": "136622",
+      "serverNext": "206198",
+      "serverCompetitor": "100260899",
+      "receiverNext": "136622"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:34:57",
+      "startDateLocal": "09/10/2026 10:00:00",
+      "startDateUTC": "09/10/2026 02:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "269",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-10T10:00:00"
+}

@@ -1,0 +1,121 @@
+{
+  "id": 16089273,
+  "eventId": "3253",
+  "documentCode": "TTEXDOUBLES-----------RND1000100----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEXDOUBLES-----------RND1000100----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Qualifying Round 1 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "41233",
+        "competitiorName": "ROBLES Alvaro/XIAO Maria",
+        "competitiorOrg": "ESP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "111050",
+            "playerName": "ROBLES Alvaro",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "111072",
+            "playerName": "XIAO Maria",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,11,8,9,11",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "37168",
+        "competitiorName": "STOYANOV Niagol/PICCOLIN Giorgia",
+        "competitiorOrg": "ITA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "109002",
+            "playerName": "STOYANOV Niagol",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ITA",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "115413",
+            "playerName": "PICCOLIN Giorgia",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ITA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "9,9,11,11,7",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-9,11-9,8-11,9-11,11-7",
+    "resultsGameScores": "11-9,11-9,8-11,9-11,11-7",
+    "overallScores": "3-2",
+    "resultOverallScores": "3-2",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "111050",
+      "serverReceiver": "109002",
+      "serverNext": "111050",
+      "serverCompetitor": "41233",
+      "receiverNext": "109002"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:41:52",
+      "startDateLocal": "09/09/2026 10:00:00",
+      "startDateUTC": "09/09/2026 07:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "285",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-09T10:00:00"
+}

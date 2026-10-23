@@ -1,0 +1,121 @@
+{
+  "id": 16169074,
+  "eventId": "3253",
+  "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Men Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEMDOUBLES-----------SFNL000200----------",
+    "subEventName": "Men's Doubles",
+    "subEventDescription": "Men's Doubles - Semifinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "36004",
+        "competitiorName": "GUNDUZ Ibrahim/YIGENLER Abdullah",
+        "competitiorOrg": "TUR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "120168",
+            "playerName": "GUNDUZ Ibrahim",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TUR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "119585",
+            "playerName": "YIGENLER Abdullah",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "TUR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,11,6,5,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100196617",
+        "competitiorName": "HAMADA Kazuki/SAKAI Yuhi",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "134583",
+            "playerName": "HAMADA Kazuki",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "202561",
+            "playerName": "SAKAI Yuhi",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,6,11,11,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "5-11,11-6,6-11,5-11,0-0",
+    "resultsGameScores": "5-11,11-6,6-11,5-11,0-0",
+    "overallScores": "1-3",
+    "resultOverallScores": "1-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "120168",
+      "serverReceiver": "134583",
+      "serverNext": "120168",
+      "serverCompetitor": "36004",
+      "receiverNext": "134583"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:26:05",
+      "startDateLocal": "09/12/2026 13:55:00",
+      "startDateUTC": "09/12/2026 10:55:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "186",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-12T13:55:00"
+}

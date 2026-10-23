@@ -1,0 +1,105 @@
+{
+  "id": 16068054,
+  "eventId": "3253",
+  "documentCode": "TTEMSINGLES-----------GP01000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEMSINGLES-----------GP01000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 1 - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "122086",
+        "competitiorName": "PUPPO Andrea",
+        "competitiorOrg": "ITA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "122086",
+            "playerName": "PUPPO Andrea",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ITA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "13,11,9,11,7",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "200159",
+        "competitiorName": "FRUCHART Benjamin",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "200159",
+            "playerName": "FRUCHART Benjamin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,7,11,13,11",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "13-11,11-7,9-11,11-13,7-11",
+    "resultsGameScores": "13-11,11-7,9-11,11-13,7-11",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "200159",
+      "serverReceiver": "122086",
+      "serverNext": "200159",
+      "serverCompetitor": "200159",
+      "receiverNext": "122086"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:53:22",
+      "startDateLocal": "09/08/2026 10:00:00",
+      "startDateUTC": "09/08/2026 07:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "314",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-08T10:00:00"
+}

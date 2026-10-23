@@ -1,0 +1,121 @@
+{
+  "id": 16127693,
+  "eventId": "3415",
+  "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3415",
+    "documentCode": "TTEXDOUBLES-----------QFNL000200----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 2",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Edward S. Hagedorn Coliseum",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100119735",
+        "competitiorName": "MA Yeongmin/LEE Haelin",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "202356",
+            "playerName": "MA Yeongmin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "204010",
+            "playerName": "LEE Haelin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,10,9,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100119273",
+        "competitiorName": "KWON Hyuk/CHOI Nahyun",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135073",
+            "playerName": "KWON Hyuk",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "136479",
+            "playerName": "CHOI Nahyun",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,12,11,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "5-11,10-12,9-11,0-0,0-0",
+    "resultsGameScores": "5-11,10-12,9-11,0-0,0-0",
+    "overallScores": "0-3",
+    "resultOverallScores": "0-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "204010",
+      "serverReceiver": "136479",
+      "serverNext": "204010",
+      "serverCompetitor": "100119735",
+      "receiverNext": "136479"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:20:35",
+      "startDateLocal": "09/10/2026 20:35:00",
+      "startDateUTC": "09/10/2026 12:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "190",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-10T20:35:00"
+}

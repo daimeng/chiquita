@@ -1,0 +1,121 @@
+{
+  "id": 16116070,
+  "eventId": "3253",
+  "documentCode": "TTEXDOUBLES-----------8FNL000500----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEXDOUBLES-----------8FNL000500----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Round of 16 - Match 5",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100250299",
+        "competitiorName": "BERTELSMEIER Andre/WAN Yuan",
+        "competitiorOrg": "GER",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "145799",
+            "playerName": "BERTELSMEIER Andre",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "GER",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "118777",
+            "playerName": "WAN Yuan",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "GER",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,8,11,11,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "48410",
+        "competitiorName": "BURGOS Nicolas/VEGA Paulina",
+        "competitiorOrg": "CHI",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133441",
+            "playerName": "BURGOS Nicolas",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "109777",
+            "playerName": "VEGA Paulina",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "CHI",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "9,11,1,9,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 4,
+    "full_msg": null,
+    "gameScores": "11-9,8-11,11-1,11-9,0-0",
+    "resultsGameScores": "11-9,8-11,11-1,11-9,0-0",
+    "overallScores": "3-1",
+    "resultOverallScores": "3-1",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "133441",
+      "serverReceiver": "145799",
+      "serverNext": "133441",
+      "serverCompetitor": "48410",
+      "receiverNext": "145799"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:22:58",
+      "startDateLocal": "09/10/2026 10:00:00",
+      "startDateUTC": "09/10/2026 07:00:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "206",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-10T10:00:00"
+}

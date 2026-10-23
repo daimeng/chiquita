@@ -1,0 +1,105 @@
+{
+  "id": 16090105,
+  "eventId": "3253",
+  "documentCode": "TTEMSINGLES-----------GP02000300----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEMSINGLES-----------GP02000300----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Group 2 - Match 3",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "119794",
+        "competitiorName": "KIZUKURI Yuto",
+        "competitiorOrg": "JPN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "119794",
+            "playerName": "KIZUKURI Yuto",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "JPN",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,11,12,0,0",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "131723",
+        "competitiorName": "VILARDELL Albert",
+        "competitiorOrg": "ESP",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "131723",
+            "playerName": "VILARDELL Albert",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "ESP",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "6,7,10,0,0",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 3,
+    "full_msg": null,
+    "gameScores": "11-6,11-7,12-10,0-0,0-0",
+    "resultsGameScores": "11-6,11-7,12-10,0-0,0-0",
+    "overallScores": "3-0",
+    "resultOverallScores": "3-0",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "131723",
+      "serverReceiver": "119794",
+      "serverNext": "131723",
+      "serverCompetitor": "131723",
+      "receiverNext": "119794"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:24:31",
+      "startDateLocal": "09/09/2026 10:35:00",
+      "startDateUTC": "09/09/2026 07:35:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "161",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-09T10:35:00"
+}

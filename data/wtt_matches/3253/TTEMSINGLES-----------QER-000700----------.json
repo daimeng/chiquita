@@ -1,0 +1,105 @@
+{
+  "id": 16105808,
+  "eventId": "3253",
+  "documentCode": "TTEMSINGLES-----------QER-000700----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3253",
+    "documentCode": "TTEMSINGLES-----------QER-000700----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Qualification Elimination Round - Match 7",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Arena Asarel",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "133652",
+        "competitiorName": "DORR Esteban",
+        "competitiorOrg": "FRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "133652",
+            "playerName": "DORR Esteban",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FRA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "11,8,11,6,10",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "120674",
+        "competitiorName": "NAUMI Alex",
+        "competitiorOrg": "FIN",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "120674",
+            "playerName": "NAUMI Alex",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "FIN",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "5,11,6,11,12",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-5,8-11,11-6,6-11,10-12",
+    "resultsGameScores": "11-5,8-11,11-6,6-11,10-12",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "120674",
+      "serverReceiver": "133652",
+      "serverNext": "120674",
+      "serverCompetitor": "120674",
+      "receiverNext": "133652"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:41:05",
+      "startDateLocal": "09/09/2026 20:20:00",
+      "startDateUTC": "09/09/2026 17:20:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "260",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0",
+    "matchStartTimeUTC": null
+  },
+  "startDateLocal": "2026-09-09T20:20:00"
+}
