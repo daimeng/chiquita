@@ -1,0 +1,120 @@
+{
+  "id": 16719887,
+  "eventId": "3376",
+  "documentCode": "TTEXDOUBLES-----------QFNL000400----------",
+  "messagePayload": null,
+  "subEventType": "Mixed Doubles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3376",
+    "documentCode": "TTEXDOUBLES-----------QFNL000400----------",
+    "subEventName": "Mixed Doubles",
+    "subEventDescription": "Mixed Doubles - Quarterfinal - Match 4",
+    "matchConfig": {
+      "bestOfXGames": 5,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Tamil Nadu Physical Education and Sports University",
+    "tableNumber": "T02",
+    "tableName": "Table 2",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "100268706",
+        "competitiorName": "LEE Jungmok/JEONG Yein",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135074",
+            "playerName": "LEE Jungmok",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "204513",
+            "playerName": "JEONG Yein",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,9,5,12,6",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "100268705",
+        "competitiorName": "KWON Hyuk/KIM Seoyun",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "135073",
+            "playerName": "KWON Hyuk",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 1
+          },
+          {
+            "playerId": "135373",
+            "playerName": "KIM Seoyun",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "3,11,11,10,11",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 5,
+    "full_msg": null,
+    "gameScores": "11-3,9-11,5-11,12-10,6-11",
+    "resultsGameScores": "11-3,9-11,5-11,12-10,6-11",
+    "overallScores": "2-3",
+    "resultOverallScores": "2-3",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "135373",
+      "serverReceiver": "204513",
+      "serverNext": "135373",
+      "serverCompetitor": "100268705",
+      "receiverNext": "204513"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "00:29:23",
+      "startDateLocal": "10/30/2026 20:00:00",
+      "startDateUTC": "10/30/2026 14:30:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "268",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2026-10-30T20:00:00"
+}

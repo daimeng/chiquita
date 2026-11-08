@@ -1,0 +1,104 @@
+{
+  "id": 16749509,
+  "eventId": "3250",
+  "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+  "messagePayload": null,
+  "subEventType": "Men Singles",
+  "fullResults": "OFFICIAL",
+  "extended_info": null,
+  "match_card": {
+    "eventId": "3250",
+    "documentCode": "TTEMSINGLES-----------SFNL000100----------",
+    "subEventName": "Men's Singles",
+    "subEventDescription": "Men's Singles - Semifinal - Match 1",
+    "matchConfig": {
+      "bestOfXGames": 7,
+      "maxPointsPerGame": 11,
+      "advantagePerGame": 2,
+      "suddenDeathPoint": 99,
+      "maxChallengesPerCompetitor": 99,
+      "yellowCard": true,
+      "yellowRed1": true,
+      "yellowRed2": true,
+      "tTRReview": false
+    },
+    "venueName": "Sud de France ARENA",
+    "tableNumber": "T01",
+    "tableName": "Table 1",
+    "competitiors": [
+      {
+        "competitorType": "H",
+        "competitiorId": "115641",
+        "competitiorName": "CALDERANO Hugo",
+        "competitiorOrg": "BRA",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "0",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "115641",
+            "playerName": "CALDERANO Hugo",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "BRA",
+            "playerPosition": 1
+          }
+        ],
+        "scores": "8,11,11,7,12,11,12",
+        "irm": null
+      },
+      {
+        "competitorType": "A",
+        "competitiorId": "114936",
+        "competitiorName": "JANG Woojin",
+        "competitiorOrg": "KOR",
+        "compCardY": "0",
+        "compCardYR1": "0",
+        "compCardYR2": "0",
+        "compTimeout": "1",
+        "compMedicalTimeout": "",
+        "players": [
+          {
+            "playerId": "114936",
+            "playerName": "JANG Woojin",
+            "playerGivenName": null,
+            "playerFamilyName": null,
+            "playerOrgCode": "KOR",
+            "playerPosition": 2
+          }
+        ],
+        "scores": "11,8,7,11,14,9,14",
+        "irm": null
+      }
+    ],
+    "currentGameNumber": 7,
+    "full_msg": null,
+    "gameScores": "8-11,11-8,11-7,7-11,12-14,11-9,12-14",
+    "resultsGameScores": "8-11,11-8,11-7,7-11,12-14,11-9,12-14",
+    "overallScores": "3-4",
+    "resultOverallScores": "3-4",
+    "resultStatus": "OFFICIAL",
+    "action": {
+      "actionType": "OF",
+      "serverPlayer": "115641",
+      "serverReceiver": "114936",
+      "serverNext": "115641",
+      "serverCompetitor": "115641",
+      "receiverNext": "114936"
+    },
+    "resultSet": null,
+    "matchDateTime": {
+      "duration": "01:15:44",
+      "startDateLocal": "11/01/2026 12:30:00",
+      "startDateUTC": "11/01/2026 11:30:00"
+    },
+    "teamParentData": null,
+    "playByPlaySequenceNumber": "444",
+    "teamMatchNo": "0",
+    "teamMatchScores": "0-0,0-0,0-0,0-0,0-0",
+    "teamMatchScoresSummary": "0"
+  },
+  "startDateLocal": "2026-11-01T12:30:00"
+}
